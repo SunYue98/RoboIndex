@@ -70,7 +70,7 @@ export function SubmitModal({ isOpen, onClose }: { isOpen: boolean; onClose: () 
     setStatus('submitting');
     
     // 这里填写未来你在此项目关联的 GitHub 仓库地址
-    const REPO_URL = "https://github.com/your-username/embodied-ai-index"; 
+    const REPO_URL = "https://github.com/SunYue98/RoboIndex"; 
     
     const issueTitle = `[新增收录 | New Entity] ${formData.name}`;
     const issueBody = `### 实体信息 (Entity Information)
