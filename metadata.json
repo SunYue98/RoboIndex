@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "description": "",
+  "name": "RoboIndex",
+  "description": "Index of robotic components and frameworks.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

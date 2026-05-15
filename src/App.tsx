@@ -156,7 +156,7 @@ export default function App() {
                     <Network className="w-4 h-4" />
                  </div>
                  <div className="text-[17px] font-bold tracking-tight text-zinc-900 whitespace-nowrap">
-                   Humanoid Index
+                   RoboIndex
                  </div>
                </div>
              </div>
@@ -169,8 +169,8 @@ export default function App() {
                       onClick={() => setMainTab(tab)}
                       className={`px-4 sm:px-5 py-1.5 rounded-full text-[13px] font-[600] transition-all duration-300 focus:outline-none whitespace-nowrap ${
                         mainTab === tab 
-                          ? 'bg-white text-zinc-900 shadow-[0_2px_8px_-2px_rgba(0,0,0,0.1)] border border-black/5' 
-                          : 'text-zinc-500 hover:text-zinc-800 hover:bg-black/5 border border-transparent'
+                          ? 'text-zinc-900 shadow-[0_2px_10px_-2px_rgba(0,0,0,0.1)] border border-black/5 bg-gradient-to-b from-white to-zinc-50' 
+                          : 'text-zinc-500 hover:text-zinc-800 hover:bg-black/5 hover:shadow-sm border border-transparent'
                       }`}
                     >
                       {t(tab)}
