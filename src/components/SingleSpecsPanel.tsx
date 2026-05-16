@@ -28,19 +28,47 @@ export function SingleSpecsPanel({ entity, onFindRelated, onNavigateToEntity }: 
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -20 }}
       transition={{ duration: 0.5, type: 'spring', bounce: 0.2 }}
-      className="flex flex-col ml-8 w-[240px] h-[720px] pt-16"
+      className={`flex flex-col ml-8 h-[720px] pt-16 ${entity.paperInfo ? 'w-[320px] overflow-y-auto pr-2 no-scrollbar' : 'w-[240px]'}`}
     >
-      <div className="flex flex-col border-b border-zinc-100 pb-4 mb-4">
-        {Object.entries(entity.specs).map(([key, val]) => (
-           <div className="flex items-center w-full justify-between py-[12px]" key={key}>
-             <div className="w-[80px] text-left text-[12px] font-[500] text-zinc-400 shrink-0">
-               {formatLabel(key)}
+      <div className="flex flex-col mb-4">
+        {entity.paperInfo && (
+          <div className="mb-6 flex flex-col gap-2">
+            <h4 className="text-[14px] font-bold text-zinc-900 leading-snug">{entity.name}</h4>
+            <p className="text-[12px] font-medium text-emerald-600/80 leading-snug">{entity.paperInfo.authors}</p>
+            <p className="text-[12px] text-zinc-500 leading-relaxed mt-2 text-justify line-clamp-6 hover:line-clamp-none transition-all duration-300 cursor-pointer" title="Click to expand/collapse abstract">{entity.paperInfo.abstract}</p>
+            
+            <div className="flex gap-2 mt-3">
+              {entity.paperInfo.arxivUrl && (
+                <a href={entity.paperInfo.arxivUrl} target="_blank" rel="noreferrer" className="px-3 py-1.5 rounded-full bg-red-50 text-red-600 hover:bg-red-100 text-[11px] font-bold tracking-wide transition-colors">
+                  arXiv
+                </a>
+              )}
+              {entity.paperInfo.codeUrl && (
+                <a href={entity.paperInfo.codeUrl} target="_blank" rel="noreferrer" className="px-3 py-1.5 rounded-full bg-zinc-100 text-zinc-700 hover:bg-zinc-200 text-[11px] font-bold tracking-wide transition-colors">
+                  Code
+                </a>
+              )}
+              {entity.paperInfo.projectUrl && (
+                <a href={entity.paperInfo.projectUrl} target="_blank" rel="noreferrer" className="px-3 py-1.5 rounded-full bg-blue-50 text-blue-600 hover:bg-blue-100 text-[11px] font-bold tracking-wide transition-colors">
+                  Project
+                </a>
+              )}
+            </div>
+          </div>
+        )}
+
+        <div className="flex flex-col border-b border-zinc-100 pb-4">
+          {Object.entries(entity.specs).map(([key, val]) => (
+             <div className="flex items-center w-full justify-between py-[12px]" key={key}>
+               <div className="w-[80px] text-left text-[12px] font-[500] text-zinc-400 shrink-0">
+                 {formatLabel(key)}
+               </div>
+               <div className="flex-1 text-left text-[14px] font-[500] text-zinc-600 line-clamp-1">
+                 {val || '—'}
+               </div>
              </div>
-             <div className="flex-1 text-left text-[14px] font-[500] text-zinc-600 line-clamp-1">
-               {val || '—'}
-             </div>
-           </div>
-        ))}
+          ))}
+        </div>
       </div>
 
       <div className="flex flex-col gap-3 mb-auto">

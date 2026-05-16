@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Dices, Plus, Network, Globe, MessageSquare, Send } from 'lucide-react';
+import { Dices, Plus, Network, Globe, MessageSquare, Send, Github, LayoutGrid } from 'lucide-react';
 import { mockData, Category, CATEGORY_MAP, TopLevelGroup } from './data/entities';
 import { EntityCard, EntityCardData } from './components/EntityCard';
 import { SpecsColumn } from './components/SpecsColumn';
@@ -9,6 +9,7 @@ import { HorizontalWheelSelector } from './components/HorizontalWheelSelector';
 import { SingleSpecsPanel } from './components/SingleSpecsPanel';
 import { SystemOverview } from './components/SystemOverview';
 import { TimelineView } from './components/TimelineView';
+import { GridView } from './components/GridView';
 import { ContactModal, SubmitModal } from './components/Modals';
 import { useLang } from './i18n';
 
@@ -23,6 +24,7 @@ export default function App() {
   const { lang, setLang, t } = useLang();
   const [contactOpen, setContactOpen] = useState(false);
   const [submitOpen, setSubmitOpen] = useState(false);
+  const [showGridView, setShowGridView] = useState(false);
 
   const activeCategory = mainTab === '硬件' ? hardwareCat : (mainTab === '软件' ? softwareCat : ecoCat);
 
@@ -133,6 +135,15 @@ export default function App() {
                    <Globe className="w-3.5 h-3.5" />
                    {lang === 'zh' ? 'EN' : '中'}
                  </button>
+                 <a 
+                   href="https://github.com/SunYue98/RoboIndex"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   className="flex items-center gap-1.5 px-3 py-1.5 rounded-full hover:bg-white text-zinc-600 hover:text-zinc-900 transition-colors text-[12px] font-bold tracking-wide"
+                 >
+                   <Github className="w-3.5 h-3.5" />
+                   GitHub
+                 </a>
                  <button 
                    onClick={() => setContactOpen(true)}
                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-full hover:bg-white text-zinc-600 hover:text-zinc-900 transition-colors text-[12px] font-bold tracking-wide"
@@ -179,11 +190,16 @@ export default function App() {
                </div>
 
              {/* Right Addons */}
-             <div className="flex items-center gap-2 shrink-0 justify-end w-[40px]">
+             <div className="flex items-center gap-2 shrink-0 justify-end w-[90px]">
                 {(mainTab !== '全景架构' && mainTab !== '演进脉络') && (
-                 <button title="Randomize" onClick={randomize} className="p-2 text-zinc-400 hover:text-zinc-800 transition-colors focus:outline-none focus:ring-2 focus:ring-zinc-200 rounded-full bg-zinc-50 border border-zinc-100 hover:bg-zinc-100">
-                   <Dices className="w-5 h-5" />
-                 </button>
+                  <>
+                    <button title="View Grid" onClick={() => setShowGridView(true)} className="p-2 text-zinc-400 hover:text-zinc-800 transition-colors focus:outline-none focus:ring-2 focus:ring-zinc-200 rounded-full bg-zinc-50 border border-zinc-100 hover:bg-zinc-100">
+                      <LayoutGrid className="w-5 h-5" />
+                    </button>
+                    <button title="Randomize" onClick={randomize} className="p-2 text-zinc-400 hover:text-zinc-800 transition-colors focus:outline-none focus:ring-2 focus:ring-zinc-200 rounded-full bg-zinc-50 border border-zinc-100 hover:bg-zinc-100">
+                      <Dices className="w-5 h-5" />
+                    </button>
+                  </>
                 )}
              </div>
            </div>
@@ -209,7 +225,7 @@ export default function App() {
         </header>
 
         {/* Main Workspace */}
-        <div className="flex-1 flex justify-center items-center w-full max-w-[1600px] mx-auto px-6 overflow-hidden">
+        <div className="flex-1 flex justify-center items-start w-full max-w-[1600px] mx-auto px-6 overflow-y-auto pt-8 pb-10">
           <AnimatePresence mode="wait">
             {mainTab === '全景架构' ? (
                <motion.div
@@ -229,7 +245,7 @@ export default function App() {
                  animate={{ opacity: 1, y: 0 }}
                  exit={{ opacity: 0, y: -20 }}
                  transition={{ duration: 0.4 }}
-                 className="w-full h-full flex items-center justify-center"
+                 className="w-full h-full flex items-start justify-center pt-4"
                >
                  <TimelineView onNavigateToEntity={handleNavigateToEntity} />
                </motion.div>
@@ -239,15 +255,15 @@ export default function App() {
                  initial={{ opacity: 0 }}
                  animate={{ opacity: 1 }}
                  exit={{ opacity: 0 }}
-                 className="flex-1 flex justify-center items-center w-full h-full relative py-8"
+                 className="flex-1 flex justify-center items-start w-full h-full relative py-8"
                >
                  {/* Left Wheel Context */}
-                 <div className="flex-[0.8] flex items-center justify-end pr-8">
+                 <div className="flex-[0.8] flex items-start pt-[80px] justify-end pr-8">
                    <WheelSelector items={list} selectedId={leftId} onSelect={setLeftId} align="left" />
                  </div>
 
                  {/* Primary Context */}
-                 <motion.div layout className="flex shrink-0 items-start justify-center gap-10">
+                 <motion.div layout className="flex shrink-0 items-start justify-center gap-10 pt-[40px]">
                     <EntityCard data={leftCardData} align="left" size={isComparing ? 'normal' : 'large'} emptyText={t('empty.card')} />
                     
                     <AnimatePresence mode="popLayout">
@@ -294,7 +310,7 @@ export default function App() {
                  </motion.div>
 
                  {/* Right Wheel Context */}
-                 <div className="flex-[0.8] flex items-center justify-start pl-8 relative">
+                 <div className="flex-[0.8] flex items-start pt-[80px] justify-start pl-8 relative">
                    <AnimatePresence mode="popLayout">
                      {isComparing ? (
                        <motion.div
@@ -338,6 +354,17 @@ export default function App() {
         </footer>
       </div>
       
+      <GridView 
+        isOpen={showGridView} 
+        onClose={() => setShowGridView(false)} 
+        items={list} 
+        onSelect={(id) => {
+          setLeftId(id);
+          setIsComparing(false);
+          setRightId(null);
+        }} 
+        title={t(activeCategory as string) || activeCategory as string}
+      />
       <ContactModal isOpen={contactOpen} onClose={() => setContactOpen(false)} />
       <SubmitModal isOpen={submitOpen} onClose={() => setSubmitOpen(false)} />
     </div>

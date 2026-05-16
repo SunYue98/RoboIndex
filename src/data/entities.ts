@@ -19,6 +19,14 @@ export interface Specs {
   [key: string]: any;
 }
 
+export interface PaperInfo {
+  abstract?: string;
+  authors?: string;
+  arxivUrl?: string;
+  codeUrl?: string;
+  projectUrl?: string;
+}
+
 export interface Entity {
   id: string;
   name: string;
@@ -30,13 +38,15 @@ export interface Entity {
   specs: Specs;
   relatedIds?: string[];
   tags?: string[];
+  paperInfo?: PaperInfo;
+  importance?: 'high' | 'medium' | 'low';
 }
 
 export const mockData: Entity[] = [
   // ---------- 硬件 : 整机平台 ----------
   { id: 'f1', name: 'Memo', company: 'Agility Robotics', category: '整机平台', imageUrl: 'https://images.unsplash.com/photo-1546776310-eef45dd6d63c?auto=format&fit=crop&q=80&w=600', year: '2024', isNew: false, specs: { height: '5\'9"', weight: '160 lb', dof: 40, status: 'In Production' }, relatedIds: ['e1', 'j1', 'sw1', 'en1'], tags: ['Bipedal', 'Commercial', 'USA'] },
   { id: 'f2', name: 'Oli', company: 'LimX Dynamics', category: '整机平台', imageUrl: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=600', year: '2025', isNew: true, specs: { height: '5\'5"', weight: '121 lb', dof: 31, status: 'In Production' }, relatedIds: ['sw5', 'sw7', 'c1', 'ca1'], tags: ['Bipedal', 'Prototype', 'China'] },
-  { id: 'f4', name: 'Optimus Gen 2', company: 'Tesla', category: '整机平台', imageUrl: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600', year: '2024', isNew: false, specs: { height: '5\'11"', weight: '160 lb', dof: 28, status: 'In Development' }, relatedIds: ['e2', 's1', 'cp1', 'en1'], tags: ['Electric', 'Highly Hyped', 'USA'] },
+  { id: 'f4', name: 'Optimus Gen 2', company: 'Tesla', category: '整机平台', imageUrl: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600', year: '2024', isNew: false, specs: { height: '5\'11"', weight: '160 lb', dof: 28, status: 'In Development' }, relatedIds: ['e2', 's1', 'cp1', 'en1'], tags: ['Electric', 'Highly Hyped', 'USA'], importance: 'high' },
 
   // ---------- 硬件 : 机械臂 ----------
   { id: 'a1', name: 'UR10e', company: 'Universal Robots', category: '机械臂', imageUrl: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600', year: '2023', isNew: false, specs: { payload: '12.5 kg', reach: '1300 mm', weight: '73.9 lb', dof: 6, status: 'In Production' }, relatedIds: ['c1', 's2'], tags: ['Collaborative', 'Industrial', 'Denmark'] },
@@ -70,8 +80,25 @@ export const mockData: Entity[] = [
   { id: 'cp2', name: 'MIC-733-AO', company: 'Advantech', category: '计算平台', imageUrl: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600', year: '2025', isNew: true, specs: { type: 'IPC Based on Orin', memory: '32 GB', status: 'In Production' }, relatedIds: ['cp1'], tags: ['Industrial PC'] },
 
   // ---------- 软件 : 基础模型 ----------
-  { id: 'sw1', name: 'OpenVLA', company: 'Open Source', category: '基础模型', imageUrl: 'https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&q=80&w=600', year: '2024', isNew: true, specs: { parameters: '7B', architecture: 'Transformer', paradigm: 'VLA', status: 'Available' }, relatedIds: ['sw7', 'f1'], tags: ['Vision-Language', 'Open Source'] },
-  { id: 'sw2', name: 'RT-X', company: 'Google DeepMind', category: '基础模型', imageUrl: 'https://images.unsplash.com/photo-1546776310-eef45dd6d63c?auto=format&fit=crop&q=80&w=600', year: '2023', isNew: false, specs: { parameters: 'Unknown', paradigm: 'VLA', scale: 'Cross-Embodiment', status: 'Open Source' }, relatedIds: ['sw7'], tags: ['Cross-Embodiment', 'Research'] },
+  { 
+    id: 'sw1', name: 'OpenVLA', company: 'Open Source', category: '基础模型', imageUrl: 'https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&q=80&w=600', year: '2024', isNew: true, specs: { parameters: '7B', architecture: 'Transformer', paradigm: 'VLA', status: 'Available' }, relatedIds: ['sw7', 'f1'], tags: ['Vision-Language', 'Open Source'], importance: 'high',
+    paperInfo: {
+      authors: 'Moo Jin Kim et al.',
+      abstract: 'We introduce OpenVLA, a 7B-parameter open-source vision-language-action model (VLA) pretrained on diverse robot manipulation datasets. OpenVLA achieves state-of-the-art results among open-weights models and supports drop-in fine-tuning for new robotic tasks.',
+      arxivUrl: 'https://arxiv.org/abs/something',
+      codeUrl: 'https://github.com/openvla/openvla',
+      projectUrl: 'https://openvla.github.io'
+    }
+  },
+  { 
+    id: 'sw2', name: 'RT-X', company: 'Google DeepMind', category: '基础模型', imageUrl: 'https://images.unsplash.com/photo-1546776310-eef45dd6d63c?auto=format&fit=crop&q=80&w=600', year: '2023', isNew: false, specs: { parameters: 'Unknown', paradigm: 'VLA', scale: 'Cross-Embodiment', status: 'Open Source' }, relatedIds: ['sw7'], tags: ['Cross-Embodiment', 'Research'], importance: 'high',
+    paperInfo: {
+      authors: 'Google DeepMind Robotics Team',
+      abstract: 'We present RT-X, a model trained on a large-scale, cross-embodiment dataset to enable generalization across different robots. By combining data from 22 embodiments, we observe emergent cross-robot transfer capabilities.',
+      arxivUrl: 'https://arxiv.org/abs/something',
+      projectUrl: 'https://robotics-transformer-x.github.io'
+    }
+  },
 
   // ---------- 软件 : 算法框架 ----------
   { id: 'sw3', name: 'Isaac Lab', company: 'NVIDIA', category: '算法框架', imageUrl: 'https://images.unsplash.com/photo-1616423640778-28d1b53229bd?auto=format&fit=crop&q=80&w=600', year: '2024', isNew: true, specs: { type: 'RL Environment', engine: 'Omniverse', status: 'Active' }, relatedIds: ['sw5', 'cp1'], tags: ['Simulation', 'RL'] },
@@ -91,7 +118,7 @@ export const mockData: Entity[] = [
   { id: 'bm1', name: 'ManiSkill', company: 'UCSD', category: '评测基准', imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600', year: '2024', isNew: true, specs: { type: 'Manipulation Benchmark', envs: '120+ Tasks', status: 'Active' }, relatedIds: ['sw1'], tags: ['Benchmark', 'Manipulation'] },
 
   // ---------- 生态与应用 : 开发生态 ----------
-  { id: 'eco1', name: 'ROS 2', company: 'OSRF', category: '开发生态', imageUrl: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=600', year: '2022', isNew: false, specs: { type: 'Middleware', language: 'C++/Python', status: 'Standard' }, relatedIds: ['f1', 'f2'], tags: ['Middleware', 'Standard'] },
+  { id: 'eco1', name: 'ROS 2', company: 'OSRF', category: '开发生态', imageUrl: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=600', year: '2022', isNew: false, specs: { type: 'Middleware', language: 'C++/Python', status: 'Standard' }, relatedIds: ['f1', 'f2'], tags: ['Middleware', 'Standard'], importance: 'high' },
   { id: 'eco2', name: 'Foxglove Studio', company: 'Foxglove', category: '开发生态', imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600', year: '2024', isNew: false, specs: { type: 'Visualization Tool', integration: 'ROS/ROS2/WebSocket', status: 'Active' }, relatedIds: ['eco1'], tags: ['Visualization', 'Debugging'] },
 
   // ---------- 生态与应用 : 应用场景 ----------

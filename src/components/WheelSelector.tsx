@@ -21,8 +21,8 @@ export function WheelSelector({ items, selectedId, onSelect, align }: WheelSelec
           const absDistance = Math.abs(distance);
           const isActive = selectedId === item.id;
 
-          // Limit render to items near active
-          if (absDistance > 7) return null;
+          // Limit render to items near active (5 nodes above, 5 nodes below)
+          if (absDistance > 5) return null;
 
           // Wheel layout math
           // Vertical shift
