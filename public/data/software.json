@@ -138,6 +138,47 @@
     "importance": "high"
   },
   {
+    "id": "sw23",
+    "name": "Gemini Robotics",
+    "company": "Google DeepMind",
+    "category": "基础模型",
+    "imageUrl": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&q=80&w=600",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "base": "Gemini 2.0",
+      "paradigm": "VLA",
+      "features": "General-purpose robot control, zero-shot generalization",
+      "status": "Available"
+    },
+    "relatedIds": ["sw2", "sw8"],
+    "tags": ["VLA", "Gemini", "Generalist"],
+    "importance": "high",
+    "paperInfo": {
+      "authors": "Google DeepMind",
+      "abstract": "Gemini Robotics brings AI into the physical world, enabling general-purpose robotic control built on Gemini 2.0.",
+      "arxivUrl": "https://arxiv.org/abs/2503.20020"
+    }
+  },
+  {
+    "id": "sw24",
+    "name": "GO-1 (启元大模型)",
+    "company": "Agibot (智元机器人)",
+    "category": "基础模型",
+    "imageUrl": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&q=80&w=600",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "architecture": "VLM + MoE",
+      "paradigm": "VLA",
+      "target": "General-purpose manipulation",
+      "status": "Available"
+    },
+    "relatedIds": ["f9"],
+    "tags": ["VLA", "China", "MoE"],
+    "importance": "high"
+  },
+  {
     "id": "sw12",
     "name": "HPT",
     "company": "Carnegie Mellon University",
@@ -416,6 +457,80 @@
     "tags": ["Versatile", "Education"]
   },
   {
+    "id": "sw20_sim",
+    "name": "Genesis",
+    "company": "CMU / Genesis Embodied AI",
+    "category": "仿真平台",
+    "imageUrl": "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "Generative Physics Engine",
+      "speed": "10-80x faster than existing simulators",
+      "features": "4D world generation, GPU-accelerated",
+      "status": "Open Source (Beta)"
+    },
+    "relatedIds": [],
+    "tags": ["Fast", "Generative", "Open Source"],
+    "importance": "high",
+    "paperInfo": {
+      "codeUrl": "https://github.com/Genesis-Embodied-AI/genesis-world"
+    }
+  },
+  {
+    "id": "sw21_sim",
+    "name": "Webots",
+    "company": "Cyberbotics / Open Robotics",
+    "category": "仿真平台",
+    "imageUrl": "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&q=80&w=600",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "type": "Robot Simulator",
+      "physics": "ODE",
+      "language": "C/C++/Python/MATLAB",
+      "license": "Apache 2.0",
+      "status": "Active"
+    },
+    "relatedIds": ["eco1"],
+    "tags": ["Open Source", "Cross-platform"]
+  },
+  {
+    "id": "sw22_sim",
+    "name": "Habitat 3.0",
+    "company": "Meta AI",
+    "category": "仿真平台",
+    "imageUrl": "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "Embodied AI Simulator",
+      "features": "Multi-agent, human avatars, home environments",
+      "environments": "Matterport3D, HM3D",
+      "status": "Open Source"
+    },
+    "relatedIds": [],
+    "tags": ["Embodied AI", "Navigation", "Open Source"],
+    "importance": "high"
+  },
+  {
+    "id": "sw23_sim",
+    "name": "robosuite",
+    "company": "Mila / ARISE Initiative",
+    "category": "仿真平台",
+    "imageUrl": "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": false,
+    "specs": {
+      "type": "Manipulation Benchmark",
+      "engine": "MuJoCo",
+      "robots": "Sawyer, Panda, Jaco",
+      "status": "Open Source"
+    },
+    "relatedIds": ["sw6"],
+    "tags": ["Manipulation", "Open Source"]
+  },
+  {
     "id": "sw7",
     "name": "Open X-Embodiment",
     "company": "Google DeepMind",
@@ -496,6 +611,30 @@
     "tags": ["Manipulation", "China", "Multi-modal"],
     "paperInfo": {
       "arxivUrl": "https://arxiv.org/abs/2307.00595"
+    }
+  },
+  {
+    "id": "sw23_data",
+    "name": "AgiBot World",
+    "company": "Agibot (智元机器人)",
+    "category": "数据集",
+    "imageUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=600",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "size": "1M+ trajectories",
+      "tasks": "217 tasks",
+      "robots": "100+ robots",
+      "environments": "5 real-world scenarios",
+      "status": "Open Source"
+    },
+    "relatedIds": ["f9", "sw24"],
+    "tags": ["Manipulation", "Large-scale", "China"],
+    "importance": "high",
+    "paperInfo": {
+      "authors": "Agibot Team",
+      "abstract": "AgiBot World Colosseo: the largest real-world manipulation dataset.",
+      "arxivUrl": "https://arxiv.org/abs/2503.06669"
     }
   },
   {

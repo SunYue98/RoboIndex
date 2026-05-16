@@ -101,6 +101,23 @@
     "tags": ["Cross-platform", "Conda"]
   },
   {
+    "id": "eco7",
+    "name": "NVIDIA Cosmos",
+    "company": "NVIDIA",
+    "category": "开发生态",
+    "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "World Foundation Model",
+      "features": "Physics-aware video generation, synthetic data for robotics",
+      "status": "Available"
+    },
+    "relatedIds": ["eco4", "sw11"],
+    "tags": ["World Model", "Synthetic Data"],
+    "importance": "high"
+  },
+  {
     "id": "app1",
     "name": "Smart Factory",
     "company": "Various",
