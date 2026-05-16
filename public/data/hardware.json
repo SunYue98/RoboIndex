@@ -722,6 +722,75 @@
     ]
   },
   {
+    "id": "s3",
+    "name": "Pandar XT32",
+    "company": "Hesai (禾赛科技)",
+    "category": "传感器",
+    "imageUrl": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": false,
+    "specs": {
+      "type": "LiDAR",
+      "range": "120 m",
+      "channels": 32,
+      "fov": "360° horizontal",
+      "status": "In Production"
+    },
+    "relatedIds": [],
+    "tags": ["LiDAR", "Autonomous", "China"]
+  },
+  {
+    "id": "s4",
+    "name": "Gemini 2",
+    "company": "Ouster",
+    "category": "传感器",
+    "imageUrl": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "LiDAR",
+      "range": "extreme-range",
+      "features": "Digital lidar, dual-return",
+      "status": "In Production"
+    },
+    "relatedIds": [],
+    "tags": ["LiDAR", "USA"]
+  },
+  {
+    "id": "s5",
+    "name": "Femto Mega",
+    "company": "Orbbec (奥比中光)",
+    "category": "传感器",
+    "imageUrl": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": false,
+    "specs": {
+      "type": "Depth Camera",
+      "range": "0.3-5.5 m",
+      "resolution": "1280x1024",
+      "status": "In Production"
+    },
+    "relatedIds": ["s1"],
+    "tags": ["Depth Camera", "China"]
+  },
+  {
+    "id": "s6",
+    "name": "BotaSense One",
+    "company": "Bota Systems",
+    "category": "传感器",
+    "imageUrl": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "F/T Sensor",
+      "axes": 6,
+      "features": "IP67, compact",
+      "status": "In Production"
+    },
+    "relatedIds": [],
+    "tags": ["Force/Torque", "Compact"]
+  },
+  {
     "id": "en1",
     "name": "High-Discharge LFP Pack",
     "company": "Ampere",
@@ -787,6 +856,74 @@
     ]
   },
   {
+    "id": "d3",
+    "name": "ALOHA 2",
+    "company": "Stanford / Google DeepMind",
+    "category": "数采 & 遥操",
+    "imageUrl": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "Bimanual Teleoperation",
+      "arms": "2x ViperX 300",
+      "features": "Low-cost, imitation learning",
+      "status": "Open Source"
+    },
+    "relatedIds": ["sw14", "sw13"],
+    "tags": ["Teleoperation", "Bimanual", "Low Cost"],
+    "importance": "high",
+    "paperInfo": {
+      "authors": "Tony Z. Zhao et al.",
+      "arxivUrl": "https://arxiv.org/abs/2304.13705",
+      "codeUrl": "https://github.com/tonyzhaozh/aloha"
+    }
+  },
+  {
+    "id": "d4",
+    "name": "Mobile ALOHA",
+    "company": "Stanford",
+    "category": "数采 & 遥操",
+    "imageUrl": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "Mobile Bimanual Teleoperation",
+      "base": "AgileX Tracer AGV",
+      "features": "Whole-body mobile manipulation",
+      "status": "Open Source"
+    },
+    "relatedIds": ["d3", "sw14"],
+    "tags": ["Teleoperation", "Mobile", "Bimanual"],
+    "importance": "high",
+    "paperInfo": {
+      "authors": "Zipeng Fu et al.",
+      "arxivUrl": "https://arxiv.org/abs/2401.02117"
+    }
+  },
+  {
+    "id": "d5",
+    "name": "UMI",
+    "company": "Stanford",
+    "category": "数采 & 遥操",
+    "imageUrl": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "Universal Manipulation Interface",
+      "features": "In-the-wild data collection, GoPro + Gripper",
+      "cost": "~$2,000",
+      "status": "Open Source"
+    },
+    "relatedIds": ["sw15", "sw13"],
+    "tags": ["Data Collection", "Low Cost", "In-the-wild"],
+    "importance": "high",
+    "paperInfo": {
+      "authors": "Cheng Chi et al.",
+      "arxivUrl": "https://arxiv.org/abs/2402.10329",
+      "codeUrl": "https://github.com/real-stanford/universal_manipulation_interface"
+    }
+  },
+  {
     "id": "cp1",
     "name": "Jetson AGX Orin",
     "company": "NVIDIA",
@@ -828,5 +965,40 @@
     "tags": [
       "Industrial PC"
     ]
+  },
+  {
+    "id": "cp3",
+    "name": "Jetson Thor",
+    "company": "NVIDIA",
+    "category": "计算平台",
+    "imageUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "TOPS": 800,
+      "target": "Humanoid Robots",
+      "architecture": "Blackwell GPU",
+      "status": "In Production"
+    },
+    "relatedIds": ["cp1", "sw11", "f4"],
+    "tags": ["Edge Compute", "GPU", "Humanoid"],
+    "importance": "high"
+  },
+  {
+    "id": "cp4",
+    "name": "RK3588",
+    "company": "Rockchip (瑞芯微)",
+    "category": "计算平台",
+    "imageUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "TOPS": 6,
+      "CPU": "4x A76 + 4x A55",
+      "GPU": "Mali-G610",
+      "status": "In Production"
+    },
+    "relatedIds": [],
+    "tags": ["Edge Compute", "ARM", "China"]
   }
 ]
