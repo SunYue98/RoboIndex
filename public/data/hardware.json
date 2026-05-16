@@ -79,6 +79,109 @@
     "importance": "high"
   },
   {
+    "id": "f5",
+    "name": "H1-2",
+    "company": "Unitree Robotics (宇树科技)",
+    "category": "整机平台",
+    "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": false,
+    "specs": {
+      "height": "178 cm",
+      "weight": "47 kg",
+      "dof": 27,
+      "speed": "6 km/h",
+      "price": "~$90,000",
+      "status": "In Production"
+    },
+    "relatedIds": ["f6", "j1"],
+    "tags": ["Bipedal", "Research", "China"],
+    "importance": "high"
+  },
+  {
+    "id": "f6",
+    "name": "G1",
+    "company": "Unitree Robotics (宇树科技)",
+    "category": "整机平台",
+    "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": false,
+    "specs": {
+      "height": "127 cm",
+      "weight": "35 kg",
+      "dof": "23-43",
+      "speed": ">2 m/s",
+      "battery": "9,000 mAh",
+      "price": "~$13,700",
+      "status": "In Production"
+    },
+    "relatedIds": ["f5", "sw1"],
+    "tags": ["Bipedal", "Low Cost", "China"],
+    "importance": "high"
+  },
+  {
+    "id": "f7",
+    "name": "Atlas (Electric)",
+    "company": "Boston Dynamics",
+    "category": "整机平台",
+    "imageUrl": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "height": "190 cm",
+      "weight": "90 kg",
+      "dof": 56,
+      "payload": "30 kg",
+      "speed": "2.5 m/s",
+      "battery": "4 hours",
+      "status": "In Production"
+    },
+    "relatedIds": [],
+    "tags": ["Bipedal", "Electric", "USA"],
+    "importance": "high"
+  },
+  {
+    "id": "f8",
+    "name": "Figure 02",
+    "company": "Figure AI",
+    "category": "整机平台",
+    "imageUrl": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": false,
+    "specs": {
+      "height": "168 cm",
+      "weight": "70 kg",
+      "dof": 41,
+      "payload": "20 kg",
+      "speed": "1.2 m/s",
+      "battery": "5 hours",
+      "status": "Pilot Deployment"
+    },
+    "relatedIds": ["sw1"],
+    "tags": ["Bipedal", "Commercial", "USA"],
+    "importance": "high"
+  },
+  {
+    "id": "f9",
+    "name": "A2",
+    "company": "Agibot (智元机器人)",
+    "category": "整机平台",
+    "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "height": "169 cm",
+      "weight": "69 kg",
+      "dof": 40,
+      "payload": "10 kg",
+      "speed": "7 km/h",
+      "status": "Mass Production"
+    },
+    "relatedIds": ["sw1", "sw7"],
+    "tags": ["Bipedal", "Mass Production", "China"],
+    "importance": "high"
+  },
+  {
     "id": "a1",
     "name": "UR10e",
     "company": "Universal Robots",
