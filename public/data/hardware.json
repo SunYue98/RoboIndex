@@ -634,6 +634,56 @@
     ]
   },
   {
+    "id": "j3",
+    "name": "T-Motor AK80-64",
+    "company": "T-Motor",
+    "category": "关节模组",
+    "imageUrl": "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&q=80&w=600",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "torque": "17 Nm",
+      "weight": "0.46 kg",
+      "type": "BLDC Actuator",
+      "status": "In Production"
+    },
+    "relatedIds": [],
+    "tags": ["BLDC", "Research", "China"]
+  },
+  {
+    "id": "j4",
+    "name": "Unitree B2 Actuator",
+    "company": "Unitree Robotics (宇树科技)",
+    "category": "关节模组",
+    "imageUrl": "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "torque": "23.7 Nm",
+      "type": "Integrated Joint Module",
+      "features": "High power density",
+      "status": "In Production"
+    },
+    "relatedIds": ["f5", "f6"],
+    "tags": ["Integrated", "High Power", "China"]
+  },
+  {
+    "id": "j5",
+    "name": "Ti5 Actuator",
+    "company": "Ti5Robot (钛虎机器人)",
+    "category": "关节模组",
+    "imageUrl": "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "Integrated Joint Module",
+      "features": "Ultra-light, humanoid-optimized",
+      "status": "In Production"
+    },
+    "relatedIds": [],
+    "tags": ["Lightweight", "Humanoid", "China"]
+  },
+  {
     "id": "c1",
     "name": "Harmonic Drive",
     "company": "Harmonic Drive",
@@ -677,6 +727,55 @@
       "Motor",
       "USA"
     ]
+  },
+  {
+    "id": "c3",
+    "name": "RV Reducer",
+    "company": "Nabtesco",
+    "category": "核心零部件",
+    "imageUrl": "https://images.unsplash.com/photo-1664448007559-0dbf88ee9dff?auto=format&fit=crop&q=80&w=600",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "type": "RV (Rotary Vector)",
+      "application": "Industrial robot joints",
+      "backlash": "<1 arcmin",
+      "status": "In Production"
+    },
+    "relatedIds": ["a1"],
+    "tags": ["Reducer", "Industrial", "Japan"]
+  },
+  {
+    "id": "c4",
+    "name": "Harmonic Reducer",
+    "company": "Leaderdrive (绿的谐波)",
+    "category": "核心零部件",
+    "imageUrl": "https://images.unsplash.com/photo-1664448007559-0dbf88ee9dff?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": false,
+    "specs": {
+      "type": "Harmonic Drive",
+      "domesticRate": ">90% Chinese market share",
+      "status": "In Production"
+    },
+    "relatedIds": ["c1"],
+    "tags": ["Reducer", "China", "Cost-effective"]
+  },
+  {
+    "id": "c5",
+    "name": "Laifual Harmonic",
+    "company": "Laifual (来福谐波)",
+    "category": "核心零部件",
+    "imageUrl": "https://images.unsplash.com/photo-1664448007559-0dbf88ee9dff?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": false,
+    "specs": {
+      "type": "Harmonic Drive Reducer",
+      "features": "Wide ratio range, compact",
+      "status": "In Production"
+    },
+    "relatedIds": ["c1", "c4"],
+    "tags": ["Reducer", "China"]
   },
   {
     "id": "s1",
