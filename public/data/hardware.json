@@ -660,6 +660,43 @@
     "tags": ["Soft Gripper", "China", "Food-grade"]
   },
   {
+    "id": "e7",
+    "name": "ZWHAND B20",
+    "company": "Zhaowei (兆威机电)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "https://images.unsplash.com/photo-1616423640778-28d1b53229bd?auto=format&fit=crop&q=80&w=600",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "dof": 20,
+      "weight": "600g",
+      "payload": "5 kg",
+      "fingertipForce": "15N",
+      "type": "Dexterous Hand",
+      "status": "In Production"
+    },
+    "relatedIds": [],
+    "tags": ["Dexterous", "China", "Micro-gear"]
+  },
+  {
+    "id": "e8",
+    "name": "LinkerHand L20",
+    "company": "LinkerBot (灵心巧手)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "https://images.unsplash.com/photo-1616423640778-28d1b53229bd?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "dof": "17-20",
+      "tactileZones": 16,
+      "drive": "Linkage + Micro Motor",
+      "type": "Dexterous Hand",
+      "status": "In Production"
+    },
+    "relatedIds": [],
+    "tags": ["Dexterous", "China", "Tactile"]
+  },
+  {
     "id": "j1",
     "name": "FSA Actuator",
     "company": "Fourier",
@@ -961,6 +998,25 @@
     "tags": ["Force/Torque", "Compact"]
   },
   {
+    "id": "s7",
+    "name": "六维力传感器 (Link-Touch)",
+    "company": "蓝点触控 (Link-Touch)",
+    "category": "传感器",
+    "imageUrl": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "6-Axis F/T Sensor",
+      "accuracy": "0.1% FS",
+      "frequency": "10 kHz",
+      "marketShare": "~80% Chinese humanoid robots",
+      "status": "In Production"
+    },
+    "relatedIds": [],
+    "tags": ["Force/Torque", "China", "Humanoid Supply Chain"],
+    "importance": "high"
+  },
+  {
     "id": "en1",
     "name": "High-Discharge LFP Pack",
     "company": "Ampere",
@@ -1124,6 +1180,26 @@
       "authors": "Cheng Chi et al.",
       "arxivUrl": "https://arxiv.org/abs/2402.10329",
       "codeUrl": "https://github.com/real-stanford/universal_manipulation_interface"
+    }
+  },
+  {
+    "id": "d6",
+    "name": "DexCap",
+    "company": "Stanford / NVIDIA",
+    "category": "数采 & 遥操",
+    "imageUrl": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "Portable Hand Motion Capture",
+      "features": "SLAM + EM finger tracking, 3D environment",
+      "cost": "~$3,600",
+      "status": "Open Source"
+    },
+    "relatedIds": ["d5"],
+    "tags": ["Motion Capture", "Dexterous", "Open Source"],
+    "paperInfo": {
+      "arxivUrl": "https://arxiv.org/abs/2403.07788"
     }
   },
   {
