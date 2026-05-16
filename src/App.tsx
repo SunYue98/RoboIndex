@@ -225,7 +225,7 @@ export default function App() {
         </header>
 
         {/* Main Workspace */}
-        <div className="flex-1 flex justify-center items-start w-full max-w-[1600px] mx-auto px-6 overflow-y-auto pt-8 pb-10">
+        <div className="flex-1 flex justify-center items-start w-full max-w-[1600px] mx-auto px-6 overflow-hidden pt-8 pb-10">
           <AnimatePresence mode="wait">
             {mainTab === '全景架构' ? (
                <motion.div
@@ -258,12 +258,12 @@ export default function App() {
                  className="flex-1 flex justify-center items-start w-full h-full relative py-8"
                >
                  {/* Left Wheel Context */}
-                 <div className="flex-[0.8] flex items-start pt-[80px] justify-end pr-8">
+                 <div className="flex-[0.8] flex items-start pt-[60px] justify-end pr-8">
                    <WheelSelector items={list} selectedId={leftId} onSelect={setLeftId} align="left" />
                  </div>
 
                  {/* Primary Context */}
-                 <motion.div layout className="flex shrink-0 items-start justify-center gap-10 pt-[40px]">
+                 <motion.div layout className="flex shrink-0 items-start justify-center gap-10 pt-[20px]">
                     <EntityCard data={leftCardData} align="left" size={isComparing ? 'normal' : 'large'} emptyText={t('empty.card')} />
                     
                     <AnimatePresence mode="popLayout">
@@ -310,7 +310,7 @@ export default function App() {
                  </motion.div>
 
                  {/* Right Wheel Context */}
-                 <div className="flex-[0.8] flex items-start pt-[80px] justify-start pl-8 relative">
+                 <div className="flex-[0.8] flex items-start pt-[60px] justify-start pl-8 relative">
                    <AnimatePresence mode="popLayout">
                      {isComparing ? (
                        <motion.div
@@ -348,7 +348,7 @@ export default function App() {
         </div>
 
         {/* Footer */}
-        <footer className="absolute bottom-0 left-0 right-0 h-[60px] px-10 flex items-center justify-between z-50 text-[12px] font-[500] text-zinc-400 tracking-wide">
+        <footer className="h-[40px] px-10 flex items-center justify-between shrink-0 text-[11px] font-[500] text-zinc-400 tracking-wide border-t border-zinc-100/50 bg-white z-50">
            <div>Roy Jad © 2026</div>
            <a href="https://github.com/google/gemini" target="_blank" rel="noreferrer" className="hover:text-zinc-800 transition-colors">Powered by system engineering</a>
         </footer>

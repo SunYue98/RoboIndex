@@ -11,8 +11,24 @@ interface WheelSelectorProps {
 export function WheelSelector({ items, selectedId, onSelect, align }: WheelSelectorProps) {
   const selectedIndex = items.findIndex(item => item.id === selectedId);
 
+  const handleWheel = (e: React.WheelEvent) => {
+    // Only handle significant scrolls to avoid jitter
+    if (Math.abs(e.deltaY) < 15) return;
+    
+    // Determine direction
+    const direction = e.deltaY > 0 ? 1 : -1;
+    const nextIndex = selectedIndex + direction;
+    
+    if (nextIndex >= 0 && nextIndex < items.length) {
+      onSelect(items[nextIndex].id);
+    }
+  };
+
   return (
-    <div className="relative h-[640px] w-56 flex items-center justify-center overflow-visible">
+    <div 
+      onWheel={handleWheel}
+      className="relative h-[500px] w-56 flex items-center justify-center overflow-visible select-none"
+    >
       <div className="relative w-full h-full">
         {items.map((item, index) => {
           // If nothing is selected, behave as if 0 is selected to show list properly

@@ -33,7 +33,7 @@ export const EntityCard = memo(function EntityCard({
     return (
       <motion.div 
         layout
-        className={`${isLarge ? 'w-[480px] h-[720px]' : 'w-[360px] h-[600px]'} transition-all duration-500 border border-dashed border-zinc-200 rounded-[28px] flex flex-col items-center justify-center text-zinc-400 bg-zinc-50/50`}
+        className={`${isLarge ? 'w-[440px] h-[640px]' : 'w-[340px] h-[520px]'} transition-all duration-500 border border-dashed border-zinc-200 rounded-[28px] flex flex-col items-center justify-center text-zinc-400 bg-zinc-50/50`}
         role="region"
         aria-label="Empty Slot"
       >
@@ -46,7 +46,7 @@ export const EntityCard = memo(function EntityCard({
     <motion.div 
       layout
       transition={{ type: 'spring', bounce: 0.2, duration: 0.8 }}
-      className={`flex flex-col ${isLarge ? 'w-[480px]' : 'w-[360px]'} origin-center group/card transition-all duration-500 hover:scale-[1.03] cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400 focus-visible:ring-offset-8 rounded-[32px]`}
+      className={`flex flex-col ${isLarge ? 'w-[440px]' : 'w-[340px]'} origin-center group/card transition-all duration-500 hover:scale-[1.03] cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400 focus-visible:ring-offset-8 rounded-[32px]`}
       role="article"
       aria-labelledby={`entity-name-${data.id}`}
       tabIndex={0}
@@ -89,7 +89,7 @@ export const EntityCard = memo(function EntityCard({
        {/* Image Area */}
        <motion.div 
           layout 
-          className={`relative w-full ${isLarge ? 'h-[720px]' : 'h-[540px]'} bg-gradient-to-br from-zinc-50 via-zinc-100/50 to-zinc-100 border border-black/[0.03] rounded-[32px] p-6 group flex items-center justify-center overflow-hidden transition-all duration-700 group-hover/card:shadow-[0_40px_80px_-20px_rgba(0,0,0,0.12)] group-hover/card:-translate-y-2`}
+          className={`relative w-full ${isLarge ? 'h-[560px]' : 'h-[420px]'} bg-gradient-to-br from-zinc-50 via-zinc-100/50 to-zinc-100 border border-black/[0.03] rounded-[32px] p-6 group flex items-center justify-center overflow-hidden transition-all duration-700 group-hover/card:shadow-[0_40px_80px_-20px_rgba(0,0,0,0.12)] group-hover/card:-translate-y-2`}
         >
          {/* Subtle inner reflection */}
          <div className="absolute inset-0 rounded-[32px] ring-1 ring-inset ring-white/60 pointer-events-none"></div>

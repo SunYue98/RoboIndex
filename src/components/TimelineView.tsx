@@ -168,7 +168,7 @@ export function TimelineView({ onNavigateToEntity }: TimelineViewProps) {
           </div>
 
           {sortedYears.map((year, yearIndex) => (
-            <div key={year} data-year-container className="relative flex items-center h-[500px] mt-[100px] mr-12 sm:mr-32 shrink-0 pointer-events-auto">
+            <div key={year} data-year-container className="relative flex items-center h-[500px] mt-[20px] mr-12 sm:mr-32 shrink-0 pointer-events-auto">
               
               {/* Year Marker Node */}
               <div className="relative z-20 flex flex-col items-center shrink-0 w-[60px] mr-8">

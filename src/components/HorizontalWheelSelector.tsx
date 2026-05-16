@@ -11,8 +11,25 @@ export function HorizontalWheelSelector({ items, selectedItem, onSelect }: Horiz
   const selectedIndex = items.findIndex(item => item === selectedItem);
   const { t } = useLang();
 
+  const handleWheel = (e: React.WheelEvent) => {
+    // Check for either horizontal or vertical wheel movement
+    const delta = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
+    
+    if (Math.abs(delta) < 15) return;
+    
+    const direction = delta > 0 ? 1 : -1;
+    const nextIndex = selectedIndex + direction;
+    
+    if (nextIndex >= 0 && nextIndex < items.length) {
+      onSelect(items[nextIndex]);
+    }
+  };
+
   return (
-    <div className="relative w-[700px] h-10 flex items-center justify-center overflow-visible">
+    <div 
+      onWheel={handleWheel}
+      className="relative w-[700px] h-10 flex items-center justify-center overflow-visible select-none"
+    >
       <div className="relative w-full h-full">
         {items.map((item, index) => {
           const distance = index - selectedIndex;

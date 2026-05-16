@@ -43,7 +43,7 @@ export function SpecsColumn({ left, right }: SpecsColumnProps) {
   }
 
   return (
-    <div className="flex flex-col mt-20 px-4">
+    <div className="flex flex-col mt-12 px-4">
        {/* List of Specs */}
        {specKeys.map(key => renderRow(key))}
 

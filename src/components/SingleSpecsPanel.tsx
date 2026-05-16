@@ -28,7 +28,7 @@ export function SingleSpecsPanel({ entity, onFindRelated, onNavigateToEntity }: 
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -20 }}
       transition={{ duration: 0.5, type: 'spring', bounce: 0.2 }}
-      className={`flex flex-col ml-8 h-[720px] pt-16 ${entity.paperInfo ? 'w-[320px] overflow-y-auto pr-2 no-scrollbar' : 'w-[240px]'}`}
+      className={`flex flex-col ml-8 h-[600px] overflow-y-auto no-scrollbar pt-12 ${entity.paperInfo ? 'w-[320px] pr-2' : 'w-[240px]'}`}
     >
       <div className="flex flex-col mb-4">
         {entity.paperInfo && (

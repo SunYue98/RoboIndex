@@ -43,23 +43,23 @@ export function SystemOverview({ onSelectCategory }: SystemOverviewProps) {
       <div 
         key={cat}
         onClick={() => onSelectCategory(cat)}
-        className={`group relative p-4 rounded-[20px] border transition-all duration-300 cursor-pointer shadow-sm hover:shadow-xl hover:-translate-y-1 bg-white/70 backdrop-blur-md ${layout === 'horizontal' ? 'flex flex-row items-center gap-4' : 'flex flex-col items-start justify-between'} ${className}`}
+        className={`group relative p-3 xl:p-4 rounded-[20px] border transition-all duration-300 cursor-pointer shadow-sm hover:shadow-xl hover:-translate-y-1 bg-white/70 backdrop-blur-md ${layout === 'horizontal' ? 'flex flex-row items-center gap-4' : 'flex flex-col items-start justify-between'} ${className}`}
       >
-        <div className={`shrink-0 rounded-[14px] bg-white border border-zinc-100 flex items-center justify-center text-zinc-600 shadow-sm transition-all duration-300 group-hover:scale-105 group-hover:text-amber-600 group-hover:border-amber-200 group-hover:bg-amber-50 group-hover:shadow-md ${layout === 'horizontal' ? 'w-12 h-12' : 'w-11 h-11 mb-2'}`}>
+        <div className={`shrink-0 rounded-[14px] bg-white border border-zinc-100 flex items-center justify-center text-zinc-600 shadow-sm transition-all duration-300 group-hover:scale-105 group-hover:text-amber-600 group-hover:border-amber-200 group-hover:bg-amber-50 group-hover:shadow-md ${layout === 'horizontal' ? 'w-10 h-10 xl:w-12 xl:h-12' : 'w-10 h-10 mb-2'}`}>
           <Icon className="w-5 h-5 group-hover:animate-pulse" />
         </div>
         <div className={`flex flex-col ${layout === 'horizontal' ? 'flex-1' : ''}`}>
-          <h3 className="font-bold text-[14px] text-zinc-900 tracking-tight group-hover:text-amber-600 transition-colors">{t(cat) || cat}</h3>
-          <p className="text-[11px] text-zinc-500 font-medium mt-0.5 leading-snug opacity-80 group-hover:opacity-100 transition-opacity line-clamp-2">{t(`desc.${cat}`)}</p>
+          <h3 className="font-bold text-[13px] xl:text-[14px] text-zinc-900 tracking-tight group-hover:text-amber-600 transition-colors uppercase tracking-wider">{t(cat) || cat}</h3>
+          <p className="text-[10px] xl:text-[11px] text-zinc-400 font-medium mt-0.5 leading-snug opacity-80 group-hover:opacity-100 transition-opacity line-clamp-1 group-hover:text-amber-700/60">{t(`desc.${cat}`)}</p>
         </div>
       </div>
     );
   };
 
   return (
-    <div className="w-full h-full flex flex-col items-center overflow-y-auto pb-10 bg-zinc-50/30">
+    <div className="w-full h-full flex flex-col items-center overflow-hidden pb-4 bg-zinc-50/30">
       
-      <div className="w-full max-w-[1240px] relative px-6 py-12 xl:py-16">
+      <div className="w-full max-w-[1240px] h-full relative px-6 py-6 xl:py-10 flex flex-col justify-center">
          {/* Background decorative lines representing connections */}
          <div className="absolute inset-x-12 top-24 bottom-24 overflow-hidden pointer-events-none z-0 hidden lg:block opacity-40">
            <svg className="w-full h-full text-zinc-200" style={{ strokeDasharray: '4 4' }}>
