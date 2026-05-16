@@ -589,6 +589,77 @@
     ]
   },
   {
+    "id": "e3",
+    "name": "LEAP Hand",
+    "company": "Carnegie Mellon University",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "https://images.unsplash.com/photo-1616423640778-28d1b53229bd?auto=format&fit=crop&q=80&w=600",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "dof": 16,
+      "type": "Dexterous Hand",
+      "cost": "~$2,100",
+      "status": "Open Source"
+    },
+    "relatedIds": [],
+    "tags": ["Dexterous", "Low Cost", "Open Source"],
+    "paperInfo": {
+      "authors": "Kumar et al.",
+      "arxivUrl": "https://arxiv.org/abs/2306.03869"
+    }
+  },
+  {
+    "id": "e4",
+    "name": "Allegro Hand v4",
+    "company": "Wonik Robotics",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "https://images.unsplash.com/photo-1616423640778-28d1b53229bd?auto=format&fit=crop&q=80&w=600",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "dof": 16,
+      "fingers": 4,
+      "type": "Dexterous Hand",
+      "status": "In Production"
+    },
+    "relatedIds": [],
+    "tags": ["Dexterous", "Research", "South Korea"]
+  },
+  {
+    "id": "e5",
+    "name": "Inspire-Robots DEX-01",
+    "company": "Inspire-Robots (因时机器人)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "https://images.unsplash.com/photo-1616423640778-28d1b53229bd?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "dof": 6,
+      "payload": "5 kg",
+      "type": "Dexterous Hand",
+      "features": "Miniature actuators",
+    },
+    "relatedIds": [],
+    "tags": ["Dexterous", "China", "Commercial"]
+  },
+  {
+    "id": "e6",
+    "name": "SRT Flexible Gripper",
+    "company": "SRT (软体机器人科技)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "https://images.unsplash.com/photo-1616423640778-28d1b53229bd?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": false,
+    "specs": {
+      "type": "Soft Gripper",
+      "features": "Flexible, food-safe",
+      "status": "In Production"
+    },
+    "relatedIds": [],
+    "tags": ["Soft Gripper", "China", "Food-grade"]
+  },
+  {
     "id": "j1",
     "name": "FSA Actuator",
     "company": "Fourier",
@@ -910,6 +981,39 @@
       "Battery",
       "Solid State"
     ]
+  },
+  {
+    "id": "en2",
+    "name": "Tesla 4680 Pack",
+    "company": "Tesla",
+    "category": "能源动力",
+    "imageUrl": "https://images.unsplash.com/photo-1620021644783-6cc5ba5f0732?auto=format&fit=crop&q=80&w=600",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "capacity": "2.3 kWh",
+      "voltage": "48V",
+      "type": "4680 Cylindrical",
+      "status": "In Production"
+    },
+    "relatedIds": ["f4"],
+    "tags": ["Battery", "EV-derived", "USA"]
+  },
+  {
+    "id": "en3",
+    "name": "宁德新能源 (CATL) LFP Module",
+    "company": "CATL (宁德时代)",
+    "category": "能源动力",
+    "imageUrl": "https://images.unsplash.com/photo-1620021644783-6cc5ba5f0732?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": false,
+    "specs": {
+      "type": "LFP Battery Module",
+      "features": "High energy density, safe",
+      "status": "In Production"
+    },
+    "relatedIds": [],
+    "tags": ["Battery", "LFP", "China"]
   },
   {
     "id": "d1",
