@@ -1,74 +1,43 @@
-# RoboIndex (原 Humanoid Index)
+# Embodied AI Landscape (具身智能系统架构与演进)
 
-## 📌 愿景 (Vision)
+An interactive, purely front-end knowledge graph and landscape visualization tool for the Robotics and Embodied AI industry. 
 
-RoboIndex 致力于成为泛机器人与具身智能领域最高效、最直观、最开放的导航图谱。
-随着具身智能 (Embodied AI) 时代的到来，从底层硬件到上层算法、从开源生态到闭源商业应用，每天都在涌现出大量的项目与公司。
-我们希望：
-1. **构建一站式索引**：让研究人员、开发者、投资者和爱好者能够快速找到所需的技术架构和供应链信息。
-2. **连接开源与产业**：展示开源社区的力量，并在硬件、软件、算法库各个节点之间建立联系。
-3. **拥抱社区共建**：科技日新月异，仅靠个人或小团队的力量无法追赶行业演进，我们期待通过社区的力量持续更新维护（GitHub PR + JSON）。
+## Features
 
-## 🤝 如何参与贡献 (How to Contribute)
+*   **Static Hosting Ready**: Designed to run seamlessly on GitHub Pages, Vercel, or any static file server without requiring a database backend.
+*   **Modular Data Fetching**: Data is decoupled from the source code. Information about hardware, software, and ecosystems is stored as easily readable and editable JSON files in the `/public/data/` directory.
+*   **Interactive Visualizations**: View the industry through various lenses:
+    *   **Architecture Grid (全景架构)**: A top-down look into Top-Level Groups (Hardware, Software, Ecosystem).
+    *   **Timeline View (演进脉络)**: Track the progression of platforms, algorithms, and models linearly by year.
+    *   **Category Deep-Dives**: Interactive wheel selectors for Hardware, Software, and Ecosystem components.
+*   **Smooth Animations**: Powered by `motion/react` for buttery smooth layout transitions and interactions.
 
-我们倡导 **“数据与代码分离，内容由社区共建”** 的理念。在本项目中，所有收录的实体信息均存放在纯数据文件中，任何人都可以通过非常简单的步骤向我们提交新的项目或信息更正！
+## Local Development
 
-### 提交方式
-我们主要的实体数据存放在 `/public/data.json` 中。
-你可以通过以下两种方式参与收录：
-
-#### 🟢 方式一：在页面中直接提交 (推荐新手)
-1. 在网页端点击右上角的 **“提交收录 (Submit)”** 按钮。
-2. 填写你想收录的实体基本信息（名称、链接、分类、描述等）。
-3. 提交后会自动跳转到当前仓库的 GitHub Issue 页面，带上你填好的模板。
-4. 点击 **Submit new issue**，管理员在确认后会自动合入。
-
-#### 🔵 方式二：提交 Pull Request (推荐开发者)
-1. Fork 本代码仓库 (`SunYue98/RoboIndex`)。
-2. 修改 `public/data.json`，在对应的分类列表中加入你的 JSON Object。
-3. 提交 PR (Pull Request)。你可以参考下方的“数据收录标准”。
-4. PR 审核通过后即合并上线。
-
-### 📋 数据收录标准 (Submission Standards)
-
-为了保证 RoboIndex 的内容质量，请在提交前确认以下几点：
-
-1. **真实性与活跃度**：请确保该项目 / 公司真实存在，对于开源项目最好有一定的 star 或维护记录。对于硬件公司或产品，请提供官网链接以供查证。
-2. **分类准确**：请仔细确认你要提交的实体属于 `硬件 (Hardware)`、`软件 (Software)` 还是 `生态与应用 (Eco)`，以及具体的细分类目（如 Actuators, VLM, Physics Engine 等）。如果不确定，可以在 Issue 中说明。
-3. **格式规范**（若通过 PR 提交）：
-   ```json
-   {
-     "id": "一串唯一英文字符短名，如: figure-01",
-     "name": "实体展示名称",
-     "company": "（可选）所属公司或研究机构",
-     "category": "所在的细分类别，需与常量对应",
-     "description": "一段精炼的介绍（支持文本或简单Markdown）",
-     "link": "https://...",
-     "logo": "（可选）可以放一个图床链接或本地占位",
-     "specs": {
-       "语言": "...",
-       "开源情况": "开源 / 闭源 / 部分开源",
-       "更多参数": "..."
-     }
-   }
+1. Install dependencies:
+   ```bash
+   npm install
    ```
-4. **客观中立**：请尽量使用客观陈述描述，避免过多的营销用语或主观形容。
 
-## 🛠️ 本地开发 (Local Development)
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-本项目基于 React + Vite + Tailwind CSS 构建，UI 组件无重度依赖，便于快速修改。
+3. Build for production:
+   ```bash
+   npm run build
+   ```
 
-```bash
-# 1. 安装依赖
-npm install
+## Updating Data
 
-# 2. 启动开发服务器
-npm run dev
+To add new robots, models, or companies, you do not need to rebuild the project. Edit the files located in `public/data/`:
+*   `hardware.json`
+*   `software.json`
+*   `ecosystem.json`
 
-# 3. 构建生产版本
-npm run build
-```
+Ensure new entries follow the schema defined in `src/data/entities.ts`.
 
----
+## Agent Maintainer Documentation
 
-*RoboIndex —— 探索具身智能的星辰大海 (Exploring the vast ocean of Embodied AI).*
+For AI Agents interacting with this repository, please consult [`AGENTS.md`](./AGENTS.md) for strict architectural boundaries, data partitioning strategies, and UI guidelines to prevent context pollution and structural regressions.

@@ -1,4 +1,4 @@
-import { mockData, Entity, Category, CATEGORY_MAP, TOP_LEVEL_GROUPS } from '../data/entities';
+import { Entity, Category, CATEGORY_MAP, TOP_LEVEL_GROUPS } from '../data/entities';
 import { motion, AnimatePresence } from 'motion/react';
 import { Calendar, Search, Filter, X, ChevronRight, Hash } from 'lucide-react';
 import { useLang } from '../i18n';
@@ -6,9 +6,10 @@ import { useRef, useState, useEffect, useMemo } from 'react';
 
 interface TimelineViewProps {
   onNavigateToEntity: (id: string) => void;
+  mockData: Entity[];
 }
 
-export function TimelineView({ onNavigateToEntity }: TimelineViewProps) {
+export function TimelineView({ onNavigateToEntity, mockData }: TimelineViewProps) {
   const { t } = useLang();
   const scrollRef = useRef<HTMLDivElement>(null);
 
@@ -22,7 +23,7 @@ export function TimelineView({ onNavigateToEntity }: TimelineViewProps) {
     const cats = new Set<Category>();
     mockData.forEach(item => cats.add(item.category));
     return Array.from(cats);
-  }, []);
+  }, [mockData]);
 
   // Filter Data
   const filteredData = useMemo(() => {
@@ -32,7 +33,7 @@ export function TimelineView({ onNavigateToEntity }: TimelineViewProps) {
       const matchesCat = selectedCategory === 'All' || entity.category === selectedCategory;
       return matchesSearch && matchesCat;
     });
-  }, [searchQuery, selectedCategory]);
+  }, [searchQuery, selectedCategory, mockData]);
 
   // Group by year
   const grouped = useMemo(() => {

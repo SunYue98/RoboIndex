@@ -1,0 +1,211 @@
+[
+  {
+    "id": "sw1",
+    "name": "OpenVLA",
+    "company": "Open Source",
+    "category": "基础模型",
+    "imageUrl": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "parameters": "7B",
+      "architecture": "Transformer",
+      "paradigm": "VLA",
+      "status": "Available"
+    },
+    "relatedIds": [
+      "sw7",
+      "f1"
+    ],
+    "tags": [
+      "Vision-Language",
+      "Open Source"
+    ],
+    "importance": "high",
+    "paperInfo": {
+      "authors": "Moo Jin Kim et al.",
+      "abstract": "We introduce OpenVLA, a 7B-parameter open-source vision-language-action model (VLA) pretrained on diverse robot manipulation datasets. OpenVLA achieves state-of-the-art results among open-weights models and supports drop-in fine-tuning for new robotic tasks.",
+      "arxivUrl": "https://arxiv.org/abs/something",
+      "codeUrl": "https://github.com/openvla/openvla",
+      "projectUrl": "https://openvla.github.io"
+    }
+  },
+  {
+    "id": "sw2",
+    "name": "RT-X",
+    "company": "Google DeepMind",
+    "category": "基础模型",
+    "imageUrl": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?auto=format&fit=crop&q=80&w=600",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "parameters": "Unknown",
+      "paradigm": "VLA",
+      "scale": "Cross-Embodiment",
+      "status": "Open Source"
+    },
+    "relatedIds": [
+      "sw7"
+    ],
+    "tags": [
+      "Cross-Embodiment",
+      "Research"
+    ],
+    "importance": "high",
+    "paperInfo": {
+      "authors": "Google DeepMind Robotics Team",
+      "abstract": "We present RT-X, a model trained on a large-scale, cross-embodiment dataset to enable generalization across different robots. By combining data from 22 embodiments, we observe emergent cross-robot transfer capabilities.",
+      "arxivUrl": "https://arxiv.org/abs/something",
+      "projectUrl": "https://robotics-transformer-x.github.io"
+    }
+  },
+  {
+    "id": "sw3",
+    "name": "Isaac Lab",
+    "company": "NVIDIA",
+    "category": "算法框架",
+    "imageUrl": "https://images.unsplash.com/photo-1616423640778-28d1b53229bd?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "RL Environment",
+      "engine": "Omniverse",
+      "status": "Active"
+    },
+    "relatedIds": [
+      "sw5",
+      "cp1"
+    ],
+    "tags": [
+      "Simulation",
+      "RL"
+    ]
+  },
+  {
+    "id": "sw4",
+    "name": "RoboMimic",
+    "company": "Stanford",
+    "category": "算法框架",
+    "imageUrl": "https://images.unsplash.com/photo-1664448007559-0dbf88ee9dff?auto=format&fit=crop&q=80&w=600",
+    "year": "2022",
+    "isNew": false,
+    "specs": {
+      "type": "Imitation Learning",
+      "language": "Python/PyTorch",
+      "status": "Active"
+    },
+    "relatedIds": [
+      "d2"
+    ],
+    "tags": [
+      "Imitation Learning",
+      "Open Source"
+    ]
+  },
+  {
+    "id": "ca1",
+    "name": "MIT Cheetah WBC",
+    "company": "MIT BIOMIMETICS",
+    "category": "控制算法",
+    "imageUrl": "https://images.unsplash.com/photo-1664448007559-0dbf88ee9dff?auto=format&fit=crop&q=80&w=600",
+    "year": "2019",
+    "isNew": false,
+    "specs": {
+      "type": "Whole Body Control",
+      "theory": "Dynamical Optimization",
+      "status": "Open Source"
+    },
+    "relatedIds": [
+      "f2"
+    ],
+    "tags": [
+      "WBC",
+      "Legged Locomotion"
+    ]
+  },
+  {
+    "id": "sw5",
+    "name": "Isaac Sim",
+    "company": "NVIDIA",
+    "category": "仿真平台",
+    "imageUrl": "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&q=80&w=600",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "rendering": "RTX",
+      "physics": "PhysX 5",
+      "status": "Production"
+    },
+    "relatedIds": [
+      "sw3",
+      "f2"
+    ],
+    "tags": [
+      "PhysX",
+      "Raytracing"
+    ]
+  },
+  {
+    "id": "sw6",
+    "name": "MuJoCo",
+    "company": "Google DeepMind",
+    "category": "仿真平台",
+    "imageUrl": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?auto=format&fit=crop&q=80&w=600",
+    "year": "2022",
+    "isNew": false,
+    "specs": {
+      "physics": "Fast Contacts",
+      "type": "Open Source",
+      "status": "Active"
+    },
+    "relatedIds": [],
+    "tags": [
+      "Open Source",
+      "Physics Engine"
+    ]
+  },
+  {
+    "id": "sw7",
+    "name": "Open X-Embodiment",
+    "company": "Google DeepMind",
+    "category": "数据集",
+    "imageUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=600",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "size": "1M+ trajectories",
+      "robots": "22 embodiments",
+      "status": "Publicly Available"
+    },
+    "relatedIds": [
+      "sw1",
+      "sw2",
+      "f2"
+    ],
+    "tags": [
+      "Dataset",
+      "Large-scale"
+    ]
+  },
+  {
+    "id": "bm1",
+    "name": "ManiSkill",
+    "company": "UCSD",
+    "category": "评测基准",
+    "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "Manipulation Benchmark",
+      "envs": "120+ Tasks",
+      "status": "Active"
+    },
+    "relatedIds": [
+      "sw1"
+    ],
+    "tags": [
+      "Benchmark",
+      "Manipulation"
+    ]
+  }
+]

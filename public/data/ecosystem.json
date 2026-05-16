@@ -1,0 +1,90 @@
+[
+  {
+    "id": "eco1",
+    "name": "ROS 2",
+    "company": "OSRF",
+    "category": "开发生态",
+    "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=600",
+    "year": "2022",
+    "isNew": false,
+    "specs": {
+      "type": "Middleware",
+      "language": "C++/Python",
+      "status": "Standard"
+    },
+    "relatedIds": [
+      "f1",
+      "f2"
+    ],
+    "tags": [
+      "Middleware",
+      "Standard"
+    ],
+    "importance": "high"
+  },
+  {
+    "id": "eco2",
+    "name": "Foxglove Studio",
+    "company": "Foxglove",
+    "category": "开发生态",
+    "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": false,
+    "specs": {
+      "type": "Visualization Tool",
+      "integration": "ROS/ROS2/WebSocket",
+      "status": "Active"
+    },
+    "relatedIds": [
+      "eco1"
+    ],
+    "tags": [
+      "Visualization",
+      "Debugging"
+    ]
+  },
+  {
+    "id": "app1",
+    "name": "Smart Factory",
+    "company": "Various",
+    "category": "应用场景",
+    "imageUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "B2B",
+      "environment": "Structured",
+      "ROI": "High",
+      "status": "Deploying"
+    },
+    "relatedIds": [
+      "f4",
+      "a1"
+    ],
+    "tags": [
+      "B2B",
+      "Manufacturing"
+    ]
+  },
+  {
+    "id": "app2",
+    "name": "Logistics Warehouse",
+    "company": "Various",
+    "category": "应用场景",
+    "imageUrl": "https://images.unsplash.com/photo-1586528116311-ad8ed7c50a6f?auto=format&fit=crop&q=80&w=600",
+    "year": "2024",
+    "isNew": false,
+    "specs": {
+      "type": "B2B",
+      "environment": "Semi-structured",
+      "status": "Scaling"
+    },
+    "relatedIds": [
+      "f1"
+    ],
+    "tags": [
+      "Logistics",
+      "Warehouse"
+    ]
+  }
+]

@@ -1,15 +1,16 @@
 import { ArrowUpRight, Network } from 'lucide-react';
-import { Entity, mockData } from '../data/entities';
+import { Entity } from '../data/entities';
 import { motion } from 'motion/react';
 import { useLang } from '../i18n';
 
 interface SingleSpecsPanelProps {
   entity: Entity;
+  mockData: Entity[];
   onFindRelated?: () => void;
   onNavigateToEntity?: (entityId: string) => void;
 }
 
-export function SingleSpecsPanel({ entity, onFindRelated, onNavigateToEntity }: SingleSpecsPanelProps) {
+export function SingleSpecsPanel({ entity, mockData, onFindRelated, onNavigateToEntity }: SingleSpecsPanelProps) {
   const { t } = useLang();
   const tags = entity.tags || [];
 

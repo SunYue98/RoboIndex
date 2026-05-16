@@ -1,0 +1,39 @@
+{
+  "partitions": [
+    {
+      "id": "hardware",
+      "url": "/data/hardware.json",
+      "categories": [
+        "整机平台",
+        "机械臂",
+        "灵巧手 & 夹爪",
+        "关节模组",
+        "核心零部件",
+        "传感器",
+        "能源动力",
+        "数采 & 遥操",
+        "计算平台"
+      ]
+    },
+    {
+      "id": "software",
+      "url": "/data/software.json",
+      "categories": [
+        "基础模型",
+        "算法框架",
+        "控制算法",
+        "仿真平台",
+        "数据集",
+        "评测基准"
+      ]
+    },
+    {
+      "id": "ecosystem",
+      "url": "/data/ecosystem.json",
+      "categories": [
+        "开发生态",
+        "应用场景"
+      ]
+    }
+  ]
+}

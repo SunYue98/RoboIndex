@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Dices, Plus, Network, Globe, MessageSquare, Send, Github, LayoutGrid } from 'lucide-react';
-import { mockData, Category, CATEGORY_MAP, TopLevelGroup } from './data/entities';
+import { Dices, Plus, Network, Globe, MessageSquare, Send, Github, LayoutGrid, Loader2 } from 'lucide-react';
+import { Entity, Category, CATEGORY_MAP, TopLevelGroup, loadEntities } from './data/entities';
 import { EntityCard, EntityCardData } from './components/EntityCard';
 import { SpecsColumn } from './components/SpecsColumn';
 import { WheelSelector } from './components/WheelSelector';
@@ -16,6 +16,19 @@ import { useLang } from './i18n';
 export type MainTab = '全景架构' | '演进脉络' | '硬件' | '软件' | '生态与应用';
 
 export default function App() {
+  const [mockData, setMockData] = useState<Entity[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    loadEntities().then(data => {
+      setMockData(data);
+      if (data.length > 0) {
+        setLeftId(data.find(d => d.category === '整机平台')?.id || data[0].id);
+      }
+      setIsLoading(false);
+    });
+  }, []);
+
   const [mainTab, setMainTab] = useState<MainTab>('全景架构');
   const [hardwareCat, setHardwareCat] = useState<Category>('整机平台');
   const [softwareCat, setSoftwareCat] = useState<Category>('基础模型');
@@ -30,19 +43,20 @@ export default function App() {
 
   const list = useMemo(() => {
     return mockData.filter(d => d.category === activeCategory);
-  }, [mainTab, activeCategory]);
+  }, [mainTab, activeCategory, mockData]);
 
-  const [leftId, setLeftId] = useState<string | null>(list[0]?.id || null);
+  const [leftId, setLeftId] = useState<string | null>(null);
   const [rightId, setRightId] = useState<string | null>(null);
   const [isComparing, setIsComparing] = useState(false);
 
   // When changing tabs, handle selections gracefully
   useEffect(() => {
+    if (isLoading) return;
     const initial = list[0]?.id || null;
     setLeftId(initial);
     setIsComparing(false);
     setRightId(null);
-  }, [mainTab, activeCategory, list]);
+  }, [mainTab, activeCategory, list, isLoading]);
 
   const leftEntity = mockData.find(l => l.id === leftId) || null;
   const rightEntity = mockData.find(l => l.id === rightId) || null;
@@ -117,6 +131,17 @@ export default function App() {
     setIsComparing(true);
     setRightId(list.find(l => l.id !== leftId)?.id || list[0]?.id || null);
   };
+
+  if (isLoading) {
+    return (
+      <div className="h-screen w-screen flex items-center justify-center bg-white text-zinc-900">
+        <div className="flex flex-col items-center gap-4">
+          <Loader2 className="w-8 h-8 animate-spin text-zinc-400" />
+          <p className="text-zinc-500 text-sm font-medium tracking-wide">Loading Data...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="h-screen w-screen overflow-hidden bg-white text-zinc-900 font-sans flex flex-col relative selection:bg-zinc-200">
@@ -247,7 +272,7 @@ export default function App() {
                  transition={{ duration: 0.4 }}
                  className="w-full h-full flex items-start justify-center pt-4"
                >
-                 <TimelineView onNavigateToEntity={handleNavigateToEntity} />
+                 <TimelineView onNavigateToEntity={handleNavigateToEntity} mockData={mockData} />
                </motion.div>
             ) : (
                <motion.div
@@ -276,7 +301,7 @@ export default function App() {
                           transition={{ type: 'spring', bounce: 0.2, duration: 0.8 }}
                           className="overflow-hidden"
                         >
-                          <SingleSpecsPanel entity={leftEntity} onFindRelated={() => setMainTab('全景架构')} onNavigateToEntity={handleNavigateToEntity} />
+                          <SingleSpecsPanel entity={leftEntity} mockData={mockData} onFindRelated={() => setMainTab('全景架构')} onNavigateToEntity={handleNavigateToEntity} />
                         </motion.div>
                       )}
 
