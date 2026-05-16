@@ -118,12 +118,19 @@ export function SingleSpecsPanel({ entity, mockData, onFindRelated, onNavigateTo
           </button>
         )}
         
-        <button className="flex items-center justify-between w-full px-4 py-3 bg-zinc-900 border border-zinc-900 rounded-full text-[13px] font-[500] tracking-tight text-white hover:bg-zinc-800 transition-all focus:outline-none focus:ring-2 focus:ring-zinc-900 group">
-          <span>{t('panel.visit')}</span>
-          <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center text-white group-hover:bg-white/30 transition-colors">
-            <ArrowUpRight className="w-3 h-3" />
-          </div>
-        </button>
+        {entity.websiteUrl && (
+          <a
+            href={entity.websiteUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center justify-between w-full px-4 py-3 bg-zinc-900 border border-zinc-900 rounded-full text-[13px] font-[500] tracking-tight text-white hover:bg-zinc-800 transition-all focus:outline-none focus:ring-2 focus:ring-zinc-900 group"
+          >
+            <span>{t('panel.visit')}</span>
+            <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center text-white group-hover:bg-white/30 transition-colors">
+              <ArrowUpRight className="w-3 h-3" />
+            </div>
+          </a>
+        )}
       </div>
     </motion.div>
   );

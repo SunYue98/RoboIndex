@@ -13,8 +13,14 @@
       "paradigm": "VLA",
       "status": "Available"
     },
-    "relatedIds": ["sw7", "f1"],
-    "tags": ["Vision-Language", "Open Source"],
+    "relatedIds": [
+      "sw7",
+      "f1"
+    ],
+    "tags": [
+      "Vision-Language",
+      "Open Source"
+    ],
     "importance": "high",
     "paperInfo": {
       "authors": "Moo Jin Kim et al.",
@@ -22,7 +28,8 @@
       "arxivUrl": "https://arxiv.org/abs/2406.09246",
       "codeUrl": "https://github.com/openvla/openvla",
       "projectUrl": "https://openvla.github.io"
-    }
+    },
+    "websiteUrl": "https://openvla.github.io"
   },
   {
     "id": "sw2",
@@ -38,15 +45,21 @@
       "scale": "Cross-Embodiment",
       "status": "Open Source"
     },
-    "relatedIds": ["sw7"],
-    "tags": ["Cross-Embodiment", "Research"],
+    "relatedIds": [
+      "sw7"
+    ],
+    "tags": [
+      "Cross-Embodiment",
+      "Research"
+    ],
     "importance": "high",
     "paperInfo": {
       "authors": "Google DeepMind Robotics Team",
       "abstract": "We present RT-X, a model trained on a large-scale, cross-embodiment dataset to enable generalization across different robots.",
       "arxivUrl": "https://arxiv.org/abs/2310.08864",
       "projectUrl": "https://robotics-transformer-x.github.io"
-    }
+    },
+    "websiteUrl": "https://robotics-transformer-x.github.io"
   },
   {
     "id": "sw8",
@@ -62,14 +75,20 @@
       "base": "PaLI-X / PaLM-E",
       "status": "Research"
     },
-    "relatedIds": ["sw2"],
-    "tags": ["Vision-Language", "Large Scale"],
+    "relatedIds": [
+      "sw2"
+    ],
+    "tags": [
+      "Vision-Language",
+      "Large Scale"
+    ],
     "importance": "high",
     "paperInfo": {
       "authors": "Google DeepMind",
       "abstract": "RT-2 transfers knowledge from large-scale vision-language models to robotic control, enabling semantic reasoning and generalization to novel tasks.",
       "arxivUrl": "https://arxiv.org/abs/2307.15818"
-    }
+    },
+    "websiteUrl": "https://robotics-transformer-x.github.io"
   },
   {
     "id": "sw9",
@@ -86,14 +105,19 @@
       "status": "Available"
     },
     "relatedIds": [],
-    "tags": ["Flow Matching", "Generalist", "USA"],
+    "tags": [
+      "Flow Matching",
+      "Generalist",
+      "USA"
+    ],
     "importance": "high",
     "paperInfo": {
       "authors": "Physical Intelligence Team",
       "abstract": "π0 is a generalist robot policy trained on the largest robot interaction dataset to date, using flow matching for dexterous manipulation.",
       "arxivUrl": "https://arxiv.org/abs/2410.24164",
       "projectUrl": "https://www.physicalintelligence.company"
-    }
+    },
+    "websiteUrl": "https://www.physicalintelligence.company"
   },
   {
     "id": "sw10",
@@ -109,15 +133,21 @@
       "architecture": "Diffusion Transformer",
       "status": "Open Source"
     },
-    "relatedIds": ["sw7"],
-    "tags": ["Open Source", "Cross-Embodiment"],
+    "relatedIds": [
+      "sw7"
+    ],
+    "tags": [
+      "Open Source",
+      "Cross-Embodiment"
+    ],
     "importance": "high",
     "paperInfo": {
       "authors": "Octo Team et al.",
       "abstract": "Octo is an open-source generalist robot policy trained on 800k trajectories from Open X-Embodiment. Supports multi-robot fine-tuning.",
       "arxivUrl": "https://arxiv.org/abs/2405.12213",
       "codeUrl": "https://github.com/octo-models/octo"
-    }
+    },
+    "websiteUrl": "https://octo-models.github.io"
   },
   {
     "id": "sw11",
@@ -133,9 +163,17 @@
       "training": "NVIDIA Isaac Lab + Cosmos",
       "status": "Available"
     },
-    "relatedIds": ["sw5", "sw3", "cp1"],
-    "tags": ["Humanoid", "NVIDIA"],
-    "importance": "high"
+    "relatedIds": [
+      "sw5",
+      "sw3",
+      "cp1"
+    ],
+    "tags": [
+      "Humanoid",
+      "NVIDIA"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://developer.nvidia.com/isaac/gr00t"
   },
   {
     "id": "sw23",
@@ -151,14 +189,22 @@
       "features": "General-purpose robot control, zero-shot generalization",
       "status": "Available"
     },
-    "relatedIds": ["sw2", "sw8"],
-    "tags": ["VLA", "Gemini", "Generalist"],
+    "relatedIds": [
+      "sw2",
+      "sw8"
+    ],
+    "tags": [
+      "VLA",
+      "Gemini",
+      "Generalist"
+    ],
     "importance": "high",
     "paperInfo": {
       "authors": "Google DeepMind",
       "abstract": "Gemini Robotics brings AI into the physical world, enabling general-purpose robotic control built on Gemini 2.0.",
       "arxivUrl": "https://arxiv.org/abs/2503.20020"
-    }
+    },
+    "websiteUrl": "https://deepmind.google/technologies/gemini/robotics/"
   },
   {
     "id": "sw24",
@@ -174,9 +220,16 @@
       "target": "General-purpose manipulation",
       "status": "Available"
     },
-    "relatedIds": ["f9"],
-    "tags": ["VLA", "China", "MoE"],
-    "importance": "high"
+    "relatedIds": [
+      "f9"
+    ],
+    "tags": [
+      "VLA",
+      "China",
+      "MoE"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://www.agibot.com"
   },
   {
     "id": "sw12",
@@ -192,13 +245,19 @@
       "scale": "Cross-Embodiment",
       "status": "Open Source"
     },
-    "relatedIds": ["sw7"],
-    "tags": ["Cross-Embodiment", "Scalable"],
+    "relatedIds": [
+      "sw7"
+    ],
+    "tags": [
+      "Cross-Embodiment",
+      "Scalable"
+    ],
     "paperInfo": {
       "authors": "Lirui Wang et al.",
       "abstract": "HPT scales robot learning by pretraining shared representations across heterogeneous robot embodiments.",
       "arxivUrl": "https://arxiv.org/abs/2406.10639"
-    }
+    },
+    "websiteUrl": "https://liruiw.github.io/hpt"
   },
   {
     "id": "sw3",
@@ -213,8 +272,15 @@
       "engine": "Omniverse",
       "status": "Active"
     },
-    "relatedIds": ["sw5", "cp1"],
-    "tags": ["Simulation", "RL"]
+    "relatedIds": [
+      "sw5",
+      "cp1"
+    ],
+    "tags": [
+      "Simulation",
+      "RL"
+    ],
+    "websiteUrl": "https://developer.nvidia.com/isaac-lab"
   },
   {
     "id": "sw4",
@@ -229,8 +295,14 @@
       "language": "Python/PyTorch",
       "status": "Active"
     },
-    "relatedIds": ["d2"],
-    "tags": ["Imitation Learning", "Open Source"]
+    "relatedIds": [
+      "d2"
+    ],
+    "tags": [
+      "Imitation Learning",
+      "Open Source"
+    ],
+    "websiteUrl": "https://robomimic.github.io"
   },
   {
     "id": "sw13",
@@ -246,12 +318,19 @@
       "features": "ACT, Diffusion Policy, TDMPC",
       "status": "Active"
     },
-    "relatedIds": ["sw1", "d2"],
-    "tags": ["Open Source", "Imitation Learning"],
+    "relatedIds": [
+      "sw1",
+      "d2"
+    ],
+    "tags": [
+      "Open Source",
+      "Imitation Learning"
+    ],
     "importance": "high",
     "paperInfo": {
       "codeUrl": "https://github.com/huggingface/lerobot"
-    }
+    },
+    "websiteUrl": "https://github.com/huggingface/lerobot"
   },
   {
     "id": "sw14",
@@ -267,15 +346,21 @@
       "features": "Action Chunking",
       "status": "Open Source"
     },
-    "relatedIds": ["sw13"],
-    "tags": ["Imitation Learning", "Action Chunking"],
+    "relatedIds": [
+      "sw13"
+    ],
+    "tags": [
+      "Imitation Learning",
+      "Action Chunking"
+    ],
     "importance": "high",
     "paperInfo": {
       "authors": "Tony Z. Zhao et al.",
       "abstract": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware. Uses action chunking with transformers (ACT) for bimanual tasks.",
       "arxivUrl": "https://arxiv.org/abs/2304.13705",
       "codeUrl": "https://github.com/tonyzhaozh/act"
-    }
+    },
+    "websiteUrl": "https://tonyzhaozh.github.io/aloha"
   },
   {
     "id": "sw15",
@@ -291,15 +376,21 @@
       "features": "Multi-modal action distribution",
       "status": "Open Source"
     },
-    "relatedIds": ["sw13"],
-    "tags": ["Diffusion", "Policy Learning"],
+    "relatedIds": [
+      "sw13"
+    ],
+    "tags": [
+      "Diffusion",
+      "Policy Learning"
+    ],
     "importance": "high",
     "paperInfo": {
       "authors": "Cheng Chi et al.",
       "abstract": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion. Learns robot manipulation policies using denoising diffusion models.",
       "arxivUrl": "https://arxiv.org/abs/2303.04137",
       "codeUrl": "https://github.com/real-stanford/diffusion_policy"
-    }
+    },
+    "websiteUrl": "https://diffusion-policy.github.io"
   },
   {
     "id": "ca1",
@@ -314,8 +405,14 @@
       "theory": "Dynamical Optimization",
       "status": "Open Source"
     },
-    "relatedIds": ["f2"],
-    "tags": ["WBC", "Legged Locomotion"]
+    "relatedIds": [
+      "f2"
+    ],
+    "tags": [
+      "WBC",
+      "Legged Locomotion"
+    ],
+    "websiteUrl": "https://github.com/mit-biomimetics/Cheetah-Software"
   },
   {
     "id": "ca2",
@@ -331,9 +428,17 @@
       "engine": "Isaac Lab / Isaac Sim",
       "status": "Open Source"
     },
-    "relatedIds": ["sw3", "sw5"],
-    "tags": ["RL", "Locomotion", "Sim-to-Real"],
-    "importance": "high"
+    "relatedIds": [
+      "sw3",
+      "sw5"
+    ],
+    "tags": [
+      "RL",
+      "Locomotion",
+      "Sim-to-Real"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://developer.nvidia.com/isaac-lab"
   },
   {
     "id": "ca3",
@@ -348,8 +453,15 @@
       "target": "Bipedal Walking",
       "status": "Widely Adopted"
     },
-    "relatedIds": ["f5", "f7"],
-    "tags": ["MPC", "Walking", "Optimization"]
+    "relatedIds": [
+      "f5",
+      "f7"
+    ],
+    "tags": [
+      "MPC",
+      "Walking",
+      "Optimization"
+    ]
   },
   {
     "id": "sw5",
@@ -364,9 +476,16 @@
       "physics": "PhysX 5",
       "status": "Production"
     },
-    "relatedIds": ["sw3", "f2"],
-    "tags": ["PhysX", "Raytracing"],
-    "importance": "high"
+    "relatedIds": [
+      "sw3",
+      "f2"
+    ],
+    "tags": [
+      "PhysX",
+      "Raytracing"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://developer.nvidia.com/isaac-sim"
   },
   {
     "id": "sw6",
@@ -382,8 +501,12 @@
       "status": "Active"
     },
     "relatedIds": [],
-    "tags": ["Open Source", "Physics Engine"],
-    "importance": "high"
+    "tags": [
+      "Open Source",
+      "Physics Engine"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://mujoco.org"
   },
   {
     "id": "sw16",
@@ -399,9 +522,15 @@
       "physics": "DART / ODE / Bullet",
       "status": "Standard"
     },
-    "relatedIds": ["eco1"],
-    "tags": ["Open Source", "ROS"],
-    "importance": "high"
+    "relatedIds": [
+      "eco1"
+    ],
+    "tags": [
+      "Open Source",
+      "ROS"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://gazebosim.org"
   },
   {
     "id": "sw17",
@@ -416,11 +545,17 @@
       "features": "Articulated objects, GPU-accelerated",
       "status": "Open Source"
     },
-    "relatedIds": ["bm1"],
-    "tags": ["Manipulation", "Open Source"],
+    "relatedIds": [
+      "bm1"
+    ],
+    "tags": [
+      "Manipulation",
+      "Open Source"
+    ],
     "paperInfo": {
       "codeUrl": "https://github.com/sapien-sim"
-    }
+    },
+    "websiteUrl": "https://sapien.ucsd.edu"
   },
   {
     "id": "sw18",
@@ -437,7 +572,11 @@
       "status": "Active"
     },
     "relatedIds": [],
-    "tags": ["Open Source", "Lightweight"]
+    "tags": [
+      "Open Source",
+      "Lightweight"
+    ],
+    "websiteUrl": "https://pybullet.org"
   },
   {
     "id": "sw19",
@@ -454,7 +593,11 @@
       "status": "Active"
     },
     "relatedIds": [],
-    "tags": ["Versatile", "Education"]
+    "tags": [
+      "Versatile",
+      "Education"
+    ],
+    "websiteUrl": "https://www.coppeliarobotics.com"
   },
   {
     "id": "sw20_sim",
@@ -471,11 +614,16 @@
       "status": "Open Source (Beta)"
     },
     "relatedIds": [],
-    "tags": ["Fast", "Generative", "Open Source"],
+    "tags": [
+      "Fast",
+      "Generative",
+      "Open Source"
+    ],
     "importance": "high",
     "paperInfo": {
       "codeUrl": "https://github.com/Genesis-Embodied-AI/genesis-world"
-    }
+    },
+    "websiteUrl": "https://github.com/Genesis-Embodied-AI/genesis-world"
   },
   {
     "id": "sw21_sim",
@@ -492,8 +640,14 @@
       "license": "Apache 2.0",
       "status": "Active"
     },
-    "relatedIds": ["eco1"],
-    "tags": ["Open Source", "Cross-platform"]
+    "relatedIds": [
+      "eco1"
+    ],
+    "tags": [
+      "Open Source",
+      "Cross-platform"
+    ],
+    "websiteUrl": "https://cyberbotics.com"
   },
   {
     "id": "sw22_sim",
@@ -510,8 +664,13 @@
       "status": "Open Source"
     },
     "relatedIds": [],
-    "tags": ["Embodied AI", "Navigation", "Open Source"],
-    "importance": "high"
+    "tags": [
+      "Embodied AI",
+      "Navigation",
+      "Open Source"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://aihabitat.org"
   },
   {
     "id": "sw23_sim",
@@ -527,8 +686,14 @@
       "robots": "Sawyer, Panda, Jaco",
       "status": "Open Source"
     },
-    "relatedIds": ["sw6"],
-    "tags": ["Manipulation", "Open Source"]
+    "relatedIds": [
+      "sw6"
+    ],
+    "tags": [
+      "Manipulation",
+      "Open Source"
+    ],
+    "websiteUrl": "https://robosuite.ai"
   },
   {
     "id": "sw7",
@@ -543,9 +708,17 @@
       "robots": "22 embodiments",
       "status": "Publicly Available"
     },
-    "relatedIds": ["sw1", "sw2", "f2"],
-    "tags": ["Dataset", "Large-scale"],
-    "importance": "high"
+    "relatedIds": [
+      "sw1",
+      "sw2",
+      "f2"
+    ],
+    "tags": [
+      "Dataset",
+      "Large-scale"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://robotics-transformer-x.github.io"
   },
   {
     "id": "sw20",
@@ -561,14 +734,21 @@
       "robot": "WidowX 250",
       "status": "Publicly Available"
     },
-    "relatedIds": ["a10", "sw1"],
-    "tags": ["Manipulation", "Open Source"],
+    "relatedIds": [
+      "a10",
+      "sw1"
+    ],
+    "tags": [
+      "Manipulation",
+      "Open Source"
+    ],
     "importance": "high",
     "paperInfo": {
       "authors": "Seth Vijaywargiya et al.",
       "abstract": "A large-scale dataset of robot manipulation demonstrations for training general-purpose robot policies.",
       "arxivUrl": "https://arxiv.org/abs/2308.12952"
-    }
+    },
+    "websiteUrl": "https://bridgedata.github.io"
   },
   {
     "id": "sw21",
@@ -584,14 +764,21 @@
       "environments": "13 buildings, 564 scenes",
       "status": "Publicly Available"
     },
-    "relatedIds": ["sw1"],
-    "tags": ["Manipulation", "Large-scale", "Diverse"],
+    "relatedIds": [
+      "sw1"
+    ],
+    "tags": [
+      "Manipulation",
+      "Large-scale",
+      "Diverse"
+    ],
     "importance": "high",
     "paperInfo": {
       "authors": "DROID Team",
       "abstract": "A large-scale, diverse robot manipulation dataset with data collected across multiple institutions.",
       "arxivUrl": "https://arxiv.org/abs/2403.12945"
-    }
+    },
+    "websiteUrl": "https://droid-dataset.github.io"
   },
   {
     "id": "sw22",
@@ -608,10 +795,15 @@
       "status": "Publicly Available"
     },
     "relatedIds": [],
-    "tags": ["Manipulation", "China", "Multi-modal"],
+    "tags": [
+      "Manipulation",
+      "China",
+      "Multi-modal"
+    ],
     "paperInfo": {
       "arxivUrl": "https://arxiv.org/abs/2307.00595"
-    }
+    },
+    "websiteUrl": "https://rh20t.github.io"
   },
   {
     "id": "sw23_data",
@@ -628,14 +820,22 @@
       "environments": "5 real-world scenarios",
       "status": "Open Source"
     },
-    "relatedIds": ["f9", "sw24"],
-    "tags": ["Manipulation", "Large-scale", "China"],
+    "relatedIds": [
+      "f9",
+      "sw24"
+    ],
+    "tags": [
+      "Manipulation",
+      "Large-scale",
+      "China"
+    ],
     "importance": "high",
     "paperInfo": {
       "authors": "Agibot Team",
       "abstract": "AgiBot World Colosseo: the largest real-world manipulation dataset.",
       "arxivUrl": "https://arxiv.org/abs/2503.06669"
-    }
+    },
+    "websiteUrl": "https://agibot-world.com"
   },
   {
     "id": "bm1",
@@ -650,8 +850,15 @@
       "envs": "120+ Tasks",
       "status": "Active"
     },
-    "relatedIds": ["sw1", "sw17"],
-    "tags": ["Benchmark", "Manipulation"]
+    "relatedIds": [
+      "sw1",
+      "sw17"
+    ],
+    "tags": [
+      "Benchmark",
+      "Manipulation"
+    ],
+    "websiteUrl": "https://maniskill.ai"
   },
   {
     "id": "bm2",
@@ -667,14 +874,20 @@
       "features": "Long-horizon, language-conditioned",
       "status": "Active"
     },
-    "relatedIds": ["sw1"],
-    "tags": ["Benchmark", "Long-horizon"],
+    "relatedIds": [
+      "sw1"
+    ],
+    "tags": [
+      "Benchmark",
+      "Long-horizon"
+    ],
     "importance": "high",
     "paperInfo": {
       "authors": "Liu Hao et al.",
       "abstract": "LIBERO: Lifelong Robot Learning Benchmark for knowledge transfer and long-horizon manipulation.",
       "arxivUrl": "https://arxiv.org/abs/2306.03310"
-    }
+    },
+    "websiteUrl": "https://libero-project.github.io"
   },
   {
     "id": "bm3",
@@ -691,12 +904,16 @@
       "status": "Active"
     },
     "relatedIds": [],
-    "tags": ["Benchmark", "Language-Conditioned"],
+    "tags": [
+      "Benchmark",
+      "Language-Conditioned"
+    ],
     "paperInfo": {
       "authors": "Oier Mees et al.",
       "abstract": "CALVIN: A benchmark for language-conditioned long-horizon manipulation.",
       "arxivUrl": "https://arxiv.org/abs/2112.02620"
-    }
+    },
+    "websiteUrl": "https://calvin-coracle.github.io"
   },
   {
     "id": "bm4",
@@ -713,10 +930,14 @@
       "status": "Active"
     },
     "relatedIds": [],
-    "tags": ["Benchmark", "Multi-task"],
+    "tags": [
+      "Benchmark",
+      "Multi-task"
+    ],
     "paperInfo": {
       "authors": "Stephen James et al.",
       "arxivUrl": "https://arxiv.org/abs/1909.12271"
-    }
+    },
+    "websiteUrl": "https://github.com/stepjam/RLBench"
   }
 ]

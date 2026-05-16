@@ -38,6 +38,7 @@ export interface Entity {
   specs: Specs;
   relatedIds?: string[];
   tags?: string[];
+  websiteUrl?: string;
   paperInfo?: PaperInfo;
   importance?: 'high' | 'medium' | 'low';
 }

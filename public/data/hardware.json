@@ -23,7 +23,8 @@
       "Bipedal",
       "Commercial",
       "USA"
-    ]
+    ],
+    "websiteUrl": "https://agilityrobotics.com"
   },
   {
     "id": "f2",
@@ -49,7 +50,8 @@
       "Bipedal",
       "Prototype",
       "China"
-    ]
+    ],
+    "websiteUrl": "https://www.limxdynamics.com"
   },
   {
     "id": "f4",
@@ -76,7 +78,8 @@
       "Highly Hyped",
       "USA"
     ],
-    "importance": "high"
+    "importance": "high",
+    "websiteUrl": "https://www.tesla.com/optimus"
   },
   {
     "id": "f5",
@@ -94,9 +97,17 @@
       "price": "~$90,000",
       "status": "In Production"
     },
-    "relatedIds": ["f6", "j1"],
-    "tags": ["Bipedal", "Research", "China"],
-    "importance": "high"
+    "relatedIds": [
+      "f6",
+      "j1"
+    ],
+    "tags": [
+      "Bipedal",
+      "Research",
+      "China"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://www.unitree.com"
   },
   {
     "id": "f6",
@@ -115,9 +126,17 @@
       "price": "~$13,700",
       "status": "In Production"
     },
-    "relatedIds": ["f5", "sw1"],
-    "tags": ["Bipedal", "Low Cost", "China"],
-    "importance": "high"
+    "relatedIds": [
+      "f5",
+      "sw1"
+    ],
+    "tags": [
+      "Bipedal",
+      "Low Cost",
+      "China"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://www.unitree.com"
   },
   {
     "id": "f7",
@@ -137,8 +156,13 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["Bipedal", "Electric", "USA"],
-    "importance": "high"
+    "tags": [
+      "Bipedal",
+      "Electric",
+      "USA"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://bostondynamics.com/atlas"
   },
   {
     "id": "f8",
@@ -157,9 +181,16 @@
       "battery": "5 hours",
       "status": "Pilot Deployment"
     },
-    "relatedIds": ["sw1"],
-    "tags": ["Bipedal", "Commercial", "USA"],
-    "importance": "high"
+    "relatedIds": [
+      "sw1"
+    ],
+    "tags": [
+      "Bipedal",
+      "Commercial",
+      "USA"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://www.figure.ai"
   },
   {
     "id": "f9",
@@ -177,9 +208,17 @@
       "speed": "7 km/h",
       "status": "Mass Production"
     },
-    "relatedIds": ["sw1", "sw7"],
-    "tags": ["Bipedal", "Mass Production", "China"],
-    "importance": "high"
+    "relatedIds": [
+      "sw1",
+      "sw7"
+    ],
+    "tags": [
+      "Bipedal",
+      "Mass Production",
+      "China"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://www.agibot.com"
   },
   {
     "id": "f10",
@@ -197,7 +236,12 @@
       "status": "Commercial Deployment"
     },
     "relatedIds": [],
-    "tags": ["Bipedal", "Commercial", "China"]
+    "tags": [
+      "Bipedal",
+      "Commercial",
+      "China"
+    ],
+    "websiteUrl": "https://www.ubtrobot.com"
   },
   {
     "id": "f11",
@@ -214,8 +258,15 @@
       "peakTorque": "380 Nm",
       "status": "In Production"
     },
-    "relatedIds": ["j1"],
-    "tags": ["Bipedal", "Commercial", "China"]
+    "relatedIds": [
+      "j1"
+    ],
+    "tags": [
+      "Bipedal",
+      "Commercial",
+      "China"
+    ],
+    "websiteUrl": "https://www.fourierintelligence.com"
   },
   {
     "id": "f12",
@@ -234,7 +285,12 @@
       "status": "Mass Production"
     },
     "relatedIds": [],
-    "tags": ["Bipedal", "Commercial", "China"]
+    "tags": [
+      "Bipedal",
+      "Commercial",
+      "China"
+    ],
+    "websiteUrl": "https://www.keplerbot.com"
   },
   {
     "id": "f13",
@@ -252,7 +308,12 @@
       "status": "Prototype"
     },
     "relatedIds": [],
-    "tags": ["Bipedal", "Home", "Norway"]
+    "tags": [
+      "Bipedal",
+      "Home",
+      "Norway"
+    ],
+    "websiteUrl": "https://www.1x.tech"
   },
   {
     "id": "f14",
@@ -270,7 +331,12 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["Bipedal", "Modular", "China"]
+    "tags": [
+      "Bipedal",
+      "Modular",
+      "China"
+    ],
+    "websiteUrl": "https://www.lejurobot.com"
   },
   {
     "id": "f15",
@@ -288,8 +354,13 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["Bipedal", "VLA-driven", "China"],
-    "importance": "high"
+    "tags": [
+      "Bipedal",
+      "VLA-driven",
+      "China"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://www.robotera.com"
   },
   {
     "id": "f16",
@@ -308,7 +379,12 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["Bipedal", "Low Cost", "China"]
+    "tags": [
+      "Bipedal",
+      "Low Cost",
+      "China"
+    ],
+    "websiteUrl": "https://noetixrobotics.com"
   },
   {
     "id": "f17",
@@ -326,7 +402,12 @@
       "status": "Pilot Deployment"
     },
     "relatedIds": [],
-    "tags": ["Hydraulic", "General Purpose", "Canada"]
+    "tags": [
+      "Hydraulic",
+      "General Purpose",
+      "Canada"
+    ],
+    "websiteUrl": "https://www.sanctuary.ai"
   },
   {
     "id": "f18",
@@ -344,7 +425,12 @@
       "status": "Prototype"
     },
     "relatedIds": [],
-    "tags": ["Wheeled", "Cable-driven", "China"]
+    "tags": [
+      "Wheeled",
+      "Cable-driven",
+      "China"
+    ],
+    "websiteUrl": "https://www.astribot.com"
   },
   {
     "id": "a3",
@@ -362,8 +448,16 @@
       "repeatability": "±0.1 mm",
       "status": "In Production"
     },
-    "relatedIds": ["a1", "c1"],
-    "tags": ["Collaborative", "Research", "Denmark"]
+    "relatedIds": [
+      "a1",
+      "c1"
+    ],
+    "tags": [
+      "Collaborative",
+      "Research",
+      "Denmark"
+    ],
+    "websiteUrl": "https://www.universal-robots.com"
   },
   {
     "id": "a4",
@@ -381,8 +475,16 @@
       "repeatability": "±0.1 mm",
       "status": "In Production"
     },
-    "relatedIds": ["c1", "s2"],
-    "tags": ["Collaborative", "Force-Sensing", "Germany"]
+    "relatedIds": [
+      "c1",
+      "s2"
+    ],
+    "tags": [
+      "Collaborative",
+      "Force-Sensing",
+      "Germany"
+    ],
+    "websiteUrl": "https://www.kuka.com"
   },
   {
     "id": "a5",
@@ -401,7 +503,12 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["Low Cost", "Research", "China"]
+    "tags": [
+      "Low Cost",
+      "Research",
+      "China"
+    ],
+    "websiteUrl": "https://www.ufactory.cc"
   },
   {
     "id": "a6",
@@ -418,8 +525,15 @@
       "repeatability": "±0.1 mm",
       "status": "In Production"
     },
-    "relatedIds": ["a5"],
-    "tags": ["Low Cost", "Research", "China"]
+    "relatedIds": [
+      "a5"
+    ],
+    "tags": [
+      "Low Cost",
+      "Research",
+      "China"
+    ],
+    "websiteUrl": "https://www.ufactory.cc"
   },
   {
     "id": "a7",
@@ -437,7 +551,12 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["Force-Control", "Adaptive", "China"]
+    "tags": [
+      "Force-Control",
+      "Adaptive",
+      "China"
+    ],
+    "websiteUrl": "https://www.flexiv.com"
   },
   {
     "id": "a8",
@@ -456,7 +575,12 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["Research", "Mobile Manipulation", "Canada"]
+    "tags": [
+      "Research",
+      "Mobile Manipulation",
+      "Canada"
+    ],
+    "websiteUrl": "https://www.kinova.ca"
   },
   {
     "id": "a9",
@@ -474,7 +598,12 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["Collaborative", "Industrial", "China"]
+    "tags": [
+      "Collaborative",
+      "Industrial",
+      "China"
+    ],
+    "websiteUrl": "https://www.jaka.com"
   },
   {
     "id": "a10",
@@ -491,8 +620,15 @@
       "servos": "Dynamixel X-Series",
       "status": "In Production"
     },
-    "relatedIds": ["sw1"],
-    "tags": ["Low Cost", "Embodied AI", "USA"]
+    "relatedIds": [
+      "sw1"
+    ],
+    "tags": [
+      "Low Cost",
+      "Embodied AI",
+      "USA"
+    ],
+    "websiteUrl": "https://www.trossenrobotics.com"
   },
   {
     "id": "a1",
@@ -517,7 +653,8 @@
       "Collaborative",
       "Industrial",
       "Denmark"
-    ]
+    ],
+    "websiteUrl": "https://www.universal-robots.com"
   },
   {
     "id": "a2",
@@ -541,7 +678,8 @@
       "Collaborative",
       "Research",
       "Germany"
-    ]
+    ],
+    "websiteUrl": "https://www.franka.de"
   },
   {
     "id": "e1",
@@ -563,7 +701,8 @@
     "tags": [
       "Gripper",
       "Industrial"
-    ]
+    ],
+    "websiteUrl": "https://robotiq.com"
   },
   {
     "id": "e2",
@@ -586,7 +725,8 @@
     "tags": [
       "Dexterous",
       "Research"
-    ]
+    ],
+    "websiteUrl": "https://www.shadowrobot.com"
   },
   {
     "id": "e3",
@@ -603,11 +743,16 @@
       "status": "Open Source"
     },
     "relatedIds": [],
-    "tags": ["Dexterous", "Low Cost", "Open Source"],
+    "tags": [
+      "Dexterous",
+      "Low Cost",
+      "Open Source"
+    ],
     "paperInfo": {
       "authors": "Kumar et al.",
       "arxivUrl": "https://arxiv.org/abs/2306.03869"
-    }
+    },
+    "websiteUrl": "https://leaphand.com"
   },
   {
     "id": "e4",
@@ -624,7 +769,12 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["Dexterous", "Research", "South Korea"]
+    "tags": [
+      "Dexterous",
+      "Research",
+      "South Korea"
+    ],
+    "websiteUrl": "https://www.wonikrobotics.com"
   },
   {
     "id": "e5",
@@ -641,7 +791,12 @@
       "features": "Miniature actuators"
     },
     "relatedIds": [],
-    "tags": ["Dexterous", "China", "Commercial"]
+    "tags": [
+      "Dexterous",
+      "China",
+      "Commercial"
+    ],
+    "websiteUrl": "https://www.inspire-robots.com"
   },
   {
     "id": "e6",
@@ -657,7 +812,12 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["Soft Gripper", "China", "Food-grade"]
+    "tags": [
+      "Soft Gripper",
+      "China",
+      "Food-grade"
+    ],
+    "websiteUrl": "https://www.softrobottech.com"
   },
   {
     "id": "e7",
@@ -676,7 +836,12 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["Dexterous", "China", "Micro-gear"]
+    "tags": [
+      "Dexterous",
+      "China",
+      "Micro-gear"
+    ],
+    "websiteUrl": "https://www.zwhand.com"
   },
   {
     "id": "e8",
@@ -694,7 +859,12 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["Dexterous", "China", "Tactile"]
+    "tags": [
+      "Dexterous",
+      "China",
+      "Tactile"
+    ],
+    "websiteUrl": "https://linkerbot.cn"
   },
   {
     "id": "j1",
@@ -717,7 +887,8 @@
     "tags": [
       "Integrated",
       "High Torque"
-    ]
+    ],
+    "websiteUrl": "https://www.fourierintelligence.com"
   },
   {
     "id": "j2",
@@ -739,7 +910,8 @@
     "tags": [
       "Standardized",
       "South Korea"
-    ]
+    ],
+    "websiteUrl": "https://www.robotis.com"
   },
   {
     "id": "j3",
@@ -756,7 +928,12 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["BLDC", "Research", "China"]
+    "tags": [
+      "BLDC",
+      "Research",
+      "China"
+    ],
+    "websiteUrl": "https://www.tmotor.com"
   },
   {
     "id": "j4",
@@ -772,8 +949,16 @@
       "features": "High power density",
       "status": "In Production"
     },
-    "relatedIds": ["f5", "f6"],
-    "tags": ["Integrated", "High Power", "China"]
+    "relatedIds": [
+      "f5",
+      "f6"
+    ],
+    "tags": [
+      "Integrated",
+      "High Power",
+      "China"
+    ],
+    "websiteUrl": "https://www.unitree.com"
   },
   {
     "id": "j5",
@@ -789,7 +974,12 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["Lightweight", "Humanoid", "China"]
+    "tags": [
+      "Lightweight",
+      "Humanoid",
+      "China"
+    ],
+    "websiteUrl": "https://www.ti5robot.com"
   },
   {
     "id": "c1",
@@ -813,7 +1003,8 @@
     "tags": [
       "Reducer",
       "Zero Backlash"
-    ]
+    ],
+    "websiteUrl": "https://www.harmonicdrive.net"
   },
   {
     "id": "c2",
@@ -834,7 +1025,8 @@
     "tags": [
       "Motor",
       "USA"
-    ]
+    ],
+    "websiteUrl": "https://www.kollmorgen.com"
   },
   {
     "id": "c3",
@@ -850,8 +1042,15 @@
       "backlash": "<1 arcmin",
       "status": "In Production"
     },
-    "relatedIds": ["a1"],
-    "tags": ["Reducer", "Industrial", "Japan"]
+    "relatedIds": [
+      "a1"
+    ],
+    "tags": [
+      "Reducer",
+      "Industrial",
+      "Japan"
+    ],
+    "websiteUrl": "https://www.nabtesco.com"
   },
   {
     "id": "c4",
@@ -866,8 +1065,15 @@
       "domesticRate": ">90% Chinese market share",
       "status": "In Production"
     },
-    "relatedIds": ["c1"],
-    "tags": ["Reducer", "China", "Cost-effective"]
+    "relatedIds": [
+      "c1"
+    ],
+    "tags": [
+      "Reducer",
+      "China",
+      "Cost-effective"
+    ],
+    "websiteUrl": "https://www.leaderdrive.com"
   },
   {
     "id": "c5",
@@ -882,8 +1088,15 @@
       "features": "Wide ratio range, compact",
       "status": "In Production"
     },
-    "relatedIds": ["c1", "c4"],
-    "tags": ["Reducer", "China"]
+    "relatedIds": [
+      "c1",
+      "c4"
+    ],
+    "tags": [
+      "Reducer",
+      "China"
+    ],
+    "websiteUrl": "https://www.laifual.com"
   },
   {
     "id": "s1",
@@ -904,7 +1117,8 @@
     "tags": [
       "Vision",
       "Stereo"
-    ]
+    ],
+    "websiteUrl": "https://www.intelrealsense.com"
   },
   {
     "id": "s2",
@@ -926,7 +1140,8 @@
     "tags": [
       "Force/Torque",
       "Industrial"
-    ]
+    ],
+    "websiteUrl": "https://www.ati-ia.com"
   },
   {
     "id": "s3",
@@ -944,7 +1159,12 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["LiDAR", "Autonomous", "China"]
+    "tags": [
+      "LiDAR",
+      "Autonomous",
+      "China"
+    ],
+    "websiteUrl": "https://www.hesaitech.com"
   },
   {
     "id": "s4",
@@ -961,7 +1181,11 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["LiDAR", "USA"]
+    "tags": [
+      "LiDAR",
+      "USA"
+    ],
+    "websiteUrl": "https://ouster.com"
   },
   {
     "id": "s5",
@@ -977,8 +1201,14 @@
       "resolution": "1280x1024",
       "status": "In Production"
     },
-    "relatedIds": ["s1"],
-    "tags": ["Depth Camera", "China"]
+    "relatedIds": [
+      "s1"
+    ],
+    "tags": [
+      "Depth Camera",
+      "China"
+    ],
+    "websiteUrl": "https://www.orbbec.com"
   },
   {
     "id": "s6",
@@ -995,7 +1225,11 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["Force/Torque", "Compact"]
+    "tags": [
+      "Force/Torque",
+      "Compact"
+    ],
+    "websiteUrl": "https://www.bota.systems"
   },
   {
     "id": "s7",
@@ -1013,8 +1247,13 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["Force/Torque", "China", "Humanoid Supply Chain"],
-    "importance": "high"
+    "tags": [
+      "Force/Torque",
+      "China",
+      "Humanoid Supply Chain"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://www.link-touch.com"
   },
   {
     "id": "en1",
@@ -1036,7 +1275,8 @@
     "tags": [
       "Battery",
       "Solid State"
-    ]
+    ],
+    "websiteUrl": "https://www.amperetime.com"
   },
   {
     "id": "en2",
@@ -1052,8 +1292,15 @@
       "type": "4680 Cylindrical",
       "status": "In Production"
     },
-    "relatedIds": ["f4"],
-    "tags": ["Battery", "EV-derived", "USA"]
+    "relatedIds": [
+      "f4"
+    ],
+    "tags": [
+      "Battery",
+      "EV-derived",
+      "USA"
+    ],
+    "websiteUrl": "https://www.tesla.com"
   },
   {
     "id": "en3",
@@ -1069,7 +1316,12 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["Battery", "LFP", "China"]
+    "tags": [
+      "Battery",
+      "LFP",
+      "China"
+    ],
+    "websiteUrl": "https://www.catl.com"
   },
   {
     "id": "d1",
@@ -1091,7 +1343,8 @@
     "tags": [
       "Teleoperation",
       "Haptics"
-    ]
+    ],
+    "websiteUrl": "https://haptx.com"
   },
   {
     "id": "d2",
@@ -1112,7 +1365,8 @@
     "tags": [
       "Open Source",
       "Low Cost"
-    ]
+    ],
+    "websiteUrl": "https://wuphilipp.github.io/gello_site/"
   },
   {
     "id": "d3",
@@ -1128,14 +1382,22 @@
       "features": "Low-cost, imitation learning",
       "status": "Open Source"
     },
-    "relatedIds": ["sw14", "sw13"],
-    "tags": ["Teleoperation", "Bimanual", "Low Cost"],
+    "relatedIds": [
+      "sw14",
+      "sw13"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Bimanual",
+      "Low Cost"
+    ],
     "importance": "high",
     "paperInfo": {
       "authors": "Tony Z. Zhao et al.",
       "arxivUrl": "https://arxiv.org/abs/2304.13705",
       "codeUrl": "https://github.com/tonyzhaozh/aloha"
-    }
+    },
+    "websiteUrl": "https://aloha-2.github.io"
   },
   {
     "id": "d4",
@@ -1151,13 +1413,21 @@
       "features": "Whole-body mobile manipulation",
       "status": "Open Source"
     },
-    "relatedIds": ["d3", "sw14"],
-    "tags": ["Teleoperation", "Mobile", "Bimanual"],
+    "relatedIds": [
+      "d3",
+      "sw14"
+    ],
+    "tags": [
+      "Teleoperation",
+      "Mobile",
+      "Bimanual"
+    ],
     "importance": "high",
     "paperInfo": {
       "authors": "Zipeng Fu et al.",
       "arxivUrl": "https://arxiv.org/abs/2401.02117"
-    }
+    },
+    "websiteUrl": "https://mobile-aloha.github.io"
   },
   {
     "id": "d5",
@@ -1173,14 +1443,22 @@
       "cost": "~$2,000",
       "status": "Open Source"
     },
-    "relatedIds": ["sw15", "sw13"],
-    "tags": ["Data Collection", "Low Cost", "In-the-wild"],
+    "relatedIds": [
+      "sw15",
+      "sw13"
+    ],
+    "tags": [
+      "Data Collection",
+      "Low Cost",
+      "In-the-wild"
+    ],
     "importance": "high",
     "paperInfo": {
       "authors": "Cheng Chi et al.",
       "arxivUrl": "https://arxiv.org/abs/2402.10329",
       "codeUrl": "https://github.com/real-stanford/universal_manipulation_interface"
-    }
+    },
+    "websiteUrl": "https://github.com/real-stanford/universal_manipulation_interface"
   },
   {
     "id": "d6",
@@ -1196,11 +1474,18 @@
       "cost": "~$3,600",
       "status": "Open Source"
     },
-    "relatedIds": ["d5"],
-    "tags": ["Motion Capture", "Dexterous", "Open Source"],
+    "relatedIds": [
+      "d5"
+    ],
+    "tags": [
+      "Motion Capture",
+      "Dexterous",
+      "Open Source"
+    ],
     "paperInfo": {
       "arxivUrl": "https://arxiv.org/abs/2403.07788"
-    }
+    },
+    "websiteUrl": "https://github.com/j96w/DexCap"
   },
   {
     "id": "cp1",
@@ -1223,7 +1508,8 @@
     "tags": [
       "Edge Compute",
       "GPU"
-    ]
+    ],
+    "websiteUrl": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"
   },
   {
     "id": "cp2",
@@ -1243,7 +1529,8 @@
     ],
     "tags": [
       "Industrial PC"
-    ]
+    ],
+    "websiteUrl": "https://www.advantech.com"
   },
   {
     "id": "cp3",
@@ -1259,9 +1546,18 @@
       "architecture": "Blackwell GPU",
       "status": "In Production"
     },
-    "relatedIds": ["cp1", "sw11", "f4"],
-    "tags": ["Edge Compute", "GPU", "Humanoid"],
-    "importance": "high"
+    "relatedIds": [
+      "cp1",
+      "sw11",
+      "f4"
+    ],
+    "tags": [
+      "Edge Compute",
+      "GPU",
+      "Humanoid"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/"
   },
   {
     "id": "cp4",
@@ -1278,6 +1574,11 @@
       "status": "In Production"
     },
     "relatedIds": [],
-    "tags": ["Edge Compute", "ARM", "China"]
+    "tags": [
+      "Edge Compute",
+      "ARM",
+      "China"
+    ],
+    "websiteUrl": "https://www.rock-chips.com"
   }
 ]

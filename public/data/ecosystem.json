@@ -12,9 +12,16 @@
       "language": "C++/Python",
       "status": "Standard"
     },
-    "relatedIds": ["f1", "f2"],
-    "tags": ["Middleware", "Standard"],
-    "importance": "high"
+    "relatedIds": [
+      "f1",
+      "f2"
+    ],
+    "tags": [
+      "Middleware",
+      "Standard"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://www.ros.org"
   },
   {
     "id": "eco2",
@@ -29,8 +36,14 @@
       "integration": "ROS/ROS2/WebSocket",
       "status": "Active"
     },
-    "relatedIds": ["eco1"],
-    "tags": ["Visualization", "Debugging"]
+    "relatedIds": [
+      "eco1"
+    ],
+    "tags": [
+      "Visualization",
+      "Debugging"
+    ],
+    "websiteUrl": "https://foxglove.dev"
   },
   {
     "id": "eco3",
@@ -46,9 +59,15 @@
       "features": "Planning, IK, collision checking",
       "status": "Standard"
     },
-    "relatedIds": ["eco1"],
-    "tags": ["Motion Planning", "Open Source"],
-    "importance": "high"
+    "relatedIds": [
+      "eco1"
+    ],
+    "tags": [
+      "Motion Planning",
+      "Open Source"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://moveit.ros.org"
   },
   {
     "id": "eco4",
@@ -63,9 +82,19 @@
       "components": "Isaac Sim, Isaac Lab, Isaac Manipulator, GR00T, Cosmos",
       "status": "Active"
     },
-    "relatedIds": ["sw5", "sw3", "sw11", "cp1", "cp3"],
-    "tags": ["Full-Stack", "Simulation-to-Real"],
-    "importance": "high"
+    "relatedIds": [
+      "sw5",
+      "sw3",
+      "sw11",
+      "cp1",
+      "cp3"
+    ],
+    "tags": [
+      "Full-Stack",
+      "Simulation-to-Real"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://developer.nvidia.com/isaac"
   },
   {
     "id": "eco5",
@@ -80,9 +109,17 @@
       "features": "Pretrained models, dataset hub, training pipelines",
       "status": "Active"
     },
-    "relatedIds": ["sw13", "sw14", "sw15"],
-    "tags": ["Open Source", "Community"],
-    "importance": "high"
+    "relatedIds": [
+      "sw13",
+      "sw14",
+      "sw15"
+    ],
+    "tags": [
+      "Open Source",
+      "Community"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://huggingface.co/lerobot"
   },
   {
     "id": "eco6",
@@ -97,8 +134,14 @@
       "platform": "Windows/macOS/Linux",
       "status": "Active"
     },
-    "relatedIds": ["eco1"],
-    "tags": ["Cross-platform", "Conda"]
+    "relatedIds": [
+      "eco1"
+    ],
+    "tags": [
+      "Cross-platform",
+      "Conda"
+    ],
+    "websiteUrl": "https://robostack.github.io"
   },
   {
     "id": "eco7",
@@ -113,9 +156,16 @@
       "features": "Physics-aware video generation, synthetic data for robotics",
       "status": "Available"
     },
-    "relatedIds": ["eco4", "sw11"],
-    "tags": ["World Model", "Synthetic Data"],
-    "importance": "high"
+    "relatedIds": [
+      "eco4",
+      "sw11"
+    ],
+    "tags": [
+      "World Model",
+      "Synthetic Data"
+    ],
+    "importance": "high",
+    "websiteUrl": "https://developer.nvidia.com/cosmos"
   },
   {
     "id": "app1",
@@ -131,8 +181,14 @@
       "ROI": "High",
       "status": "Deploying"
     },
-    "relatedIds": ["f4", "a1"],
-    "tags": ["B2B", "Manufacturing"],
+    "relatedIds": [
+      "f4",
+      "a1"
+    ],
+    "tags": [
+      "B2B",
+      "Manufacturing"
+    ],
     "importance": "high"
   },
   {
@@ -148,8 +204,13 @@
       "environment": "Semi-structured",
       "status": "Scaling"
     },
-    "relatedIds": ["f1"],
-    "tags": ["Logistics", "Warehouse"],
+    "relatedIds": [
+      "f1"
+    ],
+    "tags": [
+      "Logistics",
+      "Warehouse"
+    ],
     "importance": "high"
   },
   {
@@ -166,8 +227,14 @@
       "examples": "1X NEO, Tesla Optimus",
       "status": "Early Stage"
     },
-    "relatedIds": ["f13", "f4"],
-    "tags": ["Home", "B2C"]
+    "relatedIds": [
+      "f13",
+      "f4"
+    ],
+    "tags": [
+      "Home",
+      "B2C"
+    ]
   },
   {
     "id": "app4",
@@ -184,7 +251,10 @@
       "status": "Scaling"
     },
     "relatedIds": [],
-    "tags": ["Agriculture", "Outdoor"]
+    "tags": [
+      "Agriculture",
+      "Outdoor"
+    ]
   },
   {
     "id": "app5",
@@ -200,8 +270,13 @@
       "examples": "Surgical, rehabilitation, care",
       "status": "Growing"
     },
-    "relatedIds": ["a2"],
-    "tags": ["Healthcare", "Surgical"]
+    "relatedIds": [
+      "a2"
+    ],
+    "tags": [
+      "Healthcare",
+      "Surgical"
+    ]
   },
   {
     "id": "app6",
@@ -218,6 +293,9 @@
       "status": "Scaling"
     },
     "relatedIds": [],
-    "tags": ["Inspection", "Industrial"]
+    "tags": [
+      "Inspection",
+      "Industrial"
+    ]
   }
 ]
