@@ -638,7 +638,7 @@
       "dof": 6,
       "payload": "5 kg",
       "type": "Dexterous Hand",
-      "features": "Miniature actuators",
+      "features": "Miniature actuators"
     },
     "relatedIds": [],
     "tags": ["Dexterous", "China", "Commercial"]
