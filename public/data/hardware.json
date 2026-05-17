@@ -4,7 +4,7 @@
     "name": "Memo",
     "company": "Agility Robotics",
     "category": "整机平台",
-    "imageUrl": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?auto=format&fit=crop&q=80&w=600",
+    "imageUrl": "images/hardware/memo.jpg",
     "year": "2024",
     "isNew": false,
     "specs": {
@@ -31,7 +31,7 @@
     "name": "Oli",
     "company": "LimX Dynamics",
     "category": "整机平台",
-    "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=600",
+    "imageUrl": "images/hardware/limx-oli.jpg",
     "year": "2025",
     "isNew": true,
     "specs": {
@@ -58,7 +58,7 @@
     "name": "Optimus Gen 2",
     "company": "Tesla",
     "category": "整机平台",
-    "imageUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600",
+    "imageUrl": "images/hardware/optimus-gen-2.jpg",
     "year": "2024",
     "isNew": false,
     "specs": {
@@ -86,7 +86,7 @@
     "name": "H1-2",
     "company": "Unitree Robotics (宇树科技)",
     "category": "整机平台",
-    "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=600",
+    "imageUrl": "images/hardware/unitree-h1.jpg",
     "year": "2024",
     "isNew": false,
     "specs": {
@@ -114,7 +114,7 @@
     "name": "G1",
     "company": "Unitree Robotics (宇树科技)",
     "category": "整机平台",
-    "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=600",
+    "imageUrl": "images/hardware/g1.jpg",
     "year": "2024",
     "isNew": false,
     "specs": {
@@ -143,7 +143,7 @@
     "name": "Atlas (Electric)",
     "company": "Boston Dynamics",
     "category": "整机平台",
-    "imageUrl": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?auto=format&fit=crop&q=80&w=600",
+    "imageUrl": "images/hardware/atlas.jpg",
     "year": "2024",
     "isNew": true,
     "specs": {
@@ -169,7 +169,7 @@
     "name": "Figure 02",
     "company": "Figure AI",
     "category": "整机平台",
-    "imageUrl": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?auto=format&fit=crop&q=80&w=600",
+    "imageUrl": "images/hardware/figure-02.jpg",
     "year": "2024",
     "isNew": false,
     "specs": {
@@ -197,7 +197,7 @@
     "name": "A2",
     "company": "Agibot (智元机器人)",
     "category": "整机平台",
-    "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=600",
+    "imageUrl": "images/hardware/a2.jpg",
     "year": "2024",
     "isNew": true,
     "specs": {
@@ -225,7 +225,7 @@
     "name": "Walker S1",
     "company": "UBTECH (优必选)",
     "category": "整机平台",
-    "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=600",
+    "imageUrl": "images/hardware/walker-s1.jpg",
     "year": "2025",
     "isNew": true,
     "specs": {
@@ -248,7 +248,7 @@
     "name": "GR-2",
     "company": "Fourier (傅利叶)",
     "category": "整机平台",
-    "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=600",
+    "imageUrl": "images/hardware/gr-2.jpg",
     "year": "2025",
     "isNew": true,
     "specs": {
@@ -273,7 +273,7 @@
     "name": "K2 Bumblebee",
     "company": "Kepler Robot (开普勒)",
     "category": "整机平台",
-    "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=600",
+    "imageUrl": "images/hardware/k2-bumblebee.jpg",
     "year": "2025",
     "isNew": true,
     "specs": {
@@ -297,7 +297,7 @@
     "name": "NEO",
     "company": "1X Technologies",
     "category": "整机平台",
-    "imageUrl": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?auto=format&fit=crop&q=80&w=600",
+    "imageUrl": "images/hardware/neo-beta.jpg",
     "year": "2024",
     "isNew": false,
     "specs": {
@@ -320,7 +320,7 @@
     "name": "KUAVO 5",
     "company": "Leju Robotics (乐聚机器人)",
     "category": "整机平台",
-    "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=600",
+    "imageUrl": "images/hardware/kuavo-my.jpg",
     "year": "2025",
     "isNew": true,
     "specs": {
@@ -343,7 +343,7 @@
     "name": "Xingdong L7",
     "company": "RobotEra (星动纪元)",
     "category": "整机平台",
-    "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=600",
+    "imageUrl": "images/hardware/robotera-l2.jpg",
     "year": "2025",
     "isNew": true,
     "specs": {
@@ -391,7 +391,7 @@
     "name": "Phoenix",
     "company": "Sanctuary AI",
     "category": "整机平台",
-    "imageUrl": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?auto=format&fit=crop&q=80&w=600",
+    "imageUrl": "images/hardware/phoenix.jpg",
     "year": "2024",
     "isNew": false,
     "specs": {
@@ -414,7 +414,7 @@
     "name": "Astribot S1",
     "company": "Astribot (星尘智能)",
     "category": "整机平台",
-    "imageUrl": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=600",
+    "imageUrl": "images/hardware/star1.jpg",
     "year": "2024",
     "isNew": true,
     "specs": {
@@ -1580,5 +1580,2433 @@
       "China"
     ],
     "websiteUrl": "https://www.rock-chips.com"
+  },
+  {
+    "id": "f19",
+    "name": "JIE-1",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/jie-1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "Concept"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ]
+  },
+  {
+    "id": "f20",
+    "name": "SPACED M1",
+    "company": "Muks Robotics (印度)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/spaced-m1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://muksrobotics.com",
+    "importance": "medium"
+  },
+  {
+    "id": "f21",
+    "name": "YM XPLORE 1",
+    "company": "Techman Robot (台湾)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/ym-xplore-1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.techmanrobot.com"
+  },
+  {
+    "id": "f22",
+    "name": "OPTIMUS",
+    "company": "Tesla (特斯拉)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/optimus.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.tesla.com/AI",
+    "importance": "medium"
+  },
+  {
+    "id": "f23",
+    "name": "FIGURE ONE",
+    "company": "Figure AI",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/figure-one.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.figure.ai/",
+    "importance": "medium"
+  },
+  {
+    "id": "a11",
+    "name": "KINO X2",
+    "company": "未知 / 概念",
+    "category": "机械臂",
+    "imageUrl": "images/hardware/kino-x2.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Mobile Manipulator",
+      "status": "Concept"
+    },
+    "tags": [
+      "Manipulator",
+      "Mobile Manipulation"
+    ]
+  },
+  {
+    "id": "f24",
+    "name": "TARS",
+    "company": "TARS Robotics (上海)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/tars.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "importance": "medium"
+  },
+  {
+    "id": "f25",
+    "name": "TULL GET 1",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/tull-get-1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "Concept"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ]
+  },
+  {
+    "id": "f26",
+    "name": "ADAM G0",
+    "company": "PNDbotics (工匠社科技)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/adam-g0.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://pndbotics.com",
+    "importance": "medium"
+  },
+  {
+    "id": "f27",
+    "name": "SPACED P1",
+    "company": "Muks Robotics (印度)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/spaced-p1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://muksrobotics.com",
+    "importance": "medium"
+  },
+  {
+    "id": "f28",
+    "name": "PICHI MAN 1.0",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/pichi-man-1.0.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "Concept"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ]
+  },
+  {
+    "id": "f29",
+    "name": "P1S",
+    "company": "LimX Dynamics (逐际动力)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/p1s.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled-Legged",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled-Legged",
+      "Hybrid"
+    ],
+    "websiteUrl": "https://www.limxdynamics.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f30",
+    "name": "CYBEO",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/cybeo.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "Concept"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ]
+  },
+  {
+    "id": "f31",
+    "name": "BIANMU",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/bianmu.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "Concept"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ]
+  },
+  {
+    "id": "f32",
+    "name": "DECO",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/deco.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "Concept"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ]
+  },
+  {
+    "id": "a12",
+    "name": "JAKA K1",
+    "company": "JAKA Robotics (节卡机器人)",
+    "category": "机械臂",
+    "imageUrl": "images/hardware/jaka-k1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Mobile Manipulator",
+      "status": "In Development"
+    },
+    "tags": [
+      "Manipulator",
+      "Mobile Manipulation"
+    ],
+    "websiteUrl": "https://www.jakarobotics.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f33",
+    "name": "HAWO HANXI",
+    "company": "Haier (海尔)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/hawo-hanxi.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled-Legged",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled-Legged",
+      "Hybrid"
+    ],
+    "websiteUrl": "https://www.haier.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f34",
+    "name": "RAISE M1",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/raise-m1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "Concept"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ]
+  },
+  {
+    "id": "a13",
+    "name": "PANDEL",
+    "company": "未知 / 概念",
+    "category": "机械臂",
+    "imageUrl": "images/hardware/pandel.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Mobile Manipulator",
+      "status": "Concept"
+    },
+    "tags": [
+      "Manipulator",
+      "Mobile Manipulation"
+    ]
+  },
+  {
+    "id": "f35",
+    "name": "EVE-3",
+    "company": "1X Technologies",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/eve-3.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.1x.tech/",
+    "importance": "medium"
+  },
+  {
+    "id": "f36",
+    "name": "MATRIX 1",
+    "company": "Matrix Robotics (矩阵超智)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/matrix-1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://matrixrobotics.ai",
+    "importance": "medium"
+  },
+  {
+    "id": "f37",
+    "name": "LIMO",
+    "company": "AgileX (松灵机器人)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/limo.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.agilex.ai/",
+    "importance": "medium"
+  },
+  {
+    "id": "f38",
+    "name": "H2",
+    "company": "Unitree Robotics (宇树科技)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/h2.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://unitree.com"
+  },
+  {
+    "id": "f39",
+    "name": "TRON",
+    "company": "LimX Dynamics (逐际动力)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/tron.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.limxdynamics.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f40",
+    "name": "SKYWALKER 2",
+    "company": "EIR Technology (四川具身科技)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/skywalker-2.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "importance": "medium",
+    "websiteUrl": "https://eir.com.cn"
+  },
+  {
+    "id": "f41",
+    "name": "GOLDEN BOY 2.0",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/golden-boy-2.0.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "Concept"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ]
+  },
+  {
+    "id": "f42",
+    "name": "RUFUS",
+    "company": "Ascento Robotics (瑞士)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/rufus.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled-Legged",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled-Legged",
+      "Hybrid"
+    ],
+    "websiteUrl": "https://ascento.ch"
+  },
+  {
+    "id": "f43",
+    "name": "MAGICBOT",
+    "company": "MagicLab (魔法原子)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/magicbot.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "importance": "medium",
+    "websiteUrl": "https://magiclab.top"
+  },
+  {
+    "id": "f44",
+    "name": "ASTROBO AD-01",
+    "company": "Galbot (星动纪元)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/astrobo-ad-01.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.galbot.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f45",
+    "name": "DORA",
+    "company": "Noetix Robotics (松延动力)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/dora.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://noetixrobotics.com",
+    "importance": "medium"
+  },
+  {
+    "id": "f46",
+    "name": "NAVIGATOR 2",
+    "company": "浙江人形机器人创新中心",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/navigator-2.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "importance": "medium",
+    "websiteUrl": "https://zj-humanoid.com"
+  },
+  {
+    "id": "f47",
+    "name": "KAPEX",
+    "company": "LG Electronics + KIST (韩国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/kapex.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.lg.com"
+  },
+  {
+    "id": "f48",
+    "name": "MOTION 2",
+    "company": "VinMotion (Vietnam)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/motion-2.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://vinmotion.net"
+  },
+  {
+    "id": "f49",
+    "name": "LUS2",
+    "company": "Lumos Robotics (光魔机器人)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/lus2.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "importance": "medium"
+  },
+  {
+    "id": "f50",
+    "name": "BOOSTER T1",
+    "company": "Booster Robotics (加速进化)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/booster-t1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://booster.tech",
+    "importance": "medium"
+  },
+  {
+    "id": "f51",
+    "name": "AGIBOT X1",
+    "company": "Agibot (智元机器人)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/agibot-x1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.agibot.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f52",
+    "name": "TIAN YI 2.0",
+    "company": "X-Humanoid (北京人形机器人创新中心)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/tian-yi-2.0.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "importance": "medium"
+  },
+  {
+    "id": "f53",
+    "name": "KANGAROO",
+    "company": "PAL Robotics",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/kangaroo.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://pal-robotics.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f54",
+    "name": "PM01",
+    "company": "EngineAI (众擎机器人)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/pm01.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.engineai.com.cn",
+    "importance": "medium"
+  },
+  {
+    "id": "f55",
+    "name": "GENE.01",
+    "company": "Generative Bionics (意大利)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/gene.01.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://gbionics.ai"
+  },
+  {
+    "id": "f56",
+    "name": "ZEUS 1",
+    "company": "PL Universe (中国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/zeus-1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://en.pl-universe.com"
+  },
+  {
+    "id": "f57",
+    "name": "MIRO",
+    "company": "Midea (美的)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/miro.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.midea.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f58",
+    "name": "TIEN KUNG 2.0",
+    "company": "北京具身智能研究院",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/tien-kung-2.0.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "importance": "medium"
+  },
+  {
+    "id": "f59",
+    "name": "SA02",
+    "company": "EngineAI (众擎机器人)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/sa02.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.engineai.com.cn"
+  },
+  {
+    "id": "f60",
+    "name": "REACHY 2",
+    "company": "Pollen Robotics",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/reachy-2.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.pollen-robotics.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f61",
+    "name": "PHYBOT M1",
+    "company": "Phybot Technology (动易科技)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/phybot-m1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://phybot.tech",
+    "importance": "medium"
+  },
+  {
+    "id": "f62",
+    "name": "IGRIS-C",
+    "company": "ROBROS (韩国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/igris-c.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.robros.co.kr",
+    "importance": "medium"
+  },
+  {
+    "id": "f63",
+    "name": "BORG 01",
+    "company": "Borg Robotics (美国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/borg-01.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://borgrobotic.com",
+    "importance": "medium"
+  },
+  {
+    "id": "f64",
+    "name": "ROBAN 2",
+    "company": "Leju Robotics (乐聚机器人)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/roban-2.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.lejurobot.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f65",
+    "name": "HAVAI-T3",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/havai-t3.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "Concept"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ]
+  },
+  {
+    "id": "f66",
+    "name": "HMND 01",
+    "company": "Humanoid (英国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/hmnd-01.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.thehumanoid.ai",
+    "importance": "medium"
+  },
+  {
+    "id": "f67",
+    "name": "MENTEEBOT V3",
+    "company": "Mentee Robotics",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/menteebot-v3.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.menteebotics.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f68",
+    "name": "NIX",
+    "company": "Lumos Robotics (光魔机器人)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/nix.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "importance": "medium"
+  },
+  {
+    "id": "a14",
+    "name": "PB-340",
+    "company": "Elephant Robotics (大象机器人)",
+    "category": "机械臂",
+    "imageUrl": "images/hardware/pb-340.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Mobile Manipulator",
+      "status": "In Development"
+    },
+    "tags": [
+      "Manipulator",
+      "Mobile Manipulation"
+    ],
+    "websiteUrl": "https://www.elephantrobotics.com"
+  },
+  {
+    "id": "f69",
+    "name": "DEXBOT",
+    "company": "博实股份 + 哈工大",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/dexbot.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "http://www.boshiac.com",
+    "importance": "medium"
+  },
+  {
+    "id": "f70",
+    "name": "MOBY",
+    "company": "Noble Machines (美国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/moby.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.noblemachines.ai"
+  },
+  {
+    "id": "f71",
+    "name": "CRUZR S2",
+    "company": "UBTECH (优必选)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/cruzr-s2.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.ubtrobot.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f72",
+    "name": "ORCA",
+    "company": "Cyan Robotics (青犀机器人)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/orca.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://cyanborg.com"
+  },
+  {
+    "id": "f73",
+    "name": "T800",
+    "company": "EngineAI (众擎机器人)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/t800.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.engineai.com.cn"
+  },
+  {
+    "id": "f74",
+    "name": "H2",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/h2.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "Concept"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ]
+  },
+  {
+    "id": "f75",
+    "name": "R1 PRO",
+    "company": "Galaxea AI (星海图动力)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/r1-pro.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://galaxea-ai.com",
+    "importance": "medium"
+  },
+  {
+    "id": "f76",
+    "name": "WALKER S2",
+    "company": "UBTECH (优必选)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/walker-s2.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.ubtrobot.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f77",
+    "name": "A2 MAX",
+    "company": "Agibot (智元机器人)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/a2-max.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.agibot.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f78",
+    "name": "MIROKAI",
+    "company": "Enchanted Tools",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/mirokai.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled-Legged",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled-Legged",
+      "Hybrid"
+    ],
+    "websiteUrl": "https://enchanted.tools/",
+    "importance": "medium"
+  },
+  {
+    "id": "f79",
+    "name": "KEPLER K2",
+    "company": "Kepler Robot (开普勒)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/kepler-k2.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.keplerbot.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f80",
+    "name": "QUANTA X2",
+    "company": "X Square Robot (中国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/quanta-x2.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://x2robot.com",
+    "importance": "medium"
+  },
+  {
+    "id": "f81",
+    "name": "THEMIS V2",
+    "company": "Westwood Robotics (美国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/themis-v2.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.westwoodrobotics.io",
+    "importance": "medium"
+  },
+  {
+    "id": "f82",
+    "name": "AEON",
+    "company": "Hexagon Robotics (瑞士)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/aeon.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled-Legged",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled-Legged",
+      "Hybrid"
+    ],
+    "websiteUrl": "https://robotics.hexagon.com"
+  },
+  {
+    "id": "f83",
+    "name": "HOBBS",
+    "company": "Noetix Robotics (松延动力)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/hobbs.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://noetixrobotics.com",
+    "importance": "medium"
+  },
+  {
+    "id": "f84",
+    "name": "G2 GENIE",
+    "company": "Agibot (智元机器人)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/g2-genie.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.agibot.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f85",
+    "name": "AI WORKER",
+    "company": "ROBOTIS (韩国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/ai-worker.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.robotis.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f86",
+    "name": "ATOM",
+    "company": "DOBOT (越疆科技)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/atom.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.dobot-robots.com"
+  },
+  {
+    "id": "f87",
+    "name": "APPTRONIK APOLLO",
+    "company": "Apptronik",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/apptronik-apollo.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://apptronik.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f88",
+    "name": "WALKER C",
+    "company": "UBTECH (优必选)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/walker-c.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.ubtrobot.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f89",
+    "name": "VEGA",
+    "company": "Dexmate (美国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/vega.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://dexmate.ai",
+    "importance": "medium"
+  },
+  {
+    "id": "f90",
+    "name": "ALICE",
+    "company": "AeiROBOT (韩国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/alice.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "http://eng.arobot4all.com"
+  },
+  {
+    "id": "f91",
+    "name": "GR-1",
+    "company": "Fourier Intelligence (傅利叶智能)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/gr-1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.fourierintelligence.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f92",
+    "name": "SONGXING",
+    "company": "SIASUN (新松机器人)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/songxing.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.siasun.com",
+    "importance": "medium"
+  },
+  {
+    "id": "f93",
+    "name": "KEPLER",
+    "company": "Kepler Robot (开普勒)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/kepler.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.keplerbot.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f94",
+    "name": "YOGI",
+    "company": "Cartwheel Robotics",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/yogi.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://cartwheelrobotics.com"
+  },
+  {
+    "id": "f95",
+    "name": "ROBO",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/robo.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "Concept"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ]
+  },
+  {
+    "id": "f96",
+    "name": "TITAN",
+    "company": "RoboForce (美国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/titan.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Tracked",
+      "status": "In Development"
+    },
+    "tags": [
+      "Tracked",
+      "Outdoor"
+    ],
+    "websiteUrl": "https://roboforce.ai"
+  },
+  {
+    "id": "f97",
+    "name": "ONE1",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/one1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "Concept"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ]
+  },
+  {
+    "id": "f98",
+    "name": "ROBOTART X1",
+    "company": "Elephant Robotics (大象机器人)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/robotart-x1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.elephantrobotics.com"
+  },
+  {
+    "id": "f99",
+    "name": "E-S10",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/e-s10.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "Concept"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ]
+  },
+  {
+    "id": "f100",
+    "name": "BHI A2",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/bhi-a2.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "Concept"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ]
+  },
+  {
+    "id": "f101",
+    "name": "MATRIX 4",
+    "company": "Matrix Robotics (矩阵超智)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/matrix-4.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://matrixrobotics.ai",
+    "importance": "medium"
+  },
+  {
+    "id": "f102",
+    "name": "XIAO T",
+    "company": "Topstar (拓斯达)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/xiao-t.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.topstarmachine.com"
+  },
+  {
+    "id": "f103",
+    "name": "OPTIMUS V2.5",
+    "company": "Tesla (特斯拉)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/optimus-v2.5.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.tesla.com/AI",
+    "importance": "medium"
+  },
+  {
+    "id": "f104",
+    "name": "TOLL ONE",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/toll-one.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "Concept"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ]
+  },
+  {
+    "id": "f105",
+    "name": "CYBERONE",
+    "company": "Xiaomi (小米)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/cyberone.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.mi.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f106",
+    "name": "VERSABOT_VC-1",
+    "company": "Lanxin Technology (蓝芯科技)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/versabot-vc-1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.lanxinrobotics.com"
+  },
+  {
+    "id": "f107",
+    "name": "MAGICBOT 2",
+    "company": "MagicLab (魔法原子)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/magicbot-2.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "importance": "medium",
+    "websiteUrl": "https://magiclab.top"
+  },
+  {
+    "id": "f108",
+    "name": "CLONE ALPHA",
+    "company": "Clone Robotics",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/clone-alpha.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://clonerobotics.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f109",
+    "name": "FIGURE 03",
+    "company": "Figure AI",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/figure-03.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.figure.ai/",
+    "importance": "medium"
+  },
+  {
+    "id": "f110",
+    "name": "SEO1",
+    "company": "EngineAI (众擎机器人)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/seo1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.engineai.com.cn"
+  },
+  {
+    "id": "f111",
+    "name": "ALEX",
+    "company": "Boardwalk Robotics + IHMC (美国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/alex.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ]
+  },
+  {
+    "id": "f112",
+    "name": "HMND_01 ALPHA",
+    "company": "Humanoid (英国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/hmnd-01-alpha.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.thehumanoid.ai",
+    "importance": "medium"
+  },
+  {
+    "id": "f113",
+    "name": "TORA_DOUBLEONE",
+    "company": "PaXini (帕西尼感知)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/tora-doubleone.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled-Legged",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled-Legged",
+      "Hybrid"
+    ],
+    "websiteUrl": "https://www.paxini.com",
+    "importance": "medium"
+  },
+  {
+    "id": "f114",
+    "name": "GALBOT",
+    "company": "Galbot (星动纪元)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/galbot.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.galbot.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f115",
+    "name": "GALBOT S1",
+    "company": "Galbot (星动纪元)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/galbot-s1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.galbot.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f116",
+    "name": "YI-2",
+    "company": "X-Humanoid (北京人形机器人创新中心)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/yi-2.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.x-humanoid.com"
+  },
+  {
+    "id": "f117",
+    "name": "RE-CO",
+    "company": "OWI RobotiKits (美国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/re-co.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://owirobot.com"
+  },
+  {
+    "id": "f118",
+    "name": "MENTEEBOT",
+    "company": "Mentee Robotics",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/menteebot.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.menteebotics.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f119",
+    "name": "SPROUT",
+    "company": "Fauna Robotics (被 Amazon 收购)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/sprout.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ]
+  },
+  {
+    "id": "f120",
+    "name": "MR2",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/mr2.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "Concept"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ]
+  },
+  {
+    "id": "f121",
+    "name": "LION",
+    "company": "Raion Robotics (韩国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/lion.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://raionrobotics.com"
+  },
+  {
+    "id": "f122",
+    "name": "PUDU D7",
+    "company": "Pudu Robotics (普渡科技)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/pudu-d7.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled-Legged",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled-Legged",
+      "Hybrid"
+    ],
+    "websiteUrl": "https://www.pudurobotics.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f123",
+    "name": "RNOID",
+    "company": "Robot.com (美国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/rnoid.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://robot.com"
+  },
+  {
+    "id": "f124",
+    "name": "XTRON KUAVO-MY",
+    "company": "Leju Robotics (乐聚机器人)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/xtron-kuavo-my.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.lejurobot.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f125",
+    "name": "ADAM LITE",
+    "company": "PNDbotics (工匠社科技)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/adam-lite.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://pndbotics.com",
+    "importance": "medium"
+  },
+  {
+    "id": "f126",
+    "name": "STEVE",
+    "company": "Sulu.be (比利时)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/steve.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://jandecoster.com"
+  },
+  {
+    "id": "f127",
+    "name": "CASIVIDOT",
+    "company": "CasiVision (中科慧远)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/casividot.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "importance": "medium",
+    "websiteUrl": "https://en.zhongkehuiyuan.com"
+  },
+  {
+    "id": "f128",
+    "name": "PUDU D9",
+    "company": "Pudu Robotics (普渡科技)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/pudu-d9.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.pudurobotics.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f129",
+    "name": "IRON",
+    "company": "XPeng Robotics (小鹏机器人)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/iron.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://xpeng.com"
+  },
+  {
+    "id": "f130",
+    "name": "ATOM MAX",
+    "company": "DOBOT (越疆科技)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/atom-max.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.dobot-robots.com"
+  },
+  {
+    "id": "f131",
+    "name": "DIGIT",
+    "company": "Agility Robotics",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/digit.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://agilityrobotics.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f132",
+    "name": "KEENON XMAN-R1",
+    "company": "Keenon (擎朗智能)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/keenon-xman-r1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.keenon.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f133",
+    "name": "LIMX CL",
+    "company": "LimX Dynamics (逐际动力)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/limx-cl.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://www.limxdynamics.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f134",
+    "name": "CLOiD",
+    "company": "LG Electronics",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/cloid.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.lg.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f135",
+    "name": "FRIDAY",
+    "company": "Holiday Robotics (韩国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/friday.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://holiday-robotics.com"
+  },
+  {
+    "id": "a15",
+    "name": "FLASHBOT ARM",
+    "company": "Pudu Robotics (普渡科技)",
+    "category": "机械臂",
+    "imageUrl": "images/hardware/flashbot-arm.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Mobile Manipulator",
+      "status": "In Development"
+    },
+    "tags": [
+      "Manipulator",
+      "Mobile Manipulation"
+    ],
+    "websiteUrl": "https://www.pudurobotics.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f136",
+    "name": "DUCO",
+    "company": "SIASUN-DUCO (新松)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/duco.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.siasun.com"
+  },
+  {
+    "id": "f137",
+    "name": "XIAO TUO",
+    "company": "TOPSTAR Group (拓斯达)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/xiao-tuo.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.topstarmachine.com"
+  },
+  {
+    "id": "f138",
+    "name": "PHYBOT C1",
+    "company": "Phybot Technology (动易科技)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/phybot-c1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://phybot.tech",
+    "importance": "medium"
+  },
+  {
+    "id": "f139",
+    "name": "PROWHITE",
+    "company": "PL-Universe Robotics (中国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/prowhite.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://en.pl-universe.com"
+  },
+  {
+    "id": "f140",
+    "name": "OMERO H1",
+    "company": "SwitchBot (科沃斯旗下)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/omero-h1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.switchbot.com"
+  },
+  {
+    "id": "f141",
+    "name": "PHANTOM MK1",
+    "company": "Foundation (美国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/phantom-mk1.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://foundationhci.com"
+  },
+  {
+    "id": "f142",
+    "name": "ALPHA",
+    "company": "UBTECH (优必选)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/alpha.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "websiteUrl": "https://www.ubtrobot.com/",
+    "importance": "medium"
+  },
+  {
+    "id": "f143",
+    "name": "MAKER H01",
+    "company": "GigaAI (中国)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/maker-h01.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled Mobile",
+      "status": "In Development"
+    },
+    "tags": [
+      "Wheeled",
+      "Mobile Base"
+    ],
+    "importance": "medium",
+    "websiteUrl": "https://gigaai.ai"
+  },
+  {
+    "id": "f144",
+    "name": "AIDOL",
+    "company": "AIDOL Lab (俄罗斯)",
+    "category": "整机平台",
+    "imageUrl": "images/hardware/aidol.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "status": "In Development"
+    },
+    "tags": [
+      "Bipedal",
+      "Humanoid"
+    ],
+    "websiteUrl": "https://aidoltech.ru"
+  },
+  {
+    "id": "a16",
+    "name": "KINISI 01",
+    "company": "Kinisi Robotics (美国)",
+    "category": "机械臂",
+    "imageUrl": "images/hardware/kinisi-01.jpg",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Mobile Manipulator",
+      "status": "In Development"
+    },
+    "tags": [
+      "Manipulator",
+      "Mobile Manipulation"
+    ],
+    "websiteUrl": "https://kinisi.com",
+    "importance": "medium"
   }
 ]
