@@ -3430,5 +3430,771 @@
       "website": "https://kinisi.com"
     },
     "importance": "medium"
+  },
+  {
+    "id": "h1",
+    "name": "AERO HAND OPEN",
+    "company": "Chestnut Robotics (原 TetherIA)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/aero-hand-open.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://tetheria.github.io/aero-hand-open/",
+      "description": "5指腱驱 / 开源科研灵巧手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h2",
+    "name": "SVH",
+    "company": "SCHUNK (雄克)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/svh.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://schunk.com",
+      "description": "5指电驱 / 工业与科研灵巧手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h3",
+    "name": "DG-3F-S",
+    "company": "TESOLLO (泰索罗)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/dg-3f-s.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "http://tesollo.com",
+      "description": "3指重载 / 工业气电灵巧手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h4",
+    "name": "HUMA",
+    "company": "New York University",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/huma.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://www.nyu.edu",
+      "description": "5指高度集成 / 人形机器人手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h5",
+    "name": "RH50G2",
+    "company": "因时机器人 (Inspire-Robots)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/rh50g2.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "http://www.inspire-robots.com",
+      "description": "5指连杆电驱 / 通用仿生手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h6",
+    "name": "ZWHAND",
+    "company": "兆威机电 (ZWHAND)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/zwhand.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://www.zwhand.com",
+      "description": "5指微传动 / 高触觉仿生手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h7",
+    "name": "PL-METHAND",
+    "company": "PL UNIVERSE",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/pl-methand.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://pl-universe.com",
+      "description": "5指工具作业 / 工业及假肢手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h8",
+    "name": "YEAH",
+    "company": "Independent / Open Source",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/yeah.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "description": "5指多关节 / 开源科研手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h9",
+    "name": "ABILITY HAND",
+    "company": "PSYONIC",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/ability-hand.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://www.psyonic.io",
+      "description": "5指耐冲击 / 医疗假肢及科研手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h10",
+    "name": "KYBER LABS HAND",
+    "company": "Kyber Labs",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/kyber-labs-hand.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://kyberlabs.ai",
+      "description": "5指高反驱 / 实验室自动化手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h11",
+    "name": "OMNIHAND PRO",
+    "company": "智元机器人 (AGIBOT)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/omnihand-pro.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://www.agibot.com",
+      "description": "5指高触觉 / 人形机器人专用手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h12",
+    "name": "ALLEGRO HAND V4",
+    "company": "WONIK ROBOTICS",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/allegro-hand-v4.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "http://wonikrobotics.com",
+      "description": "4指高动态 / 科研经典灵巧手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h13",
+    "name": "COVVI",
+    "company": "COVVI ROBOTICS",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/covvi.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://www.covvi.com",
+      "description": "5指肌电 / 仿生上肢假肢手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h14",
+    "name": "PHOENIX 3.2",
+    "company": "Sanctuary AI",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/phoenix-3.2.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://www.sanctuary.ai",
+      "description": "5指高负荷 / 具身智能专用手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h15",
+    "name": "YZ-T6",
+    "company": "伟创电气 (VEICHI)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/yz-t6.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://www.veichi.com",
+      "description": "5指精密电驱 / 工业及通用末端"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h16",
+    "name": "ROHAND",
+    "company": "傲意信息 (OYMOTION)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/rohand.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "http://www.oymotion.com",
+      "description": "5指肌电控制 / 假肢与具身通用手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h17",
+    "name": "OMNIHAND",
+    "company": "智元机器人 (AGIBOT)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/omnihand.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://www.agibot.com",
+      "description": "5指紧凑型 / 通用具身智能手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h18",
+    "name": "AEP-H01",
+    "company": "远界机器人 (AFAROBOT)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/aep-h01.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "description": "5指连杆防夹 / 科研教学手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h19",
+    "name": "SURGE",
+    "company": "ALT-BIONICS",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/surge.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://altbionics.com",
+      "description": "5指轻量化 / 假肢与科研手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h20",
+    "name": "RH50 SERIES",
+    "company": "因时机器人 (Inspire-Robots)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/rh50-series.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "http://www.inspire-robots.com",
+      "description": "5指低功耗 / 商业仿生手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h21",
+    "name": "GM18B",
+    "company": "帕西尼 (PaXini Tech)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/gm18b.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "description": "5指微型电驱 / 通用灵巧手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h22",
+    "name": "WUJI HAND",
+    "company": "无迹科技 (WUJI TECH)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/wuji-hand.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "http://wujitech.com",
+      "description": "5指全包裹柔性 / 工业及采摘手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h23",
+    "name": "REVO 2",
+    "company": "探索科技 (AUTODISCOVERY)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/revo-2.jpg",
+    "year": "2023",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "description": "5指流线型 / 商业人形具身手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h24",
+    "name": "DEX-EE",
+    "company": "Shadow Robot Co.",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/dex-ee.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://www.shadowrobot.com",
+      "description": "3指重载 / 工业操作夹爪"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h25",
+    "name": "RH56E2 SERIES",
+    "company": "因时机器人 (Inspire-Robots)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/rh56e2-series.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "http://www.inspire-robots.com",
+      "description": "5指连杆内嵌 / 人形机器人手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h26",
+    "name": "DEX5-1",
+    "company": "宇树科技 (Unitree)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/dex5-1.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://www.unitree.com",
+      "description": "5指超薄一体化 / 科研仿生手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h27",
+    "name": "H2 AZZURRA",
+    "company": "PRENSILIA S.R.L.",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/h2-azzurra.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "http://www.prensilia.com",
+      "description": "5指液压/电驱混合 / 高性能科研手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h28",
+    "name": "ALLEX",
+    "company": "NXROBOTICS",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/allex.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "description": "5指外骨骼连杆 / 极限环境手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h29",
+    "name": "DEXTEROUS HAND",
+    "company": "Shadow Robot Co.",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/dexterous-hand.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://www.shadowrobot.com",
+      "description": "5指经典高自由度 / 触觉科研手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h30",
+    "name": "DEXH5",
+    "company": "帕西尼 (PaXini Tech)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/dexh5.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "description": "5指多维触觉 / 多关节操作手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h31",
+    "name": "R1",
+    "company": "海克斯 (OCEANTRIX ROBOTICS)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/r1.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "http://oceantrix.com",
+      "description": "5指全金属 / 工业级人形末端"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h32",
+    "name": "AGILE",
+    "company": "思灵机器人 (Agile Robots)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/agile.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://www.agile-robots.com",
+      "description": "5指柔性传动 / 工业柔性仿生手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h33",
+    "name": "HXS-D20",
+    "company": "ROBOTIS",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/hxs-d20.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://www.robotis.com",
+      "description": "5指直驱高响应 / 教学与竞赛手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h34",
+    "name": "SHARPWAVE",
+    "company": "SHARPA ROBOTICS",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/sharpwave.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "description": "5指流线电驱 / 人形机器人末端"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h35",
+    "name": "ORCA V1",
+    "company": "ETH Zürich",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/orca-v1.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "description": "5指柔性气动 / 变刚度抓取手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h36",
+    "name": "DEXHAND V2.3",
+    "company": "ROBOT STUDIO",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/dexhand-v2.3.jpg",
+    "year": "2023",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "description": "5指开源线驱 / 深度强化学习科研手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h37",
+    "name": "HERO RGD",
+    "company": "OPEN BIONICS",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/hero-rgd.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://openbionics.com",
+      "description": "5指轻量仿生 / 假肢及创客手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h38",
+    "name": "X2",
+    "company": "迁星 (CHANGINGTEK ROBOTICS)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/x2.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "http://changingtek.com",
+      "description": "5指腱驱联动 / 商业服务手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h39",
+    "name": "DG-5F",
+    "company": "TESOLLO (泰索罗)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/dg-5f.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "http://tesollo.com",
+      "description": "5指多关节连杆 / 高精度抓取手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h40",
+    "name": "XHAND1",
+    "company": "元动力机器人 (ROBOTERA)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/xhand1.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "http://robotera.com",
+      "description": "5指电驱模块化 / 科研教学手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h41",
+    "name": "DEXH13",
+    "company": "帕西尼 (PaXini Tech)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/dexh13.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "description": "5指工业阵列触觉 / 多模态手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h42",
+    "name": "MIA HAND MK2",
+    "company": "PRENSILIA S.R.L.",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/mia-hand-mk2.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "http://www.prensilia.com",
+      "description": "5指符合假肢标准 / 仿生皮肤手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h43",
+    "name": "BIONICSOFTHAND",
+    "company": "FESTO",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/bionicsofthand.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://www.festo.com",
+      "description": "5指全柔性气动 / 纺织包裹仿生手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h44",
+    "name": "DEXMANO D22-PRO",
+    "company": "BOTYARD INTELLIGENCE",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/dexmano-d22-pro.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "description": "5指多自由度 / 强交互具身末端"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h45",
+    "name": "ARTIXON",
+    "company": "乘方机器人 (X SQUARE ROBOT)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/artixon.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "description": "5指直线电机驱动 / 紧凑型仿生手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h46",
+    "name": "APEX HAND",
+    "company": "DEXCELROBOTICS",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/apex-hand.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "http://dexcelrobotics.com",
+      "description": "5指工业级 / 商业人形机器人手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h47",
+    "name": "MAGICAND S01",
+    "company": "逐际动力 (MAGICLAB)",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/magicand-s01.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://www.magiclab.ai",
+      "description": "5指双向驱动 / 具身智能科研手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h48",
+    "name": "SOFTHAND2",
+    "company": "QB ROBOTICS",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/softhand2.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://qbrobotics.com",
+      "description": "19关节单腱联动 / 极端柔性抓取手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h49",
+    "name": "FLLEX",
+    "company": "IRIM LAB KOREATECH",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/fllex.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "description": "5指骨骼化骨架 / 柔性吸震科研手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h50",
+    "name": "ARTUS LITE",
+    "company": "SARCOMERE DYNAMICS",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/artus-lite.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://sarcomeredynamics.com",
+      "description": "5指微型液压/电驱 / 超轻假肢手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h51",
+    "name": "DEXHAND21",
+    "company": "DEXROBOT",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/dexhand21.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "description": "5指高柔顺性 / 强化学习专用手"
+    },
+    "importance": "medium"
+  },
+  {
+    "id": "h52",
+    "name": "M1.0",
+    "company": "MIMIC ROBOTICS",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "/images/hardware/m1.0.jpg",
+    "year": "2024",
+    "isNew": true,
+    "specs": {},
+    "orgInfo": {
+      "website": "https://mimicrobotics.com",
+      "description": "5指高动态反驱 / 镜像遥操作手"
+    },
+    "importance": "medium"
   }
 ]
