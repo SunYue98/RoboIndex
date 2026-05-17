@@ -1,6 +1,6 @@
 import React from 'react';
 import { Category, CATEGORY_MAP } from '../data/entities';
-import { Bot, Armchair, Hand, Cable, CircuitBoard, Eye, Radio, Server, Fingerprint, Activity, Box, Database, Sparkles, BatteryCharging, Wrench, Factory, Cpu, Target, ArrowRightLeft, Link } from 'lucide-react';
+import { Bot, Armchair, Hand, Cable, CircuitBoard, Eye, Radio, Server, Fingerprint, Activity, Box, Database, Sparkles, BatteryCharging, Wrench, Factory, Cpu, Target, ArrowRightLeft, Link, Landmark, Building2, FlaskConical } from 'lucide-react';
 import { useLang } from '../i18n';
 
 interface SystemOverviewProps {
@@ -28,6 +28,10 @@ const iconMap: Record<Category, React.ElementType> = {
   // Ecosystem
   '开发生态': Wrench,
   '应用场景': Factory,
+  // Entities
+  '资本': Landmark,
+  '产业': Building2,
+  '实验室': FlaskConical,
 };
 
 function BrainIcon(props: any) {
@@ -147,6 +151,19 @@ export function SystemOverview({ onSelectCategory }: SystemOverviewProps) {
                {renderCard('评测基准', 'bg-rose-50/30 border-rose-100/60 hover:bg-rose-50/80', 'vertical')}
                {renderCard('应用场景', 'bg-amber-50/30 border-amber-100/60 hover:bg-amber-50/80', 'vertical')}
              </div>
+           </div>
+
+           {/* Section 7: Participants (Entities) */}
+           <div className="md:col-span-12 lg:col-span-12 relative bg-purple-50/30 rounded-[32px] p-2 border border-purple-100/50 flex flex-col hover:border-purple-200 transition-colors group/sec">
+              <div className="px-4 py-3 pb-2 text-[10px] font-bold text-purple-400/80 tracking-[0.2em] uppercase flex items-center justify-between">
+                <span>{t('sys.sec_entities') || 'Participants'}</span>
+                <Link className="w-3 h-3 opacity-0 group-hover/sec:opacity-100 transition-opacity text-purple-400" />
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pb-2 px-2 flex-1">
+                 {renderCard('资本', 'bg-gradient-to-br from-white to-purple-50/50 border-purple-100/60 shadow-sm', 'horizontal')}
+                 {renderCard('产业', 'bg-gradient-to-br from-white to-purple-50/50 border-purple-100/60 shadow-sm', 'horizontal')}
+                 {renderCard('实验室', 'bg-gradient-to-br from-white to-purple-50/50 border-purple-100/60 shadow-sm', 'horizontal')}
+              </div>
            </div>
 
          </div>

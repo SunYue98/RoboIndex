@@ -1,0 +1,127 @@
+import React from 'react';
+import { Entity, PaperInfo, OrgInfo } from '../data/entities';
+import { ArrowUpRight } from 'lucide-react';
+import { useLang } from '../i18n';
+
+export function PaperInfoBlock({ paperInfo, name }: { paperInfo?: PaperInfo, name: string }) {
+  if (!paperInfo) return null;
+  return (
+    <div className="mb-6 flex flex-col gap-2">
+      <h4 className="text-[14px] font-bold text-zinc-900 leading-snug">{name}</h4>
+      <p className="text-[12px] font-medium text-emerald-600/80 leading-snug">{paperInfo.authors}</p>
+      <p className="text-[12px] text-zinc-500 leading-relaxed mt-2 text-justify line-clamp-6 hover:line-clamp-none transition-all duration-300 cursor-pointer" title="Click to expand/collapse abstract">{paperInfo.abstract}</p>
+      
+      <div className="flex gap-2 mt-3">
+        {paperInfo.arxivUrl && (
+          <a href={paperInfo.arxivUrl} target="_blank" rel="noreferrer" className="px-3 py-1.5 rounded-full bg-red-50 text-red-600 hover:bg-red-100 text-[11px] font-bold tracking-wide transition-colors">
+            arXiv
+          </a>
+        )}
+        {paperInfo.codeUrl && (
+          <a href={paperInfo.codeUrl} target="_blank" rel="noreferrer" className="px-3 py-1.5 rounded-full bg-zinc-100 text-zinc-700 hover:bg-zinc-200 text-[11px] font-bold tracking-wide transition-colors">
+            Code
+          </a>
+        )}
+        {paperInfo.projectUrl && (
+          <a href={paperInfo.projectUrl} target="_blank" rel="noreferrer" className="px-3 py-1.5 rounded-full bg-blue-50 text-blue-600 hover:bg-blue-100 text-[11px] font-bold tracking-wide transition-colors">
+            Project
+          </a>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export function OrgInfoBlock({ orgInfo, name }: { orgInfo?: OrgInfo, name: string }) {
+  if (!orgInfo) return null;
+  return (
+    <div className="mb-6 flex flex-col gap-3">
+      <h4 className="text-[14px] font-bold text-zinc-900 leading-snug">{name}</h4>
+      {orgInfo.description && (
+        <p className="text-[12px] text-zinc-500 leading-relaxed text-justify">{orgInfo.description}</p>
+      )}
+      
+      {orgInfo.location && (
+        <div className="flex items-center gap-2 mt-1">
+          <span className="text-[11px] font-[600] text-zinc-400 uppercase tracking-widest leading-none">Location</span>
+          <span className="text-[12px] font-[500] text-zinc-700 leading-none">{orgInfo.location}</span>
+        </div>
+      )}
+      
+      <div className="flex gap-2 mt-2">
+        {orgInfo.website && (
+          <a href={orgInfo.website} target="_blank" rel="noreferrer" className="px-3 py-1.5 rounded-full bg-zinc-100 text-zinc-700 hover:bg-zinc-200 text-[11px] font-bold tracking-wide transition-colors flex items-center gap-1">
+            Website <ArrowUpRight className="w-3 h-3" />
+          </a>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export function SpecsList({ specs }: { specs?: Record<string, any> }) {
+  if (!specs || Object.keys(specs).length === 0) return null;
+  
+  const formatLabel = (key: string) => key.charAt(0).toUpperCase() + key.slice(1);
+
+  return (
+    <div className="flex flex-col border-b border-zinc-100 pb-4 mb-4">
+      {Object.entries(specs).map(([key, val]) => (
+         <div className="flex items-center w-full justify-between py-[12px]" key={key}>
+           <div className="w-[80px] text-left text-[12px] font-[500] text-zinc-400 shrink-0">
+             {formatLabel(key)}
+           </div>
+           <div className="flex-1 text-left text-[14px] font-[500] text-zinc-600 line-clamp-2">
+             {Array.isArray(val) ? val.join(', ') : (val || '—')}
+           </div>
+         </div>
+      ))}
+    </div>
+  );
+}
+
+export function TagsList({ tags }: { tags?: string[] }) {
+  if (!tags || tags.length === 0) return null;
+  return (
+    <div className="flex flex-wrap gap-2 mb-2">
+      {tags.map(tag => (
+        <span key={tag} className="px-3 py-1.5 rounded-full border border-zinc-200 text-[12px] font-[500] text-zinc-500 tracking-tight">
+          {tag}
+        </span>
+      ))}
+    </div>
+  );
+}
+
+export function RelatedLinksList({ 
+  relatedEntities, 
+  onNavigateToEntity 
+}: { 
+  relatedEntities?: Entity[], 
+  onNavigateToEntity?: (id: string) => void 
+}) {
+  const { t } = useLang();
+  
+  if (!relatedEntities || relatedEntities.length === 0) return null;
+  
+  return (
+    <div className="flex flex-col gap-2 mt-2">
+      <h4 className="text-[11px] font-bold text-zinc-400 uppercase tracking-widest mb-1">{t('panel.related')}</h4>
+      <div className="flex flex-wrap gap-2">
+        {relatedEntities.map(rel => (
+          <button 
+            key={rel.id} 
+            onClick={() => onNavigateToEntity?.(rel.id)}
+            className="group flex flex-col items-start px-3 py-2 rounded-[12px] bg-white border border-zinc-200 shadow-sm hover:border-zinc-300 hover:shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-zinc-400 active:scale-[0.98] w-full"
+          >
+             <div className="flex items-center gap-1.5 w-full">
+               <span className="w-1.5 h-1.5 rounded-full bg-zinc-400 group-hover:bg-zinc-600 transition-colors"></span>
+               <span className="text-[10px] font-bold text-zinc-400 uppercase tracking-wider">{t(rel.category)}</span>
+             </div>
+             <span className="text-[13px] font-[600] text-zinc-700 mt-1">{rel.name}</span>
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}

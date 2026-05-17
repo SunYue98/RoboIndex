@@ -1,7 +1,6 @@
 import { memo } from 'react';
 import { Minus } from 'lucide-react';
 import { motion } from 'motion/react';
-import { resolveImageUrl } from '../data/entities';
 
 export interface EntityCardData {
   id: string;
@@ -105,7 +104,7 @@ export const EntityCard = memo(function EntityCard({
          )}
          <motion.img
            layout
-           src={resolveImageUrl(data.image)}
+           src={data.image}
            alt={data.title}
            className="w-full h-full object-contain mix-blend-multiply drop-shadow-2xl transition-all duration-700 ease-out group-hover:scale-110 group-hover:-rotate-2"
            draggable="false"

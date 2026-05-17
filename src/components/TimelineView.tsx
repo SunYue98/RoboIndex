@@ -1,4 +1,4 @@
-import { Entity, Category, CATEGORY_MAP, TOP_LEVEL_GROUPS, resolveImageUrl } from '../data/entities';
+import { Entity, Category, CATEGORY_MAP, TOP_LEVEL_GROUPS } from '../data/entities';
 import { motion, AnimatePresence } from 'motion/react';
 import { Calendar, Search, Filter, X, ChevronRight, Hash } from 'lucide-react';
 import { useLang } from '../i18n';
@@ -7,9 +7,11 @@ import { useRef, useState, useEffect, useMemo } from 'react';
 interface TimelineViewProps {
   onNavigateToEntity: (id: string) => void;
   mockData: Entity[];
+  focusEntityId?: string | null;
+  onClearFocus?: () => void;
 }
 
-export function TimelineView({ onNavigateToEntity, mockData }: TimelineViewProps) {
+export function TimelineView({ onNavigateToEntity, mockData, focusEntityId, onClearFocus }: TimelineViewProps) {
   const { t } = useLang();
   const scrollRef = useRef<HTMLDivElement>(null);
 
@@ -27,13 +29,36 @@ export function TimelineView({ onNavigateToEntity, mockData }: TimelineViewProps
 
   // Filter Data
   const filteredData = useMemo(() => {
-    return mockData.filter(entity => {
+    let sourceData = mockData;
+    
+    if (focusEntityId) {
+       const focusEntity = sourceData.find(e => e.id === focusEntityId);
+       if (focusEntity) {
+         const relatedList = new Set<string>();
+         relatedList.add(focusEntity.id);
+         
+         if (focusEntity.relatedIds) {
+           focusEntity.relatedIds.forEach(id => relatedList.add(id));
+         }
+         
+         // Add entities that point TO this entity
+         sourceData.forEach(e => {
+           if (e.relatedIds?.includes(focusEntity.id)) {
+             relatedList.add(e.id);
+           }
+         });
+         
+         sourceData = sourceData.filter(e => relatedList.has(e.id));
+       }
+    }
+
+    return sourceData.filter(entity => {
       const matchesSearch = entity.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
                             entity.company.toLowerCase().includes(searchQuery.toLowerCase());
       const matchesCat = selectedCategory === 'All' || entity.category === selectedCategory;
       return matchesSearch && matchesCat;
     });
-  }, [searchQuery, selectedCategory, mockData]);
+  }, [searchQuery, selectedCategory, mockData, focusEntityId]);
 
   // Group by year
   const grouped = useMemo(() => {
@@ -111,6 +136,23 @@ export function TimelineView({ onNavigateToEntity, mockData }: TimelineViewProps
              {selectedCategory === 'All' ? t('nav.filter') || 'Filter' : selectedCategory}
            </button>
         </div>
+
+        {focusEntityId && mockData.find(e => e.id === focusEntityId) && (
+          <motion.div 
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="flex items-center gap-3 px-4 py-2 bg-amber-50 border border-amber-200/50 rounded-full w-max text-[13px] font-bold text-amber-700 shadow-sm"
+          >
+            <span>{t('timeline.focus') || 'Focused on:'} {mockData.find(e => e.id === focusEntityId)?.name}</span>
+            <button 
+               onClick={onClearFocus}
+               className="p-1 rounded-full bg-amber-100/50 hover:bg-amber-200/80 text-amber-700 transition-colors"
+               title="Clear Focus"
+            >
+               <X className="w-3.5 h-3.5" />
+            </button>
+          </motion.div>
+        )}
 
         {/* Filter Drawer */}
         <AnimatePresence>
@@ -212,7 +254,7 @@ export function TimelineView({ onNavigateToEntity, mockData }: TimelineViewProps
                            <div className={`rounded-[16px] overflow-hidden shrink-0 flex items-center justify-center p-2 bg-gradient-to-br from-zinc-50 to-zinc-100 shadow-inner
                              ${isImportant ? 'w-20 h-20' : 'w-16 h-16'}
                            `}>
-                              <img src={resolveImageUrl(entity.imageUrl)} alt={entity.name} className="w-full h-full object-contain mix-blend-multiply group-hover:scale-110 group-hover:-rotate-3 transition-all duration-500 ease-out pointer-events-none" />
+                              <img src={entity.imageUrl} alt={entity.name} className="w-full h-full object-contain mix-blend-multiply group-hover:scale-110 group-hover:-rotate-3 transition-all duration-500 ease-out pointer-events-none" />
                            </div>
                            <div className="flex flex-col items-start gap-1.5 flex-1">
                               <div className="flex flex-wrap gap-1.5">

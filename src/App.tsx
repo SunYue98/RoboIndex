@@ -13,7 +13,7 @@ import { GridView } from './components/GridView';
 import { ContactModal, SubmitModal } from './components/Modals';
 import { useLang } from './i18n';
 
-export type MainTab = '全景架构' | '演进脉络' | '硬件' | '软件' | '生态与应用';
+export type MainTab = '全景架构' | '演进脉络' | '硬件' | '软件' | '生态与应用' | '参与实体';
 
 export default function App() {
   const [mockData, setMockData] = useState<Entity[]>([]);
@@ -33,13 +33,15 @@ export default function App() {
   const [hardwareCat, setHardwareCat] = useState<Category>('整机平台');
   const [softwareCat, setSoftwareCat] = useState<Category>('基础模型');
   const [ecoCat, setEcoCat] = useState<Category>('开发生态');
+  const [playersCat, setPlayersCat] = useState<Category>('产业');
+  const [timelineFocusId, setTimelineFocusId] = useState<string | null>(null);
 
   const { lang, setLang, t } = useLang();
   const [contactOpen, setContactOpen] = useState(false);
   const [submitOpen, setSubmitOpen] = useState(false);
   const [showGridView, setShowGridView] = useState(false);
 
-  const activeCategory = mainTab === '硬件' ? hardwareCat : (mainTab === '软件' ? softwareCat : ecoCat);
+  const activeCategory = mainTab === '硬件' ? hardwareCat : (mainTab === '软件' ? softwareCat : (mainTab === '生态与应用' ? ecoCat : playersCat));
 
   const list = useMemo(() => {
     return mockData.filter(d => d.category === activeCategory);
@@ -84,9 +86,12 @@ export default function App() {
     } else if (CATEGORY_MAP['软件'].includes(cat)) {
       setSoftwareCat(cat);
       setMainTab('软件');
-    } else {
+    } else if (CATEGORY_MAP['生态与应用'].includes(cat)) {
       setEcoCat(cat);
       setMainTab('生态与应用');
+    } else if (CATEGORY_MAP['参与实体'] && CATEGORY_MAP['参与实体'].includes(cat)) {
+      setPlayersCat(cat);
+      setMainTab('参与实体');
     }
   };
 
@@ -96,6 +101,7 @@ export default function App() {
     
     const isHardware = CATEGORY_MAP['硬件'].includes(entity.category);
     const isSoftware = CATEGORY_MAP['软件'].includes(entity.category);
+    const isEco = CATEGORY_MAP['生态与应用'].includes(entity.category);
     
     if (isHardware) {
       setMainTab('硬件');
@@ -103,9 +109,12 @@ export default function App() {
     } else if (isSoftware) {
       setMainTab('软件');
       setSoftwareCat(entity.category);
-    } else {
+    } else if (isEco) {
       setMainTab('生态与应用');
       setEcoCat(entity.category);
+    } else {
+      setMainTab('参与实体');
+      setPlayersCat(entity.category);
     }
     setLeftId(entityId);
     setIsComparing(false);
@@ -199,10 +208,13 @@ export default function App() {
                
              {/* Main Top Navigation */}
              <div className="flex items-center gap-1 bg-zinc-100/80 p-1 rounded-full border border-zinc-200/50 shadow-sm shrink-0">
-                  {(['全景架构', '演进脉络', '硬件', '软件', '生态与应用'] as MainTab[]).map(tab => (
+                  {(['全景架构', '演进脉络', '硬件', '软件', '生态与应用', '参与实体'] as MainTab[]).map(tab => (
                     <button 
                       key={tab}
-                      onClick={() => setMainTab(tab)}
+                      onClick={() => {
+                        setMainTab(tab);
+                        if (tab !== '演进脉络') setTimelineFocusId(null);
+                      }}
                       className={`px-4 sm:px-5 py-1.5 rounded-full text-[13px] font-[600] transition-all duration-300 focus:outline-none whitespace-nowrap ${
                         mainTab === tab 
                           ? 'text-zinc-900 shadow-[0_2px_10px_-2px_rgba(0,0,0,0.1)] border border-black/5 bg-gradient-to-b from-white to-zinc-50' 
@@ -272,7 +284,12 @@ export default function App() {
                  transition={{ duration: 0.4 }}
                  className="w-full h-full flex items-start justify-center pt-4"
                >
-                 <TimelineView onNavigateToEntity={handleNavigateToEntity} mockData={mockData} />
+                 <TimelineView 
+                   onNavigateToEntity={handleNavigateToEntity} 
+                   mockData={mockData} 
+                   focusEntityId={timelineFocusId}
+                   onClearFocus={() => setTimelineFocusId(null)}
+                 />
                </motion.div>
             ) : (
                <motion.div
@@ -301,7 +318,16 @@ export default function App() {
                           transition={{ type: 'spring', bounce: 0.2, duration: 0.8 }}
                           className="overflow-hidden"
                         >
-                          <SingleSpecsPanel entity={leftEntity} mockData={mockData} onFindRelated={() => setMainTab('全景架构')} onNavigateToEntity={handleNavigateToEntity} />
+                          <SingleSpecsPanel 
+                            entity={leftEntity} 
+                            mockData={mockData} 
+                            onFindRelated={() => setMainTab('全景架构')} 
+                            onNavigateToEntity={handleNavigateToEntity} 
+                            onViewEvolution={() => {
+                              setTimelineFocusId(leftEntity.id);
+                              setMainTab('演进脉络');
+                            }}
+                          />
                         </motion.div>
                       )}
 

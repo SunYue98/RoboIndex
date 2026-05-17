@@ -13,6 +13,7 @@ When instructed to add, remove, or modify robotics information or entities, **DO
 *   **`public/data/hardware.json`**: Hardware related entities. Categories: `整机平台`, `机械臂`, `灵巧手 & 夹爪`, `关节模组`, `核心零部件`, `传感器`, `能源动力`, `数采 & 遥操`, `计算平台`.
 *   **`public/data/software.json`**: Software related entities. Categories: `基础模型`, `算法框架`, `控制算法`, `仿真平台`, `数据集`, `评测基准`.
 *   **`public/data/ecosystem.json`**: Ecosystem & Applications. Categories: `开发生态`, `应用场景`.
+*   **`public/data/players.json`**: Involved Entities (参与实体). Categories: `资本`, `产业`, `实验室`.
 
 When searching for information or inserting new entities, ensure the `category`, `id`, and structured data (such as `specs`, `tags`, `year`) precisely match the TypeScript interface `Entity` defined in `src/data/entities.ts`.
 

@@ -1,27 +1,22 @@
-import { ArrowUpRight, Network } from 'lucide-react';
+import { ArrowUpRight, History } from 'lucide-react';
 import { Entity } from '../data/entities';
 import { motion } from 'motion/react';
 import { useLang } from '../i18n';
+import { PaperInfoBlock, OrgInfoBlock, SpecsList, TagsList, RelatedLinksList } from './EntityDetailBlocks';
 
 interface SingleSpecsPanelProps {
   entity: Entity;
   mockData: Entity[];
-  onFindRelated?: () => void;
   onNavigateToEntity?: (entityId: string) => void;
+  onViewEvolution?: () => void;
 }
 
-export function SingleSpecsPanel({ entity, mockData, onFindRelated, onNavigateToEntity }: SingleSpecsPanelProps) {
+export function SingleSpecsPanel({ entity, mockData, onNavigateToEntity, onViewEvolution }: SingleSpecsPanelProps) {
   const { t } = useLang();
-  const tags = entity.tags || [];
 
   const relatedEntities = (entity.relatedIds || [])
     .map(id => mockData.find(e => e.id === id))
     .filter((e): e is Entity => e !== undefined);
-
-  // Capitalize first letter of spec keys
-  const formatLabel = (key: string) => {
-    return key.charAt(0).toUpperCase() + key.slice(1);
-  };
 
   return (
     <motion.div 
@@ -29,108 +24,39 @@ export function SingleSpecsPanel({ entity, mockData, onFindRelated, onNavigateTo
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -20 }}
       transition={{ duration: 0.5, type: 'spring', bounce: 0.2 }}
-      className={`flex flex-col ml-8 h-[600px] overflow-y-auto no-scrollbar pt-12 ${entity.paperInfo ? 'w-[320px] pr-2' : 'w-[240px]'}`}
+      className={`flex flex-col ml-8 h-[600px] overflow-y-auto no-scrollbar pt-12 ${entity.paperInfo || entity.orgInfo ? 'w-[320px] pr-2' : 'w-[240px]'}`}
     >
       <div className="flex flex-col mb-4">
-        {entity.paperInfo && (
-          <div className="mb-6 flex flex-col gap-2">
-            <h4 className="text-[14px] font-bold text-zinc-900 leading-snug">{entity.name}</h4>
-            <p className="text-[12px] font-medium text-emerald-600/80 leading-snug">{entity.paperInfo.authors}</p>
-            <p className="text-[12px] text-zinc-500 leading-relaxed mt-2 text-justify line-clamp-6 hover:line-clamp-none transition-all duration-300 cursor-pointer" title="Click to expand/collapse abstract">{entity.paperInfo.abstract}</p>
-            
-            <div className="flex gap-2 mt-3">
-              {entity.paperInfo.arxivUrl && (
-                <a href={entity.paperInfo.arxivUrl} target="_blank" rel="noreferrer" className="px-3 py-1.5 rounded-full bg-red-50 text-red-600 hover:bg-red-100 text-[11px] font-bold tracking-wide transition-colors">
-                  arXiv
-                </a>
-              )}
-              {entity.paperInfo.codeUrl && (
-                <a href={entity.paperInfo.codeUrl} target="_blank" rel="noreferrer" className="px-3 py-1.5 rounded-full bg-zinc-100 text-zinc-700 hover:bg-zinc-200 text-[11px] font-bold tracking-wide transition-colors">
-                  Code
-                </a>
-              )}
-              {entity.paperInfo.projectUrl && (
-                <a href={entity.paperInfo.projectUrl} target="_blank" rel="noreferrer" className="px-3 py-1.5 rounded-full bg-blue-50 text-blue-600 hover:bg-blue-100 text-[11px] font-bold tracking-wide transition-colors">
-                  Project
-                </a>
-              )}
-            </div>
-          </div>
-        )}
-
-        <div className="flex flex-col border-b border-zinc-100 pb-4">
-          {Object.entries(entity.specs).map(([key, val]) => (
-             <div className="flex items-center w-full justify-between py-[12px]" key={key}>
-               <div className="w-[80px] text-left text-[12px] font-[500] text-zinc-400 shrink-0">
-                 {formatLabel(key)}
-               </div>
-               <div className="flex-1 text-left text-[14px] font-[500] text-zinc-600 line-clamp-1">
-                 {val || '—'}
-               </div>
-             </div>
-          ))}
-        </div>
-      </div>
-
-      <div className="flex flex-col gap-3 mb-auto">
-        {tags.length > 0 && (
-          <div className="flex flex-wrap gap-2">
-            {tags.map(tag => (
-              <span key={tag} className="px-3 py-1.5 rounded-full border border-zinc-200 text-[12px] font-[500] text-zinc-500 tracking-tight">
-                {tag}
-              </span>
-            ))}
-          </div>
-        )}
-
-        {relatedEntities.length > 0 && (
-          <div className="flex flex-col gap-2 mt-2">
-            <h4 className="text-[11px] font-bold text-zinc-400 uppercase tracking-widest mb-1">{t('panel.related')}</h4>
-            <div className="flex flex-wrap gap-2">
-              {relatedEntities.map(rel => (
-                <button 
-                  key={rel.id} 
-                  onClick={() => onNavigateToEntity?.(rel.id)}
-                  className="group flex flex-col items-start px-3 py-2 rounded-[12px] bg-white border border-zinc-200 shadow-sm hover:border-zinc-300 hover:shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-zinc-400 active:scale-[0.98] w-full"
-                >
-                   <div className="flex items-center gap-1.5 w-full">
-                     <span className="w-1.5 h-1.5 rounded-full bg-zinc-400 group-hover:bg-zinc-600 transition-colors"></span>
-                     <span className="text-[10px] font-bold text-zinc-400 uppercase tracking-wider">{t(rel.category)}</span>
-                   </div>
-                   <span className="text-[13px] font-[600] text-zinc-700 mt-1">{rel.name}</span>
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
-      </div>
-
-      <div className="flex flex-col gap-3">
-        {onFindRelated && (
-          <button 
-            onClick={onFindRelated}
-            className="flex items-center justify-between w-full px-4 py-3 bg-zinc-50 border border-zinc-200 rounded-[16px] text-[13px] font-[500] tracking-tight text-zinc-600 hover:border-zinc-300 hover:bg-zinc-100 transition-all focus:outline-none focus:ring-2 focus:ring-zinc-200 group mt-4"
-          >
-            <div className="flex items-center gap-2">
-              <Network className="w-4 h-4 text-zinc-400 group-hover:text-zinc-600 transition-colors" />
-              <span>{t('panel.system_link')}</span>
-            </div>
-          </button>
-        )}
+        {entity.paperInfo && <PaperInfoBlock paperInfo={entity.paperInfo} name={entity.name} />}
+        {entity.orgInfo && <OrgInfoBlock orgInfo={entity.orgInfo} name={entity.name} />}
         
-        {entity.websiteUrl && (
-          <a
-            href={entity.websiteUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="flex items-center justify-between w-full px-4 py-3 bg-zinc-900 border border-zinc-900 rounded-full text-[13px] font-[500] tracking-tight text-white hover:bg-zinc-800 transition-all focus:outline-none focus:ring-2 focus:ring-zinc-900 group"
-          >
+        <div className="flex flex-col gap-3 mb-6">
+          {onViewEvolution && (
+            <button 
+              onClick={onViewEvolution}
+              className="flex items-center w-full px-4 py-3 bg-amber-50 border border-amber-200/50 justify-center rounded-[16px] text-[13px] font-bold tracking-tight text-amber-700 hover:border-amber-300 hover:bg-amber-100 transition-all focus:outline-none focus:ring-2 focus:ring-amber-200 group"
+            >
+              <div className="flex items-center gap-2">
+                <History className="w-4 h-4" />
+                <span>{t('panel.evolution_timeline') || '追踪演进脉络'}</span>
+              </div>
+            </button>
+          )}
+          
+          <button className="flex items-center justify-between w-full px-4 py-3 bg-zinc-900 border border-zinc-900 rounded-full text-[13px] font-[500] tracking-tight text-white hover:bg-zinc-800 transition-all focus:outline-none focus:ring-2 focus:ring-zinc-900 group">
             <span>{t('panel.visit')}</span>
             <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center text-white group-hover:bg-white/30 transition-colors">
               <ArrowUpRight className="w-3 h-3" />
             </div>
-          </a>
-        )}
+          </button>
+        </div>
+
+        <SpecsList specs={entity.specs} />
+      </div>
+
+      <div className="flex flex-col gap-3 mb-auto">
+        <TagsList tags={entity.tags} />
+        <RelatedLinksList relatedEntities={relatedEntities} onNavigateToEntity={onNavigateToEntity} />
       </div>
     </motion.div>
   );

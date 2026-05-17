@@ -20,8 +20,7 @@
       "Middleware",
       "Standard"
     ],
-    "importance": "high",
-    "websiteUrl": "https://www.ros.org"
+    "importance": "high"
   },
   {
     "id": "eco2",
@@ -42,130 +41,7 @@
     "tags": [
       "Visualization",
       "Debugging"
-    ],
-    "websiteUrl": "https://foxglove.dev"
-  },
-  {
-    "id": "eco3",
-    "name": "MoveIt 2",
-    "company": "Open Source (PickNik)",
-    "category": "开发生态",
-    "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=600",
-    "year": "2023",
-    "isNew": false,
-    "specs": {
-      "type": "Motion Planning Framework",
-      "integration": "ROS 2",
-      "features": "Planning, IK, collision checking",
-      "status": "Standard"
-    },
-    "relatedIds": [
-      "eco1"
-    ],
-    "tags": [
-      "Motion Planning",
-      "Open Source"
-    ],
-    "importance": "high",
-    "websiteUrl": "https://moveit.ros.org"
-  },
-  {
-    "id": "eco4",
-    "name": "NVIDIA Isaac Ecosystem",
-    "company": "NVIDIA",
-    "category": "开发生态",
-    "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600",
-    "year": "2025",
-    "isNew": true,
-    "specs": {
-      "type": "Full-Stack Robotics Platform",
-      "components": "Isaac Sim, Isaac Lab, Isaac Manipulator, GR00T, Cosmos",
-      "status": "Active"
-    },
-    "relatedIds": [
-      "sw5",
-      "sw3",
-      "sw11",
-      "cp1",
-      "cp3"
-    ],
-    "tags": [
-      "Full-Stack",
-      "Simulation-to-Real"
-    ],
-    "importance": "high",
-    "websiteUrl": "https://developer.nvidia.com/isaac"
-  },
-  {
-    "id": "eco5",
-    "name": "Hugging Face LeRobot",
-    "company": "Hugging Face",
-    "category": "开发生态",
-    "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600",
-    "year": "2024",
-    "isNew": true,
-    "specs": {
-      "type": "Imitation Learning Platform",
-      "features": "Pretrained models, dataset hub, training pipelines",
-      "status": "Active"
-    },
-    "relatedIds": [
-      "sw13",
-      "sw14",
-      "sw15"
-    ],
-    "tags": [
-      "Open Source",
-      "Community"
-    ],
-    "importance": "high",
-    "websiteUrl": "https://huggingface.co/lerobot"
-  },
-  {
-    "id": "eco6",
-    "name": "RoboStack",
-    "company": "Open Source",
-    "category": "开发生态",
-    "imageUrl": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=600",
-    "year": "2023",
-    "isNew": false,
-    "specs": {
-      "type": "ROS via Conda",
-      "platform": "Windows/macOS/Linux",
-      "status": "Active"
-    },
-    "relatedIds": [
-      "eco1"
-    ],
-    "tags": [
-      "Cross-platform",
-      "Conda"
-    ],
-    "websiteUrl": "https://robostack.github.io"
-  },
-  {
-    "id": "eco7",
-    "name": "NVIDIA Cosmos",
-    "company": "NVIDIA",
-    "category": "开发生态",
-    "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600",
-    "year": "2025",
-    "isNew": true,
-    "specs": {
-      "type": "World Foundation Model",
-      "features": "Physics-aware video generation, synthetic data for robotics",
-      "status": "Available"
-    },
-    "relatedIds": [
-      "eco4",
-      "sw11"
-    ],
-    "tags": [
-      "World Model",
-      "Synthetic Data"
-    ],
-    "importance": "high",
-    "websiteUrl": "https://developer.nvidia.com/cosmos"
+    ]
   },
   {
     "id": "app1",
@@ -188,8 +64,7 @@
     "tags": [
       "B2B",
       "Manufacturing"
-    ],
-    "importance": "high"
+    ]
   },
   {
     "id": "app2",
@@ -210,92 +85,6 @@
     "tags": [
       "Logistics",
       "Warehouse"
-    ],
-    "importance": "high"
-  },
-  {
-    "id": "app3",
-    "name": "Home Service",
-    "company": "Various",
-    "category": "应用场景",
-    "imageUrl": "https://images.unsplash.com/photo-1586528116311-ad8ed7c50a6f?auto=format&fit=crop&q=80&w=600",
-    "year": "2025",
-    "isNew": true,
-    "specs": {
-      "type": "B2C",
-      "environment": "Unstructured",
-      "examples": "1X NEO, Tesla Optimus",
-      "status": "Early Stage"
-    },
-    "relatedIds": [
-      "f13",
-      "f4"
-    ],
-    "tags": [
-      "Home",
-      "B2C"
-    ]
-  },
-  {
-    "id": "app4",
-    "name": "Agriculture",
-    "company": "Various",
-    "category": "应用场景",
-    "imageUrl": "https://images.unsplash.com/photo-1586528116311-ad8ed7c50a6f?auto=format&fit=crop&q=80&w=600",
-    "year": "2024",
-    "isNew": false,
-    "specs": {
-      "type": "B2B",
-      "environment": "Outdoor",
-      "examples": "Harvesting, weeding, spraying",
-      "status": "Scaling"
-    },
-    "relatedIds": [],
-    "tags": [
-      "Agriculture",
-      "Outdoor"
-    ]
-  },
-  {
-    "id": "app5",
-    "name": "Healthcare & Medical",
-    "company": "Various",
-    "category": "应用场景",
-    "imageUrl": "https://images.unsplash.com/photo-1586528116311-ad8ed7c50a6f?auto=format&fit=crop&q=80&w=600",
-    "year": "2024",
-    "isNew": false,
-    "specs": {
-      "type": "B2B/B2C",
-      "environment": "Structured",
-      "examples": "Surgical, rehabilitation, care",
-      "status": "Growing"
-    },
-    "relatedIds": [
-      "a2"
-    ],
-    "tags": [
-      "Healthcare",
-      "Surgical"
-    ]
-  },
-  {
-    "id": "app6",
-    "name": "Inspection & Patrol",
-    "company": "Various",
-    "category": "应用场景",
-    "imageUrl": "https://images.unsplash.com/photo-1586528116311-ad8ed7c50a6f?auto=format&fit=crop&q=80&w=600",
-    "year": "2024",
-    "isNew": false,
-    "specs": {
-      "type": "B2B",
-      "environment": "Industrial / Hazardous",
-      "examples": "Power grid, oil&gas, mining",
-      "status": "Scaling"
-    },
-    "relatedIds": [],
-    "tags": [
-      "Inspection",
-      "Industrial"
     ]
   }
 ]

@@ -1,16 +1,18 @@
-export type TopLevelGroup = '硬件' | '软件' | '生态与应用';
+export type TopLevelGroup = '硬件' | '软件' | '生态与应用' | '参与实体';
 
 export type Category = 
   | '整机平台' | '机械臂' | '灵巧手 & 夹爪'
   | '关节模组' | '核心零部件' | '传感器' | '能源动力'
   | '数采 & 遥操' | '计算平台'
   | '基础模型' | '算法框架' | '控制算法' | '仿真平台' | '数据集' | '评测基准'
-  | '开发生态' | '应用场景';
+  | '开发生态' | '应用场景'
+  | '资本' | '产业' | '实验室';
 
 export const CATEGORY_MAP: Record<TopLevelGroup, Category[]> = {
   '硬件': ['整机平台', '机械臂', '灵巧手 & 夹爪', '关节模组', '核心零部件', '传感器', '能源动力', '数采 & 遥操', '计算平台'],
   '软件': ['基础模型', '算法框架', '控制算法', '仿真平台', '数据集', '评测基准'],
-  '生态与应用': ['开发生态', '应用场景']
+  '生态与应用': ['开发生态', '应用场景'],
+  '参与实体': ['资本', '产业', '实验室']
 };
 
 export const TOP_LEVEL_GROUPS = Object.keys(CATEGORY_MAP) as TopLevelGroup[];
@@ -27,6 +29,12 @@ export interface PaperInfo {
   projectUrl?: string;
 }
 
+export interface OrgInfo {
+  description?: string;
+  location?: string;
+  website?: string;
+}
+
 export interface Entity {
   id: string;
   name: string;
@@ -38,8 +46,8 @@ export interface Entity {
   specs: Specs;
   relatedIds?: string[];
   tags?: string[];
-  websiteUrl?: string;
   paperInfo?: PaperInfo;
+  orgInfo?: OrgInfo;
   importance?: 'high' | 'medium' | 'low';
 }
 
@@ -89,10 +97,5 @@ export const loadEntities = async (): Promise<Entity[]> => {
   })();
     
   return fetchPromise;
-};
-
-export const resolveImageUrl = (url: string): string => {
-  if (url.startsWith('http')) return url;
-  return import.meta.env.BASE_URL + url.replace(/^\//, '');
 };
 
