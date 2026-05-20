@@ -1,0 +1,130 @@
+[
+  {
+    "id": "sw1",
+    "partition": "software",
+    "name": "OpenVLA",
+    "company": "Open Source",
+    "category": "基础模型",
+    "year": "2024"
+  },
+  {
+    "id": "sw2",
+    "partition": "software",
+    "name": "RT-X",
+    "company": "Google DeepMind",
+    "category": "基础模型",
+    "year": "2023"
+  },
+  {
+    "id": "sw3",
+    "partition": "software",
+    "name": "Isaac Lab",
+    "company": "NVIDIA",
+    "category": "算法框架",
+    "year": "2024"
+  },
+  {
+    "id": "sw4",
+    "partition": "software",
+    "name": "RoboMimic",
+    "company": "Stanford",
+    "category": "算法框架",
+    "year": "2022"
+  },
+  {
+    "id": "ca1",
+    "partition": "software",
+    "name": "MIT Cheetah WBC",
+    "company": "MIT BIOMIMETICS",
+    "category": "控制算法",
+    "year": "2019"
+  },
+  {
+    "id": "sw5",
+    "partition": "software",
+    "name": "Isaac Sim",
+    "company": "NVIDIA",
+    "category": "仿真平台",
+    "year": "2023"
+  },
+  {
+    "id": "sw6",
+    "partition": "software",
+    "name": "MuJoCo",
+    "company": "Google DeepMind",
+    "category": "仿真平台",
+    "year": "2022"
+  },
+  {
+    "id": "sw7",
+    "partition": "software",
+    "name": "Open X-Embodiment",
+    "company": "Google DeepMind",
+    "category": "数据集",
+    "year": "2023"
+  },
+  {
+    "id": "bm1",
+    "partition": "software",
+    "name": "ManiSkill",
+    "company": "UCSD",
+    "category": "评测基准",
+    "year": "2024"
+  },
+  {
+    "id": "eco1",
+    "partition": "ecosystem",
+    "name": "ROS 2",
+    "company": "OSRF",
+    "category": "开发生态",
+    "year": "2022"
+  },
+  {
+    "id": "eco2",
+    "partition": "ecosystem",
+    "name": "Foxglove Studio",
+    "company": "Foxglove",
+    "category": "开发生态",
+    "year": "2024"
+  },
+  {
+    "id": "app1",
+    "partition": "ecosystem",
+    "name": "Smart Factory",
+    "company": "Various",
+    "category": "应用场景",
+    "year": "2025"
+  },
+  {
+    "id": "app2",
+    "partition": "ecosystem",
+    "name": "Logistics Warehouse",
+    "company": "Various",
+    "category": "应用场景",
+    "year": "2024"
+  },
+  {
+    "id": "vc1",
+    "partition": "players",
+    "name": "Sequoia Capital",
+    "company": "Sequoia",
+    "category": "资本",
+    "year": "2023"
+  },
+  {
+    "id": "ind1",
+    "partition": "players",
+    "name": "NVIDIA Robotics",
+    "company": "NVIDIA",
+    "category": "产业",
+    "year": "2024"
+  },
+  {
+    "id": "lab1",
+    "partition": "players",
+    "name": "Stanford AI Lab",
+    "company": "Stanford Univ",
+    "category": "实验室",
+    "year": "2024"
+  }
+]

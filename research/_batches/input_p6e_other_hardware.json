@@ -1,0 +1,170 @@
+[
+  {
+    "id": "a1",
+    "partition": "hardware",
+    "name": "UR10e",
+    "company": "Universal Robots",
+    "category": "机械臂",
+    "year": "2023"
+  },
+  {
+    "id": "a2",
+    "partition": "hardware",
+    "name": "Panda",
+    "company": "Franka Emika",
+    "category": "机械臂",
+    "year": "2024"
+  },
+  {
+    "id": "e1",
+    "partition": "hardware",
+    "name": "2F-85",
+    "company": "Robotiq",
+    "category": "灵巧手 & 夹爪",
+    "year": "2023"
+  },
+  {
+    "id": "e2",
+    "partition": "hardware",
+    "name": "Shadow Hand",
+    "company": "Shadow Robot",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "j1",
+    "partition": "hardware",
+    "name": "FSA Actuator",
+    "company": "Fourier",
+    "category": "关节模组",
+    "year": "2024"
+  },
+  {
+    "id": "j2",
+    "partition": "hardware",
+    "name": "Dynamixel-P",
+    "company": "Robotis",
+    "category": "关节模组",
+    "year": "2023"
+  },
+  {
+    "id": "c1",
+    "partition": "hardware",
+    "name": "Harmonic Drive",
+    "company": "Harmonic Drive",
+    "category": "核心零部件",
+    "year": "2023"
+  },
+  {
+    "id": "c2",
+    "partition": "hardware",
+    "name": "Frameless BLDC",
+    "company": "Kollmorgen",
+    "category": "核心零部件",
+    "year": "2022"
+  },
+  {
+    "id": "s1",
+    "partition": "hardware",
+    "name": "RealSense D455",
+    "company": "Intel",
+    "category": "传感器",
+    "year": "2023"
+  },
+  {
+    "id": "s2",
+    "partition": "hardware",
+    "name": "Axia80 6-Axis",
+    "company": "ATI Industrial",
+    "category": "传感器",
+    "year": "2023"
+  },
+  {
+    "id": "en1",
+    "partition": "hardware",
+    "name": "High-Discharge LFP Pack",
+    "company": "Ampere",
+    "category": "能源动力",
+    "year": "2024"
+  },
+  {
+    "id": "d1",
+    "partition": "hardware",
+    "name": "HaptX Gloves",
+    "company": "HaptX",
+    "category": "数采 & 遥操",
+    "year": "2024"
+  },
+  {
+    "id": "d2",
+    "partition": "hardware",
+    "name": "GELLO Arm",
+    "company": "Open Source",
+    "category": "数采 & 遥操",
+    "year": "2024"
+  },
+  {
+    "id": "cp1",
+    "partition": "hardware",
+    "name": "Jetson AGX Orin",
+    "company": "NVIDIA",
+    "category": "计算平台",
+    "year": "2024"
+  },
+  {
+    "id": "cp2",
+    "partition": "hardware",
+    "name": "MIC-733-AO",
+    "company": "Advantech",
+    "category": "计算平台",
+    "year": "2025"
+  },
+  {
+    "id": "a3",
+    "partition": "hardware",
+    "name": "KINO X2",
+    "company": "未知 / 概念",
+    "category": "机械臂",
+    "year": "2025"
+  },
+  {
+    "id": "a4",
+    "partition": "hardware",
+    "name": "JAKA K1",
+    "company": "JAKA Robotics (节卡机器人)",
+    "category": "机械臂",
+    "year": "2025"
+  },
+  {
+    "id": "a5",
+    "partition": "hardware",
+    "name": "PANDEL",
+    "company": "未知 / 概念",
+    "category": "机械臂",
+    "year": "2025"
+  },
+  {
+    "id": "a6",
+    "partition": "hardware",
+    "name": "PB-340",
+    "company": "Elephant Robotics (大象机器人)",
+    "category": "机械臂",
+    "year": "2025"
+  },
+  {
+    "id": "a7",
+    "partition": "hardware",
+    "name": "FLASHBOT ARM",
+    "company": "Pudu Robotics (普渡科技)",
+    "category": "机械臂",
+    "year": "2025"
+  },
+  {
+    "id": "a8",
+    "partition": "hardware",
+    "name": "KINISI 01",
+    "company": "Kinisi Robotics (美国)",
+    "category": "机械臂",
+    "year": "2025"
+  }
+]

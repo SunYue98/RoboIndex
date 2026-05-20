@@ -1,0 +1,418 @@
+[
+  {
+    "id": "h1",
+    "partition": "hardware",
+    "name": "AERO HAND OPEN",
+    "company": "Chestnut Robotics (原 TetherIA)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h2",
+    "partition": "hardware",
+    "name": "SVH",
+    "company": "SCHUNK (雄克)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h3",
+    "partition": "hardware",
+    "name": "DG-3F-S",
+    "company": "TESOLLO (泰索罗)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h4",
+    "partition": "hardware",
+    "name": "HUMA",
+    "company": "New York University",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h5",
+    "partition": "hardware",
+    "name": "RH50G2",
+    "company": "因时机器人 (Inspire-Robots)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h6",
+    "partition": "hardware",
+    "name": "ZWHAND",
+    "company": "兆威机电 (ZWHAND)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h7",
+    "partition": "hardware",
+    "name": "PL-METHAND",
+    "company": "PL UNIVERSE",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h8",
+    "partition": "hardware",
+    "name": "YEAH",
+    "company": "Independent / Open Source",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h9",
+    "partition": "hardware",
+    "name": "ABILITY HAND",
+    "company": "PSYONIC",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h10",
+    "partition": "hardware",
+    "name": "KYBER LABS HAND",
+    "company": "Kyber Labs",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h11",
+    "partition": "hardware",
+    "name": "OMNIHAND PRO",
+    "company": "智元机器人 (AGIBOT)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h12",
+    "partition": "hardware",
+    "name": "ALLEGRO HAND V4",
+    "company": "WONIK ROBOTICS",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h13",
+    "partition": "hardware",
+    "name": "COVVI",
+    "company": "COVVI ROBOTICS",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h14",
+    "partition": "hardware",
+    "name": "PHOENIX 3.2",
+    "company": "Sanctuary AI",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h15",
+    "partition": "hardware",
+    "name": "YZ-T6",
+    "company": "伟创电气 (VEICHI)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h16",
+    "partition": "hardware",
+    "name": "ROHAND",
+    "company": "傲意信息 (OYMOTION)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h17",
+    "partition": "hardware",
+    "name": "OMNIHAND",
+    "company": "智元机器人 (AGIBOT)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h18",
+    "partition": "hardware",
+    "name": "AEP-H01",
+    "company": "远界机器人 (AFAROBOT)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h19",
+    "partition": "hardware",
+    "name": "SURGE",
+    "company": "ALT-BIONICS",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h20",
+    "partition": "hardware",
+    "name": "RH50 SERIES",
+    "company": "因时机器人 (Inspire-Robots)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h21",
+    "partition": "hardware",
+    "name": "GM18B",
+    "company": "帕西尼 (PaXini Tech)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h22",
+    "partition": "hardware",
+    "name": "WUJI HAND",
+    "company": "无迹科技 (WUJI TECH)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h23",
+    "partition": "hardware",
+    "name": "REVO 2",
+    "company": "探索科技 (AUTODISCOVERY)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2023"
+  },
+  {
+    "id": "h24",
+    "partition": "hardware",
+    "name": "DEX-EE",
+    "company": "Shadow Robot Co.",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h25",
+    "partition": "hardware",
+    "name": "RH56E2 SERIES",
+    "company": "因时机器人 (Inspire-Robots)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h26",
+    "partition": "hardware",
+    "name": "DEX5-1",
+    "company": "宇树科技 (Unitree)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h27",
+    "partition": "hardware",
+    "name": "H2 AZZURRA",
+    "company": "PRENSILIA S.R.L.",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h28",
+    "partition": "hardware",
+    "name": "ALLEX",
+    "company": "NXROBOTICS",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h29",
+    "partition": "hardware",
+    "name": "DEXTEROUS HAND",
+    "company": "Shadow Robot Co.",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h30",
+    "partition": "hardware",
+    "name": "DEXH5",
+    "company": "帕西尼 (PaXini Tech)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h31",
+    "partition": "hardware",
+    "name": "R1",
+    "company": "海克斯 (OCEANTRIX ROBOTICS)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h32",
+    "partition": "hardware",
+    "name": "AGILE",
+    "company": "思灵机器人 (Agile Robots)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h33",
+    "partition": "hardware",
+    "name": "HXS-D20",
+    "company": "ROBOTIS",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h34",
+    "partition": "hardware",
+    "name": "SHARPWAVE",
+    "company": "SHARPA ROBOTICS",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h35",
+    "partition": "hardware",
+    "name": "ORCA V1",
+    "company": "ETH Zürich",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h36",
+    "partition": "hardware",
+    "name": "DEXHAND V2.3",
+    "company": "ROBOT STUDIO",
+    "category": "灵巧手 & 夹爪",
+    "year": "2023"
+  },
+  {
+    "id": "h37",
+    "partition": "hardware",
+    "name": "HERO RGD",
+    "company": "OPEN BIONICS",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h38",
+    "partition": "hardware",
+    "name": "X2",
+    "company": "迁星 (CHANGINGTEK ROBOTICS)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h39",
+    "partition": "hardware",
+    "name": "DG-5F",
+    "company": "TESOLLO (泰索罗)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h40",
+    "partition": "hardware",
+    "name": "XHAND1",
+    "company": "元动力机器人 (ROBOTERA)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h41",
+    "partition": "hardware",
+    "name": "DEXH13",
+    "company": "帕西尼 (PaXini Tech)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h42",
+    "partition": "hardware",
+    "name": "MIA HAND MK2",
+    "company": "PRENSILIA S.R.L.",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h43",
+    "partition": "hardware",
+    "name": "BIONICSOFTHAND",
+    "company": "FESTO",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h44",
+    "partition": "hardware",
+    "name": "DEXMANO D22-PRO",
+    "company": "BOTYARD INTELLIGENCE",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h45",
+    "partition": "hardware",
+    "name": "ARTIXON",
+    "company": "乘方机器人 (X SQUARE ROBOT)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h46",
+    "partition": "hardware",
+    "name": "APEX HAND",
+    "company": "DEXCELROBOTICS",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h47",
+    "partition": "hardware",
+    "name": "MAGICAND S01",
+    "company": "逐际动力 (MAGICLAB)",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h48",
+    "partition": "hardware",
+    "name": "SOFTHAND2",
+    "company": "QB ROBOTICS",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h49",
+    "partition": "hardware",
+    "name": "FLLEX",
+    "company": "IRIM LAB KOREATECH",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h50",
+    "partition": "hardware",
+    "name": "ARTUS LITE",
+    "company": "SARCOMERE DYNAMICS",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h51",
+    "partition": "hardware",
+    "name": "DEXHAND21",
+    "company": "DEXROBOT",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  },
+  {
+    "id": "h52",
+    "partition": "hardware",
+    "name": "M1.0",
+    "company": "MIMIC ROBOTICS",
+    "category": "灵巧手 & 夹爪",
+    "year": "2024"
+  }
+]

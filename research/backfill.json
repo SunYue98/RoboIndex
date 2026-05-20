@@ -1,0 +1,2994 @@
+{
+  "_doc": "Backfill sources for EXISTING entries. Auto-bootstrapped + manually agent-sourced.",
+  "_phase6_status": "COMPLETE — all 4 agents (p6a 17, p6b 56, p6c 42, p6d 16, p6e 21) + company-match bootstrap (69) finished. ~14 needs-source flags + several name/company corrections noted in audit.md.",
+  "sw1": {
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2406.09246",
+        "title": "OpenVLA: An Open-Source Vision-Language-Action Model (arXiv)",
+        "type": "paper"
+      },
+      {
+        "url": "https://github.com/openvla/openvla",
+        "title": "OpenVLA GitHub repository",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "7B-param open-source VLA trained on 970K Open X-Embodiment demonstrations."
+  },
+  "sw2": {
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2310.08864",
+        "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models (arXiv)",
+        "type": "paper"
+      }
+    ],
+    "confidence": "A",
+    "notes": "RT-X built by Open X-Embodiment Collaboration with Google DeepMind, 21 institutions, 22 robots."
+  },
+  "sw3": {
+    "sources": [
+      {
+        "url": "https://github.com/isaac-sim/IsaacLab",
+        "title": "NVIDIA Isaac Lab GitHub",
+        "type": "official"
+      },
+      {
+        "url": "https://developer.nvidia.com/isaac/lab",
+        "title": "NVIDIA Isaac Lab",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "GPU-accelerated open-source framework for robot learning, successor to Isaac Gym/Orbit."
+  },
+  "sw4": {
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2108.03298",
+        "title": "What Matters in Learning from Offline Human Demonstrations for Robot Manipulation (RoboMimic)",
+        "type": "paper"
+      },
+      {
+        "url": "https://robomimic.github.io/",
+        "title": "RoboMimic project site",
+        "type": "official"
+      },
+      {
+        "url": "https://github.com/ARISE-Initiative/robomimic",
+        "title": "RoboMimic GitHub (ARISE-Initiative)",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Modular framework for robot learning from demonstration, Stanford SVL/ARISE Initiative, CoRL 2021 oral."
+  },
+  "ca1": {
+    "sources": [
+      {
+        "url": "https://biomimetics.mit.edu/",
+        "title": "MIT Biomimetic Robotics Lab",
+        "type": "official"
+      },
+      {
+        "url": "https://arxiv.org/abs/1909.06586",
+        "title": "Highly Dynamic Quadruped Locomotion via WBC and MPC",
+        "type": "paper"
+      }
+    ],
+    "confidence": "A",
+    "notes": "MIT BIOMIMETICS Cheetah whole-body controller (WBC+MPC), up to 3.7 m/s."
+  },
+  "sw5": {
+    "sources": [
+      {
+        "url": "https://developer.nvidia.com/isaac/sim",
+        "title": "NVIDIA Isaac Sim official",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Built on Omniverse libraries; Apache 2.0."
+  },
+  "sw6": {
+    "sources": [
+      {
+        "url": "https://mujoco.org/",
+        "title": "MuJoCo official site",
+        "type": "official"
+      },
+      {
+        "url": "https://github.com/google-deepmind/mujoco",
+        "title": "MuJoCo GitHub (google-deepmind)",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/MuJoCo",
+        "title": "MuJoCo - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Acquired by DeepMind Oct 2021, open-sourced Apache 2.0 May 2022."
+  },
+  "sw7": {
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2310.08864",
+        "title": "Open X-Embodiment arxiv",
+        "type": "paper"
+      }
+    ],
+    "confidence": "A",
+    "notes": "527 skills / 160,266 tasks across 22 robots, 21 institutions."
+  },
+  "bm1": {
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2410.00425",
+        "title": "ManiSkill3 arxiv",
+        "type": "paper"
+      }
+    ],
+    "confidence": "A",
+    "notes": "UCSD Hao Su Lab; up to 30,000+ FPS."
+  },
+  "eco1": {
+    "sources": [
+      {
+        "url": "https://docs.ros.org/en/jazzy/index.html",
+        "title": "ROS 2 Documentation (Jazzy)",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "OSRF/Open Robotics."
+  },
+  "eco2": {
+    "sources": [
+      {
+        "url": "https://foxglove.dev/",
+        "title": "Foxglove official site",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Multimodal data platform for robotics/autonomy."
+  },
+  "app1": {
+    "sources": [
+      {
+        "url": "https://www.press.bmwgroup.com/global/article/detail/T0444265EN/successful-test-of-humanoid-robots-at-bmw-group-plant-spartanburg",
+        "title": "BMW Press: humanoid robot test at Spartanburg",
+        "type": "official"
+      },
+      {
+        "url": "https://www.figure.ai/news/production-at-bmw",
+        "title": "Figure: F.02 contributed to 30,000+ vehicles at BMW",
+        "type": "official"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/apptronik-and-mercedes-benz-enter-commercial-agreement-that-will-pilot-apptroniks-apollo-humanoid-robot-in-mercedes-benz-manufacturing-facilities-302089972.html",
+        "title": "Apptronik–Mercedes-Benz commercial agreement",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Smart Factory = humanoid manufacturing assembly (Figure 02 @ BMW, Apptronik Apollo @ Mercedes)."
+  },
+  "app2": {
+    "sources": [
+      {
+        "url": "https://www.aboutamazon.com/news/operations/amazon-introduces-sparrow-a-state-of-the-art-robot-that-handles-millions-of-diverse-products",
+        "title": "Amazon introduces Sparrow",
+        "type": "official"
+      },
+      {
+        "url": "https://locusrobotics.com/",
+        "title": "Locus Robotics official site",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Warehouse fulfillment scenario."
+  },
+  "vc1": {
+    "sources": [
+      {
+        "url": "https://sequoiacap.com/article/partnering-with-skild/",
+        "title": "Sequoia: Partnering with Skild",
+        "type": "official"
+      },
+      {
+        "url": "https://sequoiacap.com/companies/collaborative-robotics/",
+        "title": "Cobot | Sequoia portfolio",
+        "type": "official"
+      },
+      {
+        "url": "https://sequoiacap.com/collection/robots-on-the-rise/",
+        "title": "Sequoia: Robots on the Rise",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Sequoia robotics thesis covering Skild, Collaborative Robotics, Robco."
+  },
+  "ind1": {
+    "sources": [
+      {
+        "url": "https://nvidianews.nvidia.com/news/foundation-model-isaac-robotics-platform",
+        "title": "NVIDIA Announces Project GR00T",
+        "type": "official"
+      },
+      {
+        "url": "https://developer.nvidia.com/isaac/gr00t",
+        "title": "Isaac GR00T",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nvidia",
+        "title": "Nvidia - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Project GR00T announced GTC 2024."
+  },
+  "lab1": {
+    "sources": [
+      {
+        "url": "https://ai.stanford.edu/",
+        "title": "Stanford AI Laboratory (SAIL)",
+        "type": "official"
+      },
+      {
+        "url": "https://ai.stanford.edu/research-groups/",
+        "title": "Research Groups – Stanford AI Lab",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Founded 1963; current director Carlos Guestrin."
+  },
+  "f1": {
+    "sources": [
+      {
+        "url": "https://www.agilityrobotics.com",
+        "title": "Agility Robotics official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Agility_Robotics",
+        "title": "Agility Robotics - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Agility Robotics)."
+  },
+  "f2": {
+    "sources": [
+      {
+        "url": "https://www.limxdynamics.com",
+        "title": "LimX Dynamics official site",
+        "type": "official"
+      },
+      {
+        "url": "https://www.limxdynamics.com/en/about",
+        "title": "LimX Dynamics About",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (LimX Dynamics)."
+  },
+  "f4": {
+    "sources": [
+      {
+        "url": "https://www.tesla.com/AI",
+        "title": "Tesla official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+        "title": "Optimus (robot) — Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Tesla)."
+  },
+  "a1": {
+    "sources": [
+      {
+        "url": "https://www.universal-robots.com/news-and-media/news-center/universal-robots-unveils-enhanced-ur10e-with-25-greater-payload/",
+        "title": "Universal Robots unveils enhanced UR10e",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "UR10e 6-DOF cobot; 12.5 kg payload (upgraded 2021), 1300 mm reach, ±0.05 mm repeatability.",
+    "adopted_from_staging": "stg-arm-ur10e"
+  },
+  "a2": {
+    "sources": [
+      {
+        "url": "https://www.generationrobots.com/media/panda-franka-emika-datasheet.pdf",
+        "title": "Franka Emika Panda official datasheet",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Franka Emika Panda 7-DOF research arm; predecessor to FR3.",
+    "adopted_from_staging": "stg-arm-franka-panda"
+  },
+  "e1": {
+    "sources": [
+      {
+        "url": "https://assets.robotiq.com/website-assets/support_documents/document/online/2F-85_2F-140_TM_InstructionManual_HTML5_20190503.zip/2F-85_2F-140_TM_InstructionManual_HTML5/Content/6.%20Specifications.htm",
+        "title": "Robotiq 2F-85 / 2F-140 Specifications",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "A",
+    "notes": "85 mm stroke, 5 kg payload, 20-235 N grip force.",
+    "adopted_from_staging": "stg-e1-replacement"
+  },
+  "e2": {
+    "sources": [
+      {
+        "url": "https://www.shadowrobot.com/dexterous-hand-series/",
+        "title": "Shadow Dexterous Hand Series",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "E3M5R: 20 actuated DoF, 1 kHz EtherCAT, 4.3 kg.",
+    "adopted_from_staging": "stg-e2-replacement"
+  },
+  "j1": {
+    "sources": [
+      {
+        "url": "https://www.fftai.com",
+        "title": "Fourier Robotics official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Fourier_(company)",
+        "title": "Fourier (company) — Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "FSA Actuator used inside Fourier's GRx humanoids; no dedicated FSA product page indexed."
+  },
+  "j2": {
+    "sources": [
+      {
+        "url": "https://emanual.robotis.com/docs/en/dxl/p/ph42-020-s300-r/",
+        "title": "ROBOTIS Dynamixel-P PH42-020-S300-R e-Manual",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Dynamixel-P PH42-020-S300-R: 5.1 Nm continuous, 340 g, RS-485.",
+    "adopted_from_staging": "stg-joint-dynamixel-ph42-020"
+  },
+  "c1": {
+    "sources": [
+      {
+        "url": "https://www.harmonicdrive.net/products/gear-units/gear-units/csf-2uh",
+        "title": "Harmonic Drive CSF-2UH",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Strain-wave reducer. Ratios 30:1-160:1, zero backlash, 1 arc-min accuracy.",
+    "adopted_from_staging": "stg-comp-harmonic-csf-2uh"
+  },
+  "c2": {
+    "sources": [
+      {
+        "url": "https://www.kollmorgen.com/en-us/products/motors/direct-drive/kbm-series-frameless",
+        "title": "Kollmorgen KBM Series Frameless Motor",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "KBM Series frameless brushless servo motors; sizes 10-118. Live fetch returned 403 (anti-bot block).",
+    "adopted_from_staging": "stg-comp-kollmorgen-kbm"
+  },
+  "s1": {
+    "sources": [
+      {
+        "url": "https://www.intelrealsense.com/depth-camera-d455/",
+        "title": "Intel RealSense D455 official",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "D455: 0.4-6 m range, 1280×720 depth @ 90 fps, 87°×58° FOV, 95 mm baseline.",
+    "adopted_from_staging": "stg-sensor-realsense-d455"
+  },
+  "s2": {
+    "sources": [
+      {
+        "url": "https://ati.novanta.com/product/axia80-force-torque-sensor-kit/",
+        "title": "ATI Axia80 F/T Sensor Kit",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Axia80: Fx/Fy ±500 N, Fz ±900 N, T ±20 Nm, EtherCAT 8 kHz, IP64.",
+    "adopted_from_staging": "stg-sensor-ati-axia80"
+  },
+  "d1": {
+    "sources": [
+      {
+        "url": "https://haptx.com/",
+        "title": "HaptX official site",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "HaptX Gloves G1: microfluidic smart-textile haptic gloves.",
+    "adopted_from_staging": "stg-teleop-haptx-g1"
+  },
+  "d2": {
+    "sources": [
+      {
+        "url": "https://wuphilipp.github.io/gello_site/",
+        "title": "GELLO project page (UC Berkeley)",
+        "type": "official"
+      },
+      {
+        "url": "https://arxiv.org/abs/2309.13037",
+        "title": "GELLO arXiv 2309.13037",
+        "type": "paper"
+      }
+    ],
+    "confidence": "A",
+    "notes": "GELLO open-source low-cost teleop arm.",
+    "adopted_from_staging": "stg-teleop-gello"
+  },
+  "cp1": {
+    "sources": [
+      {
+        "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+        "title": "NVIDIA Jetson Orin family",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "AGX Orin: up to 275 TOPS, 256-bit LPDDR5, 15-60 W.",
+    "adopted_from_staging": "stg-cp-jetson-agx-orin"
+  },
+  "cp2": {
+    "sources": [
+      {
+        "url": "https://www.advantech.com/en-us/products/965e4edb-fb98-429e-89ed-9a0a8435a7be/mic-733/mod_09861425-4950-46ab-ad39-1b5522881218",
+        "title": "Advantech MIC-733-AO product page",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Fanless AI IPC built on AGX Orin (32/64 GB).",
+    "adopted_from_staging": "stg-cp2-replacement"
+  },
+  "f7": {
+    "sources": [
+      {
+        "url": "https://www.ia.omron.com/products/family/3739/specification.html",
+        "title": "OMRON/Techman TM Series specifications",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Techman Robot (台湾))."
+  },
+  "f8": {
+    "sources": [
+      {
+        "url": "https://www.tesla.com/AI",
+        "title": "Tesla official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+        "title": "Optimus (robot) — Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Tesla (特斯拉))."
+  },
+  "f9": {
+    "sources": [
+      {
+        "url": "https://www.figure.ai/news/helix",
+        "title": "Helix announcement (Figure AI official)",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Figure AI)."
+  },
+  "f15": {
+    "sources": [
+      {
+        "url": "https://www.limxdynamics.com",
+        "title": "LimX Dynamics official site",
+        "type": "official"
+      },
+      {
+        "url": "https://www.limxdynamics.com/en/about",
+        "title": "LimX Dynamics About",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (LimX Dynamics (逐际动力))."
+  },
+  "a4": {
+    "sources": [
+      {
+        "url": "https://www.jaka.com/en/products",
+        "title": "JAKA Robotics product family — JAKA K1",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "JAKA K1: data-collection/training system for humanoid task scenarios."
+  },
+  "f21": {
+    "sources": [
+      {
+        "url": "https://www.1x.tech",
+        "title": "1X Technologies official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/1X_Technologies",
+        "title": "1X Technologies - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (1X Technologies)."
+  },
+  "f24": {
+    "sources": [
+      {
+        "url": "https://www.unitree.com",
+        "title": "Unitree Robotics (宇树科技) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Unitree",
+        "title": "Unitree - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Unitree Robotics (宇树科技))."
+  },
+  "f25": {
+    "sources": [
+      {
+        "url": "https://www.limxdynamics.com",
+        "title": "LimX Dynamics official site",
+        "type": "official"
+      },
+      {
+        "url": "https://www.limxdynamics.com/en/about",
+        "title": "LimX Dynamics About",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (LimX Dynamics (逐际动力))."
+  },
+  "f29": {
+    "sources": [
+      {
+        "url": "https://www.bostondynamics.com",
+        "title": "Boston Dynamics official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Boston_Dynamics",
+        "title": "Boston Dynamics - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Boston Dynamics (波士顿动力))."
+  },
+  "f31": {
+    "sources": [
+      {
+        "url": "https://www.galbot.com",
+        "title": "Galbot (银河通用) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://www.galbot.com/",
+        "title": "Galbot official site",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Galbot (星动纪元))."
+  },
+  "f34": {
+    "sources": [
+      {
+        "url": "https://www.1x.tech",
+        "title": "1X Technologies official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/1X_Technologies",
+        "title": "1X Technologies - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (1X Technologies)."
+  },
+  "f38": {
+    "sources": [
+      {
+        "url": "https://www.booster.tech",
+        "title": "Booster Robotics official site",
+        "type": "official"
+      },
+      {
+        "url": "https://www.booster.tech/about-us/",
+        "title": "About Us - Booster Robotics",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Booster Robotics (加速进化))."
+  },
+  "f40": {
+    "sources": [
+      {
+        "url": "https://www.agibot.com",
+        "title": "AgiBot (智元机器人) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/AgiBot",
+        "title": "AgiBot - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Agibot (智元机器人))."
+  },
+  "f42": {
+    "sources": [
+      {
+        "url": "https://www.fftai.com",
+        "title": "Fourier Intelligence (傅利叶智能) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Fourier_(company)",
+        "title": "Fourier (company) - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Fourier Intelligence (傅利叶智能))."
+  },
+  "f43": {
+    "sources": [
+      {
+        "url": "https://pal-robotics.com",
+        "title": "PAL Robotics official site",
+        "type": "official"
+      },
+      {
+        "url": "https://pal-robotics.com/",
+        "title": "PAL Robotics official",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (PAL Robotics)."
+  },
+  "f47": {
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2409.12514",
+        "title": "TinyVLA arXiv",
+        "type": "paper"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Midea (美的))."
+  },
+  "f49": {
+    "sources": [
+      {
+        "url": "https://www.agibot.com",
+        "title": "AgiBot (智元机器人) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/AgiBot",
+        "title": "AgiBot - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Agibot (智元机器人))."
+  },
+  "f65": {
+    "sources": [
+      {
+        "url": "https://www.ubtrobot.com",
+        "title": "UBTech (优必选) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/UBtech_Robotics",
+        "title": "UBtech Robotics - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (UBTECH (优必选))."
+  },
+  "f69": {
+    "sources": [
+      {
+        "url": "https://www.ubtrobot.com",
+        "title": "UBTech (优必选) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/UBtech_Robotics",
+        "title": "UBtech Robotics - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (UBTECH (优必选))."
+  },
+  "f70": {
+    "sources": [
+      {
+        "url": "https://www.agibot.com",
+        "title": "AgiBot (智元机器人) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/AgiBot",
+        "title": "AgiBot - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Agibot (智元机器人))."
+  },
+  "f73": {
+    "sources": [
+      {
+        "url": "https://www.limxdynamics.com",
+        "title": "LimX Dynamics official site",
+        "type": "official"
+      },
+      {
+        "url": "https://www.limxdynamics.com/en/about",
+        "title": "LimX Dynamics About",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (LimX Dynamics (逐际动力))."
+  },
+  "f78": {
+    "sources": [
+      {
+        "url": "https://www.agibot.com",
+        "title": "AgiBot (智元机器人) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/AgiBot",
+        "title": "AgiBot - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Agibot (智元机器人))."
+  },
+  "f79": {
+    "sources": [
+      {
+        "url": "https://emanual.robotis.com/docs/en/dxl/x/xm430-w350/",
+        "title": "ROBOTIS XM430-W350 e-Manual",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (ROBOTIS (韩国))."
+  },
+  "f81": {
+    "sources": [
+      {
+        "url": "https://apptronik.com",
+        "title": "Apptronik official site",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Apptronik)."
+  },
+  "f82": {
+    "sources": [
+      {
+        "url": "https://www.ubtrobot.com",
+        "title": "UBTech (优必选) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/UBtech_Robotics",
+        "title": "UBtech Robotics - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (UBTECH (优必选))."
+  },
+  "f84": {
+    "sources": [
+      {
+        "url": "https://www.unitree.com",
+        "title": "Unitree Robotics (宇树科技) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Unitree",
+        "title": "Unitree - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Unitree (宇树科技))."
+  },
+  "f86": {
+    "sources": [
+      {
+        "url": "https://www.fftai.com",
+        "title": "Fourier Intelligence (傅利叶智能) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Fourier_(company)",
+        "title": "Fourier (company) - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Fourier Intelligence (傅利叶智能))."
+  },
+  "f98": {
+    "sources": [
+      {
+        "url": "https://www.tesla.com/AI",
+        "title": "Tesla official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+        "title": "Optimus (robot) — Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Tesla (特斯拉))."
+  },
+  "f104": {
+    "sources": [
+      {
+        "url": "https://www.figure.ai/news/helix",
+        "title": "Helix announcement (Figure AI official)",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Figure AI)."
+  },
+  "f105": {
+    "sources": [
+      {
+        "url": "https://www.robotera.com",
+        "title": "Robot Era (星动纪元) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://www.robotera.com/en/about1.html",
+        "title": "ROBOTERA - About",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (RobotEra (星动纪元))."
+  },
+  "f110": {
+    "sources": [
+      {
+        "url": "https://www.galbot.com",
+        "title": "Galbot (银河通用) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://www.galbot.com/",
+        "title": "Galbot official site",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Galbot (星动纪元))."
+  },
+  "f111": {
+    "sources": [
+      {
+        "url": "https://www.galbot.com",
+        "title": "Galbot (银河通用) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://www.galbot.com/",
+        "title": "Galbot official site",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Galbot (星动纪元))."
+  },
+  "f118": {
+    "sources": [
+      {
+        "url": "https://www.sanctuary.ai",
+        "title": "Sanctuary AI official site",
+        "type": "official"
+      },
+      {
+        "url": "https://www.sanctuary.ai/blog/sanctuary-ai-unveils-phoenix-a-humanoid-general-purpose-robot-designed-for-work",
+        "title": "Sanctuary AI Unveils Phoenix",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Sanctuary AI)."
+  },
+  "f121": {
+    "sources": [
+      {
+        "url": "https://www.shadowrobot.com",
+        "title": "Shadow Robot Company official site",
+        "type": "official"
+      },
+      {
+        "url": "https://www.shadowrobot.com/dexterous-hand-series/",
+        "title": "Shadow Dexterous Hand Series",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Robot.com (美国))."
+  },
+  "f122": {
+    "sources": [
+      {
+        "url": "https://www.1x.tech",
+        "title": "1X Technologies official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/1X_Technologies",
+        "title": "1X Technologies - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (1X Technologies)."
+  },
+  "f128": {
+    "sources": [
+      {
+        "url": "https://www.xpeng.com",
+        "title": "XPENG Robotics (Iron) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/XPeng",
+        "title": "XPeng - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (XPeng Robotics (小鹏机器人))."
+  },
+  "f130": {
+    "sources": [
+      {
+        "url": "https://www.agilityrobotics.com",
+        "title": "Agility Robotics official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Agility_Robotics",
+        "title": "Agility Robotics - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Agility Robotics)."
+  },
+  "f132": {
+    "sources": [
+      {
+        "url": "https://www.limxdynamics.com",
+        "title": "LimX Dynamics official site",
+        "type": "official"
+      },
+      {
+        "url": "https://www.limxdynamics.com/en/about",
+        "title": "LimX Dynamics About",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (LimX Dynamics (逐际动力))."
+  },
+  "f135": {
+    "sources": [
+      {
+        "url": "https://www.ubtrobot.com",
+        "title": "UBTech (优必选) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/UBtech_Robotics",
+        "title": "UBtech Robotics - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (UBTECH (优必选))."
+  },
+  "f139": {
+    "sources": [
+      {
+        "url": "https://www.figure.ai/news/helix",
+        "title": "Helix announcement (Figure AI official)",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Figure AI)."
+  },
+  "f140": {
+    "sources": [
+      {
+        "url": "https://www.unitree.com",
+        "title": "Unitree Robotics (宇树科技) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Unitree",
+        "title": "Unitree - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Unitree (宇树科技))."
+  },
+  "f143": {
+    "sources": [
+      {
+        "url": "https://cyclonedds.io/",
+        "title": "Eclipse Cyclone DDS",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Foundation (美国))."
+  },
+  "f144": {
+    "sources": [
+      {
+        "url": "https://www.ubtrobot.com",
+        "title": "UBTech (优必选) official site",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/UBtech_Robotics",
+        "title": "UBtech Robotics - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (UBTECH (优必选))."
+  },
+  "h4": {
+    "sources": [
+      {
+        "url": "https://www.lerrelpinto.com",
+        "title": "New York University official site",
+        "type": "official"
+      },
+      {
+        "url": "https://www.lerrelpinto.com/",
+        "title": "Lerrel Pinto",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (New York University)."
+  },
+  "h8": {
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gazebo_(simulator)",
+        "title": "Gazebo - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Independent / Open Source)."
+  },
+  "h14": {
+    "sources": [
+      {
+        "url": "https://www.sanctuary.ai",
+        "title": "Sanctuary AI official site",
+        "type": "official"
+      },
+      {
+        "url": "https://www.sanctuary.ai/blog/sanctuary-ai-unveils-phoenix-a-humanoid-general-purpose-robot-designed-for-work",
+        "title": "Sanctuary AI Unveils Phoenix",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Sanctuary AI)."
+  },
+  "h24": {
+    "sources": [
+      {
+        "url": "https://www.shadowrobot.com",
+        "title": "Shadow Robot Company official site",
+        "type": "official"
+      },
+      {
+        "url": "https://www.shadowrobot.com/dexterous-hand-series/",
+        "title": "Shadow Dexterous Hand Series",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Shadow Robot Co.)."
+  },
+  "h29": {
+    "sources": [
+      {
+        "url": "https://www.shadowrobot.com",
+        "title": "Shadow Robot Company official site",
+        "type": "official"
+      },
+      {
+        "url": "https://www.shadowrobot.com/dexterous-hand-series/",
+        "title": "Shadow Dexterous Hand Series",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (Shadow Robot Co.)."
+  },
+  "h33": {
+    "sources": [
+      {
+        "url": "https://emanual.robotis.com/docs/en/dxl/x/xm430-w350/",
+        "title": "ROBOTIS XM430-W350 e-Manual",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (ROBOTIS)."
+  },
+  "h37": {
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gazebo_(simulator)",
+        "title": "Gazebo - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (OPEN BIONICS)."
+  },
+  "h44": {
+    "sources": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/products/sku/190004/intel-realsense-depth-camera-d435i/specifications.html",
+        "title": "Intel RealSense D435i Specifications",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (BOTYARD INTELLIGENCE)."
+  },
+  "h51": {
+    "sources": [
+      {
+        "url": "https://www.dexterity.ai",
+        "title": "Dexterity official site",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Bootstrapped from company-match (DEXROBOT)."
+  },
+  "f6": {
+    "sources": [
+      {
+        "url": "https://muksrobotics.com/",
+        "title": "Muks Robotics official site",
+        "type": "official"
+      },
+      {
+        "url": "https://mikekalil.com/blog/muks-robotics-spaceo/",
+        "title": "India's Muks Robotics Unveils 'AGI-Powered' Humanoid Robots",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "SPACED M1 likely refers to Muks Robotics SPACEO M1 — 167 cm wheeled social humanoid, ~$11k, launched March 2025."
+  },
+  "f12": {
+    "sources": [
+      {
+        "url": "https://www.robotsinternational.com/PNDbotics.htm",
+        "title": "PNDbotics Modular Full-Size Humanoid Platform",
+        "type": "datasheet"
+      },
+      {
+        "url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/",
+        "title": "Humanoid robot Adam debuts at music festival in China",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "PNDbotics ADAM family: 1.6-1.67m, ~60-62kg, 25-44 DoF QDD actuators."
+  },
+  "f13": {
+    "sources": [
+      {
+        "url": "https://muksrobotics.com/spaceo-prime/",
+        "title": "SPACEO Prime - Muks Robotics",
+        "type": "official"
+      },
+      {
+        "url": "https://muksrobotics.com/spaceo-pro-01/",
+        "title": "SPACEO Pro - Muks Robotics",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "SPACED P1 likely refers to Muks Robotics SPACEO Pro/Prime (input name appears garbled)."
+  },
+  "f22": {
+    "sources": [
+      {
+        "url": "https://matrixrobotics.ai/zh-cn",
+        "title": "Matrix Robotics — MATRIX-1 product page",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "MATRIX-1 by Matrix Robotics (Shanghai): 1.8m, 67kg, 77 DoF. Global debut at WAIC 2025."
+  },
+  "f39": {
+    "sources": [
+      {
+        "url": "https://www.lejurobot.com/en",
+        "title": "Leju Robotics — KUAVO product line",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Leju_Robot",
+        "title": "Leju Robot — Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "confidence": "B",
+    "notes": "KUAVO-S not a distinct SKU; likely refers to a KUAVO series variant. Company-level sourcing."
+  },
+  "f44": {
+    "sources": [
+      {
+        "url": "https://en.engineai.com.cn/product-pm01.html",
+        "title": "EngineAI PM01 official product page",
+        "type": "official"
+      },
+      {
+        "url": "https://www.therobotreport.com/engineai-releases-pm01-humanoid-robot-for-commercial-educational-use/",
+        "title": "EngineAI releases PM01 humanoid robot",
+        "type": "news"
+      }
+    ],
+    "confidence": "A",
+    "notes": "EngineAI PM01: 1.4m, ~42kg, 23 DoF, 300° waist rotation, 2 m/s+ speed."
+  },
+  "f50": {
+    "sources": [
+      {
+        "url": "https://technode.com/2025/08/11/engineai-to-launch-sa02-a-5500-humanoid-robot-aimed-at-young-people/",
+        "title": "EngineAI to launch SA02 — TechNode",
+        "type": "news"
+      },
+      {
+        "url": "https://www.prnewswire.com/ae/news-releases/engineai-unveils-groundbreaking-innovations-at-world-robot-conference-2025-302526413.html",
+        "title": "EngineAI WRC 2025 announcement",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "EngineAI SA02: 1.25m, 25kg, 28 DoF, $5,300-5,500 companion humanoid announced WRC 2025."
+  },
+  "f54": {
+    "sources": [
+      {
+        "url": "https://www.therobotreport.com/kepler-robotics-showcases-k2-bumblebee-icra-2025/",
+        "title": "Kepler Robotics showcases K2 'Bumblebee' humanoid at ICRA 2025",
+        "type": "news"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/kepler-robotics-unveils-k2-bumblebee-at-iros-2025-building-a-global-developer-ecosystem-through-an-open-robotics-platform-302595121.html",
+        "title": "Kepler Robotics Unveils K2 'Bumblebee' at IROS 2025",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Kepler K2 Bumblebee: 175cm, 75kg, 52 DoF, 100 TOPS, $30K base."
+  },
+  "f56": {
+    "sources": [
+      {
+        "url": "https://www.lejurobot.com/en",
+        "title": "Leju Robotics — Roban2 listing",
+        "type": "official"
+      },
+      {
+        "url": "https://www.therobotreport.com/leju-raises-200m-humanoid-production-unitree-unveils-h2-robot/",
+        "title": "Leju raises $200M for humanoid production",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Roban 2: Leju's compact/child-sized bipedal humanoid, launched ~Sept-Oct 2025."
+  },
+  "f61": {
+    "sources": [
+      {
+        "url": "https://www.lejurobot.com/en",
+        "title": "Leju Robotics — KUAVO-MY listing",
+        "type": "official"
+      },
+      {
+        "url": "https://en.people.cn/n3/2025/1103/c90000-20385430.html",
+        "title": "Humanoid 'Kuafu' debuts as torchbearer — People's Daily",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "KUAVO-MY general-purpose humanoid: ~1.7m, 26 DoF, 4.6 km/h. Torchbearer at China's 15th National Games (Nov 2025)."
+  },
+  "f67": {
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/ae/news-releases/engineai-unveils-groundbreaking-innovations-at-world-robot-conference-2025-302526413.html",
+        "title": "EngineAI Unveils Innovations at WRC 2025",
+        "type": "official"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/engineai-robotics-technology-introduces-the-t800-humanoid-robot-at-ces-2026-302655094.html",
+        "title": "EngineAI Introduces T800 at CES 2026",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "EngineAI T800: 1.85m, 85kg, 41 DoF, solid-state battery, ~$25K. Global debut WRC 2025."
+  },
+  "f72": {
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/kepler-robotics-unveils-k2-bumblebee-at-iros-2025-building-a-global-developer-ecosystem-through-an-open-robotics-platform-302595121.html",
+        "title": "Kepler Robotics Unveils K2",
+        "type": "official"
+      },
+      {
+        "url": "https://www.therobotreport.com/kepler-robotics-showcases-k2-bumblebee-icra-2025/",
+        "title": "Kepler K2 at ICRA 2025",
+        "type": "news"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Kepler K2 (Bumblebee) 5th-gen industrial humanoid. Mass production Sept 2025."
+  },
+  "f88": {
+    "sources": [
+      {
+        "url": "https://www.therobotreport.com/kepler-robotics-showcases-k2-bumblebee-icra-2025/",
+        "title": "Kepler Robotics showcases K2 'Bumblebee'",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Generic 'KEPLER' entry — refers to Kepler Robotics humanoid line (K series)."
+  },
+  "f96": {
+    "sources": [
+      {
+        "url": "https://matrixrobotics.ai/zh-cn",
+        "title": "Matrix Robotics official site",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "MATRIX 4 designation not found by exact name in current lineup. Possible internal preview."
+  },
+  "f106": {
+    "sources": [
+      {
+        "url": "https://humanoidspecs.com/robots/engineai-se01",
+        "title": "EngineAI SE01 — HumanoidSpecs",
+        "type": "news"
+      },
+      {
+        "url": "https://www.robotsinternational.com/Engine-AI.htm",
+        "title": "Engine AI SE01 & PM01 Specs",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "B",
+    "notes": "EngineAI SE01 (likely 'SEO1' input typo): full-size 170cm, ~55kg, 32 DoF flagship humanoid."
+  },
+  "f123": {
+    "sources": [
+      {
+        "url": "https://www.lejurobot.com/en",
+        "title": "Leju Robotics official site",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "XTRON KUAVO-MY — Leju KUAVO-MY variant; XTRON appears to be a sub-brand."
+  },
+  "f124": {
+    "sources": [
+      {
+        "url": "https://www.robotsinternational.com/PNDbotics.htm",
+        "title": "PNDbotics product listing",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "B",
+    "notes": "PNDbotics Adam Lite: 1.6m, ~60kg, 25 QDD actuators."
+  },
+  "en1": {
+    "needs_source": true,
+    "investigation": "Verified as fabricated entry — no robot-battery vendor 'Ampere' exists.",
+    "suggested_action": "remove"
+  },
+  "a3": {
+    "needs_source": true,
+    "investigation": "No verifiable product 'KINO X2'. Not Kinova X2. Possible hallucination.",
+    "suggested_action": "remove or rename"
+  },
+  "a5": {
+    "needs_source": true,
+    "investigation": "No verifiable manufacturer for 'PANDEL' robot arm. Likely hallucination.",
+    "suggested_action": "remove or rename"
+  },
+  "a6": {
+    "sources": [
+      {
+        "url": "https://docs.elephantrobotics.com/docs/ultraArm-en/",
+        "title": "Elephant Robotics ultraArm P340 documentation",
+        "type": "official"
+      },
+      {
+        "url": "https://www.elephantrobotics.com/ultraArm/",
+        "title": "ultraArm Conveyor Belt Kit 2024",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "'PB-340' likely name-mangling of 'ultraArm P340'. Elephant Robotics 4-DOF compact arm."
+  },
+  "a7": {
+    "needs_source": true,
+    "investigation": "Pudu Robotics' official lineup does NOT include 'FlashBot Arm'. Pudu sells FlashBot (delivery robot) but no humanoid/arm SKU under that name.",
+    "suggested_action": "remove or clarify"
+  },
+  "a8": {
+    "sources": [
+      {
+        "url": "https://www.kinisi.com/",
+        "title": "Kinisi Robotics official site (KR1)",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Kinisi Robotics KR1 (Kinisi 01) general-purpose manipulator. Founded 2024; NYC + Bristol."
+  },
+  "h1": {
+    "sources": [
+      {
+        "url": "https://tetheria.github.io/aero-hand-open/",
+        "title": "Aero Hand Open – TetherIA",
+        "type": "official"
+      },
+      {
+        "url": "https://github.com/TetherIA/aero-hand-open",
+        "title": "TetherIA / aero-hand-open GitHub",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Chestnut Robotics: open-source $314 anthropomorphic hand, <400g, 7 motors, 16 joints."
+  },
+  "h2": {
+    "sources": [
+      {
+        "url": "https://schunk.com/us/en/gripping-systems/special-gripper/svh/c/PGR_3161",
+        "title": "SCHUNK SVH 5-Finger Servo-Electric Gripping Hand",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "SCHUNK SVH: 9-drive anthropomorphic 5-finger hand."
+  },
+  "h3": {
+    "sources": [
+      {
+        "url": "https://en.tesollo.com/dg-3f-b/",
+        "title": "TESOLLO DG-3F-B official",
+        "type": "official"
+      },
+      {
+        "url": "https://www.therobotreport.com/3-finger-robotic-gripper-now-available-from-tesollo-in-north-america/",
+        "title": "Tesollo 3-finger gripper",
+        "type": "news"
+      }
+    ],
+    "confidence": "A",
+    "notes": "TESOLLO DG-3F series: 3-finger, 12-DoF."
+  },
+  "h5": {
+    "sources": [
+      {
+        "url": "https://en.inspire-robots.com/product-category/the-dexterous-hands",
+        "title": "INSPIRE ROBOTS Dexterous Hands",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "RH50G2 not in current Inspire catalog; may be legacy designation."
+  },
+  "h6": {
+    "sources": [
+      {
+        "url": "https://www.zwhand.com/en",
+        "title": "ZWHAND official (兆威机电)",
+        "type": "official"
+      },
+      {
+        "url": "https://finance.sina.com.cn/stock/relnews/cn/2025-07-06/doc-infepnsi0749533.shtml",
+        "title": "ZhaoWei releases new dexterous hand (Sina Finance)",
+        "type": "news"
+      }
+    ],
+    "confidence": "A",
+    "notes": "ZhaoWei DM17/DM20: 17/20 DoF; released July 2025."
+  },
+  "h7": {
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/pl-universe-robotics-launches-prowhite-robot-2-0-and-dexterous-hand-powered-by-jdcom-global-online-partnership-for-overseas-expansion-302601766.html",
+        "title": "PL-Universe Robotics launches dexterous hand",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "PL-WitHand (input 'PL-METHAND' typo): 20-DoF. Launched Nov 1, 2025."
+  },
+  "h9": {
+    "sources": [
+      {
+        "url": "https://www.psyonic.io/ability-hand",
+        "title": "PSYONIC Ability Hand",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "6 brushless motors, 490g, 25 DoF, IP64."
+  },
+  "h10": {
+    "sources": [
+      {
+        "url": "https://kyberlabs.ai/",
+        "title": "Kyber Labs official",
+        "type": "official"
+      },
+      {
+        "url": "https://www.humanoidsdaily.com/news/kyber-labs-emerges-with-a-high-speed-backdrivable-robotic-hand",
+        "title": "Kyber Labs Emerges",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Kyber Labs five-finger hand, 20 DoF, fully backdrivable."
+  },
+  "h11": {
+    "sources": [
+      {
+        "url": "https://store.agibot.com/products/omnihand-pro-2025",
+        "title": "AGIBOT OmniHand Pro 2025",
+        "type": "official"
+      },
+      {
+        "url": "https://github.com/AgibotTech/OmniHand-Pro-2025",
+        "title": "AgibotTech OmniHand-Pro-2025 GitHub",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "AgiBot OmniHand Pro 2025: 12 active/19 total DoF, ≤750g, $14,610."
+  },
+  "h12": {
+    "sources": [
+      {
+        "url": "https://www.allegrohand.com/",
+        "title": "Allegro Hand official (Wonik Robotics)",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Wonik Robotics Allegro Hand V4: 4 fingers, 16 joints."
+  },
+  "h13": {
+    "sources": [
+      {
+        "url": "https://www.covvi-robotics.com/robotic-hand/product-overview/",
+        "title": "COVVI Robotics product overview",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "COVVI: 1.03kg, 213N grip, 6 actuators."
+  },
+  "h15": {
+    "sources": [
+      {
+        "url": "https://www.veichi.com/product/robot-core-components/",
+        "title": "VEICHI Robot Core Components",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "VEICHI YZ-T6: 6-DOF tendon-driven hand."
+  },
+  "h16": {
+    "sources": [
+      {
+        "url": "https://www.oymotion.com/en/product62",
+        "title": "OYMotion ROHand",
+        "type": "official"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0673/6848/5000/files/ROH-A002-Dexterous-Hand.pdf?v=1760263766",
+        "title": "OYMotion ROH-A002 datasheet",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "A",
+    "notes": "OYMotion ROHand: 11 joints, 6 active DoF."
+  },
+  "h17": {
+    "sources": [
+      {
+        "url": "https://store.agibot.com/products/omnihand-pro-2025",
+        "title": "AGIBOT OmniHand Pro 2025",
+        "type": "official"
+      },
+      {
+        "url": "https://www.agibot.com/products/OmniHand_O10",
+        "title": "AGIBOT OmniHand O10",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "AgiBot OmniHand 2025 family."
+  },
+  "h18": {
+    "needs_source": true,
+    "investigation": "No English or Chinese source for AfaRobot 远界机器人 AEP-H01 found.",
+    "suggested_action": "verify-or-remove"
+  },
+  "h19": {
+    "sources": [
+      {
+        "url": "https://www.altbionics.com/",
+        "title": "Alt-Bionics official",
+        "type": "official"
+      },
+      {
+        "url": "https://www.altbionics.com/intro/",
+        "title": "Alt-Bionics Surge configurations",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Surge Hand: 500g, 6 individually powered joints."
+  },
+  "h20": {
+    "sources": [
+      {
+        "url": "https://en.inspire-robots.com/product-category/the-dexterous-hands",
+        "title": "INSPIRE ROBOTS Dexterous Hands",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "RH50 SERIES not on current Inspire catalog (RH56-series listed). May be legacy."
+  },
+  "h21": {
+    "sources": [
+      {
+        "url": "https://humanoid.guide/product/gmh18/",
+        "title": "PaXini GMH18 Robotic Hand",
+        "type": "datasheet"
+      },
+      {
+        "url": "https://www.paxini.com/product",
+        "title": "PaXini official products",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "PaXini GMH18 (input 'GM18B' typo): 18-DoF, 20kg payload."
+  },
+  "h22": {
+    "sources": [
+      {
+        "url": "https://wuji.tech/",
+        "title": "WUJI Technology official",
+        "type": "official"
+      },
+      {
+        "url": "https://docs.wuji.tech/docs/en/wuji-hand/latest/overview/",
+        "title": "WUJI Hand docs",
+        "type": "official"
+      },
+      {
+        "url": "https://github.com/wuji-technology/wujihandpy",
+        "title": "WUJI Hand SDK GitHub",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "WUJI Hand: 20 active DoF, <600g."
+  },
+  "h23": {
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/brainco-launches-revo2-hand-for-humanoid-robotics-302557714.html",
+        "title": "BrainCo Launches Revo2 Hand",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "CORRECTION: REVO 2 is by BrainCo, NOT 'AUTODISCOVERY/探索科技'. 383g, 6 active joints/11 DoF, 50N grip."
+  },
+  "h25": {
+    "sources": [
+      {
+        "url": "https://en.inspire-robots.com/product/rh56e2",
+        "title": "INSPIRE RH56E2",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "RH56E2: 5-finger, 12 joints, 790g, 17 tactile sensors."
+  },
+  "h26": {
+    "sources": [
+      {
+        "url": "https://www.unitree.com/Dex5-1",
+        "title": "Unitree Dex5-1",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Unitree Dex5-1: 20 DoF, 1100g, USB2.0 1000Hz."
+  },
+  "h27": {
+    "sources": [
+      {
+        "url": "https://www.prensilia.com/ih2-azzurra-hand/",
+        "title": "Prensilia IH2 Azzurra",
+        "type": "official"
+      },
+      {
+        "url": "https://www.prensilia.com/wp-content/uploads/support/doc/DS-IH2-v02.pdf",
+        "title": "IH2 Azzurra datasheet",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Prensilia IH2 Azzurra: >640g, 5 actuators/11 DoF."
+  },
+  "h28": {
+    "sources": [
+      {
+        "url": "https://www.wirobotics.com/media/newsDetail?pageType=01&idx=75&page=1",
+        "title": "WIRobotics unveils ALLEX",
+        "type": "official"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/wirobotics-unveils-allex-a-general-purpose-humanoid-with-human-like-responsiveness-302532078.html",
+        "title": "WIRobotics ALLEX",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "CORRECTION: ALLEX is by WIRobotics (Korea), NOT 'NXROBOTICS'. 20 joints, 15 active DoF, 30kg hook grip."
+  },
+  "h30": {
+    "sources": [
+      {
+        "url": "https://humanoid.guide/product/dexh5/",
+        "title": "PaXini DexH5",
+        "type": "datasheet"
+      },
+      {
+        "url": "https://www.paxini.com/product",
+        "title": "PaXini official",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "PaXini DexH5: 4-finger tactile hand, 9 DoF, 528+ tactile sensors."
+  },
+  "h31": {
+    "sources": [
+      {
+        "url": "https://oceantrix.com/robotic-hand/",
+        "title": "OceanTrix Robotic Hand R1",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "OceanTrix R1: 6 DoF, 30N/finger, 30kg max load."
+  },
+  "h32": {
+    "sources": [
+      {
+        "url": "https://www.agile-robots.com/en/solutions/agile-hand/",
+        "title": "Agile Robots Agile Hand",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "5 modular fingers, 21 joints/15-16 DoF, 1.5 kg."
+  },
+  "h34": {
+    "sources": [
+      {
+        "url": "https://www.sharpa.com/pages/wave",
+        "title": "Sharpa Wave",
+        "type": "official"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/ai-robotmaker-sharpa-reaches-key-milestone-with-mass-production-of-worlds-most-advanced-human-sized-robotic-hand-302643434.html",
+        "title": "Sharpa mass production",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "SharpaWave: 22 active DoF, CES 2026 Innovation Award."
+  },
+  "h35": {
+    "sources": [
+      {
+        "url": "https://srl.ethz.ch/orcahand.html",
+        "title": "ORCA Hand — ETH Zurich SRL",
+        "type": "official"
+      },
+      {
+        "url": "https://arxiv.org/abs/2504.04259",
+        "title": "ORCA arXiv paper",
+        "type": "paper"
+      }
+    ],
+    "confidence": "A",
+    "notes": "ETH ORCA Hand: 17 DoF, tendon-driven, <2000 CHF, MIT/CC licensed."
+  },
+  "h36": {
+    "sources": [
+      {
+        "url": "https://www.dexhand.org/",
+        "title": "DexHand open-source project",
+        "type": "official"
+      },
+      {
+        "url": "https://github.com/iotdesignshop/dexhandv2_description",
+        "title": "DexHand V2 URDF/ROS2",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "DexHand v2: ~19 DoF, Arduino Nano RP2040, CC BY-NC-SA 4.0."
+  },
+  "h38": {
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/changingtek-robotics-launches-the-worlds-first-adaptive-x2-leftright-dexterous-hand-302698079.html",
+        "title": "Changingtek Robotics launches X2",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "X2: tendon-driven, autonomous L/R reconfiguration. Launched Feb 2026."
+  },
+  "h39": {
+    "sources": [
+      {
+        "url": "https://en.tesollo.com/products/dg-5f",
+        "title": "TESOLLO DG-5F-M",
+        "type": "official"
+      },
+      {
+        "url": "https://en.tesollo.com/wp-content/uploads/2025/02/TESOLLO-DG-5F-catalogue-En-2.pdf",
+        "title": "TESOLLO DG-5F catalogue",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "A",
+    "notes": "DG-5F-M: 20 DoF, 1763g, 250Hz control."
+  },
+  "h40": {
+    "sources": [
+      {
+        "url": "https://humanoid.guide/product/xhand1/",
+        "title": "Robotera XHAND1",
+        "type": "datasheet"
+      },
+      {
+        "url": "https://cdn.robotshop.com/media/E/ERA/RB-Era-01/pdf/x-hand-product-manual-1-0.pdf",
+        "title": "X-Hand 1 Product Manual",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Robotera XHAND1: 12 active DoF, 80N grip, 24kg whole-hand lift."
+  },
+  "h41": {
+    "sources": [
+      {
+        "url": "https://humanoid.guide/product/dexh13/",
+        "title": "PaXini DexH13",
+        "type": "datasheet"
+      },
+      {
+        "url": "https://www.paxini.com/product",
+        "title": "PaXini official",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "PaXini DexH13: 4-finger, 16 DoF, 1140 tactile units + AI vision."
+  },
+  "h42": {
+    "sources": [
+      {
+        "url": "https://www.prensilia.com/mia-hand-research/",
+        "title": "Prensilia Mia Hand R&D",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Mia Hand R&D: >520g, 3 actuators/4 DoF, 44-140N grasp."
+  },
+  "h43": {
+    "sources": [
+      {
+        "url": "https://www.festo.com/us/en/e/about-festo/research-and-development/bionic-learning-network/bionic-grippers-and-soft-robots/bionicsofthand-id_68106/",
+        "title": "Festo BionicSoftHand",
+        "type": "official"
+      },
+      {
+        "url": "https://press.festo.com/en-US/bionics-1/mobile-robot-system-meets-bionicsofthand-2-0-1",
+        "title": "Festo BionicSoftHand 2.0",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Festo BionicSoftHand 2.0: pneumatic bellows-driven, 12 DoF."
+  },
+  "h45": {
+    "sources": [
+      {
+        "url": "https://humanoid.guide/product/artixon/",
+        "title": "X Square Robot ArtiXon Hand",
+        "type": "datasheet"
+      },
+      {
+        "url": "https://www.therobotreport.com/x-square-robot-debuts-foundation-model-embodied-ai-100m-series-a/",
+        "title": "X Square Robot debut",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "ArtiXon: 20 DoF, 15 actuators, tendon-driven, foundation-model controlled."
+  },
+  "h46": {
+    "sources": [
+      {
+        "url": "https://news.housebots.com/news/dexcelrobotics-unveils-apex-hand-a-leap-forward-in-robotic-dexterity",
+        "title": "DexcelRobotics Apex Hand",
+        "type": "news"
+      },
+      {
+        "url": "https://kr-asia.com/swipe-type-take-a-pulse-dexcels-apex-hand-mimics-human-dexterity-to-the-fingertips",
+        "title": "Dexcel Apex Hand (KrASIA)",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "DexcelRobotics Apex Hand: 21 DoF, flexible e-skin, >1000Hz refresh. Aug 2025."
+  },
+  "h47": {
+    "sources": [
+      {
+        "url": "https://www.magiclab.top/en/parts/hand",
+        "title": "MagicLab MagicHand S01",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "CORRECTION: MagicHand S01 is by MagicLab, NOT 逐际动力/LimX. 11 DoF, 580g, 5kg max payload."
+  },
+  "h48": {
+    "sources": [
+      {
+        "url": "https://qbrobotics.com/product/qb-softhand-2-research/",
+        "title": "qb SoftHand2 Research",
+        "type": "official"
+      },
+      {
+        "url": "https://qbrobotics.com/wp-content/uploads/2022/05/qbSoftHand2-Research-User-Manual.pdf",
+        "title": "qb SoftHand2 Research user manual",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "A",
+    "notes": "qb SoftHand2 Research: anthropomorphic, 19 joints, dual-synergy."
+  },
+  "h49": {
+    "sources": [
+      {
+        "url": "https://humanoid.guide/product/fllex/",
+        "title": "FLLEX 5-Finger Hand (IRIM Lab KoreaTech)",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "B",
+    "notes": "IRIM Lab KoreaTech FLLEX: 5-finger 12-DoF, BLDC+ball-screw."
+  },
+  "h50": {
+    "sources": [
+      {
+        "url": "https://www.hannovermesse.de/product/the-artus-lite-robotic-hand/438044/N1545589",
+        "title": "ARTUS Lite Hannover Messe",
+        "type": "official"
+      },
+      {
+        "url": "https://github.com/Sarcomere-Dynamics/Sarcomere_Dynamics_Resources",
+        "title": "Sarcomere Dynamics Resources",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Sarcomere Dynamics ARTUS Lite: 20 DoF, 6-7kg/hand."
+  },
+  "h52": {
+    "sources": [
+      {
+        "url": "https://www.mimicrobotics.com/",
+        "title": "Mimic Robotics official",
+        "type": "official"
+      },
+      {
+        "url": "https://mimicrobotics.github.io/mimic-one/",
+        "title": "mimic-one project page",
+        "type": "official"
+      },
+      {
+        "url": "https://arxiv.org/abs/2506.11916",
+        "title": "mimic-one arXiv",
+        "type": "paper"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Mimic Robotics M1.0: ETH Zurich spinout. Universal dexterous hand + foundation manipulation model."
+  },
+  "f10": {
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/tars-demonstrates-a-robot-that-can-perform-hand-embroidery-breaking-through-a-key-automation-bottleneck-in-flexible-manufacturing-302648045.html",
+        "title": "TARS Demonstrates a Robot That Can Perform Hand Embroidery",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "TARS Robotics (Shanghai, founded Feb 2025); T-Series and A-Series platforms."
+  },
+  "f19": {
+    "needs_source": true,
+    "investigation": "Haier's actual humanoid is 'HIVA Haiwa' (Jul 2025, 165cm, 44 DoF). 'HAWO HANXI' not found.",
+    "suggested_action": "verify-or-rename to HIVA Haiwa"
+  },
+  "f23": {
+    "needs_source": true,
+    "investigation": "AgileX LIMO is a wheeled/tracked mobile education robot (Jetson Nano, 322x220x251mm, 4.2kg), NOT a humanoid. Categorizing under 整机平台 is incorrect.",
+    "suggested_action": "recategorize as mobile-robot, not humanoid"
+  },
+  "f26": {
+    "sources": [
+      {
+        "url": "https://humanoid.guide/product/skywalker-2/",
+        "title": "SkyWalker 2 by EIR Technology",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "B",
+    "notes": "EIR Technology (Sichuan, founded Sep 2024) SkyWalker 2 — 165cm, 55kg, 55 DoF, $85K."
+  },
+  "f28": {
+    "needs_source": true,
+    "investigation": "Ascento makes a two-wheeled jumping security robot ('Ascento Guard'), not a humanoid. 'RUFUS' not found.",
+    "suggested_action": "verify-or-remove"
+  },
+  "f30": {
+    "sources": [
+      {
+        "url": "https://www.magiclab.top/en/human",
+        "title": "MagicLab General-Purpose Humanoid",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "MagicLab (Magic Atom, founded Dec 2023) MagicBot Gen1: 174cm, 70kg, 42 DoF."
+  },
+  "f32": {
+    "sources": [
+      {
+        "url": "https://en.noetixrobotics.com/",
+        "title": "Noetix Robotics (松延动力) Home",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Noetix Robotics (Songyan Power, Beijing, founded Sep 2023) DORA: 20-26 DoF."
+  },
+  "f33": {
+    "sources": [
+      {
+        "url": "https://www.rockingrobots.com/zhejiang-humanoid-robot-innovation-center-launches-the-navai-navigator-2/",
+        "title": "Zhejiang Humanoid Robot Innovation Center NAVAI Navigator 2",
+        "type": "news"
+      },
+      {
+        "url": "https://kjt.zj.gov.cn/art/2024/8/23/art_1228971343_59011862.html",
+        "title": "浙江人形机器人创新中心发布NAVIAI",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Navigator 2 / NAVIAI (Aug 2024): 165cm, 60kg, 41 DoF, 275 TOPS."
+  },
+  "f35": {
+    "sources": [
+      {
+        "url": "https://humanoid.guide/product/kapex/",
+        "title": "KAPEX — AI-Driven Humanoid by LG & KIST",
+        "type": "datasheet"
+      },
+      {
+        "url": "https://www.koreaherald.com/article/10710964",
+        "title": "LG affiliates converge on humanoid parts",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "KAPEX co-developed by LG Electronics, LG AI Research, KIST (Nov 2025)."
+  },
+  "f36": {
+    "sources": [
+      {
+        "url": "https://www.vietnam.vn/en/lanh-dao-vinmotion-chung-toi-da-va-dang-phat-trien-mau-robot-motion-2",
+        "title": "VinMotion Motion 2",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "VinMotion (Vingroup, Vietnam) Motion 2: 1.78m, 75kg, 40kg payload."
+  },
+  "f37": {
+    "sources": [
+      {
+        "url": "https://www.lumosbot.tech/",
+        "title": "Lumos Robotics official",
+        "type": "official"
+      },
+      {
+        "url": "https://kr-asia.com/touch-enabled-robots-inch-closer-to-reality-as-lumos-robotics-secures-new-funding",
+        "title": "Lumos Robotics secures funding",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Lumos Robotics (Shenzhen, founded Sep 2024) LUS2."
+  },
+  "f41": {
+    "sources": [
+      {
+        "url": "https://humanoid.guide/product/tian-yi-2-0/",
+        "title": "Tian Yi 2.0 Humanoid",
+        "type": "datasheet"
+      },
+      {
+        "url": "https://x-humanoid.com/bt.html",
+        "title": "北京人形机器人创新中心-天工开源计划",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "X-Humanoid Tian Yi 2.0 — 35 DoF wheel-arm mobile manipulator."
+  },
+  "f45": {
+    "sources": [
+      {
+        "url": "https://gbionics.ai/downloads/CES/PressRelease_GENE01_Unveiling_CES_AMD.pdf",
+        "title": "GENE.01 CES 2026 Unveiling",
+        "type": "official"
+      },
+      {
+        "url": "https://www.startupbusiness.it/en/gene-01-the-first-humanoid-robot-from-generative-bionics/148980/",
+        "title": "GENE.01 from Generative Bionics",
+        "type": "news"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Generative Bionics (Italy) GENE.01: full-body tactile skin. CES 2026 with AMD. $81M funding."
+  },
+  "f46": {
+    "sources": [
+      {
+        "url": "https://robohorizon.com/en-us/news/2025/08/zeus-1-pl-universes-high-precision-humanoid-robot/",
+        "title": "Zeus 1: PL-Universe's Humanoid",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "PL-Universe (Suzhou) Zeus 1: 1.6-1.9m, 300kg industrial wheeled humanoid."
+  },
+  "f48": {
+    "sources": [
+      {
+        "url": "https://x-humanoid.com/bt.html",
+        "title": "X-Humanoid 天工开源计划",
+        "type": "official"
+      },
+      {
+        "url": "https://humanoid.guide/product/tien-kung-2-0/",
+        "title": "Tien Kung 2.0",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Tien Kung 2.0 by X-Humanoid; marathon world record Apr 2025."
+  },
+  "f51": {
+    "sources": [
+      {
+        "url": "https://www.pollen-robotics.com/reachy/",
+        "title": "Reachy by Pollen Robotics",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Reachy 2 — CES 2025, dual 7-DoF arms. Pollen acquired by Hugging Face Apr 2025."
+  },
+  "f52": {
+    "sources": [
+      {
+        "url": "https://www.humanoidsdaily.com/feed/phybot-m1-debuts-with-a-backflip-and-a-most-powerful-claim",
+        "title": "Phybot M1 Debuts with Backflip",
+        "type": "news"
+      },
+      {
+        "url": "https://interestingengineering.com/ai-robotics/humanoid-robot-backflip-superman-landing",
+        "title": "World's most powerful humanoid aces backflip",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "PHYBOT M1 (Tsinghua spinoff): 172cm, 32 DoF, 530 N·m peak torque."
+  },
+  "f53": {
+    "sources": [
+      {
+        "url": "https://robros.co.kr/igrisc/",
+        "title": "ROBROS IGRIS-C official",
+        "type": "official"
+      },
+      {
+        "url": "https://us.aving.net/news/articleView.html?idxno=53050",
+        "title": "Robros IGRIS-C at CES 2026",
+        "type": "news"
+      }
+    ],
+    "confidence": "A",
+    "notes": "ROBROS (Korea) IGRIS-C — 154cm, 60kg, 31 DoF. Won bipedal walking at IEEE-RAS Humanoids 2024."
+  },
+  "f55": {
+    "sources": [
+      {
+        "url": "https://www.humanoidsdaily.com/news/borg-robotics-reveals-modular-borg-01-humanoid-focused-on-industrial-work",
+        "title": "Borg Robotics Reveals Modular Borg 01",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Borg Robotics (Detroit, founded 2022) Borg 01: modular bipedal/wheeled humanoid."
+  },
+  "f58": {
+    "sources": [
+      {
+        "url": "https://siliconcanals.com/uks-humanoid-unveils-hmnd-01/",
+        "title": "UK's Humanoid unveils HMND 01",
+        "type": "news"
+      },
+      {
+        "url": "https://interestingengineering.com/innovation/uk-fastest-developed-humanoid-robot",
+        "title": "UK fastest-developed humanoid",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Humanoid (UK) HMND 01: 220cm, 7.2 km/h, 15kg payload."
+  },
+  "f59": {
+    "sources": [
+      {
+        "url": "https://interestingengineering.com/innovation/israel-humanoid-robot-with-360-vision",
+        "title": "MenteeBot V3.0 humanoid",
+        "type": "news"
+      },
+      {
+        "url": "https://www.nvidia.com/en-us/case-studies/mentee-robotics/",
+        "title": "Mentee Robotics NVIDIA Isaac case study",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Mentee Robotics MenteeBot V3.0: 1.75m, acquired by Mobileye."
+  },
+  "f60": {
+    "sources": [
+      {
+        "url": "https://www.lumosbot.tech/",
+        "title": "Lumos Robotics official",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Lumos Robotics NIX — 80cm small humanoid for family companionship."
+  },
+  "f62": {
+    "sources": [
+      {
+        "url": "https://m.nbd.com.cn/articles/2024-12-24/3697293.html",
+        "title": "博实股份-哈工大合作研发的人形机器人",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "DexBot — industrial humanoid by Boshi Auto (博实股份) + Harbin Institute of Technology. 60 DoF."
+  },
+  "f63": {
+    "sources": [
+      {
+        "url": "https://www.astribot.com/",
+        "title": "Astribot 星尘智能 official",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Astribot S1: 165cm, 58kg, 36 DoF. NOTE: input says 'STAR1' but Astribot's product is 'S1'; 'STAR1' belongs to RobotEra. May be conflated."
+  },
+  "f64": {
+    "sources": [
+      {
+        "url": "https://www.noblemachines.ai/",
+        "title": "Noble Machines (formerly UCR) official",
+        "type": "official"
+      },
+      {
+        "url": "https://www.humanoidsdaily.com/news/noble-machines-exits-stealth-the-anti-human-approach-to-industrial-humanoids",
+        "title": "Noble Machines Exits Stealth",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Noble Machines (Sunnyvale) Moby: 1.7m, 27kg payload, 34 DoF."
+  },
+  "f66": {
+    "sources": [
+      {
+        "url": "https://humanoid.guide/product/orca/",
+        "title": "Orca Humanoid by Cyan Robotics",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Cyan Robotics (Shanghai) Orca 1 — 1.45m, ~$40-50K."
+  },
+  "f68": {
+    "sources": [
+      {
+        "url": "https://galaxea.ai/",
+        "title": "Galaxea AI official",
+        "type": "official"
+      },
+      {
+        "url": "https://userguide-galaxea.github.io/Product_User_Guide/Introducing_Galaxea_Robot/product_info/R1/",
+        "title": "Galaxea R1 user guide",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Galaxea AI (星海图) R1 Pro: 26 DoF, dual 7-axis arms, 10kg/arm. RMB 199K starting."
+  },
+  "f71": {
+    "sources": [
+      {
+        "url": "https://enchanted.tools/",
+        "title": "Enchanted Tools official",
+        "type": "official"
+      },
+      {
+        "url": "https://www.therobotreport.com/enchanted-tools-delivers-mirokai-robot-to-its-first-customer/",
+        "title": "Enchanted Tools delivers Mirokaï",
+        "type": "news"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Enchanted Tools (Paris) Mirokaï: 1.23m, ball-balancing humanoid."
+  },
+  "f74": {
+    "sources": [
+      {
+        "url": "https://x2robot.com/en",
+        "title": "X Square Robot official",
+        "type": "official"
+      },
+      {
+        "url": "https://www.cnbc.com/2025/09/08/alibaba-leads-100-million-investment-in-chinese-humanoid-robot-startup.html",
+        "title": "Alibaba leads $100M in X Square Robot",
+        "type": "news"
+      }
+    ],
+    "confidence": "A",
+    "notes": "X Square Robot Quanta X2: 172cm, 62 DoF + WALL-A foundation model."
+  },
+  "f75": {
+    "sources": [
+      {
+        "url": "https://www.roboticssummit.com/westwood-robotics-debuting-next-gen-themis-humanoid/",
+        "title": "Westwood Robotics debuts next-gen THEMIS",
+        "type": "news"
+      },
+      {
+        "url": "https://interestingengineering.com/ai-robotics/westwood-robotics-new-humanoid-robot",
+        "title": "Westwood Robotics new humanoid",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Westwood Robotics THEMIS V2 (UCLA RoMeLa spinoff): 1.6m, 40 DoF."
+  },
+  "f76": {
+    "sources": [
+      {
+        "url": "https://hexagon.com/company/newsroom/press-releases/2025/hexagon-launches-aeon-a-humanoid-built-for-industry",
+        "title": "Hexagon launches AEON",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Hexagon Robotics AEON — launched Stockholm Jun 17 2025. NVIDIA/Microsoft/maxon partners."
+  },
+  "f77": {
+    "sources": [
+      {
+        "url": "https://en.noetixrobotics.com/products-279.html",
+        "title": "Hobbs - Noetix Robotics",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Noetix Hobbs bionic robot head; Hobbs 3 = 32 DoF."
+  },
+  "f80": {
+    "sources": [
+      {
+        "url": "https://www.dobot-robots.com/products/humanoid-robots/atom.html",
+        "title": "DOBOT Atom",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "DOBOT Atom: 1.53m, 62kg, 41 DoF. Mar 2025 launch, RMB 199K start."
+  },
+  "f83": {
+    "sources": [
+      {
+        "url": "https://www.dexmate.ai/product/vega",
+        "title": "Vega - Dexmate",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Dexmate Vega: 171cm, 135kg, 36+ DoF, dual 7-DoF arms. $89,999."
+  },
+  "f85": {
+    "sources": [
+      {
+        "url": "https://humanoid.guide/product/alice-m1/",
+        "title": "Alice M1 Humanoid",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "B",
+    "notes": "AeiROBOT (Korea, Hanyang U spinoff) ALICE 4: 160cm, 41 DoF, gearless linear actuators."
+  },
+  "f87": {
+    "sources": [
+      {
+        "url": "https://humanoid.guide/product/songxing/",
+        "title": "Songxing Humanoid by Siasun",
+        "type": "datasheet"
+      },
+      {
+        "url": "https://www.siasun.com/",
+        "title": "SIASUN 新松机器人 official",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Siasun (新松) Songxing 松行 — bipedal humanoid in development."
+  },
+  "f89": {
+    "sources": [
+      {
+        "url": "https://www.humanoidsdaily.com/news/cartwheel-robotics-steps-out-of-stealth-aiming-for-lovable-humanoids",
+        "title": "Cartwheel Robotics Exits Stealth",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Cartwheel Robotics Yogi: 76cm, 50+ DoF, soft silicone skin. Founder ex-Boston Dynamics."
+  },
+  "f91": {
+    "sources": [
+      {
+        "url": "https://www.roboforce.ai/",
+        "title": "RoboForce Robotics for Humanity",
+        "type": "official"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/roboforce-introduces-ai-robot-titan-for-real-world-industrial-deployment-and-announces-15m-in-total-funding-302458546.html",
+        "title": "RoboForce TITAN",
+        "type": "news"
+      }
+    ],
+    "confidence": "A",
+    "notes": "RoboForce (Milpitas) TITAN industrial humanoid. Jensen Huang GTC 2025 keynote."
+  },
+  "f93": {
+    "sources": [
+      {
+        "url": "https://shop.elephantrobotics.com/products/mercury-humanoid-robot-series",
+        "title": "Mercury Humanoid by Elephant Robotics",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Elephant Robotics Mercury X1: 1.18m wheeled humanoid, 19 DoF. NOTE: 'ROBOTART X1' name not found; actual product is Mercury X1."
+  },
+  "f97": {
+    "sources": [
+      {
+        "url": "https://www.newsgd.com/node_d36b0ef83f/2dbe3bd989.shtml",
+        "title": "Topstar Xiao Tuo launch",
+        "type": "news"
+      },
+      {
+        "url": "https://www.topstarmachine.com/topstar-global-open-day-2025-humanoid-robot-debuts-pioneering-a-new-decade-of-intelligent-manufacturing/",
+        "title": "TOPSTAR Global Open Day 2025",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Topstar (拓斯达) Xiao Tuo: wheeled humanoid for injection-molding lines. Sep 12 2025."
+  },
+  "f100": {
+    "sources": [
+      {
+        "url": "https://robotsguide.com/robots/cyberone",
+        "title": "CyberOne - ROBOTS guide",
+        "type": "datasheet"
+      },
+      {
+        "url": "https://spectrum.ieee.org/humanoid-robot-xiaomi-cyberone",
+        "title": "Xiaomi Builds CyberOne",
+        "type": "news"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Xiaomi CyberOne (Aug 2022): 1.77m, 52kg, 21 DoF. Redesigned 2025."
+  },
+  "f101": {
+    "sources": [
+      {
+        "url": "https://humanoid.guide/product/versabot-vb-1/",
+        "title": "VersaBot VB-1 by Lanxin Robotics",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Lanxin Robotics VersaBot VB-1: World's first pure vision-based humanoid (Aug 23 2024). NOTE: input lists 'VC-1' but actual is 'VB-1'."
+  },
+  "f102": {
+    "needs_source": true,
+    "investigation": "MagicLab lineup is MagicBot Gen1 + Z1; no 'MagicBot 2' found.",
+    "suggested_action": "verify-or-rename"
+  },
+  "f103": {
+    "sources": [
+      {
+        "url": "https://interestingengineering.com/innovation/clone-alpha-humanoid-robot-unveiled-poland",
+        "title": "Water-powered humanoid Clone Alpha",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Clone Robotics Clone Alpha: 170cm, 206 artificial bones, Myofiber water-hydraulic muscles."
+  },
+  "f107": {
+    "sources": [
+      {
+        "url": "https://spectrum.ieee.org/boardwalk-robotics-alex-humanoid",
+        "title": "Boardwalk Robotics Alex",
+        "type": "news"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Boardwalk Robotics Alex (upper-torso humanoid, IHMC commercial partner). 19 DoF."
+  },
+  "f108": {
+    "sources": [
+      {
+        "url": "https://siliconcanals.com/uks-humanoid-unveils-hmnd-01/",
+        "title": "UK's Humanoid unveils HMND 01",
+        "type": "news"
+      },
+      {
+        "url": "https://www.humanoidsdaily.com/news/uk-startup-humanoid-claims-fastest-developed-humanoid-in-history-with-hmnd-01-alpha-reveal",
+        "title": "HMND 01 Alpha reveal",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Humanoid (UK) HMND 01 Alpha. Same company as f58. Live data has broken image ref."
+  },
+  "f109": {
+    "sources": [
+      {
+        "url": "https://www.paxini.com/enterprise/consumer",
+        "title": "PaXini TORA-ONE",
+        "type": "official"
+      },
+      {
+        "url": "https://rbtx.com/en-US/components/humanoid/paxini-tora-one-humanoid-robot-21-dof",
+        "title": "PaXini TORA-ONE distributor",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "A",
+    "notes": "PaXini TORA-ONE: 1.46-1.86m, 21 DoF body / 47 with hands."
+  },
+  "f112": {
+    "sources": [
+      {
+        "url": "https://humanoid.guide/product/tian-yi-2-0/",
+        "title": "Tian Yi 2.0",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Same as f41 — X-Humanoid Tian Yi 2.0. f41 and f112 appear to be duplicates."
+  },
+  "f113": {
+    "sources": [
+      {
+        "url": "https://owirobot.com/re-co-robot/",
+        "title": "RE/CO Robot - OWI Robotikits",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "OWI RE/CO is a 106-piece STEM hobby kit (tracked off-road), NOT a humanoid platform. Recategorize."
+  },
+  "f114": {
+    "sources": [
+      {
+        "url": "https://www.menteebot.com/",
+        "title": "MenteeBot - Mentee Robotics",
+        "type": "official"
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20240417586005/en/Mentee-Robotics-Unveils-MenteeBot-A-Humanoid-Robot-That-Integrates-AI-Across-All-Operational-Layers",
+        "title": "Mentee Robotics Unveils MenteeBot",
+        "type": "news"
+      }
+    ],
+    "confidence": "A",
+    "notes": "MenteeBot v1 (Apr 2024): 175cm, 70kg."
+  },
+  "f115": {
+    "sources": [
+      {
+        "url": "https://faunarobotics.com/product",
+        "title": "Sprout Creator Edition - Fauna Robotics",
+        "type": "official"
+      },
+      {
+        "url": "https://www.cnbc.com/2026/03/24/amazon-humanoid-maker-fauna-robotics-sprout.html",
+        "title": "Amazon acquires Fauna Robotics",
+        "type": "news"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Fauna Robotics Sprout: 107cm, 29 DoF. Acquired by Amazon Mar 2026."
+  },
+  "f117": {
+    "needs_source": true,
+    "investigation": "Raion Robotics makes quadruped 'Raibo' (KAIST spinoff). No humanoid 'LION' product found.",
+    "suggested_action": "verify-or-remove"
+  },
+  "f120": {
+    "sources": [
+      {
+        "url": "https://www.pudurobotics.com/en/news/917",
+        "title": "Pudu PUDU D7 Semi-Humanoid",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Pudu PUDU D7: semi-humanoid wheeled robot, 165cm, 30 DoF (50 w/ dexterous hand)."
+  },
+  "f125": {
+    "sources": [
+      {
+        "url": "http://www.sulu.be/Steve/",
+        "title": "Steve the Robot - sulu.be",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Sulu.be Steve: 210cm artistic humanoid (theater character, not commercial)."
+  },
+  "f126": {
+    "needs_source": true,
+    "investigation": "CasiVision is AOI/machine-vision company, NOT humanoid maker. Likely confused with CASBOT 01 by 中科慧灵.",
+    "suggested_action": "verify-or-rename to CASBOT 01"
+  },
+  "f127": {
+    "sources": [
+      {
+        "url": "https://www.pudurobotics.com/en/products/d9",
+        "title": "PUDU D9",
+        "type": "official"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/pudu-robotics-unveils-pudu-d9-a-full-sized-humanoid-robot-driving-commercially-viable-embodied-intelligence-302336109.html",
+        "title": "Pudu Robotics Unveils PUDU D9",
+        "type": "news"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Pudu PUDU D9: 170cm, 42 DoF, 352 N·m peak torque."
+  },
+  "f129": {
+    "sources": [
+      {
+        "url": "https://www.dobot-robots.com/products/humanoid-robots/atom.html",
+        "title": "DOBOT Atom Max",
+        "type": "official"
+      },
+      {
+        "url": "https://humanoid.guide/product/atom-max/",
+        "title": "Atom Max by Dobot",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "A",
+    "notes": "DOBOT Atom Max: 41 DoF, 1500 TOPS AI module."
+  },
+  "f131": {
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/keenon-robotics-marks-a-new-milestone-with-the-unveiling-of-the-humanoid-robot-xman-r1-and-the-latest-kleenbot-additions-302415464.html",
+        "title": "KEENON XMAN-R1 Humanoid",
+        "type": "news"
+      }
+    ],
+    "confidence": "A",
+    "notes": "Keenon XMAN-R1 (Mar 2025): embodied service humanoid for hospitality/logistics."
+  },
+  "f133": {
+    "sources": [
+      {
+        "url": "https://newatlas.com/robotics/lg-cloid-domestic-humanoid-robot/",
+        "title": "LG CLOiD robot",
+        "type": "news"
+      },
+      {
+        "url": "https://robohorizon.com/en-us/news/2025/12/lg-cloid-robot-aims-for-a-zero-labor-home-at-ces-2026/",
+        "title": "LG CLOiD at CES 2026",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "LG CLOiD — humanoid home robot. Announced Dec 25 2025."
+  },
+  "f134": {
+    "sources": [
+      {
+        "url": "https://holiday-robotics.com/",
+        "title": "Holiday Robotics official",
+        "type": "official"
+      },
+      {
+        "url": "https://www.humanoidsdaily.com/news/holiday-robotics-unveils-friday-a-wheeled-humanoid-that-prioritizes-hands-over-legs",
+        "title": "Holiday Robotics Unveils 'Friday'",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "Holiday Robotics (Korea) Friday: 176cm, 63 DoF, wheeled base 1.9 m/s."
+  },
+  "f136": {
+    "sources": [
+      {
+        "url": "https://humanoid.guide/product/duco/",
+        "title": "DUCO Humanoid by SIASUN",
+        "type": "datasheet"
+      },
+      {
+        "url": "https://www.ducorobots.com/About-duco",
+        "title": "About DUCO Robots",
+        "type": "official"
+      }
+    ],
+    "confidence": "B",
+    "notes": "SIASUN DUCO collaborative robot brand."
+  },
+  "f137": {
+    "sources": [
+      {
+        "url": "https://humanoid.guide/product/xiao-tuo/",
+        "title": "Xiao Tuo by Topstar",
+        "type": "datasheet"
+      },
+      {
+        "url": "https://www.topstarmachine.com/topstar-global-open-day-2025-humanoid-robot-debuts-pioneering-a-new-decade-of-intelligent-manufacturing/",
+        "title": "TOPSTAR Open Day 2025",
+        "type": "official"
+      }
+    ],
+    "confidence": "A",
+    "notes": "TOPSTAR Xiao Tuo — duplicate of f97."
+  },
+  "f138": {
+    "sources": [
+      {
+        "url": "https://humanoid.guide/product/phybot-c1/",
+        "title": "PHYBOT C1",
+        "type": "datasheet"
+      }
+    ],
+    "confidence": "B",
+    "notes": "PHYBOT C1: 128cm compact home humanoid with HD projection."
+  },
+  "f141": {
+    "sources": [
+      {
+        "url": "https://www.prnewswire.com/news-releases/pl-universe-robotics-launches-prowhite-robot-2-0-and-dexterous-hand-powered-by-jdcom-global-online-partnership-for-overseas-expansion-302601766.html",
+        "title": "PL-Universe ProWhite Robot 2.0",
+        "type": "news"
+      }
+    ],
+    "confidence": "A",
+    "notes": "PL-Universe ProWhite 2.0 wheeled humanoid + PL-WitHand. JD.com partnership."
+  },
+  "f142": {
+    "sources": [
+      {
+        "url": "https://www.switch-bot.com/products/onero-h1",
+        "title": "onero H1 - SwitchBot International",
+        "type": "official"
+      },
+      {
+        "url": "https://interestingengineering.com/ai-robotics/switchbot-robot-butler-unveiledces2026",
+        "title": "SwitchBot Onero H1 at CES 2026",
+        "type": "news"
+      }
+    ],
+    "confidence": "A",
+    "notes": "SwitchBot Onero H1: ~1.3m, 22 DoF arms, ~$1,500. NOTE: input typo 'OMERO H1' → 'Onero H1'; company should be 'SwitchBot/Wonderlabs', NOT Ecovacs."
+  },
+  "f145": {
+    "sources": [
+      {
+        "url": "https://housebots.com/news/gigaai-launches-maker-h01-setting-the-stage-for-physical-agi",
+        "title": "GigaAI Launches Maker H01",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "GigaAI (Huawei-backed) Maker H01: wheeled humanoid, 28 DoF. 'Physical AGI'."
+  },
+  "f146": {
+    "sources": [
+      {
+        "url": "https://www.theregister.com/2025/11/13/aidol_russia_robot_fail/",
+        "title": "Russia's AIDOL falls on debut",
+        "type": "news"
+      },
+      {
+        "url": "https://roboticsandautomationnews.com/2025/11/17/russian-startup-showcases-humanoid-robot-that-falls-over-on-stage/",
+        "title": "AIDOL face-plants on stage",
+        "type": "news"
+      }
+    ],
+    "confidence": "B",
+    "notes": "AIDOL Lab (Russia) AIDOL: Stage debut Nov 2025 ended in fall."
+  }
+}

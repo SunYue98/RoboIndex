@@ -1,0 +1,474 @@
+[
+  {
+    "id": "f1",
+    "partition": "hardware",
+    "name": "Memo",
+    "company": "Agility Robotics",
+    "category": "整机平台",
+    "year": "2024"
+  },
+  {
+    "id": "f5",
+    "partition": "hardware",
+    "name": "JIE-1",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f6",
+    "partition": "hardware",
+    "name": "SPACED M1",
+    "company": "Muks Robotics (印度)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f8",
+    "partition": "hardware",
+    "name": "OPTIMUS",
+    "company": "Tesla (特斯拉)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f9",
+    "partition": "hardware",
+    "name": "FIGURE ONE",
+    "company": "Figure AI",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f11",
+    "partition": "hardware",
+    "name": "TULL GET 1",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f12",
+    "partition": "hardware",
+    "name": "ADAM G0",
+    "company": "PNDbotics (工匠社科技)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f13",
+    "partition": "hardware",
+    "name": "SPACED P1",
+    "company": "Muks Robotics (印度)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f14",
+    "partition": "hardware",
+    "name": "PICHI MAN 1.0",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f15",
+    "partition": "hardware",
+    "name": "P1S",
+    "company": "LimX Dynamics (逐际动力)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f16",
+    "partition": "hardware",
+    "name": "CYBEO",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f17",
+    "partition": "hardware",
+    "name": "BIANMU",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f18",
+    "partition": "hardware",
+    "name": "DECO",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f20",
+    "partition": "hardware",
+    "name": "RAISE M1",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f21",
+    "partition": "hardware",
+    "name": "EVE-3",
+    "company": "1X Technologies",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f22",
+    "partition": "hardware",
+    "name": "MATRIX 1",
+    "company": "Matrix Robotics (矩阵超智)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f25",
+    "partition": "hardware",
+    "name": "TRON",
+    "company": "LimX Dynamics (逐际动力)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f27",
+    "partition": "hardware",
+    "name": "GOLDEN BOY 2.0",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f31",
+    "partition": "hardware",
+    "name": "ASTROBO AD-01",
+    "company": "Galbot (星动纪元)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f34",
+    "partition": "hardware",
+    "name": "NEO GAMMA",
+    "company": "1X Technologies",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f39",
+    "partition": "hardware",
+    "name": "KUAVO-S",
+    "company": "Leju Robotics (乐聚机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f40",
+    "partition": "hardware",
+    "name": "AGIBOT X1",
+    "company": "Agibot (智元机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f44",
+    "partition": "hardware",
+    "name": "PM01",
+    "company": "EngineAI (众擎机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f49",
+    "partition": "hardware",
+    "name": "A2",
+    "company": "Agibot (智元机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f50",
+    "partition": "hardware",
+    "name": "SA02",
+    "company": "EngineAI (众擎机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f54",
+    "partition": "hardware",
+    "name": "K2 BUMBLEBEE",
+    "company": "Kepler Robot (开普勒)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f56",
+    "partition": "hardware",
+    "name": "ROBAN 2",
+    "company": "Leju Robotics (乐聚机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f57",
+    "partition": "hardware",
+    "name": "HAVAI-T3",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f61",
+    "partition": "hardware",
+    "name": "KUAVO-MY",
+    "company": "Leju Robotics (乐聚机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f65",
+    "partition": "hardware",
+    "name": "CRUZR S2",
+    "company": "UBTECH (优必选)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f67",
+    "partition": "hardware",
+    "name": "T800",
+    "company": "EngineAI (众擎机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f69",
+    "partition": "hardware",
+    "name": "WALKER S2",
+    "company": "UBTECH (优必选)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f70",
+    "partition": "hardware",
+    "name": "A2 MAX",
+    "company": "Agibot (智元机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f72",
+    "partition": "hardware",
+    "name": "KEPLER K2",
+    "company": "Kepler Robot (开普勒)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f73",
+    "partition": "hardware",
+    "name": "LIMX OLI",
+    "company": "LimX Dynamics (逐际动力)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f78",
+    "partition": "hardware",
+    "name": "G2 GENIE",
+    "company": "Agibot (智元机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f82",
+    "partition": "hardware",
+    "name": "WALKER C",
+    "company": "UBTECH (优必选)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f88",
+    "partition": "hardware",
+    "name": "KEPLER",
+    "company": "Kepler Robot (开普勒)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f90",
+    "partition": "hardware",
+    "name": "ROBO",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f92",
+    "partition": "hardware",
+    "name": "ONE1",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f94",
+    "partition": "hardware",
+    "name": "E-S10",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f95",
+    "partition": "hardware",
+    "name": "BHI A2",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f96",
+    "partition": "hardware",
+    "name": "MATRIX 4",
+    "company": "Matrix Robotics (矩阵超智)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f98",
+    "partition": "hardware",
+    "name": "OPTIMUS V2.5",
+    "company": "Tesla (特斯拉)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f99",
+    "partition": "hardware",
+    "name": "TOLL ONE",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f104",
+    "partition": "hardware",
+    "name": "FIGURE 03",
+    "company": "Figure AI",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f106",
+    "partition": "hardware",
+    "name": "SEO1",
+    "company": "EngineAI (众擎机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f110",
+    "partition": "hardware",
+    "name": "GALBOT",
+    "company": "Galbot (星动纪元)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f111",
+    "partition": "hardware",
+    "name": "GALBOT S1",
+    "company": "Galbot (星动纪元)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f116",
+    "partition": "hardware",
+    "name": "MR2",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f119",
+    "partition": "hardware",
+    "name": "MEMO",
+    "company": "未知 / 概念",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f122",
+    "partition": "hardware",
+    "name": "NEO BETA",
+    "company": "1X Technologies",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f123",
+    "partition": "hardware",
+    "name": "XTRON KUAVO-MY",
+    "company": "Leju Robotics (乐聚机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f124",
+    "partition": "hardware",
+    "name": "ADAM LITE",
+    "company": "PNDbotics (工匠社科技)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f130",
+    "partition": "hardware",
+    "name": "DIGIT",
+    "company": "Agility Robotics",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f132",
+    "partition": "hardware",
+    "name": "LIMX CL",
+    "company": "LimX Dynamics (逐际动力)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f135",
+    "partition": "hardware",
+    "name": "WALKER S1",
+    "company": "UBTECH (优必选)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f139",
+    "partition": "hardware",
+    "name": "FIGURE 02",
+    "company": "Figure AI",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f144",
+    "partition": "hardware",
+    "name": "ALPHA",
+    "company": "UBTECH (优必选)",
+    "category": "整机平台",
+    "year": "2025"
+  }
+]

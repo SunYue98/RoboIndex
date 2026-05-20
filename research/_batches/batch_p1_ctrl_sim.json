@@ -1,0 +1,667 @@
+[
+  {
+    "id": "stg-sw-mpc",
+    "name": "Model Predictive Control (MPC)",
+    "company": "Industrial / Academic (canonical)",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "1980",
+    "isNew": false,
+    "specs": {
+      "type": "Optimal control via receding-horizon optimization",
+      "use_cases": "Locomotion, manipulation, autonomous driving",
+      "industrial_adoption": "Since 1980s in chemical/oil refineries"
+    },
+    "tags": ["optimization", "control", "receding-horizon"],
+    "paperInfo": {
+      "authors": "Various (Morari, Cutler, Ramaker, etc.)",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://en.wikipedia.org/wiki/Model_predictive_control"
+    },
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Model_predictive_control", "title": "Model predictive control - Wikipedia", "type": "wiki", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "category", "year_era"],
+      "fields_uncertain": ["exact-year"],
+      "notes": "Generic technique; year set to canonical industrial-adoption decade per Wikipedia."
+    }
+  },
+  {
+    "id": "stg-sw-convex-mpc-cheetah",
+    "name": "Convex MPC (MIT Cheetah 3)",
+    "company": "MIT Biomimetic Robotics Lab",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "approach": "Convex MPC over simplified rigid-body dynamics",
+      "horizon": "Up to 0.5s",
+      "solve_rate": "20-30 Hz, <1ms per solve",
+      "gaits": "Trot, flying-trot, pronk, bound, gallop"
+    },
+    "tags": ["legged", "MPC", "quadruped"],
+    "paperInfo": {
+      "authors": "Jared Di Carlo, Patrick M. Wensing, Benjamin Katz, Gerardo Bledt, Sangbae Kim",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://dspace.mit.edu/bitstream/handle/1721.1/138000/convex_mpc_2fix.pdf"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://dspace.mit.edu/bitstream/handle/1721.1/138000/convex_mpc_2fix.pdf", "title": "Dynamic Locomotion in the MIT Cheetah 3 Through Convex Model-Predictive Control", "type": "paper", "fetched": "2026-05-19"},
+        {"url": "https://ieeexplore.ieee.org/document/8594448", "title": "IEEE/RSJ IROS 2018 entry", "type": "paper", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "authors", "year", "specs"],
+      "fields_uncertain": [],
+      "notes": "IROS 2018 paper from MIT."
+    }
+  },
+  {
+    "id": "stg-sw-ocs2",
+    "name": "OCS2",
+    "company": "ETH Zurich Robotic Systems Lab",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "2017",
+    "isNew": false,
+    "specs": {
+      "language": "C++",
+      "algorithms": "SLQ, iLQR, SQP, SLP, IPM",
+      "constraints": "Augmented Lagrangian / relaxed barrier",
+      "integration": "URDF + ROS"
+    },
+    "tags": ["MPC", "DDP", "toolbox"],
+    "paperInfo": {
+      "authors": "Farbod Farshidian et al.",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/leggedrobotics/ocs2",
+      "projectUrl": "https://leggedrobotics.github.io/ocs2/"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://leggedrobotics.github.io/ocs2/overview.html", "title": "OCS2 documentation", "type": "official", "fetched": "2026-05-19"},
+        {"url": "https://github.com/leggedrobotics/ocs2", "title": "OCS2 GitHub", "type": "official", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "company", "algorithms"],
+      "fields_uncertain": ["exact-first-release-year"],
+      "notes": "Year approximated from ADRL-era ETH project; toolbox grew at RSL."
+    }
+  },
+  {
+    "id": "stg-sw-ddp-ilqr",
+    "name": "Differential Dynamic Programming / iLQR",
+    "company": "Academic (Jacobson & Mayne)",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "1970",
+    "isNew": false,
+    "specs": {
+      "type": "Second-order trajectory optimization",
+      "convergence": "Quadratic (local)",
+      "variants": "iLQR uses Gauss-Newton Hessian approximation",
+      "uses": "Manipulation, locomotion, MPC inner solve"
+    },
+    "tags": ["trajectory-optimization", "optimal-control"],
+    "paperInfo": {
+      "authors": "D.H. Jacobson, D.Q. Mayne",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://en.wikipedia.org/wiki/Differential_dynamic_programming"
+    },
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Differential_dynamic_programming", "title": "DDP - Wikipedia", "type": "wiki", "fetched": "2026-05-19"},
+        {"url": "https://onlinelibrary.wiley.com/doi/10.1002/bimj.19730150510", "title": "Jacobson & Mayne 1970 book review", "type": "paper", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "authors", "year"],
+      "fields_uncertain": [],
+      "notes": "Original Mayne paper 1966 (Int. J. Control); Jacobson-Mayne book 1970."
+    }
+  },
+  {
+    "id": "stg-sw-centroidal-dynamics",
+    "name": "Centroidal Dynamics",
+    "company": "Ohio State / Honda Research / KAIST",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "2013",
+    "isNew": false,
+    "specs": {
+      "concept": "Centroidal momentum matrix (CMM) projecting joint velocities to CoM momentum",
+      "complexity": "O(N) computation",
+      "use_case": "Humanoid balance / momentum control",
+      "publication": "Autonomous Robots 35(2-3):161-176"
+    },
+    "tags": ["humanoid", "dynamics", "balance"],
+    "paperInfo": {
+      "authors": "David E. Orin, Ambarish Goswami, Sung-Hee Lee",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://link.springer.com/article/10.1007/s10514-013-9341-4"
+    },
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://link.springer.com/article/10.1007/s10514-013-9341-4", "title": "Centroidal dynamics of a humanoid robot - Autonomous Robots", "type": "paper", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "authors", "year", "publication"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-sw-wbc-sentis",
+    "name": "Whole-Body Control (Operational-Space)",
+    "company": "Stanford / Khatib Lab",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "2006",
+    "isNew": false,
+    "specs": {
+      "framework": "Hierarchical operational-space control",
+      "key_idea": "Constraint-prioritized null-space projections",
+      "domain": "Humanoid manipulation + locomotion",
+      "venue": "ICRA 2006"
+    },
+    "tags": ["humanoid", "whole-body", "control"],
+    "paperInfo": {
+      "authors": "Luis Sentis, Oussama Khatib",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://khatib.stanford.edu/publications/pdfs/Sentis_2006_ICRA.pdf"
+    },
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://www.semanticscholar.org/paper/A-whole-body-control-framework-for-humanoids-in-Sentis-Khatib/ea2ef0d66632b9469eaf6a7ea531b79fa7542f23", "title": "Semantic Scholar entry for Sentis & Khatib WBC", "type": "paper", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "authors", "year"],
+      "fields_uncertain": [],
+      "notes": "ICRA 2006 paper, foundational WBC reference."
+    }
+  },
+  {
+    "id": "stg-sw-diffusion-policy",
+    "name": "Diffusion Policy",
+    "company": "Columbia University / TRI / MIT",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "formulation": "Conditional denoising diffusion over action sequences",
+      "benchmarks": "12 tasks across 4 manipulation suites",
+      "improvement": "+46.9% over prior SOTA average",
+      "venue": "RSS 2023, IJRR 2024"
+    },
+    "tags": ["imitation-learning", "diffusion", "manipulation"],
+    "paperInfo": {
+      "authors": "Cheng Chi, Zhenjia Xu, Siyuan Feng, Eric Cousineau, Yilun Du, Benjamin Burchfiel, Russ Tedrake, Shuran Song",
+      "arxivUrl": "https://arxiv.org/abs/2303.04137",
+      "codeUrl": "https://github.com/columbia-ai-robotics/diffusion_policy",
+      "projectUrl": "https://diffusion-policy.cs.columbia.edu/"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://arxiv.org/abs/2303.04137", "title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion", "type": "paper", "fetched": "2026-05-19"},
+        {"url": "https://diffusion-policy.cs.columbia.edu/", "title": "Project page", "type": "official", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "authors", "year", "venue"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-sw-act",
+    "name": "ACT (Action Chunking with Transformers)",
+    "company": "Stanford University",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "architecture": "Conditional VAE with transformer encoder/decoder",
+      "output": "Predicts action chunks (sequences)",
+      "data_efficiency": "10 minutes of demonstrations",
+      "tasks": "6 bimanual fine-grained tasks; 80-90% success"
+    },
+    "tags": ["imitation-learning", "transformer", "bimanual"],
+    "paperInfo": {
+      "authors": "Tony Z. Zhao, Vikash Kumar, Sergey Levine, Chelsea Finn",
+      "arxivUrl": "https://arxiv.org/abs/2304.13705",
+      "codeUrl": "https://github.com/tonyzhaozh/act",
+      "projectUrl": "https://tonyzhaozh.github.io/aloha/"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://arxiv.org/abs/2304.13705", "title": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware", "type": "paper", "fetched": "2026-05-19"},
+        {"url": "https://tonyzhaozh.github.io/aloha/", "title": "ALOHA / ACT project page", "type": "official", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "authors", "year"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-sw-openai-dexterous",
+    "name": "Dexterous In-Hand Manipulation (RL/PPO + Domain Randomization)",
+    "company": "OpenAI",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "algorithm": "PPO with LSTM, distributed training",
+      "platform": "Shadow Dexterous Hand",
+      "training": "Pure-sim with domain randomization",
+      "behaviors": "Finger-gaiting, multi-finger coordination"
+    },
+    "tags": ["RL", "PPO", "dexterous"],
+    "paperInfo": {
+      "authors": "OpenAI: Andrychowicz, Baker, Chociej, Jozefowicz, McGrew, Pachocki, Petron, Plappert, Powell, Ray, Schneider, Sidor, Tobin, Welinder, Weng, Zaremba",
+      "arxivUrl": "https://arxiv.org/abs/1808.00177",
+      "codeUrl": "",
+      "projectUrl": "https://arxiv.org/abs/1808.00177"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://arxiv.org/abs/1808.00177", "title": "Learning Dexterous In-Hand Manipulation - arxiv", "type": "paper", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "authors", "year", "platform"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-sw-anymal-rl",
+    "name": "ANYmal RL Locomotion Controller",
+    "company": "ETH Zurich / Intel Labs",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "2019",
+    "isNew": false,
+    "specs": {
+      "algorithm": "Deep RL policy trained in simulation",
+      "transfer": "Sim-to-real via actuator network",
+      "platform": "ANYmal quadruped",
+      "venue": "Science Robotics 2019"
+    },
+    "tags": ["legged", "RL", "sim-to-real"],
+    "paperInfo": {
+      "authors": "Jemin Hwangbo, Joonho Lee, Alexey Dosovitskiy, Dario Bellicoso, Vassilios Tsounis, Vladlen Koltun, Marco Hutter",
+      "arxivUrl": "https://arxiv.org/abs/1901.08652",
+      "codeUrl": "https://github.com/junja94/anymal_science_robotics_supplementary",
+      "projectUrl": "https://www.science.org/doi/10.1126/scirobotics.aau5872"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://arxiv.org/abs/1901.08652", "title": "Learning agile and dynamic motor skills for legged robots - arxiv", "type": "paper", "fetched": "2026-05-19"},
+        {"url": "https://www.science.org/doi/10.1126/scirobotics.aau5872", "title": "Science Robotics article", "type": "paper", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "authors", "year", "platform"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-sw-sac-minitaur",
+    "name": "SAC for Legged Locomotion",
+    "company": "UC Berkeley / Google Brain",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "algorithm": "Soft Actor-Critic (max-entropy RL)",
+      "platform": "Ghost Minitaur",
+      "training_time": "~2 hours on real hardware",
+      "venue": "RSS 2019"
+    },
+    "tags": ["RL", "SAC", "quadruped"],
+    "paperInfo": {
+      "authors": "Tuomas Haarnoja, Sehoon Ha, Aurick Zhou, Jie Tan, George Tucker, Sergey Levine",
+      "arxivUrl": "https://arxiv.org/abs/1812.11103",
+      "codeUrl": "",
+      "projectUrl": "https://www.roboticsproceedings.org/rss15/p11.pdf"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://arxiv.org/abs/1812.11103", "title": "Learning to Walk via Deep Reinforcement Learning", "type": "paper", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "authors", "year", "platform"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-sw-mujoco",
+    "name": "MuJoCo",
+    "company": "Google DeepMind",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "2012",
+    "isNew": false,
+    "specs": {
+      "full_name": "Multi-Joint dynamics with Contact",
+      "language": "C with Python bindings",
+      "solvers": "Newton, CG, PGS",
+      "license": "Apache 2.0 (since 2022)"
+    },
+    "tags": ["physics", "robotics", "RL"],
+    "paperInfo": {
+      "authors": "Emanuel Todorov, Tom Erez, Yuval Tassa",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/google-deepmind/mujoco",
+      "projectUrl": "https://mujoco.org/"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://mujoco.org/", "title": "MuJoCo official site", "type": "official", "fetched": "2026-05-19"},
+        {"url": "https://github.com/google-deepmind/mujoco", "title": "MuJoCo GitHub repo", "type": "official", "fetched": "2026-05-19"},
+        {"url": "https://en.wikipedia.org/wiki/MuJoCo", "title": "MuJoCo - Wikipedia", "type": "wiki", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "company", "year", "authors", "license"],
+      "fields_uncertain": [],
+      "notes": "Original v1.0 from 2012 by Todorov; acquired by DeepMind in 2021 and open-sourced 2022."
+    }
+  },
+  {
+    "id": "stg-sw-isaac-sim",
+    "name": "Isaac Sim",
+    "company": "NVIDIA",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "2019",
+    "isNew": false,
+    "specs": {
+      "built_on": "NVIDIA Omniverse + OpenUSD",
+      "physics": "PhysX with GPU acceleration",
+      "version": "5.1.0",
+      "use": "Simulation, synthetic data, Isaac Lab RL"
+    },
+    "tags": ["physics", "GPU", "synthetic-data"],
+    "paperInfo": {
+      "authors": "NVIDIA",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/isaac-sim/IsaacSim",
+      "projectUrl": "https://developer.nvidia.com/isaac/sim"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://developer.nvidia.com/isaac/sim", "title": "Isaac Sim official page", "type": "official", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "company", "version", "specs"],
+      "fields_uncertain": ["exact-first-release-year"],
+      "notes": "Year approximated to first Isaac SDK release; current version 5.1.0."
+    }
+  },
+  {
+    "id": "stg-sw-gazebo",
+    "name": "Gazebo",
+    "company": "Open Robotics",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "2004",
+    "isNew": false,
+    "specs": {
+      "physics": "ODE / Bullet / DART / Simbody",
+      "ros_support": "Native ROS/ROS2 bridge",
+      "license": "Apache 2.0",
+      "lineage": "Player Project 2002-2011; OSRF/Open Robotics steward since 2012"
+    },
+    "tags": ["physics", "ROS", "open-source"],
+    "paperInfo": {
+      "authors": "Nathan Koenig, Andrew Howard",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/gazebosim/gz-sim",
+      "projectUrl": "https://gazebosim.org/"
+    },
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Gazebo_(simulator)", "title": "Gazebo - Wikipedia", "type": "wiki", "fetched": "2026-05-19"},
+        {"url": "https://github.com/gazebosim/gz-sim", "title": "Gazebo Sim repo", "type": "official", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "company", "year", "license"],
+      "fields_uncertain": [],
+      "notes": "First public release 2004; Classic discontinued Jan 2025, replaced by new Gazebo (formerly Ignition)."
+    }
+  },
+  {
+    "id": "stg-sw-pybullet",
+    "name": "PyBullet (Bullet)",
+    "company": "Bullet (Erwin Coumans) / Google",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "engine": "Bullet Physics SDK",
+      "language": "Python bindings over C++",
+      "license": "Zlib",
+      "use": "Robotics, RL, games"
+    },
+    "tags": ["physics", "RL", "python"],
+    "paperInfo": {
+      "authors": "Erwin Coumans, Yunfei Bai",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/bulletphysics/bullet3",
+      "projectUrl": "https://pybullet.org/"
+    },
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://pybullet.org/", "title": "PyBullet official site", "type": "official", "fetched": "2026-05-19"},
+        {"url": "https://github.com/bulletphysics/bullet3", "title": "bullet3 GitHub", "type": "official", "fetched": "2026-05-19"},
+        {"url": "https://en.wikipedia.org/wiki/Bullet_(software)", "title": "Bullet - Wikipedia", "type": "wiki", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "company", "year"],
+      "fields_uncertain": [],
+      "notes": "Bullet engine itself dates back further (early 2000s); PyBullet bindings introduced ~2016."
+    }
+  },
+  {
+    "id": "stg-sw-sapien",
+    "name": "SAPIEN",
+    "company": "UC San Diego (Hao Su Lab)",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "2020",
+    "isNew": false,
+    "specs": {
+      "physics": "PhysX 5 with GPU acceleration",
+      "rendering": "Ray-traced via SapienRenderer",
+      "specialty": "Articulated objects, part-level interactions",
+      "venue": "CVPR 2020"
+    },
+    "tags": ["embodied-AI", "manipulation", "articulated"],
+    "paperInfo": {
+      "authors": "Fanbo Xiang, Yuzhe Qin, Kaichun Mo, Yikuan Xia, Hao Zhu, Fangchen Liu, Minghua Liu, Hanxiao Jiang, Yifu Yuan, He Wang, Li Yi, Angel X. Chang, Leonidas Guibas, Hao Su",
+      "arxivUrl": "https://arxiv.org/abs/2003.08515",
+      "codeUrl": "https://github.com/haosulab/SAPIEN",
+      "projectUrl": "https://sapien.ucsd.edu/"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://github.com/haosulab/SAPIEN", "title": "SAPIEN GitHub", "type": "official", "fetched": "2026-05-19"},
+        {"url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Xiang_SAPIEN_A_SimulAted_Part-Based_Interactive_ENvironment_CVPR_2020_paper.pdf", "title": "CVPR 2020 paper", "type": "paper", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "authors", "year", "specs"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-sw-genesis",
+    "name": "Genesis",
+    "company": "Genesis-Embodied-AI (CMU/MIT/Stanford/NVIDIA et al.)",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "speed": "Up to 43M FPS on manipulation scenes",
+      "solvers": "Rigid, MPM, SPH, FEM, PBD",
+      "rendering": "Native ray tracing",
+      "differentiability": "Yes (gradient-based)"
+    },
+    "tags": ["physics", "GPU", "differentiable"],
+    "paperInfo": {
+      "authors": "Genesis Authors (~70 contributors)",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/Genesis-Embodied-AI/Genesis",
+      "projectUrl": "https://genesis-embodied-ai.github.io/"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://genesis-embodied-ai.github.io/", "title": "Genesis project page", "type": "official", "fetched": "2026-05-19"},
+        {"url": "https://github.com/Genesis-Embodied-AI/Genesis", "title": "Genesis GitHub", "type": "official", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "year", "specs"],
+      "fields_uncertain": [],
+      "notes": "Open-sourced December 2024."
+    }
+  },
+  {
+    "id": "stg-sw-newton",
+    "name": "Newton",
+    "company": "NVIDIA / Google DeepMind / Disney Research",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "backend": "NVIDIA Warp (GPU) + MuJoCo Warp",
+      "stewardship": "Linux Foundation project",
+      "differentiable": "Yes",
+      "format": "OpenUSD"
+    },
+    "tags": ["physics", "GPU", "differentiable"],
+    "paperInfo": {
+      "authors": "NVIDIA, Google DeepMind, Disney Research",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/newton-physics/newton",
+      "projectUrl": "https://developer.nvidia.com/blog/announcing-newton-an-open-source-physics-engine-for-robotics-simulation/"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://developer.nvidia.com/blog/announcing-newton-an-open-source-physics-engine-for-robotics-simulation/", "title": "NVIDIA blog announcing Newton", "type": "official", "fetched": "2026-05-19"},
+        {"url": "https://github.com/newton-physics/newton", "title": "Newton GitHub", "type": "official", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "company", "year", "backend"],
+      "fields_uncertain": [],
+      "notes": "Announced March 18, 2025."
+    }
+  },
+  {
+    "id": "stg-sw-webots",
+    "name": "Webots",
+    "company": "Cyberbotics (EPFL spin-off)",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "1998",
+    "isNew": false,
+    "specs": {
+      "license": "Apache 2.0 (open-source since 2018)",
+      "physics": "ODE-based",
+      "platforms": "Windows, macOS, Linux",
+      "use": "Industry, education, research"
+    },
+    "tags": ["physics", "education", "cross-platform"],
+    "paperInfo": {
+      "authors": "Cyberbotics Ltd.",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/cyberbotics/webots",
+      "projectUrl": "https://cyberbotics.com/"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://cyberbotics.com/", "title": "Cyberbotics / Webots official site", "type": "official", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "company", "year", "platforms"],
+      "fields_uncertain": [],
+      "notes": "Maintained continuously since 1998."
+    }
+  },
+  {
+    "id": "stg-sw-coppeliasim",
+    "name": "CoppeliaSim",
+    "company": "Coppelia Robotics AG",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "2013",
+    "isNew": false,
+    "specs": {
+      "predecessor": "V-REP (rebranded 2019)",
+      "version": "V4.10.0",
+      "physics": "Bullet, ODE, Vortex, Newton, MuJoCo",
+      "scripting": "Lua, Python, C/C++, Java, Matlab"
+    },
+    "tags": ["physics", "education", "multi-physics"],
+    "paperInfo": {
+      "authors": "Coppelia Robotics AG (Marc Freese et al.)",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://www.coppeliarobotics.com/"
+    },
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://www.coppeliarobotics.com/", "title": "CoppeliaSim official site", "type": "official", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "company", "version", "predecessor"],
+      "fields_uncertain": ["exact-original-release-year"],
+      "notes": "Year reflects V-REP/CoppeliaSim 2013 publication era; V-REP was rebranded to CoppeliaSim in 2019."
+    }
+  },
+  {
+    "id": "stg-sw-drake",
+    "name": "Drake",
+    "company": "Toyota Research Institute / MIT",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "2019",
+    "isNew": false,
+    "specs": {
+      "language": "C++ with Python bindings",
+      "focus": "Model-based design, optimization, contact dynamics",
+      "version": "v1.53.0",
+      "components": "Multibody, math programming, systems framework"
+    },
+    "tags": ["physics", "optimization", "model-based"],
+    "paperInfo": {
+      "authors": "Russ Tedrake and the Drake Team",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/RobotLocomotion/drake",
+      "projectUrl": "https://drake.mit.edu/"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://drake.mit.edu/", "title": "Drake official site", "type": "official", "fetched": "2026-05-19"},
+        {"url": "https://github.com/RobotLocomotion/drake", "title": "Drake GitHub", "type": "official", "fetched": "2026-05-19"}
+      ],
+      "fields_verified": ["name", "company", "components", "version"],
+      "fields_uncertain": ["exact-first-release-year"],
+      "notes": "Citation BibTeX uses 2019; project itself started earlier at MIT, now TRI-led."
+    }
+  }
+]

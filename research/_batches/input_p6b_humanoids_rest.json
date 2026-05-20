@@ -1,0 +1,690 @@
+[
+  {
+    "id": "f2",
+    "partition": "hardware",
+    "name": "Oli",
+    "company": "LimX Dynamics",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f4",
+    "partition": "hardware",
+    "name": "Optimus Gen 2",
+    "company": "Tesla",
+    "category": "整机平台",
+    "year": "2024"
+  },
+  {
+    "id": "f7",
+    "partition": "hardware",
+    "name": "YM XPLORE 1",
+    "company": "Techman Robot (台湾)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f10",
+    "partition": "hardware",
+    "name": "TARS",
+    "company": "TARS Robotics (上海)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f19",
+    "partition": "hardware",
+    "name": "HAWO HANXI",
+    "company": "Haier (海尔)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f23",
+    "partition": "hardware",
+    "name": "LIMO",
+    "company": "AgileX (松灵机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f24",
+    "partition": "hardware",
+    "name": "H2",
+    "company": "Unitree Robotics (宇树科技)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f26",
+    "partition": "hardware",
+    "name": "SKYWALKER 2",
+    "company": "EIR Technology (四川具身科技)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f28",
+    "partition": "hardware",
+    "name": "RUFUS",
+    "company": "Ascento Robotics (瑞士)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f29",
+    "partition": "hardware",
+    "name": "ATLAS",
+    "company": "Boston Dynamics (波士顿动力)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f30",
+    "partition": "hardware",
+    "name": "MAGICBOT",
+    "company": "MagicLab (魔法原子)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f32",
+    "partition": "hardware",
+    "name": "DORA",
+    "company": "Noetix Robotics (松延动力)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f33",
+    "partition": "hardware",
+    "name": "NAVIGATOR 2",
+    "company": "浙江人形机器人创新中心",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f35",
+    "partition": "hardware",
+    "name": "KAPEX",
+    "company": "LG Electronics + KIST (韩国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f36",
+    "partition": "hardware",
+    "name": "MOTION 2",
+    "company": "VinMotion (越南)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f37",
+    "partition": "hardware",
+    "name": "LUS2",
+    "company": "Lumos Robotics (光魔机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f38",
+    "partition": "hardware",
+    "name": "BOOSTER T1",
+    "company": "Booster Robotics (加速进化)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f41",
+    "partition": "hardware",
+    "name": "TIAN YI 2.0",
+    "company": "X-Humanoid (北京人形机器人创新中心)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f42",
+    "partition": "hardware",
+    "name": "GR-2",
+    "company": "Fourier Intelligence (傅利叶智能)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f43",
+    "partition": "hardware",
+    "name": "KANGAROO",
+    "company": "PAL Robotics",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f45",
+    "partition": "hardware",
+    "name": "GENE.01",
+    "company": "Generative Bionics (意大利)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f46",
+    "partition": "hardware",
+    "name": "ZEUS 1",
+    "company": "PL Universe (中国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f47",
+    "partition": "hardware",
+    "name": "MIRO",
+    "company": "Midea (美的)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f48",
+    "partition": "hardware",
+    "name": "TIEN KUNG 2.0",
+    "company": "北京具身智能研究院",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f51",
+    "partition": "hardware",
+    "name": "REACHY 2",
+    "company": "Pollen Robotics",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f52",
+    "partition": "hardware",
+    "name": "PHYBOT M1",
+    "company": "Phybot Technology (动易科技)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f53",
+    "partition": "hardware",
+    "name": "IGRIS-C",
+    "company": "ROBROS (韩国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f55",
+    "partition": "hardware",
+    "name": "BORG 01",
+    "company": "Borg Robotics (美国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f58",
+    "partition": "hardware",
+    "name": "HMND 01",
+    "company": "Humanoid (英国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f59",
+    "partition": "hardware",
+    "name": "MENTEEBOT V3",
+    "company": "Mentee Robotics",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f60",
+    "partition": "hardware",
+    "name": "NIX",
+    "company": "Lumos Robotics (光魔机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f62",
+    "partition": "hardware",
+    "name": "DEXBOT",
+    "company": "博实股份 + 哈工大",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f63",
+    "partition": "hardware",
+    "name": "STAR1",
+    "company": "Astribot (星尘智能)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f64",
+    "partition": "hardware",
+    "name": "MOBY",
+    "company": "Noble Machines (美国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f66",
+    "partition": "hardware",
+    "name": "ORCA",
+    "company": "Cyan Robotics (青犀机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f68",
+    "partition": "hardware",
+    "name": "R1 PRO",
+    "company": "Galaxea AI (星海图动力)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f71",
+    "partition": "hardware",
+    "name": "MIROKAI",
+    "company": "Enchanted Tools",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f74",
+    "partition": "hardware",
+    "name": "QUANTA X2",
+    "company": "X Square Robot (中国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f75",
+    "partition": "hardware",
+    "name": "THEMIS V2",
+    "company": "Westwood Robotics (美国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f76",
+    "partition": "hardware",
+    "name": "AEON",
+    "company": "Hexagon Robotics (瑞士)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f77",
+    "partition": "hardware",
+    "name": "HOBBS",
+    "company": "Noetix Robotics (松延动力)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f79",
+    "partition": "hardware",
+    "name": "AI WORKER",
+    "company": "ROBOTIS (韩国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f80",
+    "partition": "hardware",
+    "name": "ATOM",
+    "company": "DOBOT (越疆科技)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f81",
+    "partition": "hardware",
+    "name": "APPTRONIK APOLLO",
+    "company": "Apptronik",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f83",
+    "partition": "hardware",
+    "name": "VEGA",
+    "company": "Dexmate (美国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f84",
+    "partition": "hardware",
+    "name": "UNITREE H1",
+    "company": "Unitree (宇树科技)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f85",
+    "partition": "hardware",
+    "name": "ALICE",
+    "company": "AeiROBOT (韩国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f86",
+    "partition": "hardware",
+    "name": "GR-1",
+    "company": "Fourier Intelligence (傅利叶智能)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f87",
+    "partition": "hardware",
+    "name": "SONGXING",
+    "company": "SIASUN (新松机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f89",
+    "partition": "hardware",
+    "name": "YOGI",
+    "company": "Cartwheel Robotics",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f91",
+    "partition": "hardware",
+    "name": "TITAN",
+    "company": "RoboForce (美国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f93",
+    "partition": "hardware",
+    "name": "ROBOTART X1",
+    "company": "Elephant Robotics (大象机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f97",
+    "partition": "hardware",
+    "name": "XIAO T",
+    "company": "Topstar (拓斯达)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f100",
+    "partition": "hardware",
+    "name": "CYBERONE",
+    "company": "Xiaomi (小米)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f101",
+    "partition": "hardware",
+    "name": "VERSABOT_VC-1",
+    "company": "Lanxin Technology (蓝芯科技)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f102",
+    "partition": "hardware",
+    "name": "MAGICBOT 2",
+    "company": "MagicLab (魔法原子)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f103",
+    "partition": "hardware",
+    "name": "CLONE ALPHA",
+    "company": "Clone Robotics",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f105",
+    "partition": "hardware",
+    "name": "ROBOTERA L2",
+    "company": "RobotEra (星动纪元)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f107",
+    "partition": "hardware",
+    "name": "ALEX",
+    "company": "Boardwalk Robotics + IHMC (美国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f108",
+    "partition": "hardware",
+    "name": "HMND_01 ALPHA",
+    "company": "Humanoid (英国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f109",
+    "partition": "hardware",
+    "name": "TORA_DOUBLEONE",
+    "company": "PaXini (帕西尼感知)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f112",
+    "partition": "hardware",
+    "name": "YI-2",
+    "company": "X-Humanoid (北京人形机器人创新中心)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f113",
+    "partition": "hardware",
+    "name": "RE-CO",
+    "company": "OWI RobotiKits (美国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f114",
+    "partition": "hardware",
+    "name": "MENTEEBOT",
+    "company": "Mentee Robotics",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f115",
+    "partition": "hardware",
+    "name": "SPROUT",
+    "company": "Fauna Robotics (被 Amazon 收购)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f117",
+    "partition": "hardware",
+    "name": "LION",
+    "company": "Raion Robotics (韩国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f118",
+    "partition": "hardware",
+    "name": "PHOENIX",
+    "company": "Sanctuary AI",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f120",
+    "partition": "hardware",
+    "name": "PUDU D7",
+    "company": "Pudu Robotics (普渡科技)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f121",
+    "partition": "hardware",
+    "name": "RNOID",
+    "company": "Robot.com (美国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f125",
+    "partition": "hardware",
+    "name": "STEVE",
+    "company": "Sulu.be (比利时)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f126",
+    "partition": "hardware",
+    "name": "CASIVIDOT",
+    "company": "CasiVision (中科慧远)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f127",
+    "partition": "hardware",
+    "name": "PUDU D9",
+    "company": "Pudu Robotics (普渡科技)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f128",
+    "partition": "hardware",
+    "name": "IRON",
+    "company": "XPeng Robotics (小鹏机器人)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f129",
+    "partition": "hardware",
+    "name": "ATOM MAX",
+    "company": "DOBOT (越疆科技)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f131",
+    "partition": "hardware",
+    "name": "KEENON XMAN-R1",
+    "company": "Keenon (擎朗智能)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f133",
+    "partition": "hardware",
+    "name": "CLOiD",
+    "company": "LG Electronics",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f134",
+    "partition": "hardware",
+    "name": "FRIDAY",
+    "company": "Holiday Robotics (韩国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f136",
+    "partition": "hardware",
+    "name": "DUCO",
+    "company": "SIASUN-DUCO (新松)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f137",
+    "partition": "hardware",
+    "name": "XIAO TUO",
+    "company": "TOPSTAR Group (拓斯达)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f138",
+    "partition": "hardware",
+    "name": "PHYBOT C1",
+    "company": "Phybot Technology (动易科技)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f140",
+    "partition": "hardware",
+    "name": "G1",
+    "company": "Unitree (宇树科技)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f141",
+    "partition": "hardware",
+    "name": "PROWHITE",
+    "company": "PL-Universe Robotics (中国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f142",
+    "partition": "hardware",
+    "name": "OMERO H1",
+    "company": "SwitchBot (科沃斯旗下)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f143",
+    "partition": "hardware",
+    "name": "PHANTOM MK1",
+    "company": "Foundation (美国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f145",
+    "partition": "hardware",
+    "name": "MAKER H01",
+    "company": "GigaAI (中国)",
+    "category": "整机平台",
+    "year": "2025"
+  },
+  {
+    "id": "f146",
+    "partition": "hardware",
+    "name": "AIDOL",
+    "company": "AIDOL Lab (俄罗斯)",
+    "category": "整机平台",
+    "year": "2025"
+  }
+]

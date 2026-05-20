@@ -1,0 +1,634 @@
+[
+  {
+    "id": "stg-e1-replacement",
+    "name": "2F-85 Adaptive Gripper",
+    "company": "Robotiq",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "",
+    "year": "2014",
+    "isNew": false,
+    "specs": {
+      "type": "Parallel 2-finger adaptive gripper",
+      "stroke": "85 mm",
+      "payload": "5 kg",
+      "gripForce": "20-235 N",
+      "closingSpeed": "20-150 mm/s",
+      "weight": "0.9 kg",
+      "repeatability": "0.05 mm (position)",
+      "interface": "USB / RS-485 / EtherNet/IP / EtherCAT / PROFINET",
+      "dof": 1,
+      "status": "In Production"
+    },
+    "tags": ["Gripper", "Adaptive", "Cobot", "Canada"],
+    "orgInfo": {
+      "description": "Robotiq builds end-of-arm tooling and force/torque sensors widely used on collaborative-robot arms.",
+      "location": "Lévis, Québec, Canada",
+      "website": "https://robotiq.com"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://robotiq.com/products/2f85-140-adaptive-robot-gripper/", "title": "Adaptive Grippers 2F-85 & 2F-140", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://assets.robotiq.com/website-assets/support_documents/document/online/2F-85_2F-140_TM_InstructionManual_HTML5_20190503.zip/2F-85_2F-140_TM_InstructionManual_HTML5/Content/6.%20Specifications.htm", "title": "Robotiq 2F-85 / 2F-140 Specifications", "type": "datasheet", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["stroke", "payload", "gripForce", "closingSpeed", "company"],
+      "fields_uncertain": ["weight"],
+      "notes": "Replaces placeholder e1. 2F-85 first shipped 2014."
+    }
+  },
+  {
+    "id": "stg-e2-replacement",
+    "name": "Shadow Dexterous Hand (E3M5R)",
+    "company": "Shadow Robot Company",
+    "category": "灵巧手 & 夹爪",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "Anthropomorphic tendon-driven dexterous hand",
+      "dof": "20 actuated DoF + 4 underactuated (24 joints total)",
+      "actuation": "20 DC motors with tendon drive",
+      "sensing": "100+ sensors; up to 5 Shadow Tactile Fingertips",
+      "controlRate": "1 kHz EtherCAT",
+      "weight": "4.3 kg",
+      "rosSupport": "Open-source ROS / ROS 2 driver",
+      "status": "In Production"
+    },
+    "tags": ["Dexterous", "Research", "Tendon-Driven", "Anthropomorphic", "UK"],
+    "orgInfo": {
+      "description": "Shadow Robot Company has produced the Shadow Dexterous Hand since the early 2000s; widely used in OpenAI/DeepMind dexterous-manipulation research.",
+      "location": "London, United Kingdom",
+      "website": "https://www.shadowrobot.com"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.shadowrobot.com/dexterous-hand-series/", "title": "Shadow Dexterous Hand Series", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["dof", "weight", "actuation", "controlRate", "company"],
+      "fields_uncertain": [],
+      "notes": "Replaces placeholder e2."
+    }
+  },
+  {
+    "id": "stg-cp2-replacement",
+    "name": "MIC-733-AO",
+    "company": "Advantech",
+    "category": "计算平台",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "type": "Fanless AI inference industrial PC",
+      "som": "NVIDIA Jetson AGX Orin (32 GB / 64 GB)",
+      "aiPerformance": "Up to 275 TOPS (64GB) / 200 TOPS (32GB)",
+      "memory": "32 GB or 64 GB LPDDR5",
+      "storage": "1× M.2 2280 NVMe + microSD; 64 GB eMMC",
+      "networking": "4× GbE, 2× Mini-PCIe, 2× M.2, 2× Nano SIM",
+      "io": "4× USB 3.2 Gen 2, 2× RS-232/422/485, 2-ch GMSL2 (FAKRA)",
+      "operatingTemp": "-10 to +60 °C",
+      "dimensions": "192 × 230 × 87 mm",
+      "status": "In Production"
+    },
+    "tags": ["Edge AI", "Industrial PC", "AMR/AGV", "Jetson Orin", "Taiwan"],
+    "orgInfo": {
+      "description": "Advantech is a Taiwanese industrial-computing vendor; MIC-733-AO is its AGX Orin-based inference IPC for AMR/AGV/smart agriculture applications.",
+      "location": "Taipei, Taiwan",
+      "website": "https://www.advantech.com"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.advantech.com/en-us/products/965e4edb-fb98-429e-89ed-9a0a8435a7be/mic-733/mod_09861425-4950-46ab-ad39-1b5522881218", "title": "MIC-733-AO product page", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.advantech.com/en-us/resources/news/mic-733-ao-ai-computing-system-based-on-nvidia-jetson-agx-orin", "title": "Advantech Launches MIC-733-AO", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://www.mouser.com/datasheet/2/638/MIC_733_AO_DS_101923_20231020125537-3386401.pdf", "title": "MIC-733-AO Datasheet (Mouser)", "type": "datasheet", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["som", "aiPerformance", "memory", "operatingTemp", "dimensions", "io"],
+      "fields_uncertain": [],
+      "notes": "Replaces placeholder cp2. Real product launched 2023."
+    }
+  },
+  {
+    "id": "stg-flagship-optimus-gen2",
+    "name": "Optimus Gen 2",
+    "company": "Tesla",
+    "category": "整机平台",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "height": "173 cm (5'8\")",
+      "weight": "57 kg, 10 kg lighter than Gen 1",
+      "carryPayload": "20 kg",
+      "dof": "28 body DoF; Gen 3 demo showed 22-DoF hands",
+      "speed": "~30% faster than Gen 1",
+      "sensing": "Foot F/T sensors, tactile fingertip sensors, 2-DoF neck",
+      "status": "Internal pilots; mass production targeted"
+    },
+    "tags": ["Bipedal", "Humanoid", "Electric", "USA"],
+    "orgInfo": {
+      "description": "Tesla's Optimus humanoid program, unveiled at AI Day 2021; Gen 2 revealed December 12, 2023.",
+      "location": "Palo Alto, California, USA",
+      "website": "https://www.tesla.com/AI"
+    },
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Optimus_(robot)", "title": "Optimus (robot) — Wikipedia", "type": "wiki", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["company", "height", "weight", "carryPayload", "reveal date"],
+      "fields_uncertain": ["full Gen 2 vs Gen 3 hand-DOF distinction"],
+      "notes": "Gen 3 not yet officially unveiled as a full platform."
+    }
+  },
+  {
+    "id": "stg-flagship-atlas-electric",
+    "name": "Atlas (electric)",
+    "company": "Boston Dynamics",
+    "category": "整机平台",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "height": "1.5-1.9 m",
+      "weight": "89-90 kg",
+      "dof": 56,
+      "reach": "2.3 m",
+      "instantPayload": "50 kg",
+      "sustainedPayload": "30 kg",
+      "batteryLife": "~4 hours (self-swappable)",
+      "ipRating": "IP67",
+      "operatingTemp": "-20 to 40 °C",
+      "compute": "NVIDIA Jetson Thor",
+      "status": "Pilots at Hyundai; production launching"
+    },
+    "tags": ["Bipedal", "Humanoid", "Electric", "USA"],
+    "orgInfo": {
+      "description": "Boston Dynamics retired the hydraulic Atlas on April 16, 2024 and unveiled the all-electric Atlas the next day. Marketed as the company's first humanoid product.",
+      "location": "Waltham, Massachusetts, USA",
+      "website": "https://bostondynamics.com/atlas/"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://bostondynamics.com/atlas/", "title": "Atlas Humanoid Robot — Boston Dynamics", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://techcrunch.com/2024/04/17/boston-dynamics-atlas-humanoid-robot-goes-electric/", "title": "Boston Dynamics' Atlas humanoid robot goes electric", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://spectrum.ieee.org/atlas-humanoid-robot", "title": "Hello, Electric Atlas — IEEE Spectrum", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["company", "weight", "dof", "reach", "payload", "ipRating", "operatingTemp"],
+      "fields_uncertain": ["exact height"],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-flagship-figure-03",
+    "name": "Figure 03",
+    "company": "Figure AI",
+    "category": "整机平台",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid (home + commercial)",
+      "height": "172 cm",
+      "weight": "~61 kg",
+      "payload": "20 kg",
+      "speed": "1.2 m/s",
+      "runtime": "~5 h",
+      "hands": "Soft adaptive fingertips with palm camera; tactile sensors ~3 g sensitivity",
+      "compute": "Custom on-board (Helix VLA model)",
+      "charging": "Wireless",
+      "status": "Pilots and early home testing"
+    },
+    "tags": ["Bipedal", "Humanoid", "Home", "USA", "VLA"],
+    "orgInfo": {
+      "description": "Figure AI unveiled Figure 03 on October 9, 2025. TIME Best Invention 2025; runs Figure's Helix VLA model.",
+      "location": "Sunnyvale, California, USA",
+      "website": "https://www.figure.ai/"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.figure.ai/news/introducing-figure-03", "title": "Introducing Figure 03", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["company", "reveal date"],
+      "fields_uncertain": ["exact weight, payload, runtime"],
+      "notes": "Official announcement light on numbers."
+    }
+  },
+  {
+    "id": "stg-flagship-neo-gamma",
+    "name": "NEO Gamma",
+    "company": "1X Technologies",
+    "category": "整机平台",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid (home)",
+      "height": "1.65 m",
+      "weight": "~30 kg",
+      "armLiftPayload": "8 kg per arm",
+      "carryPayload": "~25 kg",
+      "operatingNoise": "22 dB",
+      "hands": "22-DoF dexterous hands",
+      "compute": "1X NEO Cortex (NVIDIA Jetson Thor)",
+      "model": "Redwood AI generalist policy",
+      "status": "In-home testing program 2025"
+    },
+    "tags": ["Bipedal", "Humanoid", "Home", "Norway", "USA"],
+    "orgInfo": {
+      "description": "1X Technologies introduced NEO Gamma on February 21, 2025 as the consumer-targeted update to NEO Beta, featuring knit fabric exterior, quieter actuators (10× hardware reliability, 10 dB quieter), 100 Hz whole-body controller.",
+      "location": "Moss, Norway; Sunnyvale, California, USA",
+      "website": "https://www.1x.tech/"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.1x.tech/discover/introducing-neo-gamma", "title": "Introducing NEO Gamma", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.1x.tech/neo", "title": "NEO by 1X — product page", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://techcrunch.com/2025/03/21/1x-will-test-humanoid-robots-in-a-few-hundred-homes-in-2025/", "title": "1X will test humanoid robots in ~hundred homes 2025", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["company", "height", "weight", "reveal date", "noise", "hand DoF", "compute"],
+      "fields_uncertain": [],
+      "notes": "Resolves broken image ref f34 in hardware.json."
+    }
+  },
+  {
+    "id": "stg-flagship-unitree-h2",
+    "name": "H2",
+    "company": "Unitree Robotics",
+    "category": "整机平台",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "height": "1.82 m",
+      "weight": "~70 kg",
+      "dof": "31 (6/leg, 7/arm, 3 waist, 2 head)",
+      "legTorque": "360 N·m",
+      "armTorque": "120 N·m",
+      "battery": "972 Wh (15 Ah, 75.6 V) quick-release",
+      "runtime": "~3 h",
+      "compute": "Intel Core i5 (base) / NVIDIA Jetson AGX Thor (EDU)",
+      "materials": "Aircraft-grade aluminum + titanium",
+      "status": "Available"
+    },
+    "tags": ["Bipedal", "Humanoid", "China"],
+    "orgInfo": {
+      "description": "Unitree unveiled the H2 on October 20, 2025 as the full-size successor to H1.",
+      "location": "Hangzhou, China",
+      "website": "https://www.unitree.com/H2/"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.unitree.com/H2/", "title": "Unitree H2 official", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://technode.com/2025/10/20/unitree-unveils-h2-humanoid-robot-with-lifelike-design/", "title": "Unitree unveils H2", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["height", "weight", "dof", "battery", "torque"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-flagship-apptronik-apollo",
+    "name": "Apollo",
+    "company": "Apptronik",
+    "category": "整机平台",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "height": "1.73 m",
+      "weight": "~72.6 kg",
+      "payload": "25 kg",
+      "runtime": "4 h per pack; hot-swappable",
+      "modes": "Bipedal / wheeled / fixed-base modular",
+      "applications": "Logistics, manufacturing, machine tending, palletization",
+      "aiPartner": "Google DeepMind (Gemini Robotics)",
+      "status": "Commercial pilots (Mercedes, GXO, Jabil)"
+    },
+    "tags": ["Bipedal", "Humanoid", "USA", "Industrial"],
+    "orgInfo": {
+      "description": "Apptronik unveiled Apollo in August 2023; team has roots in NASA's Valkyrie. Raised $520M Series B (Feb 2026).",
+      "location": "Austin, Texas, USA",
+      "website": "https://apptronik.com/apollo"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://apptronik.com/apollo", "title": "Apollo — Apptronik", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/", "title": "Apptronik unveils Apollo", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://www.automate.org/robotics/industry-insights/apptroniks-next-humanoid-will-debut-this-year", "title": "Apptronik new Apollo in 2025", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["height", "weight", "payload", "runtime", "company"],
+      "fields_uncertain": ["Gen 2 platform numbers"],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-flagship-agibot-a2",
+    "name": "A2",
+    "company": "AgiBot (智元机器人)",
+    "category": "整机平台",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Interactive Service Humanoid",
+      "height": "169 cm",
+      "weight": "69 kg (standard)",
+      "dof": "40+ active",
+      "armDof": "7 per arm",
+      "handDof": "19 (dexterous hand)",
+      "armPayload": "15 kg per arm",
+      "walkSpeed": "3.3 m/s max",
+      "battery": "700 Wh (2 kWh on A2-W industrial variant)",
+      "runtime": "2 h (swappable)",
+      "compute": "200 TOPS",
+      "sensing": "LiDAR, RGB-D, fisheye, F/T sensors",
+      "status": "Mass-produced; >5,000 units delivered by end-2025"
+    },
+    "tags": ["Bipedal", "Humanoid", "China", "Service"],
+    "orgInfo": {
+      "description": "AgiBot (智元机器人), founded 2023 by ex-Huawei 'Genius Youth' Peng Zhihui (稚晖君).",
+      "location": "Shanghai, China",
+      "website": "https://www.agibot.com/"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.agibot.com/products/A2", "title": "AgiBot A2 official", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["height", "weight", "dof", "battery", "compute"],
+      "fields_uncertain": ["payload (per-arm vs total)"],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-flagship-robotera-l7",
+    "name": "L7",
+    "company": "Robot Era (星动纪元)",
+    "category": "整机平台",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "height": "171 cm",
+      "weight": "65 kg",
+      "dof": "55 whole-body; 12 DoF direct-drive hand",
+      "speed": "4 m/s (14.4 km/h)",
+      "dualArmPayload": "20 kg",
+      "peakLegTorque": "400 N·m",
+      "sensing": "Binocular cameras, 3D LiDAR, microphone array",
+      "ai": "ERA-42 end-to-end embodied model",
+      "status": "Production; >200 humanoids shipped in 2025"
+    },
+    "tags": ["Bipedal", "Humanoid", "China", "Agile"],
+    "orgInfo": {
+      "description": "Robot Era (星动纪元), Tsinghua spinoff, revealed L7 in July 2025.",
+      "location": "Beijing, China",
+      "website": "https://www.robotera.com"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.robotera.com/en/robotics/L7.html", "title": "RobotEra L7", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://humanoid.press/database/humanoid-press-database-robotera-l7/", "title": "RobotEra L7 database entry", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["height", "weight", "dof", "speed", "payload"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-flagship-walker-s2",
+    "name": "Walker S2",
+    "company": "UBTECH (优必选)",
+    "category": "整机平台",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Industrial Humanoid",
+      "height": "1.76 m",
+      "weight": "~73 kg",
+      "dof": 52,
+      "payload": "15 kg",
+      "speed": "~2 m/s",
+      "battery": "Dual-battery autonomous hot-swap (~3 min)",
+      "compute": "Intel Core i7-1185G7 + NVIDIA Jetson AGX Orin 64 GB (275 TOPS)",
+      "vision": "Binocular RGB stereo",
+      "hands": "4th-gen dexterous hands",
+      "ai": "UBTECH Co-Agent",
+      "status": "Mass production began Nov 2025; 800M RMB orders"
+    },
+    "tags": ["Bipedal", "Humanoid", "China", "Industrial", "24/7"],
+    "orgInfo": {
+      "description": "UBTECH unveiled Walker S2 on July 23, 2025 as the first humanoid capable of autonomous battery swapping.",
+      "location": "Shenzhen, China",
+      "website": "https://www.ubtrobot.com"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.ubtrobot.com/en/humanoid/products/walker-s2", "title": "UBTECH Walker S2 official", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.prnewswire.com/news-releases/ubtech-humanoid-robot-walker-s2-begins-mass-production-and-delivery-with-orders-exceeding-800-million-yuan-302616924.html", "title": "Walker S2 mass production", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["height", "weight", "dof", "payload", "compute", "battery swap"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-flagship-xpeng-iron-nextgen",
+    "name": "Next-Gen IRON",
+    "company": "XPENG Robotics (小鹏机器人)",
+    "category": "整机平台",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid",
+      "height": "1.73 m",
+      "weight": "~70 kg",
+      "dof": "82 whole-body; 22 DoF per hand",
+      "compute": "3× Turing AI chips, ~2,250-3,000 TOPS aggregate",
+      "ai": "XPENG VLA 2.0 / Physical World Large Model",
+      "vision": "720° vision",
+      "battery": "All-solid-state battery",
+      "status": "Unveiled Nov 5, 2025; mass production targeted end-2026"
+    },
+    "tags": ["Bipedal", "Humanoid", "China", "Solid-State Battery"],
+    "orgInfo": {
+      "description": "XPENG unveiled the Next-Gen IRON at AI Day 2025 in Guangzhou on November 5, 2025.",
+      "location": "Guangzhou, China",
+      "website": "https://www.xpeng.com"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.xpeng.com/news/019a56f54fe99a2a0a8d8a0282e402b7", "title": "XPENG Physical AI Emergence", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://news.cgtn.com/news/2025-11-06/Chinese-EV-maker-XPENG-unveils-Next-Gen-IRON-humanoid-1I5gaZuUKTS/p.html", "title": "XPENG unveils Next-Gen IRON", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["dof", "compute", "reveal date", "company"],
+      "fields_uncertain": ["height/weight"],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-flagship-galbot-g1",
+    "name": "Galbot G1",
+    "company": "Galbot (银河通用)",
+    "category": "整机平台",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled-base humanoid",
+      "height": "1.73 m",
+      "weight": "~85 kg",
+      "dof": "47 whole-body; 12 DoF dexterous hand",
+      "mobility": "360° omnidirectional wheeled chassis",
+      "runtime": "Up to ~10 h",
+      "applications": "Logistics, retail, hospitality, precision assembly",
+      "price": "~RMB 630,000-699,700",
+      "status": "Commercial"
+    },
+    "tags": ["Wheeled-Legged", "Humanoid", "Hybrid", "China", "Bimanual"],
+    "orgInfo": {
+      "description": "Galbot (银河通用机器人), founded 2023 by PKU's Wang He (王鹤).",
+      "location": "Beijing, China",
+      "website": "https://www.galbot.com/"
+    },
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://www.galbot.com/g1", "title": "Galbot G1 official", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://humanoid.guide/product/galbot/", "title": "Galbot — Humanoid.guide", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["company", "wheeled base", "dof"],
+      "fields_uncertain": ["exact height/weight"],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-flagship-booster-t1",
+    "name": "Booster T1",
+    "company": "Booster Robotics (加速进化)",
+    "category": "整机平台",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "Bipedal Humanoid (developer platform)",
+      "height": "1.18 m",
+      "weight": "~30 kg",
+      "dof": "23 base; 31 with parallel gripper; 41 with dexterous hand",
+      "armReach": "45 cm",
+      "compute": "Intel i7-1370P + optional NVIDIA Jetson AGX Orin (200 TOPS)",
+      "runtime": "~1.5 h",
+      "achievement": "2025 RoboCup AdultSize Champion",
+      "status": "Shipping"
+    },
+    "tags": ["Bipedal", "Humanoid", "Developer Platform", "China", "RoboCup"],
+    "orgInfo": {
+      "description": "Booster Robotics (加速进化), founded by Cheng Hao, released T1 October 2024.",
+      "location": "Beijing, China",
+      "website": "https://booster.tech"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.booster.tech/booster-t1/", "title": "Booster T1 official", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.generationrobots.com/blog/en/booster-t1-the-humanoid-development-platform-for-researchers-and-developers/", "title": "Booster T1 development platform", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["height", "weight", "dof", "compute", "release date"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-flagship-limx-oli",
+    "name": "LimX Oli",
+    "company": "LimX Dynamics (逐际动力)",
+    "category": "整机平台",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Full-size humanoid (research/EDU)",
+      "height": "1.65 m",
+      "weight": "~55 kg",
+      "dof": "31 (2 head, 7/arm, 3 waist, 6/leg)",
+      "armPayload": "3 kg single-arm (EDU)",
+      "maxJointTorque": "150 N·m",
+      "walkSpeed": "5 km/h max",
+      "battery": "Quick-swap",
+      "endEffectors": "2-finger grippers or 5-finger dexterous hands",
+      "compute": "Dual computers",
+      "variants": "Lite, EDU, Super",
+      "price": "From RMB 158,000 (~USD 21,800)",
+      "status": "Pre-order Jul-Aug 2025"
+    },
+    "tags": ["Bipedal", "Humanoid", "China", "Research", "Affordable"],
+    "orgInfo": {
+      "description": "LimX Dynamics (逐际动力), founded 2022 in Shenzhen.",
+      "location": "Shenzhen, China",
+      "website": "https://www.limxdynamics.com/"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.limxdynamics.com/en/products/oli", "title": "LimX Oli — official", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.therobotreport.com/limx-dynamics-launches-limx-oli-full-size-humanoid-robot/", "title": "LimX Dynamics launches Oli", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://technode.com/2025/07/31/limx-dynamics-launches-humanoid-robot-limx-oli-starting-at-21800/", "title": "LimX Oli starting at $21,800", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["height", "dof", "joint torque", "walk speed", "release date", "variants", "price"],
+      "fields_uncertain": ["weight"],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-flagship-phoenix-gen8",
+    "name": "Phoenix (Generation 8)",
+    "company": "Sanctuary AI",
+    "category": "整机平台",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "Wheeled-base humanoid (upper-body)",
+      "height": "170 cm",
+      "weight": "~70 kg",
+      "handDof": "20-21 DoF per hand",
+      "handActuation": "Miniaturized proprietary hydraulic valves in hand",
+      "tactile": "7-cell micro-barometer array per fingerpad, ~5 mN sensitivity",
+      "skillAcquisition": "Automate new tasks in <24 h",
+      "price": "From ~USD 65,000",
+      "status": "8th-gen released January 7, 2025"
+    },
+    "tags": ["Wheeled-Base", "Humanoid", "Canada", "Dexterous-Hands"],
+    "orgInfo": {
+      "description": "Sanctuary AI announced 8th-generation Phoenix on January 7, 2025, switching to a wheeled base after customer feedback. Carbon AI control system.",
+      "location": "Vancouver, British Columbia, Canada",
+      "website": "https://www.sanctuary.ai/"
+    },
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.sanctuary.ai/blog/sanctuary-ai-releases-new-generation-of-ai-robots-for-high-quality-data-capture", "title": "Sanctuary AI Releases New Generation", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.nextbigfuture.com/2025/02/sanctuary-ai-8th-generation-humanoid-bot-and-better-robot-hands.html", "title": "Sanctuary AI 8th Generation", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["height", "weight", "hand DoF", "tactile", "release date"],
+      "fields_uncertain": ["arm DoF total"],
+      "notes": ""
+    }
+  }
+]
