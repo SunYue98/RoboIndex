@@ -11,7 +11,8 @@
       "parameters": "7B",
       "architecture": "Transformer",
       "paradigm": "VLA",
-      "status": "Available"
+      "status": "Available",
+      "training_data": "970K demonstrations from Open X-Embodiment"
     },
     "relatedIds": [
       "sw7",
@@ -19,7 +20,9 @@
     ],
     "tags": [
       "Vision-Language",
-      "Open Source"
+      "Open Source",
+      "VLA",
+      "Generalist"
     ],
     "importance": "high",
     "paperInfo": {
@@ -28,7 +31,19 @@
       "arxivUrl": "https://arxiv.org/abs/something",
       "codeUrl": "https://github.com/openvla/openvla",
       "projectUrl": "https://openvla.github.io"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2406.09246",
+        "title": "OpenVLA: An Open-Source Vision-Language-Action Model (arXiv)",
+        "type": "paper"
+      },
+      {
+        "url": "https://github.com/openvla/openvla",
+        "title": "OpenVLA GitHub repository",
+        "type": "official"
+      }
+    ]
   },
   {
     "id": "sw2",
@@ -42,14 +57,19 @@
       "parameters": "Unknown",
       "paradigm": "VLA",
       "scale": "Cross-Embodiment",
-      "status": "Open Source"
+      "status": "Open Source",
+      "training_data": "1M+ real robot trajectories, 22 embodiments, 527 skills",
+      "contributors": "21 institutions, 293+ authors"
     },
     "relatedIds": [
+      "ind-deepmind-robotics",
       "sw7"
     ],
     "tags": [
       "Cross-Embodiment",
-      "Research"
+      "Research",
+      "Dataset",
+      "Generalist"
     ],
     "importance": "high",
     "paperInfo": {
@@ -57,7 +77,14 @@
       "abstract": "We present RT-X, a model trained on a large-scale, cross-embodiment dataset to enable generalization across different robots. By combining data from 22 embodiments, we observe emergent cross-robot transfer capabilities.",
       "arxivUrl": "https://arxiv.org/abs/something",
       "projectUrl": "https://robotics-transformer-x.github.io"
-    }
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2310.08864",
+        "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models (arXiv)",
+        "type": "paper"
+      }
+    ]
   },
   {
     "id": "sw3",
@@ -70,16 +97,41 @@
     "specs": {
       "type": "RL Environment",
       "engine": "Omniverse",
-      "status": "Active"
+      "status": "Active",
+      "built_on": "NVIDIA Isaac Sim",
+      "use_cases": "RL, IL, motion planning",
+      "robots": "16+ models (arms, quadrupeds, humanoids); 30+ environments",
+      "license": "BSD-3-Clause (Apache-2.0 for isaaclab_mimic)"
     },
     "relatedIds": [
+      "ind1",
+      "sw-eureka",
       "sw5",
       "cp1"
     ],
     "tags": [
       "Simulation",
-      "RL"
-    ]
+      "RL",
+      "GPU-Accelerated"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/isaac-sim/IsaacLab",
+        "title": "NVIDIA Isaac Lab GitHub",
+        "type": "official"
+      },
+      {
+        "url": "https://developer.nvidia.com/isaac/lab",
+        "title": "NVIDIA Isaac Lab",
+        "type": "official"
+      }
+    ],
+    "paperInfo": {
+      "authors": "NVIDIA Isaac team",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/isaac-sim/IsaacLab",
+      "projectUrl": "https://developer.nvidia.com/isaac/lab"
+    }
   },
   {
     "id": "sw4",
@@ -95,32 +147,29 @@
       "status": "Active"
     },
     "relatedIds": [
+      "lab-sail",
       "d2"
     ],
     "tags": [
       "Imitation Learning",
       "Open Source"
-    ]
-  },
-  {
-    "id": "ca1",
-    "name": "MIT Cheetah WBC",
-    "company": "MIT BIOMIMETICS",
-    "category": "控制算法",
-    "imageUrl": "https://images.unsplash.com/photo-1664448007559-0dbf88ee9dff?auto=format&fit=crop&q=80&w=600",
-    "year": "2019",
-    "isNew": false,
-    "specs": {
-      "type": "Whole Body Control",
-      "theory": "Dynamical Optimization",
-      "status": "Open Source"
-    },
-    "relatedIds": [
-      "f2"
     ],
-    "tags": [
-      "WBC",
-      "Legged Locomotion"
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2108.03298",
+        "title": "What Matters in Learning from Offline Human Demonstrations for Robot Manipulation (RoboMimic)",
+        "type": "paper"
+      },
+      {
+        "url": "https://robomimic.github.io/",
+        "title": "RoboMimic project site",
+        "type": "official"
+      },
+      {
+        "url": "https://github.com/ARISE-Initiative/robomimic",
+        "title": "RoboMimic GitHub (ARISE-Initiative)",
+        "type": "official"
+      }
     ]
   },
   {
@@ -134,16 +183,36 @@
     "specs": {
       "rendering": "RTX",
       "physics": "PhysX 5",
-      "status": "Production"
+      "status": "Production",
+      "built_on": "NVIDIA Omniverse + OpenUSD",
+      "version": "5.1.0",
+      "use": "Simulation, synthetic data, Isaac Lab RL"
     },
     "relatedIds": [
-      "sw3",
-      "f2"
+      "ind1",
+      "f2",
+      "sw3"
     ],
     "tags": [
       "PhysX",
-      "Raytracing"
-    ]
+      "Raytracing",
+      "physics",
+      "GPU",
+      "synthetic-data"
+    ],
+    "sources": [
+      {
+        "url": "https://developer.nvidia.com/isaac/sim",
+        "title": "NVIDIA Isaac Sim official",
+        "type": "official"
+      }
+    ],
+    "paperInfo": {
+      "authors": "NVIDIA",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/isaac-sim/IsaacSim",
+      "projectUrl": "https://developer.nvidia.com/isaac/sim"
+    }
   },
   {
     "id": "sw6",
@@ -156,13 +225,50 @@
     "specs": {
       "physics": "Fast Contacts",
       "type": "Open Source",
-      "status": "Active"
+      "status": "Active",
+      "full_name": "Multi-Joint dynamics with Contact",
+      "language": "C with Python bindings",
+      "solvers": "Newton, CG, PGS",
+      "license": "Apache 2.0 (since 2022)"
     },
-    "relatedIds": [],
+    "relatedIds": [
+      "ind-deepmind-robotics",
+      "sw-mjpc",
+      "sw-robosuite",
+      "sw-libero",
+      "sw-meta-world",
+      "sw-robocasa"
+    ],
     "tags": [
       "Open Source",
-      "Physics Engine"
-    ]
+      "Physics Engine",
+      "physics",
+      "robotics",
+      "RL"
+    ],
+    "sources": [
+      {
+        "url": "https://mujoco.org/",
+        "title": "MuJoCo official site",
+        "type": "official"
+      },
+      {
+        "url": "https://github.com/google-deepmind/mujoco",
+        "title": "MuJoCo GitHub (google-deepmind)",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/MuJoCo",
+        "title": "MuJoCo - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "paperInfo": {
+      "authors": "Emanuel Todorov, Tom Erez, Yuval Tassa",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/google-deepmind/mujoco",
+      "projectUrl": "https://mujoco.org/"
+    }
   },
   {
     "id": "sw7",
@@ -175,37 +281,3669 @@
     "specs": {
       "size": "1M+ trajectories",
       "robots": "22 embodiments",
-      "status": "Publicly Available"
+      "status": "Publicly Available",
+      "embodiments": "22 robot platforms across 21 institutions",
+      "skills": "527 distinct skills",
+      "tasks": "160,266 tasks",
+      "modality": "RGB + language-conditioned multi-embodiment",
+      "license": "Mixed per-contribution; aggregated for research use"
     },
     "relatedIds": [
+      "ind-deepmind-robotics",
+      "sw-cogact",
+      "sw-octo",
       "sw1",
       "sw2",
       "f2"
     ],
     "tags": [
       "Dataset",
-      "Large-scale"
+      "Large-scale",
+      "multi-embodiment",
+      "manipulation",
+      "foundation-data",
+      "RT-X"
+    ],
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2310.08864",
+        "title": "Open X-Embodiment arxiv",
+        "type": "paper"
+      }
+    ],
+    "paperInfo": {
+      "authors": "Open X-Embodiment Collaboration (Pertsch, O'Neill, et al., 294+ authors)",
+      "arxivUrl": "https://arxiv.org/abs/2310.08864",
+      "codeUrl": "https://github.com/google-deepmind/open_x_embodiment",
+      "projectUrl": "https://robotics-transformer-x.github.io"
+    }
+  },
+  {
+    "id": "sw-mpc",
+    "name": "Model Predictive Control (MPC)",
+    "company": "Industrial / Academic (canonical)",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "1980",
+    "isNew": false,
+    "specs": {
+      "type": "Optimal control via receding-horizon optimization",
+      "use_cases": "Locomotion, manipulation, autonomous driving",
+      "industrial_adoption": "Since 1980s in chemical/oil refineries"
+    },
+    "tags": [
+      "optimization",
+      "control",
+      "receding-horizon"
+    ],
+    "paperInfo": {
+      "authors": "Various (Morari, Cutler, Ramaker, etc.)",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://en.wikipedia.org/wiki/Model_predictive_control"
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Model_predictive_control",
+        "title": "Model predictive control - Wikipedia",
+        "type": "wiki"
+      }
     ]
   },
   {
-    "id": "bm1",
-    "name": "ManiSkill",
-    "company": "UCSD",
-    "category": "评测基准",
-    "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600",
+    "id": "sw-convex-mpc-cheetah",
+    "name": "Convex MPC (MIT Cheetah 3)",
+    "company": "MIT Biomimetic Robotics Lab",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "approach": "Convex MPC over simplified rigid-body dynamics",
+      "horizon": "Up to 0.5s",
+      "solve_rate": "20-30 Hz, <1ms per solve",
+      "gaits": "Trot, flying-trot, pronk, bound, gallop"
+    },
+    "tags": [
+      "legged",
+      "MPC",
+      "quadruped"
+    ],
+    "paperInfo": {
+      "authors": "Jared Di Carlo, Patrick M. Wensing, Benjamin Katz, Gerardo Bledt, Sangbae Kim",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://dspace.mit.edu/bitstream/handle/1721.1/138000/convex_mpc_2fix.pdf"
+    },
+    "sources": [
+      {
+        "url": "https://dspace.mit.edu/bitstream/handle/1721.1/138000/convex_mpc_2fix.pdf",
+        "title": "Dynamic Locomotion in the MIT Cheetah 3 Through Convex Model-Predictive Control",
+        "type": "paper"
+      },
+      {
+        "url": "https://ieeexplore.ieee.org/document/8594448",
+        "title": "IEEE/RSJ IROS 2018 entry",
+        "type": "paper"
+      }
+    ]
+  },
+  {
+    "id": "sw-ocs2",
+    "name": "OCS2",
+    "company": "ETH Zurich Robotic Systems Lab",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "2017",
+    "isNew": false,
+    "specs": {
+      "language": "C++",
+      "algorithms": "SLQ, iLQR, SQP, SLP, IPM",
+      "constraints": "Augmented Lagrangian / relaxed barrier",
+      "integration": "URDF + ROS",
+      "purpose": "Real-time MPC for switched/nonlinear systems",
+      "solvers": "SLQ, iLQR, SQP, SLP, IPM",
+      "license": "BSD-3-Clause",
+      "status": "Open Source"
+    },
+    "tags": [
+      "MPC",
+      "DDP",
+      "toolbox",
+      "Optimal Control",
+      "Switched Systems"
+    ],
+    "paperInfo": {
+      "authors": "Farbod Farshidian et al.",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/leggedrobotics/ocs2",
+      "projectUrl": "https://leggedrobotics.github.io/ocs2/"
+    },
+    "sources": [
+      {
+        "url": "https://leggedrobotics.github.io/ocs2/overview.html",
+        "title": "OCS2 documentation",
+        "type": "official"
+      },
+      {
+        "url": "https://github.com/leggedrobotics/ocs2",
+        "title": "OCS2 GitHub",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "lab-eth-rsl"
+    ]
+  },
+  {
+    "id": "sw-ddp-ilqr",
+    "name": "Differential Dynamic Programming / iLQR",
+    "company": "Academic (Jacobson & Mayne)",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "1970",
+    "isNew": false,
+    "specs": {
+      "type": "Second-order trajectory optimization",
+      "convergence": "Quadratic (local)",
+      "variants": "iLQR uses Gauss-Newton Hessian approximation",
+      "uses": "Manipulation, locomotion, MPC inner solve"
+    },
+    "tags": [
+      "trajectory-optimization",
+      "optimal-control"
+    ],
+    "paperInfo": {
+      "authors": "D.H. Jacobson, D.Q. Mayne",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://en.wikipedia.org/wiki/Differential_dynamic_programming"
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Differential_dynamic_programming",
+        "title": "DDP - Wikipedia",
+        "type": "wiki"
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/bimj.19730150510",
+        "title": "Jacobson & Mayne 1970 book review",
+        "type": "paper"
+      }
+    ]
+  },
+  {
+    "id": "sw-centroidal-dynamics",
+    "name": "Centroidal Dynamics",
+    "company": "Ohio State / Honda Research / KAIST",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "2013",
+    "isNew": false,
+    "specs": {
+      "concept": "Centroidal momentum matrix (CMM) projecting joint velocities to CoM momentum",
+      "complexity": "O(N) computation",
+      "use_case": "Humanoid balance / momentum control",
+      "publication": "Autonomous Robots 35(2-3):161-176"
+    },
+    "tags": [
+      "humanoid",
+      "dynamics",
+      "balance"
+    ],
+    "paperInfo": {
+      "authors": "David E. Orin, Ambarish Goswami, Sung-Hee Lee",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://link.springer.com/article/10.1007/s10514-013-9341-4"
+    },
+    "sources": [
+      {
+        "url": "https://link.springer.com/article/10.1007/s10514-013-9341-4",
+        "title": "Centroidal dynamics of a humanoid robot - Autonomous Robots",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-kaist-hubo"
+    ]
+  },
+  {
+    "id": "sw-wbc-sentis",
+    "name": "Whole-Body Control (Operational-Space)",
+    "company": "Stanford / Khatib Lab",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "2006",
+    "isNew": false,
+    "specs": {
+      "framework": "Hierarchical operational-space control",
+      "key_idea": "Constraint-prioritized null-space projections",
+      "domain": "Humanoid manipulation + locomotion",
+      "venue": "ICRA 2006"
+    },
+    "tags": [
+      "humanoid",
+      "whole-body",
+      "control"
+    ],
+    "paperInfo": {
+      "authors": "Luis Sentis, Oussama Khatib",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://khatib.stanford.edu/publications/pdfs/Sentis_2006_ICRA.pdf"
+    },
+    "sources": [
+      {
+        "url": "https://www.semanticscholar.org/paper/A-whole-body-control-framework-for-humanoids-in-Sentis-Khatib/ea2ef0d66632b9469eaf6a7ea531b79fa7542f23",
+        "title": "Semantic Scholar entry for Sentis & Khatib WBC",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-sail"
+    ]
+  },
+  {
+    "id": "sw-diffusion-policy",
+    "name": "Diffusion Policy",
+    "company": "Columbia University / TRI / MIT",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "formulation": "Conditional denoising diffusion over action sequences",
+      "benchmarks": "12 tasks across 4 manipulation suites",
+      "improvement": "+46.9% over prior SOTA average",
+      "venue": "RSS 2023, IJRR 2024"
+    },
+    "tags": [
+      "imitation-learning",
+      "diffusion",
+      "manipulation"
+    ],
+    "paperInfo": {
+      "authors": "Cheng Chi, Zhenjia Xu, Siyuan Feng, Eric Cousineau, Yilun Du, Benjamin Burchfiel, Russ Tedrake, Shuran Song",
+      "arxivUrl": "https://arxiv.org/abs/2303.04137",
+      "codeUrl": "https://github.com/columbia-ai-robotics/diffusion_policy",
+      "projectUrl": "https://diffusion-policy.cs.columbia.edu/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2303.04137",
+        "title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
+        "type": "paper"
+      },
+      {
+        "url": "https://diffusion-policy.cs.columbia.edu/",
+        "title": "Project page",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind-tri",
+      "lab-mit-csail"
+    ]
+  },
+  {
+    "id": "sw-act",
+    "name": "ACT (Action Chunking with Transformers)",
+    "company": "Stanford University",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "architecture": "Conditional VAE with transformer encoder/decoder",
+      "output": "Predicts action chunks (sequences)",
+      "data_efficiency": "10 minutes of demonstrations",
+      "tasks": "6 bimanual fine-grained tasks; 80-90% success",
+      "paradigm": "Action chunking for bimanual imitation learning",
+      "platform": "ALOHA low-cost bimanual hardware",
+      "status": "Open Source"
+    },
+    "tags": [
+      "imitation-learning",
+      "transformer",
+      "bimanual",
+      "Imitation Learning",
+      "Bimanual",
+      "Transformer"
+    ],
+    "paperInfo": {
+      "authors": "Tony Z. Zhao, Vikash Kumar, Sergey Levine, Chelsea Finn",
+      "arxivUrl": "https://arxiv.org/abs/2304.13705",
+      "codeUrl": "https://github.com/tonyzhaozh/act",
+      "projectUrl": "https://tonyzhaozh.github.io/aloha/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2304.13705",
+        "title": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware",
+        "type": "paper"
+      },
+      {
+        "url": "https://tonyzhaozh.github.io/aloha/",
+        "title": "ALOHA / ACT project page",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "lab-bair-autolab",
+      "lab-sail"
+    ]
+  },
+  {
+    "id": "sw-openai-dexterous",
+    "name": "Dexterous In-Hand Manipulation (RL/PPO + Domain Randomization)",
+    "company": "OpenAI",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "algorithm": "PPO with LSTM, distributed training",
+      "platform": "Shadow Dexterous Hand",
+      "training": "Pure-sim with domain randomization",
+      "behaviors": "Finger-gaiting, multi-finger coordination"
+    },
+    "tags": [
+      "RL",
+      "PPO",
+      "dexterous"
+    ],
+    "paperInfo": {
+      "authors": "OpenAI: Andrychowicz, Baker, Chociej, Jozefowicz, McGrew, Pachocki, Petron, Plappert, Powell, Ray, Schneider, Sidor, Tobin, Welinder, Weng, Zaremba",
+      "arxivUrl": "https://arxiv.org/abs/1808.00177",
+      "codeUrl": "",
+      "projectUrl": "https://arxiv.org/abs/1808.00177"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1808.00177",
+        "title": "Learning Dexterous In-Hand Manipulation - arxiv",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "e2",
+      "h29"
+    ]
+  },
+  {
+    "id": "sw-anymal-rl",
+    "name": "ANYmal RL Locomotion Controller",
+    "company": "ETH Zurich / Intel Labs",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "2019",
+    "isNew": false,
+    "specs": {
+      "algorithm": "Deep RL policy trained in simulation",
+      "transfer": "Sim-to-real via actuator network",
+      "platform": "ANYmal quadruped",
+      "venue": "Science Robotics 2019"
+    },
+    "tags": [
+      "legged",
+      "RL",
+      "sim-to-real"
+    ],
+    "paperInfo": {
+      "authors": "Jemin Hwangbo, Joonho Lee, Alexey Dosovitskiy, Dario Bellicoso, Vassilios Tsounis, Vladlen Koltun, Marco Hutter",
+      "arxivUrl": "https://arxiv.org/abs/1901.08652",
+      "codeUrl": "https://github.com/junja94/anymal_science_robotics_supplementary",
+      "projectUrl": "https://www.science.org/doi/10.1126/scirobotics.aau5872"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1901.08652",
+        "title": "Learning agile and dynamic motor skills for legged robots - arxiv",
+        "type": "paper"
+      },
+      {
+        "url": "https://www.science.org/doi/10.1126/scirobotics.aau5872",
+        "title": "Science Robotics article",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-eth-rsl"
+    ]
+  },
+  {
+    "id": "sw-sac-minitaur",
+    "name": "SAC for Legged Locomotion",
+    "company": "UC Berkeley / Google Brain",
+    "category": "控制算法",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "algorithm": "Soft Actor-Critic (max-entropy RL)",
+      "platform": "Ghost Minitaur",
+      "training_time": "~2 hours on real hardware",
+      "venue": "RSS 2019"
+    },
+    "tags": [
+      "RL",
+      "SAC",
+      "quadruped"
+    ],
+    "paperInfo": {
+      "authors": "Tuomas Haarnoja, Sehoon Ha, Aurick Zhou, Jie Tan, George Tucker, Sergey Levine",
+      "arxivUrl": "https://arxiv.org/abs/1812.11103",
+      "codeUrl": "",
+      "projectUrl": "https://www.roboticsproceedings.org/rss15/p11.pdf"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1812.11103",
+        "title": "Learning to Walk via Deep Reinforcement Learning",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-bair-autolab"
+    ]
+  },
+  {
+    "id": "sw-gazebo",
+    "name": "Gazebo",
+    "company": "Open Robotics",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "2004",
+    "isNew": false,
+    "specs": {
+      "physics": "ODE / Bullet / DART / Simbody",
+      "ros_support": "Native ROS/ROS2 bridge",
+      "license": "Apache 2.0",
+      "lineage": "Player Project 2002-2011; OSRF/Open Robotics steward since 2012"
+    },
+    "tags": [
+      "physics",
+      "ROS",
+      "open-source"
+    ],
+    "paperInfo": {
+      "authors": "Nathan Koenig, Andrew Howard",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/gazebosim/gz-sim",
+      "projectUrl": "https://gazebosim.org/"
+    },
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gazebo_(simulator)",
+        "title": "Gazebo - Wikipedia",
+        "type": "wiki"
+      },
+      {
+        "url": "https://github.com/gazebosim/gz-sim",
+        "title": "Gazebo Sim repo",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "sw-pybullet",
+    "name": "PyBullet (Bullet)",
+    "company": "Bullet (Erwin Coumans) / Google",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "engine": "Bullet Physics SDK",
+      "language": "Python bindings over C++",
+      "license": "Zlib",
+      "use": "Robotics, RL, games"
+    },
+    "tags": [
+      "physics",
+      "RL",
+      "python"
+    ],
+    "paperInfo": {
+      "authors": "Erwin Coumans, Yunfei Bai",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/bulletphysics/bullet3",
+      "projectUrl": "https://pybullet.org/"
+    },
+    "sources": [
+      {
+        "url": "https://pybullet.org/",
+        "title": "PyBullet official site",
+        "type": "official"
+      },
+      {
+        "url": "https://github.com/bulletphysics/bullet3",
+        "title": "bullet3 GitHub",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bullet_(software)",
+        "title": "Bullet - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "relatedIds": [
+      "ind-deepmind-robotics",
+      "sw-calvin",
+      "sw-gensim"
+    ]
+  },
+  {
+    "id": "sw-sapien",
+    "name": "SAPIEN",
+    "company": "UC San Diego (Hao Su Lab)",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "2020",
+    "isNew": false,
+    "specs": {
+      "physics": "PhysX 5 with GPU acceleration",
+      "rendering": "Ray-traced via SapienRenderer",
+      "specialty": "Articulated objects, part-level interactions",
+      "venue": "CVPR 2020"
+    },
+    "tags": [
+      "embodied-AI",
+      "manipulation",
+      "articulated"
+    ],
+    "paperInfo": {
+      "authors": "Fanbo Xiang, Yuzhe Qin, Kaichun Mo, Yikuan Xia, Hao Zhu, Fangchen Liu, Minghua Liu, Hanxiao Jiang, Yifu Yuan, He Wang, Li Yi, Angel X. Chang, Leonidas Guibas, Hao Su",
+      "arxivUrl": "https://arxiv.org/abs/2003.08515",
+      "codeUrl": "https://github.com/haosulab/SAPIEN",
+      "projectUrl": "https://sapien.ucsd.edu/"
+    },
+    "sources": [
+      {
+        "url": "https://github.com/haosulab/SAPIEN",
+        "title": "SAPIEN GitHub",
+        "type": "official"
+      },
+      {
+        "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Xiang_SAPIEN_A_SimulAted_Part-Based_Interactive_ENvironment_CVPR_2020_paper.pdf",
+        "title": "CVPR 2020 paper",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "sw-maniskill2",
+      "sw-maniskill3",
+      "sw-simplerenv"
+    ]
+  },
+  {
+    "id": "sw-genesis",
+    "name": "Genesis",
+    "company": "Genesis-Embodied-AI (CMU/MIT/Stanford/NVIDIA et al.)",
+    "category": "仿真平台",
+    "imageUrl": "",
     "year": "2024",
     "isNew": true,
     "specs": {
-      "type": "Manipulation Benchmark",
-      "envs": "120+ Tasks",
-      "status": "Active"
+      "speed": "Up to 43M FPS on manipulation scenes",
+      "solvers": "Rigid, MPM, SPH, FEM, PBD",
+      "rendering": "Native ray tracing",
+      "differentiability": "Yes (gradient-based)"
     },
-    "relatedIds": [
-      "sw1"
-    ],
     "tags": [
+      "physics",
+      "GPU",
+      "differentiable"
+    ],
+    "paperInfo": {
+      "authors": "Genesis Authors (~70 contributors)",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/Genesis-Embodied-AI/Genesis",
+      "projectUrl": "https://genesis-embodied-ai.github.io/"
+    },
+    "sources": [
+      {
+        "url": "https://genesis-embodied-ai.github.io/",
+        "title": "Genesis project page",
+        "type": "official"
+      },
+      {
+        "url": "https://github.com/Genesis-Embodied-AI/Genesis",
+        "title": "Genesis GitHub",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "lab-mit-csail",
+      "lab-sail"
+    ]
+  },
+  {
+    "id": "sw-newton",
+    "name": "Newton",
+    "company": "NVIDIA / Google DeepMind / Disney Research",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "backend": "NVIDIA Warp (GPU) + MuJoCo Warp",
+      "stewardship": "Linux Foundation project",
+      "differentiable": "Yes",
+      "format": "OpenUSD"
+    },
+    "tags": [
+      "physics",
+      "GPU",
+      "differentiable"
+    ],
+    "paperInfo": {
+      "authors": "NVIDIA, Google DeepMind, Disney Research",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/newton-physics/newton",
+      "projectUrl": "https://developer.nvidia.com/blog/announcing-newton-an-open-source-physics-engine-for-robotics-simulation/"
+    },
+    "sources": [
+      {
+        "url": "https://developer.nvidia.com/blog/announcing-newton-an-open-source-physics-engine-for-robotics-simulation/",
+        "title": "NVIDIA blog announcing Newton",
+        "type": "official"
+      },
+      {
+        "url": "https://github.com/newton-physics/newton",
+        "title": "Newton GitHub",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind-deepmind-robotics",
+      "ind1"
+    ]
+  },
+  {
+    "id": "sw-webots",
+    "name": "Webots",
+    "company": "Cyberbotics (EPFL spin-off)",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "1998",
+    "isNew": false,
+    "specs": {
+      "license": "Apache 2.0 (open-source since 2018)",
+      "physics": "ODE-based",
+      "platforms": "Windows, macOS, Linux",
+      "use": "Industry, education, research"
+    },
+    "tags": [
+      "physics",
+      "education",
+      "cross-platform"
+    ],
+    "paperInfo": {
+      "authors": "Cyberbotics Ltd.",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/cyberbotics/webots",
+      "projectUrl": "https://cyberbotics.com/"
+    },
+    "sources": [
+      {
+        "url": "https://cyberbotics.com/",
+        "title": "Cyberbotics / Webots official site",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "sw-coppeliasim",
+    "name": "CoppeliaSim",
+    "company": "Coppelia Robotics AG",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "2013",
+    "isNew": false,
+    "specs": {
+      "predecessor": "V-REP (rebranded 2019)",
+      "version": "V4.10.0",
+      "physics": "Bullet, ODE, Vortex, Newton, MuJoCo",
+      "scripting": "Lua, Python, C/C++, Java, Matlab"
+    },
+    "tags": [
+      "physics",
+      "education",
+      "multi-physics"
+    ],
+    "paperInfo": {
+      "authors": "Coppelia Robotics AG (Marc Freese et al.)",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://www.coppeliarobotics.com/"
+    },
+    "sources": [
+      {
+        "url": "https://www.coppeliarobotics.com/",
+        "title": "CoppeliaSim official site",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "sw-rlbench"
+    ]
+  },
+  {
+    "id": "sw-drake",
+    "name": "Drake",
+    "company": "Toyota Research Institute / MIT",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "2019",
+    "isNew": false,
+    "specs": {
+      "language": "C++ with Python bindings",
+      "focus": "Model-based design, optimization, contact dynamics",
+      "version": "v1.53.0",
+      "components": "Multibody, math programming, systems framework",
+      "origins": "MIT Robot Locomotion Group; core development at TRI",
+      "license": "BSD-3-Clause",
+      "status": "Open Source"
+    },
+    "tags": [
+      "physics",
+      "optimization",
+      "model-based",
+      "Model-Based",
+      "Optimization",
+      "Control"
+    ],
+    "paperInfo": {
+      "authors": "Russ Tedrake and the Drake Team",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/RobotLocomotion/drake",
+      "projectUrl": "https://drake.mit.edu/"
+    },
+    "sources": [
+      {
+        "url": "https://drake.mit.edu/",
+        "title": "Drake official site",
+        "type": "official"
+      },
+      {
+        "url": "https://github.com/RobotLocomotion/drake",
+        "title": "Drake GitHub",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind-tri",
+      "lab-mit-csail"
+    ]
+  },
+  {
+    "id": "sw-droid",
+    "name": "DROID",
+    "company": "Stanford / UC Berkeley / TRI / multi-institution",
+    "category": "数据集",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "trajectories": "76,000 demonstrations",
+      "hours": "350 hours",
+      "scenes": "564 scenes",
+      "tasks": "84 tasks",
+      "embodiment": "Franka Panda (single platform, in-the-wild)",
+      "license": "CC BY 4.0"
+    },
+    "tags": [
+      "manipulation",
+      "in-the-wild",
+      "Franka",
+      "imitation-learning"
+    ],
+    "paperInfo": {
+      "authors": "Alexander Khazatsky, Karl Pertsch, Suraj Nair, et al. (100+ authors)",
+      "arxivUrl": "https://arxiv.org/abs/2403.12945",
+      "codeUrl": "https://github.com/droid-dataset/droid",
+      "projectUrl": "https://droid-dataset.github.io"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2403.12945",
+        "title": "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset",
+        "type": "paper"
+      },
+      {
+        "url": "https://droid-dataset.github.io/",
+        "title": "DROID project page",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind-tri",
+      "lab-bair-autolab",
+      "lab-sail",
+      "sw-vjepa-2",
+      "a2"
+    ]
+  },
+  {
+    "id": "sw-bridgedata-v2",
+    "name": "BridgeData V2",
+    "company": "UC Berkeley (RAIL)",
+    "category": "数据集",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "trajectories": "60,096 trajectories",
+      "environments": "24 environments",
+      "embodiment": "WidowX 250 (low-cost arm)",
+      "modality": "RGB-D, language-conditioned and goal-image",
+      "license": "Open / research use"
+    },
+    "tags": [
+      "manipulation",
+      "imitation-learning",
+      "language-conditioned",
+      "WidowX"
+    ],
+    "paperInfo": {
+      "authors": "Homer Walke, Kevin Black, Abraham Lee, Moo Jin Kim, Max Du, Chongyi Zheng, Tony Zhao, Philippe Hansen-Estruch, Quan Vuong, Andre He, Vivek Myers, Kuan Fang, Chelsea Finn, Sergey Levine",
+      "arxivUrl": "https://arxiv.org/abs/2308.12952",
+      "codeUrl": "https://github.com/rail-berkeley/bridge_data_v2",
+      "projectUrl": "https://rail-berkeley.github.io/bridgedata/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2308.12952",
+        "title": "BridgeData V2: A Dataset for Robot Learning at Scale",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-bair-autolab",
+      "lab-sail",
+      "d2"
+    ]
+  },
+  {
+    "id": "sw-mobile-aloha",
+    "name": "Mobile ALOHA Dataset",
+    "company": "Stanford",
+    "category": "数据集",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "demonstrations": "50 demos per task (multiple tasks)",
+      "embodiment": "Mobile ALOHA bimanual whole-body teleoperated platform",
+      "modality": "RGB + teleop action",
+      "license": "Open / research use"
+    },
+    "tags": [
+      "bimanual",
+      "mobile-manipulation",
+      "teleop",
+      "ALOHA"
+    ],
+    "paperInfo": {
+      "authors": "Zipeng Fu, Tony Z. Zhao, Chelsea Finn",
+      "arxivUrl": "https://arxiv.org/abs/2401.02117",
+      "codeUrl": "https://github.com/MarkFzp/mobile-aloha",
+      "projectUrl": "https://mobile-aloha.github.io"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2401.02117",
+        "title": "Mobile ALOHA: Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-sail"
+    ]
+  },
+  {
+    "id": "sw-agibot-world",
+    "name": "AgiBot World (Colosseo)",
+    "company": "AgiBot / Shanghai AI Lab",
+    "category": "数据集",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "trajectories": "over 1,000,000 trajectories",
+      "tasks": "217 tasks",
+      "scenarios": "5 deployment scenarios",
+      "embodiment": "Standard grippers, dexterous hands, visuo-tactile sensors",
+      "license": "Open / research use"
+    },
+    "tags": [
+      "large-scale",
+      "humanoid",
+      "dexterous",
+      "manipulation"
+    ],
+    "paperInfo": {
+      "authors": "Qingwen Bu et al. (50+ authors)",
+      "arxivUrl": "https://arxiv.org/abs/2503.06669",
+      "codeUrl": "https://github.com/OpenDriveLab/AgiBot-World",
+      "projectUrl": "https://agibot-world.com"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2503.06669",
+        "title": "AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind-agibot",
+      "lab-shanghai-ailab",
+      "sw-agibot-go1",
+      "h29"
+    ]
+  },
+  {
+    "id": "sw-rh20t",
+    "name": "RH20T",
+    "company": "Shanghai Jiao Tong University",
+    "category": "数据集",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "trajectories": "over 110,000 contact-rich sequences",
+      "skills": "147 tasks",
+      "modality": "Visual + force + audio + language + human demos",
+      "embodiment": "Multiple real robots",
+      "license": "Research use"
+    },
+    "tags": [
+      "contact-rich",
+      "multi-modal",
+      "one-shot",
+      "manipulation"
+    ],
+    "paperInfo": {
+      "authors": "Hao-Shu Fang, Hongjie Fang, Zhenyu Tang, Jirong Liu, Chenxi Wang, Junbo Wang, Haoyi Zhu, Cewu Lu",
+      "arxivUrl": "https://arxiv.org/abs/2307.00595",
+      "codeUrl": "https://github.com/rh20t/rh20t_api",
+      "projectUrl": "https://rh20t.github.io"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2307.00595",
+        "title": "RH20T: A Comprehensive Robotic Dataset for Learning Diverse Skills in One-Shot",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "sw-ario",
+    "name": "ARIO (All Robots In One)",
+    "company": "PCL / Sun Yat-sen / multi-institution",
+    "category": "数据集",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "episodes": "~3,000,000 episodes",
+      "series": "258 series",
+      "tasks": "321,064 tasks",
+      "modality": "Multi-modal sensory, standardized format",
+      "license": "Research use"
+    },
+    "tags": [
+      "unified-format",
+      "multi-embodiment",
+      "embodied-AI",
+      "large-scale"
+    ],
+    "paperInfo": {
+      "authors": "Zhiqiang Wang, Hao Zheng, Yunshuang Nie, Wenjun Xu, Qingwei Wang, Hua Ye, Zhe Li, Kaidong Zhang, Xuewen Cheng, Wanxi Dong, Chang Cai, Liang Lin, Feng Zheng, Xiaodan Liang",
+      "arxivUrl": "https://arxiv.org/abs/2408.10899",
+      "codeUrl": "",
+      "projectUrl": "https://imaei.github.io/project_pages/ario/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2408.10899",
+        "title": "All Robots in One: A New Standard and Unified Dataset for Versatile, General-Purpose Embodied Agents",
+        "type": "paper"
+      }
+    ]
+  },
+  {
+    "id": "sw-robomind",
+    "name": "RoboMIND",
+    "company": "Beijing Academy of AI / multi-institution",
+    "category": "数据集",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "trajectories": "107,000 demonstrations",
+      "tasks": "479 tasks",
+      "object_classes": "96 object classes",
+      "embodiments": "4 (Franka, UR5e, AgileX dual-arm, humanoid+dexterous)",
+      "failure_demos": "5,000 real-world failure demonstrations",
+      "license": "Research use"
+    },
+    "tags": [
+      "multi-embodiment",
+      "teleoperation",
+      "failure-cases",
+      "manipulation"
+    ],
+    "paperInfo": {
+      "authors": "Kun Wu et al. (36 co-authors)",
+      "arxivUrl": "https://arxiv.org/abs/2412.13877",
+      "codeUrl": "",
+      "projectUrl": "https://x-humanoid-robomind.github.io"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2412.13877",
+        "title": "RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation",
+        "type": "paper"
+      }
+    ]
+  },
+  {
+    "id": "sw-robovqa",
+    "name": "RoboVQA",
+    "company": "Google DeepMind",
+    "category": "数据集",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "video_text_pairs": "829,502 (video, text) pairs",
+      "unique_instructions": "29,520 unique instructions",
+      "embodiment": "Robot + human embodiments across office buildings",
+      "modality": "Video-language VQA",
+      "license": "Research use"
+    },
+    "tags": [
+      "VQA",
+      "long-horizon",
+      "video-language",
+      "multimodal"
+    ],
+    "paperInfo": {
+      "authors": "Pierre Sermanet, Tianli Ding, Jeffrey Zhao, Fei Xia, Debidatta Dwibedi, Keerthana Gopalakrishnan, et al.",
+      "arxivUrl": "https://arxiv.org/abs/2311.00899",
+      "codeUrl": "https://github.com/google-deepmind/robovqa",
+      "projectUrl": "https://robovqa.github.io"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2311.00899",
+        "title": "RoboVQA: Multimodal Long-Horizon Reasoning for Robotics",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind-deepmind-robotics",
+      "h4"
+    ]
+  },
+  {
+    "id": "sw-robonet",
+    "name": "RoboNet",
+    "company": "UC Berkeley / Stanford / CMU / Penn",
+    "category": "数据集",
+    "imageUrl": "",
+    "year": "2019",
+    "isNew": false,
+    "specs": {
+      "trajectories": "~162,000 trajectories",
+      "frames": "15 million video frames",
+      "embodiments": "7 robot platforms (Sawyer, Baxter, WidowX, Kuka iiwa, Franka, Fetch, Google)",
+      "modality": "RGB video",
+      "license": "CC BY 4.0"
+    },
+    "tags": [
+      "multi-robot",
+      "video-prediction",
+      "manipulation",
+      "classic"
+    ],
+    "paperInfo": {
+      "authors": "Sudeep Dasari, Frederik Ebert, Stephen Tian, Suraj Nair, Bernadette Bucher, Karl Schmeckpeper, Siddharth Singh, Sergey Levine, Chelsea Finn",
+      "arxivUrl": "https://arxiv.org/abs/1910.11215",
+      "codeUrl": "https://github.com/SudeepDasari/RoboNet",
+      "projectUrl": "https://www.robonet.wiki"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1910.11215",
+        "title": "RoboNet: Large-Scale Multi-Robot Learning",
+        "type": "paper"
+      },
+      {
+        "url": "https://github.com/SudeepDasari/RoboNet",
+        "title": "RoboNet GitHub",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "lab-bair-autolab",
+      "lab-cmu-ri",
+      "lab-sail",
+      "lab-upenn-grasp"
+    ]
+  },
+  {
+    "id": "sw-roboturk",
+    "name": "RoboTurk",
+    "company": "Stanford",
+    "category": "数据集",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "demonstrations": "2,200+ successful demos (pilot); 111+ hours in IROS'19 extension",
+      "hours": "137.5 hours of teleop data",
+      "embodiment": "Simulated + real manipulators via mobile phone teleop",
+      "modality": "Crowdsourced 6-DoF teleop",
+      "license": "Research use"
+    },
+    "tags": [
+      "crowdsourcing",
+      "teleop",
+      "imitation-learning",
+      "classic"
+    ],
+    "paperInfo": {
+      "authors": "Ajay Mandlekar, Yuke Zhu, Animesh Garg, Jonathan Booher, Max Spero, Albert Tung, Julian Gao, John Emmons, Anchit Gupta, Emre Orbay, Silvio Savarese, Li Fei-Fei",
+      "arxivUrl": "https://arxiv.org/abs/1811.02790",
+      "codeUrl": "",
+      "projectUrl": "https://roboturk.stanford.edu"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1811.02790",
+        "title": "RoboTurk: A Crowdsourcing Platform for Robotic Skill Learning through Imitation",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-sail"
+    ]
+  },
+  {
+    "id": "sw-language-table",
+    "name": "Language Table",
+    "company": "Google",
+    "category": "数据集",
+    "imageUrl": "",
+    "year": "2022",
+    "isNew": false,
+    "specs": {
+      "trajectories": "~600,000 language-labeled trajectories",
+      "unique_commands": "87,000 unique natural-language commands",
+      "embodiment": "Tabletop manipulation",
+      "modality": "RGB + natural-language instructions",
+      "license": "Open / research use"
+    },
+    "tags": [
+      "language-conditioned",
+      "tabletop",
+      "real-time"
+    ],
+    "paperInfo": {
+      "authors": "Corey Lynch, Ayzaan Wahid, Jonathan Tompson, Tianli Ding, James Betker, Robert Baruch, Travis Armstrong, Pete Florence",
+      "arxivUrl": "https://arxiv.org/abs/2210.06407",
+      "codeUrl": "https://github.com/google-research/language-table",
+      "projectUrl": "https://interactive-language.github.io"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2210.06407",
+        "title": "Interactive Language: Talking to Robots in Real Time",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind-deepmind-robotics"
+    ]
+  },
+  {
+    "id": "sw-bc-z",
+    "name": "BC-Z Dataset",
+    "company": "Google / Everyday Robots",
+    "category": "数据集",
+    "imageUrl": "",
+    "year": "2022",
+    "isNew": false,
+    "specs": {
+      "tasks": "100+ distinct tasks",
+      "embodiment": "Everyday Robots mobile manipulator",
+      "modality": "RGB + language/video conditioning",
+      "license": "Research use"
+    },
+    "tags": [
+      "imitation-learning",
+      "zero-shot",
+      "language-conditioned"
+    ],
+    "paperInfo": {
+      "authors": "Eric Jang, Alex Irpan, Mohi Khansari, Daniel Kappler, Frederik Ebert, Corey Lynch, Sergey Levine, Chelsea Finn",
+      "arxivUrl": "https://arxiv.org/abs/2202.02005",
+      "codeUrl": "",
+      "projectUrl": "https://sites.google.com/view/bc-z/home"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2202.02005",
+        "title": "BC-Z: Zero-Shot Task Generalization with Robotic Imitation Learning",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind-deepmind-robotics",
+      "lab-bair-autolab",
+      "lab-sail"
+    ]
+  },
+  {
+    "id": "sw-fmb",
+    "name": "FMB (Functional Manipulation Benchmark dataset)",
+    "company": "UC Berkeley",
+    "category": "数据集",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "tasks": "Grasping, repositioning, multi-stage assembly",
+      "objects": "Procedurally generated, 3D-printed",
+      "embodiment": "Franka Panda",
+      "modality": "RGB-D + multi-view",
+      "license": "Open / research use"
+    },
+    "tags": [
+      "benchmark-dataset",
+      "assembly",
+      "generalization",
+      "Franka"
+    ],
+    "paperInfo": {
+      "authors": "Jianlan Luo, Charles Xu, Fangchen Liu, Liam Tan, Zipeng Lin, Jeffrey Wu, Pieter Abbeel, Sergey Levine",
+      "arxivUrl": "https://arxiv.org/abs/2401.08553",
+      "codeUrl": "https://github.com/rail-berkeley/fmb",
+      "projectUrl": "https://functional-manipulation-benchmark.github.io"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2401.08553",
+        "title": "FMB: a Functional Manipulation Benchmark for Generalizable Robotic Learning",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-bair-autolab",
+      "a2"
+    ]
+  },
+  {
+    "id": "sw-berkeley-ur5",
+    "name": "Berkeley UR5 Demonstration Dataset",
+    "company": "UC Berkeley AUTOLab",
+    "category": "数据集",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "episodes": "896 training episodes (~1000 total)",
+      "frames": "~97,939 frames",
+      "tasks": "5 tasks (pick-and-place, sweeping, stacking)",
+      "embodiment": "UR5 arm",
+      "modality": "RGB + depth + hand image + language",
+      "license": "Open (used in Open X-Embodiment)"
+    },
+    "tags": [
+      "UR5",
+      "manipulation",
+      "imitation-learning"
+    ],
+    "paperInfo": {
+      "authors": "Lawrence Yunliang Chen, Simeon Adebola, Ken Goldberg",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://sites.google.com/view/berkeley-ur5/home"
+    },
+    "sources": [
+      {
+        "url": "https://sites.google.com/view/berkeley-ur5/home",
+        "title": "Berkeley UR5 Demonstration Dataset",
+        "type": "official"
+      },
+      {
+        "url": "https://www.tensorflow.org/datasets/catalog/berkeley_autolab_ur5",
+        "title": "berkeley_autolab_ur5 | TFDS catalog",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "lab-bair-autolab"
+    ]
+  },
+  {
+    "id": "sw-maniskill3",
+    "name": "ManiSkill3",
+    "company": "Hillbot / UC San Diego (Hao Su Lab)",
+    "category": "评测基准",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "domains": "12 distinct domains (mobile manip, humanoid, dexterous, etc.)",
+      "simulator": "SAPIEN + GPU-parallelized",
+      "fps": "30,000+ FPS state-visual GPU parallelized",
+      "demonstrations": "Millions of demo frames (motion planning, RL, teleop)",
+      "status": "Active / open-source",
+      "type": "Manipulation Benchmark",
+      "envs": "120+ Tasks"
+    },
+    "tags": [
+      "GPU-parallel",
+      "manipulation",
+      "sim2real",
+      "SAPIEN",
       "Benchmark",
       "Manipulation"
+    ],
+    "paperInfo": {
+      "authors": "Stone Tao et al. (22 co-authors incl. Hao Su)",
+      "arxivUrl": "https://arxiv.org/abs/2410.00425",
+      "codeUrl": "https://github.com/haosulab/ManiSkill",
+      "projectUrl": "https://maniskill.ai"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2410.00425",
+        "title": "ManiSkill3: GPU Parallelized Robotics Simulation and Rendering for Generalizable Embodied AI",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "sw-sapien"
+    ]
+  },
+  {
+    "id": "sw-maniskill2",
+    "name": "ManiSkill2",
+    "company": "UC San Diego (Hao Su Lab)",
+    "category": "评测基准",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "task_families": "20 manipulation task families",
+      "objects": "2000+ object models",
+      "demonstration_frames": "4M+ frames",
+      "simulator": "SAPIEN",
+      "status": "Stable; superseded by ManiSkill3"
+    },
+    "tags": [
+      "manipulation",
+      "SAPIEN",
+      "soft-body",
+      "dual-arm"
+    ],
+    "paperInfo": {
+      "authors": "Jiayuan Gu, Fanbo Xiang, Xuanlin Li, Zhan Ling, et al., Hao Su",
+      "arxivUrl": "https://arxiv.org/abs/2302.04659",
+      "codeUrl": "https://github.com/haosulab/ManiSkill2",
+      "projectUrl": "https://maniskill2.github.io"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2302.04659",
+        "title": "ManiSkill2: A Unified Benchmark for Generalizable Manipulation Skills",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "sw-sapien"
+    ]
+  },
+  {
+    "id": "sw-meta-world",
+    "name": "Meta-World",
+    "company": "Stanford / UC Berkeley / Google",
+    "category": "评测基准",
+    "imageUrl": "",
+    "year": "2019",
+    "isNew": false,
+    "specs": {
+      "tasks": "50 distinct manipulation tasks",
+      "simulator": "MuJoCo",
+      "evaluation": "Multi-task & meta-RL success rate",
+      "status": "Canonical multi-task RL benchmark"
+    },
+    "tags": [
+      "multi-task-RL",
+      "meta-RL",
+      "MuJoCo",
+      "Sawyer"
+    ],
+    "paperInfo": {
+      "authors": "Tianhe Yu, Deirdre Quillen, Zhanpeng He, Ryan Julian, Avnish Narayan, Hayden Shively, Adithya Bellathur, Karol Hausman, Chelsea Finn, Sergey Levine",
+      "arxivUrl": "https://arxiv.org/abs/1910.10897",
+      "codeUrl": "https://github.com/rlworkgroup/metaworld",
+      "projectUrl": "https://meta-world.github.io"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1910.10897",
+        "title": "Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind-deepmind-robotics",
+      "lab-bair-autolab",
+      "lab-sail",
+      "sw6"
+    ]
+  },
+  {
+    "id": "sw-robocasa",
+    "name": "RoboCasa",
+    "company": "UT Austin / NVIDIA",
+    "category": "评测基准",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "tasks": "100 tasks (composite + atomic)",
+      "objects": "Thousands of 3D assets across 150+ categories",
+      "simulator": "Robosuite / MuJoCo",
+      "evaluation": "Generalist kitchen everyday tasks",
+      "status": "Active / open-source"
+    },
+    "tags": [
+      "everyday-tasks",
+      "kitchen",
+      "generalist",
+      "robosuite"
+    ],
+    "paperInfo": {
+      "authors": "Soroush Nasiriany, Abhiram Maddukuri, Lance Zhang, Adeet Parikh, Aaron Lo, Abhishek Joshi, Ajay Mandlekar, Yuke Zhu",
+      "arxivUrl": "https://arxiv.org/abs/2406.02523",
+      "codeUrl": "https://github.com/robocasa/robocasa",
+      "projectUrl": "https://robocasa.ai"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2406.02523",
+        "title": "RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind1",
+      "sw-robosuite",
+      "sw6"
+    ]
+  },
+  {
+    "id": "sw-calvin",
+    "name": "CALVIN",
+    "company": "University of Freiburg",
+    "category": "评测基准",
+    "imageUrl": "",
+    "year": "2021",
+    "isNew": false,
+    "specs": {
+      "tasks": "34 manipulation subtasks across 4 environments",
+      "simulator": "PyBullet",
+      "evaluation": "Long-horizon language-conditioned policy success",
+      "status": "Canonical language-conditioned benchmark"
+    },
+    "tags": [
+      "language-conditioned",
+      "long-horizon",
+      "PyBullet"
+    ],
+    "paperInfo": {
+      "authors": "Oier Mees, Lukas Hermann, Erick Rosete-Beas, Wolfram Burgard",
+      "arxivUrl": "https://arxiv.org/abs/2112.03227",
+      "codeUrl": "https://github.com/mees/calvin",
+      "projectUrl": "http://calvin.cs.uni-freiburg.de"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2112.03227",
+        "title": "CALVIN: A Benchmark for Language-Conditioned Policy Learning for Long-Horizon Robot Manipulation Tasks",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "f128",
+      "sw-pybullet"
+    ]
+  },
+  {
+    "id": "sw-libero",
+    "name": "LIBERO",
+    "company": "UT Austin / UC Austin",
+    "category": "评测基准",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "tasks": "130 tasks across 4 task suites",
+      "simulator": "Robosuite / MuJoCo",
+      "evaluation": "Lifelong learning knowledge transfer",
+      "status": "Active / open-source"
+    },
+    "tags": [
+      "lifelong-learning",
+      "knowledge-transfer",
+      "robosuite"
+    ],
+    "paperInfo": {
+      "authors": "Bo Liu, Yifeng Zhu, Chongkai Gao, Yihao Feng, Qiang Liu, Yuke Zhu, Peter Stone",
+      "arxivUrl": "https://arxiv.org/abs/2306.03310",
+      "codeUrl": "https://github.com/Lifelong-Robot-Learning/LIBERO",
+      "projectUrl": "https://libero-project.github.io"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2306.03310",
+        "title": "LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "sw-robosuite",
+      "sw6"
+    ]
+  },
+  {
+    "id": "sw-rlbench",
+    "name": "RLBench",
+    "company": "Imperial College London",
+    "category": "评测基准",
+    "imageUrl": "",
+    "year": "2019",
+    "isNew": false,
+    "specs": {
+      "tasks": "100 unique hand-designed tasks",
+      "simulator": "CoppeliaSim (V-REP) + PyRep",
+      "evaluation": "RL, imitation, multi-task, few-shot success",
+      "status": "Canonical; widely cited"
+    },
+    "tags": [
+      "manipulation",
+      "imitation-learning",
+      "CoppeliaSim",
+      "classic"
+    ],
+    "paperInfo": {
+      "authors": "Stephen James, Zicong Ma, David Rovick Arrojo, Andrew J. Davison",
+      "arxivUrl": "https://arxiv.org/abs/1909.12271",
+      "codeUrl": "https://github.com/stepjam/RLBench",
+      "projectUrl": "https://sites.google.com/view/rlbench"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1909.12271",
+        "title": "RLBench: The Robot Learning Benchmark & Learning Environment",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-imperial-prl",
+      "sw-coppeliasim"
+    ]
+  },
+  {
+    "id": "sw-behavior-1k",
+    "name": "BEHAVIOR-1K",
+    "company": "Stanford (SVL)",
+    "category": "评测基准",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "tasks": "1,000 everyday activities",
+      "scenes": "50 scenes",
+      "objects": "9,000+ objects with physical/semantic annotations",
+      "simulator": "OmniGibson (built on NVIDIA Omniverse)",
+      "evaluation": "Long-horizon mobile manipulation success",
+      "status": "Active / open-source"
+    },
+    "tags": [
+      "embodied-AI",
+      "everyday-tasks",
+      "OmniGibson",
+      "mobile-manipulation"
+    ],
+    "paperInfo": {
+      "authors": "Chengshu Li, Ruohan Zhang, Josiah Wong, et al.",
+      "arxivUrl": "https://arxiv.org/abs/2403.09227",
+      "codeUrl": "https://github.com/StanfordVL/OmniGibson",
+      "projectUrl": "https://behavior.stanford.edu/behavior-1k"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2403.09227",
+        "title": "BEHAVIOR-1K: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-sail"
+    ]
+  },
+  {
+    "id": "sw-furniturebench",
+    "name": "FurnitureBench",
+    "company": "KAIST / USC",
+    "category": "评测基准",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "tasks": "Long-horizon furniture assembly",
+      "demonstrations": "5,000+ demos (200+ hours)",
+      "simulator": "FurnitureSim (Isaac Gym)",
+      "evaluation": "Reproducible real-world + sim",
+      "status": "Active / open-source"
+    },
+    "tags": [
+      "assembly",
+      "long-horizon",
+      "real-world",
+      "Isaac"
+    ],
+    "paperInfo": {
+      "authors": "Minho Heo, Youngwoon Lee, Doohyun Lee, Joseph J. Lim",
+      "arxivUrl": "https://arxiv.org/abs/2305.12821",
+      "codeUrl": "https://github.com/clvrai/furniture-bench",
+      "projectUrl": "https://clvrai.github.io/furniture-bench/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2305.12821",
+        "title": "FurnitureBench: Reproducible Real-World Benchmark for Long-Horizon Complex Manipulation",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-kaist-hubo",
+      "lab-usc-lira"
+    ]
+  },
+  {
+    "id": "sw-simplerenv",
+    "name": "SimplerEnv (SIMPLER)",
+    "company": "UC San Diego / Stanford / Berkeley / Google",
+    "category": "评测基准",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "tasks": "Real-policy sim eval suite (RT-1, BridgeData setups)",
+      "simulator": "SAPIEN-based real-to-sim",
+      "evaluation": "Correlation with real-world policy performance",
+      "status": "Active / open-source"
+    },
+    "tags": [
+      "real-to-sim",
+      "policy-evaluation",
+      "VLA-eval"
+    ],
+    "paperInfo": {
+      "authors": "Xuanlin Li, Kyle Hsu, Jiayuan Gu, Karl Pertsch, Oier Mees, Homer Walke, Chuyuan Fu, Ishikaa Lunawat, Isabel Sieh, Sean Kirmani, Sergey Levine, Jiajun Wu, Chelsea Finn, Hao Su, Quan Vuong, Ted Xiao",
+      "arxivUrl": "https://arxiv.org/abs/2405.05941",
+      "codeUrl": "https://github.com/simpler-env/SimplerEnv",
+      "projectUrl": "https://simpler-env.github.io"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2405.05941",
+        "title": "Evaluating Real-World Robot Manipulation Policies in Simulation",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind-deepmind-robotics",
+      "lab-bair-autolab",
+      "lab-sail",
+      "sw-sapien"
+    ]
+  },
+  {
+    "id": "sw-roboarena",
+    "name": "RoboArena",
+    "company": "UC Berkeley / Stanford / multi-institution",
+    "category": "评测基准",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "evaluation": "600+ paired real-robot evaluation episodes, 7 generalist policies",
+      "institutions": "7 academic institutions, distributed",
+      "embodiment": "DROID platform (Franka)",
+      "metric": "Pairwise preference ranking (double-blind)",
+      "status": "Active / open community network"
+    },
+    "tags": [
+      "real-world-eval",
+      "generalist-policy",
+      "distributed",
+      "VLA"
+    ],
+    "paperInfo": {
+      "authors": "Pranav Atreya, Karl Pertsch, Tony Lee, et al. (31 co-authors)",
+      "arxivUrl": "https://arxiv.org/abs/2506.18123",
+      "codeUrl": "",
+      "projectUrl": "https://robo-arena.github.io"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2506.18123",
+        "title": "RoboArena: Distributed Real-World Evaluation of Generalist Robot Policies",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-bair-autolab",
+      "lab-sail"
+    ]
+  },
+  {
+    "id": "sw-roboeval",
+    "name": "RoboEval",
+    "company": "University of Washington / NVIDIA",
+    "category": "评测基准",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "tasks": "8 bimanual tasks with systematic variations",
+      "demonstrations": "3,000+ expert demonstrations",
+      "simulator": "Modular simulation platform",
+      "evaluation": "Tiered behavioral + outcome metrics beyond binary success",
+      "status": "Active / open-source"
+    },
+    "tags": [
+      "bimanual",
+      "structured-eval",
+      "diagnostic-metrics",
+      "VLA-eval"
+    ],
+    "paperInfo": {
+      "authors": "Yi Ru Wang, Carter Ung, Christopher Tan, Grant Tannert, Jiafei Duan, Josephine Li, Anh Le, Rishabh Oswal, Markus Grotz, Wilbert Pumacay, Yuquan Deng, Ranjay Krishna, Dieter Fox, Siddhartha Srinivasa",
+      "arxivUrl": "https://arxiv.org/abs/2507.00435",
+      "codeUrl": "",
+      "projectUrl": "https://robo-eval.github.io"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2507.00435",
+        "title": "RoboEval: Where Robotic Manipulation Meets Structured and Scalable Evaluation",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind1"
+    ]
+  },
+  {
+    "id": "sw-habitat2",
+    "name": "Habitat 2.0 (HAB)",
+    "company": "Meta AI (FAIR) / Georgia Tech",
+    "category": "评测基准",
+    "imageUrl": "",
+    "year": "2021",
+    "isNew": false,
+    "specs": {
+      "tasks": "Home Assistant Benchmark (tidy, groceries, set table)",
+      "simulator": "Habitat 2.0 (25,000+ steps/sec, 850x real-time)",
+      "scenes": "ReplicaCAD interactive apartments",
+      "evaluation": "Long-horizon mobile manipulation success",
+      "status": "Canonical embodied-AI sim"
+    },
+    "tags": [
+      "embodied-AI",
+      "mobile-manipulation",
+      "Habitat",
+      "ReplicaCAD"
+    ],
+    "paperInfo": {
+      "authors": "Andrew Szot, Alex Clegg, Eric Undersander, Erik Wijmans, Yili Zhao, John Turner, Noah Maestre, Mustafa Mukadam, Devendra Singh Chaplot, Oleksandr Maksymets, Aaron Gokaslan, Vladimir Vondrus, Sameer Dharur, Franziska Meier, Wojciech Galuba, Angel Chang, Zsolt Kira, Vladlen Koltun, Jitendra Malik, Manolis Savva, Dhruv Batra",
+      "arxivUrl": "https://arxiv.org/abs/2106.14405",
+      "codeUrl": "https://github.com/facebookresearch/habitat-lab",
+      "projectUrl": "https://aihabitat.org"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2106.14405",
+        "title": "Habitat 2.0: Training Home Assistants to Rearrange their Habitat",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-gatech-irim"
+    ]
+  },
+  {
+    "id": "sw-eureka",
+    "name": "Eureka",
+    "company": "NVIDIA / UPenn / Caltech / UT Austin",
+    "category": "评测基准",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "environments": "29 open-source RL environments",
+      "robot_morphologies": "10 distinct morphologies",
+      "simulator": "Isaac Gym",
+      "evaluation": "LLM-designed reward function performance vs human experts",
+      "status": "ICLR 2024; open-source"
+    },
+    "tags": [
+      "LLM-reward",
+      "Isaac-Gym",
+      "RL",
+      "reward-design"
+    ],
+    "paperInfo": {
+      "authors": "Yecheng Jason Ma, William Liang, Guanzhi Wang, De-An Huang, Osbert Bastani, Dinesh Jayaraman, Yuke Zhu, Linxi Fan, Anima Anandkumar",
+      "arxivUrl": "https://arxiv.org/abs/2310.12931",
+      "codeUrl": "https://github.com/eureka-research/Eureka",
+      "projectUrl": "https://eureka-research.github.io"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2310.12931",
+        "title": "Eureka: Human-Level Reward Design via Coding Large Language Models",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind1",
+      "lab-upenn-grasp",
+      "sw3"
+    ]
+  },
+  {
+    "id": "sw-gensim",
+    "name": "GenSim",
+    "company": "MIT / UC San Diego / Shanghai Qi Zhi / Tsinghua",
+    "category": "评测基准",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "tasks": "100+ LLM-generated tasks (10x expansion over baseline)",
+      "simulator": "PyBullet (built on Ravens / CLIPort)",
+      "evaluation": "Multi-task policy sim2real transfer",
+      "status": "ICLR 2024; open-source"
+    },
+    "tags": [
+      "LLM-generated",
+      "task-generation",
+      "PyBullet"
+    ],
+    "paperInfo": {
+      "authors": "Lirui Wang, Yiyang Ling, Zhecheng Yuan, Mohit Shridhar, Chen Bao, Yuzhe Qin, Bailin Wang, Huazhe Xu, Xiaolong Wang",
+      "arxivUrl": "https://arxiv.org/abs/2310.01361",
+      "codeUrl": "https://github.com/liruiw/GenSim",
+      "projectUrl": "https://liruiw.github.io/gensim/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2310.01361",
+        "title": "GenSim: Generating Robotic Simulation Tasks via Large Language Models",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-mit-csail",
+      "lab-tsinghua-tea",
+      "sw-pybullet"
+    ]
+  },
+  {
+    "id": "sw-robogen",
+    "name": "RoboGen",
+    "company": "CMU / MIT / Tsinghua / UMass Amherst",
+    "category": "评测基准",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "tasks": "Auto-generated unbounded task stream",
+      "simulator": "Self-generated (PyBullet / Isaac-compatible)",
+      "skills": "Rigid + articulated + deformable manipulation + legged locomotion",
+      "evaluation": "Generative simulation pipeline",
+      "status": "ICML 2024; open-source"
+    },
+    "tags": [
+      "generative-sim",
+      "auto-task",
+      "skill-learning"
+    ],
+    "paperInfo": {
+      "authors": "Yufei Wang, Zhou Xian, Feng Chen, Tsun-Hsuan Wang, Yian Wang, Katerina Fragkiadaki, Zackory Erickson, David Held, Chuang Gan",
+      "arxivUrl": "https://arxiv.org/abs/2311.01455",
+      "codeUrl": "https://github.com/Genesis-Embodied-AI/RoboGen",
+      "projectUrl": "https://robogen-ai.github.io"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2311.01455",
+        "title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-cmu-ri",
+      "lab-mit-csail",
+      "lab-tsinghua-tea"
+    ]
+  },
+  {
+    "id": "sw-rt1",
+    "name": "RT-1",
+    "company": "Google Research / Everyday Robots",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2022",
+    "isNew": false,
+    "specs": {
+      "parameters": "35M",
+      "architecture": "Robotics Transformer (tokenized I/O)",
+      "training_data": "130k episodes, 700+ tasks, 13 robots, 17 months",
+      "inference_rate": "3 Hz",
+      "status": "Open Source"
+    },
+    "tags": [
+      "Transformer",
+      "Imitation Learning",
+      "Generalist"
+    ],
+    "paperInfo": {
+      "authors": "Anthony Brohan, Noah Brown, et al.",
+      "arxivUrl": "https://arxiv.org/abs/2212.06817",
+      "codeUrl": "https://github.com/google-research/robotics_transformer",
+      "projectUrl": "https://robotics-transformer1.github.io/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2212.06817",
+        "title": "RT-1: Robotics Transformer for Real-World Control at Scale (arXiv)",
+        "type": "paper"
+      },
+      {
+        "url": "https://research.google/blog/rt-1-robotics-transformer-for-real-world-control-at-scale/",
+        "title": "RT-1 official blog (Google Research)",
+        "type": "official"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "sw-rt2",
+    "name": "RT-2",
+    "company": "Google DeepMind",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "parameters": "Up to 55B (RT-2-X / PaLI-X based)",
+      "architecture": "VLA (Vision-Language-Action) co-fine-tuned on web + robot data",
+      "paradigm": "Actions as text tokens",
+      "status": "Research"
+    },
+    "tags": [
+      "VLA",
+      "Foundation Model",
+      "Generalization"
+    ],
+    "paperInfo": {
+      "authors": "Anthony Brohan, Noah Brown, et al. (54 authors)",
+      "arxivUrl": "https://arxiv.org/abs/2307.15818",
+      "codeUrl": "",
+      "projectUrl": "https://robotics-transformer2.github.io/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2307.15818",
+        "title": "RT-2 arXiv abstract",
+        "type": "paper"
+      },
+      {
+        "url": "https://deepmind.google/blog/rt-2-new-model-translates-vision-and-language-into-action/",
+        "title": "RT-2 official DeepMind blog",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind-deepmind-robotics"
+    ]
+  },
+  {
+    "id": "sw-pi0",
+    "name": "π0 (Pi-Zero)",
+    "company": "Physical Intelligence",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "architecture": "VLM + flow-matching action expert",
+      "training_data": "Data from 7 robot platforms, 68 unique tasks",
+      "paradigm": "Generalist robot control via flow matching",
+      "status": "Research / Open weights"
+    },
+    "tags": [
+      "VLA",
+      "Flow Matching",
+      "Foundation Model"
+    ],
+    "paperInfo": {
+      "authors": "Kevin Black, Noah Brown, Danny Driess, Chelsea Finn, Sergey Levine, et al.",
+      "arxivUrl": "https://arxiv.org/abs/2410.24164",
+      "codeUrl": "https://github.com/Physical-Intelligence/openpi",
+      "projectUrl": "https://www.physicalintelligence.company/blog/pi0"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2410.24164",
+        "title": "π0 arXiv abstract",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind-physical-intelligence",
+      "lab-bair-autolab",
+      "lab-sail"
+    ]
+  },
+  {
+    "id": "sw-pi05",
+    "name": "π0.5",
+    "company": "Physical Intelligence",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "architecture": "VLA with co-training on heterogeneous tasks",
+      "paradigm": "Open-world generalization via web + multi-robot + semantic data",
+      "capabilities": "Long-horizon manipulation in unseen homes",
+      "status": "Research"
+    },
+    "tags": [
+      "VLA",
+      "Open-World",
+      "Generalization"
+    ],
+    "paperInfo": {
+      "authors": "Physical Intelligence team (36 authors)",
+      "arxivUrl": "https://arxiv.org/abs/2504.16054",
+      "codeUrl": "",
+      "projectUrl": "https://www.physicalintelligence.company/blog/pi05"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2504.16054",
+        "title": "π0.5 arXiv abstract",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind-physical-intelligence"
+    ]
+  },
+  {
+    "id": "sw-octo",
+    "name": "Octo",
+    "company": "UC Berkeley / Stanford / CMU / Google DeepMind",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "parameters": "27M (Small) / 93M (Base)",
+      "architecture": "Transformer-based diffusion policy",
+      "training_data": "800K trajectories from Open X-Embodiment",
+      "status": "Open Source"
+    },
+    "tags": [
+      "Diffusion",
+      "Open Source",
+      "Generalist"
+    ],
+    "paperInfo": {
+      "authors": "Octo Model Team: Dibya Ghosh, Homer Walke, Karl Pertsch, et al.",
+      "arxivUrl": "https://arxiv.org/abs/2405.12213",
+      "codeUrl": "https://github.com/octo-models/octo",
+      "projectUrl": "https://octo-models.github.io/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2405.12213",
+        "title": "Octo arXiv abstract",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind-deepmind-robotics",
+      "lab-bair-autolab",
+      "lab-cmu-ri",
+      "lab-sail",
+      "sw7"
+    ]
+  },
+  {
+    "id": "sw-gr1",
+    "name": "GR-1",
+    "company": "ByteDance Research",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "architecture": "GPT-style transformer, image+language+state -> action+future image",
+      "pretraining": "Large-scale video generative pretraining",
+      "benchmark": "CALVIN 94.9% success",
+      "status": "Open Source (Apache-2.0)"
+    },
+    "tags": [
+      "Video Pretraining",
+      "Manipulation",
+      "GPT-style"
+    ],
+    "paperInfo": {
+      "authors": "Hongtao Wu, Ya Jing, Chilam Cheang, et al.",
+      "arxivUrl": "https://arxiv.org/abs/2312.13139",
+      "codeUrl": "https://github.com/bytedance/GR-1",
+      "projectUrl": "https://gr1-manipulation.github.io/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2312.13139",
+        "title": "GR-1 arXiv",
+        "type": "paper"
+      },
+      {
+        "url": "https://github.com/bytedance/GR-1",
+        "title": "Official ByteDance GR-1 repo",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "sw-gr2",
+    "name": "GR-2",
+    "company": "ByteDance Research",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "architecture": "Generative Video-Language-Action model",
+      "pretraining": "38M video clips, 50B+ tokens",
+      "success_rate": "97.7% avg across 100+ tasks",
+      "status": "Research"
+    },
+    "tags": [
+      "Video Pretraining",
+      "VLA",
+      "Generative"
+    ],
+    "paperInfo": {
+      "authors": "Chi-Lam Cheang, Guangzeng Chen, Ya Jing, et al.",
+      "arxivUrl": "https://arxiv.org/abs/2410.06158",
+      "codeUrl": "",
+      "projectUrl": "https://gr2-manipulation.github.io/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2410.06158",
+        "title": "GR-2 arXiv",
+        "type": "paper"
+      }
+    ]
+  },
+  {
+    "id": "sw-helix",
+    "name": "Helix",
+    "company": "Figure AI",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "architecture": "Dual System (S2: 7B VLM @ 7-9 Hz; S1: 80M visuomotor @ 200 Hz)",
+      "control": "35-DoF whole upper body @ 200 Hz",
+      "training_data": "~500 hours teleoperated demonstrations",
+      "deployment": "Onboard embedded GPUs, no cloud",
+      "status": "Production"
+    },
+    "tags": [
+      "VLA",
+      "Humanoid",
+      "Dual-System"
+    ],
+    "paperInfo": {
+      "authors": "Figure AI",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://www.figure.ai/news/helix"
+    },
+    "sources": [
+      {
+        "url": "https://www.figure.ai/news/helix",
+        "title": "Helix announcement (Figure AI official)",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind-figure"
+    ]
+  },
+  {
+    "id": "sw-palm-e",
+    "name": "PaLM-E",
+    "company": "Google",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "parameters": "Up to 562B (PaLM-E-562B)",
+      "architecture": "Embodied multimodal LM (PaLM + ViT)",
+      "capabilities": "Robotic planning, VQA, captioning",
+      "status": "Research"
+    },
+    "tags": [
+      "Multimodal",
+      "Embodied",
+      "LLM"
+    ],
+    "paperInfo": {
+      "authors": "Danny Driess, Fei Xia, Mehdi Sajjadi, Corey Lynch, et al.",
+      "arxivUrl": "https://arxiv.org/abs/2303.03378",
+      "codeUrl": "",
+      "projectUrl": "https://palm-e.github.io/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2303.03378",
+        "title": "PaLM-E arXiv",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind-deepmind-robotics"
+    ]
+  },
+  {
+    "id": "sw-robocat",
+    "name": "RoboCat",
+    "company": "Google DeepMind",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "architecture": "Visual goal-conditioned decision transformer (Gato-based)",
+      "paradigm": "Self-improving via self-generated data",
+      "few_shot": "100-1000 demonstrations per new task",
+      "status": "Research"
+    },
+    "tags": [
+      "Generalist",
+      "Self-Improvement",
+      "Multi-Embodiment"
+    ],
+    "paperInfo": {
+      "authors": "Konstantinos Bousmalis, Giulia Vezzani, Dushyant Rao, et al.",
+      "arxivUrl": "https://arxiv.org/abs/2306.11706",
+      "codeUrl": "",
+      "projectUrl": "https://deepmind.google/blog/robocat-a-self-improving-robotic-agent/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2306.11706",
+        "title": "RoboCat arXiv",
+        "type": "paper"
+      },
+      {
+        "url": "https://deepmind.google/blog/robocat-a-self-improving-robotic-agent/",
+        "title": "RoboCat DeepMind blog",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind-deepmind-robotics"
+    ]
+  },
+  {
+    "id": "sw-vima",
+    "name": "VIMA",
+    "company": "Stanford / NVIDIA / Caltech / UT Austin",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2022",
+    "isNew": false,
+    "specs": {
+      "architecture": "Transformer encoder-decoder with T5 prompt encoder",
+      "paradigm": "Multimodal prompted manipulation (text + image tokens)",
+      "benchmark": "600K+ expert trajectories, procedurally generated tasks",
+      "venue": "ICML 2023",
+      "status": "Open Source"
+    },
+    "tags": [
+      "Multimodal Prompts",
+      "Generalist",
+      "Transformer"
+    ],
+    "paperInfo": {
+      "authors": "Yunfan Jiang, Agrim Gupta, Zichen Zhang, Guanzhi Wang, Yongqiang Dou, Yanjun Chen, Li Fei-Fei, Anima Anandkumar, Yuke Zhu, Linxi Fan",
+      "arxivUrl": "https://arxiv.org/abs/2210.03094",
+      "codeUrl": "https://github.com/vimalabs/VIMA",
+      "projectUrl": "https://vimalabs.github.io/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2210.03094",
+        "title": "VIMA arXiv",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind1",
+      "lab-sail",
+      "lab1"
+    ]
+  },
+  {
+    "id": "sw-roboflamingo",
+    "name": "RoboFlamingo",
+    "company": "ByteDance Research / Tsinghua / NUS",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "architecture": "OpenFlamingo VLM + policy head",
+      "paradigm": "Frozen VLM backbone + trained action head",
+      "venue": "ICLR 2024",
+      "status": "Open Source"
+    },
+    "tags": [
+      "VLA",
+      "Imitation Learning",
+      "VLM-based"
+    ],
+    "paperInfo": {
+      "authors": "Xinghang Li, Minghuan Liu, Hanbo Zhang, et al.",
+      "arxivUrl": "https://arxiv.org/abs/2311.01378",
+      "codeUrl": "https://github.com/RoboFlamingo/RoboFlamingo",
+      "projectUrl": "https://roboflamingo.github.io/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2311.01378",
+        "title": "RoboFlamingo arXiv",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-tsinghua-tea"
+    ]
+  },
+  {
+    "id": "sw-3dvla",
+    "name": "3D-VLA",
+    "company": "UMass Amherst",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "architecture": "3D-LLM with interaction tokens + embodied diffusion",
+      "paradigm": "3D perception + reasoning + action via world model",
+      "venue": "ICML 2024",
+      "status": "Open Source"
+    },
+    "tags": [
+      "3D",
+      "VLA",
+      "World Model"
+    ],
+    "paperInfo": {
+      "authors": "Haoyu Zhen, Xiaowen Qiu, Peihao Chen, Jincheng Yang, Xin Yan, Yilun Du, Yining Hong, Chuang Gan",
+      "arxivUrl": "https://arxiv.org/abs/2403.09631",
+      "codeUrl": "https://github.com/UMass-Embodied-AGI/3D-VLA",
+      "projectUrl": "https://vis-www.cs.umass.edu/3dvla/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2403.09631",
+        "title": "3D-VLA arXiv",
+        "type": "paper"
+      }
+    ]
+  },
+  {
+    "id": "sw-bcz-fm",
+    "name": "BC-Z (Model)",
+    "company": "Google / Everyday Robots / Stanford / UC Berkeley",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2022",
+    "isNew": false,
+    "specs": {
+      "training_data": "100+ distinct tasks, 110K+ episodes",
+      "paradigm": "Conditional imitation learning with task embeddings",
+      "venue": "CoRL 2021",
+      "status": "Research"
+    },
+    "tags": [
+      "Imitation Learning",
+      "Zero-Shot",
+      "Manipulation"
+    ],
+    "paperInfo": {
+      "authors": "Eric Jang, Alex Irpan, Mohi Khansari, Daniel Kappler, Frederik Ebert, Corey Lynch, Sergey Levine, Chelsea Finn",
+      "arxivUrl": "https://arxiv.org/abs/2202.02005",
+      "codeUrl": "",
+      "projectUrl": "https://sites.google.com/view/bc-z/home"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2202.02005",
+        "title": "BC-Z arXiv",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind-deepmind-robotics",
+      "lab-bair-autolab",
+      "lab-sail"
+    ]
+  },
+  {
+    "id": "sw-groot-n1",
+    "name": "GR00T N1",
+    "company": "NVIDIA",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "architecture": "Dual-system VLA (System 2 VLM + System 1 diffusion transformer)",
+      "training_data": "Real robot trajectories + human videos + synthetic data (780K synthetic trajectories)",
+      "license": "CC BY 4.0 (open weights)",
+      "status": "Open Source"
+    },
+    "tags": [
+      "Humanoid",
+      "VLA",
+      "Foundation Model"
+    ],
+    "paperInfo": {
+      "authors": "Linxi Fan, Yuke Zhu, Johan Bjorck, et al. (41 authors)",
+      "arxivUrl": "https://arxiv.org/abs/2503.14734",
+      "codeUrl": "https://github.com/NVIDIA/Isaac-GR00T",
+      "projectUrl": "https://developer.nvidia.com/isaac/gr00t"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2503.14734",
+        "title": "GR00T N1 arXiv",
+        "type": "paper"
+      },
+      {
+        "url": "https://nvidianews.nvidia.com/news/nvidia-isaac-gr00t-n1-open-humanoid-robot-foundation-model-simulation-frameworks",
+        "title": "NVIDIA press release",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind1",
+      "h4"
+    ]
+  },
+  {
+    "id": "sw-cogact",
+    "name": "CogACT",
+    "company": "Microsoft Research / Tsinghua",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "parameters": "7B",
+      "architecture": "VLM + diffusion action transformer (componentized)",
+      "training_data": "400K trajectories from Open X-Embodiment",
+      "status": "Open Source"
+    },
+    "tags": [
+      "VLA",
+      "Diffusion",
+      "Componentized"
+    ],
+    "paperInfo": {
+      "authors": "Qixiu Li, Yaobo Liang, Zeyu Wang, et al.",
+      "arxivUrl": "https://arxiv.org/abs/2411.19650",
+      "codeUrl": "https://github.com/microsoft/CogACT",
+      "projectUrl": "https://cogact.github.io/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2411.19650",
+        "title": "CogACT arXiv",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-tsinghua-tea",
+      "sw7"
+    ]
+  },
+  {
+    "id": "sw-tinyvla",
+    "name": "TinyVLA",
+    "company": "Midea Group / East China Normal U / Shanghai U",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "architecture": "Compact multimodal backbone + diffusion policy decoder",
+      "paradigm": "Faster inference, no large pre-training stage",
+      "comparison": "Outperforms OpenVLA on data efficiency",
+      "status": "Open Source"
+    },
+    "tags": [
+      "VLA",
+      "Compact",
+      "Diffusion"
+    ],
+    "paperInfo": {
+      "authors": "Junjie Wen, Yichen Zhu, Jinming Li, et al.",
+      "arxivUrl": "https://arxiv.org/abs/2409.12514",
+      "codeUrl": "https://github.com/liyaxuanliyaxuan/TinyVLA",
+      "projectUrl": "https://tiny-vla.github.io/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2409.12514",
+        "title": "TinyVLA arXiv",
+        "type": "paper"
+      }
+    ]
+  },
+  {
+    "id": "sw-rdt-1b",
+    "name": "RDT-1B",
+    "company": "Tsinghua University (THU-ML)",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "parameters": "1.2B",
+      "architecture": "Robotics Diffusion Transformer",
+      "training_data": "46 datasets, 1M+ episodes; +6K ALOHA bimanual fine-tune",
+      "venue": "ICLR 2025",
+      "status": "Open Source"
+    },
+    "tags": [
+      "Diffusion",
+      "Bimanual",
+      "Foundation Model"
+    ],
+    "paperInfo": {
+      "authors": "Songming Liu, Lingxuan Wu, Bangguo Li, Hengkai Tan, Huayu Chen, Zhengyi Wang, Ke Xu, Hang Su, Jun Zhu",
+      "arxivUrl": "https://arxiv.org/abs/2410.07864",
+      "codeUrl": "https://github.com/thu-ml/RoboticsDiffusionTransformer",
+      "projectUrl": "https://rdt-robotics.github.io/rdt-robotics/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2410.07864",
+        "title": "RDT-1B arXiv",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-tsinghua-tea"
+    ]
+  },
+  {
+    "id": "sw-sara-rt",
+    "name": "SARA-RT",
+    "company": "Google DeepMind",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "paradigm": "Self-Adaptive Robust Attention up-training",
+      "benefit": "Quadratic -> linear attention without quality loss",
+      "result": "+10.6% accuracy, +14% speed vs RT-2",
+      "status": "Research"
+    },
+    "tags": [
+      "Attention",
+      "Efficiency",
+      "Up-training"
+    ],
+    "paperInfo": {
+      "authors": "Isabel Leal, Krzysztof Choromanski, Deepali Jain, et al.",
+      "arxivUrl": "https://arxiv.org/abs/2312.01990",
+      "codeUrl": "",
+      "projectUrl": "https://deepmind.google/blog/shaping-the-future-of-advanced-robotics/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2312.01990",
+        "title": "SARA-RT arXiv",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind-deepmind-robotics"
+    ]
+  },
+  {
+    "id": "sw-scaledp",
+    "name": "ScaleDP",
+    "company": "Midea Group / East China Normal U",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "parameters": "Scales from 10M to 1B",
+      "architecture": "Transformer Diffusion Policy at billion-parameter scale",
+      "benchmark": "+21.6% on MetaWorld; +75% on bimanual real tasks",
+      "status": "Research"
+    },
+    "tags": [
+      "Diffusion",
+      "Scaling",
+      "Transformer"
+    ],
+    "paperInfo": {
+      "authors": "Minjie Zhu, Yichen Zhu, Jinming Li, et al.",
+      "arxivUrl": "https://arxiv.org/abs/2409.14411",
+      "codeUrl": "",
+      "projectUrl": "https://scaling-diffusion-policy.github.io/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2409.14411",
+        "title": "ScaleDP arXiv",
+        "type": "paper"
+      }
+    ]
+  },
+  {
+    "id": "sw-lerobot",
+    "name": "LeRobot",
+    "company": "Hugging Face",
+    "category": "算法框架",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "language": "Python (PyTorch)",
+      "models": "ACT, Diffusion, VQ-BeT, Pi0, Pi0.5, GR00T N1.5, SmolVLA",
+      "hardware": "SO100, Koch, Reachy2, Unitree G1, OpenARM, etc.",
+      "license": "Apache-2.0",
+      "status": "Open Source"
+    },
+    "tags": [
+      "Robotics Library",
+      "Imitation Learning",
+      "Open Source"
+    ],
+    "paperInfo": {
+      "authors": "Hugging Face LeRobot team",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/huggingface/lerobot",
+      "projectUrl": "https://huggingface.co/docs/lerobot/index"
+    },
+    "sources": [
+      {
+        "url": "https://github.com/huggingface/lerobot",
+        "title": "LeRobot GitHub README",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "sw-moveit2",
+    "name": "MoveIt 2",
+    "company": "PickNik / MoveIt community",
+    "category": "算法框架",
+    "imageUrl": "",
+    "year": "2020",
+    "isNew": false,
+    "specs": {
+      "platform": "ROS 2",
+      "capabilities": "Motion planning, IK, collision checking",
+      "planners": "OMPL, Pilz, STOMP, SBPL, CHOMP",
+      "license": "BSD-3-Clause",
+      "status": "Open Source"
+    },
+    "tags": [
+      "Motion Planning",
+      "ROS 2",
+      "Manipulation"
+    ],
+    "paperInfo": {
+      "authors": "MoveIt maintainers (PickNik et al.)",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/moveit/moveit2",
+      "projectUrl": "https://moveit.ai/"
+    },
+    "sources": [
+      {
+        "url": "https://github.com/moveit/moveit2",
+        "title": "MoveIt 2 GitHub",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "sw-openrmf-framework",
+    "name": "Open-RMF (Framework)",
+    "company": "Open Source Robotics Alliance (OSRA)",
+    "category": "算法框架",
+    "imageUrl": "",
+    "year": "2020",
+    "isNew": false,
+    "specs": {
+      "focus": "Multi-fleet heterogeneous robot interoperability",
+      "capabilities": "Traffic deconfliction, task allocation, lift/door integration",
+      "platform": "ROS 2",
+      "license": "Apache-2.0",
+      "status": "Open Source"
+    },
+    "tags": [
+      "Fleet Management",
+      "Middleware",
+      "ROS 2"
+    ],
+    "paperInfo": {
+      "authors": "Open-RMF community",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/open-rmf/rmf",
+      "projectUrl": "https://www.open-rmf.org/"
+    },
+    "sources": [
+      {
+        "url": "https://github.com/open-rmf/rmf",
+        "title": "Open-RMF GitHub",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "sw-ros2-control-framework",
+    "name": "ros2_control (Framework)",
+    "company": "ros-controls community (Stogl Robotics, PAL Robotics, Bosch, etc.)",
+    "category": "算法框架",
+    "imageUrl": "",
+    "year": "2021",
+    "isNew": false,
+    "specs": {
+      "platform": "ROS 2",
+      "purpose": "Generic hardware interface and controllers framework",
+      "controllers": "Forward command, JTC, diff drive, etc.",
+      "license": "Apache-2.0",
+      "status": "Open Source"
+    },
+    "tags": [
+      "Control",
+      "ROS 2",
+      "Hardware Interface"
+    ],
+    "paperInfo": {
+      "authors": "ros-controls maintainers",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/ros-controls/ros2_control",
+      "projectUrl": "https://control.ros.org/"
+    },
+    "sources": [
+      {
+        "url": "https://github.com/ros-controls/ros2_control",
+        "title": "ros2_control GitHub",
+        "type": "official"
+      },
+      {
+        "url": "https://control.ros.org/",
+        "title": "control.ros.org docs",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind-pal-robotics"
+    ]
+  },
+  {
+    "id": "sw-pinocchio",
+    "name": "Pinocchio",
+    "company": "Inria (Willow team)",
+    "category": "算法框架",
+    "imageUrl": "",
+    "year": "2015",
+    "isNew": false,
+    "specs": {
+      "language": "C++ with Python bindings",
+      "purpose": "Rigid body dynamics + analytical derivatives",
+      "based_on": "Featherstone algorithms; uses Eigen + FCL",
+      "license": "BSD-2-Clause",
+      "status": "Open Source"
+    },
+    "tags": [
+      "Dynamics",
+      "Optimization",
+      "Library"
+    ],
+    "paperInfo": {
+      "authors": "Justin Carpentier et al. (Inria Willow)",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/stack-of-tasks/pinocchio",
+      "projectUrl": "https://stack-of-tasks.github.io/pinocchio/"
+    },
+    "sources": [
+      {
+        "url": "https://github.com/stack-of-tasks/pinocchio",
+        "title": "Pinocchio GitHub README",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "sw-crocoddyl",
+    "name": "Crocoddyl",
+    "company": "Heriot-Watt RoMI / LAAS-CNRS Gepetto / Inria Willow",
+    "category": "算法框架",
+    "imageUrl": "",
+    "year": "2019",
+    "isNew": false,
+    "specs": {
+      "language": "C++ with Python bindings",
+      "purpose": "Optimal control under contact sequences (DDP-family solvers)",
+      "solvers": "FDDP, OdynSQP, Intro, Ipopt",
+      "license": "BSD-3-Clause",
+      "status": "Open Source"
+    },
+    "tags": [
+      "Optimal Control",
+      "DDP",
+      "Trajectory Optimization"
+    ],
+    "paperInfo": {
+      "authors": "Carlos Mastalli, Rohan Budhiraja, Nicolas Mansard, et al.",
+      "arxivUrl": "https://arxiv.org/abs/1909.04947",
+      "codeUrl": "https://github.com/loco-3d/crocoddyl",
+      "projectUrl": "https://github.com/loco-3d/crocoddyl/wiki"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/1909.04947",
+        "title": "Crocoddyl paper",
+        "type": "paper"
+      },
+      {
+        "url": "https://github.com/loco-3d/crocoddyl",
+        "title": "Crocoddyl GitHub",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "sw-robosuite",
+    "name": "robosuite",
+    "company": "Stanford SVL / UT Austin RPL / NVIDIA GEAR (ARISE Initiative)",
+    "category": "算法框架",
+    "imageUrl": "",
+    "year": "2017",
+    "isNew": false,
+    "specs": {
+      "engine": "MuJoCo",
+      "purpose": "Modular simulation benchmark for robot learning",
+      "controllers": "Joint, IK, OSC, whole-body composite",
+      "latest": "v1.5 (Oct 2024)",
+      "status": "Open Source"
+    },
+    "tags": [
+      "Simulation",
+      "Benchmark",
+      "MuJoCo"
+    ],
+    "paperInfo": {
+      "authors": "Yuke Zhu, Josiah Wong, et al.",
+      "arxivUrl": "https://arxiv.org/abs/2009.12293",
+      "codeUrl": "https://github.com/ARISE-Initiative/robosuite",
+      "projectUrl": "https://robosuite.ai/"
+    },
+    "sources": [
+      {
+        "url": "https://github.com/ARISE-Initiative/robosuite",
+        "title": "robosuite GitHub",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "sw-libero",
+      "sw-robocasa",
+      "sw6"
+    ]
+  },
+  {
+    "id": "sw-mjpc",
+    "name": "MuJoCo MPC (MJPC)",
+    "company": "Google DeepMind",
+    "category": "算法框架",
+    "imageUrl": "",
+    "year": "2022",
+    "isNew": false,
+    "specs": {
+      "language": "C++ with Python bindings",
+      "planners": "iLQG, Gradient Descent, Predictive Sampling",
+      "engine": "MuJoCo",
+      "license": "Apache-2.0",
+      "status": "Open Source (research prototype)"
+    },
+    "tags": [
+      "MPC",
+      "MuJoCo",
+      "Real-Time"
+    ],
+    "paperInfo": {
+      "authors": "Taylor Howell, Nimrod Gileadi, Saran Tunyasuvunakool, Kevin Zakka, Tom Erez, Yuval Tassa",
+      "arxivUrl": "https://arxiv.org/abs/2212.00541",
+      "codeUrl": "https://github.com/google-deepmind/mujoco_mpc",
+      "projectUrl": "https://github.com/google-deepmind/mujoco_mpc"
+    },
+    "sources": [
+      {
+        "url": "https://github.com/google-deepmind/mujoco_mpc",
+        "title": "MJPC GitHub",
+        "type": "official"
+      },
+      {
+        "url": "https://arxiv.org/pdf/2212.00541",
+        "title": "Predictive Sampling paper",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind-deepmind-robotics",
+      "sw6"
+    ]
+  },
+  {
+    "id": "sw-stable-baselines3",
+    "name": "Stable-Baselines3",
+    "company": "DLR-RM (German Aerospace Center)",
+    "category": "算法框架",
+    "imageUrl": "",
+    "year": "2021",
+    "isNew": false,
+    "specs": {
+      "language": "PyTorch",
+      "algorithms": "PPO, SAC, TD3, DQN, A2C, DDPG, HER",
+      "test_coverage": "95%",
+      "license": "MIT",
+      "status": "Open Source"
+    },
+    "tags": [
+      "RL",
+      "PyTorch",
+      "Library"
+    ],
+    "paperInfo": {
+      "authors": "Antonin Raffin, Ashley Hill, Maximilian Ernestus, Adam Gleave, Anssi Kanervisto, Noah Dormann",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/DLR-RM/stable-baselines3",
+      "projectUrl": "https://stable-baselines3.readthedocs.io/"
+    },
+    "sources": [
+      {
+        "url": "https://github.com/DLR-RM/stable-baselines3",
+        "title": "SB3 GitHub",
+        "type": "official"
+      },
+      {
+        "url": "https://www.jmlr.org/papers/v22/20-1364.html",
+        "title": "SB3 JMLR paper",
+        "type": "paper"
+      }
+    ]
+  },
+  {
+    "id": "sw-polymetis",
+    "name": "Polymetis",
+    "company": "Meta AI Research (FAIR)",
+    "category": "算法框架",
+    "imageUrl": "",
+    "year": "2021",
+    "isNew": false,
+    "specs": {
+      "language": "Python + PyTorch + C++",
+      "purpose": "Write PyTorch controllers, test in sim, deploy on real-time hardware",
+      "supported_robots": "Franka Panda (1 kHz)",
+      "license": "MIT",
+      "status": "Open Source"
+    },
+    "tags": [
+      "Real-Time Control",
+      "PyTorch",
+      "Sim-to-Real"
+    ],
+    "paperInfo": {
+      "authors": "Yixin Lin, Austin S. Wang, Giovanni Sutanto, Akshara Rai, Franziska Meier",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/facebookresearch/fairo/tree/main/polymetis",
+      "projectUrl": "https://facebookresearch.github.io/fairo/polymetis/"
+    },
+    "sources": [
+      {
+        "url": "https://github.com/facebookresearch/fairo/tree/main/polymetis",
+        "title": "Polymetis source in FAIRO",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "a2"
+    ]
+  },
+  {
+    "id": "sw-cosmos-predict",
+    "name": "Cosmos Predict (World Foundation Model)",
+    "company": "NVIDIA",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "parameters": "2B and 14B variants",
+      "architecture": "Diffusion-based video world foundation model; generates 30-second predictive videos",
+      "training_data": "Large-scale curated video corpus via Cosmos data curation pipeline",
+      "paradigm": "World model / video generative foundation model",
+      "status": "Open-weight (NVIDIA Open Model License); released Jan 7, 2025"
+    },
+    "tags": [
+      "world-model",
+      "foundation-model",
+      "video-generation",
+      "physical-ai"
+    ],
+    "paperInfo": {
+      "authors": "NVIDIA Cosmos team (Ming-Yu Liu et al., 77 authors)",
+      "arxivUrl": "https://arxiv.org/abs/2501.03575",
+      "codeUrl": "https://github.com/nvidia-cosmos/cosmos-predict1",
+      "projectUrl": "https://www.nvidia.com/en-us/ai/cosmos/"
+    },
+    "sources": [
+      {
+        "url": "https://www.nvidia.com/en-us/ai/cosmos/",
+        "title": "NVIDIA Cosmos World Foundation Models",
+        "type": "official"
+      },
+      {
+        "url": "https://arxiv.org/abs/2501.03575",
+        "title": "Cosmos World Foundation Model Platform for Physical AI",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind1"
+    ]
+  },
+  {
+    "id": "sw-cosmos-reason",
+    "name": "Cosmos Reason",
+    "company": "NVIDIA",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "parameters": "VLM (size not officially disclosed)",
+      "architecture": "Reasoning VLM for physical AI; chain-of-thought over visual scenes",
+      "training_data": "Physical-AI grounded video/text reasoning data",
+      "paradigm": "Vision-language reasoning foundation model for embodied agents",
+      "status": "Open under NVIDIA Open Model License; Cosmos Reason 2 enhanced Feb 2026"
+    },
+    "tags": [
+      "world-model",
+      "foundation-model",
+      "vlm",
+      "reasoning",
+      "physical-ai"
+    ],
+    "paperInfo": {
+      "authors": "NVIDIA Cosmos team",
+      "arxivUrl": "https://arxiv.org/abs/2501.03575",
+      "codeUrl": "https://github.com/nvidia-cosmos",
+      "projectUrl": "https://www.nvidia.com/en-us/ai/cosmos/"
+    },
+    "sources": [
+      {
+        "url": "https://www.nvidia.com/en-us/ai/cosmos/",
+        "title": "NVIDIA Cosmos - Reason variant",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind1"
+    ]
+  },
+  {
+    "id": "sw-cosmos-transfer",
+    "name": "Cosmos Transfer",
+    "company": "NVIDIA",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "parameters": "Multi-control diffusion model",
+      "architecture": "Sim-to-real / multi-control video transfer; pairs with Isaac Sim and CARLA",
+      "training_data": "Paired sim/real video data via Cosmos curation",
+      "paradigm": "Synthetic-data / sim-to-photoreal world model",
+      "status": "Open under NVIDIA Open Model License"
+    },
+    "tags": [
+      "world-model",
+      "synthetic-data",
+      "sim-to-real",
+      "simulator"
+    ],
+    "paperInfo": {
+      "authors": "NVIDIA Cosmos team",
+      "arxivUrl": "https://arxiv.org/abs/2501.03575",
+      "codeUrl": "https://github.com/nvidia-cosmos",
+      "projectUrl": "https://www.nvidia.com/en-us/ai/cosmos/"
+    },
+    "sources": [
+      {
+        "url": "https://www.nvidia.com/en-us/ai/cosmos/",
+        "title": "NVIDIA Cosmos - Transfer variant",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind1"
+    ]
+  },
+  {
+    "id": "sw-genie-2",
+    "name": "Genie 2",
+    "company": "Google DeepMind",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "parameters": "Not disclosed",
+      "architecture": "Autoregressive latent diffusion with large transformer dynamics model; classifier-free guidance",
+      "training_data": "Large-scale video data",
+      "paradigm": "Foundation world model generating action-controllable 3D interactive environments from single image",
+      "status": "Research only; Dec 4, 2024"
+    },
+    "tags": [
+      "world-model",
+      "foundation-model",
+      "interactive",
+      "video-generation"
+    ],
+    "paperInfo": {
+      "authors": "Jack Parker-Holder, Stephen Spencer et al.",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/"
+    },
+    "sources": [
+      {
+        "url": "https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/",
+        "title": "Genie 2: A large-scale foundation world model",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind-deepmind-robotics"
+    ]
+  },
+  {
+    "id": "sw-genie-3",
+    "name": "Genie 3",
+    "company": "Google DeepMind",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "parameters": "Not disclosed",
+      "architecture": "Auto-regressive frame generation with ~1-min visual memory; real-time at 24 FPS, 720p",
+      "training_data": "Not disclosed",
+      "paradigm": "Real-time interactive world model generating navigable environments from text",
+      "status": "Limited research preview; Aug 5, 2025"
+    },
+    "tags": [
+      "world-model",
+      "foundation-model",
+      "real-time",
+      "interactive"
+    ],
+    "paperInfo": {
+      "authors": "Jack Parker-Holder, Shlomi Fruchter, Phil Ball et al.",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/"
+    },
+    "sources": [
+      {
+        "url": "https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/",
+        "title": "Genie 3: A new frontier for world models",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind-deepmind-robotics"
+    ]
+  },
+  {
+    "id": "sw-vjepa-2",
+    "name": "V-JEPA 2",
+    "company": "Meta AI",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "parameters": "1.2B",
+      "architecture": "Joint-Embedding Predictive Architecture (JEPA); encoder + predictor; V-JEPA 2-AC adds action conditioning",
+      "training_data": ">1M hours internet video + 1M images; fine-tuned with 62h DROID",
+      "paradigm": "Self-supervised video world model for understanding, prediction, and zero-shot robot planning",
+      "status": "Released June 11, 2025"
+    },
+    "tags": [
+      "world-model",
+      "foundation-model",
+      "self-supervised",
+      "jepa"
+    ],
+    "paperInfo": {
+      "authors": "Mido Assran, Yann LeCun, Michael Rabbat et al.",
+      "arxivUrl": "https://arxiv.org/abs/2506.09985",
+      "codeUrl": "",
+      "projectUrl": "https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/"
+    },
+    "sources": [
+      {
+        "url": "https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/",
+        "title": "V-JEPA 2 announcement",
+        "type": "official"
+      },
+      {
+        "url": "https://arxiv.org/abs/2506.09985",
+        "title": "V-JEPA 2 paper",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "sw-droid"
+    ]
+  },
+  {
+    "id": "sw-dreamerv3",
+    "name": "DreamerV3",
+    "company": "Google DeepMind / University of Toronto",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "parameters": "Multiple model-size configurations (single hyperparameter set)",
+      "architecture": "Recurrent State-Space Model (RSSM) world model + actor-critic",
+      "training_data": "Per-environment online RL across 150+ tasks",
+      "paradigm": "Model-based reinforcement learning with learned world model",
+      "status": "NeurIPS-era 2023; arXiv Jan 10, 2023"
+    },
+    "tags": [
+      "world-model",
+      "model-based-rl",
+      "general-agent"
+    ],
+    "paperInfo": {
+      "authors": "Danijar Hafner, Jurgis Pasukonis, Jimmy Ba, Timothy Lillicrap",
+      "arxivUrl": "https://arxiv.org/abs/2301.04104",
+      "codeUrl": "",
+      "projectUrl": ""
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2301.04104",
+        "title": "Mastering Diverse Domains through World Models (DreamerV3)",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind-deepmind-robotics",
+      "f128"
+    ]
+  },
+  {
+    "id": "sw-1x-world-model",
+    "name": "1X World Model",
+    "company": "1X Technologies",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "parameters": "Not disclosed",
+      "architecture": "Baselines on Llama and GENIE-style architectures; predicts future video from observations + actions",
+      "training_data": "Thousands of hours of EVE humanoid data",
+      "paradigm": "Humanoid-specific learned video world model",
+      "status": "Baseline weights and 100h dataset released Apache 2.0; Sep 17, 2024"
+    },
+    "tags": [
+      "world-model",
+      "humanoid",
+      "neural-simulator"
+    ],
+    "paperInfo": {
+      "authors": "Jack Monas, Eric Jang",
+      "arxivUrl": "",
+      "codeUrl": "https://github.com/1x-technologies/1xgpt",
+      "projectUrl": "https://www.1x.tech/discover/1x-world-model"
+    },
+    "sources": [
+      {
+        "url": "https://www.1x.tech/discover/1x-world-model",
+        "title": "1X World Model announcement",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind-1x",
+      "h4"
+    ]
+  },
+  {
+    "id": "sw-pi0-fast",
+    "name": "π0-FAST",
+    "company": "Physical Intelligence",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "parameters": "Built atop π0 VLA backbone",
+      "architecture": "Autoregressive VLA using FAST (DCT-based Frequency-space Action Sequence Tokenization)",
+      "training_data": "Up to 10,000 hours of robot data when combined with π0",
+      "paradigm": "Autoregressive vision-language-action foundation model",
+      "status": "arXiv:2501.09747, Jan 16, 2025; ~5x faster training than diffusion VLAs"
+    },
+    "tags": [
+      "vla",
+      "foundation-model",
+      "autoregressive",
+      "tokenization"
+    ],
+    "paperInfo": {
+      "authors": "Karl Pertsch, Kyle Stachowicz, Brian Ichter, Danny Driess, Suraj Nair, Quan Vuong, Oier Mees, Chelsea Finn, Sergey Levine",
+      "arxivUrl": "https://arxiv.org/abs/2501.09747",
+      "codeUrl": "",
+      "projectUrl": ""
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2501.09747",
+        "title": "FAST: Efficient Action Tokenization for VLAs",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "ind-physical-intelligence",
+      "lab-bair-autolab",
+      "lab-sail"
+    ]
+  },
+  {
+    "id": "sw-groot-n1-5",
+    "name": "GR00T N1.5",
+    "company": "NVIDIA",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "parameters": "Eagle VLM + Diffusion Transformer (~2B class)",
+      "architecture": "NVIDIA Eagle VLM (frozen) + simplified adapter MLP + Diffusion Transformer; adds FLARE loss + flow matching",
+      "training_data": "Synthetic data via GR00T-Dreams + curated humanoid datasets",
+      "paradigm": "Humanoid robot foundation model (VLA)",
+      "status": "Published Jun 11, 2025; unveiled at COMPUTEX 2025"
+    },
+    "tags": [
+      "vla",
+      "foundation-model",
+      "humanoid"
+    ],
+    "paperInfo": {
+      "authors": "Johan Bjorck, Dieter Fox, Jan Kautz, Ajay Mandlekar, Scott Reed et al.",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://research.nvidia.com/labs/gear/gr00t-n1_5/"
+    },
+    "sources": [
+      {
+        "url": "https://research.nvidia.com/labs/gear/gr00t-n1_5/",
+        "title": "GR00T N1.5 (NVIDIA GEAR)",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind1",
+      "h4"
+    ]
+  },
+  {
+    "id": "sw-agibot-go1",
+    "name": "AgiBot GO-1 (Genie Operator-1)",
+    "company": "AgiBot",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "parameters": "InternVL-2B VLM + MoE",
+      "architecture": "Vision-Language-Latent-Action (ViLLA): InternVL-2B VLM + Latent Planner + Action Expert (diffusion)",
+      "training_data": "AgiBot World: >1M trajectories, 217 tasks, 5 domains + internet video",
+      "paradigm": "Generalist embodied foundation model (VLA → ViLLA)",
+      "status": "Launched Mar 11, 2025"
+    },
+    "tags": [
+      "vla",
+      "foundation-model",
+      "embodied-ai",
+      "villa"
+    ],
+    "paperInfo": {
+      "authors": "AgiBot team",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://www.globenewswire.com/news-release/2025/03/11/3040608/0/en/AgiBot-GO-1-The-Evolution-of-Generalist-Embodied-Foundation-Model-from-VLA-to-ViLLA.html"
+    },
+    "sources": [
+      {
+        "url": "https://www.globenewswire.com/news-release/2025/03/11/3040608/0/en/AgiBot-GO-1-The-Evolution-of-Generalist-Embodied-Foundation-Model-from-VLA-to-ViLLA.html",
+        "title": "AgiBot GO-1 press release",
+        "type": "news"
+      }
+    ],
+    "relatedIds": [
+      "ind-agibot",
+      "sw-agibot-world"
+    ]
+  },
+  {
+    "id": "sw-galaxea-g0",
+    "name": "Galaxea G0",
+    "company": "Galaxea AI",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "parameters": "Dual-system: G0-VLM + G0-VLA",
+      "architecture": "Dual-system VLA: G0-VLM (System 2 planning) + G0-VLA (System 1 execution); async at different frequencies",
+      "training_data": "Galaxea Open-World Dataset (~100K high-res real-environment trajectories)",
+      "paradigm": "Dual-system Vision-Language-Action foundation model",
+      "status": "arXiv:2509.00576, Aug 30, 2025"
+    },
+    "tags": [
+      "vla",
+      "foundation-model",
+      "dual-system"
+    ],
+    "paperInfo": {
+      "authors": "Tao Jiang, Tianyuan Yuan, Yicheng Liu et al.",
+      "arxivUrl": "https://arxiv.org/abs/2509.00576",
+      "codeUrl": "",
+      "projectUrl": "https://opengalaxea.github.io/G0/"
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2509.00576",
+        "title": "Galaxea Open-World Dataset and G0 Dual-System VLA",
+        "type": "paper"
+      }
+    ]
+  },
+  {
+    "id": "sw-gaia-2",
+    "name": "GAIA-2",
+    "company": "Wayve",
+    "category": "仿真平台",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "parameters": "Not officially disclosed",
+      "architecture": "Video tokenizer + latent diffusion world model; generates up to 5 camera views",
+      "training_data": "Large-scale driving video UK/US/Germany",
+      "paradigm": "Controllable multi-view generative world model for synthetic driving data",
+      "status": "Released Mar 26, 2025"
+    },
+    "tags": [
+      "world-model",
+      "synthetic-data",
+      "autonomous-driving",
+      "simulator"
+    ],
+    "paperInfo": {
+      "authors": "Wayve",
+      "arxivUrl": "https://arxiv.org/abs/2503.20523",
+      "codeUrl": "",
+      "projectUrl": "https://wayve.ai/thinking/gaia-2/"
+    },
+    "sources": [
+      {
+        "url": "https://wayve.ai/thinking/gaia-2/",
+        "title": "GAIA-2: Pushing the Boundaries of Video Generative Models",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "sw-skild-brain",
+    "name": "Skild Brain",
+    "company": "Skild AI",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "parameters": "Not disclosed",
+      "architecture": "Hierarchical two-level: high-level manipulation/navigation + low-level joint/torque controller",
+      "training_data": "Large-scale simulation + internet video pretraining + real-robot fine-tuning",
+      "paradigm": "Omni-bodied generalist robotics foundation model",
+      "status": "Capabilities post Jul 29, 2025; Skild AI $14B valuation"
+    },
+    "tags": [
+      "foundation-model",
+      "omni-bodied",
+      "generalist-policy"
+    ],
+    "paperInfo": {
+      "authors": "Skild AI team",
+      "arxivUrl": "",
+      "codeUrl": "",
+      "projectUrl": "https://www.skild.ai/blogs/building-the-general-purpose-robotic-brain"
+    },
+    "sources": [
+      {
+        "url": "https://www.skild.ai/blogs/building-the-general-purpose-robotic-brain",
+        "title": "Skild AI: Building the general-purpose robotic brain",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind-skild"
+    ]
+  },
+  {
+    "id": "sw-daydreamer",
+    "name": "DayDreamer",
+    "company": "UC Berkeley",
+    "category": "基础模型",
+    "imageUrl": "",
+    "year": "2022",
+    "isNew": false,
+    "specs": {
+      "parameters": "Not disclosed (Dreamer-class)",
+      "architecture": "Dreamer world model applied directly to physical robots; learns latent dynamics",
+      "training_data": "Online real-robot interaction (no sim, no demos)",
+      "paradigm": "Model-based RL with learned world model for physical robot learning",
+      "status": "arXiv:2206.14176, Jun 28, 2022"
+    },
+    "tags": [
+      "world-model",
+      "model-based-rl",
+      "real-robot"
+    ],
+    "paperInfo": {
+      "authors": "Philipp Wu, Alejandro Escontrela, Danijar Hafner, Ken Goldberg, Pieter Abbeel",
+      "arxivUrl": "https://arxiv.org/abs/2206.14176",
+      "codeUrl": "",
+      "projectUrl": ""
+    },
+    "sources": [
+      {
+        "url": "https://arxiv.org/abs/2206.14176",
+        "title": "DayDreamer: World Models for Physical Robot Learning",
+        "type": "paper"
+      }
+    ],
+    "relatedIds": [
+      "lab-bair-autolab"
     ]
   }
 ]

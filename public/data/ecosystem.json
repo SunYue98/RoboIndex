@@ -10,7 +10,8 @@
     "specs": {
       "type": "Middleware",
       "language": "C++/Python",
-      "status": "Standard"
+      "status": "Standard",
+      "license": "Apache 2.0"
     },
     "relatedIds": [
       "f1",
@@ -18,9 +19,25 @@
     ],
     "tags": [
       "Middleware",
-      "Standard"
+      "Standard",
+      "middleware",
+      "DDS",
+      "open-source",
+      "ROS"
     ],
-    "importance": "high"
+    "importance": "high",
+    "sources": [
+      {
+        "url": "https://docs.ros.org/en/jazzy/index.html",
+        "title": "ROS 2 Documentation (Jazzy)",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Robot_Operating_System",
+        "title": "Robot Operating System - Wikipedia",
+        "type": "wiki"
+      }
+    ]
   },
   {
     "id": "eco2",
@@ -33,14 +50,26 @@
     "specs": {
       "type": "Visualization Tool",
       "integration": "ROS/ROS2/WebSocket",
-      "status": "Active"
+      "status": "Active",
+      "language": "TypeScript",
+      "license": "Commercial (free tier) + open core"
     },
     "relatedIds": [
       "eco1"
     ],
     "tags": [
       "Visualization",
-      "Debugging"
+      "Debugging",
+      "visualization",
+      "data platform",
+      "fleet management"
+    ],
+    "sources": [
+      {
+        "url": "https://foxglove.dev/",
+        "title": "Foxglove official site",
+        "type": "official"
+      }
     ]
   },
   {
@@ -64,6 +93,23 @@
     "tags": [
       "B2B",
       "Manufacturing"
+    ],
+    "sources": [
+      {
+        "url": "https://www.press.bmwgroup.com/global/article/detail/T0444265EN/successful-test-of-humanoid-robots-at-bmw-group-plant-spartanburg",
+        "title": "BMW Press: humanoid robot test at Spartanburg",
+        "type": "official"
+      },
+      {
+        "url": "https://www.figure.ai/news/production-at-bmw",
+        "title": "Figure: F.02 contributed to 30,000+ vehicles at BMW",
+        "type": "official"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/apptronik-and-mercedes-benz-enter-commercial-agreement-that-will-pilot-apptroniks-apollo-humanoid-robot-in-mercedes-benz-manufacturing-facilities-302089972.html",
+        "title": "Apptronik–Mercedes-Benz commercial agreement",
+        "type": "official"
+      }
     ]
   },
   {
@@ -85,6 +131,999 @@
     "tags": [
       "Logistics",
       "Warehouse"
+    ],
+    "sources": [
+      {
+        "url": "https://www.aboutamazon.com/news/operations/amazon-introduces-sparrow-a-state-of-the-art-robot-that-handles-millions-of-diverse-products",
+        "title": "Amazon introduces Sparrow",
+        "type": "official"
+      },
+      {
+        "url": "https://locusrobotics.com/",
+        "title": "Locus Robotics official site",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "eco-micro-ros",
+    "name": "micro-ROS",
+    "company": "eProsima (with Bosch, FIWARE, OFERA)",
+    "category": "开发生态",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "type": "Embedded Middleware",
+      "language": "C",
+      "license": "Apache 2.0",
+      "status": "Active"
+    },
+    "tags": [
+      "microcontroller",
+      "RTOS",
+      "embedded",
+      "ROS 2"
+    ],
+    "sources": [
+      {
+        "url": "https://micro.vulcanexus.org/",
+        "title": "micro-ROS (Vulcanexus)",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "eco-ros2-control",
+    "name": "ros2_control",
+    "company": "ros-controls community",
+    "category": "开发生态",
+    "imageUrl": "",
+    "year": "2020",
+    "isNew": false,
+    "specs": {
+      "type": "Control Framework",
+      "language": "C++",
+      "license": "Apache 2.0",
+      "status": "Stable"
+    },
+    "tags": [
+      "control",
+      "hardware interface",
+      "ROS 2"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/ros-controls/ros2_control",
+        "title": "ros-controls/ros2_control",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "eco-moveit2",
+    "name": "MoveIt 2",
+    "company": "PickNik Robotics / MoveIt community",
+    "category": "开发生态",
+    "imageUrl": "",
+    "year": "2020",
+    "isNew": false,
+    "specs": {
+      "type": "Motion Planning",
+      "language": "C++",
+      "license": "BSD-3-Clause",
+      "status": "Stable (Jazzy 2.12 LTS)"
+    },
+    "tags": [
+      "motion planning",
+      "manipulation",
+      "kinematics"
+    ],
+    "sources": [
+      {
+        "url": "https://moveit.ai/",
+        "title": "MoveIt",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "eco-nav2",
+    "name": "Nav2",
+    "company": "Open Navigation LLC",
+    "category": "开发生态",
+    "imageUrl": "",
+    "year": "2020",
+    "isNew": false,
+    "specs": {
+      "type": "Navigation Stack",
+      "language": "C++",
+      "license": "Apache 2.0",
+      "status": "Production"
+    },
+    "tags": [
+      "navigation",
+      "SLAM",
+      "behavior trees",
+      "mobile robot"
+    ],
+    "sources": [
+      {
+        "url": "https://nav2.org/",
+        "title": "Nav2 - Open Navigation",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "eco-behaviortree-cpp",
+    "name": "BehaviorTree.CPP",
+    "company": "Davide Faconti / Auryn Robotics",
+    "category": "开发生态",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "type": "Behavior Trees Library",
+      "language": "C++ 17",
+      "license": "MIT",
+      "status": "Active"
+    },
+    "tags": [
+      "behavior trees",
+      "AI",
+      "task planning"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/BehaviorTree/BehaviorTree.CPP",
+        "title": "BehaviorTree/BehaviorTree.CPP",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "eco-rviz2",
+    "name": "RViz2",
+    "company": "Open Robotics",
+    "category": "开发生态",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "type": "3D Visualizer",
+      "language": "C++",
+      "license": "BSD-3-Clause-Clear",
+      "status": "Stable"
+    },
+    "tags": [
+      "visualization",
+      "ROS 2",
+      "sensor data"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/ros2/rviz",
+        "title": "ros2/rviz",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "eco-plotjuggler",
+    "name": "PlotJuggler",
+    "company": "Davide Faconti (community)",
+    "category": "开发生态",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "type": "Time-Series Data Plotter",
+      "language": "C++",
+      "license": "Mozilla Public License 2.0",
+      "status": "Active"
+    },
+    "tags": [
+      "data plotting",
+      "ROS bag",
+      "time series"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/facontidavide/PlotJuggler",
+        "title": "facontidavide/PlotJuggler",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "eco-open-rmf",
+    "name": "Open-RMF",
+    "company": "Open Source Robotics Alliance (OSRA)",
+    "category": "开发生态",
+    "imageUrl": "",
+    "year": "2020",
+    "isNew": false,
+    "specs": {
+      "type": "Fleet Interoperability Middleware",
+      "language": "C++",
+      "license": "Apache 2.0",
+      "status": "Active"
+    },
+    "tags": [
+      "fleet management",
+      "interoperability",
+      "multi-robot"
+    ],
+    "sources": [
+      {
+        "url": "https://www.open-rmf.org/",
+        "title": "Open-RMF",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "eco-fast-dds",
+    "name": "Fast DDS",
+    "company": "eProsima",
+    "category": "开发生态",
+    "imageUrl": "",
+    "year": "2014",
+    "isNew": false,
+    "specs": {
+      "type": "DDS Middleware",
+      "language": "C++",
+      "license": "Apache 2.0",
+      "status": "Stable"
+    },
+    "tags": [
+      "DDS",
+      "RTPS",
+      "real-time",
+      "ROS 2 RMW"
+    ],
+    "sources": [
+      {
+        "url": "https://www.eprosima.com/index.php/products-all/eprosima-fast-dds",
+        "title": "eProsima Fast DDS",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "eco-cyclone-dds",
+    "name": "Eclipse Cyclone DDS",
+    "company": "Eclipse Foundation / ZettaScale / ADLINK",
+    "category": "开发生态",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "type": "DDS Middleware",
+      "language": "C",
+      "license": "EPL 2.0 / EDL 1.0 (dual)",
+      "status": "Stable"
+    },
+    "tags": [
+      "DDS",
+      "real-time",
+      "ROS 2 RMW"
+    ],
+    "sources": [
+      {
+        "url": "https://cyclonedds.io/",
+        "title": "Eclipse Cyclone DDS",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "eco-urdf",
+    "name": "URDF / xacro",
+    "company": "Open Robotics (ROS community)",
+    "category": "开发生态",
+    "imageUrl": "",
+    "year": "2009",
+    "isNew": false,
+    "specs": {
+      "type": "Robot Description Format",
+      "language": "XML",
+      "license": "BSD-3-Clause",
+      "status": "Stable"
+    },
+    "tags": [
+      "robot model",
+      "kinematics",
+      "simulation"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/URDF",
+        "title": "URDF - Wikipedia",
+        "type": "wiki"
+      },
+      {
+        "url": "https://docs.ros.org/en/humble/Tutorials/Intermediate/URDF/URDF-Main.html",
+        "title": "URDF - ROS 2 Documentation",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "eco-gazebo-sim",
+    "name": "Gazebo Sim (formerly Ignition)",
+    "company": "Open Robotics",
+    "category": "开发生态",
+    "imageUrl": "",
+    "year": "2017",
+    "isNew": false,
+    "specs": {
+      "type": "Simulator Ecosystem / Tooling",
+      "language": "C++",
+      "license": "Apache 2.0",
+      "status": "Active (Gazebo Classic discontinued 2025)"
+    },
+    "tags": [
+      "simulation",
+      "ROS 2 integration",
+      "Ignition"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gazebo_simulator",
+        "title": "Gazebo simulator - Wikipedia",
+        "type": "wiki"
+      }
+    ]
+  },
+  {
+    "id": "eco-ros-gz",
+    "name": "ros_gz (ROS - Gazebo bridge)",
+    "company": "Open Robotics",
+    "category": "开发生态",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "type": "Simulation Bridge",
+      "language": "C++",
+      "license": "Apache 2.0",
+      "status": "Active"
+    },
+    "tags": [
+      "simulation bridge",
+      "ROS 2",
+      "Gazebo"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/gazebosim/ros_gz",
+        "title": "gazebosim/ros_gz",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "eco-webviz",
+    "name": "Webviz",
+    "company": "Cruise Automation",
+    "category": "开发生态",
+    "imageUrl": "",
+    "year": "2019",
+    "isNew": false,
+    "specs": {
+      "type": "Web Visualization",
+      "language": "JavaScript",
+      "license": "Apache 2.0",
+      "status": "Stable (maintenance)"
+    },
+    "tags": [
+      "web",
+      "visualization",
+      "ROS bag"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/cruise-automation/webviz",
+        "title": "cruise-automation/webviz",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "eco-lichtblick",
+    "name": "Lichtblick",
+    "company": "Lichtblick Suite (BMW-supported)",
+    "category": "开发生态",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "Visualization & Diagnosis",
+      "language": "TypeScript",
+      "license": "Mozilla Public License 2.0",
+      "status": "Active"
+    },
+    "tags": [
+      "visualization",
+      "robot data",
+      "fork of Foxglove Studio"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/Lichtblick-Suite/lichtblick",
+        "title": "Lichtblick-Suite/lichtblick",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "eco-isaac-ros",
+    "name": "NVIDIA Isaac ROS",
+    "company": "NVIDIA",
+    "category": "开发生态",
+    "imageUrl": "",
+    "year": "2021",
+    "isNew": false,
+    "specs": {
+      "type": "GPU-Accelerated ROS 2 Packages",
+      "language": "C++ / CUDA / Python",
+      "license": "Apache 2.0",
+      "status": "Active"
+    },
+    "tags": [
+      "GPU",
+      "perception",
+      "Jetson",
+      "NITROS"
+    ],
+    "sources": [
+      {
+        "url": "https://developer.nvidia.com/isaac/ros",
+        "title": "Isaac ROS - NVIDIA Developer",
+        "type": "official"
+      },
+      {
+        "url": "https://nvidia-isaac-ros.github.io/",
+        "title": "NVIDIA Isaac ROS Docs",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "eco-colcon",
+    "name": "colcon",
+    "company": "Open Robotics (colcon org)",
+    "category": "开发生态",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "type": "Build Tool",
+      "language": "Python",
+      "license": "Apache 2.0",
+      "status": "Stable"
+    },
+    "tags": [
+      "build system",
+      "ROS 2",
+      "workspace"
+    ],
+    "sources": [
+      {
+        "url": "https://github.com/colcon/colcon-core",
+        "title": "colcon/colcon-core",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "app-warehouse",
+    "name": "Warehouse Fulfillment",
+    "company": "Various",
+    "category": "应用场景",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "B2B",
+      "environment": "Structured",
+      "Notable Deployments": [
+        "Amazon Sparrow (Texas FC, 2022+)",
+        "Amazon Cardinal",
+        "Symbotic at Walmart / Target / Albertsons DCs",
+        "Locus Robotics at DHL (13,000+ AMRs)",
+        "Geek+ (72,000+ robots across 40+ countries)"
+      ],
+      "Maturity": "Scaling",
+      "status": "Deploying at scale"
+    },
+    "tags": [
+      "picking",
+      "AMR",
+      "fulfillment",
+      "logistics"
+    ],
+    "sources": [
+      {
+        "url": "https://www.aboutamazon.com/news/operations/amazon-introduces-sparrow-a-state-of-the-art-robot-that-handles-millions-of-diverse-products",
+        "title": "Amazon introduces Sparrow",
+        "type": "official"
+      },
+      {
+        "url": "https://www.therobotreport.com/locus-robotics-launches-locus-array-for-fully-autonomous-fulfillment/",
+        "title": "Locus Array launch",
+        "type": "news"
+      }
+    ]
+  },
+  {
+    "id": "app-humanoid-manufacturing",
+    "name": "Humanoid Manufacturing Assembly",
+    "company": "Various",
+    "category": "应用场景",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "B2B",
+      "environment": "Semi-structured",
+      "Notable Deployments": [
+        "Figure 02 at BMW Spartanburg (X3 line, 30,000 cars, 1,250 hours)",
+        "Apptronik Apollo at Mercedes-Benz Berlin-Marienfelde",
+        "Apptronik Apollo at Mercedes-Benz Hungary"
+      ],
+      "Maturity": "Pilot",
+      "status": "Deploying"
+    },
+    "tags": [
+      "humanoid",
+      "manufacturing",
+      "automotive",
+      "general-purpose"
+    ],
+    "sources": [
+      {
+        "url": "https://www.press.bmwgroup.com/global/article/detail/T0444265EN/successful-test-of-humanoid-robots-at-bmw-group-plant-spartanburg",
+        "title": "BMW Press: Figure 02 at Spartanburg",
+        "type": "official"
+      },
+      {
+        "url": "https://www.figure.ai/news/production-at-bmw",
+        "title": "Figure: F.02 contributed to 30,000 cars at BMW",
+        "type": "official"
+      },
+      {
+        "url": "https://www.prnewswire.com/news-releases/apptronik-and-mercedes-benz-enter-commercial-agreement-that-will-pilot-apptroniks-apollo-humanoid-robot-in-mercedes-benz-manufacturing-facilities-302089972.html",
+        "title": "Apptronik–Mercedes commercial agreement",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "app-last-mile-delivery",
+    "name": "Last-Mile Sidewalk Delivery",
+    "company": "Various",
+    "category": "应用场景",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "B2C",
+      "environment": "Unstructured (urban sidewalks)",
+      "Notable Deployments": [
+        "Starship Technologies (10M+ deliveries by 2026, 100+ locations US/UK/EU)",
+        "Serve Robotics with Uber Eats in Los Angeles",
+        "Coco Robotics with Uber Eats in LA (1,000+ robots)",
+        "Cartken with Uber Eats in Miami and Fairfax, VA"
+      ],
+      "Maturity": "Scaling",
+      "status": "Deploying"
+    },
+    "tags": [
+      "sidewalk robot",
+      "food delivery",
+      "autonomous"
+    ],
+    "sources": [
+      {
+        "url": "https://www.starship.xyz/press/starship-technologies-surpasses-8-million-deliveries/",
+        "title": "Starship 8M deliveries",
+        "type": "official"
+      },
+      {
+        "url": "https://www.serverobotics.com/uber-eats-partnership",
+        "title": "Serve – Uber Eats partnership",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "app-surgical",
+    "name": "Surgical Robotics",
+    "company": "Various",
+    "category": "应用场景",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "B2B",
+      "environment": "Structured (OR)",
+      "Notable Deployments": [
+        "Intuitive Surgical da Vinci (10,000+ systems installed)",
+        "Medtronic Hugo RAS",
+        "CMR Surgical Versius (FDA cleared for cholecystectomy Oct 2024)",
+        "Stryker Mako (700+ systems orthopedic)",
+        "Zimmer Biomet ROSA Knee"
+      ],
+      "Maturity": "Production",
+      "status": "Mature"
+    },
+    "tags": [
+      "surgery",
+      "tele-operation",
+      "medical",
+      "orthopedic"
+    ],
+    "sources": [
+      {
+        "url": "https://www.massdevice.com/10-surgical-robotics-companies-you-need-to-know-2024/",
+        "title": "10 surgical robotics companies to know",
+        "type": "news"
+      }
+    ]
+  },
+  {
+    "id": "app-inspection",
+    "name": "Industrial Inspection & Maintenance",
+    "company": "Various",
+    "category": "应用场景",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "B2B",
+      "environment": "Unstructured (industrial sites)",
+      "Notable Deployments": [
+        "Boston Dynamics Spot at BP Mad Dog offshore platform",
+        "Boston Dynamics Spot at BP Whiting refinery",
+        "ANYbotics ANYmal X at Petrobras FPSO P-74",
+        "ANYbotics ANYmal at PETRONAS Dulang B offshore platform",
+        "ANYbotics partnership with SLB (Schlumberger)"
+      ],
+      "Maturity": "Scaling",
+      "status": "Deploying"
+    },
+    "tags": [
+      "quadruped",
+      "inspection",
+      "oil and gas",
+      "Ex-proof"
+    ],
+    "sources": [
+      {
+        "url": "https://bostondynamics.com/case-studies/bp/",
+        "title": "BP case study - Boston Dynamics",
+        "type": "official"
+      },
+      {
+        "url": "https://www.anybotics.com/news/petrobras-and-anybotics-join-efforts-to-automate-offshore-fpso-inspections/",
+        "title": "Petrobras × ANYbotics",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "app-agriculture",
+    "name": "Precision Agriculture",
+    "company": "Various",
+    "category": "应用场景",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "B2B",
+      "environment": "Unstructured (open field)",
+      "Notable Deployments": [
+        "Carbon Robotics LaserWeeder (100+ growers, 15 countries since 2022)",
+        "Carbon Robotics Autonomy Kit on John Deere tractors",
+        "John Deere See & Spray (Blue River Technology platform)"
+      ],
+      "Maturity": "Scaling",
+      "status": "Deploying"
+    },
+    "tags": [
+      "agriculture",
+      "weeding",
+      "computer vision",
+      "autonomous tractor"
+    ],
+    "sources": [
+      {
+        "url": "https://carbonrobotics.com/laserweeder",
+        "title": "Carbon Robotics LaserWeeder",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "app-hospitality",
+    "name": "Hospitality / Food Service",
+    "company": "Various",
+    "category": "应用场景",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "B2B",
+      "environment": "Semi-structured (restaurants, hotels)",
+      "Notable Deployments": [
+        "Bear Robotics Servi/Servi Plus at Denny's, Marriott, Google",
+        "Pudu Robotics BellaBot in 5,000+ hotels",
+        "Keenon T8 robots at Marriott",
+        "Bear Robotics + Keenon in 25,000+ restaurants globally"
+      ],
+      "Maturity": "Scaling",
+      "status": "Deploying"
+    },
+    "tags": [
+      "service robot",
+      "food running",
+      "restaurants",
+      "hotels"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bearrobotics.ai/servi-plus",
+        "title": "Bear Robotics Servi Plus",
+        "type": "official"
+      },
+      {
+        "url": "https://www.pudurobotics.com/en/solutions/hospitality",
+        "title": "Pudu Hospitality Solutions",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "app-healthcare-companion",
+    "name": "Healthcare & Companion Robotics",
+    "company": "Various",
+    "category": "应用场景",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "B2B/B2C",
+      "environment": "Semi-structured (hospitals, homes)",
+      "Notable Deployments": [
+        "Diligent Moxi in 25+ US hospitals (1.25M+ deliveries)",
+        "Diligent Moxi at Montage Health, Rochester Regional Health",
+        "Intuition Robotics ElliQ deployed via NYSOFA"
+      ],
+      "Maturity": "Scaling",
+      "status": "Deploying"
+    },
+    "tags": [
+      "healthcare",
+      "elderly care",
+      "mobile manipulation",
+      "companion"
+    ],
+    "sources": [
+      {
+        "url": "https://www.diligentrobots.com/moxi",
+        "title": "Diligent Robotics Moxi",
+        "type": "official"
+      },
+      {
+        "url": "https://aging.ny.gov/news/nysofas-rollout-ai-companion-robot-elliq-shows-95-reduction-loneliness",
+        "title": "NYSOFA ElliQ rollout",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "app-construction",
+    "name": "Autonomous Construction Equipment",
+    "company": "Various",
+    "category": "应用场景",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "B2B",
+      "environment": "Unstructured (jobsites)",
+      "Notable Deployments": [
+        "Built Robotics Exosystem retrofit on Cat / Hitachi / John Deere",
+        "Built Robotics RPD 35 robotic pile driver",
+        "HD Hyundai Concept-X autonomous excavator (Develon)"
+      ],
+      "Maturity": "Pilot",
+      "status": "Deploying"
+    },
+    "tags": [
+      "construction",
+      "excavator",
+      "earthmoving",
+      "autonomy retrofit"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Built_Robotics",
+        "title": "Built Robotics - Wikipedia",
+        "type": "wiki"
+      }
+    ]
+  },
+  {
+    "id": "app-cleaning",
+    "name": "Commercial Cleaning",
+    "company": "Various",
+    "category": "应用场景",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "B2B",
+      "environment": "Semi-structured (malls, warehouses, airports)",
+      "Notable Deployments": [
+        "Avidbots Neo across airports, malls, warehouses (250+ globally)",
+        "Brain Corp BrainOS-powered scrubbers at 360 Walmart stores",
+        "Pudu cleaning robots at hospitality and retail sites"
+      ],
+      "Maturity": "Scaling",
+      "status": "Deploying"
+    },
+    "tags": [
+      "cleaning",
+      "scrubber",
+      "autonomy retrofit",
+      "commercial"
+    ],
+    "sources": [
+      {
+        "url": "https://avidbots.com/",
+        "title": "Avidbots",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "app-home-humanoid",
+    "name": "Home Humanoid Pilots",
+    "company": "Various",
+    "category": "应用场景",
+    "imageUrl": "",
+    "year": "2025",
+    "isNew": true,
+    "specs": {
+      "type": "B2C",
+      "environment": "Unstructured (homes)",
+      "Notable Deployments": [
+        "1X NEO Beta announced Aug 2024 for home pilots",
+        "1X NEO Gamma update Feb 2025; pre-orders launched Oct 2025 ($20K)",
+        "Galaxea AI R1/R1 Pro mobile manipulator"
+      ],
+      "Maturity": "Pilot",
+      "status": "Deploying"
+    },
+    "tags": [
+      "humanoid",
+      "home robot",
+      "consumer"
+    ],
+    "sources": [
+      {
+        "url": "https://www.1x.tech/discover/announcement-1x-unveils-neo-beta-a-humanoid-robot-for-the-home",
+        "title": "1X NEO Beta unveil",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "app-bimanual-housework",
+    "name": "Bimanual Household Manipulation Research",
+    "company": "Various",
+    "category": "应用场景",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "Research / Pre-commercial",
+      "environment": "Unstructured (home tasks)",
+      "Notable Deployments": [
+        "Stanford Mobile ALOHA (Jan 2024) cooking and houseware tasks",
+        "Google DeepMind ALOHA Unleashed (shoelace tying, t-shirt hanging)",
+        "AgileX COBOT Magic ALOHA-derivative platform"
+      ],
+      "Maturity": "Pilot",
+      "status": "Research → early commercial"
+    },
+    "tags": [
+      "bimanual",
+      "imitation learning",
+      "household",
+      "diffusion policy"
+    ],
+    "sources": [
+      {
+        "url": "https://mobile-aloha.github.io/resources/mobile-aloha.pdf",
+        "title": "Mobile ALOHA paper",
+        "type": "official"
+      },
+      {
+        "url": "https://global.agilex.ai/products/cobot-magic",
+        "title": "AgileX COBOT Magic",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "app-retail-inventory",
+    "name": "Retail Inventory & Shelf Scanning",
+    "company": "Various",
+    "category": "应用场景",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "type": "B2B",
+      "environment": "Structured (retail floor)",
+      "Notable Deployments": [
+        "Simbe Tally across 17 Harmons grocery stores (Utah)",
+        "Simbe Tally at HomeBase USA",
+        "Simbe Tally in 10 countries (UL 3300 certified)"
+      ],
+      "Maturity": "Scaling",
+      "status": "Deploying"
+    },
+    "tags": [
+      "retail",
+      "inventory",
+      "shelf scanning",
+      "computer vision"
+    ],
+    "sources": [
+      {
+        "url": "https://www.simberobotics.com/about/newsroom/harmons-deploys-simbe-s-tally-inventory-robot-in-stores-following-pilot-success",
+        "title": "Harmons deploys Tally",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "app-education-stem",
+    "name": "Education & STEM Robotics",
+    "company": "Various",
+    "category": "应用场景",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "type": "B2B/B2C (academic)",
+      "environment": "Structured (lab, classroom)",
+      "Notable Deployments": [
+        "Bitcraze Crazyflie in robotics research, swarms, STEM education",
+        "KUKA youBot (historical) — mobile manipulator",
+        "TurtleBot reference platform across hundreds of universities"
+      ],
+      "Maturity": "Production",
+      "status": "Mature"
+    },
+    "tags": [
+      "education",
+      "research",
+      "open hardware",
+      "quadcopter swarm"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bitcraze.io/portals/education/",
+        "title": "Bitcraze Education",
+        "type": "official"
+      }
     ]
   }
 ]

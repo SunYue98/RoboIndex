@@ -18,12 +18,35 @@
         "Agility Robotics",
         "Figure",
         "Skydio"
-      ]
+      ],
+      "Headquarters": "Menlo Park, California, USA",
+      "status": "Active"
     },
     "tags": [
       "Venture Capital",
       "USA",
       "Tier 1"
+    ],
+    "sources": [
+      {
+        "url": "https://sequoiacap.com/article/partnering-with-skild/",
+        "title": "Sequoia: Partnering with Skild",
+        "type": "official"
+      },
+      {
+        "url": "https://sequoiacap.com/companies/collaborative-robotics/",
+        "title": "Cobot | Sequoia portfolio",
+        "type": "official"
+      },
+      {
+        "url": "https://sequoiacap.com/collection/robots-on-the-rise/",
+        "title": "Sequoia: Robots on the Rise",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind-agility",
+      "ind-figure"
     ]
   },
   {
@@ -46,12 +69,52 @@
         "Isaac Sim",
         "Project GR00T"
       ],
-      "Valuation / Market Cap": " Trillion+"
+      "Valuation / Market Cap": " Trillion+",
+      "Headquarters": "Santa Clara, California, USA",
+      "Founded": "1993",
+      "status": "Active; Project GR00T announced March 2024"
     },
     "tags": [
       "Hardware",
       "Platform",
-      "AI Compute"
+      "AI Compute",
+      "Compute Platform",
+      "Foundation Model",
+      "USA"
+    ],
+    "sources": [
+      {
+        "url": "https://nvidianews.nvidia.com/news/foundation-model-isaac-robotics-platform",
+        "title": "NVIDIA Announces Project GR00T",
+        "type": "official"
+      },
+      {
+        "url": "https://developer.nvidia.com/isaac/gr00t",
+        "title": "Isaac GR00T",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Nvidia",
+        "title": "Nvidia - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "relatedIds": [
+      "sw-cosmos-predict",
+      "sw-cosmos-reason",
+      "sw-groot-n1",
+      "sw-groot-n1-5",
+      "sw-vima",
+      "sw3",
+      "sw-eureka",
+      "sw-robocasa",
+      "sw-roboeval",
+      "sw-cosmos-transfer",
+      "sw-newton",
+      "sw5",
+      "cp-jetson-agx-thor",
+      "cp-jetson-agx-xavier",
+      "cp-jetson-nano"
     ]
   },
   {
@@ -82,6 +145,2732 @@
     "tags": [
       "Academic",
       "Research"
+    ],
+    "sources": [
+      {
+        "url": "https://ai.stanford.edu/",
+        "title": "Stanford AI Laboratory (SAIL)",
+        "type": "official"
+      },
+      {
+        "url": "https://ai.stanford.edu/research-groups/",
+        "title": "Research Groups – Stanford AI Lab",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "sw-vima"
+    ]
+  },
+  {
+    "id": "ind-tesla-optimus",
+    "name": "Tesla Optimus",
+    "company": "Tesla Optimus",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2021",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Vertically integrated humanoid program by EV/AI company",
+      "Key Products": [
+        "Optimus Gen 1",
+        "Optimus Gen 2",
+        "Optimus Gen 3"
+      ],
+      "Headquarters": "Austin, Texas, USA",
+      "Founded": "2003",
+      "status": "Active; multiple generations demonstrated, factory pilots underway"
+    },
+    "orgInfo": {
+      "description": "Tesla's Optimus program develops a general-purpose bipedal humanoid robot announced in 2021, leveraging Tesla's vehicle AI and manufacturing stack for tasks Musk has described as dangerous, repetitive and boring.",
+      "location": "Austin, Texas, USA",
+      "website": "https://www.tesla.com/AI"
+    },
+    "tags": [
+      "Humanoid",
+      "USA"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+        "title": "Optimus (robot) - Wikipedia",
+        "type": "wiki"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+        "title": "Tesla, Inc. - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "relatedIds": [
+      "f4",
+      "f8",
+      "f98"
+    ]
+  },
+  {
+    "id": "ind-figure",
+    "name": "Figure AI",
+    "company": "Figure AI",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2022",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "General-purpose humanoid robots for industrial and home use",
+      "Key Products": [
+        "Figure 01",
+        "Figure 02",
+        "Figure 03",
+        "Helix VLA model"
+      ],
+      "Headquarters": "San Jose, California, USA",
+      "Founded": "2022",
+      "status": "Active; Figure 03 launched October 2025"
+    },
+    "orgInfo": {
+      "description": "Figure AI develops general-purpose humanoid robots controlled by its in-house Helix vision-language-action model, with deployments aimed at logistics, manufacturing, and eventually households.",
+      "location": "San Jose, California, USA",
+      "website": "https://www.figure.ai"
+    },
+    "tags": [
+      "Humanoid",
+      "USA"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Figure_AI",
+        "title": "Figure AI - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "relatedIds": [
+      "vc1",
+      "sw-helix",
+      "f104",
+      "f139",
+      "f9"
+    ]
+  },
+  {
+    "id": "ind-1x",
+    "name": "1X Technologies",
+    "company": "1X Technologies",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2014",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Humanoid robots for home and institutional use",
+      "Key Products": [
+        "EVE (wheeled humanoid)",
+        "NEO (bipedal home humanoid)"
+      ],
+      "Headquarters": "Palo Alto, California, USA (manufacturing in Moss, Norway)",
+      "Founded": "2014",
+      "status": "Active; NEO pre-orders opened October 2025"
+    },
+    "orgInfo": {
+      "description": "1X Technologies (originally Halodi Robotics) develops general-purpose humanoid robots for home environments, with NEO opening pre-orders in 2025 at $20,000 plus a $499/month subscription option.",
+      "location": "Palo Alto, California, USA",
+      "website": "https://www.1x.tech"
+    },
+    "tags": [
+      "Humanoid",
+      "Home Robot",
+      "USA / Norway"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1X_Technologies",
+        "title": "1X Technologies - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "relatedIds": [
+      "sw-1x-world-model",
+      "f122",
+      "f21",
+      "f34"
+    ]
+  },
+  {
+    "id": "ind-sanctuary",
+    "name": "Sanctuary AI",
+    "company": "Sanctuary AI",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "General-purpose humanoid with proprietary AI control system",
+      "Key Products": [
+        "Phoenix humanoid (8th-gen)",
+        "Carbon AI control system"
+      ],
+      "Headquarters": "Vancouver, BC, Canada",
+      "Founded": "2018",
+      "status": "Active; 8th-gen Phoenix released 2025"
+    },
+    "orgInfo": {
+      "description": "Sanctuary AI develops the Phoenix humanoid robot driven by its proprietary Carbon AI control system, targeting human-like manipulation with 21-DoF hydraulic hands for general-purpose work.",
+      "location": "Vancouver, BC, Canada",
+      "website": "https://www.sanctuary.ai"
+    },
+    "tags": [
+      "Humanoid",
+      "Canada"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sanctuary.ai/blog/sanctuary-ai-unveils-phoenix-a-humanoid-general-purpose-robot-designed-for-work",
+        "title": "Sanctuary AI Unveils Phoenix",
+        "type": "official"
+      },
+      {
+        "url": "https://www.therobotreport.com/sanctuary-ai-latest-phoenix-humanoid-can-learn-tasks-in-24-hours/",
+        "title": "Sanctuary AI's latest Phoenix humanoid",
+        "type": "news"
+      }
+    ],
+    "relatedIds": [
+      "f118",
+      "h14"
+    ]
+  },
+  {
+    "id": "ind-boston-dynamics",
+    "name": "Boston Dynamics",
+    "company": "Boston Dynamics",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "1992",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Legged and mobile robots for industry and research",
+      "Key Products": [
+        "Spot (quadruped)",
+        "Atlas (humanoid)",
+        "Stretch (warehouse)",
+        "Handle"
+      ],
+      "Headquarters": "Waltham, Massachusetts, USA",
+      "Founded": "1992",
+      "status": "Active; majority-owned by Hyundai Motor Group since 2021"
+    },
+    "orgInfo": {
+      "description": "Boston Dynamics builds highly mobile legged and wheeled robots including the Spot quadruped, Atlas electric humanoid, and Stretch warehouse robot, pioneering dynamic locomotion and manipulation research.",
+      "location": "Waltham, Massachusetts, USA",
+      "website": "https://www.bostondynamics.com"
+    },
+    "tags": [
+      "Humanoid",
+      "Quadruped",
+      "USA"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Boston_Dynamics",
+        "title": "Boston Dynamics - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "relatedIds": [
+      "f29",
+      "pwr-spot-battery"
+    ]
+  },
+  {
+    "id": "ind-apptronik",
+    "name": "Apptronik",
+    "company": "Apptronik",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Commercial humanoid for logistics and manufacturing",
+      "Key Products": [
+        "Apollo humanoid"
+      ],
+      "Headquarters": "Austin, Texas, USA",
+      "Founded": "2016",
+      "status": "Active; pilots with Mercedes-Benz and GXO Logistics"
+    },
+    "orgInfo": {
+      "description": "Apptronik, spun out of UT Austin's Human Centered Robotics Lab in 2016, develops the Apollo humanoid robot, partnering with Mercedes-Benz, GXO, NVIDIA and Google DeepMind to deploy general-purpose robots in factories.",
+      "location": "Austin, Texas, USA",
+      "website": "https://apptronik.com"
+    },
+    "tags": [
+      "Humanoid",
+      "USA"
+    ],
+    "sources": [
+      {
+        "url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/",
+        "title": "Apptronik unveils Apollo humanoid robot",
+        "type": "news"
+      },
+      {
+        "url": "https://www.cnbc.com/2025/06/10/apptronik-cnbc-disruptor-50.html",
+        "title": "Apptronik: 2025 CNBC Disruptor 50",
+        "type": "news"
+      }
+    ],
+    "relatedIds": [
+      "f81",
+      "flagship-apptronik-apollo"
+    ]
+  },
+  {
+    "id": "ind-agility",
+    "name": "Agility Robotics",
+    "company": "Agility Robotics",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2015",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Bipedal humanoid for warehouse and logistics automation",
+      "Key Products": [
+        "Digit humanoid",
+        "Cassie bipedal research platform"
+      ],
+      "Headquarters": "Salem, Oregon, USA",
+      "Founded": "2015",
+      "status": "Active; partnerships with Amazon, GXO; RoboFab production facility in Salem"
+    },
+    "orgInfo": {
+      "description": "Agility Robotics, spun out of Oregon State University in 2015, manufactures the Digit bipedal humanoid for warehouse logistics and operates the RoboFab humanoid production facility in Salem, Oregon.",
+      "location": "Salem, Oregon, USA",
+      "website": "https://www.agilityrobotics.com"
+    },
+    "tags": [
+      "Humanoid",
+      "Logistics",
+      "USA"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Agility_Robotics",
+        "title": "Agility Robotics - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "relatedIds": [
+      "vc-a16z",
+      "vc1",
+      "f1",
+      "f130"
+    ]
+  },
+  {
+    "id": "ind-unitree",
+    "name": "Unitree Robotics (宇树科技)",
+    "company": "Unitree Robotics (宇树科技)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Affordable quadrupeds and humanoids for research and consumers",
+      "Key Products": [
+        "Go2 quadruped",
+        "B2 quadruped",
+        "H1 humanoid",
+        "G1 humanoid",
+        "H2 humanoid"
+      ],
+      "Headquarters": "Hangzhou, Zhejiang, China",
+      "Founded": "2016",
+      "status": "Active; G1 humanoid sells from $16,000"
+    },
+    "orgInfo": {
+      "description": "Unitree Robotics is a Hangzhou-based maker of affordable quadruped robots (Go2, B2) and humanoids (H1, G1, H2), widely used as research platforms and consumer-facing demos in embodied AI.",
+      "location": "Hangzhou, Zhejiang, China",
+      "website": "https://www.unitree.com"
+    },
+    "tags": [
+      "Humanoid",
+      "Quadruped",
+      "China"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Unitree",
+        "title": "Unitree - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "relatedIds": [
+      "vc-hongshan",
+      "vc-source-code",
+      "f140",
+      "f24",
+      "f84",
+      "joint-unitree-a1",
+      "joint-unitree-go-m8010-6",
+      "pwr-unitree-h1-battery"
+    ]
+  },
+  {
+    "id": "ind-xpeng-robotics",
+    "name": "XPENG Robotics (Iron)",
+    "company": "XPENG Robotics (Iron)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "Automaker-backed humanoid for factory and retail",
+      "Key Products": [
+        "Iron humanoid"
+      ],
+      "Headquarters": "Guangzhou, Guangdong, China",
+      "Founded": "2014",
+      "status": "Active; Iron deployed on XPENG production lines"
+    },
+    "orgInfo": {
+      "description": "XPENG, the Chinese EV maker founded in 2014, unveiled its Iron humanoid robot in November 2024 with 60+ joints and 200 degrees of freedom, currently used in XPENG factory assembly and retail locations.",
+      "location": "Guangzhou, Guangdong, China",
+      "website": "https://www.xpeng.com"
+    },
+    "tags": [
+      "Humanoid",
+      "Automaker",
+      "China"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/XPeng",
+        "title": "XPeng - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "relatedIds": [
+      "f128",
+      "flagship-xpeng-iron-nextgen"
+    ]
+  },
+  {
+    "id": "ind-agibot",
+    "name": "AgiBot (智元机器人)",
+    "company": "AgiBot (智元机器人)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "Mass-produced general-purpose humanoids and embodied AI",
+      "Key Products": [
+        "A2 humanoid",
+        "X1 (open-source)",
+        "G2 / X2 series",
+        "AgiBot World dataset"
+      ],
+      "Headquarters": "Shanghai, China",
+      "Founded": "2023",
+      "status": "Active; reported ~962 units produced by Dec 2024, mass production ongoing"
+    },
+    "orgInfo": {
+      "description": "AgiBot (Zhiyuan Robotics), founded in 2023 by ex-Huawei engineers Deng Taihua and Peng Zhihui, designs and mass-produces general-purpose humanoid and wheeled robots and released the open AgiBot World manipulation dataset.",
+      "location": "Shanghai, China",
+      "website": "https://www.agibot.com"
+    },
+    "tags": [
+      "Humanoid",
+      "Dataset",
+      "China"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/AgiBot",
+        "title": "AgiBot - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "relatedIds": [
+      "sw-agibot-go1",
+      "sw-agibot-world",
+      "f40",
+      "f49",
+      "f70",
+      "f78",
+      "h11",
+      "h17"
+    ]
+  },
+  {
+    "id": "ind-ubtech",
+    "name": "UBTech (优必选)",
+    "company": "UBTech (优必选)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2012",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Industrial and service humanoids; HK-listed",
+      "Key Products": [
+        "Walker / Walker S / Walker S1 / Walker S2 humanoids",
+        "Alpha series",
+        "Cruzr service robot"
+      ],
+      "Headquarters": "Shenzhen, Guangdong, China",
+      "Founded": "2012",
+      "status": "Active; listed on HKEX Dec 2023; Walker S2 in mass production"
+    },
+    "orgInfo": {
+      "description": "UBTech Robotics, founded in Shenzhen in 2012, develops humanoid robots including the Walker S series for industrial logistics and manufacturing and was the first humanoid robot company listed on the Hong Kong Stock Exchange.",
+      "location": "Shenzhen, Guangdong, China",
+      "website": "https://www.ubtrobot.com"
+    },
+    "tags": [
+      "Humanoid",
+      "China",
+      "Public Company"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/UBtech_Robotics",
+        "title": "UBtech Robotics - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "relatedIds": [
+      "f135",
+      "f144",
+      "f65",
+      "f69",
+      "f82"
+    ]
+  },
+  {
+    "id": "ind-fourier",
+    "name": "Fourier Intelligence (傅利叶智能)",
+    "company": "Fourier Intelligence (傅利叶智能)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2015",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Humanoid + rehab robotics, mass-produced humanoid platform",
+      "Key Products": [
+        "GR-1 humanoid",
+        "GR-2 humanoid",
+        "rehabilitation robots"
+      ],
+      "Headquarters": "Shanghai, China",
+      "Founded": "2015",
+      "status": "Active; GR-1 unveiled at WAIC 2023"
+    },
+    "orgInfo": {
+      "description": "Fourier Intelligence, founded in Shanghai in 2015 by Alex Gu and originally focused on rehab robotics, developed the GR-1 humanoid robot and is pursuing mass-produced bipedal humanoids with AI-driven control.",
+      "location": "Shanghai, China",
+      "website": "https://www.fftai.com"
+    },
+    "tags": [
+      "Humanoid",
+      "Rehab",
+      "China"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fourier_(company)",
+        "title": "Fourier (company) - Wikipedia",
+        "type": "wiki"
+      },
+      {
+        "url": "https://www.therobotreport.com/fourier-intelligence-launches-production-version-of-gr-1-humanoid-robot/",
+        "title": "Fourier Intelligence launches production version of GR-1",
+        "type": "news"
+      }
+    ],
+    "relatedIds": [
+      "f42",
+      "f86",
+      "j1"
+    ]
+  },
+  {
+    "id": "ind-robot-era",
+    "name": "Robot Era (星动纪元)",
+    "company": "Robot Era (星动纪元)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "Full-stack embodied AI humanoid from Tsinghua",
+      "Key Products": [
+        "XHand 1 dexterous hand",
+        "L7 bipedal humanoid"
+      ],
+      "Headquarters": "Beijing, China",
+      "Founded": "2023",
+      "status": "Active; valuation reportedly past 10B RMB in 2026"
+    },
+    "orgInfo": {
+      "description": "Robot Era (Beijing Xingdong Jiyuan) was incubated by Tsinghua's IIIS in August 2023 by Chen Jianyu (in Yao Qizhi's group); it builds full-stack humanoid hardware including the XHand 1 dexterous hand and the L7 bipedal robot.",
+      "location": "Beijing, China",
+      "website": "https://www.robotera.com"
+    },
+    "tags": [
+      "Humanoid",
+      "Dexterous Hand",
+      "China"
+    ],
+    "sources": [
+      {
+        "url": "https://www.caixinglobal.com/2025-07-08/humanoid-robotics-startup-robot-era-secures-69-million-series-a-funding-102338987.html",
+        "title": "Robot Era Secures $69M Series A",
+        "type": "news"
+      },
+      {
+        "url": "https://www.robotera.com/en/about1.html",
+        "title": "ROBOTERA - About",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "f105",
+      "flagship-robotera-l7"
+    ]
+  },
+  {
+    "id": "ind-galbot",
+    "name": "Galbot (银河通用)",
+    "company": "Galbot (银河通用)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "Embodied AGI startup; dual-arm wheeled humanoid",
+      "Key Products": [
+        "Galbot G1 dual-arm wheeled humanoid"
+      ],
+      "Headquarters": "Beijing, China",
+      "Founded": "2023",
+      "status": "Active; unicorn 2025; smart-retail deployments in Beijing"
+    },
+    "orgInfo": {
+      "description": "Galbot (Galaxy General), founded in Beijing in May 2023 by Peking University professor He Wang, builds dual-arm wheeled humanoid robots powered by its embodied AGI models and pilots them in unmanned retail and industrial sites.",
+      "location": "Beijing, China",
+      "website": "https://www.galbot.com"
+    },
+    "tags": [
+      "Humanoid",
+      "Embodied AGI",
+      "China"
+    ],
+    "sources": [
+      {
+        "url": "https://www.asianfin.com/articles/127469",
+        "title": "China's GALBOT Raises Record $150 Million",
+        "type": "news"
+      },
+      {
+        "url": "https://www.galbot.com/",
+        "title": "Galbot official site",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "vc-ggv",
+      "f110",
+      "f111",
+      "f31",
+      "flagship-galbot-g1"
+    ]
+  },
+  {
+    "id": "ind-booster",
+    "name": "Booster Robotics",
+    "company": "Booster Robotics",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "Developer-focused humanoid research platforms",
+      "Key Products": [
+        "Booster T1",
+        "Booster K1"
+      ],
+      "Headquarters": "Beijing, China",
+      "Founded": "2023",
+      "status": "Active; T1 won RoboCup 2025 AdultSize"
+    },
+    "orgInfo": {
+      "description": "Booster Robotics, founded in Beijing in 2023 by engineers from Tsinghua's Robot Control Lab, builds the T1 and K1 humanoid research platforms used by 50+ global robotics teams and winners of RoboCup 2025.",
+      "location": "Beijing, China",
+      "website": "https://www.booster.tech"
+    },
+    "tags": [
+      "Humanoid",
+      "Research Platform",
+      "China"
+    ],
+    "sources": [
+      {
+        "url": "https://www.booster.tech/about-us/",
+        "title": "About Us - Booster Robotics",
+        "type": "official"
+      },
+      {
+        "url": "https://www.booster.tech/booster-t1/",
+        "title": "Booster T1",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "vc-source-code",
+      "f38"
+    ]
+  },
+  {
+    "id": "ind-limx",
+    "name": "LimX Dynamics",
+    "company": "LimX Dynamics",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2022",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "AI-first general-purpose humanoid",
+      "Key Products": [
+        "Oli humanoid",
+        "TRON 1 / TRON 2",
+        "FluxVLA engine"
+      ],
+      "Headquarters": "Shenzhen, China",
+      "Founded": "2022",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "LimX Dynamics is a Shenzhen-based AI-first robotics company building full-size general-purpose humanoids (Oli) and multi-modal bipeds (TRON 1/2) along with its FluxVLA engineering foundation for embodied AI.",
+      "location": "Shenzhen, China",
+      "website": "https://www.limxdynamics.com"
+    },
+    "tags": [
+      "Humanoid",
+      "Biped",
+      "China"
+    ],
+    "sources": [
+      {
+        "url": "https://www.limxdynamics.com/en/about",
+        "title": "LimX Dynamics About",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "f132",
+      "f15",
+      "f2",
+      "f25",
+      "f73",
+      "h47"
+    ]
+  },
+  {
+    "id": "ind-engineered-arts",
+    "name": "Engineered Arts",
+    "company": "Engineered Arts",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2004",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Expressive humanoid platforms for entertainment, HRI, and research",
+      "Key Products": [
+        "Ameca",
+        "Mesmer",
+        "RoboThespian"
+      ],
+      "Headquarters": "Falmouth, Cornwall, UK",
+      "Founded": "2004",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Engineered Arts, founded in Cornwall in 2004 by Will Jackson, builds the Ameca, Mesmer and RoboThespian expressive humanoid robots widely used for human-robot interaction research and public exhibitions.",
+      "location": "Falmouth, Cornwall, UK",
+      "website": "https://engineeredarts.com"
+    },
+    "tags": [
+      "Humanoid",
+      "HRI",
+      "UK"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Engineered_Arts",
+        "title": "Engineered Arts - Wikipedia",
+        "type": "wiki"
+      }
+    ]
+  },
+  {
+    "id": "ind-pal-robotics",
+    "name": "PAL Robotics",
+    "company": "PAL Robotics",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2004",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "European humanoid + mobile manipulator platforms for research and industry",
+      "Key Products": [
+        "TIAGo mobile manipulator",
+        "REEM-C humanoid",
+        "TALOS humanoid",
+        "Kangaroo biped"
+      ],
+      "Headquarters": "Barcelona, Spain",
+      "Founded": "2004",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "PAL Robotics, founded in Barcelona in 2004, is a European humanoid robotics company building the TIAGo mobile manipulator and REEM/TALOS humanoid platforms used across research and industrial automation in the EU.",
+      "location": "Barcelona, Spain",
+      "website": "https://pal-robotics.com"
+    },
+    "tags": [
+      "Humanoid",
+      "Mobile Manipulator",
+      "Spain"
+    ],
+    "sources": [
+      {
+        "url": "https://pal-robotics.com/",
+        "title": "PAL Robotics official",
+        "type": "official"
+      },
+      {
+        "url": "https://www.humanoidobserver.com/pal-robotics-european-robotics-startup/",
+        "title": "PAL Robotics, Europe's challenger",
+        "type": "news"
+      }
+    ],
+    "relatedIds": [
+      "f43",
+      "sw-ros2-control-framework"
+    ]
+  },
+  {
+    "id": "ind-tri",
+    "name": "Toyota Research Institute (TRI)",
+    "company": "Toyota Research Institute (TRI)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Industrial research lab for assistive home robotics and large behavior models",
+      "Key Products": [
+        "Diffusion Policy / Large Behavior Models research",
+        "Home robot prototypes",
+        "Punyo soft-bodied robot"
+      ],
+      "Headquarters": "Los Altos, California, USA",
+      "Founded": "2016",
+      "status": "Active subsidiary of Toyota Motor Corporation"
+    },
+    "orgInfo": {
+      "description": "Toyota Research Institute, established by Toyota in 2016 with a $1B commitment and led by Gill Pratt, conducts AI and robotics research from Los Altos including assistive home robots, dexterous manipulation, and large behavior models.",
+      "location": "Los Altos, California, USA",
+      "website": "https://www.tri.global"
+    },
+    "tags": [
+      "Industrial Lab",
+      "USA",
+      "Home Robotics"
+    ],
+    "sources": [
+      {
+        "url": "https://www.tri.global/news/toyota-research-institute-showcases-latest-robotics-research-aimed-amplifying-human-ability",
+        "title": "TRI Showcases Latest Robotics Research",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Toyota_Research_Institute",
+        "title": "Toyota Research Institute - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "relatedIds": [
+      "sw-droid",
+      "sw-diffusion-policy",
+      "sw-drake"
+    ]
+  },
+  {
+    "id": "ind-anybotics",
+    "name": "ANYbotics",
+    "company": "ANYbotics",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Industrial quadruped inspection robots",
+      "Key Products": [
+        "ANYmal X / D / C quadruped"
+      ],
+      "Headquarters": "Zürich, Switzerland",
+      "Founded": "2016",
+      "status": "Active; closed €104M Series B in 2024"
+    },
+    "orgInfo": {
+      "description": "ANYbotics, a 2016 ETH Zurich spin-off, builds the ANYmal quadruped robot for autonomous inspection in chemical, mining, oil and gas, and energy facilities.",
+      "location": "Zürich, Switzerland",
+      "website": "https://www.anybotics.com"
+    },
+    "tags": [
+      "Quadruped",
+      "Industrial Inspection",
+      "Switzerland"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/ANYbotics",
+        "title": "ANYbotics - Wikipedia",
+        "type": "wiki"
+      },
+      {
+        "url": "https://rsl.ethz.ch/partnership/spinoff/anybotics.html",
+        "title": "ANYbotics - ETH Zurich RSL",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "vc-bessemer"
+    ]
+  },
+  {
+    "id": "ind-physical-intelligence",
+    "name": "Physical Intelligence (Pi)",
+    "company": "Physical Intelligence (Pi)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "Generalist robot foundation models (software-first)",
+      "Key Products": [
+        "π0 VLA model",
+        "π0.5",
+        "π0-FAST"
+      ],
+      "Headquarters": "San Francisco, California, USA",
+      "Founded": "2024",
+      "status": "Active; ~$1.1B raised, ~$5.6B valuation (Nov 2025)"
+    },
+    "orgInfo": {
+      "description": "Physical Intelligence is a 2024 San Francisco startup founded by Karol Hausman, Sergey Levine, Chelsea Finn and others to build general-purpose vision-language-action foundation models (the π series) for robotics.",
+      "location": "San Francisco, California, USA",
+      "website": "https://www.physicalintelligence.company"
+    },
+    "tags": [
+      "Foundation Model",
+      "VLA",
+      "USA"
+    ],
+    "sources": [
+      {
+        "url": "https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/",
+        "title": "Physical Intelligence raises $600M",
+        "type": "news"
+      }
+    ],
+    "relatedIds": [
+      "vc-khosla",
+      "vc-lux",
+      "sw-pi0",
+      "sw-pi0-fast",
+      "sw-pi05"
+    ]
+  },
+  {
+    "id": "ind-deepmind-robotics",
+    "name": "Google DeepMind Robotics",
+    "company": "Google DeepMind Robotics",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "AI research lab driving VLA / generalist robot models",
+      "Key Products": [
+        "RT-1 / RT-2 / RT-X",
+        "RoboCat",
+        "Gemini Robotics / Gemini Robotics-ER"
+      ],
+      "Headquarters": "London, UK",
+      "Founded": "2010",
+      "status": "Active; Gemini Robotics 1.5 (Sep 2025), Gemini Robotics ER-1.6 (Apr 2026)"
+    },
+    "orgInfo": {
+      "description": "Google DeepMind's robotics group develops vision-language-action and generalist robot foundation models including RT-2, RT-X, RoboCat, and the Gemini Robotics series, partnering with humanoid OEMs like Apptronik.",
+      "location": "London, UK",
+      "website": "https://deepmind.google"
+    },
+    "tags": [
+      "Foundation Model",
+      "VLA",
+      "Industrial Lab"
+    ],
+    "sources": [
+      {
+        "url": "https://deepmind.google/blog/rt-2-new-model-translates-vision-and-language-into-action/",
+        "title": "RT-2 official DeepMind blog",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Google_DeepMind",
+        "title": "Google DeepMind - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "relatedIds": [
+      "sw-bcz-fm",
+      "sw-dreamerv3",
+      "sw-genie-2",
+      "sw-genie-3",
+      "sw-octo",
+      "sw-palm-e",
+      "sw-robocat",
+      "sw-rt2",
+      "sw-sara-rt",
+      "sw2",
+      "sw-bc-z",
+      "sw-language-table",
+      "sw-robovqa",
+      "sw7",
+      "sw-mjpc"
+    ]
+  },
+  {
+    "id": "ind-skild",
+    "name": "Skild AI",
+    "company": "Skild AI",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "Omni-bodied robotics foundation model",
+      "Key Products": [
+        "Skild Brain foundation model"
+      ],
+      "Headquarters": "Pittsburgh, Pennsylvania, USA",
+      "Founded": "2023",
+      "status": "Active; valuation >$14B after $1.4B raise in 2026"
+    },
+    "orgInfo": {
+      "description": "Skild AI, founded in 2023 in Pittsburgh by ex-CMU professors Deepak Pathak and Abhinav Gupta, builds the Skild Brain — an omni-bodied foundation model designed to control any robot embodiment from quadrupeds to humanoids.",
+      "location": "Pittsburgh, Pennsylvania, USA",
+      "website": "https://www.skild.ai"
+    },
+    "tags": [
+      "Foundation Model",
+      "USA"
+    ],
+    "sources": [
+      {
+        "url": "https://www.therobotreport.com/skild-ai-raises-1-4b-building-omni-bodied-robot-skild-brain/",
+        "title": "Skild AI raises $1.4B to build omni-bodied robot brain",
+        "type": "news"
+      },
+      {
+        "url": "https://news.crunchbase.com/venture/robotics-startup-skild-ai-triples-valuation/",
+        "title": "Skild AI lands $1.4B, tripling valuation",
+        "type": "news"
+      }
+    ],
+    "relatedIds": [
+      "sw-skild-brain"
+    ]
+  },
+  {
+    "id": "ind-dexterity",
+    "name": "Dexterity",
+    "company": "Dexterity",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2017",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Full-stack robotics software for logistics and warehouse manipulation",
+      "Key Products": [
+        "Mosaic platform",
+        "Container loading/unloading systems"
+      ],
+      "Headquarters": "Redwood City, California, USA",
+      "Founded": "2017",
+      "status": "Active; unicorn valuation ~$1.65B"
+    },
+    "orgInfo": {
+      "description": "Dexterity, founded in Redwood City in 2017, builds full-stack robotics software that gives commodity arms vision, touch, and contextual intelligence to handle unstructured warehouse goods and load/unload containers.",
+      "location": "Redwood City, California, USA",
+      "website": "https://www.dexterity.ai"
+    },
+    "tags": [
+      "Logistics",
+      "Manipulation",
+      "USA"
+    ],
+    "sources": [
+      {
+        "url": "https://www.therobotreport.com/dexterity-picks-up-95m-funding-container-unloading-robots/",
+        "title": "Dexterity picks up $95M",
+        "type": "news"
+      }
+    ]
+  },
+  {
+    "id": "ind-pickle",
+    "name": "Pickle Robot",
+    "company": "Pickle Robot",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Physical AI for truck/trailer unloading",
+      "Key Products": [
+        "Pickle unloading robot"
+      ],
+      "Headquarters": "Cambridge, Massachusetts, USA",
+      "Founded": "2018",
+      "status": "Active; $50M Series B, 30+ unloading systems ordered"
+    },
+    "orgInfo": {
+      "description": "Pickle Robot, founded in Cambridge in 2018 by MIT alumni Andrew Meyer, Ariana Eisenstein and Dan Paluska, automates truck and trailer unloading using vision-driven robotic arms capable of lifting boxes up to ~60 lbs.",
+      "location": "Cambridge, Massachusetts, USA",
+      "website": "https://www.picklerobot.com"
+    },
+    "tags": [
+      "Logistics",
+      "Supply Chain",
+      "USA"
+    ],
+    "sources": [
+      {
+        "url": "https://www.therobotreport.com/pickle-robot-gets-orders-over-30-unloading-systems-plus-50m-funding/",
+        "title": "Pickle Robot gets orders for 30+ unloading systems plus $50M",
+        "type": "news"
+      },
+      {
+        "url": "https://www.bostonglobe.com/2025/01/02/business/pickle-robot-startup-trucks-warehouses/",
+        "title": "Cambridge startup Pickle Robot seeks to automate unloading trucks",
+        "type": "news"
+      }
+    ]
+  },
+  {
+    "id": "ind-hello-robot",
+    "name": "Hello Robot",
+    "company": "Hello Robot",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2017",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Affordable open mobile manipulators for research and assistive use",
+      "Key Products": [
+        "Stretch 3 / Stretch 4 mobile manipulator"
+      ],
+      "Headquarters": "Martinez, California, USA",
+      "Founded": "2017",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Hello Robot, founded in 2017 by Aaron Edsinger (ex-Google Robotics) and Charlie Kemp (Georgia Tech), builds the Stretch open-source mobile manipulator — a lightweight, sub-$20K platform widely used in assistive and research embodied-AI work.",
+      "location": "Martinez, California, USA",
+      "website": "https://hello-robot.com"
+    },
+    "tags": [
+      "Mobile Manipulator",
+      "Assistive",
+      "USA"
+    ],
+    "sources": [
+      {
+        "url": "https://spectrum.ieee.org/hello-robots-stretch-mobile-manipulator",
+        "title": "Hello Robot's Stretch Mobile Manipulator - IEEE Spectrum",
+        "type": "news"
+      },
+      {
+        "url": "https://hello-robot.com/",
+        "title": "Hello Robot official",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "vc-a16z",
+    "name": "Andreessen Horowitz (a16z)",
+    "company": "Andreessen Horowitz",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2009",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Series A, Growth",
+      "Notable Portfolio": [
+        "Agility Robotics",
+        "Hadrian",
+        "Anduril"
+      ],
+      "Headquarters": "Menlo Park, California, USA",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Through its American Dynamism fund (initially $600M, expanded over $1.1B by 2026), a16z invests in physical-AI and robotics companies including humanoid maker Agility Robotics and robotics-driven precision manufacturer Hadrian.",
+      "location": "Menlo Park, USA",
+      "website": "https://a16z.com"
+    },
+    "tags": [
+      "Venture Capital",
+      "USA",
+      "Tier 1",
+      "American Dynamism"
+    ],
+    "sources": [
+      {
+        "url": "https://a16z.com/american-dynamism-50-2025/",
+        "title": "The American Dynamism 50",
+        "type": "official"
+      },
+      {
+        "url": "https://a16z.com/ai-for-the-physical-world/",
+        "title": "AI for the Physical World",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind-agility"
+    ]
+  },
+  {
+    "id": "vc-khosla",
+    "name": "Khosla Ventures",
+    "company": "Khosla Ventures",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2004",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Series A, Series B",
+      "Notable Portfolio": [
+        "Physical Intelligence",
+        "Vayu Robotics",
+        "Field AI",
+        "Waabi"
+      ],
+      "Headquarters": "Menlo Park, California, USA",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Founded by Vinod Khosla. Active investor in frontier robotics and physical AI, having backed Physical Intelligence (foundation models for robots), self-driving company Waabi, and edge robotic autonomy via Field AI.",
+      "location": "Menlo Park, USA",
+      "website": "https://www.khoslaventures.com"
+    },
+    "tags": [
+      "Venture Capital",
+      "USA",
+      "Tier 1",
+      "Deep Tech"
+    ],
+    "sources": [
+      {
+        "url": "https://www.khoslaventures.com/portfolio",
+        "title": "Khosla Ventures Portfolio",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind-physical-intelligence"
+    ]
+  },
+  {
+    "id": "vc-lux",
+    "name": "Lux Capital",
+    "company": "Lux Capital",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2000",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Series A, Growth",
+      "Notable Portfolio": [
+        "Physical Intelligence",
+        "Anduril",
+        "Applied Intuition"
+      ],
+      "Headquarters": "New York City, USA",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Deep-tech venture firm with one of the strongest physical-AI/defense robotics portfolios — early backer of Anduril (2017), Applied Intuition (2017) and Physical Intelligence (2024).",
+      "location": "New York City, USA",
+      "website": "https://www.luxcapital.com"
+    },
+    "tags": [
+      "Venture Capital",
+      "USA",
+      "Deep Tech",
+      "Tier 1"
+    ],
+    "sources": [
+      {
+        "url": "https://www.luxcapital.com/companies",
+        "title": "Lux Capital Companies",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind-physical-intelligence"
+    ]
+  },
+  {
+    "id": "vc-founders-fund",
+    "name": "Founders Fund",
+    "company": "Founders Fund",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2005",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Series A, Series B, Growth",
+      "Notable Portfolio": [
+        "Anduril",
+        "Gecko Robotics",
+        "Built Robotics"
+      ],
+      "Headquarters": "San Francisco, California, USA",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Peter Thiel-co-founded firm known for contrarian frontier-tech bets. Robotics portfolio includes Anduril (defense autonomy), Gecko Robotics (infrastructure inspection), and Built Robotics (autonomous construction).",
+      "location": "San Francisco, USA",
+      "website": "https://foundersfund.com"
+    },
+    "tags": [
+      "Venture Capital",
+      "USA",
+      "Tier 1",
+      "Defense Tech"
+    ],
+    "sources": [
+      {
+        "url": "https://foundersfund.com/portfolio/",
+        "title": "Founders Fund Portfolio",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Founders_Fund",
+        "title": "Founders Fund - Wikipedia",
+        "type": "wiki"
+      }
+    ]
+  },
+  {
+    "id": "vc-bessemer",
+    "name": "Bessemer Venture Partners",
+    "company": "Bessemer Venture Partners",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1911",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Series A, Series B, Growth",
+      "Notable Portfolio": [
+        "ANYbotics",
+        "Waymo",
+        "Foxglove",
+        "Auterion"
+      ],
+      "Headquarters": "San Francisco, California, USA",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "One of the oldest US VC firms. Bessemer's robotics & physical-AI thesis includes ANYbotics (legged industrial robots, ETH spinout), Waymo, robotics tooling Foxglove, and autonomy stack Auterion.",
+      "location": "San Francisco, USA",
+      "website": "https://www.bvp.com"
+    },
+    "tags": [
+      "Venture Capital",
+      "USA",
+      "Tier 1"
+    ],
+    "sources": [
+      {
+        "url": "https://www.bvp.com/atlas/bessemer-predicts-robotics-and-physical-ai",
+        "title": "Bessemer Predicts: Robotics and physical AI",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "ind-anybotics"
+    ]
+  },
+  {
+    "id": "vc-gv",
+    "name": "GV (Google Ventures)",
+    "company": "GV",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2009",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Series A, Series B, Growth",
+      "Notable Portfolio": [
+        "RightHand Robotics",
+        "Veo Robotics",
+        "AMP Robotics"
+      ],
+      "Headquarters": "Mountain View, California, USA",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Alphabet's venture arm. Has consistently backed robotics applied to manipulation, recycling and collaborative manufacturing, including RightHand Robotics, AMP Robotics and Veo Robotics.",
+      "location": "Mountain View, USA",
+      "website": "https://www.gv.com"
+    },
+    "tags": [
+      "Venture Capital",
+      "USA",
+      "Corporate VC"
+    ],
+    "sources": [
+      {
+        "url": "https://www.gv.com/portfolio",
+        "title": "GV Portfolio",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "vc-innovation-endeavors",
+    "name": "Innovation Endeavors",
+    "company": "Innovation Endeavors",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2010",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Series A, Series B",
+      "Notable Portfolio": [
+        "Machina Labs",
+        "Vicarious Surgical",
+        "Fabric"
+      ],
+      "Headquarters": "Palo Alto, California, USA",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Founded by former Google CEO Eric Schmidt and Dror Berman; invests at the intersection of sensors, ML and robotics ('Super Evolution' thesis). Notable robotics bets include Machina Labs, Vicarious Surgical and Fabric.",
+      "location": "Palo Alto, USA",
+      "website": "https://www.innovationendeavors.com"
+    },
+    "tags": [
+      "Venture Capital",
+      "USA",
+      "Deep Tech"
+    ],
+    "sources": [
+      {
+        "url": "https://www.innovationendeavors.com/about",
+        "title": "About Innovation Endeavors",
+        "type": "official"
+      },
+      {
+        "url": "https://techcrunch.com/2024/01/25/innovation-endeavors-630m-fund-science-technology/",
+        "title": "Innovation Endeavors closes $630M for Fund V",
+        "type": "news"
+      }
+    ]
+  },
+  {
+    "id": "vc-tiger-global",
+    "name": "Tiger Global Management",
+    "company": "Tiger Global Management",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2001",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Series B, Series C, Growth",
+      "Notable Portfolio": [
+        "Locus Robotics",
+        "FORT Robotics",
+        "Carbon Robotics"
+      ],
+      "Headquarters": "New York City, USA",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Crossover/growth firm with extensive robotics check-writing — backed warehouse automation (Locus), industrial safety (FORT) and ag-robotics (Carbon Robotics) among others.",
+      "location": "New York City, USA",
+      "website": "https://www.tigerglobal.com"
+    },
+    "tags": [
+      "Venture Capital",
+      "USA",
+      "Growth"
+    ],
+    "sources": [
+      {
+        "url": "https://pitchbook.com/profiles/investor/42873-94",
+        "title": "Tiger Global Management investment portfolio | PitchBook",
+        "type": "news"
+      },
+      {
+        "url": "https://techcrunch.com/2021/09/16/actuator-5/",
+        "title": "Tiger's bullish robotic investments",
+        "type": "news"
+      }
+    ]
+  },
+  {
+    "id": "vc-ggv",
+    "name": "GGV Capital / Granite Asia",
+    "company": "GGV Capital",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2000",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Series A, Series B, Series C",
+      "Notable Portfolio": [
+        "Galbot (Galaxy Universal Robotics)"
+      ],
+      "Headquarters": "Menlo Park / Singapore (Asia ops as Granite)",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Cross-border VC; its Asia practice has led significant embodied-AI investments in China, most notably Galbot, currently one of China's best-funded humanoid/embodied-intelligence startups.",
+      "location": "Menlo Park, USA / Singapore",
+      "website": "https://www.ggvc.com"
+    },
+    "tags": [
+      "Venture Capital",
+      "USA",
+      "China",
+      "Cross-border"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/GGV_Capital",
+        "title": "GGV Capital - Wikipedia",
+        "type": "wiki"
+      },
+      {
+        "url": "https://en.tmtpost.com/post/7605038",
+        "title": "China's GALBOT Raises Record $150 Million",
+        "type": "news"
+      }
+    ],
+    "relatedIds": [
+      "ind-galbot"
+    ]
+  },
+  {
+    "id": "vc-sinovation",
+    "name": "Sinovation Ventures 创新工场",
+    "company": "Sinovation Ventures",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2009",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Series A, Series B",
+      "Notable Portfolio": [
+        "Megvii",
+        "AInnovation"
+      ],
+      "Headquarters": "Beijing, China",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Founded by Kai-Fu Lee. ~$3B AUM with explicit focus on AI, robotics/automation and semiconductor; one of China's most established AI/robotics-focused funds.",
+      "location": "Beijing, China",
+      "website": "https://www.sinovationventures.com"
+    },
+    "tags": [
+      "Venture Capital",
+      "China"
+    ],
+    "sources": [
+      {
+        "url": "https://www.sinovationventures.com/",
+        "title": "Sinovation Ventures",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sinovation_Ventures",
+        "title": "Sinovation Ventures - Wikipedia",
+        "type": "wiki"
+      }
+    ]
+  },
+  {
+    "id": "vc-5y",
+    "name": "5Y Capital 五源资本",
+    "company": "5Y Capital",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2008",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Series A, Series B",
+      "Notable Portfolio": [
+        "Digua Robot 地瓜机器人",
+        "Noitom 诺亦腾"
+      ],
+      "Headquarters": "Shanghai, China",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Formerly Morningside VC; rebranded as 5Y Capital in 2020. Manages dual-currency funds and is among the most active investors in China's embodied AI infrastructure.",
+      "location": "Shanghai, China",
+      "website": "https://www.5ycap.com"
+    },
+    "tags": [
+      "Venture Capital",
+      "China"
+    ],
+    "sources": [
+      {
+        "url": "https://www.5ycap.com/en/",
+        "title": "5Y Capital",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/5Y_Capital",
+        "title": "5Y Capital - Wikipedia",
+        "type": "wiki"
+      }
+    ]
+  },
+  {
+    "id": "vc-hillhouse",
+    "name": "Hillhouse Capital 高瓴资本",
+    "company": "Hillhouse Capital",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2005",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Series A, Series B, Growth",
+      "Notable Portfolio": [
+        "Agibot 智元机器人",
+        "Xinghai 星海图",
+        "TARS 它石智航"
+      ],
+      "Headquarters": "Singapore / Beijing / Hong Kong",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Founded by Zhang Lei; Hillhouse Ventures has become one of the most active investors in China's embodied-AI track, with stakes in Agibot, Xinghai, TARS and other humanoid/embodied startups.",
+      "location": "Singapore / Beijing, China",
+      "website": "https://www.hillhouseinvestment.com"
+    },
+    "tags": [
+      "Venture Capital",
+      "China",
+      "Tier 1"
+    ],
+    "sources": [
+      {
+        "url": "https://www.hillhouseinvestment.com/zh-hans/about/",
+        "title": "关于高瓴",
+        "type": "official"
+      },
+      {
+        "url": "https://equalocean.com/news/2026041621834",
+        "title": "TARS raised $455 million Pre-A round",
+        "type": "news"
+      }
+    ]
+  },
+  {
+    "id": "vc-hongshan",
+    "name": "HongShan 红杉中国 (Sequoia China)",
+    "company": "HongShan Capital Group",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2005",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Series A, Series B, Growth",
+      "Notable Portfolio": [
+        "Unitree Robotics",
+        "Agibot 智元机器人",
+        "X Square Robot",
+        "TARS 它石智航"
+      ],
+      "Headquarters": "Beijing / Hong Kong",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Spun off from Sequoia in 2023 and rebranded HongShan. The single most active VC across China's robotics and embodied-AI landscape, with stakes in Unitree, Agibot, X Square Robot and TARS.",
+      "location": "Beijing, China",
+      "website": "https://www.hongshan.com"
+    },
+    "tags": [
+      "Venture Capital",
+      "China",
+      "Tier 1"
+    ],
+    "sources": [
+      {
+        "url": "https://equalocean.com/news/2026041621834",
+        "title": "TARS raised $455 million in a Pre-A round",
+        "type": "news"
+      },
+      {
+        "url": "https://www.cnbc.com/2025/09/08/alibaba-leads-100-million-investment-in-chinese-humanoid-robot-startup.html",
+        "title": "Alibaba leads $100M in Chinese humanoid robot startup",
+        "type": "news"
+      },
+      {
+        "url": "https://capital.com/en-int/learn/ipo/agibot-ipo",
+        "title": "Agibot IPO",
+        "type": "news"
+      }
+    ],
+    "relatedIds": [
+      "ind-unitree"
+    ]
+  },
+  {
+    "id": "vc-idg",
+    "name": "IDG Capital",
+    "company": "IDG Capital",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1992",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Series A, Series B, Growth",
+      "Notable Portfolio": [
+        "RoboEra (星动纪元)",
+        "Galaxybot (银河通用)"
+      ],
+      "Headquarters": "Beijing, China",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "One of the longest-running China VCs. Currently active in Chinese humanoid robotics, co-leading rounds in RoboEra (USD 200M+) and participating in Galaxybot's angel round.",
+      "location": "Beijing, China",
+      "website": "https://www.idgcapital.com"
+    },
+    "tags": [
+      "Venture Capital",
+      "China"
+    ],
+    "sources": [
+      {
+        "url": "https://www.roboticstomorrow.com/news/2026/05/08/robotera-raises-over-usd-200-million-in-new-round-led-by-sf-group-hsg-and-idg-capital/26534/",
+        "title": "ROBOTERA Raises Over USD 200 Million",
+        "type": "news"
+      }
+    ]
+  },
+  {
+    "id": "vc-source-code",
+    "name": "Source Code Capital 源码资本",
+    "company": "Source Code Capital",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2014",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Series A, Series B",
+      "Notable Portfolio": [
+        "Unitree Robotics",
+        "Mech-Mind Robotics",
+        "Booster Robotics"
+      ],
+      "Headquarters": "Beijing, China",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Beijing-based ~$7B AUM venture firm. AI & robotics is a core thesis: portfolio includes quadruped/humanoid maker Unitree, industrial vision Mech-Mind, and humanoid startup Booster Robotics.",
+      "location": "Beijing, China",
+      "website": "https://sourcecodecap.com"
+    },
+    "tags": [
+      "Venture Capital",
+      "China"
+    ],
+    "sources": [
+      {
+        "url": "https://sourcecodecap.com/en/",
+        "title": "Source Code Capital",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Source_Code_Capital",
+        "title": "Source Code Capital - Wikipedia",
+        "type": "wiki"
+      },
+      {
+        "url": "https://autonews.gasgoo.com/articles/market-industry/embodied-ai-company-booster-robotics-completes-nearly-1-billion-yuan-financing-2046225660790435840",
+        "title": "Booster Robotics completes ~1B yuan financing",
+        "type": "news"
+      }
+    ],
+    "relatedIds": [
+      "ind-booster",
+      "ind-unitree"
+    ]
+  },
+  {
+    "id": "lab-sail",
+    "name": "Stanford SAIL",
+    "company": "Stanford University",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "1963",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Robot manipulation, learning, autonomous systems, VLA models",
+      "Key Investigators": [
+        "Chelsea Finn",
+        "Fei-Fei Li",
+        "Dorsa Sadigh",
+        "Marco Pavone"
+      ],
+      "Notable Projects": [
+        "BEHAVIOR benchmark",
+        "SAIL-Toyota Center for AI Research"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "The Stanford Artificial Intelligence Laboratory (founded 1963) hosts 30+ robots and 100+ researchers. Robotics groups led by Finn, Sadigh, Li and Pavone are central to manipulation, imitation learning and VLA research.",
+      "location": "Stanford, USA",
+      "website": "https://ai.stanford.edu"
+    },
+    "tags": [
+      "Academic",
+      "USA",
+      "Manipulation",
+      "VLA"
+    ],
+    "sources": [
+      {
+        "url": "https://ai.stanford.edu/",
+        "title": "Stanford Artificial Intelligence Laboratory",
+        "type": "official"
+      },
+      {
+        "url": "https://ai.stanford.edu/research-groups/",
+        "title": "Research Groups – Stanford AI Lab",
+        "type": "official"
+      },
+      {
+        "url": "https://aicenter.stanford.edu/about",
+        "title": "SAIL-Toyota Center For AI Research",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "sw-bcz-fm",
+      "sw-octo",
+      "sw-pi0",
+      "sw-pi0-fast",
+      "sw-vima",
+      "sw-bc-z",
+      "sw-bridgedata-v2",
+      "sw-droid",
+      "sw-mobile-aloha",
+      "sw-robonet",
+      "sw-roboturk",
+      "sw4",
+      "sw-behavior-1k",
+      "sw-meta-world",
+      "sw-roboarena"
+    ]
+  },
+  {
+    "id": "lab-bair-autolab",
+    "name": "UC Berkeley AUTOLab (BAIR)",
+    "company": "UC Berkeley",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "1995",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Robust grasping, manipulation, surgical robotics, warehouse automation",
+      "Key Investigators": [
+        "Ken Goldberg"
+      ],
+      "Notable Projects": [
+        "Dex-Net (grasp planning)",
+        "CITRIS People and Robots Initiative"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "AUTOLab, directed by Ken Goldberg, is the manipulation flagship within Berkeley's BAIR ecosystem — combining analytic geometry/planning with deep learning for grasping, surgical robotics and home/warehouse manipulation.",
+      "location": "Berkeley, USA",
+      "website": "https://autolab.berkeley.edu"
+    },
+    "tags": [
+      "Academic",
+      "USA",
+      "Manipulation"
+    ],
+    "sources": [
+      {
+        "url": "https://autolab.berkeley.edu/",
+        "title": "Berkeley AUTOLab",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ken_Goldberg",
+        "title": "Ken Goldberg - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "relatedIds": [
+      "sw-bcz-fm",
+      "sw-daydreamer",
+      "sw-octo",
+      "sw-pi0",
+      "sw-pi0-fast",
+      "sw-bc-z",
+      "sw-berkeley-ur5",
+      "sw-bridgedata-v2",
+      "sw-droid",
+      "sw-fmb",
+      "sw-robonet",
+      "sw-meta-world",
+      "sw-roboarena",
+      "sw-simplerenv",
+      "sw-act"
+    ]
+  },
+  {
+    "id": "lab-mit-csail",
+    "name": "MIT CSAIL",
+    "company": "Massachusetts Institute of Technology",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "2003",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Distributed robotics, dynamic locomotion, manipulation, soft robotics, autonomy",
+      "Key Investigators": [
+        "Daniela Rus",
+        "Russ Tedrake",
+        "Pulkit Agrawal"
+      ],
+      "Notable Projects": [
+        "Distributed Robotics Lab",
+        "Drake (planning/control toolbox)"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "The Computer Science and AI Lab at MIT (formed 2003 by merging AI Lab + LCS). Daniela Rus directs CSAIL; Russ Tedrake leads control/dynamic locomotion research, with Pulkit Agrawal among newer robot-learning faculty.",
+      "location": "Cambridge, USA",
+      "website": "https://www.csail.mit.edu"
+    },
+    "tags": [
+      "Academic",
+      "USA",
+      "Manipulation",
+      "Locomotion"
+    ],
+    "sources": [
+      {
+        "url": "https://www.csail.mit.edu/person/daniela-rus",
+        "title": "Daniela Rus | MIT CSAIL",
+        "type": "official"
+      },
+      {
+        "url": "https://www.csail.mit.edu/person/russ-tedrake",
+        "title": "Russ Tedrake | MIT CSAIL",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "sw-gensim",
+      "sw-robogen",
+      "sw-diffusion-policy",
+      "sw-drake",
+      "sw-genesis"
+    ]
+  },
+  {
+    "id": "lab-cmu-ri",
+    "name": "CMU Robotics Institute",
+    "company": "Carnegie Mellon University",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "1979",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Field robotics, autonomous vehicles, manipulation, lunar/space robotics",
+      "Key Investigators": [
+        "Raj Reddy (founding)",
+        "Deepak Pathak",
+        "Abhinav Gupta"
+      ],
+      "Notable Projects": [
+        "Navlab autonomous vehicles",
+        "MoonRanger lunar rover",
+        "CHIMP humanoid"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Founded 1979, the world's first academic department devoted exclusively to robotics; created the first Robotics PhD (1988) and undergraduate major (2023). Hosts NREC and the Field Robotics Center.",
+      "location": "Pittsburgh, USA",
+      "website": "https://www.ri.cmu.edu"
+    },
+    "tags": [
+      "Academic",
+      "USA",
+      "Field Robotics",
+      "Tier 1"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Robotics_Institute",
+        "title": "Robotics Institute - Wikipedia",
+        "type": "wiki"
+      },
+      {
+        "url": "https://www.cmu.edu/news/stories/archives/2026/february/cmus-robotics-innovation-center-propels-research-from-deep-sea-to-space",
+        "title": "CMU's Robotics Innovation Center",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "sw-octo",
+      "sw-robonet",
+      "sw-robogen"
+    ]
+  },
+  {
+    "id": "lab-nyu-grail",
+    "name": "NYU GRAIL (General Robotics & AI Lab)",
+    "company": "New York University",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "2019",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Robot learning, dexterity, tactile sensing, open-source robots",
+      "Key Investigators": [
+        "Lerrel Pinto"
+      ],
+      "Notable Projects": [
+        "Robot Utility Models",
+        "AnySkin (tactile sensor)"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Lerrel Pinto's group at NYU Courant focuses on robot learning, sensory representations, and affordable open-source robots; high-impact recent work includes Robot Utility Models and AnySkin.",
+      "location": "New York City, USA",
+      "website": "https://www.lerrelpinto.com"
+    },
+    "tags": [
+      "Academic",
+      "USA",
+      "Manipulation",
+      "Robot Learning"
+    ],
+    "sources": [
+      {
+        "url": "https://www.lerrelpinto.com/",
+        "title": "Lerrel Pinto",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "h4"
+    ]
+  },
+  {
+    "id": "lab-eth-rsl",
+    "name": "ETH Zurich Robotic Systems Lab (RSL)",
+    "company": "ETH Zurich",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "2012",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Legged locomotion, learning-based control, field/planetary robotics",
+      "Key Investigators": [
+        "Marco Hutter"
+      ],
+      "Notable Projects": [
+        "ANYmal quadruped",
+        "ANYbotics spinout"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Marco Hutter's RSL is the birthplace of the ANYmal quadruped and the commercial spinout ANYbotics — globally leading in learning-based legged locomotion and industrial inspection robotics.",
+      "location": "Zürich, Switzerland",
+      "website": "https://rsl.ethz.ch"
+    },
+    "tags": [
+      "Academic",
+      "Europe",
+      "Locomotion",
+      "Quadruped"
+    ],
+    "sources": [
+      {
+        "url": "https://rsl.ethz.ch/",
+        "title": "Robotic Systems Lab - ETH Zurich",
+        "type": "official"
+      },
+      {
+        "url": "https://spectrum.ieee.org/marco-hutter-ai-institute",
+        "title": "Marco Hutter Wants to Solve Robotics' Hard Problems",
+        "type": "news"
+      }
+    ],
+    "relatedIds": [
+      "sw-anymal-rl",
+      "sw-ocs2"
+    ]
+  },
+  {
+    "id": "lab-mpi-is",
+    "name": "Max Planck Institute for Intelligent Systems (MPI-IS)",
+    "company": "Max Planck Society",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "2011",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Haptic intelligence, soft/bio-inspired robotics, micro-/nano-robotics, learning",
+      "Key Investigators": [
+        "Katherine Kuchenbecker",
+        "Metin Sitti (alumnus)",
+        "Bernhard Schölkopf"
+      ],
+      "Notable Projects": [
+        "Haptic Intelligence Department",
+        "Physical Intelligence Department"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Dual-campus Max Planck institute (Stuttgart + Tübingen). Stuttgart focuses on physical realisation — soft robotics, haptic intelligence, micro/nano-robotics — while Tübingen anchors ML and CV foundations.",
+      "location": "Stuttgart / Tübingen, Germany",
+      "website": "https://is.mpg.de"
+    },
+    "tags": [
+      "Academic",
+      "Europe",
+      "Soft Robotics",
+      "Haptics"
+    ],
+    "sources": [
+      {
+        "url": "https://is.mpg.de/",
+        "title": "Max Planck Institute for Intelligent Systems",
+        "type": "official"
+      },
+      {
+        "url": "https://is.mpg.de/en/robotics",
+        "title": "Robotics – MPI-IS",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "lab-utokyo-jsk",
+    "name": "U-Tokyo JSK Lab (Jouhou System Kougaku)",
+    "company": "University of Tokyo",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "1988",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Whole-body humanoid behavior, musculoskeletal robots, vision-based robotics",
+      "Key Investigators": [
+        "Masayuki Inaba",
+        "Kei Okada"
+      ],
+      "Notable Projects": [
+        "H6/H7 humanoids",
+        "Kojiro/Kenshiro musculoskeletal humanoids"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "The JSK Lab at U-Tokyo (Department of Mechano-Informatics) has produced the H-series humanoids and the musculoskeletal Kojiro/Kenshiro robots — pioneering whole-body humanoid behavior research since the late 1980s.",
+      "location": "Tokyo, Japan",
+      "website": "http://www.jsk.t.u-tokyo.ac.jp"
+    },
+    "tags": [
+      "Academic",
+      "Japan",
+      "Humanoid"
+    ],
+    "sources": [
+      {
+        "url": "http://www.jsk.t.u-tokyo.ac.jp/research/h6/H6_H7.html",
+        "title": "Humanoid Robot H6",
+        "type": "official"
+      },
+      {
+        "url": "https://spectrum.ieee.org/kojiro-musculoskeletal-humanoid-robot",
+        "title": "Kojiro Humanoid Robot Mimics Your Musculoskeletal System",
+        "type": "news"
+      }
+    ]
+  },
+  {
+    "id": "lab-tsinghua-tea",
+    "name": "Tsinghua Embodied AI Lab (TEA Lab)",
+    "company": "Tsinghua University (IIIS)",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "2022",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Deep RL, robotic manipulation, tactile sensing, imitation learning",
+      "Key Investigators": [
+        "Huazhe Xu"
+      ],
+      "Notable Projects": [
+        "DP3 (3D diffusion policy)",
+        "9DTact tactile sensor",
+        "Arraybot"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Huazhe Xu's lab at Tsinghua IIIS focuses on deep RL, manipulation, and tactile sensing; published work includes DP3 (3D Diffusion Policy), 9DTact and the Arraybot platform, with CVPR/CoRL/ICRA awards.",
+      "location": "Beijing, China",
+      "website": "http://hxu.rocks"
+    },
+    "tags": [
+      "Academic",
+      "China",
+      "Manipulation",
+      "Reinforcement Learning"
+    ],
+    "sources": [
+      {
+        "url": "https://iiis.tsinghua.edu.cn/en/Research/Research_Groups/Tsinghua_Embodied_AI_Lab.htm",
+        "title": "Tsinghua Embodied AI Lab - IIIS",
+        "type": "official"
+      },
+      {
+        "url": "http://hxu.rocks/",
+        "title": "Huazhe Xu",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "sw-cogact",
+      "sw-rdt-1b",
+      "sw-roboflamingo",
+      "sw-gensim",
+      "sw-robogen"
+    ]
+  },
+  {
+    "id": "lab-pku-hyperplane",
+    "name": "PKU Hyperplane Lab (Hao Dong)",
+    "company": "Peking University (CFCS)",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "2019",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Embodied AI, large models, dexterous manipulation, RL, CV",
+      "Key Investigators": [
+        "Hao Dong"
+      ],
+      "Notable Projects": [
+        "TensorLayer",
+        "PKU-Agibot Lab joint work",
+        "Embodied AI manipulation systems"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Hao Dong's group at PKU's Center on Frontiers of Computing Studies (CFCS) is one of China's most influential academic embodied-AI labs, focused on scaling-law cost-effective general-purpose robots, dexterous manipulation, and large-model robotics.",
+      "location": "Beijing, China",
+      "website": "https://zsdonghao.github.io"
+    },
+    "tags": [
+      "Academic",
+      "China",
+      "Manipulation",
+      "VLA"
+    ],
+    "sources": [
+      {
+        "url": "https://zsdonghao.github.io/",
+        "title": "Hao Dong - Peking University",
+        "type": "official"
+      },
+      {
+        "url": "https://cfcs.pku.edu.cn/english/people/faculty/haodong/index.htm",
+        "title": "CFCS - Hao Dong",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "lab-shanghai-ailab",
+    "name": "Shanghai AI Lab — Embodied AI Center 上海人工智能实验室",
+    "company": "Shanghai Artificial Intelligence Laboratory",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "2020",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Embodied AGI, foundation models, 3D perception, simulation",
+      "Key Investigators": [
+        "Jiangmiao Pang",
+        "Tai Wang"
+      ],
+      "Notable Projects": [
+        "GRUtopia simulation platform",
+        "EO-1 embodied reasoning system",
+        "Intern Robotics"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Government-backed AI lab whose Embodied AI Center develops foundation models for embodied AGI; key outputs include the open-source GRUtopia 2.0 simulator and the EO-1 embodied-reasoning robotic system.",
+      "location": "Shanghai, China",
+      "website": "https://www.shlab.org.cn"
+    },
+    "tags": [
+      "Academic",
+      "China",
+      "Simulation",
+      "Embodied AGI"
+    ],
+    "sources": [
+      {
+        "url": "https://oceanpang.github.io/",
+        "title": "Jiangmiao Pang",
+        "type": "official"
+      },
+      {
+        "url": "https://tai-wang.github.io/",
+        "title": "Tai Wang",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "sw-agibot-world"
+    ]
+  },
+  {
+    "id": "lab-usc-lira",
+    "name": "USC LIRA Lab (Learning & Interactive Robot Autonomy)",
+    "company": "University of Southern California",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "2020",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Robot learning, safe human-robot interaction, multi-agent systems",
+      "Key Investigators": [
+        "Stefanos Nikolaidis"
+      ],
+      "Notable Projects": [
+        "Algorithms for interactive learning from humans",
+        "Safe multi-robot coordination"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "LIRA Lab at USC develops algorithms for robot learning, safe and efficient human-robot interaction, and multi-agent systems. Part of USC's broader Robotics & Autonomous Systems Center.",
+      "location": "Los Angeles, USA",
+      "website": "https://liralab.usc.edu"
+    },
+    "tags": [
+      "Academic",
+      "USA",
+      "Robot Learning",
+      "HRI"
+    ],
+    "sources": [
+      {
+        "url": "https://liralab.usc.edu/",
+        "title": "USC Lira Lab",
+        "type": "official"
+      },
+      {
+        "url": "https://rasc.usc.edu/",
+        "title": "Robotics and Autonomous Systems Center - USC",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "sw-furniturebench"
+    ]
+  },
+  {
+    "id": "lab-kaist-hubo",
+    "name": "KAIST HUBO Lab",
+    "company": "KAIST",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "2002",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Humanoid robotics, bipedal locomotion, disaster-response robotics",
+      "Key Investigators": [
+        "Jun-Ho Oh"
+      ],
+      "Notable Projects": [
+        "HUBO humanoid series",
+        "DRC-HUBO (DARPA Robotics Challenge 2015 winner)"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "KAIST's humanoid research group built the HUBO series, including DRC-HUBO which won the 2015 DARPA Robotics Challenge. Spin-out company Rainbow Robotics commercialized the platform.",
+      "location": "Daejeon, South Korea",
+      "website": "https://www.kaist.ac.kr"
+    },
+    "tags": [
+      "Academic",
+      "Korea",
+      "Humanoid"
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/HUBO",
+        "title": "HUBO - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "relatedIds": [
+      "sw-furniturebench",
+      "sw-centroidal-dynamics"
+    ]
+  },
+  {
+    "id": "lab-gatech-irim",
+    "name": "Georgia Tech IRIM",
+    "company": "Georgia Institute of Technology",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "2006",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Manipulation, navigation, locomotion, human-augmentation, sim2real",
+      "Key Investigators": [
+        "Sonia Chernova",
+        "Seth Hutchinson (former exec dir)"
+      ],
+      "Notable Projects": [
+        "Robotarium swarm testbed",
+        "Human Augmentation Center"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Georgia Tech's Institute for Robotics and Intelligent Machines (founded 2006) is a multidisciplinary unit spanning CoC, CoE and GTRI; offers an interdisciplinary Robotics PhD and operates flagship facilities like the Robotarium.",
+      "location": "Atlanta, USA",
+      "website": "https://research.gatech.edu/robotics"
+    },
+    "tags": [
+      "Academic",
+      "USA",
+      "Multi-disciplinary"
+    ],
+    "sources": [
+      {
+        "url": "https://research.gatech.edu/robotics",
+        "title": "Institute for Robotics and Intelligent Machines (IRIM)",
+        "type": "official"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Georgia_Institute_of_Technology_Institute_for_Robotics_and_Intelligent_Machines",
+        "title": "Georgia Tech IRIM - Wikipedia",
+        "type": "wiki"
+      }
+    ],
+    "relatedIds": [
+      "sw-habitat2"
+    ]
+  },
+  {
+    "id": "lab-iit-icub",
+    "name": "Italian Institute of Technology (IIT) — iCub Tech",
+    "company": "Istituto Italiano di Tecnologia",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "2005",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Humanoid robotics, embodied cognition, jet-powered humanoid flight, neuro-robotics",
+      "Key Investigators": [
+        "Daniele Pucci",
+        "Giorgio Metta"
+      ],
+      "Notable Projects": [
+        "iCub humanoid",
+        "iRonCub jet-powered flying humanoid"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "IIT in Genoa is the home of the open-source iCub humanoid and, more recently, iRonCub3 — the world's first jet-powered flying humanoid. Hub for European humanoid robotics research with 500+ staff.",
+      "location": "Genoa, Italy",
+      "website": "https://www.iit.it"
+    },
+    "tags": [
+      "Academic",
+      "Europe",
+      "Humanoid",
+      "iCub"
+    ],
+    "sources": [
+      {
+        "url": "https://www.iit.it/research/facilities/icub-tech",
+        "title": "iCub Tech - IIT",
+        "type": "official"
+      },
+      {
+        "url": "https://www.eurekalert.org/news-releases/1088012",
+        "title": "Researchers at IIT have demonstrated that a humanoid robot can fly",
+        "type": "news"
+      }
+    ]
+  },
+  {
+    "id": "lab-jpl-robotics",
+    "name": "JPL Robotics Section",
+    "company": "NASA Jet Propulsion Laboratory",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "1936",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Planetary mobility, manipulation, autonomy for in-situ exploration",
+      "Key Investigators": [
+        "Brett Kennedy (Section 358 mgr)",
+        "Kerry Klein"
+      ],
+      "Notable Projects": [
+        "Perseverance/Curiosity Mars rovers",
+        "EELS robotic snake",
+        "Venus Aerobot"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "JPL's Robotic Mobility & Manipulation Section (Section 358, ~130 engineers) designed all five Mars rovers and Ingenuity helicopter, and pursues exotic platforms like the EELS snake and Venus aerobots.",
+      "location": "Pasadena, USA",
+      "website": "https://www-robotics.jpl.nasa.gov"
+    },
+    "tags": [
+      "Government Lab",
+      "USA",
+      "Space Robotics"
+    ],
+    "sources": [
+      {
+        "url": "https://www-robotics.jpl.nasa.gov/",
+        "title": "JPL Robotics",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "lab-imperial-prl",
+    "name": "Imperial College Personal Robotics Lab",
+    "company": "Imperial College London",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "2001",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Assistive robotics, human-robot interaction, shared control, user modeling",
+      "Key Investigators": [
+        "Yiannis Demiris"
+      ],
+      "Notable Projects": [
+        "Robotic dressing assistance",
+        "Smart wheelchair shared control"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Founded in 2001 by Yiannis Demiris within Imperial's EEE department; researches perception, learning and shared control for robots that assist users in physical, cognitive and social tasks.",
+      "location": "London, UK",
+      "website": "https://www.imperial.ac.uk/personal-robotics/"
+    },
+    "tags": [
+      "Academic",
+      "Europe",
+      "HRI",
+      "Assistive"
+    ],
+    "sources": [
+      {
+        "url": "https://www.imperial.ac.uk/personal-robotics/",
+        "title": "Personal Robotics Lab - Imperial",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "sw-rlbench"
+    ]
+  },
+  {
+    "id": "lab-princeton-visualai",
+    "name": "Princeton Visual AI Lab",
+    "company": "Princeton University",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Computer vision, vision-language navigation, language-guided robotics",
+      "Key Investigators": [
+        "Olga Russakovsky",
+        "Jia Deng"
+      ],
+      "Notable Projects": [
+        "Language-guided robot navigation",
+        "Robotics at Princeton initiative"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Olga Russakovsky's lab works on vision-language robotic systems including instruction-following navigation; Jia Deng's group anchors 3D vision and is part of the broader Robotics@Princeton initiative.",
+      "location": "Princeton, USA",
+      "website": "https://visualai.princeton.edu"
+    },
+    "tags": [
+      "Academic",
+      "USA",
+      "Vision",
+      "Navigation"
+    ],
+    "sources": [
+      {
+        "url": "https://visualai.princeton.edu/research.html",
+        "title": "Princeton Visual AI Lab",
+        "type": "official"
+      },
+      {
+        "url": "https://robo.princeton.edu/",
+        "title": "Robotics at Princeton",
+        "type": "official"
+      }
+    ]
+  },
+  {
+    "id": "lab-upenn-grasp",
+    "name": "UPenn GRASP Lab",
+    "company": "University of Pennsylvania",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "1979",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Aerial robotics, multi-robot/swarm systems, learning in robotics, perception",
+      "Key Investigators": [
+        "Vijay Kumar",
+        "Pratik Chaudhari",
+        "Daniel Lee (former)"
+      ],
+      "Notable Projects": [
+        "Autonomous micro-aerial vehicle swarms",
+        "Exyn Technologies spinout"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Founded in 1979, GRASP is Penn's interdisciplinary robotics hub, internationally known for Vijay Kumar's multi-robot/aerial work and spinouts like Exyn Technologies; Pratik Chaudhari leads learning-in-robotics research.",
+      "location": "Philadelphia, USA",
+      "website": "https://www.grasp.upenn.edu"
+    },
+    "tags": [
+      "Academic",
+      "USA",
+      "Aerial Robotics",
+      "Multi-robot"
+    ],
+    "sources": [
+      {
+        "url": "https://www.grasp.upenn.edu/",
+        "title": "GRASP Lab - UPenn",
+        "type": "official"
+      },
+      {
+        "url": "https://www.kumarrobotics.org/current-members/",
+        "title": "Vijay Kumar Lab",
+        "type": "official"
+      }
+    ],
+    "relatedIds": [
+      "sw-robonet",
+      "sw-eureka"
+    ]
+  },
+  {
+    "id": "lab-epfl-biorob",
+    "name": "EPFL BioRob (Biorobotics Laboratory)",
+    "company": "EPFL",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "2002",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Bio-inspired locomotion, neuromechanical control, amphibious/quadruped robots, exoskeletons",
+      "Key Investigators": [
+        "Auke Ijspeert"
+      ],
+      "Notable Projects": [
+        "Pleurobot (salamander)",
+        "AmphiBot",
+        "OroBOT"
+      ],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Auke Ijspeert's BioRob at EPFL studies movement control across animals and robots using coupled nonlinear oscillators (CPGs); famous for amphibious salamander-style robots and Salamandra ERC Synergy project.",
+      "location": "Lausanne, Switzerland",
+      "website": "https://www.epfl.ch/labs/biorob/"
+    },
+    "tags": [
+      "Academic",
+      "Europe",
+      "Bio-inspired",
+      "Locomotion"
+    ],
+    "sources": [
+      {
+        "url": "https://www.epfl.ch/labs/biorob/",
+        "title": "Biorobotics Laboratory (BioRob)",
+        "type": "official"
+      },
+      {
+        "url": "https://www.epfl.ch/labs/biorob/people/ijspeert/",
+        "title": "Auke Jan Ijspeert ‒ BioRob ‐ EPFL",
+        "type": "official"
+      }
     ]
   }
 ]
