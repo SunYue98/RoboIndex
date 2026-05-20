@@ -8793,7 +8793,9 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "stg-vc-msft"
+    ]
   },
   {
     "id": "sensor-mech-mind-pro-m",

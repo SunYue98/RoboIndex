@@ -1,0 +1,1583 @@
+[
+  {
+    "id": "stg-vc-openai-startup-fund",
+    "name": "OpenAI Startup Fund",
+    "company": "OpenAI",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2021",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage",
+      "Notable Portfolio": ["Figure AI", "1X Technologies", "Physical Intelligence", "Harvey", "Cursor"],
+      "Headquarters": "San Francisco, USA",
+      "Founded": "2021",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "OpenAI Startup Fund is a venture investment vehicle affiliated with OpenAI, launched in 2021. It backs early-stage companies applying AI to large industries; in robotics, it co-led/participated in Figure AI's funding rounds and was an early backer of 1X.",
+      "location": "San Francisco, USA",
+      "website": "https://www.openai.fund/"
+    },
+    "tags": ["USA", "Early Stage", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.openai.fund/about", "title": "About | OpenAI Startup Fund", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://techcrunch.com/2025/03/01/openais-startup-empire-the-companies-backed-by-its-venture-fund/", "title": "OpenAI's startup empire: The companies backed by its venture fund", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": "OpenAI Startup Fund is operated as a SPV-style vehicle; distinct from the OpenAI parent."
+    }
+  },
+  {
+    "id": "stg-vc-parkway",
+    "name": "Parkway Venture Capital",
+    "company": "Parkway Venture Capital LLC",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2019",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth",
+      "Notable Portfolio": ["Figure AI", "ZeroAvia", "Astranis"],
+      "Headquarters": "New York, USA",
+      "Founded": "2019",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Parkway Venture Capital is a New York-based growth-stage venture firm founded in 2019 by Gregg Hill and Jesse Coors-Blankenship. It is best known among robotics investors as a lead backer of Figure AI across multiple rounds.",
+      "location": "New York, USA",
+      "website": "https://www.parkway.vc/"
+    },
+    "tags": ["USA", "Growth", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.parkway.vc/", "title": "Parkway VC", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.privateequityinternational.com/institution-profiles/parkway-venture-capital.html", "title": "Parkway Venture Capital | Institution Profile", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-intel-capital",
+    "name": "Intel Capital",
+    "company": "Intel Corporation",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1991",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["Figure AI", "Cloudera", "MongoDB", "VMware"],
+      "Headquarters": "Santa Clara, USA",
+      "Founded": "1991",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Intel Capital is the corporate venture arm of Intel Corporation, founded in 1991 and widely credited as the first major CVC. It announced plans in January 2025 to spin out as a standalone fund. The fund has invested in robotics and AI compute infrastructure, including Figure AI.",
+      "location": "Santa Clara, USA",
+      "website": "https://www.intelcapital.com/"
+    },
+    "tags": ["USA", "Strategic", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Intel_Capital", "title": "Intel Capital - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://www.intelcapital.com/", "title": "Intel Capital - Official Site", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": "In Jan 2025 Intel announced plans to spin out Intel Capital as an independent fund."
+    }
+  },
+  {
+    "id": "stg-vc-align-ventures",
+    "name": "Align Ventures",
+    "company": "Align Ventures",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2013",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage",
+      "Notable Portfolio": ["Figure AI", "Coterie", "Jinx"],
+      "Headquarters": "New York, USA",
+      "Founded": "2013",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Align Ventures is a New York-based venture firm led by managing partners Ben Bryce and Grant Hosking, investing across consumer, AI and robotics. It participated in Figure AI's Series B and Series C financings.",
+      "location": "New York, USA",
+      "website": "https://align.vc/"
+    },
+    "tags": ["USA", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://align.vc/", "title": "Align Ventures", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.cooley.com/news/coverage/2025/2025-09-16-align-ventures-invests-in-figure-$1-billion-series-c-financing", "title": "Align Ventures Invests in Figure's $1B Series C Financing (Cooley)", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Headquarters", "website", "Notable Portfolio (Figure AI)"],
+      "fields_uncertain": ["Founded"],
+      "notes": "Founding year reported by Tracxn (2013); not on official site, lower confidence on that field."
+    }
+  },
+  {
+    "id": "stg-vc-bezos-expeditions",
+    "name": "Bezos Expeditions",
+    "company": "Bezos Expeditions LLC",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2005",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth",
+      "Notable Portfolio": ["Figure AI", "Physical Intelligence", "Skild AI", "Airbnb", "Uber"],
+      "Headquarters": "Mercer Island, USA",
+      "Founded": "2005",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Bezos Expeditions is the family office and personal investment vehicle of Amazon founder Jeff Bezos, founded in 2005. It invests across early- and late-stage companies and has been a notable backer of humanoid robotics and embodied-AI startups including Figure AI, Physical Intelligence and Skild.",
+      "location": "Mercer Island, USA",
+      "website": "https://www.bezosexpeditions.com/"
+    },
+    "tags": ["USA", "Growth", "Family Office"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Bezos_Expeditions", "title": "Bezos Expeditions - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://www.bezosexpeditions.com/", "title": "Bezos Expeditions - Official Site", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": "Entity used per user instruction to represent Jeff Bezos personal investments."
+    }
+  },
+  {
+    "id": "stg-vc-brookfield",
+    "name": "Brookfield Asset Management",
+    "company": "Brookfield Asset Management Ltd.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1997",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Late Stage",
+      "Notable Portfolio": ["Figure AI", "Westinghouse", "Oaktree"],
+      "Headquarters": "New York, USA",
+      "Founded": "1997",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Brookfield Asset Management is one of the world's largest alternative asset managers with roots in Canada and headquarters relocated to New York in 2024. It manages hundreds of billions across infrastructure, real estate, private equity and venture, and joined Figure AI's growth financing.",
+      "location": "New York, USA",
+      "website": "https://www.brookfield.com/"
+    },
+    "tags": ["USA", "Late Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Brookfield_Asset_Management", "title": "Brookfield Asset Management - Wikipedia", "type": "wiki", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": "Brookfield Asset Management Ltd. publicly traded; HQ moved from Toronto to NYC in 2024."
+    }
+  },
+  {
+    "id": "stg-vc-macquarie-capital",
+    "name": "Macquarie Capital",
+    "company": "Macquarie Group Limited",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1969",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Late Stage",
+      "Notable Portfolio": ["Figure AI"],
+      "Headquarters": "Sydney, Australia",
+      "Founded": "1969",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Macquarie Capital is the corporate advisory, capital markets and principal investing division of Macquarie Group, founded in 1969 in Sydney. It operates across 23 markets and participated as a strategic investor in Figure AI.",
+      "location": "Sydney, Australia",
+      "website": "https://www.macquarie.com/"
+    },
+    "tags": ["Australia", "Late Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Macquarie_Group", "title": "Macquarie Group - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://www.macquarie.com/us/en/about/history.html", "title": "Macquarie Group history", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-tamarack-global",
+    "name": "Tamarack Global",
+    "company": "Tamarack Global",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth",
+      "Notable Portfolio": ["Figure AI"],
+      "Headquarters": "Greenwich, USA",
+      "Founded": "2018",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Tamarack Global is a Greenwich, Connecticut-based investment firm founded in 2018 by John McCormick, investing in frontier technology including AI and robotics. It was a Figure AI Series B participant.",
+      "location": "Greenwich, USA",
+      "website": "https://www.tamarackglobal.com/"
+    },
+    "tags": ["USA", "Growth", "Pure VC"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://www.tamarackglobal.com/", "title": "Tamarack Global - Official Site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.leadersmag.com/issues/2024.2_Apr/STF/LEADERS_John_McCormich_Lee_Tamarack_Global.html", "title": "LEADERS Interview with John McCormick, Tamarack Global", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-lg-tech-ventures",
+    "name": "LG Technology Ventures",
+    "company": "LG Corporation",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["Figure AI"],
+      "Headquarters": "Menlo Park, USA",
+      "Founded": "2018",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "LG Technology Ventures is the Silicon Valley-based corporate venture capital arm of LG Group, established in May 2018 to invest in AI, mobility, advanced materials and robotics startups on behalf of LG affiliates.",
+      "location": "Menlo Park, USA",
+      "website": "https://www.lgtechventures.com/"
+    },
+    "tags": ["South Korea", "Strategic", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://lgcorp.com/media/release/27644", "title": "LG Corp press release on LG Technology Ventures", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.lgtechventures.com/", "title": "LG Technology Ventures Official Site", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": "Operates in Silicon Valley on behalf of LG Group; tag 'South Korea' reflects parent's country."
+    }
+  },
+  {
+    "id": "stg-vc-salesforce-ventures",
+    "name": "Salesforce Ventures",
+    "company": "Salesforce, Inc.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2009",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["Figure AI", "Snowflake", "Anthropic", "Hugging Face"],
+      "Headquarters": "San Francisco, USA",
+      "Founded": "2009",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Salesforce Ventures is the strategic investment arm of Salesforce, founded in 2009. It has invested in enterprise SaaS, AI infrastructure and frontier AI/robotics companies including Figure AI.",
+      "location": "San Francisco, USA",
+      "website": "https://salesforceventures.com/"
+    },
+    "tags": ["USA", "Strategic", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://salesforceventures.com/", "title": "Salesforce Ventures - Official Site", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-tmobile-ventures",
+    "name": "T-Mobile Ventures",
+    "company": "T-Mobile US, Inc.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2020",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["Figure AI"],
+      "Headquarters": "Bellevue, USA",
+      "Founded": "2020",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "T-Mobile Ventures is the corporate venture capital arm of T-Mobile US, launched in October 2020 to invest in 5G-enabled products and services. It is managed in partnership with Touchdown Ventures.",
+      "location": "Bellevue, USA",
+      "website": "https://www.t-mobile.com/news/network/t-mobile-ventures"
+    },
+    "tags": ["USA", "Strategic", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.t-mobile.com/news/network/t-mobile-ventures", "title": "T-Mobile Unveils Venture Capital Fund - T-Mobile Newsroom", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.businesswire.com/news/home/20201021005685/en/T-Mobile-Unveils-Venture-Capital-Fund-to-Fuel-5G-Innovation", "title": "T-Mobile Unveils Venture Capital Fund (Business Wire)", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-qualcomm-ventures",
+    "name": "Qualcomm Ventures",
+    "company": "Qualcomm Incorporated",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2000",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["Figure AI", "Cruise", "Zoom"],
+      "Headquarters": "San Diego, USA",
+      "Founded": "2000",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Qualcomm Ventures is the corporate venture arm of Qualcomm, founded in 2000. It has invested in more than 140 active portfolio companies across automotive, IoT, mobile and AI, including Figure AI.",
+      "location": "San Diego, USA",
+      "website": "https://www.qualcommventures.com/"
+    },
+    "tags": ["USA", "Strategic", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Qualcomm_Ventures", "title": "Qualcomm Ventures - Wikipedia", "type": "wiki", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-msft",
+    "name": "Microsoft",
+    "company": "Microsoft Corporation",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1975",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["Figure AI", "OpenAI"],
+      "Headquarters": "Redmond, USA",
+      "Founded": "1975",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Microsoft Corporation, founded by Bill Gates and Paul Allen in 1975, is a global technology and AI platform company. In recent years it has acted as a direct strategic investor in frontier AI and humanoid robotics companies including Figure AI and OpenAI.",
+      "location": "Redmond, USA",
+      "website": "https://www.microsoft.com/"
+    },
+    "tags": ["USA", "Strategic", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Microsoft", "title": "Microsoft - Wikipedia", "type": "wiki", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": "Treated as a direct corporate investor (not via M12) per the brief."
+    }
+  },
+  {
+    "id": "stg-vc-ark-invest",
+    "name": "ARK Invest",
+    "company": "ARK Investment Management LLC",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2014",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Late Stage",
+      "Notable Portfolio": ["Figure AI", "Tesla", "Coinbase"],
+      "Headquarters": "St. Petersburg, USA",
+      "Founded": "2014",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "ARK Invest is an American investment management firm founded by Cathie Wood in January 2014, focused on disruptive innovation including robotics, AI, energy storage and genomics. It participated in Figure AI's funding via its venture-style vehicles.",
+      "location": "St. Petersburg, USA",
+      "website": "https://www.ark-invest.com/"
+    },
+    "tags": ["USA", "Late Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Ark_Invest", "title": "Ark Invest - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://www.ark-invest.com/", "title": "ARK Invest - Official Site", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": "Primarily an active ETF manager but has also participated in private rounds via venture funds."
+    }
+  },
+  {
+    "id": "stg-vc-eqt-ventures",
+    "name": "EQT Ventures",
+    "company": "EQT AB",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2015",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage",
+      "Notable Portfolio": ["1X Technologies", "Wolt", "Peakon"],
+      "Headquarters": "Stockholm, Sweden",
+      "Founded": "2015",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "EQT Ventures is the venture arm of Swedish global investment organization EQT, established in 2015 and headquartered in Stockholm. It led 1X Technologies' $100M Series B in January 2024.",
+      "location": "Stockholm, Sweden",
+      "website": "https://eqtventures.com/"
+    },
+    "tags": ["Sweden", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://eqtgroup.com/thinq/early-stage/norwegian-robotics-startup-1x-secures-100m-in-series-b-funding-led-by-eqt-ventures", "title": "Norwegian Robotics Startup 1X Secures $100M Series B led by EQT Ventures", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://en.wikipedia.org/wiki/EQT_AB", "title": "EQT AB - Wikipedia", "type": "wiki", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-samsung-next",
+    "name": "Samsung NEXT",
+    "company": "Samsung Electronics Co., Ltd.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2013",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage",
+      "Notable Portfolio": ["1X Technologies", "SmartThings"],
+      "Headquarters": "Mountain View, USA",
+      "Founded": "2013",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Samsung NEXT is the Silicon Valley-based innovation and venture arm of Samsung Electronics. It invests in early-stage software and AI startups and joined 1X's $100M Series B in January 2024.",
+      "location": "Mountain View, USA",
+      "website": "https://www.samsungnext.com/"
+    },
+    "tags": ["South Korea", "Early Stage", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://eqtgroup.com/thinq/early-stage/norwegian-robotics-startup-1x-secures-100m-in-series-b-funding-led-by-eqt-ventures", "title": "EQT - 1X Series B announcement (lists Samsung NEXT)", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Headquarters", "Notable Portfolio"],
+      "fields_uncertain": ["Founded"],
+      "notes": "Founding year between 2012-2013 (it evolved from Samsung Global Innovation Center)."
+    }
+  },
+  {
+    "id": "stg-vc-nistad-group",
+    "name": "Nistad Group",
+    "company": "Nistad Group",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth",
+      "Notable Portfolio": ["1X Technologies"],
+      "Headquarters": "Norway",
+      "Founded": "",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Nistad Group is a Norwegian private investment group that participated in 1X Technologies' $100M Series B in January 2024 alongside EQT Ventures and Samsung NEXT.",
+      "location": "Norway",
+      "website": ""
+    },
+    "tags": ["Norway", "Growth", "Family Office"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://eqtgroup.com/thinq/early-stage/norwegian-robotics-startup-1x-secures-100m-in-series-b-funding-led-by-eqt-ventures", "title": "EQT - 1X Series B announcement (lists Nistad Group)", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.eu-startups.com/2024/01/norwegian-robotics-company-1x-bags-e91-million-series-b-to-produce-androids-to-meet-the-worlds-labor-demand/", "title": "Norwegian robotics company 1X bags €91M Series B (EU-Startups)", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Notable Portfolio"],
+      "fields_uncertain": ["Founded", "Headquarters (city)", "website"],
+      "notes": "Confirmed as a participant in the 1X Series B. Public corporate profile is thin; treating as a Norwegian private investment vehicle."
+    }
+  },
+  {
+    "id": "stg-vc-alliance-ventures",
+    "name": "Alliance Ventures",
+    "company": "Renault-Nissan-Mitsubishi Alliance",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["1X Technologies", "Ionic Materials"],
+      "Headquarters": "Amsterdam, Netherlands",
+      "Founded": "2018",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Alliance Ventures is the $1B corporate venture fund jointly launched in January 2018 by Renault, Nissan and Mitsubishi Motors to invest in new mobility, electrification, autonomous systems and AI. It participated in 1X's earlier funding rounds.",
+      "location": "Amsterdam, Netherlands",
+      "website": "https://alliancernm.com/home-alliance/alliance-ventures/"
+    },
+    "tags": ["Netherlands", "Strategic", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://techcrunch.com/2018/01/09/renault-nissan-mitsubishi-launches-1-billion-corporate-venture-capital-fund/", "title": "Renault-Nissan-Mitsubishi launches $1B CVC fund (TechCrunch)", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://alliancernm.com/home-alliance/alliance-ventures/", "title": "Alliance Ventures - Official Site", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-sandwater",
+    "name": "Sandwater",
+    "company": "Sandwater AS",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2021",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage",
+      "Notable Portfolio": ["1X Technologies"],
+      "Headquarters": "Oslo, Norway",
+      "Founded": "2021",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Sandwater is an Oslo-based venture capital firm founded in 2021, investing in early-stage Northern European companies across AI, robotics, sustainable food and energy transition. It participated in 1X Technologies' Series B.",
+      "location": "Oslo, Norway",
+      "website": "https://www.sandwater.com/"
+    },
+    "tags": ["Norway", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://www.sandwater.com/", "title": "Sandwater - Official Site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://eqtgroup.com/thinq/early-stage/norwegian-robotics-startup-1x-secures-100m-in-series-b-funding-led-by-eqt-ventures", "title": "EQT - 1X Series B announcement (lists Sandwater)", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-skagerak-capital",
+    "name": "Skagerak Capital",
+    "company": "Skagerak Capital",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2006",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage",
+      "Notable Portfolio": ["1X Technologies"],
+      "Headquarters": "Kristiansand, Norway",
+      "Founded": "2006",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Skagerak Capital is a Norwegian venture capital firm founded in 2006 and based in Kristiansand, focused on early-stage Nordic deep-tech and software companies. It participated in 1X's Series B.",
+      "location": "Kristiansand, Norway",
+      "website": "https://www.skagerakcapital.com/"
+    },
+    "tags": ["Norway", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://www.skagerakcapital.com/", "title": "Skagerak Capital - Official Site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://eqtgroup.com/thinq/early-stage/norwegian-robotics-startup-1x-secures-100m-in-series-b-funding-led-by-eqt-ventures", "title": "EQT - 1X Series B (lists Skagerak Capital)", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-bond",
+    "name": "Bond",
+    "company": "Bond Capital Management LP",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2019",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth",
+      "Notable Portfolio": ["Physical Intelligence", "Canva", "Mistral AI"],
+      "Headquarters": "San Francisco, USA",
+      "Founded": "2019",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Bond (BOND) is a growth-stage venture firm founded by Mary Meeker in 2019 after her departure from Kleiner Perkins. It was the first female-founded VC fund to exceed $1B; it participates in late-stage AI and robotics rounds including Physical Intelligence.",
+      "location": "San Francisco, USA",
+      "website": "https://www.bondcap.com/"
+    },
+    "tags": ["USA", "Growth", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://techcrunch.com/2019/04/24/mary-meeker-raises-1-25b-for-bond-her-debut-growth-fund/", "title": "Mary Meeker raises $1.25B for Bond (TechCrunch)", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://www.bondcap.com/partners/mary-meeker/", "title": "Mary Meeker - Bond", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-thrive",
+    "name": "Thrive Capital",
+    "company": "Thrive Capital Management LLC",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2009",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth",
+      "Notable Portfolio": ["Physical Intelligence", "OpenAI", "Stripe", "Instagram"],
+      "Headquarters": "New York, USA",
+      "Founded": "2009",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Thrive Capital is a New York venture and growth firm founded by Joshua Kushner in 2009. It is known for early bets on Instagram and Stripe and major AI investments including OpenAI and Physical Intelligence.",
+      "location": "New York, USA",
+      "website": "https://www.thrivecap.com/"
+    },
+    "tags": ["USA", "Growth", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Thrive_Capital", "title": "Thrive Capital - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://www.thrivecap.com/", "title": "Thrive Capital - Official Site", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-capitalg",
+    "name": "CapitalG",
+    "company": "Alphabet Inc.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2013",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth",
+      "Notable Portfolio": ["Physical Intelligence", "Stripe", "Airbnb", "UiPath"],
+      "Headquarters": "Mountain View, USA",
+      "Founded": "2013",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "CapitalG is the independent growth fund of Alphabet (Google's parent), originally founded as Google Capital in 2013 and renamed CapitalG in November 2016. It invests in late-stage tech and AI companies including Physical Intelligence.",
+      "location": "Mountain View, USA",
+      "website": "https://www.capitalg.com/"
+    },
+    "tags": ["USA", "Growth", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/CapitalG", "title": "CapitalG - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://www.capitalg.com/", "title": "CapitalG - Official Site", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-redpoint",
+    "name": "Redpoint Ventures",
+    "company": "Redpoint Ventures",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1999",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage",
+      "Notable Portfolio": ["Physical Intelligence", "Stripe", "Snowflake", "Netflix"],
+      "Headquarters": "Menlo Park, USA",
+      "Founded": "1999",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Redpoint Ventures is a U.S. venture capital firm founded in 1999, headquartered in Menlo Park, investing across consumer, enterprise and frontier technology. It participated in Physical Intelligence's funding.",
+      "location": "Menlo Park, USA",
+      "website": "https://www.redpoint.com/"
+    },
+    "tags": ["USA", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Redpoint_Ventures", "title": "Redpoint Ventures - Wikipedia", "type": "wiki", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-index-ventures",
+    "name": "Index Ventures",
+    "company": "Index Ventures",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1996",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage",
+      "Notable Portfolio": ["Physical Intelligence", "Figma", "Discord", "Wiz"],
+      "Headquarters": "London, UK",
+      "Founded": "1996",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Index Ventures is a European venture capital firm founded in Geneva in 1996 by the Rimer brothers and Giuseppe Zocco, with primary offices in London and San Francisco. It invests across all stages globally and joined Physical Intelligence's funding.",
+      "location": "London, UK",
+      "website": "https://www.indexventures.com/"
+    },
+    "tags": ["UK", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Index_Ventures", "title": "Index Ventures - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://www.indexventures.com/", "title": "Index Ventures - Official Site", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-t-rowe-price",
+    "name": "T. Rowe Price",
+    "company": "T. Rowe Price Group, Inc.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1937",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Late Stage",
+      "Notable Portfolio": ["Physical Intelligence"],
+      "Headquarters": "Baltimore, USA",
+      "Founded": "1937",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "T. Rowe Price is a global investment management firm founded in 1937 by Thomas Rowe Price Jr. in Baltimore. With over $1.8T AUM, it participates in late-stage private financings including Physical Intelligence.",
+      "location": "Baltimore, USA",
+      "website": "https://www.troweprice.com/"
+    },
+    "tags": ["USA", "Late Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/T._Rowe_Price", "title": "T. Rowe Price - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://www.troweprice.com/en/us/about-us", "title": "T. Rowe Price - About Us", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": "Public asset manager; participates in private rounds as crossover investor."
+    }
+  },
+  {
+    "id": "stg-vc-openai-corp",
+    "name": "OpenAI",
+    "company": "OpenAI, Inc.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2015",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["Physical Intelligence", "1X Technologies", "Figure AI"],
+      "Headquarters": "San Francisco, USA",
+      "Founded": "2015",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "OpenAI is an AI research and deployment company founded in 2015 by Sam Altman, Greg Brockman, Ilya Sutskever, Elon Musk and others. Beyond its own products, OpenAI itself has made direct strategic equity investments into humanoid and embodied-AI startups including Physical Intelligence and 1X.",
+      "location": "San Francisco, USA",
+      "website": "https://openai.com/"
+    },
+    "tags": ["USA", "Strategic", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/OpenAI", "title": "OpenAI - Wikipedia", "type": "wiki", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": "Per brief: separate entity from 'OpenAI Startup Fund'. Used 'openai-corp' slug to disambiguate."
+    }
+  },
+  {
+    "id": "stg-vc-lightspeed",
+    "name": "Lightspeed Venture Partners",
+    "company": "Lightspeed Venture Partners",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2000",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage",
+      "Notable Portfolio": ["Skild AI", "Snap", "Mistral AI", "Anthropic"],
+      "Headquarters": "Menlo Park, USA",
+      "Founded": "2000",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Lightspeed Venture Partners is a multi-stage global venture capital firm founded in 2000 and based in Menlo Park, with offices across the US, Israel, India and Europe. It backed Skild AI's robotics foundation-model rounds.",
+      "location": "Menlo Park, USA",
+      "website": "https://lsvp.com/"
+    },
+    "tags": ["USA", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners", "title": "Lightspeed Venture Partners - Wikipedia", "type": "wiki", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-coatue",
+    "name": "Coatue",
+    "company": "Coatue Management LLC",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1999",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth",
+      "Notable Portfolio": ["Skild AI", "Anduril", "Anthropic"],
+      "Headquarters": "New York, USA",
+      "Founded": "1999",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Coatue Management is a global technology-focused investment firm founded by Philippe Laffont in 1999 and headquartered in New York. It operates across public and private markets and is a major backer of AI/robotics including Skild.",
+      "location": "New York, USA",
+      "website": "https://www.coatue.com/"
+    },
+    "tags": ["USA", "Growth", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Coatue_Management", "title": "Coatue Management - Wikipedia", "type": "wiki", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-softbank",
+    "name": "SoftBank Group",
+    "company": "SoftBank Group Corp.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1981",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Late Stage",
+      "Notable Portfolio": ["Skild AI", "ARM", "Boston Dynamics (former)", "Symbotic"],
+      "Headquarters": "Tokyo, Japan",
+      "Founded": "1981",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "SoftBank Group is a Japanese multinational investment holding company founded by Masayoshi Son on September 3, 1981. Through its balance-sheet investing and Vision Funds it is one of the largest backers of robotics and AI companies globally, including Skild AI.",
+      "location": "Tokyo, Japan",
+      "website": "https://group.softbank/en/"
+    },
+    "tags": ["Japan", "Late Stage", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/SoftBank_Group", "title": "SoftBank Group - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://group.softbank/en/about/officer/son", "title": "Biography: Masayoshi Son | SoftBank Group", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-felicis",
+    "name": "Felicis Ventures",
+    "company": "Felicis Ventures Management Company LLC",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2006",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage",
+      "Notable Portfolio": ["Skild AI", "Shopify", "Adyen"],
+      "Headquarters": "Menlo Park, USA",
+      "Founded": "2006",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Felicis is a Menlo Park-based venture capital firm founded by Aydin Senkut in 2006. It invests across software, AI and frontier tech including robotics; it backed Skild AI's funding rounds.",
+      "location": "Menlo Park, USA",
+      "website": "https://www.felicis.com/"
+    },
+    "tags": ["USA", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Felicis", "title": "Felicis - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://www.felicis.com/team/aydin-senkut", "title": "Aydin Senkut - Felicis", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-menlo-ventures",
+    "name": "Menlo Ventures",
+    "company": "Menlo Ventures",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1976",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage",
+      "Notable Portfolio": ["Skild AI", "Uber", "Roku", "Anthropic"],
+      "Headquarters": "Menlo Park, USA",
+      "Founded": "1976",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Menlo Ventures is one of Silicon Valley's longest-running VC firms, founded in 1976 by H. DuBose Montgomery. It invests across AI, consumer and enterprise; backed Skild AI's robotics rounds.",
+      "location": "Menlo Park, USA",
+      "website": "https://menlovc.com/"
+    },
+    "tags": ["USA", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Menlo_Ventures", "title": "Menlo Ventures - Wikipedia", "type": "wiki", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-general-catalyst",
+    "name": "General Catalyst",
+    "company": "General Catalyst Partners",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2000",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth",
+      "Notable Portfolio": ["Skild AI", "Stripe", "Snap", "Anthropic"],
+      "Headquarters": "Cambridge, USA",
+      "Founded": "2000",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "General Catalyst is a multi-stage venture firm founded in 2000 in Cambridge, Massachusetts by Joel Cutler and David Fialkow. It manages over $43B and is an active investor across AI and robotics, including Skild AI.",
+      "location": "Cambridge, USA",
+      "website": "https://www.generalcatalyst.com/"
+    },
+    "tags": ["USA", "Growth", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/General_Catalyst", "title": "General Catalyst - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://www.generalcatalyst.com/", "title": "General Catalyst - Official Site", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-crv",
+    "name": "CRV",
+    "company": "Charles River Ventures",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1970",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage",
+      "Notable Portfolio": ["Skild AI", "DoorDash", "Airtable"],
+      "Headquarters": "San Francisco, USA",
+      "Founded": "1970",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "CRV, formerly Charles River Ventures, is a U.S. venture capital firm founded in 1970, one of the oldest in the industry. It rebranded to CRV in 2014 and invests primarily at seed and Series A, including Skild AI.",
+      "location": "San Francisco, USA",
+      "website": "https://www.crv.com/"
+    },
+    "tags": ["USA", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/CRV_(venture_capital_firm)", "title": "CRV - Wikipedia", "type": "wiki", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-sv-angel",
+    "name": "SV Angel",
+    "company": "SV Angel LLC",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2009",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed",
+      "Notable Portfolio": ["Skild AI", "Airbnb", "Pinterest", "Stripe"],
+      "Headquarters": "San Francisco, USA",
+      "Founded": "2009",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "SV Angel is a San Francisco-based seed-stage investment firm co-founded by Ron Conway, often called the 'godfather of Silicon Valley angel investing'. It backed Skild AI at the seed/early stage.",
+      "location": "San Francisco, USA",
+      "website": "https://svangel.com/"
+    },
+    "tags": ["USA", "Seed", "Angel"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Ron_Conway", "title": "Ron Conway - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://svangel.com/about", "title": "SV Angel - About", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Headquarters", "website"],
+      "fields_uncertain": ["Founded"],
+      "notes": "SV Angel founding year reported between 2005-2009 across sources; chose 2009 (the most commonly cited launch of the named SV Angel vehicle)."
+    }
+  },
+  {
+    "id": "stg-vc-alexa-fund",
+    "name": "Amazon Alexa Fund",
+    "company": "Amazon.com, Inc.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2015",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["Skild AI", "Ring (acq.)", "Ecobee"],
+      "Headquarters": "Seattle, USA",
+      "Founded": "2015",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "The Amazon Alexa Fund is Amazon's corporate venture program launched in June 2015 with $100M to back voice, AI and ambient computing startups. It has since broadened to AI/robotics including Skild AI.",
+      "location": "Seattle, USA",
+      "website": "https://developer.amazon.com/en-US/alexa/alexa-fund-venture-capital/"
+    },
+    "tags": ["USA", "Strategic", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://developer.amazon.com/en-US/alexa/alexa-fund-venture-capital/", "title": "Alexa Fund Venture Capital - Amazon Developer", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-amazon-industrial-innovation",
+    "name": "Amazon Industrial Innovation Fund",
+    "company": "Amazon.com, Inc.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2022",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["Agility Robotics", "Skild AI", "Mantis Robotics", "Instock"],
+      "Headquarters": "Seattle, USA",
+      "Founded": "2022",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "The Amazon Industrial Innovation Fund is a $1B Amazon corporate venture program launched in April 2022 to invest in robotics, supply-chain automation, AI, machine learning and autonomy. Notable robotics bets include Agility Robotics and Skild AI.",
+      "location": "Seattle, USA",
+      "website": "https://industrialinnovationfund.amazon/"
+    },
+    "tags": ["USA", "Strategic", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.aboutamazon.com/news/innovation-at-amazon/introducing-the-1-billion-amazon-industrial-innovation-fund", "title": "Introducing the $1 billion Amazon Industrial Innovation Fund", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://industrialinnovationfund.amazon/", "title": "Amazon Industrial Innovation Fund - Official Site", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-bdc-capital",
+    "name": "BDC Capital",
+    "company": "Business Development Bank of Canada",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1944",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth",
+      "Notable Portfolio": ["Sanctuary AI"],
+      "Headquarters": "Montreal, Canada",
+      "Founded": "1944",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "BDC Capital is the investment arm of the Business Development Bank of Canada, a federal Crown corporation founded in 1944. Through funds such as the $300M Thrive Venture Fund (launched 2022) it invests in Canadian innovation companies including Sanctuary AI.",
+      "location": "Montreal, Canada",
+      "website": "https://www.bdc.ca/en/bdc-capital"
+    },
+    "tags": ["Canada", "Growth", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.bdc.ca/en/bdc-capital/venture-capital/funds/thrive-platform/thrive-venture-fund", "title": "Thrive Venture Fund | BDC Capital", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.bdc.ca/en/about/mediaroom/news-releases/bdc-launches-500-millions-dollars-thrive-venture-fund-lab-women", "title": "BDC launches $500M Thrive Venture Fund and Lab for Women", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": "Founding year is for parent BDC (1944); the Thrive sub-fund itself was launched 2022."
+    }
+  },
+  {
+    "id": "stg-vc-inbc",
+    "name": "InBC Investment Corp.",
+    "company": "InBC Investment Corp.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2021",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth",
+      "Notable Portfolio": ["Sanctuary AI"],
+      "Headquarters": "Vancouver, Canada",
+      "Founded": "2021",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "InBC Investment Corp. is a $500M strategic investment fund created by the Government of British Columbia in 2021 as a Crown corporation. It invests in growing B.C.-based companies and venture funds, with a triple-bottom-line mandate.",
+      "location": "Vancouver, Canada",
+      "website": "https://inbcinvestment.com/"
+    },
+    "tags": ["Canada", "Growth", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://news.gov.bc.ca/releases/2021PREM0030-000775", "title": "$500-million investment fund paves way for a StrongerBC (BC Gov)", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://inbcinvestment.com/about-us/", "title": "About Us | InBC Investment Corp.", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-bell",
+    "name": "Bell",
+    "company": "BCE Inc. (Bell Canada Enterprises)",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1880",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["Sanctuary AI"],
+      "Headquarters": "Montreal, Canada",
+      "Founded": "1880",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Bell Canada Enterprises (BCE Inc.) is Canada's largest telecommunications company, with roots in the Bell Telephone Company of Canada incorporated in 1880. As a strategic investor it backed Sanctuary AI's general-purpose humanoid robotics program.",
+      "location": "Montreal, Canada",
+      "website": "https://www.bce.ca/"
+    },
+    "tags": ["Canada", "Strategic", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/BCE_Inc.", "title": "BCE Inc. - Wikipedia", "type": "wiki", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": "Founding year 1880 reflects the original Bell Telephone Company of Canada; BCE holding company formed 1983."
+    }
+  },
+  {
+    "id": "stg-vc-evok-innovations",
+    "name": "Evok Innovations",
+    "company": "Evok Innovations",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage",
+      "Notable Portfolio": ["Sanctuary AI", "Rodatherm"],
+      "Headquarters": "Vancouver, Canada",
+      "Founded": "2016",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Evok Innovations is a Vancouver-based cleantech-leaning venture firm launched in 2016 through a partnership between Suncor, Cenovus and the BC Cleantech CEO Alliance. It manages multiple funds and participated in Sanctuary AI's financing.",
+      "location": "Vancouver, Canada",
+      "website": "https://www.evokinnovations.com/"
+    },
+    "tags": ["Canada", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.evokinnovations.com/post/evok-innovations-announces-first-close-of-300-million-usd-cleantech-fund", "title": "Evok Innovations Announces First Close of $300M Cleantech Fund", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-edc",
+    "name": "Export Development Canada",
+    "company": "Export Development Canada (EDC)",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1944",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth",
+      "Notable Portfolio": ["Sanctuary AI"],
+      "Headquarters": "Ottawa, Canada",
+      "Founded": "1944",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Export Development Canada (EDC) is Canada's export credit agency and a federal Crown corporation founded in 1944. Its investments group provides equity capital ($5M-$25M+ tickets) to Canadian companies scaling globally, including Sanctuary AI.",
+      "location": "Ottawa, Canada",
+      "website": "https://www.edc.ca/"
+    },
+    "tags": ["Canada", "Growth", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Export_Development_Canada", "title": "Export Development Canada - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://www.edc.ca/en/about-us.html", "title": "About us | EDC", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-magna",
+    "name": "Magna",
+    "company": "Magna International Inc.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1957",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["Sanctuary AI", "Fisker (former)"],
+      "Headquarters": "Aurora, Canada",
+      "Founded": "1957",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Magna International is a Canadian global automotive supplier founded by Frank Stronach in 1957 and headquartered in Aurora, Ontario. As a strategic investor it has backed Sanctuary AI's humanoid robotics work.",
+      "location": "Aurora, Canada",
+      "website": "https://www.magna.com/"
+    },
+    "tags": ["Canada", "Strategic", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Magna_International", "title": "Magna International - Wikipedia", "type": "wiki", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-se-health",
+    "name": "SE Health",
+    "company": "Saint Elizabeth Health Care",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1908",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["Sanctuary AI"],
+      "Headquarters": "Markham, Canada",
+      "Founded": "1908",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "SE Health (formerly Saint Elizabeth Health Care) is a Canadian non-profit social-enterprise home health-care organization established in 1908. As a strategic investor it has supported Sanctuary AI to explore applications of humanoid robotics in caregiving.",
+      "location": "Markham, Canada",
+      "website": "https://sehc.com/"
+    },
+    "tags": ["Canada", "Strategic", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://sehc.com/", "title": "SE Health - Official Site", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": "Non-profit/social enterprise acting as strategic investor."
+    }
+  },
+  {
+    "id": "stg-vc-verizon-ventures",
+    "name": "Verizon Ventures",
+    "company": "Verizon Communications Inc.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2000",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["Sanctuary AI"],
+      "Headquarters": "New York, USA",
+      "Founded": "2000",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Verizon Ventures is the corporate venture capital arm of Verizon Communications, investing in connectivity, edge, AI and robotics startups. It participated in Sanctuary AI's funding rounds.",
+      "location": "New York, USA",
+      "website": "https://www.verizon.com/about/our-company/verizon-ventures"
+    },
+    "tags": ["USA", "Strategic", "CVC"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://www.verizon.com/about/our-company/verizon-ventures", "title": "Verizon Ventures | About Verizon", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Headquarters", "website"],
+      "fields_uncertain": ["Founded"],
+      "notes": "Sources disagree on Verizon Ventures' precise founding year (1990 vs 2000); chose 2000 as most commonly cited. Verizon Communications HQ is in New York City."
+    }
+  },
+  {
+    "id": "stg-vc-workday-ventures",
+    "name": "Workday Ventures",
+    "company": "Workday, Inc.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["Sanctuary AI"],
+      "Headquarters": "Pleasanton, USA",
+      "Founded": "2018",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Workday Ventures is the corporate venture arm of enterprise SaaS company Workday, established in 2018. As of 2023 it manages roughly $500M and invests in enterprise AI and applied-AI startups including Sanctuary AI.",
+      "location": "Pleasanton, USA",
+      "website": "https://ventures.workday.com/"
+    },
+    "tags": ["USA", "Strategic", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://ventures.workday.com/", "title": "Workday Ventures - Official Site", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-mercedes-benz",
+    "name": "Mercedes-Benz",
+    "company": "Mercedes-Benz Group AG",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1926",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["Apptronik"],
+      "Headquarters": "Stuttgart, Germany",
+      "Founded": "1926",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Mercedes-Benz Group AG is a German multinational automaker headquartered in Stuttgart, with origins in the 1926 merger of Benz & Cie. and Daimler Motoren Gesellschaft. It is a strategic investor in humanoid-robotics startup Apptronik to deploy robots in automotive manufacturing.",
+      "location": "Stuttgart, Germany",
+      "website": "https://group.mercedes-benz.com/"
+    },
+    "tags": ["Germany", "Strategic", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Mercedes-Benz_Group", "title": "Mercedes-Benz Group - Wikipedia", "type": "wiki", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": "Investment in Apptronik made directly by Mercedes-Benz (not via a separately-branded CVC arm)."
+    }
+  },
+  {
+    "id": "stg-vc-peak6",
+    "name": "Peak6",
+    "company": "PEAK6 Investments LLC",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1997",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth",
+      "Notable Portfolio": ["Apptronik"],
+      "Headquarters": "Austin, USA",
+      "Founded": "1997",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "PEAK6 is an American financial-services holding company founded in Chicago in 1997 by Matt Hulsizer and Jenny Just (HQ moved to Austin in 2024). Through its investments arm it has backed humanoid-robotics startup Apptronik.",
+      "location": "Austin, USA",
+      "website": "https://peak6.com/"
+    },
+    "tags": ["USA", "Growth", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Peak6", "title": "Peak6 - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://peak6.com/about/", "title": "About PEAK6", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "Founded", "Headquarters", "website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-att-ventures",
+    "name": "AT&T Ventures",
+    "company": "AT&T Inc.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1991",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["Apptronik"],
+      "Headquarters": "Dallas, USA",
+      "Founded": "1991",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "AT&T Ventures is the corporate venture capital arm of AT&T, founded in 1991 and based in Dallas. It invests in companies driving innovation in connectivity, IoT, AI and edge — including humanoid-robotics startup Apptronik.",
+      "location": "Dallas, USA",
+      "website": "https://about.att.com/pages/ventures"
+    },
+    "tags": ["USA", "Strategic", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://about.att.com/pages/ventures", "title": "AT&T Ventures - Official Site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://about.att.com/blogs/2024/venturing-out.html", "title": "Venturing Out: Expanding Our Internal Venture Investment Arm", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Headquarters", "website"],
+      "fields_uncertain": ["Founded"],
+      "notes": "Multiple iterations of an AT&T venture program exist; 1991 reflects the original program. The current AT&T Ventures vehicle was expanded/re-launched in 2017 ($200M)."
+    }
+  },
+  {
+    "id": "stg-vc-b-capital",
+    "name": "B Capital",
+    "company": "B Capital Group",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2015",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth",
+      "Notable Portfolio": ["Apptronik", "Ninja Van", "Atomwise"],
+      "Headquarters": "Manhattan Beach, USA",
+      "Founded": "2015",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "B Capital is a global multi-stage venture and growth firm founded in 2015 by Facebook co-founder Eduardo Saverin and Raj Ganguly. It has a strategic partnership with BCG and invests across enterprise, healthcare, fintech and AI/robotics including Apptronik.",
+      "location": "Manhattan Beach, USA",
+      "website": "https://b.capital/"
+    },
+    "tags": ["USA", "Growth", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/B_Capital", "title": "B Capital - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://techcrunch.com/2020/02/07/catching-up-with-b-capital-the-fast-growing-firm-founded-by-eduardo-saverin-and-raj-ganguly/", "title": "Catching up with B Capital (TechCrunch)", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Founded", "website"],
+      "fields_uncertain": ["Headquarters"],
+      "notes": "B Capital has offices in Manhattan Beach (CA), New York, San Francisco and Singapore; primary US HQ commonly cited as Manhattan Beach."
+    }
+  }
+]

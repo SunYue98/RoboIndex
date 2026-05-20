@@ -21,6 +21,8 @@ BATCHES = ROOT / "research/_batches"
 BATCH_FILES = [
     BATCHES / "batch_p10_china_industry.json",
     BATCHES / "batch_p11_china_labs_vcs.json",
+    BATCHES / "batch_p12_global_vcs.json",
+    BATCHES / "batch_p13_china_funds_strategics.json",
 ]
 
 def canon(s):

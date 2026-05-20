@@ -1,0 +1,1368 @@
+[
+  {
+    "id": "stg-vc-dcvc",
+    "name": "DCVC (Data Collective)",
+    "company": "Data Collective DCVC Management Company, LLC",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2011",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Early Stage, Growth",
+      "Notable Portfolio": ["Agility Robotics", "Rocket Lab", "Pivotal Commware", "Planet Labs"],
+      "Headquarters": "Palo Alto, USA",
+      "Founded": "2011",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Deep-tech venture capital firm led by Matt Ocko and Zachary Bogue, investing across AI, robotics, exa-scale computing, climate, materials science, space and biology. Led Agility Robotics' Series B alongside Playground Global.",
+      "location": "Palo Alto, USA",
+      "website": "https://www.dcvc.com/"
+    },
+    "tags": ["USA", "Early Stage", "Growth", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.dcvc.com/about/", "title": "DCVC | About", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.agilityrobotics.com/content/agility-robotics-raises-150m-series-b-led-by-dcvc-and-playground-global", "title": "Agility Robotics Raises $150M Series B Led By DCVC and Playground Global", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "company", "Headquarters", "website", "portfolio"],
+      "fields_uncertain": ["exact founding year (2011 commonly cited)"],
+      "notes": "Lead investor of Agility Robotics Series B."
+    }
+  },
+  {
+    "id": "stg-vc-playground-global",
+    "name": "Playground Global",
+    "company": "Playground Global, LLC",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2015",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Series A",
+      "Notable Portfolio": ["Agility Robotics", "Skydio", "Relativity Space", "RightHand Robotics"],
+      "Headquarters": "Palo Alto, USA",
+      "Founded": "2015",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Deep-tech venture firm founded in 2015 by Andy Rubin, Bruce Leak, Matt Hershenson and Peter Barrett. Manages more than $1.2B AUM across three funds and is one of the most active Silicon Valley investors in robotics and next-generation compute.",
+      "location": "Palo Alto, USA",
+      "website": "https://playground.global/"
+    },
+    "tags": ["USA", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Playground_Global", "title": "Playground Global - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://techcrunch.com/2018/04/14/playground-is-betting-big-on-robots/", "title": "Playground is betting big on robots | TechCrunch", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "year", "founders", "Headquarters", "portfolio"],
+      "fields_uncertain": [],
+      "notes": "Co-led Agility Robotics Series B with DCVC."
+    }
+  },
+  {
+    "id": "stg-vc-mfv-partners",
+    "name": "MFV Partners",
+    "company": "MFV Partners",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Series A",
+      "Notable Portfolio": ["Agility Robotics", "PsiQuantum", "Rescale"],
+      "Headquarters": "Silicon Valley, USA",
+      "Founded": "2018",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Early-stage deep-tech VC led by Karthee Madasamy, investing across physical AI & robotics, quantum computing, semiconductors and climate & energy. Existing Series B investor in Agility Robotics.",
+      "location": "Silicon Valley, USA",
+      "website": "https://www.mfvpartners.com/"
+    },
+    "tags": ["USA", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.mfvpartners.com/", "title": "MFV Partners – Early Stage Deep-Tech VC in Silicon Valley", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.agilityrobotics.com/content/agility-robotics-raises-150m-series-b-led-by-dcvc-and-playground-global", "title": "Agility Robotics Raises $150M Series B", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "year", "Headquarters", "website", "portfolio"],
+      "fields_uncertain": [],
+      "notes": "Cited as previous investor in Agility Series B."
+    }
+  },
+  {
+    "id": "stg-vc-itic",
+    "name": "ITIC (Industrial Technology Investment Corporation)",
+    "company": "Industrial Technology Investment Corporation",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1979",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Early Stage, Growth",
+      "Notable Portfolio": ["Agility Robotics", "UMC", "AU Optronics"],
+      "Headquarters": "Taipei, Taiwan",
+      "Founded": "1979",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Venture capital arm of Taiwan's Industrial Technology Research Institute (ITRI), founded in 1979. Has invested over US$400M globally and is an original shareholder of UMC, Taiwan Mask Corp and AU Optronics; previous investor in Agility Robotics.",
+      "location": "Taipei, Taiwan",
+      "website": "https://itic.com.tw/"
+    },
+    "tags": ["Taiwan", "Early Stage", "Government Fund"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://itic.com.tw/about/", "title": "ABOUT – ITIC", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.agilityrobotics.com/content/agility-robotics-raises-150m-series-b-led-by-dcvc-and-playground-global", "title": "Agility Robotics Raises $150M Series B", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "year", "Headquarters", "parent ITRI"],
+      "fields_uncertain": [],
+      "notes": "ITIC = ITRI's investment subsidiary."
+    }
+  },
+  {
+    "id": "stg-vc-robotics-hub",
+    "name": "The Robotics Hub (Coal Hill Ventures)",
+    "company": "Coal Hill Ventures, LLC",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2015",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Early Stage",
+      "Notable Portfolio": ["Agility Robotics"],
+      "Headquarters": "Pittsburgh, USA",
+      "Founded": "2015",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Pittsburgh-based early-stage robotics-focused venture fund that spun out of Carnegie Mellon's Robotics Ventures Initiative in late 2015 and is now operated as Coal Hill Ventures. Previous investor in Agility Robotics.",
+      "location": "Pittsburgh, USA",
+      "website": "https://www.coalhillventures.com/"
+    },
+    "tags": ["USA", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.coalhillventures.com/", "title": "Robotics Hub | Est. Coal Hill Ventures", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://pitchbook.com/profiles/investor/182427-49", "title": "The Robotics Hub investment portfolio | PitchBook", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["spin-out year", "Headquarters", "portfolio inclusion"],
+      "fields_uncertain": [],
+      "notes": "Distinct from the nonprofit Pittsburgh Robotics Network."
+    }
+  },
+  {
+    "id": "stg-vc-safar-partners",
+    "name": "Safar Partners",
+    "company": "Safar Partners",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Early Stage, Growth",
+      "Notable Portfolio": ["Agility Robotics", "QuEra Computing", "Liquid AI", "Gradiant"],
+      "Headquarters": "Boston, USA",
+      "Founded": "2018",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Boston-based seed-to-growth venture fund with deep ties to MIT, Harvard and the University of Rochester, founded in 2018 by Arunas Chesonis and Nader Motamedy. Invests across cleantech, AI/IT & robotics and life sciences with over $1B AUM.",
+      "location": "Boston, USA",
+      "website": "https://www.safar.partners/"
+    },
+    "tags": ["USA", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.safar.partners/", "title": "Safar Partners | Investing in Tomorrow's World-Changers.", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.venturecapitaljournal.com/new-firm-safar-targets-early-tech-from-harvard-mit-and-ur/", "title": "New firm Safar targets early tech from Harvard, MIT and UR", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["name", "year", "founders", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": "Listed as previous Agility Robotics Series B investor."
+    }
+  },
+  {
+    "id": "stg-vc-sony-innovation-fund",
+    "name": "Sony Innovation Fund",
+    "company": "Sony Group Corporation",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Early Stage, Growth",
+      "Notable Portfolio": ["Agility Robotics"],
+      "Headquarters": "Tokyo, Japan",
+      "Founded": "2016",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Sony Group's corporate venture arm, established in July 2016, with offices in Japan, North America, Europe and India. Focuses on AI, robotics, digital health, IoT and entertainment; has made 60+ investments globally and participated in Agility Robotics' Series B.",
+      "location": "Tokyo, Japan",
+      "website": "https://www.sonyinnovationfund.com/"
+    },
+    "tags": ["Japan", "Early Stage", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.sonyinnovationfund.com/", "title": "Sony Innovation Fund", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.pymnts.com/innovation/2023/sonys-venture-fund-is-investing-in-robots-and-tech-stacks/", "title": "Why Sony Venture Fund is Still Bullish on Robots", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "parent", "focus", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": "Sony CVC arm."
+    }
+  },
+  {
+    "id": "stg-vc-tdk-ventures",
+    "name": "TDK Ventures",
+    "company": "TDK Corporation",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2019",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Series A",
+      "Notable Portfolio": ["Agility Robotics", "Groq", "Ascend Elements"],
+      "Headquarters": "San Jose, USA",
+      "Founded": "2019",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Corporate venture arm of Japanese components maker TDK Corporation, founded in 2019 and based in San Jose. Manages roughly $500M across three funds investing in materials, energy, mobility, semiconductors and robotics; portfolio includes Agility Robotics and Groq.",
+      "location": "San Jose, USA",
+      "website": "https://tdk-ventures.com/"
+    },
+    "tags": ["USA", "Japan", "Early Stage", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://tdk-ventures.com/", "title": "Investing in Tomorrow's Tech Today | TDK Ventures", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://globalventuring.com/corporate/fundraising/tdk-ventures-150m-fund-3/", "title": "TDK Ventures takes the wrapper off new $150m fund", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "parent", "Headquarters"],
+      "fields_uncertain": [],
+      "notes": "Agility Robotics Series B investor."
+    }
+  },
+  {
+    "id": "stg-vc-longcheer",
+    "name": "Shanghai Longcheer Technology 龙旗科技",
+    "company": "Shanghai Longcheer Technology Co., Ltd.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2002",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["AgiBot"],
+      "Headquarters": "Shanghai, China",
+      "Founded": "2002",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Shanghai-listed (603341) intelligent-product ODM covering smartphones, AI PCs, automotive electronics, tablets and wearables. Strategic investor in AgiBot and deployment partner that runs AgiBot G2 humanoids on its tablet production lines.",
+      "location": "Shanghai, China",
+      "website": "https://www.longcheer.net/"
+    },
+    "tags": ["China", "Strategic", "Industrial Strategic"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.marketscreener.com/quote/stock/SHANGHAI-LONGCHEER-TECHNO-171869489/news/Shanghai-AgiBot-Innovation-Technology-Co-Ltd-announced-that-it-has-received-funding-from-Tencent-49440112/", "title": "AgiBot funding announcement incl. Longcheer", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://www.prnewswire.com/news-releases/agibot-and-longcheer-technology-achieve-worlds-first-embodied-ai-deployment-in-consumer-electronics-precision-manufacturing-mass-production-line-302742853.html", "title": "AGIBOT and Longcheer Technology Achieve World's First Embodied AI Deployment", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["parent", "AgiBot relationship", "Headquarters"],
+      "fields_uncertain": ["exact founding year"],
+      "notes": "Industrial strategic investor (consumer-electronics ODM)."
+    }
+  },
+  {
+    "id": "stg-vc-wolong",
+    "name": "Wolong Electric 卧龙电气",
+    "company": "Wolong Electric Group Co., Ltd.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1984",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["AgiBot", "SIR Robotics"],
+      "Headquarters": "Shangyu, Zhejiang, China",
+      "Founded": "1984",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Shenzhen-listed (600580) Chinese motor and drive specialist with 40+ years of experience in frameless torque motors, reducers, servo drives and integrated joint modules. Strategic shareholder in AgiBot and operator of its own humanoid robotics arm SIR.",
+      "location": "Shangyu, Zhejiang, China",
+      "website": "https://www.wolong-electric.com/"
+    },
+    "tags": ["China", "Strategic", "Industrial Strategic"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.wolong-electric.com/media-center/company-news/329", "title": "Wolong Electric has invested in AgiBot", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://pandaily.com/agi-bot-invests-in-wolong-electric-s-sir-robotics-to-advance-embodied-ai", "title": "AgiBot Invests in Wolong Electric's SIR Robotics", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["AgiBot relationship", "industry"],
+      "fields_uncertain": ["exact founding year"],
+      "notes": "Motors / actuators supplier turned strategic investor."
+    }
+  },
+  {
+    "id": "stg-vc-huafa",
+    "name": "Huafa Group 华发集团",
+    "company": "Zhuhai Huafa Group Co., Ltd.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1980",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic, Growth",
+      "Notable Portfolio": ["AgiBot", "PaXini"],
+      "Headquarters": "Zhuhai, Guangdong, China",
+      "Founded": "1980",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Zhuhai state-owned conglomerate established in 1980 with assets above RMB 650B across city operations, real estate, finance and industrial investment. Backed AgiBot and other embodied-AI startups via its industrial investment arm.",
+      "location": "Zhuhai, Guangdong, China",
+      "website": "https://en.cnhuafag.com/"
+    },
+    "tags": ["China", "Strategic", "Government Fund"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.cnhuafag.com/about/index.html", "title": "An overview of Huafa", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://autonews.gasgoo.com/articles/news/seeds-10-billion-yuan-club-adds-another-member-paxini-raises-over-1-billion-yuan-2030083987437891584", "title": "Huafa-backed robotics investments", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "Headquarters", "size"],
+      "fields_uncertain": [],
+      "notes": "State-owned conglomerate (Zhuhai SASAC)."
+    }
+  },
+  {
+    "id": "stg-vc-china-mobile",
+    "name": "China Mobile 中国移动",
+    "company": "China Mobile Communications Group Co., Ltd.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1997",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic, Growth",
+      "Notable Portfolio": ["Unitree", "AgiBot"],
+      "Headquarters": "Beijing, China",
+      "Founded": "1997",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "State-owned telecom giant and one of the world's largest mobile operators. Co-led Unitree's Series C in 2025 alongside Tencent, Alibaba, Ant Group, Geely Capital and Jinqiu, and has placed RMB 124M of robot orders with Unitree and AgiBot in 2025.",
+      "location": "Beijing, China",
+      "website": "https://www.chinamobileltd.com/"
+    },
+    "tags": ["China", "Strategic", "Industrial Strategic"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://eu.36kr.com/en/p/3344368397190018", "title": "Unitree Technology Completes Nearly 700M Yuan Series C Financing with Tencent, Alibaba, China Mobile as Investors", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://restofworld.org/2026/unitree-china-humanoid-robot-shanghai-ipo/", "title": "China robot maker Unitree files for $610 million Shanghai IPO", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["Unitree Series C participation"],
+      "fields_uncertain": ["which subsidiary/fund vehicle ultimately participated"],
+      "notes": "Investment routed via China Mobile group; specific fund vehicle not disclosed."
+    }
+  },
+  {
+    "id": "stg-vc-jinqiu",
+    "name": "Jinqiu Capital 锦秋基金",
+    "company": "Jinqiu Capital",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2022",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Early Stage",
+      "Notable Portfolio": ["Unitree"],
+      "Headquarters": "Beijing, China",
+      "Founded": "2022",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Early-stage AI-focused venture fund founded in 2022, with reported links to ByteDance/Douyin-affiliated capital. Co-invested in Unitree's Series C alongside Tencent, Alibaba, Ant Group, China Mobile and Geely Capital.",
+      "location": "Beijing, China",
+      "website": "https://jinqiucapital.com/"
+    },
+    "tags": ["China", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://jinqiucapital.com/?lang=en", "title": "锦秋基金 - Jinqiu Capital", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://eu.36kr.com/en/p/3344368397190018", "title": "Unitree Series C investors include Jinqiu", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "Unitree investment"],
+      "fields_uncertain": ["exact parent/LP composition (ByteDance affiliation widely reported but not officially confirmed)"],
+      "notes": "Note user listed name 金秋创投; the Chinese name on the firm's site is 锦秋基金."
+    }
+  },
+  {
+    "id": "stg-vc-cdb-capital",
+    "name": "CDB Capital 国开金融",
+    "company": "CDB Capital Co., Ltd.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2009",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth, Late Stage, Strategic",
+      "Notable Portfolio": ["Galbot"],
+      "Headquarters": "Beijing, China",
+      "Founded": "2009",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Wholly-owned equity investment subsidiary of China Development Bank, established in 2009 with USD 8B registered capital. Operates the CDB Sci-Tech Innovation Fund (国开科创), which invested in Galbot's RMB 1.1B record-setting humanoid funding round.",
+      "location": "Beijing, China",
+      "website": "https://www.cdb-capital.com/"
+    },
+    "tags": ["China", "Growth", "Government Fund"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.cdb-capital.com/", "title": "国开金融", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://en.tmtpost.com/post/7605038", "title": "China's GALBOT Raises Record $150 Million", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["parent CDB", "year", "Galbot participation"],
+      "fields_uncertain": [],
+      "notes": "Investment ran through CDB Sci-Tech Innovation Fund vehicle."
+    }
+  },
+  {
+    "id": "stg-vc-beijing-ai-fund",
+    "name": "Beijing AI Industry Investment Fund 北京人工智能产业投资基金",
+    "company": "Beijing Artificial Intelligence Industry Investment Fund",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage, Growth, Strategic",
+      "Notable Portfolio": ["Booster Robotics", "Galbot", "Neolix"],
+      "Headquarters": "Beijing, China",
+      "Founded": "2024",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Beijing municipal industry guidance fund co-managed by Shunxi Venture Capital and Qiming Venture Partners, with a 10B yuan target size. Distinct from the Beijing Robot Industry Development Fund and focused specifically on AI-foundation, model and applied-AI startups including humanoid robotics.",
+      "location": "Beijing, China",
+      "website": "https://invest.beijing.gov.cn/"
+    },
+    "tags": ["China", "Growth", "Government Fund"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.dealstreetasia.com/stories/beijing-ai-robotics-funds-432932", "title": "Beijing sets up $13.7b fund to boost AI, robotics innovations", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://cnmra.com/booster-robotics-completed-a-round-of-financing-of-over-100-million-yuan/", "title": "Booster Robotics A+ funding press release", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["co-managers", "Booster Robotics participation", "Galbot participation"],
+      "fields_uncertain": ["exact establishment date"],
+      "notes": "Separate fund from Beijing Robot Industry Development Fund. Distinct GPs."
+    }
+  },
+  {
+    "id": "stg-vc-baic-capital",
+    "name": "BAIC Capital 北汽产投",
+    "company": "Beijing Automotive Group Industrial Investment Co., Ltd.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2012",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth, Strategic",
+      "Notable Portfolio": ["Galbot", "Robot Era", "Neolix"],
+      "Headquarters": "Beijing, China",
+      "Founded": "2012",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Industrial investment and capital operations platform of state-owned automaker BAIC Group, established in 2012 with RMB 35.35B registered capital. Active in new energy, intelligent connected vehicles, automotive parts and embodied AI; participated in funding rounds for Galbot and Robot Era.",
+      "location": "Beijing, China",
+      "website": "https://www.baiccapital.com/"
+    },
+    "tags": ["China", "Growth", "CVC", "Industrial Strategic"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.baiccapital.com/", "title": "BAIC Capital official site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.cbinsights.com/investor/baic-capital", "title": "BAIC Capital portfolio - CBInsights", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "parent BAIC Group", "Galbot/Robot Era participation"],
+      "fields_uncertain": [],
+      "notes": "Single entity; both 'BAIC Industrial Investment' and 'BAIC Capital' names refer to this."
+    }
+  },
+  {
+    "id": "stg-vc-sense-capital",
+    "name": "SenseTime Guoxiang Capital 商汤国香资本",
+    "company": "Sense Capital (Shanghai) Co., Ltd.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2021",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Early Stage",
+      "Notable Portfolio": ["Galbot", "Ti5 Robot"],
+      "Headquarters": "Shanghai, China",
+      "Founded": "2021",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Equity investment arm of NYSE-/HK-listed AI company SenseTime, focused on the full AI industry chain including foundation models, embodied AI and robotics. Backer of Galbot among other AI-native startups.",
+      "location": "Shanghai, China",
+      "website": "https://www.sensetime.com/"
+    },
+    "tags": ["China", "Early Stage", "CVC"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://www.cbinsights.com/investor/shangtang-guoxiang-capital", "title": "SenseTime Guoxiang Capital - CBInsights", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["parent SenseTime", "portfolio includes Ti5 Robot"],
+      "fields_uncertain": ["exact founding year"],
+      "notes": "Also called Sense Capital."
+    }
+  },
+  {
+    "id": "stg-vc-iflytek-fund",
+    "name": "iFlytek Industry Fund 科大讯飞产业基金",
+    "company": "iFLYTEK Co., Ltd.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2017",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage, Growth",
+      "Notable Portfolio": ["Galbot"],
+      "Headquarters": "Hefei, Anhui, China",
+      "Founded": "2017",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Strategic investment fund operated by partially state-owned Chinese AI company iFlytek (002230.SZ). Established a RMB 1.024B (~US$150M) AI ecosystem fund in 2017 to back software and hardware startups; an active CVC investor in China's embodied AI scene.",
+      "location": "Hefei, Anhui, China",
+      "website": "https://www.iflytek.com/"
+    },
+    "tags": ["China", "Early Stage", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://nai500.com/blog/2017/10/china-artificial-intelligence-firm-iflytek-plans-150m-fund-to-support-startups/", "title": "China AI Firm iFlytek Plans $150M Fund", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://en.wikipedia.org/wiki/IFlytek", "title": "iFlytek - Wikipedia", "type": "wiki", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["parent iFlytek", "fund size", "establishment year"],
+      "fields_uncertain": ["specific Galbot ticket size"],
+      "notes": "CVC arm of iFlytek; not a standalone fund manager."
+    }
+  },
+  {
+    "id": "stg-vc-lighthouse-capital",
+    "name": "Lighthouse Capital 光源资本",
+    "company": "Lighthouse Capital",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2014",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth",
+      "Notable Portfolio": ["Galbot", "Bilibili", "Kuaishou"],
+      "Headquarters": "Shanghai, China",
+      "Founded": "2014",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Shanghai-headquartered boutique investment bank and asset manager founded in 2014, focused on new-economy advisory and direct investment. Manages over $400M AUM and has advised more than 50 unicorns and listed companies including Bilibili and Kuaishou.",
+      "location": "Shanghai, China",
+      "website": "https://lighthousecap.cn/"
+    },
+    "tags": ["China", "Growth", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://lighthousecap.cn/", "title": "光源资本 official site", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "Headquarters", "AUM", "clients"],
+      "fields_uncertain": ["whether Galbot relationship is direct investment or advisory"],
+      "notes": "Primarily a boutique investment bank; also runs direct-investment funds."
+    }
+  },
+  {
+    "id": "stg-vc-cdh",
+    "name": "CDH Investments 鼎晖投资",
+    "company": "CDH Investments",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2002",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth, Late Stage",
+      "Notable Portfolio": ["Robot Era", "UBTECH Robotics"],
+      "Headquarters": "Hong Kong / Beijing, China",
+      "Founded": "2002",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "One of China's largest alternative asset managers, established in 2002 by six founding partners including Wu Shangzhi and Jiao Zhen. Active across private equity, venture, real estate and public equity with 300+ portfolio companies; led a $100M round in UBTECH Robotics and participated in Robot Era's recent financing.",
+      "location": "Hong Kong / Beijing, China",
+      "website": "https://www.cdhfund.com/"
+    },
+    "tags": ["China", "Growth", "Late Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/CDH_Investments", "title": "CDH Investments - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://www.empea.org/newsroom/cdh-investments-leads-us100-million-investment-in-ubtech-robotics-asia/", "title": "CDH Investments Leads US$100 Million Investment in UBTECH Robotics", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "founders", "Headquarters", "robotics portfolio"],
+      "fields_uncertain": [],
+      "notes": "User listed 'Dihui'/'Dinghuai' VGC; matches CDH Investments per Caixin reporting on Robot Era Series A."
+    }
+  },
+  {
+    "id": "stg-vc-haier-capital",
+    "name": "Haier Capital 海尔资本",
+    "company": "Haier Capital",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2010",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Series A, Growth",
+      "Notable Portfolio": ["Robot Era", "Espressif"],
+      "Headquarters": "Shanghai, China",
+      "Founded": "2010",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Industrial investment platform of Haier Group's financial-holding arm, founded in 2010. Invests around Haier's IoT and smart-home ecosystem across VC, PE, M&A and government guidance funds; co-led Robot Era's RMB 500M Series A in July 2025.",
+      "location": "Shanghai, China",
+      "website": "https://www.haiercapital.com/"
+    },
+    "tags": ["China", "Growth", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.haiercapital.com/", "title": "海尔资本 official site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://m.caixin.com/m/2025-07-07/102338938.html", "title": "Caixin: Robot Era Series A led by Dinghui and Haier Capital", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "parent Haier", "Robot Era investment"],
+      "fields_uncertain": [],
+      "notes": "Industrial CVC."
+    }
+  },
+  {
+    "id": "stg-vc-houxue",
+    "name": "Houxue Capital 厚雪资本",
+    "company": "Houxue Capital",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2022",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage, Series A, Series B",
+      "Notable Portfolio": ["Robot Era", "Moore Threads", "Orcauboat"],
+      "Headquarters": "Shanghai, China",
+      "Founded": "2022",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Shanghai-based early- and mid-stage technology VC founded in 2022, investing across IT, industrials, manufacturing, materials, new energy and AI. Achieved its first exit through Moore Threads' listing in December 2025.",
+      "location": "Shanghai, China",
+      "website": "https://www.houxuecapital.com/"
+    },
+    "tags": ["China", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://www.crunchbase.com/organization/houxue-capital", "title": "Houxue Capital - Crunchbase", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://tracxn.com/d/venture-capital/houxue-fund/__zPxHg6l1VEOLpDJj6L8fqsf-ljbaUa8Tq8gIeAyT7dY", "title": "Houxue Fund - Tracxn", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "Headquarters", "portfolio examples", "Moore Threads exit"],
+      "fields_uncertain": ["official website URL"],
+      "notes": "Younger fund; primary public profile lives on Crunchbase/Tracxn."
+    }
+  },
+  {
+    "id": "stg-vc-meridian-china",
+    "name": "Meridian Capital China 华兴新经济",
+    "company": "Meridian Capital China",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2008",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage, Growth",
+      "Notable Portfolio": ["Robot Era", "Lingyu Intelligence"],
+      "Headquarters": "Shanghai, China",
+      "Founded": "2008",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Shanghai-based venture capital firm founded in 2008 investing in consumption upgrade, cutting-edge technology, fintech and entertainment. Distinct from 华兴资本/China Renaissance, although both are sometimes loosely rendered in English as 'Huaxing'.",
+      "location": "Shanghai, China",
+      "website": "https://www.meridiancapital.cn/"
+    },
+    "tags": ["China", "Early Stage", "Growth", "Pure VC"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://pitchbook.com/profiles/investor/60672-16", "title": "Meridian Capital China - PitchBook", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "Headquarters", "investment style"],
+      "fields_uncertain": ["whether the funding_rounds.json 'Meridian Capital 华兴资本' entry is Meridian Capital China or China Renaissance"],
+      "notes": "User notes asked to verify Meridian Capital vs China Renaissance. Treated here as Meridian Capital China; if the source funding round explicitly states '华兴资本', operator should review whether this should instead point to a distinct China Renaissance entity."
+    }
+  },
+  {
+    "id": "stg-vc-xianghe",
+    "name": "Xianghe Capital 襄禾资本",
+    "company": "Xiang He Capital",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage, Growth",
+      "Notable Portfolio": ["Lalamove", "Kuaishou (founders' Baidu portfolio)"],
+      "Headquarters": "Beijing, China",
+      "Founded": "2016",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Beijing-based venture firm founded in 2016 by ex-Baidu corporate development leaders Hesong Tang and Maggie Yang, who led Baidu's investments in iQiyi, Qunar, Kuaishou and Beike. Closed a USD-denominated Fund II at $425M and an RMB fund at RMB 1B.",
+      "location": "Beijing, China",
+      "website": "https://www.xianghecap.com/en"
+    },
+    "tags": ["China", "Early Stage", "Growth", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.xianghecap.com/en", "title": "Xiang He Capital official", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.chinamoneynetwork.com/2019/07/22/former-baidu-investment-head-led-xianghe-capital-gets-387m-for-second-fund", "title": "Xianghe Capital Gets $378M For Second Fund", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "founders", "fund sizes"],
+      "fields_uncertain": [],
+      "notes": "Backs internet, AI and TMT."
+    }
+  },
+  {
+    "id": "stg-vc-fore-intelligent",
+    "name": "Zhejiang Fore Intelligent Technology 浙江福沃智能",
+    "company": "Zhejiang FORE Intelligent Technology Co., Ltd.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["Robot Era"],
+      "Headquarters": "Taizhou, Zhejiang, China",
+      "Founded": "",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Taizhou-based industrial-strategic manufacturer specializing in precision gears, reducers and intelligent drive components used in robotics actuators. Strategic investor in humanoid-robot startups including Robot Era.",
+      "location": "Taizhou, Zhejiang, China",
+      "website": "https://www.cn-fore.com/"
+    },
+    "tags": ["China", "Strategic", "Industrial Strategic"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://www.cn-fore.com/", "title": "Zhejiang FORE Intelligent Technology official site", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["business focus", "Headquarters"],
+      "fields_uncertain": ["founding year", "exact Robot Era ticket"],
+      "notes": "Robot Era investor per user-supplied funding_rounds.json; component supplier turned strategic shareholder."
+    }
+  },
+  {
+    "id": "stg-vc-crystal-stream",
+    "name": "Crystal Stream Capital 清流资本",
+    "company": "Crystal Stream Capital",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2013",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Series A",
+      "Notable Portfolio": ["Robot Era", "Lalamove", "Energy Monster"],
+      "Headquarters": "Beijing, China",
+      "Founded": "2013",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Beijing-based early-stage TMT venture firm founded in 2013, co-led with Alibaba and Yuanjing Capital on Robot Era's RMB ~300M Pre-A round. Note: user-provided Chinese name '晶流资本' is the alternate transliteration; the firm itself uses '清流资本'.",
+      "location": "Beijing, China",
+      "website": "https://www.crystalstreamcapital.com/"
+    },
+    "tags": ["China", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://pitchbook.com/profiles/investor/63542-17", "title": "Crystal Stream Capital - PitchBook", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://www.linkedin.com/company/%E6%B8%85%E6%B5%81%E8%B5%84%E6%9C%AC", "title": "清流资本 LinkedIn", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "Headquarters", "Robot Era Pre-A participation"],
+      "fields_uncertain": [],
+      "notes": "Chinese name should be 清流资本, not 晶流资本 (the latter appears to be a mis-transcription in funding_rounds.json)."
+    }
+  },
+  {
+    "id": "stg-vc-tsinghua-holdings",
+    "name": "Tsinghua Holdings 清华控股 / Qingkong Tiancheng 清控天诚",
+    "company": "Tsinghua Holdings Co., Ltd.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2003",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage, Growth, Strategic",
+      "Notable Portfolio": ["Robot Era", "Tsinghua Unigroup portfolio"],
+      "Headquarters": "Beijing, China",
+      "Founded": "2003",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Wholly-owned holding company of Tsinghua University, established in 2003 to consolidate the university's commercial subsidiaries. Operates multiple investment arms including Tsinghua Holdings Capital (2007), Tsinghua Holdings Venture Capital (2011) and Qingkong Tiancheng (清控天诚), which is a continuous early-stage shareholder in Robot Era.",
+      "location": "Beijing, China",
+      "website": "http://en.thholding.com.cn/"
+    },
+    "tags": ["China", "Early Stage", "Government Fund"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Tsinghua_Holdings", "title": "Tsinghua Holdings - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://www.chnfund.com/article/AR4df41359-b514-c9f4-6fcc-3a15a8411fdc", "title": "China Fund News: Alibaba leads Tsinghua-backed Robot Era Pre-A", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "parent Tsinghua University", "Robot Era equity"],
+      "fields_uncertain": ["whether Qingkong Tiancheng (清控天诚) should be tracked as a child entity"],
+      "notes": "Treating Tsinghua Holdings and 清控天诚 (Qingkong Tiancheng) as one entity per user guidance ('could mark as variant/sub-entity'). Note Chinese press uses '清控天诚', sometimes mistranslated as '清华控股下属天诚创投'."
+    }
+  },
+  {
+    "id": "stg-vc-clearvue",
+    "name": "ClearVue Partners 凯辉资本",
+    "company": "ClearVue Partners",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2012",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth",
+      "Notable Portfolio": ["111 Inc.", "Ping An Health", "Pony.ai", "Quhuo"],
+      "Headquarters": "Shanghai, China",
+      "Founded": "2012",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Shanghai-based growth-stage private equity firm founded in 2012, focused on China's consumer megatrends (modernization, new retail, lifestyle, health & wellness, digital consumer). Manages over $1B AUM across three funds and 40+ portfolio companies. Distinct from Cathay Capital / Cathay Innovation.",
+      "location": "Shanghai, China",
+      "website": "https://www.cvpcap.com/"
+    },
+    "tags": ["China", "Growth", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.cvpcap.com/about-us", "title": "ClearVue Partners About", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "Headquarters", "AUM"],
+      "fields_uncertain": ["whether the funding_rounds.json '凯辉资本' label may instead refer to Cathay Capital (also rendered 凯辉创新)"],
+      "notes": "WARNING: The Chinese name 凯辉 normally refers to Cathay Capital / Cathay Innovation, NOT ClearVue Partners (which Chinese press usually renders as 凯辉资本 — same characters but a different firm). The user explicitly flagged this disambiguation; operator should double-check the original funding source before publishing. Returning ClearVue Partners as the primary record because the English name in the user list says 'ClearVue Partners'."
+    }
+  },
+  {
+    "id": "stg-vc-visionplus",
+    "name": "VisionPlus Capital 元璟资本",
+    "company": "VisionPlus Capital",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2015",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage, Growth",
+      "Notable Portfolio": ["Robot Era", "Fourier Intelligence", "Zhijian Dynamics"],
+      "Headquarters": "Hangzhou / Shanghai, China",
+      "Founded": "2015",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Venture firm founded in 2015 by Alibaba co-founder Wu Yongming, with an 'industry + investment' DNA. Manages assets of over RMB 15B and has invested in 150+ projects across hard tech, smart manufacturing, industrial digitalization, medical tech and cross-border expansion.",
+      "location": "Hangzhou / Shanghai, China",
+      "website": "https://visionpluscapital.com/"
+    },
+    "tags": ["China", "Early Stage", "Growth", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://visionpluscapital.com/", "title": "元璟资本 official site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.1ai.net/en/21548.html", "title": "StarDrive/Robot Era Pre-A co-led by VisionPlus", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "founder Wu Yongming", "Robot Era investment"],
+      "fields_uncertain": ["whether 'YuanJing Capital 元景资本' in user funding_rounds.json is mis-transcribed for 元璟资本 VisionPlus"],
+      "notes": "The Chinese name '元景资本' supplied by user is likely a mis-transcription of '元璟资本' (VisionPlus). If the source document genuinely refers to a separate fund called 元景资本, that would be a different entity not located in public sources — flagging this as a likely typo."
+    }
+  },
+  {
+    "id": "stg-vc-orinno",
+    "name": "Orinno Capital 朗玛峰创投",
+    "company": "Langmafeng Venture Capital Co., Ltd.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2007",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage, Series A",
+      "Notable Portfolio": ["UBTECH", "Insta360", "Credo"],
+      "Headquarters": "Shenzhen, China",
+      "Founded": "2007",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Shenzhen-based venture firm founded in 2007, investing primarily at Series A across high tech, enterprise applications and life sciences. Portfolio of 140+ companies with 17 IPOs including Insta360 and UBTECH.",
+      "location": "Shenzhen, China",
+      "website": "http://www.orinno.com/"
+    },
+    "tags": ["China", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://tracxn.com/d/venture-capital/langmafeng-venture-capital/__znVanqEnfetg7shCpciVZ2g-4YCUAe6UIcjcmioLXl8", "title": "Langmafeng Venture Capital - Tracxn", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "Headquarters", "portfolio"],
+      "fields_uncertain": ["disambiguation from a separate 'Orinno Capital' in Chengdu (different firm tied to Chengdu Hi-Tech Investment Group)"],
+      "notes": "There are TWO firms surfaced under the name 'Orinno Capital': (1) Langmafeng Venture Capital 朗玛峰创投 (Shenzhen, 2007), which matches the user's Chinese name, and (2) a Chengdu-based 'Orinno Capital' from 2022 owned by Chengdu Hi-Tech Investment Group. Returning the Shenzhen firm because the user's Chinese name 朗玛峰创投 explicitly matches it."
+    }
+  },
+  {
+    "id": "stg-vc-lenovo-capital",
+    "name": "Lenovo Capital 联想创投",
+    "company": "Lenovo Capital and Incubator Group (LCIG)",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage, Growth, Strategic",
+      "Notable Portfolio": ["CATL", "Meituan", "NIO", "Robot Era", "SmartSens"],
+      "Headquarters": "Beijing, China",
+      "Founded": "2016",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Lenovo Group's global technology industry fund established in 2016, operating a 'CVC 2.0' model that bundles Lenovo's resources with capital. Has invested in 270+ enterprises across AI, computing, embodied intelligence, smart healthcare and advanced manufacturing; 20 portfolio IPOs to date.",
+      "location": "Beijing, China",
+      "website": "https://capital.lenovo.com/"
+    },
+    "tags": ["China", "Growth", "CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://capital.lenovo.com/", "title": "联想创投 official site", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "parent Lenovo", "portfolio scale"],
+      "fields_uncertain": [],
+      "notes": "Distinct from Legend Capital / 君联资本 (Lenovo Holdings' separate VC arm)."
+    }
+  },
+  {
+    "id": "stg-vc-century-golden-resources",
+    "name": "Century Golden Resources 世纪金源",
+    "company": "Century Golden Resources Group",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1991",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic, Growth",
+      "Notable Portfolio": ["Robot Era"],
+      "Headquarters": "Beijing, China",
+      "Founded": "1991",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Privately-held Chinese diversified conglomerate led by billionaire Huang Rulun, with RMB 400B in total investments across real estate, hospitality, healthcare and smart mobility. Strategic investor in Robot Era alongside IMO Ventures and Lenovo Capital.",
+      "location": "Beijing, China",
+      "website": "https://www.cnshijijinyuan.com/"
+    },
+    "tags": ["China", "Strategic", "Industrial Strategic"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Century_Golden_Resources_Group", "title": "Century Golden Resources Group - Wikipedia", "type": "wiki", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["founder", "scale", "Robot Era investment"],
+      "fields_uncertain": ["exact founding year"],
+      "notes": "Real-estate conglomerate that has diversified into tech/mobility strategic investments."
+    }
+  },
+  {
+    "id": "stg-vc-stone-venture",
+    "name": "Stone Venture",
+    "company": "Stone Venture",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth",
+      "Notable Portfolio": ["LimX Dynamics"],
+      "Headquarters": "Dubai, UAE",
+      "Founded": "2024",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Dubai-based investment firm founded in 2024 focused on backing Chinese and global hard-tech and embodied AI businesses. Participated in LimX Dynamics' $200M Series B alongside JD.com, Oriental Fortune Capital and CoStone Capital.",
+      "location": "Dubai, UAE",
+      "website": ""
+    },
+    "tags": ["UAE", "Growth", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.caixinglobal.com/2026-02-03/chinese-robot-startup-limx-dynamics-raises-200-million-102411020.html", "title": "Caixin: Chinese Robot Startup LimX Dynamics Raises $200 Million", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://kr-asia.com/limx-dynamics-raises-series-b-funding-to-push-embodied-robots-into-real-world-use", "title": "LimX Dynamics raises Series B funding", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["LimX Series B participation", "year", "Headquarters"],
+      "fields_uncertain": ["official website"],
+      "notes": "DO NOT confuse with Roborock's 石头科技; user's Chinese name '石头创投' is the source's literal translation but the firm is in fact a UAE-based fund, not affiliated with Roborock per Caixin reporting."
+    }
+  },
+  {
+    "id": "stg-vc-oriental-fortune",
+    "name": "Oriental Fortune Capital 东方富海",
+    "company": "Shenzhen Oriental Fortune Capital Co., Ltd.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2006",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage, Growth",
+      "Notable Portfolio": ["LimX Dynamics"],
+      "Headquarters": "Shenzhen, China",
+      "Founded": "2006",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Shenzhen-based Chinese venture firm co-founded in 2006 by Chen Wei, former president of Shenzhen Capital Group. Manages 42 funds with over RMB 20B AUM across TMT, green tech, advanced manufacturing, healthcare and consumption; 80+ portfolio IPOs to date.",
+      "location": "Shenzhen, China",
+      "website": "http://www.ofcapital.com/"
+    },
+    "tags": ["China", "Growth", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Oriental_Fortune_Capital", "title": "Oriental Fortune Capital - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "http://www.ofcapital.com/", "title": "OFC东方富海 official", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "founder", "AUM"],
+      "fields_uncertain": [],
+      "notes": "Established Shenzhen VC."
+    }
+  },
+  {
+    "id": "stg-vc-costone",
+    "name": "CoStone Capital 基石资本",
+    "company": "CoStone Asset Management Co., Ltd.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2001",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Growth, Late Stage",
+      "Notable Portfolio": ["LimX Dynamics", "OmniVision Technologies", "Mindray", "MGI"],
+      "Headquarters": "Shenzhen, China",
+      "Founded": "2001",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Shenzhen-based PE and VC firm founded in 2001, one of China's earliest investment houses. Manages over RMB 40B AUM with portfolio investments in 100+ companies (40+ exits), including OmniVision, Mindray, MGI, 4Paradigm and CloudWalk; backed LimX Dynamics' Series B.",
+      "location": "Shenzhen, China",
+      "website": "https://www.stonevc.com/"
+    },
+    "tags": ["China", "Growth", "Late Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/CoStone_Capital", "title": "CoStone Capital - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://www.stonevc.com/", "title": "基石资产管理 official", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "AUM", "Headquarters", "LimX participation"],
+      "fields_uncertain": [],
+      "notes": "Same firm as user's 'Shenzhen Co-Stone Asset Management 深圳基石资产'."
+    }
+  },
+  {
+    "id": "stg-vc-jd",
+    "name": "JD.com 京东",
+    "company": "JD.com, Inc.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1998",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic, Growth",
+      "Notable Portfolio": ["LimX Dynamics", "Spirit AI", "EngineAI"],
+      "Headquarters": "Beijing, China",
+      "Founded": "1998",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "NASDAQ- and HKEX-listed Chinese e-commerce and logistics giant. In 2026 led major rounds in LimX Dynamics, Spirit AI and EngineAI as part of its push to embed humanoid robotics across logistics, retail and service applications; runs an internal embodied-intelligence division led by former SenseTime VP Shen Hui.",
+      "location": "Beijing, China",
+      "website": "https://corporate.jd.com/"
+    },
+    "tags": ["China", "Strategic", "Growth", "Industrial Strategic"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.tmtpost.com/post/7632722", "title": "JD.com Drives Robotics Funding Frenzy With Investments in LimX Dynamics, Spirit AI, and EngineAI", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://www.yicaiglobal.com/news/jdcom-leads-funding-in-spirit-ai-limx-dynamics-engine-ai-to-advance-embodied-intelligence", "title": "Yicai: JD.com leads funding in Spirit AI, LimX Dynamics, EngineAI", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["LimX Dynamics participation"],
+      "fields_uncertain": ["whether the investing entity is JD.com itself or JD Capital/JD Technology subsidiary"],
+      "notes": "User asked whether this is JD.com directly or JD Capital. TMTPost and Yicai attribute the lead to 'JD.com'; in practice the investing vehicle is typically JD's corporate strategic-investment arm under JD.com, Inc."
+    }
+  },
+  {
+    "id": "stg-vc-zhongding",
+    "name": "Zhongding Sealing Parts 中鼎股份",
+    "company": "Anhui Zhongding Sealing Parts Co., Ltd.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1980",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["LimX Dynamics", "Hefei Dingli Kexing JV"],
+      "Headquarters": "Ningguo, Anhui, China",
+      "Founded": "1980",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Shenzhen-listed (000887) Anhui-based industrial component manufacturer (sealing, rubber, drive systems). Strategic investor in LimX Dynamics' Series B and JV partner producing humanoid robots through Hefei Dingli Kexing; targeting 3,000-unit annual capacity by 2026.",
+      "location": "Ningguo, Anhui, China",
+      "website": "https://www.zhongding.com.cn/"
+    },
+    "tags": ["China", "Strategic", "Industrial Strategic"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://autonews.gasgoo.com/articles/icv/zhongdings-first-humanoid-robot-officially-rolls-off-production-line-2033891149037596672", "title": "Zhongding's First Humanoid Robot Officially Rolls Off Production Line", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["LimX Series B participation", "JV creation"],
+      "fields_uncertain": [],
+      "notes": "Industrial component supplier turned strategic shareholder."
+    }
+  },
+  {
+    "id": "stg-vc-nrb",
+    "name": "NRB Corp. (Changzhou) 常州光阳轴承",
+    "company": "Changzhou NRB Corporation",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["LimX Dynamics"],
+      "Headquarters": "Changzhou, Jiangsu, China",
+      "Founded": "",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Changzhou-based Chinese manufacturer of automotive precision bearings (needle roller, hub, clutch release, planetary, thin-walled ring forgings). Strategic investor in LimX Dynamics' Series B and components supplier for humanoid robotic actuators. Distinct from NRB Bearings Ltd of India.",
+      "location": "Changzhou, Jiangsu, China",
+      "website": "https://www.bearing-expo.com/companies/890-changzhou-nrb-corporation"
+    },
+    "tags": ["China", "Strategic", "Industrial Strategic"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://www.bearing-expo.com/companies/890-changzhou-nrb-corporation", "title": "Changzhou NRB Corporation profile", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://interestingengineering.com/ai-robotics/china-limx-dynamics-robot-brain-funding", "title": "LimX Dynamics Series B investor list", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["business focus", "Headquarters", "LimX participation"],
+      "fields_uncertain": ["founding year", "official website"],
+      "notes": "User asked to verify Chinese parent: Changzhou NRB Corporation is a China-based bearing manufacturer (NRB = Needle Roller Bearings); the Indian NRB Bearings Ltd is unrelated."
+    }
+  },
+  {
+    "id": "stg-vc-kyland",
+    "name": "Kyland Technology 东土科技",
+    "company": "Beijing Kyland Technology Co., Ltd.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2000",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic",
+      "Notable Portfolio": ["LimX Dynamics"],
+      "Headquarters": "Beijing, China",
+      "Founded": "2000",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Shenzhen-listed (300353) Chinese industrial-internet, industrial Ethernet and software-defined control company. Strategic investor in LimX Dynamics' Series B, bringing industrial networking and control-edge software stacks for robotics deployment.",
+      "location": "Beijing, China",
+      "website": "https://www.kyland.com/"
+    },
+    "tags": ["China", "Strategic", "Industrial Strategic"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.kyland.com/", "title": "Kyland official site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://interestingengineering.com/ai-robotics/china-limx-dynamics-robot-brain-funding", "title": "LimX Series B investor list", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["LimX participation", "stock ticker", "industry"],
+      "fields_uncertain": ["exact founding year (commonly cited 2000)"],
+      "notes": "Industrial network and control vendor."
+    }
+  },
+  {
+    "id": "stg-vc-innoangel",
+    "name": "Innoangel Fund 英诺天使基金",
+    "company": "Innoangel Fund",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2013",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Angel, Seed",
+      "Notable Portfolio": ["MegaRobo", "WeRide", "Infervision"],
+      "Headquarters": "Beijing, China",
+      "Founded": "2013",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "One of China's leading angel/seed funds, established in April 2013 by entrepreneur-turned-investor Li Zhu, with tens of billions of RMB under management and 500+ early-stage portfolio investments. Focus areas include next-gen IT, AI, semiconductors, new energy, materials and advanced manufacturing.",
+      "location": "Beijing, China",
+      "website": "https://www.innoangel.com/"
+    },
+    "tags": ["China", "Seed", "Angel"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.innoangel.com/", "title": "英诺基金-首页", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "AUM scale", "portfolio examples"],
+      "fields_uncertain": [],
+      "notes": "Booster Robotics early backer per user funding data."
+    }
+  },
+  {
+    "id": "stg-vc-jinding",
+    "name": "Jinding Capital 金鼎资本",
+    "company": "Jinding Capital",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2014",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage, Series A",
+      "Notable Portfolio": ["Robot Era", "Booster Robotics", "Bloomage Biotech", "Gaussian Robotics"],
+      "Headquarters": "Beijing, China",
+      "Founded": "2014",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Beijing-based CVC-style firm founded in 2014, focused on early-stage, small-ticket, high-probability investments across tech, healthcare and consumer. Participated in Robot Era's Pre-A and Booster Robotics' Series A.",
+      "location": "Beijing, China",
+      "website": "https://www.jindingcap.com/"
+    },
+    "tags": ["China", "Early Stage", "Pure VC"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://www.cbinsights.com/investor/jinding-capital", "title": "Jinding Capital - CBInsights", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://en.tmtpost.com/post/7287841", "title": "Tsinghua-Backed Robot Era Secures 300 Million Yuan", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "Headquarters", "Robot Era + Booster investments"],
+      "fields_uncertain": ["official website URL"],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-capital-factory",
+    "name": "Capital Factory",
+    "company": "Capital Factory",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2009",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Seed, Series A",
+      "Notable Portfolio": ["Apptronik"],
+      "Headquarters": "Austin, USA",
+      "Founded": "2009",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Austin-based accelerator and venture fund founded in 2009 by Joshua Baer and Gordon Daugherty, described by PitchBook as the most active investor in Texas since 2010. Day-one supporter of Apptronik and co-led with B Capital its $415M Series A round.",
+      "location": "Austin, USA",
+      "website": "https://capitalfactory.com/"
+    },
+    "tags": ["USA", "Seed", "Pure VC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://capitalfactory.com/startup/apptronik-inc/", "title": "Capital Factory: Apptronik", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.therobotreport.com/apptronik-brings-in-another-520m-to-ramp-up-apollo-production/", "title": "The Robot Report: Apptronik Series A details", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["Apptronik investment", "Headquarters"],
+      "fields_uncertain": ["exact founding year (2009 commonly cited)"],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-john-deere",
+    "name": "John Deere",
+    "company": "Deere & Company",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1837",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic, Growth",
+      "Notable Portfolio": ["Apptronik"],
+      "Headquarters": "Moline, Illinois, USA",
+      "Founded": "1837",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "NYSE-listed (DE) American agricultural and construction equipment manufacturer founded in 1837. Strategic investor in Apptronik's Series A-X extension (Feb 2026) as part of its broader push into autonomy, AI and labor automation for large-scale farming and industrial use cases.",
+      "location": "Moline, Illinois, USA",
+      "website": "https://www.deere.com/"
+    },
+    "tags": ["USA", "Strategic", "Industrial Strategic"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.assemblymag.com/articles/99833-deere-and-mercedes-benz-invest-in-humanoid-robots", "title": "Deere and Mercedes-Benz Invest in Humanoid Robots", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://www.bloomberg.com/news/articles/2026-02-11/apptronik-raises-520-million-in-new-funding-to-build-more-humanoids", "title": "Bloomberg: Apptronik Triples Valuation to Over $5.5B", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["Apptronik investment", "year founded"],
+      "fields_uncertain": [],
+      "notes": "Investing entity is Deere & Company directly (strategic), not a dedicated CVC arm."
+    }
+  }
+]
