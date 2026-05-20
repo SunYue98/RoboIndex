@@ -68,6 +68,13 @@ const DICT: Record<Lang, Record<string, string>> = {
     'panel.system_link': '系统关联',
     'panel.visit': '访问官网',
     'panel.copy': '复制比对链接',
+    'panel.sources': '出处 / Sources',
+    'panel.no_sources': '出处待补 (Source needed)',
+    'panel.source_type.official': '官方',
+    'panel.source_type.paper': '论文',
+    'panel.source_type.wiki': '百科',
+    'panel.source_type.news': '新闻',
+    'panel.source_type.datasheet': '资料表',
   },
   en: {
     'nav.architecture': 'Architecture',
@@ -128,6 +135,13 @@ const DICT: Record<Lang, Record<string, string>> = {
     'panel.system_link': 'System Link',
     'panel.visit': 'Visit Website',
     'panel.copy': 'Copy comparison',
+    'panel.sources': 'Sources',
+    'panel.no_sources': 'Source needed',
+    'panel.source_type.official': 'Official',
+    'panel.source_type.paper': 'Paper',
+    'panel.source_type.wiki': 'Wiki',
+    'panel.source_type.news': 'News',
+    'panel.source_type.datasheet': 'Datasheet',
   }
 };
 

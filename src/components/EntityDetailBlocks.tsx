@@ -1,5 +1,5 @@
 import React from 'react';
-import { Entity, PaperInfo, OrgInfo } from '../data/entities';
+import { Entity, PaperInfo, OrgInfo, Source } from '../data/entities';
 import { ArrowUpRight } from 'lucide-react';
 import { useLang } from '../i18n';
 
@@ -93,7 +93,50 @@ export function TagsList({ tags }: { tags?: string[] }) {
   );
 }
 
-export function RelatedLinksList({ 
+export function SourcesBlock({ sources }: { sources?: Source[] }) {
+  const { t } = useLang();
+  const hasSources = sources && sources.length > 0;
+
+  return (
+    <div className="flex flex-col gap-2 mt-4 pt-4 border-t border-zinc-100">
+      <h4 className="text-[11px] font-bold text-zinc-400 uppercase tracking-widest mb-1">
+        {t('panel.sources')}
+      </h4>
+      {hasSources ? (
+        <div className="flex flex-col gap-1.5">
+          {sources!.map((s, i) => (
+            <a
+              key={`${s.url}-${i}`}
+              href={s.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-between gap-2 px-3 py-2 rounded-[10px] bg-zinc-50 border border-zinc-100 hover:bg-white hover:border-zinc-300 hover:shadow-sm transition-all group"
+              title={s.url}
+            >
+              <div className="flex items-center gap-2 min-w-0 flex-1">
+                {s.type && (
+                  <span className="shrink-0 px-1.5 py-0.5 rounded-[4px] bg-zinc-200/70 text-[9px] font-bold tracking-wider text-zinc-600 uppercase">
+                    {t(`panel.source_type.${s.type}`) || s.type}
+                  </span>
+                )}
+                <span className="text-[12px] font-[500] text-zinc-700 group-hover:text-zinc-900 line-clamp-1 min-w-0">
+                  {s.title}
+                </span>
+              </div>
+              <ArrowUpRight className="w-3.5 h-3.5 text-zinc-400 group-hover:text-zinc-700 shrink-0" />
+            </a>
+          ))}
+        </div>
+      ) : (
+        <div className="px-3 py-2 rounded-[10px] bg-amber-50/50 border border-amber-200/40 text-[11px] font-[500] text-amber-700/80">
+          {t('panel.no_sources')}
+        </div>
+      )}
+    </div>
+  );
+}
+
+export function RelatedLinksList({
   relatedEntities, 
   onNavigateToEntity 
 }: { 

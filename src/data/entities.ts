@@ -35,6 +35,14 @@ export interface OrgInfo {
   website?: string;
 }
 
+export type SourceType = 'official' | 'paper' | 'wiki' | 'news' | 'datasheet';
+
+export interface Source {
+  title: string;
+  url: string;
+  type?: SourceType;
+}
+
 export interface Entity {
   id: string;
   name: string;
@@ -49,6 +57,7 @@ export interface Entity {
   paperInfo?: PaperInfo;
   orgInfo?: OrgInfo;
   importance?: 'high' | 'medium' | 'low';
+  sources?: Source[];
 }
 
 // Modular Data Loading Strategy
