@@ -7,3 +7,4 @@ coverage/
 .env*
 !.env.example
 research/_preview/
+raw_images/
