@@ -43,6 +43,35 @@ export interface Source {
   type?: SourceType;
 }
 
+/**
+ * One funding round, attached to a company (Entity in 产业 category).
+ * Investors are listed as named text + optional link to our VC entity if present.
+ * Every round must carry a source URL so a user can fact-check the claim.
+ */
+export interface FundingRound {
+  round?: string;          // e.g. "Series A" / "Seed" / "IPO" / "Strategic"
+  year?: string;           // "YYYY-MM" preferred, "YYYY" acceptable
+  amount?: string;         // as-stated in the source, e.g. "$675M" or "RMB 1B"
+  leadInvestor?: string | null;
+  investors: Array<{ name: string; id?: string }>;
+  valuation?: string;      // post-money valuation if explicitly stated
+  source: Source;          // mandatory; users will click through to verify
+}
+
+/**
+ * Mirror view from a VC's perspective: one investment by this VC into a company.
+ * Derived (not authored) — built by reverse-scanning all companies' fundingRounds.
+ */
+export interface PortfolioInvestment {
+  companyName: string;     // human-readable
+  companyId: string;       // entity id (产业 category)
+  round?: string;
+  year?: string;
+  amount?: string;         // size of the round, not the VC's specific cheque
+  leadInvestor?: boolean;  // did this VC lead the round?
+  source: Source;          // same source as the underlying FundingRound
+}
+
 export interface Entity {
   id: string;
   name: string;
@@ -63,6 +92,11 @@ export interface Entity {
   seriesId?: string;
   seriesOrder?: number;
   seriesLabel?: string;
+  // Funding history. fundingRounds = "who invested in me" (set on company entries).
+  // portfolio = "who I invested in" (set on VC entries, derived from companies' rounds).
+  // Both kinds carry mandatory per-edge source URLs for fact-checkability.
+  fundingRounds?: FundingRound[];
+  portfolio?: PortfolioInvestment[];
 }
 
 // Modular Data Loading Strategy

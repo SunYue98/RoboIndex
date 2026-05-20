@@ -2,7 +2,7 @@ import { ArrowUpRight, History } from 'lucide-react';
 import { Entity } from '../data/entities';
 import { motion } from 'motion/react';
 import { useLang } from '../i18n';
-import { PaperInfoBlock, OrgInfoBlock, SpecsList, TagsList, RelatedLinksList, SourcesBlock, SeriesChain } from './EntityDetailBlocks';
+import { PaperInfoBlock, OrgInfoBlock, SpecsList, TagsList, RelatedLinksList, SourcesBlock, SeriesChain, FundingBlock } from './EntityDetailBlocks';
 
 interface SingleSpecsPanelProps {
   entity: Entity;
@@ -57,6 +57,12 @@ export function SingleSpecsPanel({ entity, mockData, onNavigateToEntity, onViewE
 
       <div className="flex flex-col gap-3 mb-auto">
         <TagsList tags={entity.tags} />
+        <FundingBlock
+          rounds={entity.fundingRounds}
+          portfolio={entity.portfolio}
+          allEntries={mockData}
+          onNavigateToEntity={onNavigateToEntity}
+        />
         <RelatedLinksList relatedEntities={relatedEntities} onNavigateToEntity={onNavigateToEntity} />
         <SourcesBlock sources={entity.sources} />
       </div>

@@ -76,6 +76,9 @@ const DICT: Record<Lang, Record<string, string>> = {
     'panel.source_type.news': '新闻',
     'panel.source_type.datasheet': '资料表',
     'panel.series': '产品系列',
+    'panel.investors': '投资人 / Investors',
+    'panel.portfolio': '投资组合 / Portfolio',
+    'panel.lead_investor': '领投',
   },
   en: {
     'nav.architecture': 'Architecture',
@@ -144,6 +147,9 @@ const DICT: Record<Lang, Record<string, string>> = {
     'panel.source_type.news': 'News',
     'panel.source_type.datasheet': 'Datasheet',
     'panel.series': 'Series',
+    'panel.investors': 'Investors',
+    'panel.portfolio': 'Portfolio',
+    'panel.lead_investor': 'Lead',
   }
 };
 

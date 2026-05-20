@@ -1,5 +1,5 @@
 import React from 'react';
-import { Entity, PaperInfo, OrgInfo, Source } from '../data/entities';
+import { Entity, PaperInfo, OrgInfo, Source, FundingRound, PortfolioInvestment } from '../data/entities';
 import { ArrowUpRight } from 'lucide-react';
 import { useLang } from '../i18n';
 
@@ -144,6 +144,146 @@ export function SeriesChain({
       </div>
     </div>
   );
+}
+
+/**
+ * FundingBlock — renders either:
+ *   - 投资人 view (entity is a company): list each funding round, its investors,
+ *     and the source URL.
+ *   - 投资组合 view (entity is a VC): list each investment this VC made, the
+ *     company invested in, round details, and the source URL.
+ *
+ * Every row has a clickable source link (icon-only on the right) — that's the
+ * fact-check entry point. Investor / company names that link to entities in
+ * our DB become clickable buttons; otherwise plain text.
+ */
+export function FundingBlock({
+  rounds,
+  portfolio,
+  allEntries,
+  onNavigateToEntity,
+}: {
+  rounds?: FundingRound[];
+  portfolio?: PortfolioInvestment[];
+  allEntries: Entity[];
+  onNavigateToEntity?: (id: string) => void;
+}) {
+  const { t } = useLang();
+  if ((!rounds || rounds.length === 0) && (!portfolio || portfolio.length === 0)) return null;
+
+  // 投资组合 view (for VCs)
+  if (portfolio && portfolio.length > 0) {
+    const sorted = [...portfolio].sort((a, b) => (b.year || '').localeCompare(a.year || ''));
+    return (
+      <div className="flex flex-col gap-2 mt-4 pt-4 border-t border-zinc-100">
+        <h4 className="text-[11px] font-bold text-zinc-400 uppercase tracking-widest mb-1">
+          {t('panel.portfolio')}
+        </h4>
+        <div className="flex flex-col gap-1.5">
+          {sorted.map((inv, i) => (
+            <div
+              key={`${inv.companyId}-${inv.round || ''}-${i}`}
+              className="flex items-center justify-between gap-2 px-3 py-2 rounded-[10px] bg-zinc-50 border border-zinc-100"
+            >
+              <div className="flex items-center gap-2 min-w-0 flex-1">
+                <button
+                  onClick={() => onNavigateToEntity?.(inv.companyId)}
+                  className="text-[12px] font-bold text-zinc-700 hover:text-zinc-900 hover:underline truncate"
+                  title={inv.companyName}
+                >
+                  {inv.companyName}
+                </button>
+                {inv.leadInvestor && (
+                  <span className="shrink-0 px-1.5 py-0.5 rounded-[4px] bg-amber-100 text-amber-700 text-[9px] font-bold tracking-wider uppercase">
+                    {t('panel.lead_investor')}
+                  </span>
+                )}
+                <span className="text-[11px] text-zinc-400 truncate">
+                  {[inv.round, inv.year, inv.amount].filter(Boolean).join(' · ')}
+                </span>
+              </div>
+              <a
+                href={inv.source.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={inv.source.title}
+                className="shrink-0 text-zinc-400 hover:text-zinc-700"
+              >
+                <ArrowUpRight className="w-3.5 h-3.5" />
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  // 投资人 view (for companies)
+  if (rounds && rounds.length > 0) {
+    const sorted = [...rounds].sort((a, b) => (b.year || '').localeCompare(a.year || ''));
+    return (
+      <div className="flex flex-col gap-2 mt-4 pt-4 border-t border-zinc-100">
+        <h4 className="text-[11px] font-bold text-zinc-400 uppercase tracking-widest mb-1">
+          {t('panel.investors')}
+        </h4>
+        <div className="flex flex-col gap-2">
+          {sorted.map((round, idx) => {
+            const headerLine = [round.round, round.year, round.amount].filter(Boolean).join(' · ');
+            return (
+              <div
+                key={`${round.round || ''}-${round.year || ''}-${idx}`}
+                className="px-3 py-2 rounded-[10px] bg-zinc-50 border border-zinc-100"
+              >
+                <div className="flex items-center justify-between gap-2 mb-1.5">
+                  <div className="text-[11px] font-bold text-zinc-700 tracking-tight">
+                    {headerLine || '(round)'}
+                    {round.valuation && (
+                      <span className="ml-1.5 text-[10px] font-[500] text-zinc-400">
+                        @ {round.valuation}
+                      </span>
+                    )}
+                  </div>
+                  <a
+                    href={round.source.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title={round.source.title}
+                    className="shrink-0 text-zinc-400 hover:text-zinc-700"
+                  >
+                    <ArrowUpRight className="w-3.5 h-3.5" />
+                  </a>
+                </div>
+                <div className="flex flex-wrap gap-1">
+                  {round.investors.map((inv, j) => {
+                    const isLead = round.leadInvestor && round.leadInvestor === inv.name;
+                    const cls = isLead
+                      ? 'px-1.5 py-0.5 rounded-[4px] bg-amber-100 text-amber-800 text-[10px] font-bold'
+                      : 'px-1.5 py-0.5 rounded-[4px] bg-white border border-zinc-200 text-[10px] font-[500] text-zinc-600';
+                    return inv.id ? (
+                      <button
+                        key={`${inv.name}-${j}`}
+                        onClick={() => onNavigateToEntity?.(inv.id!)}
+                        className={cls + ' hover:border-zinc-400 hover:text-zinc-900 transition-colors'}
+                        title={inv.name}
+                      >
+                        {inv.name}
+                      </button>
+                    ) : (
+                      <span key={`${inv.name}-${j}`} className={cls}>
+                        {inv.name}
+                      </span>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    );
+  }
+
+  return null;
 }
 
 export function SourcesBlock({ sources }: { sources?: Source[] }) {
