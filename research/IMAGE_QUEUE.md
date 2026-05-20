@@ -1,6 +1,6 @@
 # 图片收集优先级队列
 
-自动生成 by `research/_tools/audit_images.py`。共 647 条 entity，456 条缺真图（70%）。
+自动生成 by `research/_tools/audit_images.py`。共 647 条 entity，455 条缺真图（70%）。
 
 评分逻辑：`relatedIds 数 + 类别权重 + isNew + 系列首/尾 boost`。每完成一批后重跑本脚本会刷新清单。
 
@@ -8,7 +8,6 @@
 
 | ✓ | 优先级 | ID | 名称 | 公司 | 类别 | 关联数 | 收集来源建议 |
 |---|---:|---|---|---|---|---:|---|
-| ☐ | 39 | `f34` | NEO Gamma | 1X Technologies | 整机平台 | 6 | 厂商 press kit / 官网产品页 / IEEE Spectrum / Robot Report |
 | ☐ | 36 | `sw-genie-2` | Genie 2 | Google DeepMind | 基础模型 | 5 | 论文 figure / GitHub README hero |
 | ☐ | 36 | `sw-genie-3` | Genie 3 | Google DeepMind | 基础模型 | 5 | 论文 figure / GitHub README hero |
 | ☐ | 36 | `sw-groot-n1` | GR00T N1 | NVIDIA | 基础模型 | 5 | 论文 figure / GitHub README hero |
@@ -38,6 +37,7 @@
 | ☐ | 28 | `e2` | Shadow Dexterous Hand (E3M5R) | Shadow Robot Company | 灵巧手 & 夹爪 | 3 | datasheet / 厂商产品页 |
 | ☐ | 28 | `flagship-galbot-g1` | Galbot G1 | Galbot (银河通用) | 整机平台 | 3 | 厂商 press kit / 官网产品页 / IEEE Spectrum / Robot Report |
 | ☐ | 28 | `ind-robot-era` | Robot Era (星动纪元) | Robot Era (星动纪元) | 产业 | 8 | 公司官网 press / Wikipedia infobox |
+| ☐ | 28 | `sw-dreamerv3` | DreamerV3 | Google DeepMind / Univers | 基础模型 | 2 | 论文 figure / GitHub README hero |
 
 ## 处理工作流提醒
 

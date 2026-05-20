@@ -50,11 +50,14 @@ TARGET_SIZE = 1000
 
 
 def load_entity_index() -> dict:
-    """Build entity_id → partition mapping."""
+    """Build entity_id → {partition, existing_imageUrl} mapping."""
     index = {}
     for p in PARTITIONS:
         for e in json.loads((DATA / f"{p}.json").read_text(encoding="utf-8")):
-            index[e["id"]] = p
+            index[e["id"]] = {
+                "partition": p,
+                "imageUrl": e.get("imageUrl") or "",
+            }
     return index
 
 
@@ -188,12 +191,23 @@ def process_one(
 
 
 def resolve_output(entity_id: str, fmt: str, entity_index: dict) -> Path:
-    partition = entity_index.get(entity_id)
-    if not partition:
+    info = entity_index.get(entity_id)
+    if not info:
         raise ValueError(
             f"Entity id {entity_id!r} not found in any partition. "
             f"Known partitions: {PARTITIONS}"
         )
+    partition = info["partition"]
+    # If entity already has a slug-style imageUrl set (e.g. "images/hardware/figure-03.jpg"),
+    # reuse that filename so we overwrite in place and the JSON doesn't need updating.
+    existing = info["imageUrl"]
+    if existing and existing.startswith("images/"):
+        # Honor the existing path verbatim. If user passed --format conflicts, warn but proceed.
+        existing_path = PUBLIC / existing
+        if existing_path.suffix.lower().lstrip(".") != fmt.lower():
+            print(f"  NOTE: entity has existing imageUrl with .{existing_path.suffix.lstrip('.')}; honoring --format={fmt} and writing to {entity_id}.{fmt} instead")
+            return PUBLIC / "images" / partition / f"{entity_id}.{fmt}"
+        return existing_path
     return PUBLIC / "images" / partition / f"{entity_id}.{fmt}"
 
 
