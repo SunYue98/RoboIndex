@@ -39,7 +39,10 @@
         "title": "Agility Robotics - Wikipedia",
         "type": "wiki"
       }
-    ]
+    ],
+    "seriesId": "agility-bipedal",
+    "seriesOrder": 1,
+    "seriesLabel": "Memo"
   },
   {
     "id": "f2",
@@ -133,7 +136,10 @@
       "description": "Tesla's Optimus humanoid program, unveiled at AI Day 2021; Gen 2 revealed December 12, 2023.",
       "location": "Palo Alto, California, USA",
       "website": "https://www.tesla.com/AI"
-    }
+    },
+    "seriesId": "tesla-optimus",
+    "seriesOrder": 2,
+    "seriesLabel": "Gen 2 (2023)"
   },
   {
     "id": "a1",
@@ -171,7 +177,10 @@
       "arm-ur5e",
       "s2",
       "c1"
-    ]
+    ],
+    "seriesId": "ur-eseries",
+    "seriesOrder": 3,
+    "seriesLabel": "UR10e (2018)"
   },
   {
     "id": "a2",
@@ -208,7 +217,10 @@
       "sw-polymetis",
       "arm-fr3",
       "c1"
-    ]
+    ],
+    "seriesId": "franka",
+    "seriesOrder": 1,
+    "seriesLabel": "Panda (2017)"
   },
   {
     "id": "e1",
@@ -298,7 +310,10 @@
       "f4",
       "sw-openai-dexterous",
       "d1"
-    ]
+    ],
+    "seriesId": "shadow-dexterous",
+    "seriesOrder": 1,
+    "seriesLabel": "Dexterous Hand (E3M5R)"
   },
   {
     "id": "j1",
@@ -372,7 +387,10 @@
       "joint-dynamixel-ph42-020",
       "joint-dynamixel-xh540-w270",
       "joint-dynamixel-xm430-w350"
-    ]
+    ],
+    "seriesId": "dynamixel-p",
+    "seriesOrder": 2,
+    "seriesLabel": "PH54-200"
   },
   {
     "id": "c1",
@@ -407,7 +425,10 @@
       "a1",
       "a2",
       "comp-harmonic-csf-2up"
-    ]
+    ],
+    "seriesId": "harmonic-csf",
+    "seriesOrder": 1,
+    "seriesLabel": "CSF-2UH"
   },
   {
     "id": "c2",
@@ -474,7 +495,10 @@
       "sensor-realsense-d435i",
       "sensor-realsense-d457",
       "sensor-realsense-l515"
-    ]
+    ],
+    "seriesId": "intel-realsense-stereo",
+    "seriesOrder": 2,
+    "seriesLabel": "D455 (2020)"
   },
   {
     "id": "s2",
@@ -507,7 +531,10 @@
     "relatedIds": [
       "a1",
       "sensor-ati-mini40"
-    ]
+    ],
+    "seriesId": "ati-ft",
+    "seriesOrder": 2,
+    "seriesLabel": "Axia80"
   },
   {
     "id": "d1",
@@ -614,7 +641,10 @@
       "cp-jetson-nano",
       "cp-jetson-orin-nano",
       "cp-jetson-orin-nx"
-    ]
+    ],
+    "seriesId": "nvidia-jetson",
+    "seriesOrder": 3,
+    "seriesLabel": "AGX Orin (2022)"
   },
   {
     "id": "cp2",
@@ -703,7 +733,10 @@
     ],
     "relatedIds": [
       "f13"
-    ]
+    ],
+    "seriesId": "muks-spaceo",
+    "seriesOrder": 1,
+    "seriesLabel": "SPACEO M1"
   },
   {
     "id": "f7",
@@ -773,7 +806,10 @@
       "ind-tesla-optimus",
       "f4",
       "f98"
-    ]
+    ],
+    "seriesId": "tesla-optimus",
+    "seriesOrder": 1,
+    "seriesLabel": "Gen 1 (2022)"
   },
   {
     "id": "f9",
@@ -807,7 +843,10 @@
       "f104",
       "f139",
       "app-humanoid-manufacturing"
-    ]
+    ],
+    "seriesId": "figure-humanoid",
+    "seriesOrder": 1,
+    "seriesLabel": "Figure 01"
   },
   {
     "id": "f10",
@@ -871,7 +910,10 @@
     ],
     "relatedIds": [
       "f124"
-    ]
+    ],
+    "seriesId": "pndbotics-adam",
+    "seriesOrder": 1,
+    "seriesLabel": "Adam G0"
   },
   {
     "id": "f13",
@@ -907,7 +949,10 @@
     ],
     "relatedIds": [
       "f6"
-    ]
+    ],
+    "seriesId": "muks-spaceo",
+    "seriesOrder": 2,
+    "seriesLabel": "SPACEO Pro"
   },
   {
     "id": "f15",
@@ -947,7 +992,10 @@
       "f2",
       "f25",
       "f73"
-    ]
+    ],
+    "seriesId": "limx-dynamics",
+    "seriesOrder": 1,
+    "seriesLabel": "P1S"
   },
   {
     "id": "a4",
@@ -1039,7 +1087,10 @@
       "ind-1x",
       "f122",
       "f34"
-    ]
+    ],
+    "seriesId": "1x-humanoid",
+    "seriesOrder": 1,
+    "seriesLabel": "EVE-3"
   },
   {
     "id": "f22",
@@ -1070,7 +1121,10 @@
     ],
     "relatedIds": [
       "f96"
-    ]
+    ],
+    "seriesId": "matrix-robotics",
+    "seriesOrder": 1,
+    "seriesLabel": "Matrix-1"
   },
   {
     "id": "f23",
@@ -1152,7 +1206,10 @@
       "joint-unitree-go-m8010-6",
       "cp-jetson-agx-thor",
       "pwr-unitree-h1-battery"
-    ]
+    ],
+    "seriesId": "unitree-humanoid",
+    "seriesOrder": 2,
+    "seriesLabel": "H2"
   },
   {
     "id": "f25",
@@ -1195,7 +1252,10 @@
       "app-humanoid-manufacturing",
       "app-inspection",
       "app-surgical"
-    ]
+    ],
+    "seriesId": "limx-dynamics",
+    "seriesOrder": 2,
+    "seriesLabel": "TRON"
   },
   {
     "id": "f26",
@@ -1387,7 +1447,10 @@
     ],
     "relatedIds": [
       "f77"
-    ]
+    ],
+    "seriesId": "noetix",
+    "seriesOrder": 1,
+    "seriesLabel": "Dora"
   },
   {
     "id": "f33",
@@ -1479,7 +1542,10 @@
       "cp-jetson-agx-thor",
       "app-cleaning",
       "app-home-humanoid"
-    ]
+    ],
+    "seriesId": "1x-humanoid",
+    "seriesOrder": 3,
+    "seriesLabel": "NEO Gamma"
   },
   {
     "id": "f35",
@@ -1670,7 +1736,10 @@
       "f123",
       "f56",
       "f61"
-    ]
+    ],
+    "seriesId": "leju-kuavo",
+    "seriesOrder": 2,
+    "seriesLabel": "KUAVO-S"
   },
   {
     "id": "f40",
@@ -1709,7 +1778,10 @@
       "f49",
       "f70",
       "f78"
-    ]
+    ],
+    "seriesId": "agibot",
+    "seriesOrder": 1,
+    "seriesLabel": "X1 (open dev)"
   },
   {
     "id": "f41",
@@ -1745,7 +1817,10 @@
     ],
     "relatedIds": [
       "f112"
-    ]
+    ],
+    "seriesId": "xhumanoid-tian-yi",
+    "seriesOrder": 1,
+    "seriesLabel": "Tian Yi 2.0"
   },
   {
     "id": "f42",
@@ -2038,7 +2113,10 @@
       "f40",
       "f70",
       "f78"
-    ]
+    ],
+    "seriesId": "agibot",
+    "seriesOrder": 2,
+    "seriesLabel": "A2"
   },
   {
     "id": "f50",
@@ -2141,7 +2219,10 @@
     ],
     "relatedIds": [
       "f138"
-    ]
+    ],
+    "seriesId": "phybot",
+    "seriesOrder": 2,
+    "seriesLabel": "M1"
   },
   {
     "id": "f53",
@@ -2212,7 +2293,10 @@
     "relatedIds": [
       "f72",
       "f88"
-    ]
+    ],
+    "seriesId": "kepler",
+    "seriesOrder": 3,
+    "seriesLabel": "K2 Bumblebee"
   },
   {
     "id": "f55",
@@ -2279,7 +2363,10 @@
       "f123",
       "f39",
       "f61"
-    ]
+    ],
+    "seriesId": "leju-kuavo",
+    "seriesOrder": 1,
+    "seriesLabel": "Roban 2"
   },
   {
     "id": "f58",
@@ -2315,7 +2402,10 @@
     ],
     "relatedIds": [
       "f108"
-    ]
+    ],
+    "seriesId": "humanoid-uk",
+    "seriesOrder": 1,
+    "seriesLabel": "HMND 01"
   },
   {
     "id": "f59",
@@ -2351,7 +2441,10 @@
     ],
     "relatedIds": [
       "f114"
-    ]
+    ],
+    "seriesId": "mentee-bot",
+    "seriesOrder": 2,
+    "seriesLabel": "MenteeBot V3"
   },
   {
     "id": "f60",
@@ -2453,7 +2546,10 @@
       "f123",
       "f39",
       "f56"
-    ]
+    ],
+    "seriesId": "leju-kuavo",
+    "seriesOrder": 3,
+    "seriesLabel": "KUAVO-MY"
   },
   {
     "id": "f62",
@@ -2752,7 +2848,10 @@
       "f65",
       "f82",
       "cp1"
-    ]
+    ],
+    "seriesId": "ubtech-walker",
+    "seriesOrder": 3,
+    "seriesLabel": "Walker S2"
   },
   {
     "id": "f70",
@@ -2791,7 +2890,10 @@
       "f40",
       "f49",
       "f78"
-    ]
+    ],
+    "seriesId": "agibot",
+    "seriesOrder": 3,
+    "seriesLabel": "A2 Max"
   },
   {
     "id": "f71",
@@ -2862,7 +2964,10 @@
     "relatedIds": [
       "f54",
       "f88"
-    ]
+    ],
+    "seriesId": "kepler",
+    "seriesOrder": 2,
+    "seriesLabel": "K2"
   },
   {
     "id": "f73",
@@ -2933,7 +3038,10 @@
       "f15",
       "f2",
       "f25"
-    ]
+    ],
+    "seriesId": "limx-dynamics",
+    "seriesOrder": 4,
+    "seriesLabel": "Oli"
   },
   {
     "id": "f74",
@@ -3061,7 +3169,10 @@
     ],
     "relatedIds": [
       "f32"
-    ]
+    ],
+    "seriesId": "noetix",
+    "seriesOrder": 2,
+    "seriesLabel": "Hobbs"
   },
   {
     "id": "f78",
@@ -3100,7 +3211,10 @@
       "f40",
       "f49",
       "f70"
-    ]
+    ],
+    "seriesId": "agibot",
+    "seriesOrder": 4,
+    "seriesLabel": "G2 Genie"
   },
   {
     "id": "f79",
@@ -3166,7 +3280,10 @@
     ],
     "relatedIds": [
       "f129"
-    ]
+    ],
+    "seriesId": "dobot-atom",
+    "seriesOrder": 1,
+    "seriesLabel": "Atom"
   },
   {
     "id": "f81",
@@ -3222,7 +3339,10 @@
     "relatedIds": [
       "ind-apptronik",
       "app-humanoid-manufacturing"
-    ]
+    ],
+    "seriesId": "apptronik-apollo",
+    "seriesOrder": 1,
+    "seriesLabel": "Apollo"
   },
   {
     "id": "f82",
@@ -3262,7 +3382,10 @@
       "f144",
       "f65",
       "f69"
-    ]
+    ],
+    "seriesId": "ubtech-walker",
+    "seriesOrder": 1,
+    "seriesLabel": "Walker C"
   },
   {
     "id": "f83",
@@ -3328,7 +3451,10 @@
     "relatedIds": [
       "ind-unitree",
       "f140"
-    ]
+    ],
+    "seriesId": "unitree-humanoid",
+    "seriesOrder": 1,
+    "seriesLabel": "H1"
   },
   {
     "id": "f85",
@@ -3460,7 +3586,10 @@
     "relatedIds": [
       "f54",
       "f72"
-    ]
+    ],
+    "seriesId": "kepler",
+    "seriesOrder": 1,
+    "seriesLabel": "K1 (legacy)"
   },
   {
     "id": "f89",
@@ -3585,7 +3714,10 @@
     ],
     "relatedIds": [
       "f22"
-    ]
+    ],
+    "seriesId": "matrix-robotics",
+    "seriesOrder": 2,
+    "seriesLabel": "Matrix-4"
   },
   {
     "id": "f97",
@@ -3657,7 +3789,10 @@
       "ind-tesla-optimus",
       "f4",
       "f8"
-    ]
+    ],
+    "seriesId": "tesla-optimus",
+    "seriesOrder": 3,
+    "seriesLabel": "V2.5 (2024)"
   },
   {
     "id": "f100",
@@ -3799,7 +3934,10 @@
       "f139",
       "f9",
       "app-humanoid-manufacturing"
-    ]
+    ],
+    "seriesId": "figure-humanoid",
+    "seriesOrder": 3,
+    "seriesLabel": "Figure 03"
   },
   {
     "id": "f105",
@@ -3836,7 +3974,10 @@
     "relatedIds": [
       "ind-robot-era",
       "flagship-robotera-l7"
-    ]
+    ],
+    "seriesId": "robotera",
+    "seriesOrder": 1,
+    "seriesLabel": "RobotEra L2"
   },
   {
     "id": "f106",
@@ -3936,7 +4077,10 @@
     ],
     "relatedIds": [
       "f58"
-    ]
+    ],
+    "seriesId": "humanoid-uk",
+    "seriesOrder": 2,
+    "seriesLabel": "HMND_01 Alpha"
   },
   {
     "id": "f109",
@@ -4077,7 +4221,10 @@
     ],
     "relatedIds": [
       "f41"
-    ]
+    ],
+    "seriesId": "xhumanoid-tian-yi",
+    "seriesOrder": 2,
+    "seriesLabel": "Tian Yi 2.0 (YI-2)"
   },
   {
     "id": "f113",
@@ -4142,7 +4289,10 @@
     ],
     "relatedIds": [
       "f59"
-    ]
+    ],
+    "seriesId": "mentee-bot",
+    "seriesOrder": 1,
+    "seriesLabel": "MenteeBot v1"
   },
   {
     "id": "f115",
@@ -4263,7 +4413,10 @@
       "f127",
       "app-cleaning",
       "app-hospitality"
-    ]
+    ],
+    "seriesId": "pudu-d",
+    "seriesOrder": 1,
+    "seriesLabel": "D7"
   },
   {
     "id": "f121",
@@ -4337,7 +4490,10 @@
       "f34",
       "app-cleaning",
       "app-home-humanoid"
-    ]
+    ],
+    "seriesId": "1x-humanoid",
+    "seriesOrder": 2,
+    "seriesLabel": "NEO Beta"
   },
   {
     "id": "f123",
@@ -4370,7 +4526,10 @@
       "f39",
       "f56",
       "f61"
-    ]
+    ],
+    "seriesId": "leju-kuavo",
+    "seriesOrder": 4,
+    "seriesLabel": "XTRON KUAVO-MY"
   },
   {
     "id": "f124",
@@ -4401,7 +4560,10 @@
     ],
     "relatedIds": [
       "f12"
-    ]
+    ],
+    "seriesId": "pndbotics-adam",
+    "seriesOrder": 2,
+    "seriesLabel": "Adam Lite"
   },
   {
     "id": "f125",
@@ -4468,7 +4630,10 @@
       "f120",
       "app-cleaning",
       "app-hospitality"
-    ]
+    ],
+    "seriesId": "pudu-d",
+    "seriesOrder": 2,
+    "seriesLabel": "D9"
   },
   {
     "id": "f128",
@@ -4507,7 +4672,10 @@
       "sw-dreamerv3",
       "flagship-xpeng-iron-nextgen",
       "sw-calvin"
-    ]
+    ],
+    "seriesId": "xpeng-iron",
+    "seriesOrder": 1,
+    "seriesLabel": "IRON"
   },
   {
     "id": "f129",
@@ -4543,7 +4711,10 @@
     ],
     "relatedIds": [
       "f80"
-    ]
+    ],
+    "seriesId": "dobot-atom",
+    "seriesOrder": 2,
+    "seriesLabel": "Atom Max"
   },
   {
     "id": "f130",
@@ -4580,7 +4751,10 @@
     "relatedIds": [
       "ind-agility",
       "f1"
-    ]
+    ],
+    "seriesId": "agility-bipedal",
+    "seriesOrder": 2,
+    "seriesLabel": "Digit"
   },
   {
     "id": "f131",
@@ -4651,7 +4825,10 @@
       "f2",
       "f25",
       "f73"
-    ]
+    ],
+    "seriesId": "limx-dynamics",
+    "seriesOrder": 3,
+    "seriesLabel": "CL"
   },
   {
     "id": "f133",
@@ -4759,7 +4936,10 @@
       "f65",
       "f69",
       "f82"
-    ]
+    ],
+    "seriesId": "ubtech-walker",
+    "seriesOrder": 2,
+    "seriesLabel": "Walker S1"
   },
   {
     "id": "f136",
@@ -4858,7 +5038,10 @@
     ],
     "relatedIds": [
       "f52"
-    ]
+    ],
+    "seriesId": "phybot",
+    "seriesOrder": 1,
+    "seriesLabel": "C1"
   },
   {
     "id": "f139",
@@ -4892,7 +5075,10 @@
       "f104",
       "f9",
       "app-humanoid-manufacturing"
-    ]
+    ],
+    "seriesId": "figure-humanoid",
+    "seriesOrder": 2,
+    "seriesLabel": "Figure 02"
   },
   {
     "id": "f140",
@@ -5234,7 +5420,10 @@
     ],
     "relatedIds": [
       "h39"
-    ]
+    ],
+    "seriesId": "tesollo-dg",
+    "seriesOrder": 1,
+    "seriesLabel": "DG-3F"
   },
   {
     "id": "h4",
@@ -5294,7 +5483,10 @@
     "relatedIds": [
       "h20",
       "h25"
-    ]
+    ],
+    "seriesId": "inspire-rh",
+    "seriesOrder": 2,
+    "seriesLabel": "RH50G2"
   },
   {
     "id": "h6",
@@ -5451,7 +5643,10 @@
     "relatedIds": [
       "ind-agibot",
       "h17"
-    ]
+    ],
+    "seriesId": "agibot-omnihand",
+    "seriesOrder": 2,
+    "seriesLabel": "OmniHand Pro 2025"
   },
   {
     "id": "h12",
@@ -5610,7 +5805,10 @@
     "relatedIds": [
       "ind-agibot",
       "h11"
-    ]
+    ],
+    "seriesId": "agibot-omnihand",
+    "seriesOrder": 1,
+    "seriesLabel": "OmniHand"
   },
   {
     "id": "h18",
@@ -5679,7 +5877,10 @@
     "relatedIds": [
       "h25",
       "h5"
-    ]
+    ],
+    "seriesId": "inspire-rh",
+    "seriesOrder": 1,
+    "seriesLabel": "RH50 Series"
   },
   {
     "id": "h21",
@@ -5709,7 +5910,10 @@
     "relatedIds": [
       "h30",
       "h41"
-    ]
+    ],
+    "seriesId": "paxini-dex",
+    "seriesOrder": 2,
+    "seriesLabel": "GMH18"
   },
   {
     "id": "h22",
@@ -5794,7 +5998,10 @@
     ],
     "relatedIds": [
       "h29"
-    ]
+    ],
+    "seriesId": "shadow-dexterous",
+    "seriesOrder": 3,
+    "seriesLabel": "DEX-EE (smaller)"
   },
   {
     "id": "h25",
@@ -5820,7 +6027,10 @@
     "relatedIds": [
       "h20",
       "h5"
-    ]
+    ],
+    "seriesId": "inspire-rh",
+    "seriesOrder": 3,
+    "seriesLabel": "RH56E2"
   },
   {
     "id": "h26",
@@ -5873,7 +6083,10 @@
     ],
     "relatedIds": [
       "h42"
-    ]
+    ],
+    "seriesId": "prensilia",
+    "seriesOrder": 1,
+    "seriesLabel": "IH2 Azzurra"
   },
   {
     "id": "h28",
@@ -5932,7 +6145,10 @@
       "sw-agibot-world",
       "sw-openai-dexterous",
       "h24"
-    ]
+    ],
+    "seriesId": "shadow-dexterous",
+    "seriesOrder": 2,
+    "seriesLabel": "Dexterous Hand (legacy)"
   },
   {
     "id": "h30",
@@ -5962,7 +6178,10 @@
     "relatedIds": [
       "h21",
       "h41"
-    ]
+    ],
+    "seriesId": "paxini-dex",
+    "seriesOrder": 1,
+    "seriesLabel": "DexH5"
   },
   {
     "id": "h31",
@@ -6194,7 +6413,10 @@
     ],
     "relatedIds": [
       "h3"
-    ]
+    ],
+    "seriesId": "tesollo-dg",
+    "seriesOrder": 2,
+    "seriesLabel": "DG-5F"
   },
   {
     "id": "h40",
@@ -6252,7 +6474,10 @@
     "relatedIds": [
       "h21",
       "h30"
-    ]
+    ],
+    "seriesId": "paxini-dex",
+    "seriesOrder": 3,
+    "seriesLabel": "DexH13"
   },
   {
     "id": "h42",
@@ -6277,7 +6502,10 @@
     ],
     "relatedIds": [
       "h27"
-    ]
+    ],
+    "seriesId": "prensilia",
+    "seriesOrder": 2,
+    "seriesLabel": "Mia Hand R&D"
   },
   {
     "id": "h43",
@@ -6583,7 +6811,10 @@
       "arm-ur20",
       "arm-ur30",
       "arm-ur5e"
-    ]
+    ],
+    "seriesId": "ur-eseries",
+    "seriesOrder": 1,
+    "seriesLabel": "UR3e (2018)"
   },
   {
     "id": "arm-ur5e",
@@ -6619,7 +6850,10 @@
       "arm-ur20",
       "arm-ur30",
       "arm-ur3e"
-    ]
+    ],
+    "seriesId": "ur-eseries",
+    "seriesOrder": 2,
+    "seriesLabel": "UR5e (2018)"
   },
   {
     "id": "arm-ur16e",
@@ -6655,7 +6889,10 @@
       "arm-ur30",
       "arm-ur3e",
       "arm-ur5e"
-    ]
+    ],
+    "seriesId": "ur-eseries",
+    "seriesOrder": 4,
+    "seriesLabel": "UR16e (2019)"
   },
   {
     "id": "arm-ur20",
@@ -6691,7 +6928,10 @@
       "arm-ur16e",
       "arm-ur3e",
       "arm-ur5e"
-    ]
+    ],
+    "seriesId": "ur-eseries",
+    "seriesOrder": 5,
+    "seriesLabel": "UR20 (2022)"
   },
   {
     "id": "arm-ur30",
@@ -6726,7 +6966,10 @@
       "arm-ur16e",
       "arm-ur3e",
       "arm-ur5e"
-    ]
+    ],
+    "seriesId": "ur-eseries",
+    "seriesOrder": 6,
+    "seriesLabel": "UR30 (2023)"
   },
   {
     "id": "arm-fr3",
@@ -6765,7 +7008,10 @@
     "relatedIds": [
       "a2",
       "app-education-stem"
-    ]
+    ],
+    "seriesId": "franka",
+    "seriesOrder": 2,
+    "seriesLabel": "Research 3 (2022)"
   },
   {
     "id": "arm-kinova-gen3",
@@ -6798,7 +7044,10 @@
     ],
     "relatedIds": [
       "arm-kinova-gen3-lite"
-    ]
+    ],
+    "seriesId": "kinova-gen3",
+    "seriesOrder": 2,
+    "seriesLabel": "Gen3 7-DOF (2019)"
   },
   {
     "id": "arm-kinova-gen3-lite",
@@ -6831,7 +7080,10 @@
     ],
     "relatedIds": [
       "arm-kinova-gen3"
-    ]
+    ],
+    "seriesId": "kinova-gen3",
+    "seriesOrder": 1,
+    "seriesLabel": "Gen3 lite (2020)"
   },
   {
     "id": "arm-kuka-iiwa-7-r800",
@@ -6869,7 +7121,10 @@
     ],
     "relatedIds": [
       "arm-kuka-iiwa-14-r820"
-    ]
+    ],
+    "seriesId": "kuka-iiwa",
+    "seriesOrder": 1,
+    "seriesLabel": "iiwa 7 R800"
   },
   {
     "id": "arm-kuka-iiwa-14-r820",
@@ -6901,7 +7156,10 @@
     ],
     "relatedIds": [
       "arm-kuka-iiwa-7-r800"
-    ]
+    ],
+    "seriesId": "kuka-iiwa",
+    "seriesOrder": 2,
+    "seriesLabel": "iiwa 14 R820"
   },
   {
     "id": "arm-jaka-zu5",
@@ -6934,7 +7192,10 @@
     "relatedIds": [
       "a4",
       "arm-jaka-minicobo"
-    ]
+    ],
+    "seriesId": "jaka-cobot",
+    "seriesOrder": 1,
+    "seriesLabel": "Zu 5"
   },
   {
     "id": "arm-jaka-minicobo",
@@ -6968,7 +7229,10 @@
     "relatedIds": [
       "a4",
       "arm-jaka-zu5"
-    ]
+    ],
+    "seriesId": "jaka-cobot",
+    "seriesOrder": 2,
+    "seriesLabel": "MiniCobo"
   },
   {
     "id": "arm-aubo-i5",
@@ -7000,7 +7264,10 @@
     ],
     "relatedIds": [
       "arm-aubo-i10"
-    ]
+    ],
+    "seriesId": "aubo-i",
+    "seriesOrder": 1,
+    "seriesLabel": "i5"
   },
   {
     "id": "arm-aubo-i10",
@@ -7032,7 +7299,10 @@
     ],
     "relatedIds": [
       "arm-aubo-i5"
-    ]
+    ],
+    "seriesId": "aubo-i",
+    "seriesOrder": 2,
+    "seriesLabel": "i10"
   },
   {
     "id": "arm-realman-rm65",
@@ -7065,7 +7335,10 @@
     ],
     "relatedIds": [
       "arm-realman-rm75"
-    ]
+    ],
+    "seriesId": "realman-rm",
+    "seriesOrder": 1,
+    "seriesLabel": "RM65"
   },
   {
     "id": "arm-realman-rm75",
@@ -7098,7 +7371,10 @@
     ],
     "relatedIds": [
       "arm-realman-rm65"
-    ]
+    ],
+    "seriesId": "realman-rm",
+    "seriesOrder": 2,
+    "seriesLabel": "RM75"
   },
   {
     "id": "arm-diana7",
@@ -7167,7 +7443,10 @@
     "relatedIds": [
       "arm-doosan-h2017",
       "arm-doosan-m1013"
-    ]
+    ],
+    "seriesId": "doosan-m-h",
+    "seriesOrder": 1,
+    "seriesLabel": "M0609"
   },
   {
     "id": "arm-doosan-m1013",
@@ -7200,7 +7479,10 @@
     "relatedIds": [
       "arm-doosan-h2017",
       "arm-doosan-m0609"
-    ]
+    ],
+    "seriesId": "doosan-m-h",
+    "seriesOrder": 2,
+    "seriesLabel": "M1013"
   },
   {
     "id": "arm-doosan-h2017",
@@ -7234,7 +7516,10 @@
     "relatedIds": [
       "arm-doosan-m0609",
       "arm-doosan-m1013"
-    ]
+    ],
+    "seriesId": "doosan-m-h",
+    "seriesOrder": 3,
+    "seriesLabel": "H2017"
   },
   {
     "id": "arm-techman-tm5-900",
@@ -7267,7 +7552,10 @@
     "relatedIds": [
       "f7",
       "arm-techman-tm12"
-    ]
+    ],
+    "seriesId": "techman-tm",
+    "seriesOrder": 1,
+    "seriesLabel": "TM5-900"
   },
   {
     "id": "arm-techman-tm12",
@@ -7301,7 +7589,10 @@
     "relatedIds": [
       "f7",
       "arm-techman-tm5-900"
-    ]
+    ],
+    "seriesId": "techman-tm",
+    "seriesOrder": 2,
+    "seriesLabel": "TM12"
   },
   {
     "id": "arm-elite-cs66",
@@ -7337,7 +7628,10 @@
       "app-hospitality",
       "app-last-mile-delivery",
       "app-warehouse"
-    ]
+    ],
+    "seriesId": "elite-cobot",
+    "seriesOrder": 2,
+    "seriesLabel": "CS66"
   },
   {
     "id": "arm-elite-ec66",
@@ -7372,7 +7666,10 @@
       "app-hospitality",
       "app-last-mile-delivery",
       "app-warehouse"
-    ]
+    ],
+    "seriesId": "elite-cobot",
+    "seriesOrder": 1,
+    "seriesLabel": "EC66"
   },
   {
     "id": "arm-abb-gofa-5",
@@ -7404,7 +7701,10 @@
     ],
     "relatedIds": [
       "arm-abb-yumi-irb14000"
-    ]
+    ],
+    "seriesId": "abb-cobot",
+    "seriesOrder": 2,
+    "seriesLabel": "GoFa CRB 15000-5 (2021)"
   },
   {
     "id": "arm-abb-yumi-irb14000",
@@ -7436,7 +7736,10 @@
     ],
     "relatedIds": [
       "arm-abb-gofa-5"
-    ]
+    ],
+    "seriesId": "abb-cobot",
+    "seriesOrder": 1,
+    "seriesLabel": "YuMi IRB 14000 (2015)"
   },
   {
     "id": "joint-robstride-01",
@@ -7472,7 +7775,10 @@
       "joint-robstride-03",
       "joint-robstride-04",
       "joint-robstride-06"
-    ]
+    ],
+    "seriesId": "robstride",
+    "seriesOrder": 1,
+    "seriesLabel": "01"
   },
   {
     "id": "joint-robstride-02",
@@ -7509,7 +7815,10 @@
       "joint-robstride-03",
       "joint-robstride-04",
       "joint-robstride-06"
-    ]
+    ],
+    "seriesId": "robstride",
+    "seriesOrder": 2,
+    "seriesLabel": "02"
   },
   {
     "id": "joint-robstride-03",
@@ -7545,7 +7854,10 @@
       "joint-robstride-02",
       "joint-robstride-04",
       "joint-robstride-06"
-    ]
+    ],
+    "seriesId": "robstride",
+    "seriesOrder": 3,
+    "seriesLabel": "03"
   },
   {
     "id": "joint-robstride-04",
@@ -7582,7 +7894,10 @@
       "joint-robstride-02",
       "joint-robstride-03",
       "joint-robstride-06"
-    ]
+    ],
+    "seriesId": "robstride",
+    "seriesOrder": 4,
+    "seriesLabel": "04"
   },
   {
     "id": "joint-robstride-06",
@@ -7618,7 +7933,10 @@
       "joint-robstride-02",
       "joint-robstride-03",
       "joint-robstride-04"
-    ]
+    ],
+    "seriesId": "robstride",
+    "seriesOrder": 5,
+    "seriesLabel": "06"
   },
   {
     "id": "joint-cubemars-ak80-9",
@@ -7651,7 +7969,10 @@
     "relatedIds": [
       "joint-cubemars-ak60-6",
       "joint-cubemars-ak70-10"
-    ]
+    ],
+    "seriesId": "cubemars-ak",
+    "seriesOrder": 3,
+    "seriesLabel": "AK80-9"
   },
   {
     "id": "joint-cubemars-ak70-10",
@@ -7684,7 +8005,10 @@
     "relatedIds": [
       "joint-cubemars-ak60-6",
       "joint-cubemars-ak80-9"
-    ]
+    ],
+    "seriesId": "cubemars-ak",
+    "seriesOrder": 2,
+    "seriesLabel": "AK70-10"
   },
   {
     "id": "joint-cubemars-ak60-6",
@@ -7717,7 +8041,10 @@
     "relatedIds": [
       "joint-cubemars-ak70-10",
       "joint-cubemars-ak80-9"
-    ]
+    ],
+    "seriesId": "cubemars-ak",
+    "seriesOrder": 1,
+    "seriesLabel": "AK60-6"
   },
   {
     "id": "joint-steadywin-gim6010-8",
@@ -7751,7 +8078,10 @@
     "relatedIds": [
       "joint-steadywin-gim8108-8",
       "joint-steadywin-gim8115-6"
-    ]
+    ],
+    "seriesId": "steadywin-gim",
+    "seriesOrder": 1,
+    "seriesLabel": "GIM6010-8"
   },
   {
     "id": "joint-steadywin-gim8108-8",
@@ -7785,7 +8115,10 @@
     "relatedIds": [
       "joint-steadywin-gim6010-8",
       "joint-steadywin-gim8115-6"
-    ]
+    ],
+    "seriesId": "steadywin-gim",
+    "seriesOrder": 2,
+    "seriesLabel": "GIM8108-8"
   },
   {
     "id": "joint-steadywin-gim8115-6",
@@ -7819,7 +8152,10 @@
     "relatedIds": [
       "joint-steadywin-gim6010-8",
       "joint-steadywin-gim8108-8"
-    ]
+    ],
+    "seriesId": "steadywin-gim",
+    "seriesOrder": 3,
+    "seriesLabel": "GIM8115-6"
   },
   {
     "id": "joint-myactuator-rmd-x8",
@@ -7886,7 +8222,10 @@
       "j2",
       "joint-dynamixel-ph42-020",
       "joint-dynamixel-xh540-w270"
-    ]
+    ],
+    "seriesId": "dynamixel-x",
+    "seriesOrder": 1,
+    "seriesLabel": "XM430-W350"
   },
   {
     "id": "joint-dynamixel-xh540-w270",
@@ -7922,7 +8261,10 @@
       "j2",
       "joint-dynamixel-ph42-020",
       "joint-dynamixel-xm430-w350"
-    ]
+    ],
+    "seriesId": "dynamixel-x",
+    "seriesOrder": 2,
+    "seriesLabel": "XH540-W270"
   },
   {
     "id": "joint-dynamixel-ph42-020",
@@ -7959,7 +8301,10 @@
       "j2",
       "joint-dynamixel-xh540-w270",
       "joint-dynamixel-xm430-w350"
-    ]
+    ],
+    "seriesId": "dynamixel-p",
+    "seriesOrder": 1,
+    "seriesLabel": "PH42-020"
   },
   {
     "id": "joint-hebi-x5-9",
@@ -7991,7 +8336,10 @@
     ],
     "relatedIds": [
       "joint-hebi-x8-16"
-    ]
+    ],
+    "seriesId": "hebi-x",
+    "seriesOrder": 1,
+    "seriesLabel": "X5-9"
   },
   {
     "id": "joint-hebi-x8-16",
@@ -8024,7 +8372,10 @@
     ],
     "relatedIds": [
       "joint-hebi-x5-9"
-    ]
+    ],
+    "seriesId": "hebi-x",
+    "seriesOrder": 2,
+    "seriesLabel": "X8-16"
   },
   {
     "id": "joint-unitree-go-m8010-6",
@@ -8060,7 +8411,10 @@
       "f24",
       "joint-unitree-a1",
       "pwr-unitree-h1-battery"
-    ]
+    ],
+    "seriesId": "unitree-motor",
+    "seriesOrder": 2,
+    "seriesLabel": "GO-M8010-6"
   },
   {
     "id": "joint-unitree-a1",
@@ -8096,7 +8450,10 @@
       "f24",
       "joint-unitree-go-m8010-6",
       "pwr-unitree-h1-battery"
-    ]
+    ],
+    "seriesId": "unitree-motor",
+    "seriesOrder": 1,
+    "seriesLabel": "A1 Motor"
   },
   {
     "id": "sensor-realsense-d435i",
@@ -8136,7 +8493,10 @@
       "s1",
       "sensor-realsense-d457",
       "sensor-realsense-l515"
-    ]
+    ],
+    "seriesId": "intel-realsense-stereo",
+    "seriesOrder": 1,
+    "seriesLabel": "D435i (2019)"
   },
   {
     "id": "sensor-realsense-d457",
@@ -8171,7 +8531,10 @@
       "s1",
       "sensor-realsense-d435i",
       "sensor-realsense-l515"
-    ]
+    ],
+    "seriesId": "intel-realsense-stereo",
+    "seriesOrder": 3,
+    "seriesLabel": "D457 (2022)"
   },
   {
     "id": "sensor-realsense-l515",
@@ -8245,7 +8608,10 @@
       "sensor-orbbec-femto-mega",
       "sensor-orbbec-gemini-335",
       "sensor-orbbec-gemini-335le"
-    ]
+    ],
+    "seriesId": "orbbec-femto",
+    "seriesOrder": 1,
+    "seriesLabel": "Femto Bolt"
   },
   {
     "id": "sensor-orbbec-femto-mega",
@@ -8280,7 +8646,10 @@
       "sensor-orbbec-femto-bolt",
       "sensor-orbbec-gemini-335",
       "sensor-orbbec-gemini-335le"
-    ]
+    ],
+    "seriesId": "orbbec-femto",
+    "seriesOrder": 2,
+    "seriesLabel": "Femto Mega"
   },
   {
     "id": "sensor-orbbec-gemini-335",
@@ -8314,7 +8683,10 @@
       "sensor-orbbec-femto-bolt",
       "sensor-orbbec-femto-mega",
       "sensor-orbbec-gemini-335le"
-    ]
+    ],
+    "seriesId": "orbbec-gemini",
+    "seriesOrder": 1,
+    "seriesLabel": "Gemini 335"
   },
   {
     "id": "sensor-orbbec-gemini-335le",
@@ -8349,7 +8721,10 @@
       "sensor-orbbec-femto-bolt",
       "sensor-orbbec-femto-mega",
       "sensor-orbbec-gemini-335"
-    ]
+    ],
+    "seriesId": "orbbec-gemini",
+    "seriesOrder": 2,
+    "seriesLabel": "Gemini 335Le"
   },
   {
     "id": "sensor-azure-kinect-dk",
@@ -8638,7 +9013,10 @@
     ],
     "relatedIds": [
       "s2"
-    ]
+    ],
+    "seriesId": "ati-ft",
+    "seriesOrder": 1,
+    "seriesLabel": "Mini40"
   },
   {
     "id": "sensor-onrobot-hex-e",
@@ -8761,7 +9139,10 @@
     ],
     "relatedIds": [
       "sensor-velodyne-alpha-prime"
-    ]
+    ],
+    "seriesId": "velodyne",
+    "seriesOrder": 1,
+    "seriesLabel": "VLP-16 (2014)"
   },
   {
     "id": "sensor-velodyne-alpha-prime",
@@ -8794,7 +9175,10 @@
     ],
     "relatedIds": [
       "sensor-velodyne-vlp16"
-    ]
+    ],
+    "seriesId": "velodyne",
+    "seriesOrder": 2,
+    "seriesLabel": "Alpha Prime VLS-128 (2018)"
   },
   {
     "id": "sensor-ouster-os1",
@@ -8856,7 +9240,10 @@
     ],
     "relatedIds": [
       "sensor-hesai-xt16"
-    ]
+    ],
+    "seriesId": "hesai-pandar",
+    "seriesOrder": 2,
+    "seriesLabel": "AT128 (2021)"
   },
   {
     "id": "sensor-hesai-xt16",
@@ -8888,7 +9275,10 @@
     ],
     "relatedIds": [
       "sensor-hesai-at128"
-    ]
+    ],
+    "seriesId": "hesai-pandar",
+    "seriesOrder": 1,
+    "seriesLabel": "PandarXT-16 (2020)"
   },
   {
     "id": "sensor-livox-mid360",
@@ -8922,7 +9312,10 @@
     "relatedIds": [
       "sensor-livox-hap",
       "sensor-livox-mid40"
-    ]
+    ],
+    "seriesId": "livox",
+    "seriesOrder": 2,
+    "seriesLabel": "Mid-360 (2023)"
   },
   {
     "id": "sensor-livox-hap",
@@ -8956,7 +9349,10 @@
     "relatedIds": [
       "sensor-livox-mid360",
       "sensor-livox-mid40"
-    ]
+    ],
+    "seriesId": "livox",
+    "seriesOrder": 3,
+    "seriesLabel": "HAP (2022 auto)"
   },
   {
     "id": "sensor-livox-mid40",
@@ -8989,7 +9385,10 @@
     "relatedIds": [
       "sensor-livox-hap",
       "sensor-livox-mid360"
-    ]
+    ],
+    "seriesId": "livox",
+    "seriesOrder": 1,
+    "seriesLabel": "Mid-40 (2019)"
   },
   {
     "id": "sensor-vectornav-vn100",
@@ -9113,7 +9512,10 @@
     ],
     "relatedIds": [
       "c1"
-    ]
+    ],
+    "seriesId": "harmonic-csf",
+    "seriesOrder": 2,
+    "seriesLabel": "CSF-2UP Ultra-Flat"
   },
   {
     "id": "comp-nabtesco-rv-n",
@@ -9144,7 +9546,10 @@
     ],
     "relatedIds": [
       "comp-nabtesco-rv-c"
-    ]
+    ],
+    "seriesId": "nabtesco-rv",
+    "seriesOrder": 1,
+    "seriesLabel": "RV-N"
   },
   {
     "id": "comp-nabtesco-rv-c",
@@ -9175,7 +9580,10 @@
     ],
     "relatedIds": [
       "comp-nabtesco-rv-n"
-    ]
+    ],
+    "seriesId": "nabtesco-rv",
+    "seriesOrder": 2,
+    "seriesLabel": "RV-C Hollow-Shaft"
   },
   {
     "id": "comp-spinea-twinspin-t",
@@ -10186,7 +10594,10 @@
       "cp-jetson-nano",
       "cp-jetson-orin-nano",
       "cp1"
-    ]
+    ],
+    "seriesId": "nvidia-jetson",
+    "seriesOrder": 4,
+    "seriesLabel": "Orin NX (2023)"
   },
   {
     "id": "cp-jetson-orin-nano",
@@ -10223,7 +10634,10 @@
       "cp-jetson-nano",
       "cp-jetson-orin-nx",
       "cp1"
-    ]
+    ],
+    "seriesId": "nvidia-jetson",
+    "seriesOrder": 5,
+    "seriesLabel": "Orin Nano (2023)"
   },
   {
     "id": "cp-jetson-agx-thor",
@@ -10271,7 +10685,10 @@
       "cp-jetson-orin-nano",
       "cp-jetson-orin-nx",
       "cp1"
-    ]
+    ],
+    "seriesId": "nvidia-jetson",
+    "seriesOrder": 6,
+    "seriesLabel": "AGX Thor (2025)"
   },
   {
     "id": "cp-jetson-nano",
@@ -10310,7 +10727,10 @@
       "cp-jetson-orin-nano",
       "cp-jetson-orin-nx",
       "cp1"
-    ]
+    ],
+    "seriesId": "nvidia-jetson",
+    "seriesOrder": 1,
+    "seriesLabel": "Nano (2019)"
   },
   {
     "id": "cp-jetson-agx-xavier",
@@ -10349,7 +10769,10 @@
       "cp-jetson-orin-nano",
       "cp-jetson-orin-nx",
       "cp1"
-    ]
+    ],
+    "seriesId": "nvidia-jetson",
+    "seriesOrder": 2,
+    "seriesLabel": "AGX Xavier (2018)"
   },
   {
     "id": "cp-hailo-8",
@@ -10381,7 +10804,10 @@
     ],
     "relatedIds": [
       "cp-hailo-10h"
-    ]
+    ],
+    "seriesId": "hailo",
+    "seriesOrder": 1,
+    "seriesLabel": "Hailo-8 (2021)"
   },
   {
     "id": "cp-hailo-10h",
@@ -10413,7 +10839,10 @@
     ],
     "relatedIds": [
       "cp-hailo-8"
-    ]
+    ],
+    "seriesId": "hailo",
+    "seriesOrder": 2,
+    "seriesLabel": "Hailo-10H (2024)"
   },
   {
     "id": "cp-radxa-rock-5b",
@@ -10623,7 +11052,10 @@
     "relatedIds": [
       "ind-robot-era",
       "f105"
-    ]
+    ],
+    "seriesId": "robotera",
+    "seriesOrder": 2,
+    "seriesLabel": "L7"
   },
   {
     "id": "flagship-xpeng-iron-nextgen",
@@ -10670,7 +11102,10 @@
     "relatedIds": [
       "ind-xpeng-robotics",
       "f128"
-    ]
+    ],
+    "seriesId": "xpeng-iron",
+    "seriesOrder": 2,
+    "seriesLabel": "Next-Gen IRON"
   },
   {
     "id": "flagship-galbot-g1",

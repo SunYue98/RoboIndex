@@ -58,6 +58,11 @@ export interface Entity {
   orgInfo?: OrgInfo;
   importance?: 'high' | 'medium' | 'low';
   sources?: Source[];
+  // Evolution-chain membership. Members of the same series sort by seriesOrder
+  // and render as a horizontal chain navigator in the UI (← prev · current · next →).
+  seriesId?: string;
+  seriesOrder?: number;
+  seriesLabel?: string;
 }
 
 // Modular Data Loading Strategy

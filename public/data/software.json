@@ -89,7 +89,10 @@
         "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models (arXiv)",
         "type": "paper"
       }
-    ]
+    ],
+    "seriesId": "google-rt",
+    "seriesOrder": 3,
+    "seriesLabel": "RT-X (2023)"
   },
   {
     "id": "sw3",
@@ -642,7 +645,10 @@
     "relatedIds": [
       "lab-bair-autolab",
       "lab-sail"
-    ]
+    ],
+    "seriesId": "aloha",
+    "seriesOrder": 1,
+    "seriesLabel": "ACT / ALOHA (2023)"
   },
   {
     "id": "sw-openai-dexterous",
@@ -1215,7 +1221,10 @@
     "relatedIds": [
       "lab-sail",
       "sw-roboturk"
-    ]
+    ],
+    "seriesId": "aloha",
+    "seriesOrder": 2,
+    "seriesLabel": "Mobile ALOHA (2024)"
   },
   {
     "id": "sw-agibot-world",
@@ -1690,7 +1699,10 @@
     ],
     "relatedIds": [
       "sw-sapien"
-    ]
+    ],
+    "seriesId": "maniskill",
+    "seriesOrder": 2,
+    "seriesLabel": "ManiSkill3 (2024)"
   },
   {
     "id": "sw-maniskill2",
@@ -1728,7 +1740,10 @@
     ],
     "relatedIds": [
       "sw-sapien"
-    ]
+    ],
+    "seriesId": "maniskill",
+    "seriesOrder": 1,
+    "seriesLabel": "ManiSkill2 (2023)"
   },
   {
     "id": "sw-meta-world",
@@ -2309,7 +2324,10 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "seriesId": "google-rt",
+    "seriesOrder": 1,
+    "seriesLabel": "RT-1 (2022)"
   },
   {
     "id": "sw-rt2",
@@ -2355,7 +2373,10 @@
       "sw-robocat",
       "sw-sara-rt",
       "sw2"
-    ]
+    ],
+    "seriesId": "google-rt",
+    "seriesOrder": 2,
+    "seriesLabel": "RT-2 (2023)"
   },
   {
     "id": "sw-pi0",
@@ -2395,7 +2416,10 @@
       "lab-sail",
       "sw-pi0-fast",
       "sw-pi05"
-    ]
+    ],
+    "seriesId": "physical-intelligence-pi",
+    "seriesOrder": 1,
+    "seriesLabel": "π0 (2024)"
   },
   {
     "id": "sw-pi05",
@@ -2433,7 +2457,10 @@
       "ind-physical-intelligence",
       "sw-pi0",
       "sw-pi0-fast"
-    ]
+    ],
+    "seriesId": "physical-intelligence-pi",
+    "seriesOrder": 3,
+    "seriesLabel": "π0.5 (2025)"
   },
   {
     "id": "sw-octo",
@@ -2514,7 +2541,10 @@
     ],
     "relatedIds": [
       "sw-gr2"
-    ]
+    ],
+    "seriesId": "bytedance-gr",
+    "seriesOrder": 1,
+    "seriesLabel": "GR-1 (2023)"
   },
   {
     "id": "sw-gr2",
@@ -2550,7 +2580,10 @@
     ],
     "relatedIds": [
       "sw-gr1"
-    ]
+    ],
+    "seriesId": "bytedance-gr",
+    "seriesOrder": 2,
+    "seriesLabel": "GR-2 (2024)"
   },
   {
     "id": "sw-helix",
@@ -2861,7 +2894,10 @@
       "sw-cosmos-reason",
       "sw-groot-n1-5",
       "h4"
-    ]
+    ],
+    "seriesId": "nvidia-groot",
+    "seriesOrder": 1,
+    "seriesLabel": "GR00T N1 (Mar 2025)"
   },
   {
     "id": "sw-cogact",
@@ -3471,7 +3507,10 @@
       "sw-cosmos-reason",
       "sw-groot-n1",
       "sw-groot-n1-5"
-    ]
+    ],
+    "seriesId": "nvidia-cosmos",
+    "seriesOrder": 1,
+    "seriesLabel": "Cosmos Predict"
   },
   {
     "id": "sw-cosmos-reason",
@@ -3513,7 +3552,10 @@
       "sw-cosmos-predict",
       "sw-groot-n1",
       "sw-groot-n1-5"
-    ]
+    ],
+    "seriesId": "nvidia-cosmos",
+    "seriesOrder": 2,
+    "seriesLabel": "Cosmos Reason"
   },
   {
     "id": "sw-cosmos-transfer",
@@ -3552,7 +3594,10 @@
     "relatedIds": [
       "ind1",
       "sw5"
-    ]
+    ],
+    "seriesId": "nvidia-cosmos",
+    "seriesOrder": 3,
+    "seriesLabel": "Cosmos Transfer"
   },
   {
     "id": "sw-genie-2",
@@ -3594,7 +3639,10 @@
       "sw-rt2",
       "sw-sara-rt",
       "sw2"
-    ]
+    ],
+    "seriesId": "deepmind-genie",
+    "seriesOrder": 1,
+    "seriesLabel": "Genie 2 (Dec 2024)"
   },
   {
     "id": "sw-genie-3",
@@ -3636,7 +3684,10 @@
       "sw-rt2",
       "sw-sara-rt",
       "sw2"
-    ]
+    ],
+    "seriesId": "deepmind-genie",
+    "seriesOrder": 2,
+    "seriesLabel": "Genie 3 (Aug 2025)"
   },
   {
     "id": "sw-vjepa-2",
@@ -3717,7 +3768,10 @@
     "relatedIds": [
       "ind-deepmind-robotics",
       "f128"
-    ]
+    ],
+    "seriesId": "dreamer",
+    "seriesOrder": 1,
+    "seriesLabel": "DreamerV3 (2023)"
   },
   {
     "id": "sw-1x-world-model",
@@ -3797,7 +3851,10 @@
       "lab-sail",
       "sw-pi0",
       "sw-pi05"
-    ]
+    ],
+    "seriesId": "physical-intelligence-pi",
+    "seriesOrder": 2,
+    "seriesLabel": "π0-FAST (2025)"
   },
   {
     "id": "sw-groot-n1-5",
@@ -3838,7 +3895,10 @@
       "sw-cosmos-reason",
       "sw-groot-n1",
       "h4"
-    ]
+    ],
+    "seriesId": "nvidia-groot",
+    "seriesOrder": 2,
+    "seriesLabel": "GR00T N1.5 (Jun 2025)"
   },
   {
     "id": "sw-agibot-go1",
@@ -4022,6 +4082,9 @@
     ],
     "relatedIds": [
       "lab-bair-autolab"
-    ]
+    ],
+    "seriesId": "dreamer",
+    "seriesOrder": 2,
+    "seriesLabel": "DayDreamer (2022 robot deploy)"
   }
 ]

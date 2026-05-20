@@ -2,7 +2,7 @@ import { ArrowUpRight, History } from 'lucide-react';
 import { Entity } from '../data/entities';
 import { motion } from 'motion/react';
 import { useLang } from '../i18n';
-import { PaperInfoBlock, OrgInfoBlock, SpecsList, TagsList, RelatedLinksList, SourcesBlock } from './EntityDetailBlocks';
+import { PaperInfoBlock, OrgInfoBlock, SpecsList, TagsList, RelatedLinksList, SourcesBlock, SeriesChain } from './EntityDetailBlocks';
 
 interface SingleSpecsPanelProps {
   entity: Entity;
@@ -27,6 +27,7 @@ export function SingleSpecsPanel({ entity, mockData, onNavigateToEntity, onViewE
       className={`flex flex-col ml-8 h-[600px] overflow-y-auto no-scrollbar pt-12 ${entity.paperInfo || entity.orgInfo ? 'w-[320px] pr-2' : 'w-[240px]'}`}
     >
       <div className="flex flex-col mb-4">
+        <SeriesChain entity={entity} allEntries={mockData} onNavigateToEntity={onNavigateToEntity} />
         {entity.paperInfo && <PaperInfoBlock paperInfo={entity.paperInfo} name={entity.name} />}
         {entity.orgInfo && <OrgInfoBlock orgInfo={entity.orgInfo} name={entity.name} />}
         

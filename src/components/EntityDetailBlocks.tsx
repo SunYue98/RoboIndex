@@ -93,6 +93,59 @@ export function TagsList({ tags }: { tags?: string[] }) {
   );
 }
 
+export function SeriesChain({
+  entity,
+  allEntries,
+  onNavigateToEntity,
+}: {
+  entity: Entity;
+  allEntries: Entity[];
+  onNavigateToEntity?: (id: string) => void;
+}) {
+  const { t } = useLang();
+  if (!entity.seriesId) return null;
+
+  // Find sibling members of the same series, sort by seriesOrder
+  const members = allEntries
+    .filter(e => e.seriesId === entity.seriesId)
+    .sort((a, b) => (a.seriesOrder ?? 0) - (b.seriesOrder ?? 0));
+
+  if (members.length < 2) return null; // single-member series — no chain to show
+
+  return (
+    <div className="flex flex-col gap-2 mb-5 pb-4 border-b border-zinc-100">
+      <h4 className="text-[11px] font-bold text-zinc-400 uppercase tracking-widest mb-1">
+        {t('panel.series')}
+      </h4>
+      <div className="flex flex-wrap gap-1.5 items-center">
+        {members.map((m, idx) => {
+          const isCurrent = m.id === entity.id;
+          const label = m.seriesLabel || m.name;
+          return (
+            <React.Fragment key={m.id}>
+              {idx > 0 && (
+                <span className="text-zinc-300 text-[10px] select-none">→</span>
+              )}
+              <button
+                onClick={() => !isCurrent && onNavigateToEntity?.(m.id)}
+                disabled={isCurrent}
+                title={`${m.name} (${m.category})`}
+                className={
+                  isCurrent
+                    ? 'px-2.5 py-1 rounded-[8px] bg-zinc-900 text-white text-[11px] font-bold cursor-default'
+                    : 'px-2.5 py-1 rounded-[8px] bg-zinc-50 border border-zinc-200 text-[11px] font-[500] text-zinc-600 hover:bg-white hover:border-zinc-300 hover:text-zinc-900 transition-colors'
+                }
+              >
+                {label}
+              </button>
+            </React.Fragment>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
 export function SourcesBlock({ sources }: { sources?: Source[] }) {
   const { t } = useLang();
   const hasSources = sources && sources.length > 0;

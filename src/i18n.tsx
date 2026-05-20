@@ -75,6 +75,7 @@ const DICT: Record<Lang, Record<string, string>> = {
     'panel.source_type.wiki': '百科',
     'panel.source_type.news': '新闻',
     'panel.source_type.datasheet': '资料表',
+    'panel.series': '产品系列',
   },
   en: {
     'nav.architecture': 'Architecture',
@@ -142,6 +143,7 @@ const DICT: Record<Lang, Record<string, string>> = {
     'panel.source_type.wiki': 'Wiki',
     'panel.source_type.news': 'News',
     'panel.source_type.datasheet': 'Datasheet',
+    'panel.series': 'Series',
   }
 };
 
