@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'motion/react';
-import { Entity, resolveImageUrl } from '../data/entities';
+import { Entity, resolveImageUrl, entityImageInfo } from '../data/entities';
 import { X, Search } from 'lucide-react';
 import { useState, useMemo } from 'react';
 import { useLang } from '../i18n';
@@ -69,12 +69,20 @@ export function GridView({ isOpen, onClose, items, onSelect, title }: GridViewPr
                    }}
                    className="flex flex-col bg-white border border-zinc-200/80 rounded-[24px] p-4 cursor-pointer hover:shadow-xl hover:border-zinc-300 transition-all duration-300 group"
                  >
-                    <div className="w-full aspect-square bg-gradient-to-br from-zinc-50 to-zinc-100 rounded-[16px] mb-4 flex items-center justify-center p-4 overflow-hidden mix-blend-multiply relative shadow-inner">
-                       <img src={resolveImageUrl(item.imageUrl)} alt={item.name} className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500 ease-out" />
-                       {item.isNew && (
-                         <div className="absolute top-2 left-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-[9px] font-bold uppercase rounded-full">New</div>
-                       )}
-                    </div>
+                    {(() => {
+                       const imgInfo = entityImageInfo(item);
+                       return (
+                         <div className={`w-full aspect-square bg-gradient-to-br from-zinc-50 to-zinc-100 rounded-[16px] mb-4 flex items-center justify-center p-4 overflow-hidden relative shadow-inner ${imgInfo.isPlaceholder ? '' : 'mix-blend-multiply'}`}>
+                            <img src={resolveImageUrl(imgInfo.url)} alt={item.name} className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500 ease-out" />
+                            {item.isNew && (
+                              <div className="absolute top-2 left-2 px-2 py-0.5 bg-blue-100 text-blue-700 text-[9px] font-bold uppercase rounded-full">New</div>
+                            )}
+                            {imgInfo.isPlaceholder && (
+                              <div className="absolute top-2 right-2 px-2 py-0.5 bg-amber-100/95 text-amber-800 text-[9px] font-medium rounded-full" title="待补图">待补图</div>
+                            )}
+                         </div>
+                       );
+                    })()}
                     <div className="flex flex-col px-1">
                        <span className="text-[15px] font-bold text-zinc-900 leading-tight group-hover:text-amber-600 transition-colors">{item.name}</span>
                        <span className="text-[12px] font-medium text-zinc-500 mt-1 line-clamp-1">{item.company}</span>

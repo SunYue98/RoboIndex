@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Dices, Plus, Network, Globe, MessageSquare, Send, Github, LayoutGrid, Loader2 } from 'lucide-react';
-import { Entity, Category, CATEGORY_MAP, TopLevelGroup, loadEntities } from './data/entities';
+import { Entity, Category, CATEGORY_MAP, TopLevelGroup, loadEntities, entityImageInfo } from './data/entities';
 import { EntityCard, EntityCardData } from './components/EntityCard';
 import { SpecsColumn } from './components/SpecsColumn';
 import { WheelSelector } from './components/WheelSelector';
@@ -65,12 +65,14 @@ export default function App() {
 
   const mapEntityToCardData = (entity: typeof leftEntity): EntityCardData | null => {
     if (!entity) return null;
+    const { url, isPlaceholder } = entityImageInfo(entity);
     return {
       id: entity.id,
       title: entity.name,
       subtitle: entity.company,
       badge: entity.isNew ? 'New Release' : undefined,
-      image: entity.imageUrl,
+      image: url,
+      isPlaceholder,
       metaText: entity.year,
       avatarText: entity.company ? entity.company.charAt(0).toUpperCase() : undefined,
     };

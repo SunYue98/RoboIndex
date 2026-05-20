@@ -78,6 +78,7 @@ export interface Entity {
   company: string;
   category: Category;
   imageUrl: string;
+  websiteUrl?: string;
   year: string;
   isNew: boolean;
   specs: Specs;
@@ -150,5 +151,10 @@ export const loadEntities = async (): Promise<Entity[]> => {
 export const resolveImageUrl = (url: string): string => {
   if (url.startsWith('http')) return url;
   return import.meta.env.BASE_URL + url.replace(/^\//, '');
+};
+
+export const entityImageInfo = (entity: Pick<Entity, 'id' | 'imageUrl'>): { url: string; isPlaceholder: boolean } => {
+  if (entity.imageUrl) return { url: entity.imageUrl, isPlaceholder: false };
+  return { url: `images/_synthetic/${entity.id}.png`, isPlaceholder: true };
 };
 

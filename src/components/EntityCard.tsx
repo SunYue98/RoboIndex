@@ -11,6 +11,7 @@ export interface EntityCardData {
   image: string;
   metaText?: string;
   avatarText?: string;
+  isPlaceholder?: boolean;
 }
 
 interface EntityCardProps {
@@ -96,18 +97,27 @@ export const EntityCard = memo(function EntityCard({
          <div className="absolute inset-0 rounded-[32px] ring-1 ring-inset ring-white/60 pointer-events-none"></div>
          
          {data.badge && (
-           <div 
+           <div
              className={`absolute top-5 left-5 bg-zinc-900/90 backdrop-blur-md text-white font-bold px-4 py-1.5 rounded-full z-10 shadow-lg leading-none tracking-wide ${isLarge ? 'text-[12px]' : 'text-[10px]'}`}
              aria-label={data.badge}
            >
              {data.badge}
            </div>
          )}
+         {data.isPlaceholder && (
+           <div
+             className={`absolute top-5 right-5 bg-amber-100/95 backdrop-blur-md text-amber-800 font-medium px-3 py-1 rounded-full z-10 shadow-sm leading-none tracking-wide ${isLarge ? 'text-[11px]' : 'text-[9px]'}`}
+             title="此图为程序生成的占位卡，待真实图片补充"
+             aria-label="待补图"
+           >
+             待补图
+           </div>
+         )}
          <motion.img
            layout
            src={resolveImageUrl(data.image)}
            alt={data.title}
-           className="w-full h-full object-contain mix-blend-multiply drop-shadow-2xl transition-all duration-700 ease-out group-hover:scale-110 group-hover:-rotate-2"
+           className={`w-full h-full object-contain transition-all duration-700 ease-out group-hover:scale-110 group-hover:-rotate-2 ${data.isPlaceholder ? '' : 'mix-blend-multiply drop-shadow-2xl'}`}
            draggable="false"
          />
        </motion.div>

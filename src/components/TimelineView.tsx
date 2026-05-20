@@ -1,4 +1,4 @@
-import { Entity, Category, CATEGORY_MAP, TOP_LEVEL_GROUPS, resolveImageUrl } from '../data/entities';
+import { Entity, Category, CATEGORY_MAP, TOP_LEVEL_GROUPS, resolveImageUrl, entityImageInfo } from '../data/entities';
 import { motion, AnimatePresence } from 'motion/react';
 import { Calendar, Search, Filter, X, ChevronRight, Hash } from 'lucide-react';
 import { useLang } from '../i18n';
@@ -251,11 +251,16 @@ export function TimelineView({ onNavigateToEntity, mockData, focusEntityId, onCl
                          `}
                        >
                          <div className="flex items-start gap-4">
-                           <div className={`rounded-[16px] overflow-hidden shrink-0 flex items-center justify-center p-2 bg-gradient-to-br from-zinc-50 to-zinc-100 shadow-inner
-                             ${isImportant ? 'w-20 h-20' : 'w-16 h-16'}
-                           `}>
-                              <img src={resolveImageUrl(entity.imageUrl)} alt={entity.name} className="w-full h-full object-contain mix-blend-multiply group-hover:scale-110 group-hover:-rotate-3 transition-all duration-500 ease-out pointer-events-none" />
-                           </div>
+                           {(() => {
+                             const imgInfo = entityImageInfo(entity);
+                             return (
+                               <div className={`rounded-[16px] overflow-hidden shrink-0 flex items-center justify-center p-2 bg-gradient-to-br from-zinc-50 to-zinc-100 shadow-inner relative
+                                 ${isImportant ? 'w-20 h-20' : 'w-16 h-16'}
+                               `}>
+                                  <img src={resolveImageUrl(imgInfo.url)} alt={entity.name} className={`w-full h-full object-contain group-hover:scale-110 group-hover:-rotate-3 transition-all duration-500 ease-out pointer-events-none ${imgInfo.isPlaceholder ? '' : 'mix-blend-multiply'}`} />
+                               </div>
+                             );
+                           })()}
                            <div className="flex flex-col items-start gap-1.5 flex-1">
                               <div className="flex flex-wrap gap-1.5">
                                  {isImportant && (
