@@ -1301,7 +1301,9 @@
         "type": "paper"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "stg-lab-sjtu"
+    ]
   },
   {
     "id": "sw-ario",
@@ -1374,7 +1376,9 @@
         "type": "paper"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [
+      "stg-lab-baai"
+    ]
   },
   {
     "id": "sw-robovqa",
@@ -2933,6 +2937,7 @@
     ],
     "relatedIds": [
       "lab-tsinghua-tea",
+      "stg-lab-msra",
       "sw7"
     ]
   },

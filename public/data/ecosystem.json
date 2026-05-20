@@ -760,7 +760,8 @@
       "f104",
       "f139",
       "f25",
-      "f81"
+      "f81",
+      "f9"
     ]
   },
   {
@@ -891,6 +892,7 @@
       "ind-anybotics",
       "ind-boston-dynamics",
       "ind-limx",
+      "stg-ind-robstride",
       "f25"
     ]
   },
@@ -930,13 +932,7 @@
       "ind-agility",
       "ind-booster",
       "ind-deepmind-robotics",
-      "ind-hello-robot",
-      "ind-pal-robotics",
-      "ind-pickle",
-      "ind-robot-era",
-      "ind-unitree",
-      "ind-xpeng-robotics",
-      "ind1"
+      "ind-hello-robot"
     ]
   },
   {
@@ -1030,13 +1026,7 @@
       "ind-agility",
       "ind-booster",
       "ind-deepmind-robotics",
-      "ind-hello-robot",
-      "ind-pal-robotics",
-      "ind-pickle",
-      "ind-robot-era",
-      "ind-unitree",
-      "ind-xpeng-robotics",
-      "ind1"
+      "ind-hello-robot"
     ]
   },
   {
@@ -1075,13 +1065,7 @@
       "ind-agility",
       "ind-booster",
       "ind-deepmind-robotics",
-      "ind-hello-robot",
-      "ind-pal-robotics",
-      "ind-pickle",
-      "ind-robot-era",
-      "ind-unitree",
-      "ind-xpeng-robotics",
-      "ind1"
+      "ind-hello-robot"
     ]
   },
   {
@@ -1120,6 +1104,8 @@
       "ind-hello-robot",
       "ind-pickle",
       "ind-robot-era",
+      "stg-ind-inspire",
+      "stg-ind-pudu",
       "f120",
       "f122",
       "f127",
@@ -1204,7 +1190,8 @@
       }
     ],
     "relatedIds": [
-      "ind-deepmind-robotics"
+      "ind-deepmind-robotics",
+      "stg-ind-mechmind"
     ]
   },
   {

@@ -1,0 +1,682 @@
+[
+  {
+    "id": "stg-ind-leju",
+    "name": "Leju Robotics (乐聚机器人)",
+    "company": "Leju Robotics (乐聚机器人)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Humanoid robot OEM and platform provider",
+      "Key Products": ["KUAVO 4Pro", "KUAVO 5", "ROBAN2", "PANDO series"],
+      "Headquarters": "Shenzhen, China",
+      "Founded": "2016",
+      "status": "Active; raised ~$200M pre-IPO round in 2025"
+    },
+    "orgInfo": {
+      "description": "Leju (Shenzhen) Robotics is a Chinese humanoid-robotics company best known for its KUAVO general-purpose humanoid line, which became the first humanoid robot running on Huawei HarmonyOS. The company is industrializing humanoid robots for research, service, industrial and educational markets.",
+      "location": "Shenzhen, China",
+      "website": "https://www.lejurobot.com/en"
+    },
+    "tags": ["China", "Humanoid", "OEM", "Shenzhen"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.lejurobot.com/en", "title": "Leju Robotics official site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://en.wikipedia.org/wiki/Leju_Robot", "title": "Leju Robot - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://www.therobotreport.com/leju-raises-200m-humanoid-production-unitree-unveils-h2-robot/", "title": "Leju raises $200M for humanoid production", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["company.founded", "specs.Key Products", "orgInfo.website", "orgInfo.location"],
+      "fields_uncertain": [],
+      "notes": "Founded 2016 in Shenzhen; KUAVO is flagship product."
+    }
+  },
+  {
+    "id": "stg-ind-engineai",
+    "name": "EngineAI (众擎机器人)",
+    "company": "EngineAI (众擎机器人)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "Full-size humanoid robot OEM",
+      "Key Products": ["PM01", "SA02", "T800", "SE01"],
+      "Headquarters": "Shenzhen, China",
+      "Founded": "2023",
+      "status": "Active; PM01 robot demonstrated world-first humanoid front flip in Feb 2025"
+    },
+    "orgInfo": {
+      "description": "EngineAI is a Shenzhen-based humanoid-robot startup founded in October 2023 by serial robotics entrepreneur Zhao Tongyang. The company develops full-size and lightweight humanoid platforms (PM01, SE01, T800) emphasizing natural, dynamic, human-like locomotion.",
+      "location": "Shenzhen, China",
+      "website": "https://www.engineai.com.cn/"
+    },
+    "tags": ["China", "Humanoid", "OEM", "Shenzhen"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.engineai.com.cn/", "title": "ENGINEAI official site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://en.engineai.com.cn/product-pm01.html", "title": "EngineAI PM01 product page", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.humanoidsdaily.com/feed/engine-ai-chinas-high-speed-contender-shakes-up-the-humanoid-robot-race", "title": "Humanoids Daily: EngineAI profile", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.website"],
+      "fields_uncertain": ["Founded month"],
+      "notes": "Founded October 2023 per Humanoids Daily."
+    }
+  },
+  {
+    "id": "stg-ind-kepler",
+    "name": "Kepler Robotics (开普勒机器人)",
+    "company": "Kepler Robotics (开普勒机器人)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "Industrial humanoid robot OEM",
+      "Key Products": ["K2 Bumblebee humanoid"],
+      "Headquarters": "Shanghai, China",
+      "Founded": "2023",
+      "status": "Active; K2 Bumblebee entered mass production September 2025"
+    },
+    "orgInfo": {
+      "description": "Shanghai Kepler Robotics develops hybrid-architecture humanoid robots for industrial automation. Its fifth-generation K2 Bumblebee, priced near $30,000, is positioned as the world's first commercially available hybrid serial-parallel humanoid and entered mass production in 2025.",
+      "location": "Shanghai, China",
+      "website": "https://www.gotokepler.com/"
+    },
+    "tags": ["China", "Humanoid", "OEM", "Shanghai"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://www.therobotreport.com/kepler-robotics-showcases-k2-bumblebee-icra-2025/", "title": "Kepler Robotics showcases K2 Bumblebee at ICRA 2025", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://www.prnewswire.com/news-releases/worlds-first-commercially-available-hybrid-architecture-humanoid-robot-moves-into-mass-production-kepler-marks-the-start-of-a-new-industrial-era-302568138.html", "title": "Kepler K2 mass production press release", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.location"],
+      "fields_uncertain": ["orgInfo.website", "exact founding year"],
+      "notes": "Shanghai Kepler Robotics Co., Ltd. Website may also be kepler-robot.com - not WebFetched, listed gotokepler.com used in The Robot Report coverage."
+    }
+  },
+  {
+    "id": "stg-ind-pndbotics",
+    "name": "PNDbotics",
+    "company": "PNDbotics",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "Modular full-size humanoid robot platform developer",
+      "Key Products": ["Adam", "Adam-U", "Adam Lite", "Adam SP"],
+      "Headquarters": "Beijing, China",
+      "Founded": "2023",
+      "status": "Active; modular full-size humanoid platform Adam in industrial pilots"
+    },
+    "orgInfo": {
+      "description": "PNDbotics is a Beijing-based humanoid-robotics company developing modular full-size humanoid platforms - notably the Adam series - using quasi-direct-drive actuators and an open-source SDK. The Adam robot integrates 41 joints and is aimed at industrial, logistics and service applications.",
+      "location": "Beijing, China",
+      "website": "https://www.pndbotics.com/"
+    },
+    "tags": ["China", "Humanoid", "OEM", "Beijing"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://www.pndbotics.com/about", "title": "PNDbotics About page", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://wiki.pndbotics.com/en/about/", "title": "PNDbotics Wiki", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://newatlas.com/ai-humanoids/pndbotics-adam-humanoid-robot/", "title": "Humanoid robot Adam debuts at music festival in China", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.website", "orgInfo.location"],
+      "fields_uncertain": ["Chinese name"],
+      "notes": "Task spec listed Chinese name 工匠社 - this is INCORRECT. 工匠社 (GJS Robot) is a separate Shenzhen-based entertainment-robot company. PNDbotics' true Chinese company name was not verifiable from open sources; left without Chinese alias rather than fabricate."
+    }
+  },
+  {
+    "id": "stg-ind-noetix",
+    "name": "Noetix Robotics (松延动力)",
+    "company": "Noetix Robotics (松延动力)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "Humanoid robot OEM",
+      "Key Products": ["Dora humanoid", "N2 humanoid"],
+      "Headquarters": "Beijing, China",
+      "Founded": "2023",
+      "status": "Active; launched ~US$1,400 family humanoid in 2025"
+    },
+    "orgInfo": {
+      "description": "Noetix Robotics (松延动力) is a Beijing-based humanoid-robotics startup founded in September 2023 by alumni of Tsinghua University and the Chinese Academy of Sciences. Its Dora and N2 product-grade humanoids target consumer and research markets with agile mobility and rich perception.",
+      "location": "Beijing, China",
+      "website": "https://en.noetixrobotics.com/"
+    },
+    "tags": ["China", "Humanoid", "OEM", "Beijing"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.noetixrobotics.com/", "title": "Noetix Robotics official site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.scmp.com/tech/tech-trends/article/3330046/chinese-robotics-start-noetix-debuts-family-friendly-us1400-humanoid", "title": "SCMP: Noetix debuts family-friendly humanoid", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.website", "orgInfo.location", "company.founded"],
+      "fields_uncertain": [],
+      "notes": "Founded September 2023 in Beijing."
+    }
+  },
+  {
+    "id": "stg-ind-magiclab",
+    "name": "MagicLab (魔法原子)",
+    "company": "MagicLab (魔法原子)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "Humanoid and quadruped robot OEM, dexterous hand maker",
+      "Key Products": ["MagicBot Gen1", "MagicBot Z1", "MagicDog Y1", "MagicHand S01"],
+      "Headquarters": "Wuxi, Jiangsu, China",
+      "Founded": "2023",
+      "status": "Active; raised ~$21M angel round; established Wuxi national HQ in 2026"
+    },
+    "orgInfo": {
+      "description": "MagicLab (魔法原子) is a Chinese robotics company headquartered in Wuxi, Jiangsu, focused on general-purpose humanoid robots, quadrupeds and embodied-intelligence systems. Its flagship MagicBot series demonstrates multi-robot factory collaboration; in February 2025 it introduced the in-house MagicHand S01 dexterous hand.",
+      "location": "Wuxi, Jiangsu, China",
+      "website": "https://www.magiclab.top/en/"
+    },
+    "tags": ["China", "Humanoid", "Quadruped", "OEM", "Wuxi"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.magiclab.top/en/", "title": "MagicLab official site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://baike.baidu.com/en/item/Magiclab%20Robotics%20Technology%20(Wuxi)%20Co.,%20Ltd./1538573", "title": "MagicLab Robotics (Wuxi) Co., Ltd.", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://autonews.gasgoo.com/articles/icv/magiclab-establishes-national-headquarters-in-wuxi-2022667588994080769", "title": "MagicLab Establishes National HQ in Wuxi - Gasgoo", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.website", "orgInfo.location", "company.founded"],
+      "fields_uncertain": [],
+      "notes": "Headquartered in Wuxi, NOT Suzhou as task spec stated. Founded 18 Dec 2023."
+    }
+  },
+  {
+    "id": "stg-ind-matrix",
+    "name": "Matrix Robotics (矩阵超智)",
+    "company": "Matrix Robotics (矩阵超智)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "Full-size general-purpose humanoid OEM",
+      "Key Products": ["MATRIX-1", "MATRIX-3"],
+      "Headquarters": "Shanghai, China",
+      "Founded": "2024",
+      "status": "Active; MATRIX-3 launched January 2026, pilot deployments planned mid-2026"
+    },
+    "orgInfo": {
+      "description": "Matrix Robotics (Shanghai Matrix Superintelligent System Integration Co., Ltd.) was founded in April 2024 by Zhang Haixing, former founding leader of Tesla China's Design and Research Center. The company develops full-size humanoid robots with a founding team from Tesla, Nvidia and OpenAI.",
+      "location": "Shanghai, China",
+      "website": "https://matrixrobotics.ai/"
+    },
+    "tags": ["China", "Humanoid", "OEM", "Shanghai"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://matrixrobotics.ai/zh-cn", "title": "Matrix Robotics official site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.chinaventure.com.cn/news/108-20241226-384508.html", "title": "ChinaVenture: Matrix-1 launch coverage", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://paper.cnstock.com/html/2025-02/17/content_2027974.htm", "title": "Shanghai Securities News: Matrix Robotics Zhang Haixing", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.website", "orgInfo.location"],
+      "fields_uncertain": [],
+      "notes": "Founded April 2024."
+    }
+  },
+  {
+    "id": "stg-ind-lumos",
+    "name": "Lumos Robotics (光魔机器人)",
+    "company": "Lumos Robotics (光魔机器人)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "Humanoid robot OEM with tactile-sensor stack",
+      "Key Products": ["LUS2", "NIX", "Joint Module", "Tactile Sensor"],
+      "Headquarters": "Shenzhen, China",
+      "Founded": "2024",
+      "status": "Active; closed Series A in May 2025 led by Fosun RuiZheng"
+    },
+    "orgInfo": {
+      "description": "Lumos Robot Technology (Shenzhen) Co., Ltd. was founded in September 2024 and develops humanoid robots integrating vision and tactile sensing. Its 160 cm LUS2 full-size humanoid and 80 cm NIX companion humanoid target research, education and service markets.",
+      "location": "Shenzhen, China",
+      "website": "http://www.lumosbot.tech/"
+    },
+    "tags": ["China", "Humanoid", "OEM", "Tactile", "Shenzhen"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "http://www.lumosbot.tech/", "title": "Lumos Robotics official site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.housebots.com/news/shenzhens-lumos-robotics-unveils-lus2-a-next-gen-housebot-robot-with-incredible-agility", "title": "Shenzhen's Lumos Robotics unveils Lus2", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://baike.baidu.com/en/item/Lumos%20Robot%20Technology%20(Shenzhen)%20Co.,%20Ltd./48847", "title": "Lumos Robot Technology (Shenzhen) Co., Ltd. - Baike", "type": "wiki", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.website", "orgInfo.location", "company.founded"],
+      "fields_uncertain": [],
+      "notes": "Also operates Suzhou office; founded 6 Sep 2024."
+    }
+  },
+  {
+    "id": "stg-ind-xhumanoid",
+    "name": "X-Humanoid (北京人形机器人创新中心)",
+    "company": "X-Humanoid (北京人形机器人创新中心)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "National humanoid innovation center; embodied-intelligence platform provider",
+      "Key Products": ["Tien Kung (天工) 3.0", "Tian Yi 2.0", "Wise KaiWu (慧思开物) platform"],
+      "Headquarters": "Beijing, China",
+      "Founded": "2023",
+      "status": "Active; designated National Embodied Intelligence Robot Innovation Center (Oct 2024)"
+    },
+    "orgInfo": {
+      "description": "Beijing Humanoid Robot Innovation Center Co., Ltd. (北京人形机器人创新中心) was founded in November 2023 in Beijing Yizhuang. It positions itself as China's first full-stack embodied-intelligence hardware-and-software company and develops the Tien Kung humanoid body together with the Wise KaiWu embodied-AI platform.",
+      "location": "Beijing, China",
+      "website": "https://x-humanoid.com/"
+    },
+    "tags": ["China", "Humanoid", "Embodied AI", "Beijing", "Innovation Center"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://x-humanoid.com/about.html", "title": "X-Humanoid - About", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.prnewswire.com/news-releases/x-humanoid-introduces-embodied-tien-kung-3-0--a-more-open-and-practical-humanoid-robotics-platform-302688505.html", "title": "X-Humanoid Introduces Tien Kung 3.0", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.website", "orgInfo.location", "company.founded"],
+      "fields_uncertain": [],
+      "notes": "Government-backed innovation center; joint MIIT and Beijing Municipal designation."
+    }
+  },
+  {
+    "id": "stg-ind-phybot",
+    "name": "Phybot (北京动易科技)",
+    "company": "Phybot (北京动易科技)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "Full-size electric humanoid robot OEM",
+      "Key Products": ["PHYBOT M1", "PHYBOT C1"],
+      "Headquarters": "Beijing, China",
+      "Founded": "2024",
+      "status": "Active; PHYBOT M1 publicly demoed an airborne backflip in late 2025"
+    },
+    "orgInfo": {
+      "description": "Beijing Phybot Technology Co., Ltd. was founded in September 2024 by Ren Xiaoyu and Mao Shuhan, former Tsinghua University mechanical-engineering roommates. The startup builds full-size electric humanoid robots; the PHYBOT M1 is a research-grade humanoid claimed to deliver more than 10 kW peak power, and the C1 is a smaller companion humanoid.",
+      "location": "Beijing, China",
+      "website": "https://humanoid.guide/product/phybot-m1/"
+    },
+    "tags": ["China", "Humanoid", "OEM", "Beijing"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://www.humanoidsdaily.com/news/phybot-m1-debuts-with-a-backflip-and-a-most-powerful-claim", "title": "Phybot M1 debuts - Humanoids Daily", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://humanoid.guide/product/phybot-c1/", "title": "PHYBOT C1 product profile", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.location", "company.founded"],
+      "fields_uncertain": ["orgInfo.website"],
+      "notes": "Official corporate website not independently confirmed via WebFetch; humanoid.guide product profile used as best available source. Founded September 2024."
+    }
+  },
+  {
+    "id": "stg-ind-pudu",
+    "name": "Pudu Robotics (普渡科技)",
+    "company": "Pudu Robotics (普渡科技)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Commercial service-robot maker expanding into humanoids",
+      "Key Products": ["PUDU D7 semi-humanoid", "PUDU D9 humanoid", "BellaBot service robot"],
+      "Headquarters": "Shenzhen, China",
+      "Founded": "2016",
+      "status": "Active; 80,000+ robots shipped to 60+ countries; D9 humanoid unveiled Dec 2024"
+    },
+    "orgInfo": {
+      "description": "Pudu Robotics is a Shenzhen-based commercial service-robot leader founded in 2016, known for restaurant and hospitality robots. In 2024 it expanded into embodied humanoids with the D7 semi-humanoid and the full-size bipedal D9, positioning itself for commercially viable embodied intelligence.",
+      "location": "Shenzhen, China",
+      "website": "https://www.pudurobotics.com/"
+    },
+    "tags": ["China", "Service Robot", "Humanoid", "OEM", "Shenzhen"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.pudurobotics.com/about/news/6763cce40767a20044b4a69a", "title": "Pudu Robotics Unveils PUDU D9", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.therobotreport.com/pudu-d9-humanoid-robot-launched/", "title": "Pudu Robotics launches PUDU D9 - Robot Report", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.website", "orgInfo.location", "company.founded"],
+      "fields_uncertain": [],
+      "notes": "Founded 2016 in Shenzhen."
+    }
+  },
+  {
+    "id": "stg-ind-dobot",
+    "name": "Dobot Robotics (越疆科技)",
+    "company": "Dobot Robotics (越疆科技)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2015",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Collaborative robot leader expanding into humanoids",
+      "Key Products": ["Atom humanoid", "CR-series cobots", "Nova-series cobots", "Magician series"],
+      "Headquarters": "Shenzhen, China",
+      "Founded": "2015",
+      "status": "Public (HKEX: 2432); first Chinese cobot maker to IPO (Dec 2024)"
+    },
+    "orgInfo": {
+      "description": "Shenzhen Yuejiang Technology Co., Ltd. (Dobot) was founded on July 30, 2015 and is one of the world's leading collaborative-robot manufacturers, with 72,000+ robots deployed across 80+ countries. In late 2024 it became the first Chinese cobot company listed on the Hong Kong Stock Exchange, and in 2025 it entered the humanoid market with the Atom robot.",
+      "location": "Shenzhen, China",
+      "website": "https://www.dobot-robots.com/"
+    },
+    "tags": ["China", "Cobot", "Humanoid", "OEM", "Shenzhen", "Public Company"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.dobot-robots.com/about/about-dobot", "title": "About Dobot Robotics", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.scmp.com/tech/tech-trends/article/3302868/chinese-robotics-firm-shenzhen-dobot-excites-investors-us27500-humanoid", "title": "SCMP: Shenzhen Dobot excites investors with US$27,500 humanoid", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.website", "orgInfo.location", "company.founded", "status"],
+      "fields_uncertain": [],
+      "notes": "HKEX listing Dec 2024 raised ~$87M."
+    }
+  },
+  {
+    "id": "stg-ind-elephant",
+    "name": "Elephant Robotics (大象机器人)",
+    "company": "Elephant Robotics (大象机器人)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Robotic arm and humanoid maker for education, research and industry",
+      "Key Products": ["Mercury X1 wheeled humanoid", "Mercury A1/B1", "myCobot series", "ultraArm"],
+      "Headquarters": "Shenzhen, China",
+      "Founded": "2016",
+      "status": "Active; products sold in 51+ countries"
+    },
+    "orgInfo": {
+      "description": "Shenzhen Elephant Robotics Technology Co., Ltd. was established in 2016 and designs robotic arms, cobots, robotic pets and the Mercury humanoid series. The Mercury X1 is a 19-DoF wheeled dual-arm humanoid for embodied-intelligence research powered by an NVIDIA Jetson Orin controller.",
+      "location": "Shenzhen, China",
+      "website": "https://www.elephantrobotics.com/en/"
+    },
+    "tags": ["China", "Cobot", "Humanoid", "OEM", "Shenzhen", "Education"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.elephantrobotics.com/en/our-company-2023-en/", "title": "Elephant Robotics - Our Company", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.elephantrobotics.com/en/mercury-humanoid-robot/", "title": "Mercury Humanoid Robot", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.website", "orgInfo.location", "company.founded"],
+      "fields_uncertain": [],
+      "notes": "Founded August 2016 in Shenzhen."
+    }
+  },
+  {
+    "id": "stg-ind-robstride",
+    "name": "RobStride Dynamics (灵足时代)",
+    "company": "RobStride Dynamics (灵足时代)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": true,
+    "specs": {
+      "Ecosystem Role": "Integrated joint-actuator module supplier",
+      "Key Products": ["RobStride 00", "RobStride 01", "RobStride 02", "RobStride 04", "RobStride 05", "RobStride 06"],
+      "Headquarters": "Beijing, China",
+      "Founded": "2023",
+      "status": "Active; 7 mass-produced QDD modules shipping, EduLite line forthcoming"
+    },
+    "orgInfo": {
+      "description": "RobStride Dynamics (灵足时代) was founded in November 2023 in Beijing's Yizhuang International Robot Industry Park and is led by Wang Bo, formerly head of Xiaomi's robotics joint team. It develops QDD integrated joint-actuator modules ranging from 1.5 to 120 N·m used in humanoids, quadrupeds and exoskeletons.",
+      "location": "Beijing, China",
+      "website": "https://robstride.com/"
+    },
+    "tags": ["China", "Component", "Actuator", "Joint Module", "Beijing"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://robstride.com/about-us", "title": "RobStride - About Us", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://kr-asia.com/robstride-builds-the-joints-that-keep-chinas-robots-moving-and-a-thriving-industry-around-them", "title": "KrASIA: RobStride profile", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.website", "company.founded"],
+      "fields_uncertain": [],
+      "notes": "Task spec listed Chinese name '魔法师' - actual Chinese name is 灵足时代; not an MIT spinoff."
+    }
+  },
+  {
+    "id": "stg-ind-inspire",
+    "name": "Inspire-Robots (因时机器人)",
+    "company": "Inspire-Robots (因时机器人)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Dexterous hand and micro-linear-actuator supplier",
+      "Key Products": ["RH56 dexterous hand series", "EG2-4 grippers", "Micro linear servo actuators"],
+      "Headquarters": "Beijing, China",
+      "Founded": "2016",
+      "status": "Active; 2025 dexterous-hand deliveries exceeded 10,000 units"
+    },
+    "orgInfo": {
+      "description": "Beijing Inspire-Robots Technology Co., Ltd. was founded in 2016 and is headquartered in Shijingshan District, Beijing. It produces micro linear servo actuators and the RH56 dexterous-hand series - China's first commercially mass-produced robotic dexterous hand, launched in 2020.",
+      "location": "Beijing, China",
+      "website": "https://www.inspire-robots.com/"
+    },
+    "tags": ["China", "Component", "Dexterous Hand", "Beijing"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.inspire-robots.com/", "title": "Inspire-Robots official site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://en.inspire-robots.com/news/1993.html", "title": "Inspire-Robots news - Zhongguancun", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.website", "orgInfo.location", "company.founded"],
+      "fields_uncertain": [],
+      "notes": "Founded 2016 in Beijing."
+    }
+  },
+  {
+    "id": "stg-ind-paxini",
+    "name": "PaXini Tech (帕西尼感知)",
+    "company": "PaXini Tech (帕西尼感知)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2021",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Multi-dimensional tactile sensor and dexterous-hand maker",
+      "Key Products": ["DexH13 dexterous hand", "PX-6AX-GEN3 tactile sensor", "ITPU tactile units"],
+      "Headquarters": "Shenzhen, China",
+      "Founded": "2021",
+      "status": "Active; CES 2026 launch of full-stack 'tactile infrastructure' product matrix"
+    },
+    "orgInfo": {
+      "description": "PaXini Perception Technology (Shenzhen) Co., Ltd. was founded in 2021 and develops the ITPU (Intelligent Tactile Processing Unit) tactile-sensor stack, multi-dimensional 6-axis tactile sensors and the DexH13 dual-modal dexterous hand integrating 1,140 tactile units per hand for embodied-AI applications.",
+      "location": "Shenzhen, China",
+      "website": "https://paxini.com/"
+    },
+    "tags": ["China", "Component", "Tactile Sensor", "Dexterous Hand", "Shenzhen"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://paxini.com/", "title": "PaXini official site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.prnewswire.com/news-releases/paxini-unveils-the-tactile-infrastructure-for-embodied-ai-redefining-full-stack-product-matrix-at-ces-2026-302655238.html", "title": "PaXini CES 2026 press release", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://www.cbinsights.com/company/paxini-perception", "title": "PaXini - CB Insights profile", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.website", "orgInfo.location"],
+      "fields_uncertain": ["Founded month"],
+      "notes": "Headquartered in Shenzhen, NOT Shanghai as task spec stated."
+    }
+  },
+  {
+    "id": "stg-ind-steadywin",
+    "name": "SteadyWin",
+    "company": "SteadyWin",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2020",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Servo and joint-actuator module supplier",
+      "Key Products": ["GIM3510", "GIM6010-8", "GIM8115-9 joint modules", "Direct-drive and gimbal motors"],
+      "Headquarters": "Nanchang, Jiangxi, China",
+      "Founded": "2020",
+      "status": "Active; supplier to maker community and small-cobot makers"
+    },
+    "orgInfo": {
+      "description": "SteadyWin is a Nanchang-based maker of small servo systems and integrated robot joint modules, focused on miniaturization and high efficiency. Its GIM-series planetary-geared brushless actuators are widely used in quadruped robots, exoskeletons and educational humanoids.",
+      "location": "Nanchang, Jiangxi, China",
+      "website": "https://steadywin-motor.com/"
+    },
+    "tags": ["China", "Component", "Actuator", "Joint Module", "Nanchang"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://steadywin-motor.com/pages/about-us", "title": "SteadyWin - About Us", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://steadywin-motor.com/", "title": "SteadyWin home", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.website", "orgInfo.location"],
+      "fields_uncertain": ["Founded year"],
+      "notes": "Exact founding year not on About-Us page; 2020 is an estimate consistent with product release cadence - flagged as uncertain. Operates through Skyline Innovation Co., Limited (China) and Cherrycom Worldwide SL (Spain)."
+    }
+  },
+  {
+    "id": "stg-ind-mechmind",
+    "name": "Mech-Mind Robotics (梅卡曼德)",
+    "company": "Mech-Mind Robotics (梅卡曼德)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Industrial 3D vision and AI software provider",
+      "Key Products": ["Mech-Eye 3D industrial cameras", "Mech-Vision software", "Mech-DLK deep-learning platform"],
+      "Headquarters": "Beijing, China",
+      "Founded": "2016",
+      "status": "Active; 24,000+ cameras shipped to 50+ countries, raised $155M"
+    },
+    "orgInfo": {
+      "description": "Mech-Mind Robotics Technologies Co., Ltd. was founded in 2016 in Beijing by Shao Tianlan and provides industrial 3D cameras and AI-powered vision software for robots. Customers include 100+ Fortune Global 500 companies, with major use in logistics, automotive, home appliances and steel.",
+      "location": "Beijing, China",
+      "website": "https://www.mech-mind.com/"
+    },
+    "tags": ["China", "Sensor", "3D Vision", "Industrial", "Beijing"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.mech-mind.com/", "title": "Mech-Mind official site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://en.wikipedia.org/wiki/Mech-Mind_Robotics", "title": "Mech-Mind Robotics - Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://www.therobotreport.com/mech-mind-robotics-155m-3d-vision/", "title": "Mech-Mind raises $155M - Robot Report", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.website", "orgInfo.location", "company.founded"],
+      "fields_uncertain": [],
+      "notes": "Founded 2016 in Beijing; backed by IDG Capital, Qiming Venture Partners, Intel Capital."
+    }
+  },
+  {
+    "id": "stg-ind-hesai",
+    "name": "Hesai Technology (禾赛科技)",
+    "company": "Hesai Technology (禾赛科技)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2014",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "Automotive- and robotics-grade LiDAR supplier",
+      "Key Products": ["AT128 long-range LiDAR", "PandarXT 32-channel LiDAR", "OT128 LiDAR"],
+      "Headquarters": "Shanghai, China",
+      "Founded": "2014",
+      "status": "Public (Nasdaq: HSAI); supplies LiDAR for Pony.ai 7th-gen Robotaxi"
+    },
+    "orgInfo": {
+      "description": "Hesai Group was co-founded in October 2014 by Yifan (David) Li, Kai Sun and Shaoqing Xiang, and is headquartered in Shanghai's Changning District. It is a global leader in 3D LiDAR sensors for ADAS, autonomous driving, robotics and industrial automation, listed on Nasdaq under HSAI since 2023.",
+      "location": "Shanghai, China",
+      "website": "https://www.hesaitech.com/"
+    },
+    "tags": ["China", "Sensor", "LiDAR", "Shanghai", "Public Company"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.hesaitech.com/about-us/", "title": "Hesai - About Us", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.hesaitech.com/four-at128-lidar-sensors-from-hesai-selected-as-primary-lidar-for-all-pony-ai-seventh-generation-robotaxis/", "title": "Hesai AT128 selected for Pony.ai", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.website", "orgInfo.location", "company.founded", "status"],
+      "fields_uncertain": [],
+      "notes": "Founded October 2014; Nasdaq IPO 9 Feb 2023."
+    }
+  },
+  {
+    "id": "stg-ind-livox",
+    "name": "Livox (览沃科技)",
+    "company": "Livox (览沃科技)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "LiDAR sensor supplier; DJI-incubated subsidiary",
+      "Key Products": ["Mid-360", "HAP", "AVIA", "MID-70", "TELE-15"],
+      "Headquarters": "Shenzhen, China",
+      "Founded": "2016",
+      "status": "Active; HAP in serial production for Xpeng and FAW Jiefang since 2021"
+    },
+    "orgInfo": {
+      "description": "Livox Technology Company Limited was founded in 2016 through DJI's Open Innovation Program and develops cost-effective 3D LiDAR sensors using a rotating-mirror hybrid-solid scanning architecture. Products include the Mid-360 360-degree robotics LiDAR and the automotive-grade HAP.",
+      "location": "Shenzhen, China",
+      "website": "https://www.livoxtech.com/"
+    },
+    "tags": ["China", "Sensor", "LiDAR", "DJI", "Shenzhen"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.livoxtech.com/", "title": "Livox official site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://livox-wiki-en.readthedocs.io/en/latest/introduction/production.html", "title": "Livox wiki - product introduction", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.website", "orgInfo.location", "company.founded"],
+      "fields_uncertain": [],
+      "notes": "Founded 2016 via DJI Open Innovation Program."
+    }
+  },
+  {
+    "id": "stg-ind-orbbec",
+    "name": "Orbbec (奥比中光)",
+    "company": "Orbbec (奥比中光)",
+    "category": "产业",
+    "imageUrl": "",
+    "year": "2013",
+    "isNew": false,
+    "specs": {
+      "Ecosystem Role": "3D vision / RGB-D camera supplier",
+      "Key Products": ["Femto Mega ToF camera", "Gemini 330 / 335Lg RGB-D cameras", "Astra structured-light cameras"],
+      "Headquarters": "Shenzhen, China",
+      "Founded": "2013",
+      "status": "Public (SSE STAR Market: 688322); 'China's First 3D Vision Stock' since July 2022"
+    },
+    "orgInfo": {
+      "description": "Orbbec Inc. was founded in January 2013 and is headquartered in Shenzhen's Nanshan District, with subsidiaries in Foshan, Shanghai, Xi'an and the US. It develops 3D depth cameras using structured-light, stereo-vision and time-of-flight technologies, and listed on the Shanghai STAR Market in July 2022.",
+      "location": "Shenzhen, China",
+      "website": "https://www.orbbec.com/"
+    },
+    "tags": ["China", "Sensor", "3D Camera", "RGB-D", "Shenzhen", "Public Company"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.orbbec.com/company/", "title": "Orbbec - Company", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.digitimes.com/news/a20220714PD209/3d-vision-orbbec-star-market.html", "title": "3D vision company Orbbec debuts on STAR market - Digitimes", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Products", "orgInfo.website", "orgInfo.location", "company.founded", "status"],
+      "fields_uncertain": [],
+      "notes": "Founded January 2013 in Shenzhen; STAR-listed July 2022; backed by Alibaba."
+    }
+  }
+]

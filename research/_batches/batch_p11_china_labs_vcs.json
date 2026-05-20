@@ -1,0 +1,642 @@
+[
+  {
+    "id": "stg-lab-baai",
+    "name": "BAAI 北京智源人工智能研究院",
+    "company": "Beijing Academy of Artificial Intelligence",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Foundation models, embodied AI, vision-language-action models",
+      "Key Investigators": ["Wang Zhongyuan (President)"],
+      "Notable Projects": ["RoboBrain 2.0", "RoboOS", "RoboMIND", "Wu Dao", "BGE embeddings"],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Beijing-based nonprofit AI research institute backed by China's Ministry of Science and Technology and Beijing Municipality. A leading Chinese embodied AI lab; released RoboBrain 2.0 in June 2025 and co-led the RoboMIND multi-embodiment manipulation benchmark.",
+      "location": "Beijing, China",
+      "website": "https://www.baai.ac.cn/"
+    },
+    "tags": ["China", "Academic", "Embodied AI", "Foundation Model", "Non-profit"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.scmp.com/tech/big-tech/article/3313372/beijing-academy-unveils-open-source-robobrain-ai-model-chinas-humanoid-robots", "title": "Beijing academy unveils open-source RoboBrain AI model", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://arxiv.org/pdf/2412.13877", "title": "RoboMIND benchmark paper", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://aiwiki.ai/wiki/baai", "title": "BAAI wiki entry", "type": "wiki", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["orgInfo.website", "specs.Notable Projects", "specs.Key Investigators", "year"],
+      "fields_uncertain": [],
+      "notes": "RoboMIND released Dec 2024; RoboBrain 2.0 released June 2025."
+    }
+  },
+  {
+    "id": "stg-lab-msra",
+    "name": "MSRA 微软亚洲研究院",
+    "company": "Microsoft Research Asia",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "1998",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "AI foundation models, embodied AI, spatial intelligence, vision-language-action",
+      "Key Investigators": ["Lidong Zhou (Managing Director)"],
+      "Notable Projects": ["CogACT", "StarTrack Scholars Program (embodied AI)"],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Microsoft's Asia-Pacific research lab, headquartered in Beijing with sites in Shanghai and Singapore. Authored CogACT, a 7.6B-param foundational vision-language-action model for robotic manipulation that significantly outperformed OpenVLA on Open X-Embodiment evaluations.",
+      "location": "Beijing, China",
+      "website": "https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/"
+    },
+    "tags": ["China", "Academic", "Corporate Lab", "Embodied AI", "VLA"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/", "title": "MSRA official site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://www.microsoft.com/en-us/research/publication/cogact-a-foundational-vision-language-action-model-for-synergizing-cognition-and-action-in-robotic-manipulation/", "title": "CogACT publication", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://cogact.github.io/", "title": "CogACT project page", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["orgInfo.website", "specs.Notable Projects", "orgInfo.location"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-lab-tencent-rx",
+    "name": "Tencent Robotics X 腾讯机器人实验室",
+    "company": "Tencent Holdings",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Mechatronics, perception, control, legged/wheel-legged robotics, human-robot coexistence",
+      "Key Investigators": ["Zhang Zhengyou (Director / Tencent Distinguished Scientist)"],
+      "Notable Projects": ["Max (quadruped)", "Ollie (wheel-legged)", "Tairos robotics platform"],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Shenzhen-based corporate robotics lab established by Tencent in early 2018 under Zhang Zhengyou, focused on cutting-edge robotics R&D and bridging physical and virtual worlds. Known for the Max quadruped and Ollie wheel-legged robot, plus the Tairos robotics platform for humanoid developers.",
+      "location": "Shenzhen, China",
+      "website": "https://www.tencent.com/en-us/business/robotics.html"
+    },
+    "tags": ["China", "Corporate Lab", "Robotics", "Legged Robots"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.tencent.com/en-us/business/robotics.html", "title": "Tencent Robotics X official page", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://kr-asia.com/tencent-establishes-robotics-x-lab-mapping-out-plan-for-tencent-ai-lab", "title": "Tencent Establishes Robotics X Lab", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://cntechpost.com/2021/06/03/meet-ollie-tencents-wheel-legged-robot-capable-of-360-degree-flips/", "title": "Ollie wheel-legged robot", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["orgInfo.website", "specs.Key Investigators", "specs.Notable Projects", "year", "orgInfo.location"],
+      "fields_uncertain": [],
+      "notes": "Zhang Zhengyou known for the widely used Zhang's camera calibration method."
+    }
+  },
+  {
+    "id": "stg-lab-hkust",
+    "name": "HKUST 香港科技大学（机器人）",
+    "company": "Cheng Kar-Shun Robotics Institute, HKUST",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "2015",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Autonomous systems, UAVs, robotic manipulation, soft robotics, visual intelligence, autonomous driving",
+      "Key Investigators": ["Michael Yu Wang (Founding Director)", "Shaojie Shen", "Ling Shi"],
+      "Notable Projects": ["DJI co-founder alumni network", "First driverless car in Hong Kong", "RAM-Lab"],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Established in 2015 and renamed in 2021 following the Chow Tai Fook donation, the Cheng Kar-Shun Robotics Institute is HKUST's multidisciplinary platform spanning autonomous flight, marine robotics, humanoid robotics, manipulation, and soft robotics. Its alumni network seeded DJI.",
+      "location": "Clear Water Bay, Hong Kong",
+      "website": "https://ri.hkust.edu.hk/"
+    },
+    "tags": ["China", "Hong Kong", "Academic", "Robotics", "Autonomous Systems"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://ri.hkust.edu.hk/", "title": "HKUST Robotics Institute", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://vprd.hkust.edu.hk/research-institutes/cheng-kar-shun-robotics-institute", "title": "Cheng Kar-Shun Robotics Institute", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://ram-lab.com/", "title": "Robotics and Multiperception Lab", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["orgInfo.website", "year", "specs.Key Investigators"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-lab-sjtu",
+    "name": "SJTU 上海交通大学",
+    "company": "Shanghai Jiao Tong University - Machine Vision and Intelligence Group (MVIG)",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "1896",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Robotic manipulation, computer vision, human-robot interaction, embodied AI datasets",
+      "Key Investigators": ["Cewu Lu (Professor, Changjiang Scholar)"],
+      "Notable Projects": ["RH20T", "RH20T-P", "AlphaPose", "AnyGrasp"],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Cewu Lu's Machine Vision and Intelligence Group at Shanghai Jiao Tong University, focused on robot computer vision and large-scale robot learning datasets. RH20T is one of the largest robot-human one-shot imitation datasets (110K+ episodes, 140+ tasks).",
+      "location": "Shanghai, China",
+      "website": "https://mvig.sjtu.edu.cn/"
+    },
+    "tags": ["China", "Academic", "Robot Learning", "Manipulation", "Dataset"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://mvig.sjtu.edu.cn/", "title": "SJTU MVIG group", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://arxiv.org/pdf/2307.00595v1", "title": "RH20T paper", "type": "official", "fetched": "2026-05-20"},
+        {"url": "http://www.qingyuan.sjtu.edu.cn/a/Cewu-Lu.html", "title": "Cewu Lu profile", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["orgInfo.website", "specs.Key Investigators", "specs.Notable Projects"],
+      "fields_uncertain": [],
+      "notes": "Year reflects university founding (1896). Lab year not separately documented."
+    }
+  },
+  {
+    "id": "stg-lab-hit",
+    "name": "HIT 哈尔滨工业大学",
+    "company": "Harbin Institute of Technology - School of Mechanical Engineering",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "1920",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Dexterous hands, robotic manipulation, humanoid robotics, space robotics",
+      "Key Investigators": ["Fu Yili", "Ni Fenglei"],
+      "Notable Projects": ["HIT-DLR dexterous hand series (with DLR)", "DexBot humanoid (with BOSHIAC)", "Huazi-Rixin model"],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Harbin Institute of Technology has a 20+ year heritage in dexterous robotic hand research, beginning with the HIT-I hand (2001) jointly developed with German Aerospace Center (DLR). HIT mechanical engineering professors Fu Yili and Ni Fenglei partnered with alumni firm Boshihua to launch the DexBot dual-form humanoid platform.",
+      "location": "Harbin, Heilongjiang, China",
+      "website": "http://en.hit.edu.cn/"
+    },
+    "tags": ["China", "Academic", "Dexterous Hand", "Humanoid", "Manipulation"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://elib.dlr.de/55786/1/LiuHong-Multisensory_Five-Finger_Dexterous_Hand-IROS.pdf", "title": "DLR/HIT II dexterous hand paper", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://news.aibase.com/news/24111", "title": "HIT Collaborates with Bosi on Dual-Form Humanoid", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://humanoid.guide/product/dexbot/", "title": "DexBot Humanoid product page", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Key Investigators", "specs.Notable Projects"],
+      "fields_uncertain": ["orgInfo.website"],
+      "notes": "University founded 1920."
+    }
+  },
+  {
+    "id": "stg-lab-zju",
+    "name": "ZJU 浙江大学",
+    "company": "Zhejiang University",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "1897",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "Embodied AI, humanoid robotics, robot learning, control science, 3D scene understanding",
+      "Key Investigators": ["Wang Yue", "Zhaopeng Cui"],
+      "Notable Projects": ["REAL Lab (Reasoning, Embodied, Agentic, Learnable AI)", "Humanoid robot platform (since 2006)"],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Zhejiang University, in Hangzhou, has been researching humanoid robots since 2006 and houses multiple embodied AI groups including the REAL Lab. Spun out 10+ humanoid robotics companies (the 'Zhejiang University system'), and its faculty drive perception-control-motion integration research.",
+      "location": "Hangzhou, Zhejiang, China",
+      "website": "https://www.zju.edu.cn/english/"
+    },
+    "tags": ["China", "Academic", "Embodied AI", "Humanoid", "Hangzhou"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://github.com/ZJU-REAL", "title": "ZJU REAL Lab on GitHub", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://cnmra.com/more-than-10-companies-decoding-the-humanoid-robot-world-of-zhejiang-university-system/", "title": "Decoding the humanoid robot world of Zhejiang University system", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://ywang-zju.github.io/", "title": "Wang Yue profile", "type": "official", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Notable Projects", "specs.Key Investigators"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-lab-ustc",
+    "name": "USTC 中科大",
+    "company": "University of Science and Technology of China",
+    "category": "实验室",
+    "imageUrl": "",
+    "year": "1958",
+    "isNew": false,
+    "specs": {
+      "Research Focus": "AI-driven robotic chemistry, embodied AI, multimodal intelligence, autonomous experimentation",
+      "Key Investigators": ["State Key Laboratory of Precision and Intelligent Chemistry (PIC) team"],
+      "Notable Projects": ["Robotic chemist Luke", "Mars-meteorite catalyst synthesis", "USTC Robotics Lab"],
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "USTC, headquartered in Hefei and affiliated with the Chinese Academy of Sciences, hosts the State Key Laboratory of Precision and Intelligent Chemistry (PIC) and Department of Automation embodied AI work. Developed the AI chemist 'Luke' which autonomously designs experiments and produced catalysts for Mars oxygen production.",
+      "location": "Hefei, Anhui, China",
+      "website": "https://en.ustc.edu.cn/"
+    },
+    "tags": ["China", "Academic", "CAS", "Embodied AI", "Autonomous Lab"],
+    "_provenance": {
+      "confidence": "B",
+      "sources": [
+        {"url": "https://english.cas.cn/newsroom/cas_media/202411/t20241108_693942.shtml", "title": "China Unveils Chemist Robot - CAS", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://ai.ustc.edu.cn/en/home/", "title": "USTC AI / Robotics Lab", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://techxplore.com/news/2024-11-chemist-robot-poised-science-labs.html", "title": "Chemist robot poised to transform labs", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["orgInfo.location", "specs.Notable Projects", "orgInfo.website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-tencent",
+    "name": "Tencent Investment 腾讯投资",
+    "company": "Tencent Holdings - Investment Arm",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2011",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic, Growth, Series A through pre-IPO",
+      "Notable Portfolio": ["AgiBot (Series B/C lead)", "Unitree Robotics (Series C)", "HongShan co-invest in AgiBot"],
+      "Headquarters": "Shenzhen, China",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Founded in 2011, Tencent Investment is the corporate venture arm of Tencent Holdings, holding stakes in 600+ companies. In Chinese embodied AI, it led AgiBot's Series B at a 15B RMB valuation and joined Unitree's Series C alongside Alibaba, Ant Group, China Mobile and Geely.",
+      "location": "Shenzhen, China",
+      "website": "https://www.tencent.com/en-us/investors.html"
+    },
+    "tags": ["China", "Strategic Investor", "CVC", "Late Stage"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://cnmra.com/valuation-soars-to-15-billion-tencent-leads-new-funding-round-for-agibot/", "title": "Tencent Leads New Funding Round for Agibot", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://eu.36kr.com/en/p/3344368397190018", "title": "Unitree Series C - Tencent Alibaba China Mobile", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://www.scmp.com/tech/big-tech/article/3315225/unitree-robotics-reaches-unicorn-status-bytedance-alibaba-tencent-funding", "title": "Unitree unicorn status w/ Tencent funding", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Notable Portfolio", "orgInfo.location", "orgInfo.website"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-alibaba",
+    "name": "Alibaba 阿里巴巴战投",
+    "company": "Alibaba Group - Strategic Investment Department",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2008",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic, Series A through pre-IPO",
+      "Notable Portfolio": ["Unitree (Series C)", "Robot Era (Pre-A / A+)", "X Square Robot (lead, $140M)", "LimX Dynamics", "Galaxea"],
+      "Headquarters": "Hangzhou, China",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Alibaba's strategic investment unit, established 2008, is the most active investor in China's humanoid robotics by 2024-2025 deal count (7 deals), targeting both 'robot brain' and 'robot body' companies as part of its embodied AI strategy.",
+      "location": "Hangzhou, Zhejiang, China",
+      "website": "https://www.alibabagroup.com/"
+    },
+    "tags": ["China", "Strategic Investor", "CVC", "Embodied AI"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://roboticsandautomationnews.com/2025/09/08/alibaba-leads-140-million-funding-round-in-chinese-humanoid-robot-start-up-x-square-robot/94265/", "title": "Alibaba leads X Square Robot $140M round", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://eu.36kr.com/en/p/3344368397190018", "title": "Unitree Series C w/ Alibaba", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://www.humanoidsdaily.com/news/robotera-secures-140m-series-a-backed-by-automakers-geely-and-baic-claims-70m-in-orders", "title": "Robot Era Series A+ with Alibaba existing investor", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Notable Portfolio", "orgInfo.location"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-catl",
+    "name": "CATL 宁德时代",
+    "company": "CATL Capital / Contemporary Amperex Technology Co. Ltd.",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2011",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic (battery / robotics synergy)",
+      "Notable Portfolio": ["Galbot (Series B lead, $153M)"],
+      "Headquarters": "Ningde, Fujian, China",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "CATL is the world's largest EV battery maker (~37% global share), founded 2011 in Ningde. Its investment arm CATL Capital led Galbot's $153M Series B in June 2025, pursuing battery/robotics synergies and piloting humanoid robots on its own battery production lines.",
+      "location": "Ningde, Fujian, China",
+      "website": "https://www.catl.com/en/"
+    },
+    "tags": ["China", "Strategic Investor", "Battery", "Industrial CVC"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.yicaiglobal.com/news/chinese-robotics-startup-galbot-bags-usd153-million-in-latest-fundraiser", "title": "CATL leads $153M in Galbot", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://technode.com/2025/06/25/galbot/", "title": "CATL backs Galbot $153M", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://www.caixinglobal.com/2025-12-19/catl-tests-humanoid-robots-on-battery-production-lines-102394757.html", "title": "CATL tests humanoid robots on production lines", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Notable Portfolio", "orgInfo.location"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-geely",
+    "name": "Geely Capital 吉利资本",
+    "company": "Geely Capital (Zhejiang Geely Holding Group)",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2022",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic, Series A through Growth",
+      "Notable Portfolio": ["Robot Era (Series A+ lead, $141M)", "Unitree (Series C)"],
+      "Headquarters": "Hangzhou, China",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Corporate venture arm of Zhejiang Geely Holding Group, founded 2022 in Hangzhou. Targets mobility, energy transition, AI/robotics and smart cities. Led Robot Era's RMB 1B Series A+ in Nov 2025 and joined Unitree's Series C.",
+      "location": "Hangzhou, Zhejiang, China",
+      "website": "https://glycm.com/"
+    },
+    "tags": ["China", "Strategic Investor", "CVC", "Automotive"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.caixinglobal.com/2025-11-21/geely-leads-141-million-round-for-tsinghua-linked-robotics-startup-102385163.html", "title": "Geely leads $141M for Robot Era", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://www.yicaiglobal.com/news/chinese-robot-startup-robotera-bags-usd1405-million-in-latest-fundraiser-led-by-geely", "title": "Robotera $140.5M led by Geely", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://eu.36kr.com/en/p/3344368397190018", "title": "Unitree Series C w/ Geely Capital", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Notable Portfolio", "orgInfo.location", "year"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-meituan",
+    "name": "Meituan Strategy 美团战投",
+    "company": "Meituan Strategic Investment Division",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2015",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic, Angel through Growth",
+      "Notable Portfolio": ["Galbot (Angel round)", "Unitree", "X Square Robot", "Galaxea AI"],
+      "Headquarters": "Beijing, China",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Meituan's in-house strategic investment unit, funded entirely from internal sources, has shifted toward AI and hard tech in recent years; smart robots now account for over 66% of its AI investments. Backed Galbot's RMB 700M angel round (2023) alongside Qiming, IDG and Lanchi.",
+      "location": "Beijing, China",
+      "website": "https://www.meituan.com/"
+    },
+    "tags": ["China", "Strategic Investor", "CVC", "Embodied AI"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://kr-asia.com/jd-com-and-meituan-take-their-rivalry-from-takeout-to-humanoid-robots", "title": "JD vs Meituan in humanoid robots", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://eu.36kr.com/en/p/3401038678198656", "title": "Meituan Eight Consecutive Investments in Robotics", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://finance.yahoo.com/news/hong-kong-backed-humanoid-robot-093000373.html", "title": "Galbot angel investors incl. Meituan", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Notable Portfolio", "orgInfo.location"],
+      "fields_uncertain": ["year"],
+      "notes": "Year reflects approximate formal establishment of strategic investment dept; Longzhu Capital sister fund was launched 2017."
+    }
+  },
+  {
+    "id": "stg-vc-zhenfund",
+    "name": "真格基金 ZhenFund",
+    "company": "ZhenFund",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2011",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Angel, Pre-Seed, Seed",
+      "Notable Portfolio": ["Hesai Technology", "EHang", "Horizon Robotics", "Flexiv"],
+      "Headquarters": "Beijing, China",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Beijing-based seed/angel fund founded in 2011 by Bob Xu (Xu Xiaoping) and Victor Wang, both co-founders of New Oriental. Manages over $1B AUM across 800+ companies and 30+ unicorns; long-standing robotics bets include Hesai, EHang, Horizon Robotics, and Flexiv.",
+      "location": "Beijing, China",
+      "website": "https://en.zhenfund.com/"
+    },
+    "tags": ["China", "Angel", "Early Stage", "Seed"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/ZhenFund", "title": "ZhenFund Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://en.zhenfund.com/", "title": "ZhenFund official site", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://signal.nfx.com/investors/xiaoping-bob-xu", "title": "Bob Xu ZhenFund profile", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["orgInfo.website", "year", "orgInfo.location"],
+      "fields_uncertain": [],
+      "notes": "Robotics portfolio examples are well-documented but ZhenFund is not yet directly tied to Galbot/Unitree/AgiBot per public records."
+    }
+  },
+  {
+    "id": "stg-vc-qiming",
+    "name": "启明创投 Qiming Venture Partners",
+    "company": "Qiming Venture Partners",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2006",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Series A through Growth",
+      "Notable Portfolio": ["Galbot (Angel + later rounds)", "Xiaomi (early)", "Booster Robotics (via Beijing AI Industry Fund co-management)"],
+      "Headquarters": "Shanghai / Beijing, China",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Qiming Venture Partners, founded 2006, manages ~US$9.5B in capital across 580+ portfolio companies with 70+ IPOs. Backed Galbot's RMB 700M angel round in 2023 and continues to participate in follow-on rounds; also co-manages the Beijing AI Industry Investment Fund.",
+      "location": "Shanghai, China",
+      "website": "https://www.qimingvc.com/en/"
+    },
+    "tags": ["China", "Early Stage", "Growth", "Healthcare", "TMT"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.qimingvc.com/en/", "title": "Qiming Venture Partners official", "type": "official", "fetched": "2026-05-20"},
+        {"url": "https://x.com/QimingVC/status/1877183260318425443", "title": "Qiming on Galbot at CES 2025", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://finance.yahoo.com/news/hong-kong-backed-humanoid-robot-093000373.html", "title": "Galbot angel round investors", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["orgInfo.website", "year", "specs.Notable Portfolio"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-bluerun",
+    "name": "BlueRun Ventures 蓝驰创投",
+    "company": "Lanchi Ventures (formerly BlueRun Ventures China)",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2005",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early Stage, Series A",
+      "Notable Portfolio": ["AgiBot (Series A1 + 4 follow-ons, incl. Series B)", "Galbot (Angel)", "AgiLink dexterous hand"],
+      "Headquarters": "Beijing, China",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Originally spun out of Nokia Venture Partners, became independent of BlueRun Ventures in 2010 and rebranded to Lanchi Ventures in September 2023. Beijing-based with $2.1B AUM. First invested in AgiBot in August 2023 and has reinvested in four consecutive follow-on rounds; also backed Galbot's angel round.",
+      "location": "Beijing, China",
+      "website": "https://www.brv.com.cn/en/"
+    },
+    "tags": ["China", "Early Stage", "AI", "Embodied AI"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Lanchi_Ventures", "title": "Lanchi Ventures Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://www.scmp.com/tech/tech-trends/article/3324384/venture-capital-firm-lanchi-doubles-down-chinese-ai-robotics-start-ups-new-fund", "title": "Lanchi doubles down on Chinese AI/robotics", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://autonews.gasgoo.com/articles/icv/seeds-agibot-dexterous-hand-subsidiary-completes-two-consecutive-funding-rounds-2015807229767028736", "title": "AgiBot dexterous-hand subsidiary funding incl. BlueRun", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Notable Portfolio", "year", "orgInfo.location"],
+      "fields_uncertain": [],
+      "notes": "Brand still informally referred to as BlueRun/蓝驰 in funding-round listings; legal entity is Lanchi Ventures."
+    }
+  },
+  {
+    "id": "stg-vc-shunwei",
+    "name": "顺为资本 Shunwei Capital",
+    "company": "Shunwei Capital",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2011",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Early to Growth Stage",
+      "Notable Portfolio": ["Unitree Robotics", "Flexiv Robotics", "Ninebot", "Xiaomi"],
+      "Headquarters": "Beijing, China",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Founded 2011 by Lei Jun (Xiaomi CEO) and Tuck Lye Koh, Shunwei Capital manages over US$3B AUM. It first invested in Unitree before its 2025 unicorn round and counts Flexiv Robotics among 20+ unicorns in its portfolio.",
+      "location": "Beijing, China",
+      "website": "https://www.shunweicap.com/"
+    },
+    "tags": ["China", "Early Stage", "Growth", "AI Hardware", "Robotics"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Shunwei_Capital", "title": "Shunwei Capital Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://tracxn.com/d/venture-capital/shunwei-capital/__CtQuotVQOidLNBu0d0TydOU6qkir26JEA1xKWneGslY", "title": "Shunwei Capital Tracxn profile", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://www.thewirechina.com/2023/04/30/who-is-shunwei-capital/", "title": "Who is Shunwei Capital? - The Wire China", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "orgInfo.location", "specs.Notable Portfolio"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  },
+  {
+    "id": "stg-vc-matrix-china",
+    "name": "经纬创投 Matrix Partners China",
+    "company": "MPC / Matrix Partners China",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2008",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Series A through Growth",
+      "Notable Portfolio": ["XPeng", "Li Auto", "Ele.me", "RoboParty (seed)"],
+      "Headquarters": "Beijing, China",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "MPC (renamed from Matrix Partners China in July 2024) is a Beijing-based VC founded in 2008 by David Zhang, David Su and Shao Yibo. Manages ~RMB 70B (US$9.6B) AUM with notable portfolio in TMT and embodied AI; closed Fund VII at $1.6B in 2023 and recently invested in RoboParty seed alongside Xiaomi and Galbot.",
+      "location": "Beijing, China",
+      "website": "https://www.matrixpartners.com.cn/"
+    },
+    "tags": ["China", "Early Stage", "Growth", "TMT"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/MPCi", "title": "MPCi (Matrix Partners China) Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://technode.com/2024/07/02/matrix-partners-rebrands-china-unit-as-mpc-emphasizes-independence/", "title": "Matrix Partners rebrands China unit as MPC", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://modernmechanics24.com/post/roboparty-open-sourcing-humanoid-robots/", "title": "RoboParty seed round w/ Matrix Partners China", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["orgInfo.location", "year", "orgInfo.website"],
+      "fields_uncertain": ["specs.Notable Portfolio"],
+      "notes": "Direct Galbot angel-round participation was widely reported but specific lead reporting attaches to Qiming/Meituan/IDG/Lanchi; kept other verified portfolio examples here."
+    }
+  },
+  {
+    "id": "stg-vc-bj-robot-fund",
+    "name": "北京机器人产业发展投资基金 Beijing Robot Industry Fund",
+    "company": "Beijing Robot Industry Development Investment Fund",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Strategic / Government Fund, Series A through Growth",
+      "Notable Portfolio": ["Booster Robotics (Series A+ lead)", "Robot Era (Series A+)", "Galbot (Series B participant)"],
+      "Headquarters": "Beijing, China",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Beijing municipal robotics fund with a target size of RMB 10B, registered in Beijing Economic-Technological Development Area and co-managed by Shoucheng Holdings and Jingguorui. Backs strategic robotics startups including Booster Robotics' Series A+, Robot Era's Series A+, and Galbot's Series B.",
+      "location": "Beijing, China",
+      "website": "https://english.beijing.gov.cn/"
+    },
+    "tags": ["China", "Government Fund", "Strategic Investor", "Robotics"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://www.yicaiglobal.com/news/beijing-to-set-up-usd14-billion-fund-to-advance-robotics-industry", "title": "Beijing to Set Up USD1.4B Fund for Robotics", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://www.caixinglobal.com/2025-07-25/chinas-booster-robotics-lands-new-funding-as-it-hits-a-winning-streak-102344904.html", "title": "Booster Robotics Series A+ w/ Beijing Robot Industry Fund", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://www.therobotreport.com/beijing-announces-1-4b-robotics-fund/", "title": "Beijing announces $1.4B robotics fund", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["specs.Notable Portfolio", "orgInfo.location"],
+      "fields_uncertain": ["orgInfo.website"],
+      "notes": "No dedicated public website; ETDA / Beijing Investment Promotion serves as official channel."
+    }
+  },
+  {
+    "id": "stg-vc-scg",
+    "name": "深圳市创新投资集团 Shenzhen Capital Group",
+    "company": "Shenzhen Capital Group Co., Ltd. (SCGC)",
+    "category": "资本",
+    "imageUrl": "",
+    "year": "1999",
+    "isNew": false,
+    "specs": {
+      "Focus Stage": "Series A through Growth, IPO",
+      "Notable Portfolio": ["Booster Robotics (Series A lead)", "200+ IPO portfolio companies in hard tech"],
+      "Headquarters": "Shenzhen, China",
+      "status": "Active"
+    },
+    "orgInfo": {
+      "description": "Founded in 1999, Shenzhen Capital Group is a state-owned VC affiliated with the Shenzhen Government, managing approximately US$65B AUM. It led Booster Robotics' Series A with Jinding Capital, alongside follow-ons from Source Code Capital and Innoangel.",
+      "location": "Shenzhen, Guangdong, China",
+      "website": "https://www.szvc.com.cn/"
+    },
+    "tags": ["China", "Government Fund", "State-Owned", "Hard Tech"],
+    "_provenance": {
+      "confidence": "A",
+      "sources": [
+        {"url": "https://en.wikipedia.org/wiki/Shenzhen_Capital_Group", "title": "Shenzhen Capital Group Wikipedia", "type": "wiki", "fetched": "2026-05-20"},
+        {"url": "https://www.caixinglobal.com/2025-07-25/chinas-booster-robotics-lands-new-funding-as-it-hits-a-winning-streak-102344904.html", "title": "Booster Robotics Series A led by SCGC", "type": "news", "fetched": "2026-05-20"},
+        {"url": "https://tracxn.com/d/venture-capital/shenzhen-capital-group/__0ZyR_O8ahcUJgcId0IbUp1EJkdc8x68olyPm6WOYqts", "title": "Shenzhen Capital Group Tracxn", "type": "news", "fetched": "2026-05-20"}
+      ],
+      "fields_verified": ["year", "orgInfo.location", "specs.Notable Portfolio"],
+      "fields_uncertain": [],
+      "notes": ""
+    }
+  }
+]

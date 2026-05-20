@@ -909,6 +909,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-pndbotics",
       "f124"
     ],
     "seriesId": "pndbotics-adam",
@@ -1120,6 +1121,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-matrix",
       "f96"
     ],
     "seriesId": "matrix-robotics",
@@ -1379,6 +1381,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-magiclab",
       "h47"
     ]
   },
@@ -1446,6 +1449,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-noetix",
       "f77"
     ],
     "seriesId": "noetix",
@@ -1640,6 +1644,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-lumos",
       "f60"
     ]
   },
@@ -1733,6 +1738,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-leju",
       "f123",
       "f56",
       "f61"
@@ -1816,6 +1822,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-xhumanoid",
       "f112"
     ],
     "seriesId": "xhumanoid-tian-yi",
@@ -1928,6 +1935,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-engineai",
       "f106",
       "f50",
       "f67"
@@ -2151,6 +2159,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-engineai",
       "f106",
       "f44",
       "f67"
@@ -2218,6 +2227,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-phybot",
       "f138"
     ],
     "seriesId": "phybot",
@@ -2360,6 +2370,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-leju",
       "f123",
       "f39",
       "f61"
@@ -2471,6 +2482,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-lumos",
       "f37"
     ]
   },
@@ -2507,6 +2519,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-elephant",
       "f93"
     ]
   },
@@ -2543,6 +2556,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-leju",
       "f123",
       "f39",
       "f56"
@@ -2745,6 +2759,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-engineai",
       "f106",
       "f44",
       "f50"
@@ -3168,6 +3183,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-noetix",
       "f32"
     ],
     "seriesId": "noetix",
@@ -3682,6 +3698,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-elephant",
       "a6"
     ]
   },
@@ -3713,6 +3730,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-matrix",
       "f22"
     ],
     "seriesId": "matrix-robotics",
@@ -4012,6 +4030,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-engineai",
       "f44",
       "f50",
       "f67"
@@ -4220,6 +4239,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-xhumanoid",
       "f41"
     ],
     "seriesId": "xhumanoid-tian-yi",
@@ -4410,6 +4430,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-pudu",
       "f127",
       "app-cleaning",
       "app-hospitality"
@@ -4523,6 +4544,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-leju",
       "f39",
       "f56",
       "f61"
@@ -4559,6 +4581,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-pndbotics",
       "f12"
     ],
     "seriesId": "pndbotics-adam",
@@ -4627,6 +4650,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-pudu",
       "f120",
       "app-cleaning",
       "app-hospitality"
@@ -5037,6 +5061,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-phybot",
       "f52"
     ],
     "seriesId": "phybot",
@@ -6635,6 +6660,7 @@
     ],
     "relatedIds": [
       "ind-limx",
+      "stg-ind-magiclab",
       "f30"
     ]
   },
@@ -7771,6 +7797,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-robstride",
       "joint-robstride-02",
       "joint-robstride-03",
       "joint-robstride-04",
@@ -7811,6 +7838,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-robstride",
       "joint-robstride-01",
       "joint-robstride-03",
       "joint-robstride-04",
@@ -7850,6 +7878,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-robstride",
       "joint-robstride-01",
       "joint-robstride-02",
       "joint-robstride-04",
@@ -7890,6 +7919,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-robstride",
       "joint-robstride-01",
       "joint-robstride-02",
       "joint-robstride-03",
@@ -7929,6 +7959,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-robstride",
       "joint-robstride-01",
       "joint-robstride-02",
       "joint-robstride-03",
@@ -8076,6 +8107,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-steadywin",
       "joint-steadywin-gim8108-8",
       "joint-steadywin-gim8115-6"
     ],
@@ -8113,6 +8145,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-steadywin",
       "joint-steadywin-gim6010-8",
       "joint-steadywin-gim8115-6"
     ],
@@ -8150,6 +8183,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-steadywin",
       "joint-steadywin-gim6010-8",
       "joint-steadywin-gim8108-8"
     ],
@@ -8605,6 +8639,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-orbbec",
       "sensor-orbbec-femto-mega",
       "sensor-orbbec-gemini-335",
       "sensor-orbbec-gemini-335le"
@@ -8643,6 +8678,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-orbbec",
       "sensor-orbbec-femto-bolt",
       "sensor-orbbec-gemini-335",
       "sensor-orbbec-gemini-335le"
@@ -8680,6 +8716,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-orbbec",
       "sensor-orbbec-femto-bolt",
       "sensor-orbbec-femto-mega",
       "sensor-orbbec-gemini-335le"
@@ -8718,6 +8755,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-orbbec",
       "sensor-orbbec-femto-bolt",
       "sensor-orbbec-femto-mega",
       "sensor-orbbec-gemini-335"
@@ -9310,6 +9348,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-livox",
       "sensor-livox-hap",
       "sensor-livox-mid40"
     ],
@@ -9347,6 +9386,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-livox",
       "sensor-livox-mid360",
       "sensor-livox-mid40"
     ],
@@ -9383,6 +9423,7 @@
       }
     ],
     "relatedIds": [
+      "stg-ind-livox",
       "sensor-livox-hap",
       "sensor-livox-mid360"
     ],
