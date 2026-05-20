@@ -63,6 +63,11 @@
     },
     "relatedIds": [
       "ind-deepmind-robotics",
+      "sw-genie-2",
+      "sw-genie-3",
+      "sw-robocat",
+      "sw-rt2",
+      "sw-sara-rt",
       "sw7"
     ],
     "tags": [
@@ -191,7 +196,8 @@
     "relatedIds": [
       "ind1",
       "f2",
-      "sw3"
+      "sw3",
+      "sw-cosmos-transfer"
     ],
     "tags": [
       "PhysX",
@@ -294,6 +300,7 @@
       "sw-octo",
       "sw1",
       "sw2",
+      "sw-robovqa",
       "f2"
     ],
     "tags": [
@@ -348,7 +355,8 @@
         "title": "Model predictive control - Wikipedia",
         "type": "wiki"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sw-convex-mpc-cheetah",
@@ -386,7 +394,8 @@
         "title": "IEEE/RSJ IROS 2018 entry",
         "type": "paper"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sw-ocs2",
@@ -470,7 +479,8 @@
         "title": "Jacobson & Mayne 1970 book review",
         "type": "paper"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sw-centroidal-dynamics",
@@ -784,7 +794,8 @@
         "title": "Gazebo Sim repo",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sw-pybullet",
@@ -992,7 +1003,8 @@
         "title": "Cyberbotics / Webots official site",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sw-coppeliasim",
@@ -1163,6 +1175,7 @@
     "relatedIds": [
       "lab-bair-autolab",
       "lab-sail",
+      "sw-fmb",
       "d2"
     ]
   },
@@ -1200,7 +1213,8 @@
       }
     ],
     "relatedIds": [
-      "lab-sail"
+      "lab-sail",
+      "sw-roboturk"
     ]
   },
   {
@@ -1313,7 +1327,8 @@
         "title": "All Robots in One: A New Standard and Unified Dataset for Versatile, General-Purpose Embodied Agents",
         "type": "paper"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sw-robomind",
@@ -1349,7 +1364,8 @@
         "title": "RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation",
         "type": "paper"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sw-robovqa",
@@ -1387,6 +1403,7 @@
     ],
     "relatedIds": [
       "ind-deepmind-robotics",
+      "sw7",
       "h4"
     ]
   },
@@ -1471,7 +1488,8 @@
       }
     ],
     "relatedIds": [
-      "lab-sail"
+      "lab-sail",
+      "sw-mobile-aloha"
     ]
   },
   {
@@ -1585,6 +1603,7 @@
     ],
     "relatedIds": [
       "lab-bair-autolab",
+      "sw-bridgedata-v2",
       "a2"
     ]
   },
@@ -2330,7 +2349,12 @@
       }
     ],
     "relatedIds": [
-      "ind-deepmind-robotics"
+      "ind-deepmind-robotics",
+      "sw-genie-2",
+      "sw-genie-3",
+      "sw-robocat",
+      "sw-sara-rt",
+      "sw2"
     ]
   },
   {
@@ -2368,7 +2392,9 @@
     "relatedIds": [
       "ind-physical-intelligence",
       "lab-bair-autolab",
-      "lab-sail"
+      "lab-sail",
+      "sw-pi0-fast",
+      "sw-pi05"
     ]
   },
   {
@@ -2404,7 +2430,9 @@
       }
     ],
     "relatedIds": [
-      "ind-physical-intelligence"
+      "ind-physical-intelligence",
+      "sw-pi0",
+      "sw-pi0-fast"
     ]
   },
   {
@@ -2483,6 +2511,9 @@
         "title": "Official ByteDance GR-1 repo",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "sw-gr2"
     ]
   },
   {
@@ -2516,6 +2547,9 @@
         "title": "GR-2 arXiv",
         "type": "paper"
       }
+    ],
+    "relatedIds": [
+      "sw-gr1"
     ]
   },
   {
@@ -2629,7 +2663,12 @@
       }
     ],
     "relatedIds": [
-      "ind-deepmind-robotics"
+      "ind-deepmind-robotics",
+      "sw-genie-2",
+      "sw-genie-3",
+      "sw-rt2",
+      "sw-sara-rt",
+      "sw2"
     ]
   },
   {
@@ -2738,7 +2777,8 @@
         "title": "3D-VLA arXiv",
         "type": "paper"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sw-bcz-fm",
@@ -2817,6 +2857,9 @@
     ],
     "relatedIds": [
       "ind1",
+      "sw-cosmos-predict",
+      "sw-cosmos-reason",
+      "sw-groot-n1-5",
       "h4"
     ]
   },
@@ -2888,7 +2931,8 @@
         "title": "TinyVLA arXiv",
         "type": "paper"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sw-rdt-1b",
@@ -2960,7 +3004,12 @@
       }
     ],
     "relatedIds": [
-      "ind-deepmind-robotics"
+      "ind-deepmind-robotics",
+      "sw-genie-2",
+      "sw-genie-3",
+      "sw-robocat",
+      "sw-rt2",
+      "sw2"
     ]
   },
   {
@@ -2994,7 +3043,8 @@
         "title": "ScaleDP arXiv",
         "type": "paper"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sw-lerobot",
@@ -3028,7 +3078,8 @@
         "title": "LeRobot GitHub README",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sw-moveit2",
@@ -3062,7 +3113,8 @@
         "title": "MoveIt 2 GitHub",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sw-openrmf-framework",
@@ -3096,7 +3148,8 @@
         "title": "Open-RMF GitHub",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sw-ros2-control-framework",
@@ -3172,7 +3225,8 @@
         "title": "Pinocchio GitHub README",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sw-crocoddyl",
@@ -3211,7 +3265,8 @@
         "title": "Crocoddyl GitHub",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sw-robosuite",
@@ -3332,7 +3387,8 @@
         "title": "SB3 JMLR paper",
         "type": "paper"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sw-polymetis",
@@ -3411,7 +3467,10 @@
       }
     ],
     "relatedIds": [
-      "ind1"
+      "ind1",
+      "sw-cosmos-reason",
+      "sw-groot-n1",
+      "sw-groot-n1-5"
     ]
   },
   {
@@ -3450,7 +3509,10 @@
       }
     ],
     "relatedIds": [
-      "ind1"
+      "ind1",
+      "sw-cosmos-predict",
+      "sw-groot-n1",
+      "sw-groot-n1-5"
     ]
   },
   {
@@ -3488,7 +3550,8 @@
       }
     ],
     "relatedIds": [
-      "ind1"
+      "ind1",
+      "sw5"
     ]
   },
   {
@@ -3526,7 +3589,11 @@
       }
     ],
     "relatedIds": [
-      "ind-deepmind-robotics"
+      "ind-deepmind-robotics",
+      "sw-robocat",
+      "sw-rt2",
+      "sw-sara-rt",
+      "sw2"
     ]
   },
   {
@@ -3564,7 +3631,11 @@
       }
     ],
     "relatedIds": [
-      "ind-deepmind-robotics"
+      "ind-deepmind-robotics",
+      "sw-robocat",
+      "sw-rt2",
+      "sw-sara-rt",
+      "sw2"
     ]
   },
   {
@@ -3723,7 +3794,9 @@
     "relatedIds": [
       "ind-physical-intelligence",
       "lab-bair-autolab",
-      "lab-sail"
+      "lab-sail",
+      "sw-pi0",
+      "sw-pi05"
     ]
   },
   {
@@ -3761,6 +3834,9 @@
     ],
     "relatedIds": [
       "ind1",
+      "sw-cosmos-predict",
+      "sw-cosmos-reason",
+      "sw-groot-n1",
       "h4"
     ]
   },
@@ -3835,7 +3911,8 @@
         "title": "Galaxea Open-World Dataset and G0 Dual-System VLA",
         "type": "paper"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sw-gaia-2",
@@ -3870,7 +3947,8 @@
         "title": "GAIA-2: Pushing the Boundaries of Video Generative Models",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sw-skild-brain",

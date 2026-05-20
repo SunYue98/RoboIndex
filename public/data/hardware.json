@@ -17,6 +17,7 @@
     "relatedIds": [
       "ind-agility",
       "sw1",
+      "f130",
       "e1",
       "j1"
     ],
@@ -57,6 +58,10 @@
     "relatedIds": [
       "ind-limx",
       "sw7",
+      "f132",
+      "f15",
+      "f25",
+      "f73",
       "sw5",
       "c1"
     ],
@@ -98,6 +103,8 @@
     },
     "relatedIds": [
       "ind-tesla-optimus",
+      "f8",
+      "f98",
       "e2",
       "s1",
       "cp1"
@@ -157,6 +164,11 @@
       }
     ],
     "relatedIds": [
+      "arm-ur16e",
+      "arm-ur20",
+      "arm-ur30",
+      "arm-ur3e",
+      "arm-ur5e",
       "s2",
       "c1"
     ]
@@ -194,6 +206,7 @@
       "sw-droid",
       "sw-fmb",
       "sw-polymetis",
+      "arm-fr3",
       "c1"
     ]
   },
@@ -353,7 +366,12 @@
       }
     ],
     "relatedIds": [
-      "f2"
+      "f2",
+      "f79",
+      "h33",
+      "joint-dynamixel-ph42-020",
+      "joint-dynamixel-xh540-w270",
+      "joint-dynamixel-xm430-w350"
     ]
   },
   {
@@ -387,7 +405,8 @@
     "relatedIds": [
       "f2",
       "a1",
-      "a2"
+      "a2",
+      "comp-harmonic-csf-2up"
     ]
   },
   {
@@ -451,7 +470,10 @@
       }
     ],
     "relatedIds": [
-      "f4"
+      "f4",
+      "sensor-realsense-d435i",
+      "sensor-realsense-d457",
+      "sensor-realsense-l515"
     ]
   },
   {
@@ -483,7 +505,8 @@
       }
     ],
     "relatedIds": [
-      "a1"
+      "a1",
+      "sensor-ati-mini40"
     ]
   },
   {
@@ -582,8 +605,15 @@
     ],
     "relatedIds": [
       "ind1",
+      "f38",
       "f4",
-      "sw3"
+      "f69",
+      "sw3",
+      "cp-jetson-agx-thor",
+      "cp-jetson-agx-xavier",
+      "cp-jetson-nano",
+      "cp-jetson-orin-nano",
+      "cp-jetson-orin-nx"
     ]
   },
   {
@@ -670,6 +700,9 @@
         "title": "India's Muks Robotics Unveils 'AGI-Powered' Humanoid Robots",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "f13"
     ]
   },
   {
@@ -698,6 +731,10 @@
         "title": "OMRON/Techman TM Series specifications",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "arm-techman-tm12",
+      "arm-techman-tm5-900"
     ]
   },
   {
@@ -733,7 +770,9 @@
       }
     ],
     "relatedIds": [
-      "ind-tesla-optimus"
+      "ind-tesla-optimus",
+      "f4",
+      "f98"
     ]
   },
   {
@@ -764,7 +803,10 @@
       }
     ],
     "relatedIds": [
-      "ind-figure"
+      "ind-figure",
+      "f104",
+      "f139",
+      "app-humanoid-manufacturing"
     ]
   },
   {
@@ -790,6 +832,9 @@
         "title": "TARS Demonstrates a Robot That Can Perform Hand Embroidery",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "app-last-mile-delivery"
     ]
   },
   {
@@ -823,6 +868,9 @@
         "title": "Humanoid robot Adam debuts at music festival in China",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "f124"
     ]
   },
   {
@@ -856,6 +904,9 @@
         "title": "SPACEO Pro - Muks Robotics",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f6"
     ]
   },
   {
@@ -891,7 +942,11 @@
       }
     ],
     "relatedIds": [
-      "ind-limx"
+      "ind-limx",
+      "f132",
+      "f2",
+      "f25",
+      "f73"
     ]
   },
   {
@@ -920,6 +975,10 @@
         "title": "JAKA Robotics product family — JAKA K1",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "arm-jaka-minicobo",
+      "arm-jaka-zu5"
     ]
   },
   {
@@ -941,7 +1000,8 @@
     "orgInfo": {
       "website": "https://www.haier.com/"
     },
-    "importance": "medium"
+    "importance": "medium",
+    "relatedIds": []
   },
   {
     "id": "f21",
@@ -976,7 +1036,9 @@
       }
     ],
     "relatedIds": [
-      "ind-1x"
+      "ind-1x",
+      "f122",
+      "f34"
     ]
   },
   {
@@ -1005,6 +1067,9 @@
         "title": "Matrix Robotics — MATRIX-1 product page",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f96"
     ]
   },
   {
@@ -1026,7 +1091,8 @@
     "orgInfo": {
       "website": "https://www.agilex.ai/"
     },
-    "importance": "medium"
+    "importance": "medium",
+    "relatedIds": []
   },
   {
     "id": "f24",
@@ -1081,7 +1147,11 @@
       }
     ],
     "relatedIds": [
-      "ind-unitree"
+      "ind-unitree",
+      "joint-unitree-a1",
+      "joint-unitree-go-m8010-6",
+      "cp-jetson-agx-thor",
+      "pwr-unitree-h1-battery"
     ]
   },
   {
@@ -1117,7 +1187,14 @@
       }
     ],
     "relatedIds": [
-      "ind-limx"
+      "ind-limx",
+      "f132",
+      "f15",
+      "f2",
+      "f73",
+      "app-humanoid-manufacturing",
+      "app-inspection",
+      "app-surgical"
     ]
   },
   {
@@ -1146,7 +1223,8 @@
         "title": "SkyWalker 2 by EIR Technology",
         "type": "datasheet"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f29",
@@ -1208,7 +1286,9 @@
       }
     ],
     "relatedIds": [
-      "ind-boston-dynamics"
+      "ind-boston-dynamics",
+      "cp-jetson-agx-thor",
+      "pwr-spot-battery"
     ]
   },
   {
@@ -1237,6 +1317,9 @@
         "title": "MagicLab General-Purpose Humanoid",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "h47"
     ]
   },
   {
@@ -1301,6 +1384,9 @@
         "title": "Noetix Robotics (松延动力) Home",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f77"
     ]
   },
   {
@@ -1334,7 +1420,8 @@
         "title": "浙江人形机器人创新中心发布NAVIAI",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f34",
@@ -1386,7 +1473,12 @@
       }
     ],
     "relatedIds": [
-      "ind-1x"
+      "ind-1x",
+      "f122",
+      "f21",
+      "cp-jetson-agx-thor",
+      "app-cleaning",
+      "app-home-humanoid"
     ]
   },
   {
@@ -1420,7 +1512,8 @@
         "title": "LG affiliates converge on humanoid parts",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f36",
@@ -1448,7 +1541,8 @@
         "title": "VinMotion Motion 2",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f37",
@@ -1478,6 +1572,9 @@
         "title": "Lumos Robotics secures funding",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "f60"
     ]
   },
   {
@@ -1533,7 +1630,8 @@
       }
     ],
     "relatedIds": [
-      "ind-booster"
+      "ind-booster",
+      "cp1"
     ]
   },
   {
@@ -1567,6 +1665,11 @@
         "title": "Leju Robot — Wikipedia",
         "type": "wiki"
       }
+    ],
+    "relatedIds": [
+      "f123",
+      "f56",
+      "f61"
     ]
   },
   {
@@ -1602,7 +1705,10 @@
       }
     ],
     "relatedIds": [
-      "ind-agibot"
+      "ind-agibot",
+      "f49",
+      "f70",
+      "f78"
     ]
   },
   {
@@ -1636,6 +1742,9 @@
         "title": "北京人形机器人创新中心-天工开源计划",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f112"
     ]
   },
   {
@@ -1671,7 +1780,8 @@
       }
     ],
     "relatedIds": [
-      "ind-fourier"
+      "ind-fourier",
+      "f86"
     ]
   },
   {
@@ -1741,6 +1851,11 @@
         "title": "EngineAI releases PM01 humanoid robot",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "f106",
+      "f50",
+      "f67"
     ]
   },
   {
@@ -1774,7 +1889,8 @@
         "title": "GENE.01 from Generative Bionics",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f46",
@@ -1802,6 +1918,9 @@
         "title": "Zeus 1: PL-Universe's Humanoid",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "h7"
     ]
   },
   {
@@ -1830,7 +1949,8 @@
         "title": "TinyVLA arXiv",
         "type": "paper"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f48",
@@ -1860,7 +1980,8 @@
         "title": "Tien Kung 2.0",
         "type": "datasheet"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f49",
@@ -1913,7 +2034,10 @@
       }
     ],
     "relatedIds": [
-      "ind-agibot"
+      "ind-agibot",
+      "f40",
+      "f70",
+      "f78"
     ]
   },
   {
@@ -1947,6 +2071,11 @@
         "title": "EngineAI WRC 2025 announcement",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f106",
+      "f44",
+      "f67"
     ]
   },
   {
@@ -1975,7 +2104,8 @@
         "title": "Reachy by Pollen Robotics",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f52",
@@ -2008,6 +2138,9 @@
         "title": "World's most powerful humanoid aces backflip",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "f138"
     ]
   },
   {
@@ -2041,7 +2174,8 @@
         "title": "Robros IGRIS-C at CES 2026",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f54",
@@ -2074,6 +2208,10 @@
         "title": "Kepler Robotics Unveils K2 'Bumblebee' at IROS 2025",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f72",
+      "f88"
     ]
   },
   {
@@ -2102,7 +2240,8 @@
         "title": "Borg Robotics Reveals Modular Borg 01",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f56",
@@ -2135,6 +2274,11 @@
         "title": "Leju raises $200M for humanoid production",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "f123",
+      "f39",
+      "f61"
     ]
   },
   {
@@ -2168,6 +2312,9 @@
         "title": "UK fastest-developed humanoid",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "f108"
     ]
   },
   {
@@ -2201,6 +2348,9 @@
         "title": "Mentee Robotics NVIDIA Isaac case study",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f114"
     ]
   },
   {
@@ -2226,6 +2376,9 @@
         "title": "Lumos Robotics official",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f37"
     ]
   },
   {
@@ -2259,6 +2412,9 @@
         "title": "ultraArm Conveyor Belt Kit 2024",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f93"
     ]
   },
   {
@@ -2292,6 +2448,11 @@
         "title": "Humanoid 'Kuafu' debuts as torchbearer — People's Daily",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "f123",
+      "f39",
+      "f56"
     ]
   },
   {
@@ -2320,7 +2481,8 @@
         "title": "博实股份-哈工大合作研发的人形机器人",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f63",
@@ -2348,7 +2510,8 @@
         "title": "Astribot 星尘智能 official",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f64",
@@ -2381,7 +2544,8 @@
         "title": "Noble Machines Exits Stealth",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f65",
@@ -2416,7 +2580,11 @@
       }
     ],
     "relatedIds": [
-      "ind-ubtech"
+      "ind-ubtech",
+      "f135",
+      "f144",
+      "f69",
+      "f82"
     ]
   },
   {
@@ -2445,7 +2613,8 @@
         "title": "Orca Humanoid by Cyan Robotics",
         "type": "datasheet"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f67",
@@ -2478,6 +2647,11 @@
         "title": "EngineAI Introduces T800 at CES 2026",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f106",
+      "f44",
+      "f50"
     ]
   },
   {
@@ -2511,6 +2685,9 @@
         "title": "Galaxea R1 user guide",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "app-home-humanoid"
     ]
   },
   {
@@ -2569,7 +2746,12 @@
       }
     ],
     "relatedIds": [
-      "ind-ubtech"
+      "ind-ubtech",
+      "f135",
+      "f144",
+      "f65",
+      "f82",
+      "cp1"
     ]
   },
   {
@@ -2605,7 +2787,10 @@
       }
     ],
     "relatedIds": [
-      "ind-agibot"
+      "ind-agibot",
+      "f40",
+      "f49",
+      "f78"
     ]
   },
   {
@@ -2639,7 +2824,8 @@
         "title": "Enchanted Tools delivers Mirokaï",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f72",
@@ -2672,6 +2858,10 @@
         "title": "Kepler K2 at ICRA 2025",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "f54",
+      "f88"
     ]
   },
   {
@@ -2738,7 +2928,11 @@
       }
     ],
     "relatedIds": [
-      "ind-limx"
+      "ind-limx",
+      "f132",
+      "f15",
+      "f2",
+      "f25"
     ]
   },
   {
@@ -2772,7 +2966,8 @@
         "title": "Alibaba leads $100M in X Square Robot",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f75",
@@ -2805,7 +3000,8 @@
         "title": "Westwood Robotics new humanoid",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f76",
@@ -2833,7 +3029,8 @@
         "title": "Hexagon launches AEON",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f77",
@@ -2861,6 +3058,9 @@
         "title": "Hobbs - Noetix Robotics",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f32"
     ]
   },
   {
@@ -2896,7 +3096,10 @@
       }
     ],
     "relatedIds": [
-      "ind-agibot"
+      "ind-agibot",
+      "f40",
+      "f49",
+      "f70"
     ]
   },
   {
@@ -2925,6 +3128,13 @@
         "title": "ROBOTIS XM430-W350 e-Manual",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "h33",
+      "j2",
+      "joint-dynamixel-ph42-020",
+      "joint-dynamixel-xh540-w270",
+      "joint-dynamixel-xm430-w350"
     ]
   },
   {
@@ -2953,6 +3163,9 @@
         "title": "DOBOT Atom",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f129"
     ]
   },
   {
@@ -2965,11 +3178,20 @@
     "isNew": true,
     "specs": {
       "type": "Bipedal Humanoid",
-      "status": "In Development"
+      "status": "In Development",
+      "height": "1.73 m",
+      "weight": "~72.6 kg",
+      "payload": "25 kg",
+      "runtime": "4 h per pack; hot-swappable",
+      "modes": "Bipedal / wheeled / fixed-base modular",
+      "applications": "Logistics, manufacturing, machine tending, palletization",
+      "aiPartner": "Google DeepMind (Gemini Robotics)"
     },
     "tags": [
       "Bipedal",
-      "Humanoid"
+      "Humanoid",
+      "USA",
+      "Industrial"
     ],
     "orgInfo": {
       "website": "https://apptronik.com/"
@@ -2980,10 +3202,26 @@
         "url": "https://apptronik.com",
         "title": "Apptronik official site",
         "type": "official"
+      },
+      {
+        "url": "https://apptronik.com/apollo",
+        "title": "Apollo — Apptronik",
+        "type": "official"
+      },
+      {
+        "url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/",
+        "title": "Apptronik unveils Apollo",
+        "type": "news"
+      },
+      {
+        "url": "https://www.automate.org/robotics/industry-insights/apptroniks-next-humanoid-will-debut-this-year",
+        "title": "Apptronik new Apollo in 2025",
+        "type": "news"
       }
     ],
     "relatedIds": [
-      "ind-apptronik"
+      "ind-apptronik",
+      "app-humanoid-manufacturing"
     ]
   },
   {
@@ -3019,7 +3257,11 @@
       }
     ],
     "relatedIds": [
-      "ind-ubtech"
+      "ind-ubtech",
+      "f135",
+      "f144",
+      "f65",
+      "f69"
     ]
   },
   {
@@ -3048,7 +3290,8 @@
         "title": "Vega - Dexmate",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f84",
@@ -3083,7 +3326,8 @@
       }
     ],
     "relatedIds": [
-      "ind-unitree"
+      "ind-unitree",
+      "f140"
     ]
   },
   {
@@ -3112,7 +3356,8 @@
         "title": "Alice M1 Humanoid",
         "type": "datasheet"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f86",
@@ -3147,7 +3392,8 @@
       }
     ],
     "relatedIds": [
-      "ind-fourier"
+      "ind-fourier",
+      "f42"
     ]
   },
   {
@@ -3181,7 +3427,8 @@
         "title": "SIASUN 新松机器人 official",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f88",
@@ -3209,6 +3456,10 @@
         "title": "Kepler Robotics showcases K2 'Bumblebee'",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "f54",
+      "f72"
     ]
   },
   {
@@ -3237,7 +3488,8 @@
         "title": "Cartwheel Robotics Exits Stealth",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f91",
@@ -3270,7 +3522,8 @@
         "title": "RoboForce TITAN",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f93",
@@ -3298,6 +3551,9 @@
         "title": "Mercury Humanoid by Elephant Robotics",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "a6"
     ]
   },
   {
@@ -3326,6 +3582,9 @@
         "title": "Matrix Robotics official site",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f22"
     ]
   },
   {
@@ -3359,7 +3618,8 @@
         "title": "TOPSTAR Global Open Day 2025",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f98",
@@ -3394,7 +3654,9 @@
       }
     ],
     "relatedIds": [
-      "ind-tesla-optimus"
+      "ind-tesla-optimus",
+      "f4",
+      "f8"
     ]
   },
   {
@@ -3428,7 +3690,8 @@
         "title": "Xiaomi Builds CyberOne",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f101",
@@ -3456,7 +3719,8 @@
         "title": "VersaBot VB-1 by Lanxin Robotics",
         "type": "datasheet"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f103",
@@ -3484,7 +3748,8 @@
         "title": "Water-powered humanoid Clone Alpha",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f104",
@@ -3530,7 +3795,10 @@
       }
     ],
     "relatedIds": [
-      "ind-figure"
+      "ind-figure",
+      "f139",
+      "f9",
+      "app-humanoid-manufacturing"
     ]
   },
   {
@@ -3566,7 +3834,8 @@
       }
     ],
     "relatedIds": [
-      "ind-robot-era"
+      "ind-robot-era",
+      "flagship-robotera-l7"
     ]
   },
   {
@@ -3600,6 +3869,11 @@
         "title": "Engine AI SE01 & PM01 Specs",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "f44",
+      "f50",
+      "f67"
     ]
   },
   {
@@ -3625,7 +3899,8 @@
         "title": "Boardwalk Robotics Alex",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f108",
@@ -3658,6 +3933,9 @@
         "title": "HMND 01 Alpha reveal",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "f58"
     ]
   },
   {
@@ -3691,7 +3969,8 @@
         "title": "PaXini TORA-ONE distributor",
         "type": "datasheet"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f110",
@@ -3726,7 +4005,9 @@
       }
     ],
     "relatedIds": [
-      "ind-galbot"
+      "ind-galbot",
+      "f111",
+      "flagship-galbot-g1"
     ]
   },
   {
@@ -3762,7 +4043,9 @@
       }
     ],
     "relatedIds": [
-      "ind-galbot"
+      "ind-galbot",
+      "f110",
+      "flagship-galbot-g1"
     ]
   },
   {
@@ -3791,6 +4074,9 @@
         "title": "Tian Yi 2.0",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "f41"
     ]
   },
   {
@@ -3819,7 +4105,8 @@
         "title": "RE/CO Robot - OWI Robotikits",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f114",
@@ -3852,6 +4139,9 @@
         "title": "Mentee Robotics Unveils MenteeBot",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "f59"
     ]
   },
   {
@@ -3882,7 +4172,8 @@
         "title": "Amazon acquires Fauna Robotics",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f118",
@@ -3937,7 +4228,8 @@
       }
     ],
     "relatedIds": [
-      "ind-sanctuary"
+      "ind-sanctuary",
+      "h14"
     ]
   },
   {
@@ -3966,6 +4258,11 @@
         "title": "Pudu PUDU D7 Semi-Humanoid",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f127",
+      "app-cleaning",
+      "app-hospitality"
     ]
   },
   {
@@ -3999,7 +4296,8 @@
         "title": "Shadow Dexterous Hand Series",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f122",
@@ -4034,7 +4332,11 @@
       }
     ],
     "relatedIds": [
-      "ind-1x"
+      "ind-1x",
+      "f21",
+      "f34",
+      "app-cleaning",
+      "app-home-humanoid"
     ]
   },
   {
@@ -4063,6 +4365,11 @@
         "title": "Leju Robotics official site",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f39",
+      "f56",
+      "f61"
     ]
   },
   {
@@ -4091,6 +4398,9 @@
         "title": "PNDbotics product listing",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "f12"
     ]
   },
   {
@@ -4119,7 +4429,8 @@
         "title": "Steve the Robot - sulu.be",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f127",
@@ -4152,6 +4463,11 @@
         "title": "Pudu Robotics Unveils PUDU D9",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "f120",
+      "app-cleaning",
+      "app-hospitality"
     ]
   },
   {
@@ -4189,6 +4505,7 @@
     "relatedIds": [
       "ind-xpeng-robotics",
       "sw-dreamerv3",
+      "flagship-xpeng-iron-nextgen",
       "sw-calvin"
     ]
   },
@@ -4223,6 +4540,9 @@
         "title": "Atom Max by Dobot",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "f80"
     ]
   },
   {
@@ -4258,7 +4578,8 @@
       }
     ],
     "relatedIds": [
-      "ind-agility"
+      "ind-agility",
+      "f1"
     ]
   },
   {
@@ -4287,6 +4608,9 @@
         "title": "KEENON XMAN-R1 Humanoid",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "app-hospitality"
     ]
   },
   {
@@ -4322,7 +4646,11 @@
       }
     ],
     "relatedIds": [
-      "ind-limx"
+      "ind-limx",
+      "f15",
+      "f2",
+      "f25",
+      "f73"
     ]
   },
   {
@@ -4356,7 +4684,8 @@
         "title": "LG CLOiD at CES 2026",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f134",
@@ -4389,7 +4718,8 @@
         "title": "Holiday Robotics Unveils 'Friday'",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f135",
@@ -4424,7 +4754,11 @@
       }
     ],
     "relatedIds": [
-      "ind-ubtech"
+      "ind-ubtech",
+      "f144",
+      "f65",
+      "f69",
+      "f82"
     ]
   },
   {
@@ -4458,7 +4792,8 @@
         "title": "About DUCO Robots",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f137",
@@ -4491,7 +4826,8 @@
         "title": "TOPSTAR Open Day 2025",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f138",
@@ -4519,6 +4855,9 @@
         "title": "PHYBOT C1",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "f52"
     ]
   },
   {
@@ -4549,7 +4888,10 @@
       }
     ],
     "relatedIds": [
-      "ind-figure"
+      "ind-figure",
+      "f104",
+      "f9",
+      "app-humanoid-manufacturing"
     ]
   },
   {
@@ -4585,7 +4927,8 @@
       }
     ],
     "relatedIds": [
-      "ind-unitree"
+      "ind-unitree",
+      "f84"
     ]
   },
   {
@@ -4614,7 +4957,8 @@
         "title": "PL-Universe ProWhite Robot 2.0",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f142",
@@ -4647,7 +4991,8 @@
         "title": "SwitchBot Onero H1 at CES 2026",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f143",
@@ -4675,7 +5020,8 @@
         "title": "Eclipse Cyclone DDS",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f144",
@@ -4710,7 +5056,11 @@
       }
     ],
     "relatedIds": [
-      "ind-ubtech"
+      "ind-ubtech",
+      "f135",
+      "f65",
+      "f69",
+      "f82"
     ]
   },
   {
@@ -4739,7 +5089,8 @@
         "title": "GigaAI Launches Maker H01",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "f146",
@@ -4772,7 +5123,8 @@
         "title": "AIDOL face-plants on stage",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "a8",
@@ -4800,7 +5152,8 @@
         "title": "Kinisi Robotics official site (KR1)",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h1",
@@ -4827,7 +5180,8 @@
         "title": "TetherIA / aero-hand-open GitHub",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h2",
@@ -4849,7 +5203,8 @@
         "title": "SCHUNK SVH 5-Finger Servo-Electric Gripping Hand",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h3",
@@ -4876,6 +5231,9 @@
         "title": "Tesollo 3-finger gripper",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "h39"
     ]
   },
   {
@@ -4932,6 +5290,10 @@
         "title": "INSPIRE ROBOTS Dexterous Hands",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "h20",
+      "h25"
     ]
   },
   {
@@ -4959,7 +5321,8 @@
         "title": "ZhaoWei releases new dexterous hand (Sina Finance)",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h7",
@@ -4981,6 +5344,9 @@
         "title": "PL-Universe Robotics launches dexterous hand",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f46"
     ]
   },
   {
@@ -5002,7 +5368,8 @@
         "title": "Gazebo - Wikipedia",
         "type": "wiki"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h9",
@@ -5024,7 +5391,8 @@
         "title": "PSYONIC Ability Hand",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h10",
@@ -5051,7 +5419,8 @@
         "title": "Kyber Labs Emerges",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h11",
@@ -5080,7 +5449,8 @@
       }
     ],
     "relatedIds": [
-      "ind-agibot"
+      "ind-agibot",
+      "h17"
     ]
   },
   {
@@ -5103,7 +5473,8 @@
         "title": "Allegro Hand official (Wonik Robotics)",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h13",
@@ -5125,7 +5496,8 @@
         "title": "COVVI Robotics product overview",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h14",
@@ -5154,7 +5526,8 @@
       }
     ],
     "relatedIds": [
-      "ind-sanctuary"
+      "ind-sanctuary",
+      "f118"
     ]
   },
   {
@@ -5177,7 +5550,8 @@
         "title": "VEICHI Robot Core Components",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h16",
@@ -5204,7 +5578,8 @@
         "title": "OYMotion ROH-A002 datasheet",
         "type": "datasheet"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h17",
@@ -5233,7 +5608,8 @@
       }
     ],
     "relatedIds": [
-      "ind-agibot"
+      "ind-agibot",
+      "h11"
     ]
   },
   {
@@ -5248,7 +5624,8 @@
     "orgInfo": {
       "description": "5指连杆防夹 / 科研教学手"
     },
-    "importance": "medium"
+    "importance": "medium",
+    "relatedIds": []
   },
   {
     "id": "h19",
@@ -5275,7 +5652,8 @@
         "title": "Alt-Bionics Surge configurations",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h20",
@@ -5297,6 +5675,10 @@
         "title": "INSPIRE ROBOTS Dexterous Hands",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "h25",
+      "h5"
     ]
   },
   {
@@ -5323,6 +5705,10 @@
         "title": "PaXini official products",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "h30",
+      "h41"
     ]
   },
   {
@@ -5355,7 +5741,8 @@
         "title": "WUJI Hand SDK GitHub",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h23",
@@ -5376,7 +5763,8 @@
         "title": "BrainCo Launches Revo2 Hand",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h24",
@@ -5403,6 +5791,9 @@
         "title": "Shadow Dexterous Hand Series",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "h29"
     ]
   },
   {
@@ -5425,6 +5816,10 @@
         "title": "INSPIRE RH56E2",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "h20",
+      "h5"
     ]
   },
   {
@@ -5447,7 +5842,8 @@
         "title": "Unitree Dex5-1",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h27",
@@ -5474,6 +5870,9 @@
         "title": "IH2 Azzurra datasheet",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "h42"
     ]
   },
   {
@@ -5500,7 +5899,8 @@
         "title": "WIRobotics ALLEX",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h29",
@@ -5530,7 +5930,8 @@
     ],
     "relatedIds": [
       "sw-agibot-world",
-      "sw-openai-dexterous"
+      "sw-openai-dexterous",
+      "h24"
     ]
   },
   {
@@ -5557,6 +5958,10 @@
         "title": "PaXini official",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "h21",
+      "h41"
     ]
   },
   {
@@ -5579,7 +5984,8 @@
         "title": "OceanTrix Robotic Hand R1",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h32",
@@ -5601,7 +6007,8 @@
         "title": "Agile Robots Agile Hand",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h33",
@@ -5623,6 +6030,13 @@
         "title": "ROBOTIS XM430-W350 e-Manual",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f79",
+      "j2",
+      "joint-dynamixel-ph42-020",
+      "joint-dynamixel-xh540-w270",
+      "joint-dynamixel-xm430-w350"
     ]
   },
   {
@@ -5649,7 +6063,8 @@
         "title": "Sharpa mass production",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h35",
@@ -5675,7 +6090,8 @@
         "title": "ORCA arXiv paper",
         "type": "paper"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h36",
@@ -5701,7 +6117,8 @@
         "title": "DexHand V2 URDF/ROS2",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h37",
@@ -5723,7 +6140,8 @@
         "title": "Gazebo - Wikipedia",
         "type": "wiki"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h38",
@@ -5745,7 +6163,8 @@
         "title": "Changingtek Robotics launches X2",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h39",
@@ -5772,6 +6191,9 @@
         "title": "TESOLLO DG-5F catalogue",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "h3"
     ]
   },
   {
@@ -5799,7 +6221,8 @@
         "title": "X-Hand 1 Product Manual",
         "type": "datasheet"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h41",
@@ -5825,6 +6248,10 @@
         "title": "PaXini official",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "h21",
+      "h30"
     ]
   },
   {
@@ -5847,6 +6274,9 @@
         "title": "Prensilia Mia Hand R&D",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "h27"
     ]
   },
   {
@@ -5874,7 +6304,8 @@
         "title": "Festo BionicSoftHand 2.0",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h44",
@@ -5895,7 +6326,8 @@
         "title": "Intel RealSense D435i Specifications",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h45",
@@ -5921,7 +6353,8 @@
         "title": "X Square Robot debut",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h46",
@@ -5948,7 +6381,8 @@
         "title": "Dexcel Apex Hand (KrASIA)",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h47",
@@ -5972,7 +6406,8 @@
       }
     ],
     "relatedIds": [
-      "ind-limx"
+      "ind-limx",
+      "f30"
     ]
   },
   {
@@ -6000,7 +6435,8 @@
         "title": "qb SoftHand2 Research user manual",
         "type": "datasheet"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h49",
@@ -6021,7 +6457,8 @@
         "title": "FLLEX 5-Finger Hand (IRIM Lab KoreaTech)",
         "type": "datasheet"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h50",
@@ -6048,7 +6485,8 @@
         "title": "Sarcomere Dynamics Resources",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h51",
@@ -6069,7 +6507,8 @@
         "title": "Dexterity official site",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "h52",
@@ -6101,7 +6540,8 @@
         "title": "mimic-one arXiv",
         "type": "paper"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "arm-ur3e",
@@ -6136,6 +6576,13 @@
         "title": "UR e-Series launch (2018)",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "a1",
+      "arm-ur16e",
+      "arm-ur20",
+      "arm-ur30",
+      "arm-ur5e"
     ]
   },
   {
@@ -6165,6 +6612,13 @@
         "title": "UR5e tech sheet",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "a1",
+      "arm-ur16e",
+      "arm-ur20",
+      "arm-ur30",
+      "arm-ur3e"
     ]
   },
   {
@@ -6194,6 +6648,13 @@
         "title": "UR16e launch announcement (Sep 2019)",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "a1",
+      "arm-ur20",
+      "arm-ur30",
+      "arm-ur3e",
+      "arm-ur5e"
     ]
   },
   {
@@ -6224,6 +6685,12 @@
         "title": "UR20 official product page",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "a1",
+      "arm-ur16e",
+      "arm-ur3e",
+      "arm-ur5e"
     ]
   },
   {
@@ -6253,6 +6720,12 @@
         "title": "UR30 official product page",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "a1",
+      "arm-ur16e",
+      "arm-ur3e",
+      "arm-ur5e"
     ]
   },
   {
@@ -6288,6 +6761,10 @@
         "title": "FR3 datasheet v1.1 Aug 2022",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "a2",
+      "app-education-stem"
     ]
   },
   {
@@ -6318,6 +6795,9 @@
         "title": "Kinova Gen3 datasheet R01",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "arm-kinova-gen3-lite"
     ]
   },
   {
@@ -6348,6 +6828,9 @@
         "title": "Gen3 Lite distributor spec",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "arm-kinova-gen3"
     ]
   },
   {
@@ -6383,6 +6866,9 @@
         "title": "LBR iiwa specification",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "arm-kuka-iiwa-14-r820"
     ]
   },
   {
@@ -6412,6 +6898,9 @@
         "title": "KUKA LBR iiwa",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "arm-kuka-iiwa-7-r800"
     ]
   },
   {
@@ -6441,6 +6930,10 @@
         "title": "JAKA Zu 5 official",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "a4",
+      "arm-jaka-minicobo"
     ]
   },
   {
@@ -6471,6 +6964,10 @@
         "title": "JAKA MiniCobo",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "a4",
+      "arm-jaka-zu5"
     ]
   },
   {
@@ -6500,6 +6997,9 @@
         "title": "AUBO i-series official",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "arm-aubo-i10"
     ]
   },
   {
@@ -6529,6 +7029,9 @@
         "title": "AUBO i-series official",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "arm-aubo-i5"
     ]
   },
   {
@@ -6559,6 +7062,9 @@
         "title": "RealMan RM65-B distributor",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "arm-realman-rm75"
     ]
   },
   {
@@ -6589,6 +7095,9 @@
         "title": "RealMan RM75-B distributor",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "arm-realman-rm65"
     ]
   },
   {
@@ -6624,7 +7133,8 @@
         "title": "Diana 7 datasheet",
         "type": "datasheet"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "arm-doosan-m0609",
@@ -6653,6 +7163,10 @@
         "title": "Doosan M0609 official",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "arm-doosan-h2017",
+      "arm-doosan-m1013"
     ]
   },
   {
@@ -6682,6 +7196,10 @@
         "title": "Doosan M1013 official",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "arm-doosan-h2017",
+      "arm-doosan-m0609"
     ]
   },
   {
@@ -6712,6 +7230,10 @@
         "title": "Doosan H2017 official",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "arm-doosan-m0609",
+      "arm-doosan-m1013"
     ]
   },
   {
@@ -6741,6 +7263,10 @@
         "title": "OMRON/Techman TM Series specifications",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f7",
+      "arm-techman-tm12"
     ]
   },
   {
@@ -6771,6 +7297,10 @@
         "title": "Techman TM12/TM14 IMTS 2018",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f7",
+      "arm-techman-tm5-900"
     ]
   },
   {
@@ -6800,6 +7330,13 @@
         "title": "Elite Robots EC66/CS66 family",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "arm-elite-ec66",
+      "app-cleaning",
+      "app-hospitality",
+      "app-last-mile-delivery",
+      "app-warehouse"
     ]
   },
   {
@@ -6828,6 +7365,13 @@
         "title": "Elite Robots EC66 official",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "arm-elite-cs66",
+      "app-cleaning",
+      "app-hospitality",
+      "app-last-mile-delivery",
+      "app-warehouse"
     ]
   },
   {
@@ -6857,6 +7401,9 @@
         "title": "ABB GoFa launch (Feb 2021)",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "arm-abb-yumi-irb14000"
     ]
   },
   {
@@ -6886,6 +7433,9 @@
         "title": "ABB YuMi IRB 14000 spec",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "arm-abb-gofa-5"
     ]
   },
   {
@@ -6916,6 +7466,12 @@
         "title": "Robstride 01 product page",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "joint-robstride-02",
+      "joint-robstride-03",
+      "joint-robstride-04",
+      "joint-robstride-06"
     ]
   },
   {
@@ -6947,6 +7503,12 @@
         "title": "Robstride 02 product page",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "joint-robstride-01",
+      "joint-robstride-03",
+      "joint-robstride-04",
+      "joint-robstride-06"
     ]
   },
   {
@@ -6977,6 +7539,12 @@
         "title": "Robstride 03 product page",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "joint-robstride-01",
+      "joint-robstride-02",
+      "joint-robstride-04",
+      "joint-robstride-06"
     ]
   },
   {
@@ -7008,6 +7576,12 @@
         "title": "Robstride 04 official",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "joint-robstride-01",
+      "joint-robstride-02",
+      "joint-robstride-03",
+      "joint-robstride-06"
     ]
   },
   {
@@ -7038,6 +7612,12 @@
         "title": "Robstride 06 product page",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "joint-robstride-01",
+      "joint-robstride-02",
+      "joint-robstride-03",
+      "joint-robstride-04"
     ]
   },
   {
@@ -7067,6 +7647,10 @@
         "title": "CubeMars AK80-9 V3.0",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "joint-cubemars-ak60-6",
+      "joint-cubemars-ak70-10"
     ]
   },
   {
@@ -7096,6 +7680,10 @@
         "title": "CubeMars AK70-10",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "joint-cubemars-ak60-6",
+      "joint-cubemars-ak80-9"
     ]
   },
   {
@@ -7125,6 +7713,10 @@
         "title": "CubeMars AK60-6 V3.0",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "joint-cubemars-ak70-10",
+      "joint-cubemars-ak80-9"
     ]
   },
   {
@@ -7155,6 +7747,10 @@
         "title": "SteadyWin GIM6010-8 official",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "joint-steadywin-gim8108-8",
+      "joint-steadywin-gim8115-6"
     ]
   },
   {
@@ -7185,6 +7781,10 @@
         "title": "GIM8108-8 distributor spec",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "joint-steadywin-gim6010-8",
+      "joint-steadywin-gim8115-6"
     ]
   },
   {
@@ -7215,6 +7815,10 @@
         "title": "GIM8115-6 distributor spec",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "joint-steadywin-gim6010-8",
+      "joint-steadywin-gim8108-8"
     ]
   },
   {
@@ -7245,7 +7849,8 @@
         "title": "MyActuator RMD-X planetary series",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "joint-dynamixel-xm430-w350",
@@ -7274,6 +7879,13 @@
         "title": "ROBOTIS XM430-W350 e-Manual",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f79",
+      "h33",
+      "j2",
+      "joint-dynamixel-ph42-020",
+      "joint-dynamixel-xh540-w270"
     ]
   },
   {
@@ -7303,6 +7915,13 @@
         "title": "ROBOTIS XH540-W270",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f79",
+      "h33",
+      "j2",
+      "joint-dynamixel-ph42-020",
+      "joint-dynamixel-xm430-w350"
     ]
   },
   {
@@ -7333,6 +7952,13 @@
         "title": "ROBOTIS PH42-020-S300-R e-Manual",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "f79",
+      "h33",
+      "j2",
+      "joint-dynamixel-xh540-w270",
+      "joint-dynamixel-xm430-w350"
     ]
   },
   {
@@ -7362,6 +7988,9 @@
         "title": "HEBI X-Series datasheet",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "joint-hebi-x8-16"
     ]
   },
   {
@@ -7392,6 +8021,9 @@
         "title": "HEBI X-Series datasheet",
         "type": "datasheet"
       }
+    ],
+    "relatedIds": [
+      "joint-hebi-x5-9"
     ]
   },
   {
@@ -7424,7 +8056,10 @@
       }
     ],
     "relatedIds": [
-      "ind-unitree"
+      "ind-unitree",
+      "f24",
+      "joint-unitree-a1",
+      "pwr-unitree-h1-battery"
     ]
   },
   {
@@ -7457,7 +8092,10 @@
       }
     ],
     "relatedIds": [
-      "ind-unitree"
+      "ind-unitree",
+      "f24",
+      "joint-unitree-go-m8010-6",
+      "pwr-unitree-h1-battery"
     ]
   },
   {
@@ -7493,6 +8131,11 @@
         "title": "Intel RealSense D435i",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "s1",
+      "sensor-realsense-d457",
+      "sensor-realsense-l515"
     ]
   },
   {
@@ -7523,6 +8166,11 @@
         "title": "Intel RealSense D457",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "s1",
+      "sensor-realsense-d435i",
+      "sensor-realsense-l515"
     ]
   },
   {
@@ -7558,6 +8206,11 @@
         "title": "RealSense LiDAR EOL",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "s1",
+      "sensor-realsense-d435i",
+      "sensor-realsense-d457"
     ]
   },
   {
@@ -7587,6 +8240,11 @@
         "title": "Orbbec Femto Bolt",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "sensor-orbbec-femto-mega",
+      "sensor-orbbec-gemini-335",
+      "sensor-orbbec-gemini-335le"
     ]
   },
   {
@@ -7617,6 +8275,11 @@
         "title": "Orbbec Femto Mega",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "sensor-orbbec-femto-bolt",
+      "sensor-orbbec-gemini-335",
+      "sensor-orbbec-gemini-335le"
     ]
   },
   {
@@ -7646,6 +8309,11 @@
         "title": "Orbbec Gemini 335",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "sensor-orbbec-femto-bolt",
+      "sensor-orbbec-femto-mega",
+      "sensor-orbbec-gemini-335le"
     ]
   },
   {
@@ -7676,6 +8344,11 @@
         "title": "Orbbec Gemini 335Le",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "sensor-orbbec-femto-bolt",
+      "sensor-orbbec-femto-mega",
+      "sensor-orbbec-gemini-335"
     ]
   },
   {
@@ -7706,7 +8379,8 @@
         "title": "Azure Kinect DK hardware specifications",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sensor-mech-mind-pro-m",
@@ -7736,6 +8410,9 @@
         "title": "Mech-Eye PRO M Specifications",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "sensor-mech-mind-lsr-s"
     ]
   },
   {
@@ -7765,6 +8442,9 @@
         "title": "Mech-Eye LSR S Specifications",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "sensor-mech-mind-pro-m"
     ]
   },
   {
@@ -7794,7 +8474,8 @@
         "title": "Zivid 2 M70",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sensor-photoneo-phoxi-m",
@@ -7823,6 +8504,9 @@
         "title": "Photoneo PhoXi 3D Scanner",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "sensor-photoneo-motioncam-3d"
     ]
   },
   {
@@ -7852,6 +8536,9 @@
         "title": "Photoneo MotionCam-3D",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "sensor-photoneo-phoxi-m"
     ]
   },
   {
@@ -7882,6 +8569,9 @@
         "title": "Stereolabs ZED 2i",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "sensor-stereolabs-zed-x"
     ]
   },
   {
@@ -7913,6 +8603,9 @@
         "title": "Stereolabs ZED X",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "sensor-stereolabs-zed2i"
     ]
   },
   {
@@ -7942,6 +8635,9 @@
         "title": "ATI Mini40 F/T Sensor",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "s2"
     ]
   },
   {
@@ -7972,7 +8668,8 @@
         "title": "OnRobot HEX-E/H QC Datasheet",
         "type": "datasheet"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sensor-robotous-rft40-sa01",
@@ -8001,7 +8698,8 @@
         "title": "Robotous 6-Axis F/T",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sensor-gelsight-mini",
@@ -8030,7 +8728,8 @@
         "title": "GelSight Mini launch",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sensor-velodyne-vlp16",
@@ -8059,6 +8758,9 @@
         "title": "VLP-16 (now Ouster)",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "sensor-velodyne-alpha-prime"
     ]
   },
   {
@@ -8089,6 +8791,9 @@
         "title": "Velodyne Alpha Prime",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "sensor-velodyne-vlp16"
     ]
   },
   {
@@ -8118,7 +8823,8 @@
         "title": "Ouster OS1 LiDAR",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sensor-hesai-at128",
@@ -8147,6 +8853,9 @@
         "title": "Hesai AT128",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "sensor-hesai-xt16"
     ]
   },
   {
@@ -8176,6 +8885,9 @@
         "title": "Hesai XT16/32/32M",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "sensor-hesai-at128"
     ]
   },
   {
@@ -8206,6 +8918,10 @@
         "title": "Livox Mid-360",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "sensor-livox-hap",
+      "sensor-livox-mid40"
     ]
   },
   {
@@ -8236,6 +8952,10 @@
         "title": "Livox HAP",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "sensor-livox-mid360",
+      "sensor-livox-mid40"
     ]
   },
   {
@@ -8265,6 +8985,10 @@
         "title": "Livox Mid-40",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "sensor-livox-hap",
+      "sensor-livox-mid360"
     ]
   },
   {
@@ -8294,7 +9018,8 @@
         "title": "VectorNav VN-100",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sensor-bosch-bmi270",
@@ -8324,7 +9049,8 @@
         "title": "Bosch BMI270",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "sensor-xsens-mti300",
@@ -8354,7 +9080,8 @@
         "title": "Xsens MTi-300 AHRS",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "comp-harmonic-csf-2up",
@@ -8383,6 +9110,9 @@
         "title": "Harmonic Drive CSF-2UP",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "c1"
     ]
   },
   {
@@ -8411,6 +9141,9 @@
         "title": "Nabtesco RV-N Series",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "comp-nabtesco-rv-c"
     ]
   },
   {
@@ -8439,6 +9172,9 @@
         "title": "Nabtesco RV Series",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "comp-nabtesco-rv-n"
     ]
   },
   {
@@ -8467,7 +9203,8 @@
         "title": "Spinea TwinSpin T-Series",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "comp-leader-drive-lhs",
@@ -8495,7 +9232,8 @@
         "title": "Leader Harmonic Drive",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "comp-laifual-lss",
@@ -8523,7 +9261,8 @@
         "title": "Laifual Harmonic Drive catalog",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "comp-zd-rv-reducer",
@@ -8552,7 +9291,8 @@
         "title": "ZD RV Cycloidal Reducer",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "comp-maxon-ec-frameless-90",
@@ -8580,7 +9320,8 @@
         "title": "Maxon EC frameless 90",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "comp-tecnotion-qtl",
@@ -8608,7 +9349,8 @@
         "title": "Tecnotion QTL Series",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "comp-faulhaber-bx4",
@@ -8636,7 +9378,8 @@
         "title": "Faulhaber BX4 Brushless DC Motors",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "comp-renishaw-resolute",
@@ -8665,7 +9408,8 @@
         "title": "Renishaw RESOLUTE Series",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "comp-heidenhain-ecn1325",
@@ -8694,7 +9438,8 @@
         "title": "Heidenhain ECN 1325",
         "type": "datasheet"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "comp-ams-as5048a",
@@ -8723,7 +9468,8 @@
         "title": "ams AS5048A",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "comp-thk-shs",
@@ -8751,7 +9497,8 @@
         "title": "THK SHS Linear Motion Guide",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "pwr-spot-battery",
@@ -8789,7 +9536,8 @@
       }
     ],
     "relatedIds": [
-      "ind-boston-dynamics"
+      "ind-boston-dynamics",
+      "f29"
     ]
   },
   {
@@ -8820,7 +9568,10 @@
       }
     ],
     "relatedIds": [
-      "ind-unitree"
+      "ind-unitree",
+      "f24",
+      "joint-unitree-a1",
+      "joint-unitree-go-m8010-6"
     ]
   },
   {
@@ -8850,7 +9601,8 @@
         "title": "NL2020ED22 Data Sheet",
         "type": "datasheet"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "pwr-bren-tronics-bb2590",
@@ -8879,7 +9631,8 @@
         "title": "BT-70791CG BB-2590/U",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "teleop-aloha",
@@ -8923,7 +9676,8 @@
     ],
     "relatedIds": [
       "lab-bair-autolab",
-      "lab-sail"
+      "lab-sail",
+      "teleop-mobile-aloha"
     ]
   },
   {
@@ -8966,7 +9720,8 @@
       }
     ],
     "relatedIds": [
-      "lab-sail"
+      "lab-sail",
+      "teleop-aloha"
     ]
   },
   {
@@ -9051,7 +9806,8 @@
         "title": "UMI arXiv",
         "type": "paper"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "teleop-open-television",
@@ -9086,7 +9842,8 @@
         "title": "Open-TeleVision arXiv",
         "type": "paper"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "teleop-senseglove-nova2",
@@ -9115,7 +9872,8 @@
         "title": "SenseGlove Nova 2",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "teleop-manus-quantum",
@@ -9144,6 +9902,9 @@
         "title": "Manus Quantum Metagloves",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "teleop-manus-prime-x-haptic"
     ]
   },
   {
@@ -9172,6 +9933,9 @@
         "title": "Manus Prime X Series launch",
         "type": "wiki"
       }
+    ],
+    "relatedIds": [
+      "teleop-manus-quantum"
     ]
   },
   {
@@ -9201,7 +9965,8 @@
         "title": "Teslasuit official site",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "teleop-apple-vision-pro",
@@ -9231,6 +9996,9 @@
         "title": "Apple Vision Pro Technical Specifications",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "cp-apple-mac-mini-m4"
     ]
   },
   {
@@ -9262,7 +10030,8 @@
         "title": "Meta Quest 3 - Wikipedia",
         "type": "wiki"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "teleop-force-dimension-omega7",
@@ -9291,7 +10060,8 @@
         "title": "Force Dimension omega.7",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "teleop-3dsystems-touch",
@@ -9320,7 +10090,8 @@
         "title": "3D Systems Touch",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "teleop-cyberglove-iii",
@@ -9348,7 +10119,8 @@
         "title": "CyberGlove III",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "teleop-5dt-data-glove-ultra",
@@ -9376,7 +10148,8 @@
         "title": "5DT Data Glove Ultra",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "cp-jetson-orin-nx",
@@ -9407,7 +10180,12 @@
       }
     ],
     "relatedIds": [
-      "ind1"
+      "ind1",
+      "cp-jetson-agx-thor",
+      "cp-jetson-agx-xavier",
+      "cp-jetson-nano",
+      "cp-jetson-orin-nano",
+      "cp1"
     ]
   },
   {
@@ -9439,7 +10217,12 @@
       }
     ],
     "relatedIds": [
-      "ind1"
+      "ind1",
+      "cp-jetson-agx-thor",
+      "cp-jetson-agx-xavier",
+      "cp-jetson-nano",
+      "cp-jetson-orin-nx",
+      "cp1"
     ]
   },
   {
@@ -9479,7 +10262,15 @@
       }
     ],
     "relatedIds": [
-      "ind1"
+      "ind1",
+      "f24",
+      "f29",
+      "f34",
+      "cp-jetson-agx-xavier",
+      "cp-jetson-nano",
+      "cp-jetson-orin-nano",
+      "cp-jetson-orin-nx",
+      "cp1"
     ]
   },
   {
@@ -9514,7 +10305,11 @@
       }
     ],
     "relatedIds": [
-      "ind1"
+      "ind1",
+      "cp-jetson-agx-thor",
+      "cp-jetson-orin-nano",
+      "cp-jetson-orin-nx",
+      "cp1"
     ]
   },
   {
@@ -9549,7 +10344,11 @@
       }
     ],
     "relatedIds": [
-      "ind1"
+      "ind1",
+      "cp-jetson-agx-thor",
+      "cp-jetson-orin-nano",
+      "cp-jetson-orin-nx",
+      "cp1"
     ]
   },
   {
@@ -9579,6 +10378,9 @@
         "title": "Hailo-8 AI Accelerator",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "cp-hailo-10h"
     ]
   },
   {
@@ -9608,6 +10410,9 @@
         "title": "Hailo-10H",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "cp-hailo-8"
     ]
   },
   {
@@ -9639,7 +10444,8 @@
         "title": "Radxa ROCK 5B",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "cp-coral-dev-board",
@@ -9702,7 +10508,8 @@
         "title": "Qualcomm Robotics RB5 Product Brief",
         "type": "datasheet"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "cp-intel-nuc-13-pro",
@@ -9732,7 +10539,8 @@
         "title": "Intel NUC 13 Pro Spec",
         "type": "datasheet"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "cp-apple-mac-mini-m4",
@@ -9764,57 +10572,9 @@
         "title": "Mac mini Technical Specifications",
         "type": "official"
       }
-    ]
-  },
-  {
-    "id": "flagship-apptronik-apollo",
-    "name": "Apollo",
-    "company": "Apptronik",
-    "category": "整机平台",
-    "imageUrl": "",
-    "year": "2023",
-    "isNew": false,
-    "specs": {
-      "type": "Bipedal Humanoid",
-      "height": "1.73 m",
-      "weight": "~72.6 kg",
-      "payload": "25 kg",
-      "runtime": "4 h per pack; hot-swappable",
-      "modes": "Bipedal / wheeled / fixed-base modular",
-      "applications": "Logistics, manufacturing, machine tending, palletization",
-      "aiPartner": "Google DeepMind (Gemini Robotics)",
-      "status": "Commercial pilots (Mercedes, GXO, Jabil)"
-    },
-    "tags": [
-      "Bipedal",
-      "Humanoid",
-      "USA",
-      "Industrial"
-    ],
-    "orgInfo": {
-      "description": "Apptronik unveiled Apollo in August 2023; team has roots in NASA's Valkyrie. Raised $520M Series B (Feb 2026).",
-      "location": "Austin, Texas, USA",
-      "website": "https://apptronik.com/apollo"
-    },
-    "sources": [
-      {
-        "url": "https://apptronik.com/apollo",
-        "title": "Apollo — Apptronik",
-        "type": "official"
-      },
-      {
-        "url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/",
-        "title": "Apptronik unveils Apollo",
-        "type": "news"
-      },
-      {
-        "url": "https://www.automate.org/robotics/industry-insights/apptroniks-next-humanoid-will-debut-this-year",
-        "title": "Apptronik new Apollo in 2025",
-        "type": "news"
-      }
     ],
     "relatedIds": [
-      "ind-apptronik"
+      "teleop-apple-vision-pro"
     ]
   },
   {
@@ -9861,7 +10621,8 @@
       }
     ],
     "relatedIds": [
-      "ind-robot-era"
+      "ind-robot-era",
+      "f105"
     ]
   },
   {
@@ -9907,7 +10668,8 @@
       }
     ],
     "relatedIds": [
-      "ind-xpeng-robotics"
+      "ind-xpeng-robotics",
+      "f128"
     ]
   },
   {
@@ -9954,7 +10716,9 @@
       }
     ],
     "relatedIds": [
-      "ind-galbot"
+      "ind-galbot",
+      "f110",
+      "f111"
     ]
   }
 ]

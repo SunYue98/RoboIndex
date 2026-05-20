@@ -171,6 +171,9 @@
         "title": "micro-ROS (Vulcanexus)",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "eco-fast-dds"
     ]
   },
   {
@@ -198,7 +201,8 @@
         "title": "ros-controls/ros2_control",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "eco-moveit2",
@@ -225,7 +229,8 @@
         "title": "MoveIt",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "eco-nav2",
@@ -253,7 +258,8 @@
         "title": "Nav2 - Open Navigation",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "eco-behaviortree-cpp",
@@ -280,7 +286,8 @@
         "title": "BehaviorTree/BehaviorTree.CPP",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "eco-rviz2",
@@ -307,6 +314,12 @@
         "title": "ros2/rviz",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "eco-colcon",
+      "eco-gazebo-sim",
+      "eco-ros-gz",
+      "eco-urdf"
     ]
   },
   {
@@ -334,7 +347,8 @@
         "title": "facontidavide/PlotJuggler",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "eco-open-rmf",
@@ -361,7 +375,8 @@
         "title": "Open-RMF",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "eco-fast-dds",
@@ -389,6 +404,9 @@
         "title": "eProsima Fast DDS",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "eco-micro-ros"
     ]
   },
   {
@@ -416,7 +434,8 @@
         "title": "Eclipse Cyclone DDS",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "eco-urdf",
@@ -448,6 +467,12 @@
         "title": "URDF - ROS 2 Documentation",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "eco-colcon",
+      "eco-gazebo-sim",
+      "eco-ros-gz",
+      "eco-rviz2"
     ]
   },
   {
@@ -475,6 +500,12 @@
         "title": "Gazebo simulator - Wikipedia",
         "type": "wiki"
       }
+    ],
+    "relatedIds": [
+      "eco-colcon",
+      "eco-ros-gz",
+      "eco-rviz2",
+      "eco-urdf"
     ]
   },
   {
@@ -502,6 +533,12 @@
         "title": "gazebosim/ros_gz",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "eco-colcon",
+      "eco-gazebo-sim",
+      "eco-rviz2",
+      "eco-urdf"
     ]
   },
   {
@@ -529,7 +566,8 @@
         "title": "cruise-automation/webviz",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "eco-lichtblick",
@@ -556,7 +594,8 @@
         "title": "Lichtblick-Suite/lichtblick",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "eco-isaac-ros",
@@ -589,7 +628,8 @@
         "title": "NVIDIA Isaac ROS Docs",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "eco-colcon",
@@ -616,6 +656,12 @@
         "title": "colcon/colcon-core",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "eco-gazebo-sim",
+      "eco-ros-gz",
+      "eco-rviz2",
+      "eco-urdf"
     ]
   },
   {
@@ -656,6 +702,14 @@
         "title": "Locus Array launch",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "ind-agility",
+      "ind-booster",
+      "ind-deepmind-robotics",
+      "ind-hello-robot",
+      "arm-elite-cs66",
+      "arm-elite-ec66"
     ]
   },
   {
@@ -699,6 +753,14 @@
         "title": "Apptronik–Mercedes commercial agreement",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "ind-apptronik",
+      "ind-figure",
+      "f104",
+      "f139",
+      "f25",
+      "f81"
     ]
   },
   {
@@ -737,6 +799,15 @@
         "title": "Serve – Uber Eats partnership",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "ind-1x",
+      "ind-agility",
+      "ind-booster",
+      "ind-deepmind-robotics",
+      "f10",
+      "arm-elite-cs66",
+      "arm-elite-ec66"
     ]
   },
   {
@@ -772,6 +843,9 @@
         "title": "10 surgical robotics companies to know",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "f25"
     ]
   },
   {
@@ -812,6 +886,12 @@
         "title": "Petrobras × ANYbotics",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "ind-anybotics",
+      "ind-boston-dynamics",
+      "ind-limx",
+      "f25"
     ]
   },
   {
@@ -845,6 +925,18 @@
         "title": "Carbon Robotics LaserWeeder",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "ind-agility",
+      "ind-booster",
+      "ind-deepmind-robotics",
+      "ind-hello-robot",
+      "ind-pal-robotics",
+      "ind-pickle",
+      "ind-robot-era",
+      "ind-unitree",
+      "ind-xpeng-robotics",
+      "ind1"
     ]
   },
   {
@@ -884,6 +976,17 @@
         "title": "Pudu Hospitality Solutions",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "ind-agility",
+      "ind-booster",
+      "ind-deepmind-robotics",
+      "ind-hello-robot",
+      "f120",
+      "f127",
+      "f131",
+      "arm-elite-cs66",
+      "arm-elite-ec66"
     ]
   },
   {
@@ -922,6 +1025,18 @@
         "title": "NYSOFA ElliQ rollout",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "ind-agility",
+      "ind-booster",
+      "ind-deepmind-robotics",
+      "ind-hello-robot",
+      "ind-pal-robotics",
+      "ind-pickle",
+      "ind-robot-era",
+      "ind-unitree",
+      "ind-xpeng-robotics",
+      "ind1"
     ]
   },
   {
@@ -955,6 +1070,18 @@
         "title": "Built Robotics - Wikipedia",
         "type": "wiki"
       }
+    ],
+    "relatedIds": [
+      "ind-agility",
+      "ind-booster",
+      "ind-deepmind-robotics",
+      "ind-hello-robot",
+      "ind-pal-robotics",
+      "ind-pickle",
+      "ind-robot-era",
+      "ind-unitree",
+      "ind-xpeng-robotics",
+      "ind1"
     ]
   },
   {
@@ -988,6 +1115,17 @@
         "title": "Avidbots",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "ind-hello-robot",
+      "ind-pickle",
+      "ind-robot-era",
+      "f120",
+      "f122",
+      "f127",
+      "f34",
+      "arm-elite-cs66",
+      "arm-elite-ec66"
     ]
   },
   {
@@ -1020,6 +1158,12 @@
         "title": "1X NEO Beta unveil",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "ind-1x",
+      "f122",
+      "f34",
+      "f68"
     ]
   },
   {
@@ -1058,6 +1202,9 @@
         "title": "AgileX COBOT Magic",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "ind-deepmind-robotics"
     ]
   },
   {
@@ -1091,7 +1238,8 @@
         "title": "Harmons deploys Tally",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "app-education-stem",
@@ -1124,6 +1272,13 @@
         "title": "Bitcraze Education",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "ind-agility",
+      "ind-booster",
+      "ind-deepmind-robotics",
+      "ind-hello-robot",
+      "arm-fr3"
     ]
   }
 ]

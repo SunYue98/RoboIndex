@@ -104,7 +104,6 @@
       "sw-cosmos-reason",
       "sw-groot-n1",
       "sw-groot-n1-5",
-      "sw-vima",
       "sw3",
       "sw-eureka",
       "sw-robocasa",
@@ -114,7 +113,8 @@
       "sw5",
       "cp-jetson-agx-thor",
       "cp-jetson-agx-xavier",
-      "cp-jetson-nano"
+      "cp-jetson-nano",
+      "app-agriculture"
     ]
   },
   {
@@ -249,7 +249,8 @@
       "sw-helix",
       "f104",
       "f139",
-      "f9"
+      "f9",
+      "app-humanoid-manufacturing"
     ]
   },
   {
@@ -291,7 +292,9 @@
       "sw-1x-world-model",
       "f122",
       "f21",
-      "f34"
+      "f34",
+      "app-home-humanoid",
+      "app-last-mile-delivery"
     ]
   },
   {
@@ -377,7 +380,8 @@
     ],
     "relatedIds": [
       "f29",
-      "pwr-spot-battery"
+      "pwr-spot-battery",
+      "app-inspection"
     ]
   },
   {
@@ -420,7 +424,7 @@
     ],
     "relatedIds": [
       "f81",
-      "flagship-apptronik-apollo"
+      "app-humanoid-manufacturing"
     ]
   },
   {
@@ -462,7 +466,14 @@
       "vc-a16z",
       "vc1",
       "f1",
-      "f130"
+      "f130",
+      "app-agriculture",
+      "app-construction",
+      "app-education-stem",
+      "app-healthcare-companion",
+      "app-hospitality",
+      "app-last-mile-delivery",
+      "app-warehouse"
     ]
   },
   {
@@ -511,7 +522,14 @@
       "f84",
       "joint-unitree-a1",
       "joint-unitree-go-m8010-6",
-      "pwr-unitree-h1-battery"
+      "pwr-unitree-h1-battery",
+      "app-agriculture",
+      "app-construction",
+      "app-education-stem",
+      "app-healthcare-companion",
+      "app-hospitality",
+      "app-last-mile-delivery",
+      "app-warehouse"
     ]
   },
   {
@@ -550,7 +568,14 @@
     ],
     "relatedIds": [
       "f128",
-      "flagship-xpeng-iron-nextgen"
+      "flagship-xpeng-iron-nextgen",
+      "app-agriculture",
+      "app-construction",
+      "app-education-stem",
+      "app-healthcare-companion",
+      "app-hospitality",
+      "app-last-mile-delivery",
+      "app-warehouse"
     ]
   },
   {
@@ -734,7 +759,15 @@
     ],
     "relatedIds": [
       "f105",
-      "flagship-robotera-l7"
+      "flagship-robotera-l7",
+      "app-agriculture",
+      "app-cleaning",
+      "app-construction",
+      "app-education-stem",
+      "app-healthcare-companion",
+      "app-hospitality",
+      "app-last-mile-delivery",
+      "app-warehouse"
     ]
   },
   {
@@ -826,7 +859,14 @@
     ],
     "relatedIds": [
       "vc-source-code",
-      "f38"
+      "f38",
+      "app-agriculture",
+      "app-construction",
+      "app-education-stem",
+      "app-healthcare-companion",
+      "app-hospitality",
+      "app-last-mile-delivery",
+      "app-warehouse"
     ]
   },
   {
@@ -871,7 +911,8 @@
       "f2",
       "f25",
       "f73",
-      "h47"
+      "h47",
+      "app-inspection"
     ]
   },
   {
@@ -909,7 +950,8 @@
         "title": "Engineered Arts - Wikipedia",
         "type": "wiki"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "ind-pal-robotics",
@@ -955,7 +997,14 @@
     ],
     "relatedIds": [
       "f43",
-      "sw-ros2-control-framework"
+      "sw-ros2-control-framework",
+      "app-agriculture",
+      "app-construction",
+      "app-education-stem",
+      "app-healthcare-companion",
+      "app-hospitality",
+      "app-last-mile-delivery",
+      "app-warehouse"
     ]
   },
   {
@@ -1002,7 +1051,8 @@
     "relatedIds": [
       "sw-droid",
       "sw-diffusion-policy",
-      "sw-drake"
+      "sw-drake",
+      "app-education-stem"
     ]
   },
   {
@@ -1045,7 +1095,8 @@
       }
     ],
     "relatedIds": [
-      "vc-bessemer"
+      "vc-bessemer",
+      "app-inspection"
     ]
   },
   {
@@ -1138,17 +1189,15 @@
       "sw-dreamerv3",
       "sw-genie-2",
       "sw-genie-3",
-      "sw-octo",
-      "sw-palm-e",
-      "sw-robocat",
-      "sw-rt2",
-      "sw-sara-rt",
-      "sw2",
       "sw-bc-z",
       "sw-language-table",
       "sw-robovqa",
       "sw7",
-      "sw-mjpc"
+      "sw-mjpc",
+      "app-agriculture",
+      "app-bimanual-housework",
+      "app-construction",
+      "app-education-stem"
     ]
   },
   {
@@ -1227,7 +1276,8 @@
         "title": "Dexterity picks up $95M",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "ind-pickle",
@@ -1267,6 +1317,16 @@
         "title": "Cambridge startup Pickle Robot seeks to automate unloading trucks",
         "type": "news"
       }
+    ],
+    "relatedIds": [
+      "app-agriculture",
+      "app-cleaning",
+      "app-construction",
+      "app-education-stem",
+      "app-healthcare-companion",
+      "app-hospitality",
+      "app-last-mile-delivery",
+      "app-warehouse"
     ]
   },
   {
@@ -1307,6 +1367,16 @@
         "title": "Hello Robot official",
         "type": "official"
       }
+    ],
+    "relatedIds": [
+      "app-agriculture",
+      "app-cleaning",
+      "app-construction",
+      "app-education-stem",
+      "app-healthcare-companion",
+      "app-hospitality",
+      "app-last-mile-delivery",
+      "app-warehouse"
     ]
   },
   {
@@ -1475,7 +1545,8 @@
         "title": "Founders Fund - Wikipedia",
         "type": "wiki"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "vc-bessemer",
@@ -1551,7 +1622,8 @@
         "title": "GV Portfolio",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "vc-innovation-endeavors",
@@ -1592,7 +1664,8 @@
         "title": "Innovation Endeavors closes $630M for Fund V",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "vc-tiger-global",
@@ -1633,7 +1706,8 @@
         "title": "Tiger's bullish robotic investments",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "vc-ggv",
@@ -1715,7 +1789,8 @@
         "title": "Sinovation Ventures - Wikipedia",
         "type": "wiki"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "vc-5y",
@@ -1754,7 +1829,8 @@
         "title": "5Y Capital - Wikipedia",
         "type": "wiki"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "vc-hillhouse",
@@ -1795,7 +1871,8 @@
         "title": "TARS raised $455 million Pre-A round",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "vc-hongshan",
@@ -1879,7 +1956,8 @@
         "title": "ROBOTERA Raises Over USD 200 Million",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "vc-source-code",
@@ -2291,7 +2369,8 @@
         "title": "Robotics – MPI-IS",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "lab-utokyo-jsk",
@@ -2334,7 +2413,8 @@
         "title": "Kojiro Humanoid Robot Mimics Your Musculoskeletal System",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "lab-tsinghua-tea",
@@ -2429,7 +2509,8 @@
         "title": "CFCS - Hao Dong",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "lab-shanghai-ailab",
@@ -2654,7 +2735,8 @@
         "title": "Researchers at IIT have demonstrated that a humanoid robot can fly",
         "type": "news"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "lab-jpl-robotics",
@@ -2693,7 +2775,8 @@
         "title": "JPL Robotics",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "lab-imperial-prl",
@@ -2778,7 +2861,8 @@
         "title": "Robotics at Princeton",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   },
   {
     "id": "lab-upenn-grasp",
@@ -2871,6 +2955,7 @@
         "title": "Auke Jan Ijspeert ‒ BioRob ‐ EPFL",
         "type": "official"
       }
-    ]
+    ],
+    "relatedIds": []
   }
 ]
