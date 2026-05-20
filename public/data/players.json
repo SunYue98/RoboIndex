@@ -272,7 +272,7 @@
     "name": "Figure AI",
     "company": "Figure AI",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-figure.png",
     "year": "2022",
     "isNew": true,
     "specs": {
@@ -423,7 +423,7 @@
     "name": "1X Technologies",
     "company": "1X Technologies",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-1x.png",
     "year": "2014",
     "isNew": false,
     "specs": {
@@ -1075,7 +1075,7 @@
     "name": "AgiBot (智元机器人)",
     "company": "AgiBot (智元机器人)",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-agibot.png",
     "year": "2023",
     "isNew": true,
     "specs": {
@@ -2217,7 +2217,7 @@
     "name": "Skild AI",
     "company": "Skild AI",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-skild.png",
     "year": "2023",
     "isNew": true,
     "specs": {

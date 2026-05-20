@@ -153,8 +153,16 @@ export const resolveImageUrl = (url: string): string => {
   return import.meta.env.BASE_URL + url.replace(/^\//, '');
 };
 
-export const entityImageInfo = (entity: Pick<Entity, 'id' | 'imageUrl'>): { url: string; isPlaceholder: boolean } => {
+// Categories whose canonical visual is the synthetic title card (not a placeholder).
+// Per IMAGE_SPEC.md prototype B — for these, the synthetic card IS the standard
+// and should not show a "待补图" badge.
+const SYNTHETIC_CANONICAL_CATEGORIES = new Set<string>([
+  '基础模型', '算法框架', '控制算法', '仿真平台', '数据集', '评测基准', '开发生态',
+]);
+
+export const entityImageInfo = (entity: Pick<Entity, 'id' | 'imageUrl' | 'category'>): { url: string; isPlaceholder: boolean } => {
   if (entity.imageUrl) return { url: entity.imageUrl, isPlaceholder: false };
-  return { url: `images/_synthetic/${entity.id}.png`, isPlaceholder: true };
+  const synthIsCanonical = SYNTHETIC_CANONICAL_CATEGORIES.has(entity.category as string);
+  return { url: `images/_synthetic/${entity.id}.png`, isPlaceholder: !synthIsCanonical };
 };
 

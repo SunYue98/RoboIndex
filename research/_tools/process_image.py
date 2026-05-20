@@ -82,6 +82,24 @@ def alpha_bbox(img: Image.Image) -> Optional[Tuple[int, int, int, int]]:
     return alpha.getbbox()
 
 
+def pad_to_square(img: Image.Image, padding_ratio: float = 0.15) -> Image.Image:
+    """Pad image to 1:1 by adding transparent (RGBA) or white (RGB) padding.
+
+    Use for logos: preserves the full logo content with extra breathing room.
+    Crops to alpha bbox first so the source's whitespace doesn't dominate.
+    """
+    if img.mode == "RGBA":
+        bbox = alpha_bbox(img)
+        if bbox:
+            img = img.crop(bbox)
+    w, h = img.size
+    side = int(max(w, h) * (1 + 2 * padding_ratio))
+    bg_color = (0, 0, 0, 0) if img.mode == "RGBA" else (255, 255, 255)
+    canvas = Image.new(img.mode, (side, side), bg_color)
+    canvas.paste(img, ((side - w) // 2, (side - h) // 2), img if img.mode == "RGBA" else None)
+    return canvas
+
+
 def crop_to_square(img: Image.Image, padding_ratio: float = 0.08) -> Image.Image:
     """Crop image to 1:1.
 
@@ -158,6 +176,7 @@ def process_one(
     out_path: Path,
     fmt: str,
     do_remove_bg: bool,
+    pad: bool = False,
 ) -> dict:
     """Process a single image; return summary dict."""
     img = Image.open(in_path)
@@ -172,7 +191,7 @@ def process_one(
         img = remove_bg(img)
         bg_removed = True
 
-    img = crop_to_square(img)
+    img = pad_to_square(img) if pad else crop_to_square(img)
     img = img.resize((TARGET_SIZE, TARGET_SIZE), Image.LANCZOS)
 
     # If output is JPG, flatten any alpha onto white
@@ -218,6 +237,8 @@ def main():
     ap.add_argument("--out", help="Explicit output path (overrides --entity resolution)")
     ap.add_argument("--format", default="jpg", choices=["jpg", "png"], help="Output format (default: jpg)")
     ap.add_argument("--remove-bg", action="store_true", help="Run rembg to isolate the subject")
+    ap.add_argument("--pad", action="store_true",
+                    help="Pad to 1:1 with transparency/white instead of cropping (use for logos)")
     ap.add_argument("--batch", action="store_true",
                     help="Treat input as directory; each file's stem must match an entity ID")
     ap.add_argument("--force", action="store_true", help="Overwrite existing output")
@@ -266,7 +287,7 @@ def main():
             skipped += 1
             continue
         try:
-            r = process_one(src, dst, args.format, args.remove_bg)
+            r = process_one(src, dst, args.format, args.remove_bg, pad=args.pad)
             results.append(r)
             tag = f" [bg removed]" if r["bg_removed"] else ""
             q = f" q={r['quality']}" if r["quality"] is not None else ""

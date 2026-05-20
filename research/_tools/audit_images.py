@@ -31,6 +31,13 @@ ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "public/data"
 PARTITIONS = ["hardware", "software", "ecosystem", "players"]
 
+# Categories whose synthetic title card IS the canonical visual (per IMAGE_SPEC.md
+# prototype B). These should not be counted as "missing" — the synthetic IS the
+# image. Mirrors SYNTHETIC_CANONICAL_CATEGORIES in src/data/entities.ts.
+SYNTHETIC_CANONICAL_CATEGORIES = {
+    "基础模型", "算法框架", "控制算法", "仿真平台", "数据集", "评测基准", "开发生态",
+}
+
 # Category weights (visibility heuristic) — higher = more user-facing
 CATEGORY_WEIGHT = {
     "整机平台": 20,
@@ -169,6 +176,9 @@ def main():
     missing = []
     for e in entities:
         has_real = bool(e.get("imageUrl"))
+        # Software / dev-tool categories: synthetic IS canonical, skip from queue
+        if not has_real and e.get("category") in SYNTHETIC_CANONICAL_CATEGORIES and not args.done:
+            continue
         if has_real and not args.done:
             continue
         sc = score(e, series_anchors)
@@ -187,7 +197,12 @@ def main():
     missing.sort(key=lambda x: (-x["score"], x["partition"], x["id"]))
     rows = missing[: args.top]
 
-    total_missing = sum(1 for e in entities if not e.get("imageUrl"))
+    # "missing" = needs a real image. Synthetic-canonical categories are spec-compliant
+    # without a real imageUrl so they're not counted as missing.
+    total_missing = sum(
+        1 for e in entities
+        if not e.get("imageUrl") and e.get("category") not in SYNTHETIC_CANONICAL_CATEGORIES
+    )
     total = len(entities)
 
     if args.json:
@@ -207,20 +222,21 @@ def main():
     for r in rows[:5]:
         print(f"  {r['score']:3d}  [{r['category']:8s}]  {r['id']:25s}  {r['name'][:35]}")
 
-    # Coverage breakdown by category
+    # Coverage breakdown by category — synthetic-canonical categories count as 100%
     by_cat = Counter()
     real_by_cat = Counter()
     for e in entities:
         c = e.get("category", "?")
         by_cat[c] += 1
-        if e.get("imageUrl"):
+        if e.get("imageUrl") or c in SYNTHETIC_CANONICAL_CATEGORIES:
             real_by_cat[c] += 1
-    print("\nCoverage by category:")
+    print("\nCoverage by category (synthetic-canonical categories shown with †):")
     for cat, total_in_cat in sorted(by_cat.items(), key=lambda x: -x[1]):
         real = real_by_cat[cat]
         pct = real * 100 // total_in_cat
         bar = "█" * (pct // 5) + "░" * (20 - pct // 5)
-        print(f"  {cat:12s}  [{bar}]  {real:3d}/{total_in_cat:3d}  ({pct}%)")
+        tag = "†" if cat in SYNTHETIC_CANONICAL_CATEGORIES else " "
+        print(f"  {cat:12s} {tag} [{bar}]  {real:3d}/{total_in_cat:3d}  ({pct}%)")
 
 
 if __name__ == "__main__":
