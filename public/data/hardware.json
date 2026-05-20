@@ -275,7 +275,7 @@
     "company": "Shadow Robot Company",
     "category": "灵巧手 & 夹爪",
     "imageUrl": "",
-    "year": "2024",
+    "year": "2022",
     "isNew": true,
     "specs": {
       "type": "Anthropomorphic tendon-driven dexterous hand",
@@ -1129,28 +1129,6 @@
     "seriesLabel": "Matrix-1"
   },
   {
-    "id": "f23",
-    "name": "LIMO",
-    "company": "AgileX (松灵机器人)",
-    "category": "整机平台",
-    "imageUrl": "images/hardware/limo.jpg",
-    "year": "2025",
-    "isNew": true,
-    "specs": {
-      "type": "Wheeled Mobile",
-      "status": "In Development"
-    },
-    "tags": [
-      "Wheeled",
-      "Mobile Base"
-    ],
-    "orgInfo": {
-      "website": "https://www.agilex.ai/"
-    },
-    "importance": "medium",
-    "relatedIds": []
-  },
-  {
     "id": "f24",
     "name": "H2",
     "company": "Unitree Robotics (宇树科技)",
@@ -1822,8 +1800,7 @@
       }
     ],
     "relatedIds": [
-      "stg-ind-xhumanoid",
-      "f112"
+      "stg-ind-xhumanoid"
     ],
     "seriesId": "xhumanoid-tian-yi",
     "seriesOrder": 1,
@@ -2596,7 +2573,7 @@
   },
   {
     "id": "f63",
-    "name": "STAR1",
+    "name": "S1",
     "company": "Astribot (星尘智能)",
     "category": "整机平台",
     "imageUrl": "images/hardware/star1.jpg",
@@ -3738,40 +3715,6 @@
     "seriesLabel": "Matrix-4"
   },
   {
-    "id": "f97",
-    "name": "XIAO T",
-    "company": "Topstar (拓斯达)",
-    "category": "整机平台",
-    "imageUrl": "images/hardware/xiao-t.jpg",
-    "year": "2025",
-    "isNew": true,
-    "specs": {
-      "type": "Wheeled Mobile",
-      "status": "In Development"
-    },
-    "tags": [
-      "Wheeled",
-      "Mobile Base"
-    ],
-    "orgInfo": {
-      "website": "https://www.topstarmachine.com"
-    },
-    "importance": "medium",
-    "sources": [
-      {
-        "url": "https://www.newsgd.com/node_d36b0ef83f/2dbe3bd989.shtml",
-        "title": "Topstar Xiao Tuo launch",
-        "type": "news"
-      },
-      {
-        "url": "https://www.topstarmachine.com/topstar-global-open-day-2025-humanoid-robot-debuts-pioneering-a-new-decade-of-intelligent-manufacturing/",
-        "title": "TOPSTAR Global Open Day 2025",
-        "type": "official"
-      }
-    ],
-    "relatedIds": []
-  },
-  {
     "id": "f98",
     "name": "OPTIMUS V2.5",
     "company": "Tesla (特斯拉)",
@@ -4210,70 +4153,6 @@
       "f110",
       "flagship-galbot-g1"
     ]
-  },
-  {
-    "id": "f112",
-    "name": "YI-2",
-    "company": "X-Humanoid (北京人形机器人创新中心)",
-    "category": "整机平台",
-    "imageUrl": "images/hardware/yi-2.jpg",
-    "year": "2025",
-    "isNew": true,
-    "specs": {
-      "type": "Wheeled Mobile",
-      "status": "In Development"
-    },
-    "tags": [
-      "Wheeled",
-      "Mobile Base"
-    ],
-    "orgInfo": {
-      "website": "https://www.x-humanoid.com"
-    },
-    "importance": "medium",
-    "sources": [
-      {
-        "url": "https://humanoid.guide/product/tian-yi-2-0/",
-        "title": "Tian Yi 2.0",
-        "type": "datasheet"
-      }
-    ],
-    "relatedIds": [
-      "stg-ind-xhumanoid",
-      "f41"
-    ],
-    "seriesId": "xhumanoid-tian-yi",
-    "seriesOrder": 2,
-    "seriesLabel": "Tian Yi 2.0 (YI-2)"
-  },
-  {
-    "id": "f113",
-    "name": "RE-CO",
-    "company": "OWI RobotiKits (美国)",
-    "category": "整机平台",
-    "imageUrl": "images/hardware/re-co.jpg",
-    "year": "2025",
-    "isNew": true,
-    "specs": {
-      "type": "Wheeled Mobile",
-      "status": "In Development"
-    },
-    "tags": [
-      "Wheeled",
-      "Mobile Base"
-    ],
-    "orgInfo": {
-      "website": "https://owirobot.com"
-    },
-    "importance": "medium",
-    "sources": [
-      {
-        "url": "https://owirobot.com/re-co-robot/",
-        "title": "RE/CO Robot - OWI Robotikits",
-        "type": "official"
-      }
-    ],
-    "relatedIds": []
   },
   {
     "id": "f114",
@@ -5029,6 +4908,11 @@
         "url": "https://www.topstarmachine.com/topstar-global-open-day-2025-humanoid-robot-debuts-pioneering-a-new-decade-of-intelligent-manufacturing/",
         "title": "TOPSTAR Open Day 2025",
         "type": "official"
+      },
+      {
+        "url": "https://www.newsgd.com/node_d36b0ef83f/2dbe3bd989.shtml",
+        "title": "Topstar Xiao Tuo launch",
+        "type": "news"
       }
     ],
     "relatedIds": []

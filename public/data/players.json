@@ -1505,6 +1505,14 @@
       "stg-vc-beijing-ai-fund",
       "stg-vc-bj-robot-fund",
       "stg-vc-bluerun",
+      "stg-vc-catl",
+      "stg-vc-cdb-capital",
+      "stg-vc-iflytek-fund",
+      "stg-vc-lighthouse-capital",
+      "stg-vc-meituan",
+      "stg-vc-qiming",
+      "stg-vc-sense-capital",
+      "vc-ggv",
       "f110",
       "f111",
       "flagship-galbot-g1"
@@ -4701,7 +4709,6 @@
       }
     ],
     "relatedIds": [
-      "f112",
       "f41"
     ]
   },

@@ -183,3 +183,35 @@ Total recommended deletions if user accepts all audit findings:
 
 So after a full audit, the live hardware.json would shrink from 218 → ~190 entries (then grow back via Phase 5 flagship additions).
 
+---
+
+## 2026-05-20 — Final batch applied to live data
+
+After verifying most audit findings had already been merged in prior phases, the
+remaining items were applied via `research/_tools/apply_audit_corrections.py`:
+
+| Action | id(s) | Outcome |
+|---|---|---|
+| DELETE | `f23` AgileX LIMO | Wheeled education robot; was miscategorized as 整机平台 |
+| DELETE | `f113` OWI RE-CO | $35 children's STEM kit; miscategorized as 整机平台 |
+| MERGE | `f112` → `f41` | Both were Tian Yi 2.0 (X-Humanoid). Kept f41 (2 sources); transferred any unique source from f112 before deleting it. |
+| MERGE | `f97` → `f137` | Both were Xiao Tuo (Topstar). Kept f137 (canonical name); transferred 1 unique source from f97. |
+| RENAME | `f63` STAR1 → S1 | Astribot's actual flagship is S1, not STAR1 (verified via astribot.com). |
+| YEAR FIX | `e2` Shadow Hand 2024 → 2022 | Current-gen E3M5R released ~2022 per Shadow Robot Company. |
+
+Side effects: 4 entries deleted from hardware.json (218 → 313 includes prior
+additions), 2 dangling relatedIds cleaned up. Investor refs in fundingRounds
+were checked; none were affected.
+
+Remaining items NOT applied (documented but require more research or judgment):
+- `j1` Fourier FSA Actuator — kept; product-line entry without independently
+  verifiable single-SKU source. Live entry is honest about what it represents.
+- `h5` / `h20` Inspire-Robots RH50G2 / RH50 SERIES — kept as legacy designation;
+  Inspire-Robots is now in the player database (stg-ind-inspire) so the
+  manufacturer link is real even if the SKU is older.
+- Phase 4/5 replacement entries (`stg-arm-ur10e` etc.) — most of their data was
+  applied as in-place updates to the original IDs in prior commits rather than
+  via the staging-namespace merge originally planned. Spot-check confirms
+  current years on a1 (2018), a2 (2017), c1 (2018), cp1 (2022), d1 (2023), e1
+  (2014), s1 (2020), s2 (2019), j2 (2019), c2 (2008) are now correct.
+
