@@ -1,5 +1,10 @@
 {
+  "schema_version": 1,
+  "dataset_version": "2026.05.21.0",
+  "snapshot_sha": "e34184a",
   "generated_at": "2026-05-21",
+  "entity_count": 667,
+  "edge_count": 1514,
   "version": "phase-6",
   "totals": {
     "entities": 667,
