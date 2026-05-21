@@ -37,7 +37,29 @@
         "title": "Robot Operating System - Wikipedia",
         "type": "wiki"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "language": {
+        "value": "C++/Python",
+        "source": {
+          "title": "ROS 2 Documentation (Jazzy)",
+          "url": "https://docs.ros.org/en/jazzy/index.html",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "Apache 2.0",
+        "source": {
+          "title": "ROS 2 Documentation (Jazzy)",
+          "url": "https://docs.ros.org/en/jazzy/index.html",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "eco2",
@@ -73,7 +95,29 @@
         "targetId": "eco1",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "language": {
+        "value": "TypeScript",
+        "source": {
+          "title": "Foxglove official site",
+          "url": "https://foxglove.dev/",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "Commercial (free tier) + open core",
+        "source": {
+          "title": "Foxglove official site",
+          "url": "https://foxglove.dev/",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "app1",
@@ -192,7 +236,29 @@
         "targetId": "eco-fast-dds",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "language": {
+        "value": "C",
+        "source": {
+          "title": "micro-ROS (Vulcanexus)",
+          "url": "https://micro.vulcanexus.org/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "Apache 2.0",
+        "source": {
+          "title": "micro-ROS (Vulcanexus)",
+          "url": "https://micro.vulcanexus.org/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "eco-ros2-control",
@@ -220,7 +286,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "language": {
+        "value": "C++",
+        "source": {
+          "title": "ros-controls/ros2_control",
+          "url": "https://github.com/ros-controls/ros2_control",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "Apache 2.0",
+        "source": {
+          "title": "ros-controls/ros2_control",
+          "url": "https://github.com/ros-controls/ros2_control",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "eco-moveit2",
@@ -248,7 +336,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "language": {
+        "value": "C++",
+        "source": {
+          "title": "MoveIt",
+          "url": "https://moveit.ai/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "BSD-3-Clause",
+        "source": {
+          "title": "MoveIt",
+          "url": "https://moveit.ai/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "eco-nav2",
@@ -277,7 +387,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "language": {
+        "value": "C++",
+        "source": {
+          "title": "Nav2 - Open Navigation",
+          "url": "https://nav2.org/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "Apache 2.0",
+        "source": {
+          "title": "Nav2 - Open Navigation",
+          "url": "https://nav2.org/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "eco-behaviortree-cpp",
@@ -305,7 +437,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "language": {
+        "value": "C++ 17",
+        "source": {
+          "title": "BehaviorTree/BehaviorTree.CPP",
+          "url": "https://github.com/BehaviorTree/BehaviorTree.CPP",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "MIT",
+        "source": {
+          "title": "BehaviorTree/BehaviorTree.CPP",
+          "url": "https://github.com/BehaviorTree/BehaviorTree.CPP",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "eco-rviz2",
@@ -350,7 +504,29 @@
         "targetId": "eco-urdf",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "language": {
+        "value": "C++",
+        "source": {
+          "title": "ros2/rviz",
+          "url": "https://github.com/ros2/rviz",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "BSD-3-Clause-Clear",
+        "source": {
+          "title": "ros2/rviz",
+          "url": "https://github.com/ros2/rviz",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "eco-plotjuggler",
@@ -378,7 +554,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "language": {
+        "value": "C++",
+        "source": {
+          "title": "facontidavide/PlotJuggler",
+          "url": "https://github.com/facontidavide/PlotJuggler",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "Mozilla Public License 2.0",
+        "source": {
+          "title": "facontidavide/PlotJuggler",
+          "url": "https://github.com/facontidavide/PlotJuggler",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "eco-open-rmf",
@@ -406,7 +604,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "language": {
+        "value": "C++",
+        "source": {
+          "title": "Open-RMF",
+          "url": "https://www.open-rmf.org/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "Apache 2.0",
+        "source": {
+          "title": "Open-RMF",
+          "url": "https://www.open-rmf.org/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "eco-fast-dds",
@@ -440,7 +660,29 @@
         "targetId": "eco-micro-ros",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "language": {
+        "value": "C++",
+        "source": {
+          "title": "eProsima Fast DDS",
+          "url": "https://www.eprosima.com/index.php/products-all/eprosima-fast-dds",
+          "type": "official"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "Apache 2.0",
+        "source": {
+          "title": "eProsima Fast DDS",
+          "url": "https://www.eprosima.com/index.php/products-all/eprosima-fast-dds",
+          "type": "official"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "eco-cyclone-dds",
@@ -468,7 +710,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "language": {
+        "value": "C",
+        "source": {
+          "title": "Eclipse Cyclone DDS",
+          "url": "https://cyclonedds.io/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "EPL 2.0 / EDL 1.0 (dual)",
+        "source": {
+          "title": "Eclipse Cyclone DDS",
+          "url": "https://cyclonedds.io/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "eco-urdf",
@@ -518,7 +782,29 @@
         "targetId": "eco-rviz2",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "language": {
+        "value": "XML",
+        "source": {
+          "title": "URDF - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/URDF",
+          "type": "wiki"
+        },
+        "asOf": "2009",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "BSD-3-Clause",
+        "source": {
+          "title": "URDF - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/URDF",
+          "type": "wiki"
+        },
+        "asOf": "2009",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "eco-gazebo-sim",
@@ -563,7 +849,29 @@
         "targetId": "eco-urdf",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "language": {
+        "value": "C++",
+        "source": {
+          "title": "Gazebo simulator - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gazebo_simulator",
+          "type": "wiki"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "Apache 2.0",
+        "source": {
+          "title": "Gazebo simulator - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gazebo_simulator",
+          "type": "wiki"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "eco-ros-gz",
@@ -608,7 +916,29 @@
         "targetId": "eco-urdf",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "language": {
+        "value": "C++",
+        "source": {
+          "title": "gazebosim/ros_gz",
+          "url": "https://github.com/gazebosim/ros_gz",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "Apache 2.0",
+        "source": {
+          "title": "gazebosim/ros_gz",
+          "url": "https://github.com/gazebosim/ros_gz",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "eco-webviz",
@@ -636,7 +966,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "language": {
+        "value": "JavaScript",
+        "source": {
+          "title": "cruise-automation/webviz",
+          "url": "https://github.com/cruise-automation/webviz",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "Apache 2.0",
+        "source": {
+          "title": "cruise-automation/webviz",
+          "url": "https://github.com/cruise-automation/webviz",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "eco-lichtblick",
@@ -664,7 +1016,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "language": {
+        "value": "TypeScript",
+        "source": {
+          "title": "Lichtblick-Suite/lichtblick",
+          "url": "https://github.com/Lichtblick-Suite/lichtblick",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "Mozilla Public License 2.0",
+        "source": {
+          "title": "Lichtblick-Suite/lichtblick",
+          "url": "https://github.com/Lichtblick-Suite/lichtblick",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "eco-isaac-ros",
@@ -698,7 +1072,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "language": {
+        "value": "C++ / CUDA / Python",
+        "source": {
+          "title": "Isaac ROS - NVIDIA Developer",
+          "url": "https://developer.nvidia.com/isaac/ros",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "Apache 2.0",
+        "source": {
+          "title": "Isaac ROS - NVIDIA Developer",
+          "url": "https://developer.nvidia.com/isaac/ros",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "eco-colcon",
@@ -743,7 +1139,29 @@
         "targetId": "eco-urdf",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "language": {
+        "value": "Python",
+        "source": {
+          "title": "colcon/colcon-core",
+          "url": "https://github.com/colcon/colcon-core",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "Apache 2.0",
+        "source": {
+          "title": "colcon/colcon-core",
+          "url": "https://github.com/colcon/colcon-core",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "app-warehouse",

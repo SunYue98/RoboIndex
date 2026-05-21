@@ -55,7 +55,7 @@ export function SingleSpecsPanel({ entity, mockData, onNavigateToEntity, onViewE
           )}
         </div>
 
-        <SpecsList specs={entity.specs} />
+        <SpecsList specs={entity.specs} sourcedSpecs={entity.sourcedSpecs} category={entity.category} />
       </div>
 
       <div className="flex flex-col gap-3 mb-auto">

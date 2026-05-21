@@ -1,6 +1,7 @@
 import React from 'react';
-import { Entity, PaperInfo, OrgInfo, Source, FundingRound, PortfolioInvestment } from '../data/entities';
-import { ArrowUpRight } from 'lucide-react';
+import { Entity, PaperInfo, OrgInfo, Source, FundingRound, PortfolioInvestment, Claim } from '../data/entities';
+import { CATEGORY_CLAIM_SCHEMA, ClaimKeySpec } from '../data/categoryClaimSchema';
+import { ArrowUpRight, Link as LinkIcon } from 'lucide-react';
 import { useLang } from '../i18n';
 
 export function PaperInfoBlock({ paperInfo, name }: { paperInfo?: PaperInfo, name: string }) {
@@ -59,22 +60,101 @@ export function OrgInfoBlock({ orgInfo, name }: { orgInfo?: OrgInfo, name: strin
   );
 }
 
-export function SpecsList({ specs }: { specs?: Record<string, any> }) {
-  if (!specs || Object.keys(specs).length === 0) return null;
-  
+// Normalize a key for fuzzy match against schema aliases.
+// Mirrors normalize_key() in research/_tools/migrate_specs_to_claims.py.
+function normalizeKey(s: string): string {
+  return s.toLowerCase().replace(/[\s\-_/&（）()]/g, '');
+}
+
+function formatClaimValue(val: any, spec: ClaimKeySpec): string {
+  if (val === null || val === undefined || val === '') return '—';
+  if (typeof val === 'number') {
+    // Pretty-print: drop trailing zeros after decimal
+    const s = Number.isInteger(val) ? String(val) : val.toFixed(2).replace(/\.?0+$/, '');
+    return spec.unit ? `${s} ${spec.unit}` : s;
+  }
+  const s = String(val);
+  return spec.unit && !s.toLowerCase().endsWith(spec.unit.toLowerCase()) ? `${s} ${spec.unit}` : s;
+}
+
+export function SpecsList({
+  specs,
+  sourcedSpecs,
+  category,
+}: {
+  specs?: Record<string, any>;
+  sourcedSpecs?: Record<string, Claim>;
+  category?: string;
+}) {
+  const hasSpecs = specs && Object.keys(specs).length > 0;
+  const hasSourced = sourcedSpecs && Object.keys(sourcedSpecs).length > 0;
+  if (!hasSpecs && !hasSourced) return null;
+
   const formatLabel = (key: string) => key.charAt(0).toUpperCase() + key.slice(1);
+
+  // Build set of legacy-spec keys that are already represented in sourcedSpecs,
+  // so we don't show the same metric twice.
+  const schema = (category && CATEGORY_CLAIM_SCHEMA[category as keyof typeof CATEGORY_CLAIM_SCHEMA]) || [];
+  const aliasToKey = new Map<string, string>();
+  for (const spec of schema) {
+    aliasToKey.set(normalizeKey(spec.key), spec.key);
+    for (const a of spec.aliases) {
+      aliasToKey.set(normalizeKey(a), spec.key);
+    }
+  }
+  const sourcedKeys = new Set(Object.keys(sourcedSpecs || {}));
+
+  // Filter legacy specs: drop entries whose normalized key maps to a sourcedSpecs key
+  const legacyEntries = hasSpecs
+    ? Object.entries(specs!).filter(([k]) => {
+        const canon = aliasToKey.get(normalizeKey(k));
+        return !canon || !sourcedKeys.has(canon);
+      })
+    : [];
+
+  // Build the typed claims section in schema order, so all entities in a
+  // category show fields in a consistent vertical position.
+  const typedRows: Array<{ spec: ClaimKeySpec; claim: Claim }> = [];
+  for (const spec of schema) {
+    const claim = sourcedSpecs?.[spec.key];
+    if (claim) typedRows.push({ spec, claim });
+  }
 
   return (
     <div className="flex flex-col border-b border-zinc-100 pb-4 mb-4">
-      {Object.entries(specs).map(([key, val]) => (
-         <div className="flex items-center w-full justify-between py-[12px]" key={key}>
-           <div className="w-[80px] text-left text-[12px] font-[500] text-zinc-400 shrink-0">
-             {formatLabel(key)}
-           </div>
-           <div className="flex-1 text-left text-[14px] font-[500] text-zinc-600 line-clamp-2">
-             {Array.isArray(val) ? val.join(', ') : (val || '—')}
-           </div>
-         </div>
+      {/* Typed claims with source icons */}
+      {typedRows.map(({ spec, claim }) => (
+        <div className="flex items-center w-full justify-between py-[12px]" key={`sc-${spec.key}`}>
+          <div className="w-[80px] text-left text-[12px] font-[500] text-zinc-400 shrink-0">
+            {spec.label}
+          </div>
+          <div className="flex-1 flex items-center gap-1.5 text-left text-[14px] font-[500] text-zinc-700">
+            <span className="line-clamp-2">{formatClaimValue(claim.value, spec)}</span>
+            {claim.source?.url && (
+              <a
+                href={claim.source.url}
+                target="_blank"
+                rel="noreferrer"
+                title={claim.source.title || claim.source.url}
+                className="inline-flex items-center justify-center w-4 h-4 rounded-full text-zinc-300 hover:text-zinc-600 transition-colors shrink-0"
+                aria-label="Source"
+              >
+                <LinkIcon className="w-3 h-3" />
+              </a>
+            )}
+          </div>
+        </div>
+      ))}
+      {/* Legacy free-form specs (deduplicated against typed) */}
+      {legacyEntries.map(([key, val]) => (
+        <div className="flex items-center w-full justify-between py-[12px]" key={`leg-${key}`}>
+          <div className="w-[80px] text-left text-[12px] font-[500] text-zinc-400 shrink-0">
+            {formatLabel(key)}
+          </div>
+          <div className="flex-1 text-left text-[14px] font-[500] text-zinc-600 line-clamp-2">
+            {Array.isArray(val) ? val.join(', ') : (val || '—')}
+          </div>
+        </div>
       ))}
     </div>
   );

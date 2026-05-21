@@ -58,7 +58,39 @@
         "targetId": "j1",
         "role": "tech-base"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "height_cm": {
+        "value": 175.3,
+        "source": {
+          "title": "Agility Robotics official site",
+          "url": "https://www.agilityrobotics.com",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 72.576,
+        "source": {
+          "title": "Agility Robotics official site",
+          "url": "https://www.agilityrobotics.com",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 40.0,
+        "source": {
+          "title": "Agility Robotics official site",
+          "url": "https://www.agilityrobotics.com",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "f2",
@@ -120,7 +152,39 @@
         "targetId": "c1",
         "role": "tech-base"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "height_cm": {
+        "value": 165.1,
+        "source": {
+          "title": "LimX Dynamics official site",
+          "url": "https://www.limxdynamics.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 54.8856,
+        "source": {
+          "title": "LimX Dynamics official site",
+          "url": "https://www.limxdynamics.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 31.0,
+        "source": {
+          "title": "LimX Dynamics official site",
+          "url": "https://www.limxdynamics.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "f4",
@@ -193,7 +257,49 @@
         "targetId": "cp1",
         "role": "tech-base"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "height_cm": {
+        "value": 180.3,
+        "source": {
+          "title": "Tesla official site",
+          "url": "https://www.tesla.com/AI",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 72.576,
+        "source": {
+          "title": "Tesla official site",
+          "url": "https://www.tesla.com/AI",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 28.0,
+        "source": {
+          "title": "Tesla official site",
+          "url": "https://www.tesla.com/AI",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "payload_kg": {
+        "value": 20.0,
+        "source": {
+          "title": "Tesla official site",
+          "url": "https://www.tesla.com/AI",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "a1",
@@ -255,7 +361,59 @@
         "targetId": "c1",
         "role": "tech-base"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 12.5,
+        "source": {
+          "title": "UR10e payload upgrade announcement (2021)",
+          "url": "https://www.universal-robots.com/news-and-media/news-center/universal-robots-unveils-enhanced-ur10e-with-25-greater-payload/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 1300.0,
+        "source": {
+          "title": "UR10e payload upgrade announcement (2021)",
+          "url": "https://www.universal-robots.com/news-and-media/news-center/universal-robots-unveils-enhanced-ur10e-with-25-greater-payload/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 33.5,
+        "source": {
+          "title": "UR10e payload upgrade announcement (2021)",
+          "url": "https://www.universal-robots.com/news-and-media/news-center/universal-robots-unveils-enhanced-ur10e-with-25-greater-payload/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "UR10e payload upgrade announcement (2021)",
+          "url": "https://www.universal-robots.com/news-and-media/news-center/universal-robots-unveils-enhanced-ur10e-with-25-greater-payload/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.05,
+        "source": {
+          "title": "UR10e payload upgrade announcement (2021)",
+          "url": "https://www.universal-robots.com/news-and-media/news-center/universal-robots-unveils-enhanced-ur10e-with-25-greater-payload/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "a2",
@@ -303,7 +461,59 @@
         "targetId": "c1",
         "role": "tech-base"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 3.0,
+        "source": {
+          "title": "Panda datasheet",
+          "url": "https://www.generationrobots.com/media/panda-franka-emika-datasheet.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 855.0,
+        "source": {
+          "title": "Panda datasheet",
+          "url": "https://www.generationrobots.com/media/panda-franka-emika-datasheet.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 18.0,
+        "source": {
+          "title": "Panda datasheet",
+          "url": "https://www.generationrobots.com/media/panda-franka-emika-datasheet.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 7.0,
+        "source": {
+          "title": "Panda datasheet",
+          "url": "https://www.generationrobots.com/media/panda-franka-emika-datasheet.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.1,
+        "source": {
+          "title": "Panda datasheet",
+          "url": "https://www.generationrobots.com/media/panda-franka-emika-datasheet.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "e1",
@@ -354,7 +564,29 @@
         "role": "tech-base",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 5.0,
+        "source": {
+          "title": "Adaptive Grippers 2F-85 & 2F-140",
+          "url": "https://robotiq.com/products/2f85-140-adaptive-robot-gripper/",
+          "type": "official"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 1.0,
+        "source": {
+          "title": "Adaptive Grippers 2F-85 & 2F-140",
+          "url": "https://robotiq.com/products/2f85-140-adaptive-robot-gripper/",
+          "type": "official"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "e2",
@@ -406,7 +638,19 @@
         "role": "tech-base",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "dof": {
+        "value": 20.0,
+        "source": {
+          "title": "Shadow Dexterous Hand Series",
+          "url": "https://www.shadowrobot.com/dexterous-hand-series/",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "j1",
@@ -451,7 +695,19 @@
         "role": "tech-base",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 100.0,
+        "source": {
+          "title": "Fourier Robotics official site",
+          "url": "https://www.fftai.com",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "j2",
@@ -513,7 +769,29 @@
         "targetId": "joint-dynamixel-xm430-w350",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 44.7,
+        "source": {
+          "title": "ROBOTIS PH54-200-S500-R e-Manual",
+          "url": "https://emanual.robotis.com/docs/en/dxl/p/ph54-200-s500-r/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 855.0,
+        "source": {
+          "title": "ROBOTIS PH54-200-S500-R e-Manual",
+          "url": "https://emanual.robotis.com/docs/en/dxl/p/ph54-200-s500-r/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "c1",
@@ -566,7 +844,19 @@
         "targetId": "comp-harmonic-csf-2up",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "type": {
+        "value": "Strain Wave Reducer (housed unit)",
+        "source": {
+          "title": "Harmonic Drive CSF-2UH",
+          "url": "https://www.harmonicdrive.net/products/gear-units/gear-units/csf-2uh",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "c2",
@@ -597,7 +887,19 @@
     ],
     "relatedIds": [
       "j1"
-    ]
+    ],
+    "sourcedSpecs": {
+      "type": {
+        "value": "Frameless Brushless Servo Motor",
+        "source": {
+          "title": "Kollmorgen KBM Series",
+          "url": "https://www.kollmorgen.com/en-us/products/motors/direct-drive/kbm-series-frameless",
+          "type": "official"
+        },
+        "asOf": "2008",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "s1",
@@ -649,7 +951,49 @@
         "targetId": "sensor-realsense-l515",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 0.4,
+        "source": {
+          "title": "Intel RealSense D455",
+          "url": "https://www.intelrealsense.com/depth-camera-d455/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "1280x720 depth",
+        "source": {
+          "title": "Intel RealSense D455",
+          "url": "https://www.intelrealsense.com/depth-camera-d455/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 87.0,
+        "source": {
+          "title": "Intel RealSense D455",
+          "url": "https://www.intelrealsense.com/depth-camera-d455/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 90.0,
+        "source": {
+          "title": "Intel RealSense D455",
+          "url": "https://www.intelrealsense.com/depth-camera-d455/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "s2",
@@ -692,7 +1036,39 @@
         "targetId": "sensor-ati-mini40",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 500.0,
+        "source": {
+          "title": "ATI Axia80 F/T Sensor Kit",
+          "url": "https://ati.novanta.com/product/axia80-force-torque-sensor-kit/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "16-bit",
+        "source": {
+          "title": "ATI Axia80 F/T Sensor Kit",
+          "url": "https://ati.novanta.com/product/axia80-force-torque-sensor-kit/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 8000.0,
+        "source": {
+          "title": "ATI Axia80 F/T Sensor Kit",
+          "url": "https://ati.novanta.com/product/axia80-force-torque-sensor-kit/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "d1",
@@ -758,7 +1134,19 @@
         "title": "GELLO arXiv 2309.13037",
         "type": "paper"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "type": {
+        "value": "Teleop Master",
+        "source": {
+          "title": "GELLO project page (UC Berkeley)",
+          "url": "https://wuphilipp.github.io/gello_site/",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "cp1",
@@ -834,7 +1222,29 @@
         "targetId": "cp-jetson-orin-nx",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "ram_gb": {
+        "value": 64.0,
+        "source": {
+          "title": "Jetson Orin family - NVIDIA",
+          "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "power_w": {
+        "value": 15.0,
+        "source": {
+          "title": "Jetson Orin family - NVIDIA",
+          "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "cp2",
@@ -890,7 +1300,29 @@
         "targetId": "cp1",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "tops": {
+        "value": 275.0,
+        "source": {
+          "title": "MIC-733-AO product page",
+          "url": "https://www.advantech.com/en-us/products/965e4edb-fb98-429e-89ed-9a0a8435a7be/mic-733/mod_09861425-4950-46ab-ad39-1b5522881218",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "ram_gb": {
+        "value": 32.0,
+        "source": {
+          "title": "MIC-733-AO product page",
+          "url": "https://www.advantech.com/en-us/products/965e4edb-fb98-429e-89ed-9a0a8435a7be/mic-733/mod_09861425-4950-46ab-ad39-1b5522881218",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "f6",
@@ -1475,7 +1907,39 @@
         "targetId": "pwr-unitree-h1-battery",
         "role": "tech-base"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "height_cm": {
+        "value": 182.0,
+        "source": {
+          "title": "Unitree Robotics (宇树科技) official site",
+          "url": "https://www.unitree.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 70.0,
+        "source": {
+          "title": "Unitree Robotics (宇树科技) official site",
+          "url": "https://www.unitree.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 31.0,
+        "source": {
+          "title": "Unitree Robotics (宇树科技) official site",
+          "url": "https://www.unitree.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "f25",
@@ -1648,7 +2112,49 @@
         "targetId": "pwr-spot-battery",
         "role": "tech-base"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "height_cm": {
+        "value": 150.0,
+        "source": {
+          "title": "Boston Dynamics official site",
+          "url": "https://www.bostondynamics.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 89.0,
+        "source": {
+          "title": "Boston Dynamics official site",
+          "url": "https://www.bostondynamics.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 56.0,
+        "source": {
+          "title": "Boston Dynamics official site",
+          "url": "https://www.bostondynamics.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "battery_runtime_min": {
+        "value": 240.0,
+        "source": {
+          "title": "Boston Dynamics official site",
+          "url": "https://www.bostondynamics.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "f30",
@@ -1879,7 +2385,39 @@
         "targetId": "app-home-humanoid",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "height_cm": {
+        "value": 165.0,
+        "source": {
+          "title": "Introducing NEO Gamma",
+          "url": "https://www.1x.tech/discover/introducing-neo-gamma",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 30.0,
+        "source": {
+          "title": "Introducing NEO Gamma",
+          "url": "https://www.1x.tech/discover/introducing-neo-gamma",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "payload_kg": {
+        "value": 25.0,
+        "source": {
+          "title": "Introducing NEO Gamma",
+          "url": "https://www.1x.tech/discover/introducing-neo-gamma",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "f35",
@@ -2045,7 +2583,39 @@
         "targetId": "cp1",
         "role": "tech-base"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "height_cm": {
+        "value": 118.0,
+        "source": {
+          "title": "Booster Robotics official site",
+          "url": "https://www.booster.tech",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 30.0,
+        "source": {
+          "title": "Booster Robotics official site",
+          "url": "https://www.booster.tech",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 23.0,
+        "source": {
+          "title": "Booster Robotics official site",
+          "url": "https://www.booster.tech",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "f39",
@@ -2528,7 +3098,39 @@
         "targetId": "f78",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "height_cm": {
+        "value": 169.0,
+        "source": {
+          "title": "AgiBot (智元机器人) official site",
+          "url": "https://www.agibot.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 69.0,
+        "source": {
+          "title": "AgiBot (智元机器人) official site",
+          "url": "https://www.agibot.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 40.0,
+        "source": {
+          "title": "AgiBot (智元机器人) official site",
+          "url": "https://www.agibot.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "f50",
@@ -3385,7 +3987,69 @@
         "targetId": "cp1",
         "role": "tech-base"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "height_cm": {
+        "value": 176.0,
+        "source": {
+          "title": "UBTech (优必选) official site",
+          "url": "https://www.ubtrobot.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 73.0,
+        "source": {
+          "title": "UBTech (优必选) official site",
+          "url": "https://www.ubtrobot.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 52.0,
+        "source": {
+          "title": "UBTech (优必选) official site",
+          "url": "https://www.ubtrobot.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "payload_kg": {
+        "value": 15.0,
+        "source": {
+          "title": "UBTech (优必选) official site",
+          "url": "https://www.ubtrobot.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "top_speed_mps": {
+        "value": 2.0,
+        "source": {
+          "title": "UBTech (优必选) official site",
+          "url": "https://www.ubtrobot.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "battery_runtime_min": {
+        "value": 3.0,
+        "source": {
+          "title": "UBTech (优必选) official site",
+          "url": "https://www.ubtrobot.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "f70",
@@ -3608,7 +4272,39 @@
         "targetId": "f25",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "height_cm": {
+        "value": 165.0,
+        "source": {
+          "title": "LimX Dynamics official site",
+          "url": "https://www.limxdynamics.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 55.0,
+        "source": {
+          "title": "LimX Dynamics official site",
+          "url": "https://www.limxdynamics.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 31.0,
+        "source": {
+          "title": "LimX Dynamics official site",
+          "url": "https://www.limxdynamics.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "f74",
@@ -3952,7 +4648,39 @@
         "targetId": "app-humanoid-manufacturing",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "height_cm": {
+        "value": 173.0,
+        "source": {
+          "title": "Apptronik official site",
+          "url": "https://apptronik.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 72.6,
+        "source": {
+          "title": "Apptronik official site",
+          "url": "https://apptronik.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "payload_kg": {
+        "value": 25.0,
+        "source": {
+          "title": "Apptronik official site",
+          "url": "https://apptronik.com",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "f82",
@@ -4581,7 +5309,49 @@
         "targetId": "app-humanoid-manufacturing",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "height_cm": {
+        "value": 172.0,
+        "source": {
+          "title": "Helix announcement (Figure AI official)",
+          "url": "https://www.figure.ai/news/helix",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 61.0,
+        "source": {
+          "title": "Helix announcement (Figure AI official)",
+          "url": "https://www.figure.ai/news/helix",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "payload_kg": {
+        "value": 20.0,
+        "source": {
+          "title": "Helix announcement (Figure AI official)",
+          "url": "https://www.figure.ai/news/helix",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "top_speed_mps": {
+        "value": 1.2,
+        "source": {
+          "title": "Helix announcement (Figure AI official)",
+          "url": "https://www.figure.ai/news/helix",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "f105",
@@ -5010,7 +5780,29 @@
         "targetId": "h14",
         "role": "tech-base"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "height_cm": {
+        "value": 170.0,
+        "source": {
+          "title": "Sanctuary AI official site",
+          "url": "https://www.sanctuary.ai",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 70.0,
+        "source": {
+          "title": "Sanctuary AI official site",
+          "url": "https://www.sanctuary.ai",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "f120",
@@ -7725,7 +8517,59 @@
         "targetId": "arm-ur5e",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 3.0,
+        "source": {
+          "title": "UR3e official product page",
+          "url": "https://www.universal-robots.com/products/ur3e/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 500.0,
+        "source": {
+          "title": "UR3e official product page",
+          "url": "https://www.universal-robots.com/products/ur3e/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 11.2,
+        "source": {
+          "title": "UR3e official product page",
+          "url": "https://www.universal-robots.com/products/ur3e/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "UR3e official product page",
+          "url": "https://www.universal-robots.com/products/ur3e/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.03,
+        "source": {
+          "title": "UR3e official product page",
+          "url": "https://www.universal-robots.com/products/ur3e/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-ur5e",
@@ -7779,7 +8623,59 @@
         "targetId": "arm-ur3e",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 5.0,
+        "source": {
+          "title": "UR5e tech sheet",
+          "url": "https://www.universal-robots.com/manuals/EN/TechSheets/UR5e_techsheet_pdf_online/UR5e_techsheet_en.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 850.0,
+        "source": {
+          "title": "UR5e tech sheet",
+          "url": "https://www.universal-robots.com/manuals/EN/TechSheets/UR5e_techsheet_pdf_online/UR5e_techsheet_en.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 20.6,
+        "source": {
+          "title": "UR5e tech sheet",
+          "url": "https://www.universal-robots.com/manuals/EN/TechSheets/UR5e_techsheet_pdf_online/UR5e_techsheet_en.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "UR5e tech sheet",
+          "url": "https://www.universal-robots.com/manuals/EN/TechSheets/UR5e_techsheet_pdf_online/UR5e_techsheet_en.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.03,
+        "source": {
+          "title": "UR5e tech sheet",
+          "url": "https://www.universal-robots.com/manuals/EN/TechSheets/UR5e_techsheet_pdf_online/UR5e_techsheet_en.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-ur16e",
@@ -7833,7 +8729,59 @@
         "targetId": "arm-ur5e",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 16.0,
+        "source": {
+          "title": "UR16e launch announcement (Sep 2019)",
+          "url": "https://www.universal-robots.com/news-and-media/news-center/universal-robots-launches-heavy-duty-payload-cobot-for-collaborative-automation/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 900.0,
+        "source": {
+          "title": "UR16e launch announcement (Sep 2019)",
+          "url": "https://www.universal-robots.com/news-and-media/news-center/universal-robots-launches-heavy-duty-payload-cobot-for-collaborative-automation/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 33.1,
+        "source": {
+          "title": "UR16e launch announcement (Sep 2019)",
+          "url": "https://www.universal-robots.com/news-and-media/news-center/universal-robots-launches-heavy-duty-payload-cobot-for-collaborative-automation/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "UR16e launch announcement (Sep 2019)",
+          "url": "https://www.universal-robots.com/news-and-media/news-center/universal-robots-launches-heavy-duty-payload-cobot-for-collaborative-automation/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.05,
+        "source": {
+          "title": "UR16e launch announcement (Sep 2019)",
+          "url": "https://www.universal-robots.com/news-and-media/news-center/universal-robots-launches-heavy-duty-payload-cobot-for-collaborative-automation/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-ur20",
@@ -7884,7 +8832,59 @@
         "targetId": "arm-ur5e",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 25.0,
+        "source": {
+          "title": "UR20 official product page",
+          "url": "https://www.universal-robots.com/products/ur20-robot/",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 1750.0,
+        "source": {
+          "title": "UR20 official product page",
+          "url": "https://www.universal-robots.com/products/ur20-robot/",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 64.0,
+        "source": {
+          "title": "UR20 official product page",
+          "url": "https://www.universal-robots.com/products/ur20-robot/",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "UR20 official product page",
+          "url": "https://www.universal-robots.com/products/ur20-robot/",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.05,
+        "source": {
+          "title": "UR20 official product page",
+          "url": "https://www.universal-robots.com/products/ur20-robot/",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-ur30",
@@ -7934,7 +8934,59 @@
         "targetId": "arm-ur5e",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 35.0,
+        "source": {
+          "title": "UR30 official product page",
+          "url": "https://www.universal-robots.com/products/ur30-robot/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 1300.0,
+        "source": {
+          "title": "UR30 official product page",
+          "url": "https://www.universal-robots.com/products/ur30-robot/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 63.5,
+        "source": {
+          "title": "UR30 official product page",
+          "url": "https://www.universal-robots.com/products/ur30-robot/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "UR30 official product page",
+          "url": "https://www.universal-robots.com/products/ur30-robot/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.1,
+        "source": {
+          "title": "UR30 official product page",
+          "url": "https://www.universal-robots.com/products/ur30-robot/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-fr3",
@@ -7982,7 +9034,59 @@
         "targetId": "app-education-stem",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 3.0,
+        "source": {
+          "title": "Franka Research 3 official page",
+          "url": "https://franka.de/research",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 855.0,
+        "source": {
+          "title": "Franka Research 3 official page",
+          "url": "https://franka.de/research",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 18.0,
+        "source": {
+          "title": "Franka Research 3 official page",
+          "url": "https://franka.de/research",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 7.0,
+        "source": {
+          "title": "Franka Research 3 official page",
+          "url": "https://franka.de/research",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.1,
+        "source": {
+          "title": "Franka Research 3 official page",
+          "url": "https://franka.de/research",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-kinova-gen3",
@@ -8021,7 +9125,59 @@
         "targetId": "arm-kinova-gen3-lite",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 4.0,
+        "source": {
+          "title": "Kinova Gen3 datasheet R01",
+          "url": "https://hotrobotics.co.uk/wp-content/uploads/2021/07/Gen3-Specifications-R01.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 902.0,
+        "source": {
+          "title": "Kinova Gen3 datasheet R01",
+          "url": "https://hotrobotics.co.uk/wp-content/uploads/2021/07/Gen3-Specifications-R01.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 8.2,
+        "source": {
+          "title": "Kinova Gen3 datasheet R01",
+          "url": "https://hotrobotics.co.uk/wp-content/uploads/2021/07/Gen3-Specifications-R01.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 7.0,
+        "source": {
+          "title": "Kinova Gen3 datasheet R01",
+          "url": "https://hotrobotics.co.uk/wp-content/uploads/2021/07/Gen3-Specifications-R01.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.1,
+        "source": {
+          "title": "Kinova Gen3 datasheet R01",
+          "url": "https://hotrobotics.co.uk/wp-content/uploads/2021/07/Gen3-Specifications-R01.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-kinova-gen3-lite",
@@ -8060,7 +9216,59 @@
         "targetId": "arm-kinova-gen3",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 0.5,
+        "source": {
+          "title": "Gen3 Lite distributor spec",
+          "url": "https://www.robotshop.com/products/gen3-lite-6-dof-educational-professional-robot-arm-05kg-payload",
+          "type": "datasheet"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 760.0,
+        "source": {
+          "title": "Gen3 Lite distributor spec",
+          "url": "https://www.robotshop.com/products/gen3-lite-6-dof-educational-professional-robot-arm-05kg-payload",
+          "type": "datasheet"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 5.4,
+        "source": {
+          "title": "Gen3 Lite distributor spec",
+          "url": "https://www.robotshop.com/products/gen3-lite-6-dof-educational-professional-robot-arm-05kg-payload",
+          "type": "datasheet"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "Gen3 Lite distributor spec",
+          "url": "https://www.robotshop.com/products/gen3-lite-6-dof-educational-professional-robot-arm-05kg-payload",
+          "type": "datasheet"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.5,
+        "source": {
+          "title": "Gen3 Lite distributor spec",
+          "url": "https://www.robotshop.com/products/gen3-lite-6-dof-educational-professional-robot-arm-05kg-payload",
+          "type": "datasheet"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-kuka-iiwa-7-r800",
@@ -8104,7 +9312,59 @@
         "targetId": "arm-kuka-iiwa-14-r820",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 7.0,
+        "source": {
+          "title": "KUKA LBR iiwa",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/industrial-robots/lbr-iiwa",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 800.0,
+        "source": {
+          "title": "KUKA LBR iiwa",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/industrial-robots/lbr-iiwa",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 24.0,
+        "source": {
+          "title": "KUKA LBR iiwa",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/industrial-robots/lbr-iiwa",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 7.0,
+        "source": {
+          "title": "KUKA LBR iiwa",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/industrial-robots/lbr-iiwa",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.1,
+        "source": {
+          "title": "KUKA LBR iiwa",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/industrial-robots/lbr-iiwa",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-kuka-iiwa-14-r820",
@@ -8142,7 +9402,59 @@
         "targetId": "arm-kuka-iiwa-7-r800",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 14.0,
+        "source": {
+          "title": "KUKA LBR iiwa",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/industrial-robots/lbr-iiwa",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 820.0,
+        "source": {
+          "title": "KUKA LBR iiwa",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/industrial-robots/lbr-iiwa",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 29.9,
+        "source": {
+          "title": "KUKA LBR iiwa",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/industrial-robots/lbr-iiwa",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 7.0,
+        "source": {
+          "title": "KUKA LBR iiwa",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/industrial-robots/lbr-iiwa",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.1,
+        "source": {
+          "title": "KUKA LBR iiwa",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/industrial-robots/lbr-iiwa",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-jaka-zu5",
@@ -8184,7 +9496,59 @@
         "targetId": "arm-jaka-minicobo",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 5.0,
+        "source": {
+          "title": "JAKA Zu 5 official",
+          "url": "https://www.jaka.com/en_eu/productDetails/JAKA_Zu5",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 954.0,
+        "source": {
+          "title": "JAKA Zu 5 official",
+          "url": "https://www.jaka.com/en_eu/productDetails/JAKA_Zu5",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 23.0,
+        "source": {
+          "title": "JAKA Zu 5 official",
+          "url": "https://www.jaka.com/en_eu/productDetails/JAKA_Zu5",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "JAKA Zu 5 official",
+          "url": "https://www.jaka.com/en_eu/productDetails/JAKA_Zu5",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.02,
+        "source": {
+          "title": "JAKA Zu 5 official",
+          "url": "https://www.jaka.com/en_eu/productDetails/JAKA_Zu5",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-jaka-minicobo",
@@ -8227,7 +9591,59 @@
         "targetId": "arm-jaka-zu5",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 1.0,
+        "source": {
+          "title": "JAKA MiniCobo",
+          "url": "https://www.jaka.com/en/productDetails/JAKA_MiniCobo",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 576.0,
+        "source": {
+          "title": "JAKA MiniCobo",
+          "url": "https://www.jaka.com/en/productDetails/JAKA_MiniCobo",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 8.7,
+        "source": {
+          "title": "JAKA MiniCobo",
+          "url": "https://www.jaka.com/en/productDetails/JAKA_MiniCobo",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "JAKA MiniCobo",
+          "url": "https://www.jaka.com/en/productDetails/JAKA_MiniCobo",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.1,
+        "source": {
+          "title": "JAKA MiniCobo",
+          "url": "https://www.jaka.com/en/productDetails/JAKA_MiniCobo",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-aubo-i5",
@@ -8265,7 +9681,59 @@
         "targetId": "arm-aubo-i10",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 5.0,
+        "source": {
+          "title": "AUBO i-series official",
+          "url": "https://www.aubo-cobot.com/public/iproduct4",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 886.5,
+        "source": {
+          "title": "AUBO i-series official",
+          "url": "https://www.aubo-cobot.com/public/iproduct4",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 24.0,
+        "source": {
+          "title": "AUBO i-series official",
+          "url": "https://www.aubo-cobot.com/public/iproduct4",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "AUBO i-series official",
+          "url": "https://www.aubo-cobot.com/public/iproduct4",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.05,
+        "source": {
+          "title": "AUBO i-series official",
+          "url": "https://www.aubo-cobot.com/public/iproduct4",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-aubo-i10",
@@ -8303,7 +9771,59 @@
         "targetId": "arm-aubo-i5",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 10.0,
+        "source": {
+          "title": "AUBO i-series official",
+          "url": "https://www.aubo-cobot.com/public/iproduct4",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 1350.0,
+        "source": {
+          "title": "AUBO i-series official",
+          "url": "https://www.aubo-cobot.com/public/iproduct4",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 38.5,
+        "source": {
+          "title": "AUBO i-series official",
+          "url": "https://www.aubo-cobot.com/public/iproduct4",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "AUBO i-series official",
+          "url": "https://www.aubo-cobot.com/public/iproduct4",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.1,
+        "source": {
+          "title": "AUBO i-series official",
+          "url": "https://www.aubo-cobot.com/public/iproduct4",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-realman-rm65",
@@ -8342,7 +9862,59 @@
         "targetId": "arm-realman-rm75",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 5.0,
+        "source": {
+          "title": "RealMan RM65-B distributor",
+          "url": "https://www.robotshop.com/products/realman-robotic-arm-rm65-b-6-dof-5kg-payload-basic-version",
+          "type": "datasheet"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 610.0,
+        "source": {
+          "title": "RealMan RM65-B distributor",
+          "url": "https://www.robotshop.com/products/realman-robotic-arm-rm65-b-6-dof-5kg-payload-basic-version",
+          "type": "datasheet"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 7.2,
+        "source": {
+          "title": "RealMan RM65-B distributor",
+          "url": "https://www.robotshop.com/products/realman-robotic-arm-rm65-b-6-dof-5kg-payload-basic-version",
+          "type": "datasheet"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "RealMan RM65-B distributor",
+          "url": "https://www.robotshop.com/products/realman-robotic-arm-rm65-b-6-dof-5kg-payload-basic-version",
+          "type": "datasheet"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.05,
+        "source": {
+          "title": "RealMan RM65-B distributor",
+          "url": "https://www.robotshop.com/products/realman-robotic-arm-rm65-b-6-dof-5kg-payload-basic-version",
+          "type": "datasheet"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-realman-rm75",
@@ -8381,7 +9953,59 @@
         "targetId": "arm-realman-rm65",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 5.0,
+        "source": {
+          "title": "RealMan RM75-B distributor",
+          "url": "https://www.robotshop.com/products/realman-robotic-arm-rm75-b-7-dof-5kg-payload-basic-version",
+          "type": "datasheet"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 610.0,
+        "source": {
+          "title": "RealMan RM75-B distributor",
+          "url": "https://www.robotshop.com/products/realman-robotic-arm-rm75-b-7-dof-5kg-payload-basic-version",
+          "type": "datasheet"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 7.8,
+        "source": {
+          "title": "RealMan RM75-B distributor",
+          "url": "https://www.robotshop.com/products/realman-robotic-arm-rm75-b-7-dof-5kg-payload-basic-version",
+          "type": "datasheet"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 7.0,
+        "source": {
+          "title": "RealMan RM75-B distributor",
+          "url": "https://www.robotshop.com/products/realman-robotic-arm-rm75-b-7-dof-5kg-payload-basic-version",
+          "type": "datasheet"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.05,
+        "source": {
+          "title": "RealMan RM75-B distributor",
+          "url": "https://www.robotshop.com/products/realman-robotic-arm-rm75-b-7-dof-5kg-payload-basic-version",
+          "type": "datasheet"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-diana7",
@@ -8417,7 +10041,59 @@
         "type": "datasheet"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 7.0,
+        "source": {
+          "title": "Diana 7 official",
+          "url": "https://www.agile-robots.com/en/solutions/diana-7/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 923.0,
+        "source": {
+          "title": "Diana 7 official",
+          "url": "https://www.agile-robots.com/en/solutions/diana-7/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 24.5,
+        "source": {
+          "title": "Diana 7 official",
+          "url": "https://www.agile-robots.com/en/solutions/diana-7/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 7.0,
+        "source": {
+          "title": "Diana 7 official",
+          "url": "https://www.agile-robots.com/en/solutions/diana-7/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.05,
+        "source": {
+          "title": "Diana 7 official",
+          "url": "https://www.agile-robots.com/en/solutions/diana-7/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-doosan-m0609",
@@ -8459,7 +10135,59 @@
         "targetId": "arm-doosan-m1013",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 6.0,
+        "source": {
+          "title": "Doosan M0609 official",
+          "url": "https://www.doosanrobotics.com/en/product-solutions/product/m-series/m0609/",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 900.0,
+        "source": {
+          "title": "Doosan M0609 official",
+          "url": "https://www.doosanrobotics.com/en/product-solutions/product/m-series/m0609/",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 27.0,
+        "source": {
+          "title": "Doosan M0609 official",
+          "url": "https://www.doosanrobotics.com/en/product-solutions/product/m-series/m0609/",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "Doosan M0609 official",
+          "url": "https://www.doosanrobotics.com/en/product-solutions/product/m-series/m0609/",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.03,
+        "source": {
+          "title": "Doosan M0609 official",
+          "url": "https://www.doosanrobotics.com/en/product-solutions/product/m-series/m0609/",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-doosan-m1013",
@@ -8501,7 +10229,59 @@
         "targetId": "arm-doosan-m0609",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 10.0,
+        "source": {
+          "title": "Doosan M1013 official",
+          "url": "https://www.doosanrobotics.com/en/product-solutions/product/m-series/m1013/",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 1300.0,
+        "source": {
+          "title": "Doosan M1013 official",
+          "url": "https://www.doosanrobotics.com/en/product-solutions/product/m-series/m1013/",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 33.0,
+        "source": {
+          "title": "Doosan M1013 official",
+          "url": "https://www.doosanrobotics.com/en/product-solutions/product/m-series/m1013/",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "Doosan M1013 official",
+          "url": "https://www.doosanrobotics.com/en/product-solutions/product/m-series/m1013/",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.05,
+        "source": {
+          "title": "Doosan M1013 official",
+          "url": "https://www.doosanrobotics.com/en/product-solutions/product/m-series/m1013/",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-doosan-h2017",
@@ -8544,7 +10324,59 @@
         "targetId": "arm-doosan-m1013",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 20.0,
+        "source": {
+          "title": "Doosan H2017 official",
+          "url": "https://www.doosanrobotics.com/en/product-solutions/product/h-series/h2017/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 1700.0,
+        "source": {
+          "title": "Doosan H2017 official",
+          "url": "https://www.doosanrobotics.com/en/product-solutions/product/h-series/h2017/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 79.0,
+        "source": {
+          "title": "Doosan H2017 official",
+          "url": "https://www.doosanrobotics.com/en/product-solutions/product/h-series/h2017/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "Doosan H2017 official",
+          "url": "https://www.doosanrobotics.com/en/product-solutions/product/h-series/h2017/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.1,
+        "source": {
+          "title": "Doosan H2017 official",
+          "url": "https://www.doosanrobotics.com/en/product-solutions/product/h-series/h2017/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-techman-tm5-900",
@@ -8587,7 +10419,59 @@
         "targetId": "arm-techman-tm12",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 4.0,
+        "source": {
+          "title": "OMRON/Techman TM Series specifications",
+          "url": "https://www.ia.omron.com/products/family/3739/specification.html",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 900.0,
+        "source": {
+          "title": "OMRON/Techman TM Series specifications",
+          "url": "https://www.ia.omron.com/products/family/3739/specification.html",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 22.6,
+        "source": {
+          "title": "OMRON/Techman TM Series specifications",
+          "url": "https://www.ia.omron.com/products/family/3739/specification.html",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "OMRON/Techman TM Series specifications",
+          "url": "https://www.ia.omron.com/products/family/3739/specification.html",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.05,
+        "source": {
+          "title": "OMRON/Techman TM Series specifications",
+          "url": "https://www.ia.omron.com/products/family/3739/specification.html",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-techman-tm12",
@@ -8631,7 +10515,59 @@
         "targetId": "arm-techman-tm5-900",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 12.0,
+        "source": {
+          "title": "Techman TM12/TM14 IMTS 2018",
+          "url": "https://www.prnewswire.com/news-releases/techman-robot-new-products-tm12-tm14-debut-in-imts-2018-300708734.html",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 1300.0,
+        "source": {
+          "title": "Techman TM12/TM14 IMTS 2018",
+          "url": "https://www.prnewswire.com/news-releases/techman-robot-new-products-tm12-tm14-debut-in-imts-2018-300708734.html",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 33.3,
+        "source": {
+          "title": "Techman TM12/TM14 IMTS 2018",
+          "url": "https://www.prnewswire.com/news-releases/techman-robot-new-products-tm12-tm14-debut-in-imts-2018-300708734.html",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "Techman TM12/TM14 IMTS 2018",
+          "url": "https://www.prnewswire.com/news-releases/techman-robot-new-products-tm12-tm14-debut-in-imts-2018-300708734.html",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.1,
+        "source": {
+          "title": "Techman TM12/TM14 IMTS 2018",
+          "url": "https://www.prnewswire.com/news-releases/techman-robot-new-products-tm12-tm14-debut-in-imts-2018-300708734.html",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-elite-cs66",
@@ -8685,7 +10621,59 @@
         "targetId": "app-warehouse",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 6.0,
+        "source": {
+          "title": "Elite Robots EC66/CS66 family",
+          "url": "https://www.eliterobots.com/cobots/ec66",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 914.0,
+        "source": {
+          "title": "Elite Robots EC66/CS66 family",
+          "url": "https://www.eliterobots.com/cobots/ec66",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 17.5,
+        "source": {
+          "title": "Elite Robots EC66/CS66 family",
+          "url": "https://www.eliterobots.com/cobots/ec66",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "Elite Robots EC66/CS66 family",
+          "url": "https://www.eliterobots.com/cobots/ec66",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.03,
+        "source": {
+          "title": "Elite Robots EC66/CS66 family",
+          "url": "https://www.eliterobots.com/cobots/ec66",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-elite-ec66",
@@ -8738,7 +10726,59 @@
         "targetId": "app-warehouse",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 6.0,
+        "source": {
+          "title": "Elite Robots EC66 official",
+          "url": "https://www.eliterobots.com/cobots/ec66",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 914.0,
+        "source": {
+          "title": "Elite Robots EC66 official",
+          "url": "https://www.eliterobots.com/cobots/ec66",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 17.5,
+        "source": {
+          "title": "Elite Robots EC66 official",
+          "url": "https://www.eliterobots.com/cobots/ec66",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "Elite Robots EC66 official",
+          "url": "https://www.eliterobots.com/cobots/ec66",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.03,
+        "source": {
+          "title": "Elite Robots EC66 official",
+          "url": "https://www.eliterobots.com/cobots/ec66",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-abb-gofa-5",
@@ -8776,7 +10816,59 @@
         "targetId": "arm-abb-yumi-irb14000",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 5.0,
+        "source": {
+          "title": "ABB GoFa launch (Feb 2021)",
+          "url": "https://new.abb.com/news/detail/74323/prsrl-abb-launches-gofa-higher-payload-cobot-for-collaborative-tasks-up-to-5kg",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 950.0,
+        "source": {
+          "title": "ABB GoFa launch (Feb 2021)",
+          "url": "https://new.abb.com/news/detail/74323/prsrl-abb-launches-gofa-higher-payload-cobot-for-collaborative-tasks-up-to-5kg",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 27.0,
+        "source": {
+          "title": "ABB GoFa launch (Feb 2021)",
+          "url": "https://new.abb.com/news/detail/74323/prsrl-abb-launches-gofa-higher-payload-cobot-for-collaborative-tasks-up-to-5kg",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "ABB GoFa launch (Feb 2021)",
+          "url": "https://new.abb.com/news/detail/74323/prsrl-abb-launches-gofa-higher-payload-cobot-for-collaborative-tasks-up-to-5kg",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.02,
+        "source": {
+          "title": "ABB GoFa launch (Feb 2021)",
+          "url": "https://new.abb.com/news/detail/74323/prsrl-abb-launches-gofa-higher-payload-cobot-for-collaborative-tasks-up-to-5kg",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "arm-abb-yumi-irb14000",
@@ -8814,7 +10906,59 @@
         "targetId": "arm-abb-gofa-5",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "payload_kg": {
+        "value": 0.5,
+        "source": {
+          "title": "ABB YuMi IRB 14000 spec",
+          "url": "https://qviro.com/product/abb/irb-14000-yumi/specifications",
+          "type": "datasheet"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "reach_mm": {
+        "value": 559.0,
+        "source": {
+          "title": "ABB YuMi IRB 14000 spec",
+          "url": "https://qviro.com/product/abb/irb-14000-yumi/specifications",
+          "type": "datasheet"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 38.0,
+        "source": {
+          "title": "ABB YuMi IRB 14000 spec",
+          "url": "https://qviro.com/product/abb/irb-14000-yumi/specifications",
+          "type": "datasheet"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 7.0,
+        "source": {
+          "title": "ABB YuMi IRB 14000 spec",
+          "url": "https://qviro.com/product/abb/irb-14000-yumi/specifications",
+          "type": "datasheet"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "repeatability_mm": {
+        "value": 0.02,
+        "source": {
+          "title": "ABB YuMi IRB 14000 spec",
+          "url": "https://qviro.com/product/abb/irb-14000-yumi/specifications",
+          "type": "datasheet"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-robstride-01",
@@ -8869,7 +11013,29 @@
         "targetId": "joint-robstride-06",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 17.0,
+        "source": {
+          "title": "Robstride 01 product page",
+          "url": "https://robstride.com/products/robStride01",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 380.0,
+        "source": {
+          "title": "Robstride 01 product page",
+          "url": "https://robstride.com/products/robStride01",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-robstride-02",
@@ -8925,7 +11091,29 @@
         "targetId": "joint-robstride-06",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 17.0,
+        "source": {
+          "title": "Robstride 02 product page",
+          "url": "http://robstride.com/products/robStride02",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 405.0,
+        "source": {
+          "title": "Robstride 02 product page",
+          "url": "http://robstride.com/products/robStride02",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-robstride-03",
@@ -8980,7 +11168,29 @@
         "targetId": "joint-robstride-06",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 60.0,
+        "source": {
+          "title": "Robstride 03 product page",
+          "url": "https://robstride.com/products/robStride03",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 880.0,
+        "source": {
+          "title": "Robstride 03 product page",
+          "url": "https://robstride.com/products/robStride03",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-robstride-04",
@@ -9036,7 +11246,19 @@
         "targetId": "joint-robstride-06",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 120.0,
+        "source": {
+          "title": "Robstride 04 official",
+          "url": "https://www.robstride.com/products/robStride04",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-robstride-06",
@@ -9091,7 +11313,29 @@
         "targetId": "joint-robstride-04",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 36.0,
+        "source": {
+          "title": "Robstride 06 product page",
+          "url": "https://www.robstride.com/products/robStride06",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 621.0,
+        "source": {
+          "title": "Robstride 06 product page",
+          "url": "https://www.robstride.com/products/robStride06",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-cubemars-ak80-9",
@@ -9133,7 +11377,29 @@
         "targetId": "joint-cubemars-ak70-10",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 22.0,
+        "source": {
+          "title": "CubeMars AK80-9 V3.0",
+          "url": "https://www.cubemars.com/product/ak80-9-v3-0-robotic-actuator.html",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 490.0,
+        "source": {
+          "title": "CubeMars AK80-9 V3.0",
+          "url": "https://www.cubemars.com/product/ak80-9-v3-0-robotic-actuator.html",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-cubemars-ak70-10",
@@ -9175,7 +11441,29 @@
         "targetId": "joint-cubemars-ak80-9",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 24.8,
+        "source": {
+          "title": "CubeMars AK70-10",
+          "url": "https://www.cubemars.com/goods-1031-AK70-10.html",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 521.0,
+        "source": {
+          "title": "CubeMars AK70-10",
+          "url": "https://www.cubemars.com/goods-1031-AK70-10.html",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-cubemars-ak60-6",
@@ -9217,7 +11505,29 @@
         "targetId": "joint-cubemars-ak80-9",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 9.0,
+        "source": {
+          "title": "CubeMars AK60-6 V3.0",
+          "url": "https://www.cubemars.com/product/ak60-6-v3-0-kv80-robotic-actuator.html",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 380.0,
+        "source": {
+          "title": "CubeMars AK60-6 V3.0",
+          "url": "https://www.cubemars.com/product/ak60-6-v3-0-kv80-robotic-actuator.html",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-steadywin-gim6010-8",
@@ -9264,7 +11574,29 @@
         "targetId": "joint-steadywin-gim8115-6",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 11.0,
+        "source": {
+          "title": "SteadyWin GIM6010-8 official",
+          "url": "https://steadywin-motor.com/products/built-in-star-gear-motor-motor-robot-joint-driver-actuator-controller-motor",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 388.0,
+        "source": {
+          "title": "SteadyWin GIM6010-8 official",
+          "url": "https://steadywin-motor.com/products/built-in-star-gear-motor-motor-robot-joint-driver-actuator-controller-motor",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-steadywin-gim8108-8",
@@ -9311,7 +11643,29 @@
         "targetId": "joint-steadywin-gim8115-6",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 22.0,
+        "source": {
+          "title": "GIM8108-8 distributor spec",
+          "url": "http://shop.smc-powers.com/GIM8108-8-Lite.html",
+          "type": "datasheet"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 396.0,
+        "source": {
+          "title": "GIM8108-8 distributor spec",
+          "url": "http://shop.smc-powers.com/GIM8108-8-Lite.html",
+          "type": "datasheet"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-steadywin-gim8115-6",
@@ -9358,7 +11712,29 @@
         "targetId": "joint-steadywin-gim8108-8",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 29.5,
+        "source": {
+          "title": "GIM8115-6 distributor spec",
+          "url": "http://shop.smc-powers.com/GIM8115-6.html",
+          "type": "datasheet"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 705.0,
+        "source": {
+          "title": "GIM8115-6 distributor spec",
+          "url": "http://shop.smc-powers.com/GIM8115-6.html",
+          "type": "datasheet"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-myactuator-rmd-x8",
@@ -9389,7 +11765,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 120.0,
+        "source": {
+          "title": "MyActuator RMD-X planetary series",
+          "url": "https://www.myactuator.com/rmd-x-planetarymotor",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 850.0,
+        "source": {
+          "title": "MyActuator RMD-X planetary series",
+          "url": "https://www.myactuator.com/rmd-x-planetarymotor",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-dynamixel-xm430-w350",
@@ -9445,7 +11843,29 @@
         "targetId": "joint-dynamixel-xh540-w270",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 4.1,
+        "source": {
+          "title": "ROBOTIS XM430-W350 e-Manual",
+          "url": "https://emanual.robotis.com/docs/en/dxl/x/xm430-w350/",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 82.0,
+        "source": {
+          "title": "ROBOTIS XM430-W350 e-Manual",
+          "url": "https://emanual.robotis.com/docs/en/dxl/x/xm430-w350/",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-dynamixel-xh540-w270",
@@ -9501,7 +11921,29 @@
         "targetId": "joint-dynamixel-xm430-w350",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 9.9,
+        "source": {
+          "title": "ROBOTIS XH540-W270",
+          "url": "https://robotis.us/dynamixel-xh540-w270-r/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 165.0,
+        "source": {
+          "title": "ROBOTIS XH540-W270",
+          "url": "https://robotis.us/dynamixel-xh540-w270-r/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-dynamixel-ph42-020",
@@ -9558,7 +12000,29 @@
         "targetId": "joint-dynamixel-xm430-w350",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 5.1,
+        "source": {
+          "title": "ROBOTIS PH42-020-S300-R e-Manual",
+          "url": "https://emanual.robotis.com/docs/en/dxl/p/ph42-020-s300-r/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 340.0,
+        "source": {
+          "title": "ROBOTIS PH42-020-S300-R e-Manual",
+          "url": "https://emanual.robotis.com/docs/en/dxl/p/ph42-020-s300-r/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-hebi-x5-9",
@@ -9596,7 +12060,29 @@
         "targetId": "joint-hebi-x8-16",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 9.0,
+        "source": {
+          "title": "HEBI X-Series datasheet",
+          "url": "https://docs.hebi.us/resources/datasheets/X-SeriesDatasheet.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 335.0,
+        "source": {
+          "title": "HEBI X-Series datasheet",
+          "url": "https://docs.hebi.us/resources/datasheets/X-SeriesDatasheet.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-hebi-x8-16",
@@ -9635,7 +12121,29 @@
         "targetId": "joint-hebi-x5-9",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 38.0,
+        "source": {
+          "title": "HEBI X-Series datasheet",
+          "url": "https://docs.hebi.us/resources/datasheets/X-SeriesDatasheet.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 490.0,
+        "source": {
+          "title": "HEBI X-Series datasheet",
+          "url": "https://docs.hebi.us/resources/datasheets/X-SeriesDatasheet.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-unitree-go-m8010-6",
@@ -9686,7 +12194,29 @@
         "targetId": "joint-unitree-a1",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 23.7,
+        "source": {
+          "title": "Unitree Go1 motor official",
+          "url": "https://www.unitree.com/mobile/go1/motor/",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 530.0,
+        "source": {
+          "title": "Unitree Go1 motor official",
+          "url": "https://www.unitree.com/mobile/go1/motor/",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "joint-unitree-a1",
@@ -9737,7 +12267,29 @@
         "targetId": "joint-unitree-go-m8010-6",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "torque_nm": {
+        "value": 33.5,
+        "source": {
+          "title": "Unitree A1 motor official",
+          "url": "https://www.unitree.com/mobile/a1/motor/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "weight_g": {
+        "value": 605.0,
+        "source": {
+          "title": "Unitree A1 motor official",
+          "url": "https://www.unitree.com/mobile/a1/motor/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-realsense-d435i",
@@ -9789,7 +12341,49 @@
         "targetId": "sensor-realsense-l515",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 0.3,
+        "source": {
+          "title": "Intel RealSense D435i Specifications",
+          "url": "https://www.intel.com/content/www/us/en/products/sku/190004/intel-realsense-depth-camera-d435i/specifications.html",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "1280x720 depth",
+        "source": {
+          "title": "Intel RealSense D435i Specifications",
+          "url": "https://www.intel.com/content/www/us/en/products/sku/190004/intel-realsense-depth-camera-d435i/specifications.html",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 87.0,
+        "source": {
+          "title": "Intel RealSense D435i Specifications",
+          "url": "https://www.intel.com/content/www/us/en/products/sku/190004/intel-realsense-depth-camera-d435i/specifications.html",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 90.0,
+        "source": {
+          "title": "Intel RealSense D435i Specifications",
+          "url": "https://www.intel.com/content/www/us/en/products/sku/190004/intel-realsense-depth-camera-d435i/specifications.html",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-realsense-d457",
@@ -9836,7 +12430,49 @@
         "targetId": "sensor-realsense-l515",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 0.6,
+        "source": {
+          "title": "Intel RealSense D457",
+          "url": "https://www.intelrealsense.com/depth-camera-d457/",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "1280x720 depth",
+        "source": {
+          "title": "Intel RealSense D457",
+          "url": "https://www.intelrealsense.com/depth-camera-d457/",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 87.0,
+        "source": {
+          "title": "Intel RealSense D457",
+          "url": "https://www.intelrealsense.com/depth-camera-d457/",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 90.0,
+        "source": {
+          "title": "Intel RealSense D457",
+          "url": "https://www.intelrealsense.com/depth-camera-d457/",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-realsense-l515",
@@ -9885,7 +12521,49 @@
         "targetId": "sensor-realsense-d457",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 0.25,
+        "source": {
+          "title": "Intel RealSense L515",
+          "url": "https://www.intelrealsense.com/lidar-camera-l515/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "1280x720 depth",
+        "source": {
+          "title": "Intel RealSense L515",
+          "url": "https://www.intelrealsense.com/lidar-camera-l515/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 70.0,
+        "source": {
+          "title": "Intel RealSense L515",
+          "url": "https://www.intelrealsense.com/lidar-camera-l515/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 30.0,
+        "source": {
+          "title": "Intel RealSense L515",
+          "url": "https://www.intelrealsense.com/lidar-camera-l515/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-orbbec-femto-bolt",
@@ -9935,7 +12613,49 @@
         "targetId": "sensor-orbbec-gemini-335le",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 0.25,
+        "source": {
+          "title": "Orbbec Femto Bolt",
+          "url": "https://www.orbbec.com/products/tof-camera/femto-bolt/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "1024x1024 depth / 4K RGB",
+        "source": {
+          "title": "Orbbec Femto Bolt",
+          "url": "https://www.orbbec.com/products/tof-camera/femto-bolt/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 120.0,
+        "source": {
+          "title": "Orbbec Femto Bolt",
+          "url": "https://www.orbbec.com/products/tof-camera/femto-bolt/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 30.0,
+        "source": {
+          "title": "Orbbec Femto Bolt",
+          "url": "https://www.orbbec.com/products/tof-camera/femto-bolt/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-orbbec-femto-mega",
@@ -9986,7 +12706,49 @@
         "targetId": "sensor-orbbec-gemini-335le",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 0.25,
+        "source": {
+          "title": "Orbbec Femto Mega",
+          "url": "https://www.orbbec.com/products/tof-camera/femto-mega/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "1024x1024 depth / 3840x2160 RGB",
+        "source": {
+          "title": "Orbbec Femto Mega",
+          "url": "https://www.orbbec.com/products/tof-camera/femto-mega/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 120.0,
+        "source": {
+          "title": "Orbbec Femto Mega",
+          "url": "https://www.orbbec.com/products/tof-camera/femto-mega/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 30.0,
+        "source": {
+          "title": "Orbbec Femto Mega",
+          "url": "https://www.orbbec.com/products/tof-camera/femto-mega/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-orbbec-gemini-335",
@@ -10036,7 +12798,49 @@
         "targetId": "sensor-orbbec-gemini-335le",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 0.17,
+        "source": {
+          "title": "Orbbec Gemini 335",
+          "url": "https://www.orbbec.com/products/stereo-vision-camera/gemini-335/",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "1280x800 depth",
+        "source": {
+          "title": "Orbbec Gemini 335",
+          "url": "https://www.orbbec.com/products/stereo-vision-camera/gemini-335/",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 90.0,
+        "source": {
+          "title": "Orbbec Gemini 335",
+          "url": "https://www.orbbec.com/products/stereo-vision-camera/gemini-335/",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 30.0,
+        "source": {
+          "title": "Orbbec Gemini 335",
+          "url": "https://www.orbbec.com/products/stereo-vision-camera/gemini-335/",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-orbbec-gemini-335le",
@@ -10087,7 +12891,49 @@
         "targetId": "sensor-orbbec-gemini-335",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 0.17,
+        "source": {
+          "title": "Orbbec Gemini 335Le",
+          "url": "https://www.orbbec.com/gemini-335le/",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "1280x800 depth",
+        "source": {
+          "title": "Orbbec Gemini 335Le",
+          "url": "https://www.orbbec.com/gemini-335le/",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 90.0,
+        "source": {
+          "title": "Orbbec Gemini 335Le",
+          "url": "https://www.orbbec.com/gemini-335le/",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 30.0,
+        "source": {
+          "title": "Orbbec Gemini 335Le",
+          "url": "https://www.orbbec.com/gemini-335le/",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-azure-kinect-dk",
@@ -10120,7 +12966,49 @@
     ],
     "relatedIds": [
       "stg-vc-msft"
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 0.5,
+        "source": {
+          "title": "Azure Kinect DK hardware specifications",
+          "url": "https://learn.microsoft.com/en-us/previous-versions/azure/kinect-dk/hardware-specification",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "1024x1024 depth / 4096x3072 RGB",
+        "source": {
+          "title": "Azure Kinect DK hardware specifications",
+          "url": "https://learn.microsoft.com/en-us/previous-versions/azure/kinect-dk/hardware-specification",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 120.0,
+        "source": {
+          "title": "Azure Kinect DK hardware specifications",
+          "url": "https://learn.microsoft.com/en-us/previous-versions/azure/kinect-dk/hardware-specification",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 30.0,
+        "source": {
+          "title": "Azure Kinect DK hardware specifications",
+          "url": "https://learn.microsoft.com/en-us/previous-versions/azure/kinect-dk/hardware-specification",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-mech-mind-pro-m",
@@ -10156,7 +13044,39 @@
         "targetId": "sensor-mech-mind-lsr-s",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 1.0,
+        "source": {
+          "title": "Mech-Eye PRO M Specifications",
+          "url": "https://docs.mech-mind.net/en/eye-3d-camera/2.3.1/hardware/specifications-pro-s-pro-m.html",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "1920x1200 (2.3 MP)",
+        "source": {
+          "title": "Mech-Eye PRO M Specifications",
+          "url": "https://docs.mech-mind.net/en/eye-3d-camera/2.3.1/hardware/specifications-pro-s-pro-m.html",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 2.0,
+        "source": {
+          "title": "Mech-Eye PRO M Specifications",
+          "url": "https://docs.mech-mind.net/en/eye-3d-camera/2.3.1/hardware/specifications-pro-s-pro-m.html",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-mech-mind-lsr-s",
@@ -10191,7 +13111,39 @@
         "targetId": "sensor-mech-mind-pro-m",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 0.5,
+        "source": {
+          "title": "Mech-Eye LSR S Specifications",
+          "url": "https://docs.mech-mind.net/en/eye-3d-camera/2.3.4/hardware/specifications-lsr-s.html",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "2048x1536 (3.2 MP)",
+        "source": {
+          "title": "Mech-Eye LSR S Specifications",
+          "url": "https://docs.mech-mind.net/en/eye-3d-camera/2.3.4/hardware/specifications-lsr-s.html",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 2.0,
+        "source": {
+          "title": "Mech-Eye LSR S Specifications",
+          "url": "https://docs.mech-mind.net/en/eye-3d-camera/2.3.4/hardware/specifications-lsr-s.html",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-zivid-two-m70",
@@ -10221,7 +13173,39 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 0.3,
+        "source": {
+          "title": "Zivid 2 M70",
+          "url": "https://www.zivid.com/zivid-2-m70",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "1944x1200 (2.3 MP), 55 μm point precision",
+        "source": {
+          "title": "Zivid 2 M70",
+          "url": "https://www.zivid.com/zivid-2-m70",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 5.0,
+        "source": {
+          "title": "Zivid 2 M70",
+          "url": "https://www.zivid.com/zivid-2-m70",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-photoneo-phoxi-m",
@@ -10256,7 +13240,39 @@
         "targetId": "sensor-photoneo-motioncam-3d",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 0.458,
+        "source": {
+          "title": "Photoneo PhoXi 3D Scanner",
+          "url": "https://www.photoneo.com/phoxi-3d-scanner/",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "3.2 MP points; 0.286 mm point-to-point",
+        "source": {
+          "title": "Photoneo PhoXi 3D Scanner",
+          "url": "https://www.photoneo.com/phoxi-3d-scanner/",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 2.0,
+        "source": {
+          "title": "Photoneo PhoXi 3D Scanner",
+          "url": "https://www.photoneo.com/phoxi-3d-scanner/",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-photoneo-motioncam-3d",
@@ -10291,7 +13307,39 @@
         "targetId": "sensor-photoneo-phoxi-m",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 0.63,
+        "source": {
+          "title": "Photoneo MotionCam-3D",
+          "url": "https://www.photoneo.com/motioncam-3d/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "1120x800 dynamic / 1600x1200 static",
+        "source": {
+          "title": "Photoneo MotionCam-3D",
+          "url": "https://www.photoneo.com/motioncam-3d/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 20.0,
+        "source": {
+          "title": "Photoneo MotionCam-3D",
+          "url": "https://www.photoneo.com/motioncam-3d/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-stereolabs-zed2i",
@@ -10327,7 +13375,49 @@
         "targetId": "sensor-stereolabs-zed-x",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 0.3,
+        "source": {
+          "title": "Stereolabs ZED 2i",
+          "url": "https://www.stereolabs.com/store/products/zed-2i",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "2208x1242 RGB",
+        "source": {
+          "title": "Stereolabs ZED 2i",
+          "url": "https://www.stereolabs.com/store/products/zed-2i",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 120.0,
+        "source": {
+          "title": "Stereolabs ZED 2i",
+          "url": "https://www.stereolabs.com/store/products/zed-2i",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 100.0,
+        "source": {
+          "title": "Stereolabs ZED 2i",
+          "url": "https://www.stereolabs.com/store/products/zed-2i",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-stereolabs-zed-x",
@@ -10364,7 +13454,49 @@
         "targetId": "sensor-stereolabs-zed2i",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 0.2,
+        "source": {
+          "title": "Stereolabs ZED X",
+          "url": "https://www.stereolabs.com/products/zed-x",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "1920x1200 global shutter",
+        "source": {
+          "title": "Stereolabs ZED X",
+          "url": "https://www.stereolabs.com/products/zed-x",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 110.0,
+        "source": {
+          "title": "Stereolabs ZED X",
+          "url": "https://www.stereolabs.com/products/zed-x",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 120.0,
+        "source": {
+          "title": "Stereolabs ZED X",
+          "url": "https://www.stereolabs.com/products/zed-x",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-ati-mini40",
@@ -10402,7 +13534,39 @@
         "targetId": "s2",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 80.0,
+        "source": {
+          "title": "ATI Mini40 F/T Sensor",
+          "url": "https://www.ati-ia.com/products/ft/ft_models.aspx?id=mini40",
+          "type": "official"
+        },
+        "asOf": "2010",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "Strain gauge",
+        "source": {
+          "title": "ATI Mini40 F/T Sensor",
+          "url": "https://www.ati-ia.com/products/ft/ft_models.aspx?id=mini40",
+          "type": "official"
+        },
+        "asOf": "2010",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 7000.0,
+        "source": {
+          "title": "ATI Mini40 F/T Sensor",
+          "url": "https://www.ati-ia.com/products/ft/ft_models.aspx?id=mini40",
+          "type": "official"
+        },
+        "asOf": "2010",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-onrobot-hex-e",
@@ -10433,7 +13597,39 @@
         "type": "datasheet"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 200.0,
+        "source": {
+          "title": "OnRobot HEX-E/H QC Datasheet",
+          "url": "https://onrobot.com/storage/datasheets/datasheet_hex.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "0.2 N (Fxy) / 0.01 Nm (Txy)",
+        "source": {
+          "title": "OnRobot HEX-E/H QC Datasheet",
+          "url": "https://onrobot.com/storage/datasheets/datasheet_hex.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 2000.0,
+        "source": {
+          "title": "OnRobot HEX-E/H QC Datasheet",
+          "url": "https://onrobot.com/storage/datasheets/datasheet_hex.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-robotous-rft40-sa01",
@@ -10463,7 +13659,39 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 100.0,
+        "source": {
+          "title": "Robotous 6-Axis F/T",
+          "url": "https://www.robotous.com/product/robot/6-axis-force-torque-sensor",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "0.2 N / 0.008 Nm",
+        "source": {
+          "title": "Robotous 6-Axis F/T",
+          "url": "https://www.robotous.com/product/robot/6-axis-force-torque-sensor",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 200.0,
+        "source": {
+          "title": "Robotous 6-Axis F/T",
+          "url": "https://www.robotous.com/product/robot/6-axis-force-torque-sensor",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-gelsight-mini",
@@ -10493,7 +13721,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "resolution": {
+        "value": "Sub-millimeter (superhuman tactile)",
+        "source": {
+          "title": "GelSight Mini launch",
+          "url": "https://www.gelsight.com/introducing-the-gelsight-mini-a-human-resolution-tactile-sensor-for-engineers-and-scientists/",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 25.0,
+        "source": {
+          "title": "GelSight Mini launch",
+          "url": "https://www.gelsight.com/introducing-the-gelsight-mini-a-human-resolution-tactile-sensor-for-engineers-and-scientists/",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-velodyne-vlp16",
@@ -10531,7 +13781,49 @@
         "targetId": "sensor-velodyne-alpha-prime",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 100.0,
+        "source": {
+          "title": "VLP-16 (now Ouster)",
+          "url": "https://ouster.com/products/hardware/vlp-16",
+          "type": "official"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "16 channels; ~300,000 pts/s",
+        "source": {
+          "title": "VLP-16 (now Ouster)",
+          "url": "https://ouster.com/products/hardware/vlp-16",
+          "type": "official"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 360.0,
+        "source": {
+          "title": "VLP-16 (now Ouster)",
+          "url": "https://ouster.com/products/hardware/vlp-16",
+          "type": "official"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 20.0,
+        "source": {
+          "title": "VLP-16 (now Ouster)",
+          "url": "https://ouster.com/products/hardware/vlp-16",
+          "type": "official"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-velodyne-alpha-prime",
@@ -10570,7 +13862,49 @@
         "targetId": "sensor-velodyne-vlp16",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 245.0,
+        "source": {
+          "title": "Velodyne Alpha Prime",
+          "url": "https://velodynelidar.com/products/alpha-prime/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "128 channels; ~4.8M pts/s",
+        "source": {
+          "title": "Velodyne Alpha Prime",
+          "url": "https://velodynelidar.com/products/alpha-prime/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 360.0,
+        "source": {
+          "title": "Velodyne Alpha Prime",
+          "url": "https://velodynelidar.com/products/alpha-prime/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 20.0,
+        "source": {
+          "title": "Velodyne Alpha Prime",
+          "url": "https://velodynelidar.com/products/alpha-prime/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-ouster-os1",
@@ -10600,7 +13934,49 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 200.0,
+        "source": {
+          "title": "Ouster OS1 LiDAR",
+          "url": "https://ouster.com/products/hardware/os1-lidar-sensor",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "32/64/128 channels; up to 5.2M pts/s",
+        "source": {
+          "title": "Ouster OS1 LiDAR",
+          "url": "https://ouster.com/products/hardware/os1-lidar-sensor",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 360.0,
+        "source": {
+          "title": "Ouster OS1 LiDAR",
+          "url": "https://ouster.com/products/hardware/os1-lidar-sensor",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 20.0,
+        "source": {
+          "title": "Ouster OS1 LiDAR",
+          "url": "https://ouster.com/products/hardware/os1-lidar-sensor",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-hesai-at128",
@@ -10638,7 +14014,49 @@
         "targetId": "sensor-hesai-xt16",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 200.0,
+        "source": {
+          "title": "Hesai AT128",
+          "url": "https://www.hesaitech.com/product/at128/",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "128 channels; 1.53M pts/s; ±3cm",
+        "source": {
+          "title": "Hesai AT128",
+          "url": "https://www.hesaitech.com/product/at128/",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 120.0,
+        "source": {
+          "title": "Hesai AT128",
+          "url": "https://www.hesaitech.com/product/at128/",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 10.0,
+        "source": {
+          "title": "Hesai AT128",
+          "url": "https://www.hesaitech.com/product/at128/",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-hesai-xt16",
@@ -10676,7 +14094,49 @@
         "targetId": "sensor-hesai-at128",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 120.0,
+        "source": {
+          "title": "Hesai XT16/32/32M",
+          "url": "https://www.hesaitech.com/product/xt16-32-32m/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "16 channels; 690,000 pts/s (dual)",
+        "source": {
+          "title": "Hesai XT16/32/32M",
+          "url": "https://www.hesaitech.com/product/xt16-32-32m/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 360.0,
+        "source": {
+          "title": "Hesai XT16/32/32M",
+          "url": "https://www.hesaitech.com/product/xt16-32-32m/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 20.0,
+        "source": {
+          "title": "Hesai XT16/32/32M",
+          "url": "https://www.hesaitech.com/product/xt16-32-32m/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-livox-mid360",
@@ -10723,7 +14183,49 @@
         "targetId": "sensor-livox-mid40",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 0.1,
+        "source": {
+          "title": "Livox Mid-360",
+          "url": "https://www.livoxtech.com/mid-360",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "~200,000 pts/s",
+        "source": {
+          "title": "Livox Mid-360",
+          "url": "https://www.livoxtech.com/mid-360",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 360.0,
+        "source": {
+          "title": "Livox Mid-360",
+          "url": "https://www.livoxtech.com/mid-360",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 10.0,
+        "source": {
+          "title": "Livox Mid-360",
+          "url": "https://www.livoxtech.com/mid-360",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-livox-hap",
@@ -10770,7 +14272,49 @@
         "targetId": "sensor-livox-mid40",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 150.0,
+        "source": {
+          "title": "Livox HAP",
+          "url": "https://www.livoxtech.com/hap",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "0.18°x0.23° angular; 452,000 pts/s",
+        "source": {
+          "title": "Livox HAP",
+          "url": "https://www.livoxtech.com/hap",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 120.0,
+        "source": {
+          "title": "Livox HAP",
+          "url": "https://www.livoxtech.com/hap",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 10.0,
+        "source": {
+          "title": "Livox HAP",
+          "url": "https://www.livoxtech.com/hap",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-livox-mid40",
@@ -10816,7 +14360,49 @@
         "targetId": "sensor-livox-mid360",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "range_m": {
+        "value": 260.0,
+        "source": {
+          "title": "Livox Mid-40",
+          "url": "https://www.livoxtech.com/mid-40-and-mid-100",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "resolution": {
+        "value": "100,000 pts/s; <0.05° angular accuracy",
+        "source": {
+          "title": "Livox Mid-40",
+          "url": "https://www.livoxtech.com/mid-40-and-mid-100",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "fov_deg": {
+        "value": 38.4,
+        "source": {
+          "title": "Livox Mid-40",
+          "url": "https://www.livoxtech.com/mid-40-and-mid-100",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 10.0,
+        "source": {
+          "title": "Livox Mid-40",
+          "url": "https://www.livoxtech.com/mid-40-and-mid-100",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-vectornav-vn100",
@@ -10846,7 +14432,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "resolution": {
+        "value": "0.5° pitch/roll, 2.0° heading",
+        "source": {
+          "title": "VectorNav VN-100",
+          "url": "https://www.vectornav.com/products/detail/vn-100",
+          "type": "official"
+        },
+        "asOf": "2009",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 800.0,
+        "source": {
+          "title": "VectorNav VN-100",
+          "url": "https://www.vectornav.com/products/detail/vn-100",
+          "type": "official"
+        },
+        "asOf": "2009",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-bosch-bmi270",
@@ -10877,7 +14485,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "resolution": {
+        "value": "16-bit",
+        "source": {
+          "title": "Bosch BMI270",
+          "url": "https://www.bosch-sensortec.com/en/products/motion-sensors/imus/bmi270",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 6400.0,
+        "source": {
+          "title": "Bosch BMI270",
+          "url": "https://www.bosch-sensortec.com/en/products/motion-sensors/imus/bmi270",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sensor-xsens-mti300",
@@ -10908,7 +14538,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "resolution": {
+        "value": "0.2° static accuracy",
+        "source": {
+          "title": "Xsens MTi-300 AHRS",
+          "url": "https://www.xsens.com/sensor-modules/xsens-mti-300-ahrs",
+          "type": "official"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      },
+      "frame_rate_hz": {
+        "value": 400.0,
+        "source": {
+          "title": "Xsens MTi-300 AHRS",
+          "url": "https://www.xsens.com/sensor-modules/xsens-mti-300-ahrs",
+          "type": "official"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "comp-harmonic-csf-2up",
@@ -10946,7 +14598,29 @@
         "targetId": "c1",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "type": {
+        "value": "Strain Wave Reducer (ultra-flat)",
+        "source": {
+          "title": "Harmonic Drive CSF-2UP",
+          "url": "https://www.harmonicdrive.net/products/gear-units/miniature-gear-units/csf-2up",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "torque_nm": {
+        "value": 1.0,
+        "source": {
+          "title": "Harmonic Drive CSF-2UP",
+          "url": "https://www.harmonicdrive.net/products/gear-units/miniature-gear-units/csf-2up",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "comp-nabtesco-rv-n",
@@ -10983,7 +14657,19 @@
         "targetId": "comp-nabtesco-rv-c",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "type": {
+        "value": "Cycloidal Reducer",
+        "source": {
+          "title": "Nabtesco RV-N Series",
+          "url": "https://www.nabtesco.de/en/products/series/rv-n",
+          "type": "official"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "comp-nabtesco-rv-c",
@@ -11020,7 +14706,19 @@
         "targetId": "comp-nabtesco-rv-n",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "type": {
+        "value": "Cycloidal Reducer (hollow-shaft)",
+        "source": {
+          "title": "Nabtesco RV Series",
+          "url": "https://www.nabtesco.de/en/products/series/rv",
+          "type": "official"
+        },
+        "asOf": "2010",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "comp-spinea-twinspin-t",
@@ -11049,7 +14747,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "type": {
+        "value": "Cycloidal Reducer (cylindrical case)",
+        "source": {
+          "title": "Spinea TwinSpin T-Series",
+          "url": "https://www.spinea.com/en/products/twinspin/t-series",
+          "type": "official"
+        },
+        "asOf": "2010",
+        "confidence": "reported"
+      },
+      "torque_nm": {
+        "value": 200.0,
+        "source": {
+          "title": "Spinea TwinSpin T-Series",
+          "url": "https://www.spinea.com/en/products/twinspin/t-series",
+          "type": "official"
+        },
+        "asOf": "2010",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "comp-leader-drive-lhs",
@@ -11078,7 +14798,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "type": {
+        "value": "Strain Wave Reducer (cup type)",
+        "source": {
+          "title": "Leader Harmonic Drive",
+          "url": "https://leaderdrivereducer.en.ec21.com/",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "comp-laifual-lss",
@@ -11107,7 +14839,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "type": {
+        "value": "Strain Wave Reducer (cup type, ultra-flat option)",
+        "source": {
+          "title": "Laifual Harmonic Drive catalog",
+          "url": "https://www.laifual-drive.com/products-category/harmonic-drive.html",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "comp-zd-rv-reducer",
@@ -11137,7 +14881,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "type": {
+        "value": "Cycloidal Reducer (RV pin-wheel)",
+        "source": {
+          "title": "ZD RV Cycloidal Reducer",
+          "url": "https://en.zd-motor.com/products/10.html",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "comp-maxon-ec-frameless-90",
@@ -11166,7 +14922,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "type": {
+        "value": "Frameless Brushless DC Motor",
+        "source": {
+          "title": "Maxon EC frameless 90",
+          "url": "https://www.maxongroup.com/maxon/view/product/motor/ecmotor/ecframeless/EC90Frameless/542099",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "comp-tecnotion-qtl",
@@ -11195,7 +14963,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "type": {
+        "value": "Frameless Torque Motor",
+        "source": {
+          "title": "Tecnotion QTL Series",
+          "url": "https://www.tecnotion.com/product-category/qtl/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "torque_nm": {
+        "value": 407.0,
+        "source": {
+          "title": "Tecnotion QTL Series",
+          "url": "https://www.tecnotion.com/product-category/qtl/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "comp-faulhaber-bx4",
@@ -11224,7 +15014,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "type": {
+        "value": "Brushless DC Servomotor (4-pole)",
+        "source": {
+          "title": "Faulhaber BX4 Brushless DC Motors",
+          "url": "https://www.faulhaber.com/en/products/brushless-dc-motors/",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "torque_nm": {
+        "value": 0.099,
+        "source": {
+          "title": "Faulhaber BX4 Brushless DC Motors",
+          "url": "https://www.faulhaber.com/en/products/brushless-dc-motors/",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "comp-renishaw-resolute",
@@ -11254,7 +15066,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "type": {
+        "value": "Optical Absolute Encoder (linear/rotary)",
+        "source": {
+          "title": "Renishaw RESOLUTE Series",
+          "url": "https://www.renishaw.com/en/resolute-optical-absolute-encoder-series--37823",
+          "type": "official"
+        },
+        "asOf": "2008",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "comp-heidenhain-ecn1325",
@@ -11284,7 +15108,19 @@
         "type": "datasheet"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "type": {
+        "value": "Singleturn Absolute Rotary Encoder",
+        "source": {
+          "title": "Heidenhain ECN 1325",
+          "url": "https://www.heidenhain.de/fileadmin/pdf/en/01_Products/Produktinformationen/PI_ECN1325_EQN1337_FS_Hollow_shaft_ID1378231_en.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "comp-ams-as5048a",
@@ -11314,7 +15150,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "type": {
+        "value": "Magnetic Rotary Encoder IC",
+        "source": {
+          "title": "ams AS5048A",
+          "url": "https://ams-osram.com/products/sensor-solutions/position-sensors/ams-as5048a-high-resolution-position-sensor",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "comp-thk-shs",
@@ -11343,7 +15191,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "type": {
+        "value": "Linear Motion Guide (caged ball)",
+        "source": {
+          "title": "THK SHS Linear Motion Guide",
+          "url": "https://www.thkstore.com/mwdownloads/download/link/id/373/",
+          "type": "official"
+        },
+        "asOf": "2002",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "pwr-spot-battery",
@@ -11390,7 +15250,39 @@
         "role": "tech-base",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "capacity_wh": {
+        "value": 564.0,
+        "source": {
+          "title": "Spot Battery and Charging System",
+          "url": "https://support.bostondynamics.com/s/article/Spot-Battery-and-Charging-System-72069",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "voltage_v": {
+        "value": 72.0,
+        "source": {
+          "title": "Spot Battery and Charging System",
+          "url": "https://support.bostondynamics.com/s/article/Spot-Battery-and-Charging-System-72069",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "runtime_min": {
+        "value": 90.0,
+        "source": {
+          "title": "Spot Battery and Charging System",
+          "url": "https://support.bostondynamics.com/s/article/Spot-Battery-and-Charging-System-72069",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "pwr-unitree-h1-battery",
@@ -11433,7 +15325,19 @@
         "role": "tech-base",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "voltage_v": {
+        "value": 67.2,
+        "source": {
+          "title": "Unitree H1 official",
+          "url": "https://www.unitree.com/h1",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "pwr-inspired-energy-nl2020",
@@ -11463,7 +15367,29 @@
         "type": "datasheet"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "capacity_wh": {
+        "value": 8.8,
+        "source": {
+          "title": "NL2020ED22 Data Sheet",
+          "url": "https://inspired-energy.com/product-data-sheets-downloads/details/3/98-nl2020ed22",
+          "type": "datasheet"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "voltage_v": {
+        "value": 10.8,
+        "source": {
+          "title": "NL2020ED22 Data Sheet",
+          "url": "https://inspired-energy.com/product-data-sheets-downloads/details/3/98-nl2020ed22",
+          "type": "datasheet"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "pwr-bren-tronics-bb2590",
@@ -11493,7 +15419,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "capacity_wh": {
+        "value": 9.9,
+        "source": {
+          "title": "BT-70791CG BB-2590/U",
+          "url": "https://www.bren-tronics.com/bt-70791cg.html",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "voltage_v": {
+        "value": 14.4,
+        "source": {
+          "title": "BT-70791CG BB-2590/U",
+          "url": "https://www.bren-tronics.com/bt-70791cg.html",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "teleop-aloha",
@@ -11544,7 +15492,19 @@
         "targetId": "teleop-mobile-aloha",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "Learning Fine-Grained Bimanual Manipulation",
+          "url": "https://arxiv.org/abs/2304.13705",
+          "type": "paper"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "teleop-mobile-aloha",
@@ -11593,7 +15553,19 @@
         "targetId": "teleop-aloha",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "Mobile ALOHA project page",
+          "url": "https://mobile-aloha.github.io/",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "teleop-gello",
@@ -11678,7 +15650,19 @@
         "type": "paper"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "UMI project page",
+          "url": "https://umi-gripper.github.io/",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "teleop-open-television",
@@ -11714,7 +15698,19 @@
         "type": "paper"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "dof": {
+        "value": 2.0,
+        "source": {
+          "title": "Open-TeleVision arXiv",
+          "url": "https://arxiv.org/abs/2407.01512",
+          "type": "paper"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "teleop-senseglove-nova2",
@@ -11744,7 +15740,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "dof": {
+        "value": 5.0,
+        "source": {
+          "title": "SenseGlove Nova 2",
+          "url": "https://www.senseglove.com/product/nova-2/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "teleop-manus-quantum",
@@ -11779,7 +15787,19 @@
         "targetId": "teleop-manus-prime-x-haptic",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "dof": {
+        "value": 3.0,
+        "source": {
+          "title": "Manus Quantum Metagloves",
+          "url": "https://www.manus-meta.com/products/quantum-metagloves",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "teleop-manus-prime-x-haptic",
@@ -11813,7 +15833,19 @@
         "targetId": "teleop-manus-quantum",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "dof": {
+        "value": 9.0,
+        "source": {
+          "title": "Manus Prime X Series launch",
+          "url": "https://www.auganix.org/manus-launches-prime-x-series-gloves-for-mocap-and-haptic-vr-usage/",
+          "type": "wiki"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "teleop-teslasuit",
@@ -11843,7 +15875,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "dof": {
+        "value": 14.0,
+        "source": {
+          "title": "Teslasuit official site",
+          "url": "https://teslasuit.io/",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "teleop-apple-vision-pro",
@@ -11908,7 +15952,19 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "Meta Quest 3 - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Meta_Quest_3",
+          "type": "wiki"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "teleop-force-dimension-omega7",
@@ -11938,7 +15994,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "dof": {
+        "value": 7.0,
+        "source": {
+          "title": "Force Dimension omega.7",
+          "url": "https://www.forcedimension.com/products/omega",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "teleop-3dsystems-touch",
@@ -11968,7 +16036,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "dof": {
+        "value": 6.0,
+        "source": {
+          "title": "3D Systems Touch",
+          "url": "https://www.3dsystems.com/haptics-devices/touch",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "teleop-cyberglove-iii",
@@ -11997,7 +16077,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "dof": {
+        "value": 18.0,
+        "source": {
+          "title": "CyberGlove III",
+          "url": "https://www.cyberglovesystems.com/cyberglove-iii",
+          "type": "official"
+        },
+        "asOf": "2010",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "teleop-5dt-data-glove-ultra",
@@ -12026,7 +16118,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "dof": {
+        "value": 5.0,
+        "source": {
+          "title": "5DT Data Glove Ultra",
+          "url": "https://5dt.com/5dt-data-glove-ultra/",
+          "type": "official"
+        },
+        "asOf": "2011",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "cp-jetson-orin-nx",
@@ -12084,7 +16188,29 @@
         "targetId": "cp1",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "ram_gb": {
+        "value": 16.0,
+        "source": {
+          "title": "Jetson Orin family",
+          "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "power_w": {
+        "value": 10.0,
+        "source": {
+          "title": "Jetson Orin family",
+          "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "cp-jetson-orin-nano",
@@ -12142,7 +16268,29 @@
         "targetId": "cp1",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "ram_gb": {
+        "value": 8.0,
+        "source": {
+          "title": "Jetson Orin family",
+          "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "power_w": {
+        "value": 7.0,
+        "source": {
+          "title": "Jetson Orin family",
+          "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "cp-jetson-agx-thor",
@@ -12223,7 +16371,29 @@
         "targetId": "cp1",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "ram_gb": {
+        "value": 128.0,
+        "source": {
+          "title": "Jetson AGX Thor",
+          "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "power_w": {
+        "value": 40.0,
+        "source": {
+          "title": "Jetson AGX Thor",
+          "url": "https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "cp-jetson-nano",
@@ -12280,7 +16450,29 @@
         "targetId": "cp1",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "ram_gb": {
+        "value": 4.0,
+        "source": {
+          "title": "Nvidia Jetson - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nvidia_Jetson",
+          "type": "wiki"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "power_w": {
+        "value": 5.0,
+        "source": {
+          "title": "Nvidia Jetson - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nvidia_Jetson",
+          "type": "wiki"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "cp-jetson-agx-xavier",
@@ -12337,7 +16529,29 @@
         "targetId": "cp1",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "ram_gb": {
+        "value": 32.0,
+        "source": {
+          "title": "Nvidia Jetson - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nvidia_Jetson",
+          "type": "wiki"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "power_w": {
+        "value": 10.0,
+        "source": {
+          "title": "Nvidia Jetson - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nvidia_Jetson",
+          "type": "wiki"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "cp-hailo-8",
@@ -12375,7 +16589,29 @@
         "targetId": "cp-hailo-10h",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "tops": {
+        "value": 26.0,
+        "source": {
+          "title": "Hailo-8 AI Accelerator",
+          "url": "https://hailo.ai/products/ai-accelerators/hailo-8-ai-accelerator/",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "power_w": {
+        "value": 2.5,
+        "source": {
+          "title": "Hailo-8 AI Accelerator",
+          "url": "https://hailo.ai/products/ai-accelerators/hailo-8-ai-accelerator/",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "cp-hailo-10h",
@@ -12413,7 +16649,29 @@
         "targetId": "cp-hailo-8",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "ram_gb": {
+        "value": 4.0,
+        "source": {
+          "title": "Hailo-10H",
+          "url": "https://hailo.ai/products/ai-accelerators/hailo-10h-ai-accelerator/",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "power_w": {
+        "value": 2.5,
+        "source": {
+          "title": "Hailo-10H",
+          "url": "https://hailo.ai/products/ai-accelerators/hailo-10h-ai-accelerator/",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "cp-radxa-rock-5b",
@@ -12445,7 +16703,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "ram_gb": {
+        "value": 4.0,
+        "source": {
+          "title": "Radxa ROCK 5B",
+          "url": "https://radxa.com/products/rock5/5b/",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "cp-coral-dev-board",
@@ -12481,7 +16751,29 @@
         "targetId": "ind-deepmind-robotics",
         "role": "manufacturer"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "ram_gb": {
+        "value": 1.0,
+        "source": {
+          "title": "Coral Dev Board datasheet",
+          "url": "https://www.coral.ai/docs/dev-board/datasheet/",
+          "type": "datasheet"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "power_w": {
+        "value": 2.0,
+        "source": {
+          "title": "Coral Dev Board datasheet",
+          "url": "https://www.coral.ai/docs/dev-board/datasheet/",
+          "type": "datasheet"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "cp-qualcomm-robotics-rb5",
@@ -12512,7 +16804,19 @@
         "type": "datasheet"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "ram_gb": {
+        "value": 8.0,
+        "source": {
+          "title": "Qualcomm Robotics RB5 Product Brief",
+          "url": "https://www.qualcomm.com/content/dam/qcomm-martech/dm-assets/documents/qualcomm-robotics-rb5-platform-product-brief.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "cp-intel-nuc-13-pro",
@@ -12543,7 +16847,29 @@
         "type": "datasheet"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "ram_gb": {
+        "value": 64.0,
+        "source": {
+          "title": "Intel NUC 13 Pro Spec",
+          "url": "https://www.intel.com/content/dam/support/us/en/documents/intel-nuc/NUC13AN_TechProdSpec.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "power_w": {
+        "value": 15.0,
+        "source": {
+          "title": "Intel NUC 13 Pro Spec",
+          "url": "https://www.intel.com/content/dam/support/us/en/documents/intel-nuc/NUC13AN_TechProdSpec.pdf",
+          "type": "datasheet"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "cp-apple-mac-mini-m4",
@@ -12578,7 +16904,19 @@
     ],
     "relatedIds": [
       "teleop-apple-vision-pro"
-    ]
+    ],
+    "sourcedSpecs": {
+      "ram_gb": {
+        "value": 16.0,
+        "source": {
+          "title": "Mac mini Technical Specifications",
+          "url": "https://www.apple.com/mac-mini/specs/",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "flagship-robotera-l7",
@@ -12635,7 +16973,49 @@
         "targetId": "f105",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "height_cm": {
+        "value": 171.0,
+        "source": {
+          "title": "RobotEra L7",
+          "url": "https://www.robotera.com/en/robotics/L7.html",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 65.0,
+        "source": {
+          "title": "RobotEra L7",
+          "url": "https://www.robotera.com/en/robotics/L7.html",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 55.0,
+        "source": {
+          "title": "RobotEra L7",
+          "url": "https://www.robotera.com/en/robotics/L7.html",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "top_speed_mps": {
+        "value": 1.1111,
+        "source": {
+          "title": "RobotEra L7",
+          "url": "https://www.robotera.com/en/robotics/L7.html",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "flagship-xpeng-iron-nextgen",
@@ -12691,7 +17071,39 @@
         "targetId": "f128",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "height_cm": {
+        "value": 173.0,
+        "source": {
+          "title": "XPENG Physical AI Emergence",
+          "url": "https://www.xpeng.com/news/019a56f54fe99a2a0a8d8a0282e402b7",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 70.0,
+        "source": {
+          "title": "XPENG Physical AI Emergence",
+          "url": "https://www.xpeng.com/news/019a56f54fe99a2a0a8d8a0282e402b7",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 82.0,
+        "source": {
+          "title": "XPENG Physical AI Emergence",
+          "url": "https://www.xpeng.com/news/019a56f54fe99a2a0a8d8a0282e402b7",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "flagship-galbot-g1",
@@ -12749,6 +17161,38 @@
         "targetId": "f111",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "height_cm": {
+        "value": 173.0,
+        "source": {
+          "title": "Galbot G1 official",
+          "url": "https://www.galbot.com/g1",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "weight_kg": {
+        "value": 85.0,
+        "source": {
+          "title": "Galbot G1 official",
+          "url": "https://www.galbot.com/g1",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "dof": {
+        "value": 47.0,
+        "source": {
+          "title": "Galbot G1 official",
+          "url": "https://www.galbot.com/g1",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   }
 ]

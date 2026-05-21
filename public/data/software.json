@@ -49,7 +49,29 @@
         "targetId": "f1",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "params_b": {
+        "value": 7.0,
+        "source": {
+          "title": "OpenVLA: An Open-Source Vision-Language-Action Model (arXiv)",
+          "url": "https://arxiv.org/abs/2406.09246",
+          "type": "paper"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "training_data_size": {
+        "value": "970K demonstrations from Open X-Embodiment",
+        "source": {
+          "title": "OpenVLA: An Open-Source Vision-Language-Action Model (arXiv)",
+          "url": "https://arxiv.org/abs/2406.09246",
+          "type": "paper"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw2",
@@ -119,7 +141,19 @@
         "targetId": "sw7",
         "role": "trained-on"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "training_data_size": {
+        "value": "1M+ real robot trajectories, 22 embodiments, 527 skills",
+        "source": {
+          "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models (arXiv)",
+          "url": "https://arxiv.org/abs/2310.08864",
+          "type": "paper"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw3",
@@ -174,7 +208,19 @@
         "targetId": "sw5",
         "role": "tech-base"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "license": {
+        "value": "BSD-3-Clause (Apache-2.0 for isaaclab_mimic)",
+        "source": {
+          "title": "NVIDIA Isaac Lab GitHub",
+          "url": "https://github.com/isaac-sim/IsaacLab",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw4",
@@ -218,7 +264,19 @@
         "targetId": "lab-sail",
         "role": "affiliated-with"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "language": {
+        "value": "Python/PyTorch",
+        "source": {
+          "title": "What Matters in Learning from Offline Human Demonstrations for Robot Manipulation (RoboMimic)",
+          "url": "https://arxiv.org/abs/2108.03298",
+          "type": "paper"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw5",
@@ -346,7 +404,19 @@
         "targetId": "sw-robocasa",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "license": {
+        "value": "Apache 2.0 (since 2022)",
+        "source": {
+          "title": "MuJoCo official site",
+          "url": "https://mujoco.org/",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw7",
@@ -541,7 +611,29 @@
         "targetId": "lab-eth-rsl",
         "role": "affiliated-with"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "language": {
+        "value": "C++",
+        "source": {
+          "title": "OCS2 documentation",
+          "url": "https://leggedrobotics.github.io/ocs2/overview.html",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "BSD-3-Clause",
+        "source": {
+          "title": "OCS2 documentation",
+          "url": "https://leggedrobotics.github.io/ocs2/overview.html",
+          "type": "official"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-ddp-ilqr",
@@ -923,7 +1015,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "license": {
+        "value": "Apache 2.0",
+        "source": {
+          "title": "Gazebo - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gazebo_(simulator)",
+          "type": "wiki"
+        },
+        "asOf": "2004",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-pybullet",
@@ -980,7 +1084,29 @@
         "targetId": "sw-gensim",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "engine": {
+        "value": "Bullet Physics SDK",
+        "source": {
+          "title": "PyBullet official site",
+          "url": "https://pybullet.org/",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "Zlib",
+        "source": {
+          "title": "PyBullet official site",
+          "url": "https://pybullet.org/",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-sapien",
@@ -1162,7 +1288,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "license": {
+        "value": "Apache 2.0 (open-source since 2018)",
+        "source": {
+          "title": "Cyberbotics / Webots official site",
+          "url": "https://cyberbotics.com/",
+          "type": "official"
+        },
+        "asOf": "1998",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-coppeliasim",
@@ -1255,7 +1393,19 @@
         "targetId": "lab-mit-csail",
         "role": "affiliated-with"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "license": {
+        "value": "BSD-3-Clause",
+        "source": {
+          "title": "Drake official site",
+          "url": "https://drake.mit.edu/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-droid",
@@ -1318,7 +1468,39 @@
         "role": "trained-on",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "episodes": {
+        "value": 76000.0,
+        "source": {
+          "title": "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset",
+          "url": "https://arxiv.org/abs/2403.12945",
+          "type": "paper"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "hours": {
+        "value": 350.0,
+        "source": {
+          "title": "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset",
+          "url": "https://arxiv.org/abs/2403.12945",
+          "type": "paper"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "tasks": {
+        "value": 84.0,
+        "source": {
+          "title": "DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset",
+          "url": "https://arxiv.org/abs/2403.12945",
+          "type": "paper"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-bridgedata-v2",
@@ -1370,7 +1552,19 @@
         "targetId": "sw-fmb",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "episodes": {
+        "value": 60096.0,
+        "source": {
+          "title": "BridgeData V2: A Dataset for Robot Learning at Scale",
+          "url": "https://arxiv.org/abs/2308.12952",
+          "type": "paper"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-mobile-aloha",
@@ -1417,7 +1611,19 @@
         "targetId": "sw-roboturk",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "episodes": {
+        "value": 50.0,
+        "source": {
+          "title": "Mobile ALOHA: Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation",
+          "url": "https://arxiv.org/abs/2401.02117",
+          "type": "paper"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-agibot-world",
@@ -1470,7 +1676,29 @@
         "role": "trained-on",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "episodes": {
+        "value": 1000000.0,
+        "source": {
+          "title": "AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems",
+          "url": "https://arxiv.org/abs/2503.06669",
+          "type": "paper"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "tasks": {
+        "value": 217.0,
+        "source": {
+          "title": "AgiBot World Colosseo: A Large-scale Manipulation Platform for Scalable and Intelligent Embodied Systems",
+          "url": "https://arxiv.org/abs/2503.06669",
+          "type": "paper"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-rh20t",
@@ -1511,7 +1739,19 @@
         "targetId": "stg-lab-sjtu",
         "role": "affiliated-with"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "episodes": {
+        "value": 110000.0,
+        "source": {
+          "title": "RH20T: A Comprehensive Robotic Dataset for Learning Diverse Skills in One-Shot",
+          "url": "https://arxiv.org/abs/2307.00595",
+          "type": "paper"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-ario",
@@ -1547,7 +1787,19 @@
         "type": "paper"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "episodes": {
+        "value": 3000000.0,
+        "source": {
+          "title": "All Robots in One: A New Standard and Unified Dataset for Versatile, General-Purpose Embodied Agents",
+          "url": "https://arxiv.org/abs/2408.10899",
+          "type": "paper"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-robomind",
@@ -1589,7 +1841,29 @@
         "targetId": "stg-lab-baai",
         "role": "affiliated-with"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "episodes": {
+        "value": 107000.0,
+        "source": {
+          "title": "RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation",
+          "url": "https://arxiv.org/abs/2412.13877",
+          "type": "paper"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "tasks": {
+        "value": 479.0,
+        "source": {
+          "title": "RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation",
+          "url": "https://arxiv.org/abs/2412.13877",
+          "type": "paper"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-robovqa",
@@ -1695,7 +1969,19 @@
         "targetId": "lab-upenn-grasp",
         "role": "affiliated-with"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "episodes": {
+        "value": 162000.0,
+        "source": {
+          "title": "RoboNet: Large-Scale Multi-Robot Learning",
+          "url": "https://arxiv.org/abs/1910.11215",
+          "type": "paper"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-roboturk",
@@ -1740,7 +2026,29 @@
         "targetId": "sw-mobile-aloha",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "episodes": {
+        "value": 2200.0,
+        "source": {
+          "title": "RoboTurk: A Crowdsourcing Platform for Robotic Skill Learning through Imitation",
+          "url": "https://arxiv.org/abs/1811.02790",
+          "type": "paper"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "hours": {
+        "value": 137.5,
+        "source": {
+          "title": "RoboTurk: A Crowdsourcing Platform for Robotic Skill Learning through Imitation",
+          "url": "https://arxiv.org/abs/1811.02790",
+          "type": "paper"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-language-table",
@@ -1780,7 +2088,19 @@
         "targetId": "ind-deepmind-robotics",
         "role": "manufacturer"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "episodes": {
+        "value": 600000.0,
+        "source": {
+          "title": "Interactive Language: Talking to Robots in Real Time",
+          "url": "https://arxiv.org/abs/2210.06407",
+          "type": "paper"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-bc-z",
@@ -1827,7 +2147,19 @@
         "targetId": "lab-sail",
         "role": "affiliated-with"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "tasks": {
+        "value": 100.0,
+        "source": {
+          "title": "BC-Z: Zero-Shot Task Generalization with Robotic Imitation Learning",
+          "url": "https://arxiv.org/abs/2202.02005",
+          "type": "paper"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-fmb",
@@ -1921,7 +2253,29 @@
         "targetId": "lab-bair-autolab",
         "role": "affiliated-with"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "episodes": {
+        "value": 896.0,
+        "source": {
+          "title": "Berkeley UR5 Demonstration Dataset",
+          "url": "https://sites.google.com/view/berkeley-ur5/home",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "tasks": {
+        "value": 5.0,
+        "source": {
+          "title": "Berkeley UR5 Demonstration Dataset",
+          "url": "https://sites.google.com/view/berkeley-ur5/home",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-maniskill3",
@@ -2065,7 +2419,19 @@
         "targetId": "sw6",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "tasks": {
+        "value": 50.0,
+        "source": {
+          "title": "Meta-World: A Benchmark and Evaluation for Multi-Task and Meta Reinforcement Learning",
+          "url": "https://arxiv.org/abs/1910.10897",
+          "type": "paper"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-robocasa",
@@ -2113,7 +2479,19 @@
         "targetId": "sw6",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "tasks": {
+        "value": 100.0,
+        "source": {
+          "title": "RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots",
+          "url": "https://arxiv.org/abs/2406.02523",
+          "type": "paper"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-calvin",
@@ -2155,7 +2533,19 @@
         "targetId": "sw-pybullet",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "tasks": {
+        "value": 34.0,
+        "source": {
+          "title": "CALVIN: A Benchmark for Language-Conditioned Policy Learning for Long-Horizon Robot Manipulation Tasks",
+          "url": "https://arxiv.org/abs/2112.03227",
+          "type": "paper"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-libero",
@@ -2197,7 +2587,19 @@
         "targetId": "sw6",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "tasks": {
+        "value": 130.0,
+        "source": {
+          "title": "LIBERO: Benchmarking Knowledge Transfer for Lifelong Robot Learning",
+          "url": "https://arxiv.org/abs/2306.03310",
+          "type": "paper"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-rlbench",
@@ -2241,7 +2643,19 @@
         "targetId": "sw-coppeliasim",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "tasks": {
+        "value": 100.0,
+        "source": {
+          "title": "RLBench: The Robot Learning Benchmark & Learning Environment",
+          "url": "https://arxiv.org/abs/1909.12271",
+          "type": "paper"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-behavior-1k",
@@ -2283,7 +2697,19 @@
         "targetId": "lab-sail",
         "role": "affiliated-with"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "tasks": {
+        "value": 1000.0,
+        "source": {
+          "title": "BEHAVIOR-1K: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation",
+          "url": "https://arxiv.org/abs/2403.09227",
+          "type": "paper"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-furniturebench",
@@ -2465,7 +2891,19 @@
         "targetId": "ind1",
         "role": "manufacturer"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "tasks": {
+        "value": 8.0,
+        "source": {
+          "title": "RoboEval: Where Robotic Manipulation Meets Structured and Scalable Evaluation",
+          "url": "https://arxiv.org/abs/2507.00435",
+          "type": "paper"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-habitat2",
@@ -2601,7 +3039,19 @@
         "targetId": "sw-pybullet",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "tasks": {
+        "value": 100.0,
+        "source": {
+          "title": "GenSim: Generating Robotic Simulation Tasks via Large Language Models",
+          "url": "https://arxiv.org/abs/2310.01361",
+          "type": "paper"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-robogen",
@@ -2692,7 +3142,29 @@
     "relatedIds": [],
     "seriesId": "google-rt",
     "seriesOrder": 1,
-    "seriesLabel": "RT-1 (2022)"
+    "seriesLabel": "RT-1 (2022)",
+    "sourcedSpecs": {
+      "params_b": {
+        "value": 35.0,
+        "source": {
+          "title": "RT-1: Robotics Transformer for Real-World Control at Scale (arXiv)",
+          "url": "https://arxiv.org/abs/2212.06817",
+          "type": "paper"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "training_data_size": {
+        "value": "130k episodes, 700+ tasks, 13 robots, 17 months",
+        "source": {
+          "title": "RT-1: Robotics Transformer for Real-World Control at Scale (arXiv)",
+          "url": "https://arxiv.org/abs/2212.06817",
+          "type": "paper"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-rt2",
@@ -2759,7 +3231,19 @@
         "targetId": "sw2",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "params_b": {
+        "value": 55.0,
+        "source": {
+          "title": "RT-2 arXiv abstract",
+          "url": "https://arxiv.org/abs/2307.15818",
+          "type": "paper"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-pi0",
@@ -2817,7 +3301,19 @@
         "targetId": "sw-pi05",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "training_data_size": {
+        "value": "Data from 7 robot platforms, 68 unique tasks",
+        "source": {
+          "title": "π0 arXiv abstract",
+          "url": "https://arxiv.org/abs/2410.24164",
+          "type": "paper"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-pi05",
@@ -2922,7 +3418,29 @@
         "targetId": "sw7",
         "role": "trained-on"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "params_b": {
+        "value": 0.027,
+        "source": {
+          "title": "Octo arXiv abstract",
+          "url": "https://arxiv.org/abs/2405.12213",
+          "type": "paper"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "training_data_size": {
+        "value": "800K trajectories from Open X-Embodiment",
+        "source": {
+          "title": "Octo arXiv abstract",
+          "url": "https://arxiv.org/abs/2405.12213",
+          "type": "paper"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-gr1",
@@ -3051,7 +3569,19 @@
         "targetId": "ind-figure",
         "role": "manufacturer"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "training_data_size": {
+        "value": "~500 hours teleoperated demonstrations",
+        "source": {
+          "title": "Helix announcement (Figure AI official)",
+          "url": "https://www.figure.ai/news/helix",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-palm-e",
@@ -3090,7 +3620,19 @@
         "targetId": "ind-deepmind-robotics",
         "role": "manufacturer"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "params_b": {
+        "value": 562.0,
+        "source": {
+          "title": "PaLM-E arXiv",
+          "url": "https://arxiv.org/abs/2303.03378",
+          "type": "paper"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-robocat",
@@ -3322,7 +3864,19 @@
         "targetId": "lab-sail",
         "role": "affiliated-with"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "training_data_size": {
+        "value": "100+ distinct tasks, 110K+ episodes",
+        "source": {
+          "title": "BC-Z arXiv",
+          "url": "https://arxiv.org/abs/2202.02005",
+          "type": "paper"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-groot-n1",
@@ -3384,7 +3938,19 @@
         "targetId": "sw-groot-n1-5",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "training_data_size": {
+        "value": "Real robot trajectories + human videos + synthetic data (780K synthetic trajectories)",
+        "source": {
+          "title": "GR00T N1 arXiv",
+          "url": "https://arxiv.org/abs/2503.14734",
+          "type": "paper"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-cogact",
@@ -3431,7 +3997,29 @@
         "targetId": "sw7",
         "role": "trained-on"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "params_b": {
+        "value": 7.0,
+        "source": {
+          "title": "CogACT arXiv",
+          "url": "https://arxiv.org/abs/2411.19650",
+          "type": "paper"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "training_data_size": {
+        "value": "400K trajectories from Open X-Embodiment",
+        "source": {
+          "title": "CogACT arXiv",
+          "url": "https://arxiv.org/abs/2411.19650",
+          "type": "paper"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-tinyvla",
@@ -3505,7 +4093,29 @@
         "targetId": "lab-tsinghua-tea",
         "role": "affiliated-with"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "params_b": {
+        "value": 1.2,
+        "source": {
+          "title": "RDT-1B arXiv",
+          "url": "https://arxiv.org/abs/2410.07864",
+          "type": "paper"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "training_data_size": {
+        "value": "46 datasets, 1M+ episodes; +6K ALOHA bimanual fine-tune",
+        "source": {
+          "title": "RDT-1B arXiv",
+          "url": "https://arxiv.org/abs/2410.07864",
+          "type": "paper"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-sara-rt",
@@ -3598,7 +4208,19 @@
         "type": "paper"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "params_b": {
+        "value": 0.01,
+        "source": {
+          "title": "ScaleDP arXiv",
+          "url": "https://arxiv.org/abs/2409.14411",
+          "type": "paper"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-lerobot",
@@ -3633,7 +4255,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "language": {
+        "value": "Python (PyTorch)",
+        "source": {
+          "title": "LeRobot GitHub README",
+          "url": "https://github.com/huggingface/lerobot",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "Apache-2.0",
+        "source": {
+          "title": "LeRobot GitHub README",
+          "url": "https://github.com/huggingface/lerobot",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-moveit2",
@@ -3668,7 +4312,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "license": {
+        "value": "BSD-3-Clause",
+        "source": {
+          "title": "MoveIt 2 GitHub",
+          "url": "https://github.com/moveit/moveit2",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-openrmf-framework",
@@ -3703,7 +4359,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "license": {
+        "value": "Apache-2.0",
+        "source": {
+          "title": "Open-RMF GitHub",
+          "url": "https://github.com/open-rmf/rmf",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-ros2-control-framework",
@@ -3748,7 +4416,19 @@
         "targetId": "ind-pal-robotics",
         "role": "manufacturer"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "license": {
+        "value": "Apache-2.0",
+        "source": {
+          "title": "ros2_control GitHub",
+          "url": "https://github.com/ros-controls/ros2_control",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-pinocchio",
@@ -3783,7 +4463,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "language": {
+        "value": "C++ with Python bindings",
+        "source": {
+          "title": "Pinocchio GitHub README",
+          "url": "https://github.com/stack-of-tasks/pinocchio",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "BSD-2-Clause",
+        "source": {
+          "title": "Pinocchio GitHub README",
+          "url": "https://github.com/stack-of-tasks/pinocchio",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-crocoddyl",
@@ -3823,7 +4525,29 @@
         "type": "official"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "language": {
+        "value": "C++ with Python bindings",
+        "source": {
+          "title": "Crocoddyl paper",
+          "url": "https://arxiv.org/abs/1909.04947",
+          "type": "paper"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "BSD-3-Clause",
+        "source": {
+          "title": "Crocoddyl paper",
+          "url": "https://arxiv.org/abs/1909.04947",
+          "type": "paper"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-robosuite",
@@ -3916,7 +4640,29 @@
         "targetId": "sw6",
         "role": "tech-base"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "language": {
+        "value": "C++ with Python bindings",
+        "source": {
+          "title": "MJPC GitHub",
+          "url": "https://github.com/google-deepmind/mujoco_mpc",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "Apache-2.0",
+        "source": {
+          "title": "MJPC GitHub",
+          "url": "https://github.com/google-deepmind/mujoco_mpc",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-stable-baselines3",
@@ -3956,7 +4702,29 @@
         "type": "paper"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "language": {
+        "value": "PyTorch",
+        "source": {
+          "title": "SB3 GitHub",
+          "url": "https://github.com/DLR-RM/stable-baselines3",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "MIT",
+        "source": {
+          "title": "SB3 GitHub",
+          "url": "https://github.com/DLR-RM/stable-baselines3",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-polymetis",
@@ -3993,7 +4761,29 @@
     ],
     "relatedIds": [
       "a2"
-    ]
+    ],
+    "sourcedSpecs": {
+      "language": {
+        "value": "Python + PyTorch + C++",
+        "source": {
+          "title": "Polymetis source in FAIRO",
+          "url": "https://github.com/facebookresearch/fairo/tree/main/polymetis",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "license": {
+        "value": "MIT",
+        "source": {
+          "title": "Polymetis source in FAIRO",
+          "url": "https://github.com/facebookresearch/fairo/tree/main/polymetis",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-cosmos-predict",
@@ -4054,7 +4844,29 @@
         "targetId": "sw-groot-n1-5",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "params_b": {
+        "value": 2.0,
+        "source": {
+          "title": "NVIDIA Cosmos World Foundation Models",
+          "url": "https://www.nvidia.com/en-us/ai/cosmos/",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "training_data_size": {
+        "value": "Large-scale curated video corpus via Cosmos data curation pipeline",
+        "source": {
+          "title": "NVIDIA Cosmos World Foundation Models",
+          "url": "https://www.nvidia.com/en-us/ai/cosmos/",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-cosmos-reason",
@@ -4111,7 +4923,19 @@
         "targetId": "sw-groot-n1-5",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "training_data_size": {
+        "value": "Physical-AI grounded video/text reasoning data",
+        "source": {
+          "title": "NVIDIA Cosmos - Reason variant",
+          "url": "https://www.nvidia.com/en-us/ai/cosmos/",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-cosmos-transfer",
@@ -4219,7 +5043,19 @@
         "targetId": "sw2",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "training_data_size": {
+        "value": "Large-scale video data",
+        "source": {
+          "title": "Genie 2: A large-scale foundation world model",
+          "url": "https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-genie-3",
@@ -4279,7 +5115,19 @@
         "targetId": "sw2",
         "role": "competitor"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "training_data_size": {
+        "value": "Not disclosed",
+        "source": {
+          "title": "Genie 3: A new frontier for world models",
+          "url": "https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-vjepa-2",
@@ -4325,7 +5173,29 @@
         "targetId": "sw-droid",
         "role": "trained-on"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "params_b": {
+        "value": 1.2,
+        "source": {
+          "title": "V-JEPA 2 announcement",
+          "url": "https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "training_data_size": {
+        "value": ">1M hours internet video + 1M images; fine-tuned with 62h DROID",
+        "source": {
+          "title": "V-JEPA 2 announcement",
+          "url": "https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-dreamerv3",
@@ -4372,7 +5242,19 @@
         "targetId": "f128",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "training_data_size": {
+        "value": "Per-environment online RL across 150+ tasks",
+        "source": {
+          "title": "Mastering Diverse Domains through World Models (DreamerV3)",
+          "url": "https://arxiv.org/abs/2301.04104",
+          "type": "paper"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-1x-world-model",
@@ -4415,7 +5297,19 @@
         "targetId": "ind-1x",
         "role": "manufacturer"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "training_data_size": {
+        "value": "Thousands of hours of EVE humanoid data",
+        "source": {
+          "title": "1X World Model announcement",
+          "url": "https://www.1x.tech/discover/1x-world-model",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-pi0-fast",
@@ -4475,7 +5369,19 @@
         "targetId": "sw-pi05",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "training_data_size": {
+        "value": "Up to 10,000 hours of robot data when combined with π0",
+        "source": {
+          "title": "FAST: Efficient Action Tokenization for VLAs",
+          "url": "https://arxiv.org/abs/2501.09747",
+          "type": "paper"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-groot-n1-5",
@@ -4533,7 +5439,29 @@
         "targetId": "sw-groot-n1",
         "role": "series-member"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "params_b": {
+        "value": 0.002,
+        "source": {
+          "title": "GR00T N1.5 (NVIDIA GEAR)",
+          "url": "https://research.nvidia.com/labs/gear/gr00t-n1_5/",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      },
+      "training_data_size": {
+        "value": "Synthetic data via GR00T-Dreams + curated humanoid datasets",
+        "source": {
+          "title": "GR00T N1.5 (NVIDIA GEAR)",
+          "url": "https://research.nvidia.com/labs/gear/gr00t-n1_5/",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-agibot-go1",
@@ -4578,7 +5506,19 @@
         "targetId": "sw-agibot-world",
         "role": "trained-on"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "training_data_size": {
+        "value": "AgiBot World: >1M trajectories, 217 tasks, 5 domains + internet video",
+        "source": {
+          "title": "AgiBot GO-1 press release",
+          "url": "https://www.globenewswire.com/news-release/2025/03/11/3040608/0/en/AgiBot-GO-1-The-Evolution-of-Generalist-Embodied-Foundation-Model-from-VLA-to-ViLLA.html",
+          "type": "news"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-galaxea-g0",
@@ -4613,7 +5553,19 @@
         "type": "paper"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "training_data_size": {
+        "value": "Galaxea Open-World Dataset (~100K high-res real-environment trajectories)",
+        "source": {
+          "title": "Galaxea Open-World Dataset and G0 Dual-System VLA",
+          "url": "https://arxiv.org/abs/2509.00576",
+          "type": "paper"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-gaia-2",
@@ -4689,7 +5641,19 @@
         "targetId": "ind-skild",
         "role": "manufacturer"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "training_data_size": {
+        "value": "Large-scale simulation + internet video pretraining + real-robot fine-tuning",
+        "source": {
+          "title": "Skild AI: Building the general-purpose robotic brain",
+          "url": "https://www.skild.ai/blogs/building-the-general-purpose-robotic-brain",
+          "type": "official"
+        },
+        "asOf": "2025",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "sw-daydreamer",
@@ -4732,6 +5696,18 @@
         "targetId": "lab-bair-autolab",
         "role": "affiliated-with"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "training_data_size": {
+        "value": "Online real-robot interaction (no sim, no demos)",
+        "source": {
+          "title": "DayDreamer: World Models for Physical Robot Learning",
+          "url": "https://arxiv.org/abs/2206.14176",
+          "type": "paper"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   }
 ]

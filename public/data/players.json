@@ -89,7 +89,19 @@
         "targetId": "ind-skild",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Menlo Park, California, USA",
+        "source": {
+          "title": "Sequoia: Partnering with Skild",
+          "url": "https://sequoiacap.com/article/partnering-with-skild/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind1",
@@ -244,7 +256,29 @@
         "role": "manufacturer",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Santa Clara, California, USA",
+        "source": {
+          "title": "NVIDIA Announces Project GR00T",
+          "url": "https://nvidianews.nvidia.com/news/foundation-model-isaac-robotics-platform",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1993.0,
+        "source": {
+          "title": "NVIDIA Announces Project GR00T",
+          "url": "https://nvidianews.nvidia.com/news/foundation-model-isaac-robotics-platform",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "lab1",
@@ -355,7 +389,29 @@
         "role": "manufacturer",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Austin, Texas, USA",
+        "source": {
+          "title": "Optimus (robot) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+          "type": "wiki"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2003.0,
+        "source": {
+          "title": "Optimus (robot) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+          "type": "wiki"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-figure",
@@ -528,7 +584,29 @@
         "targetId": "app-humanoid-manufacturing",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "San Jose, California, USA",
+        "source": {
+          "title": "Figure AI - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Figure_AI",
+          "type": "wiki"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2022.0,
+        "source": {
+          "title": "Figure AI - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Figure_AI",
+          "type": "wiki"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-1x",
@@ -713,7 +791,29 @@
         "targetId": "app-last-mile-delivery",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Palo Alto, California, USA (manufacturing in Moss, Norway)",
+        "source": {
+          "title": "1X Technologies - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1X_Technologies",
+          "type": "wiki"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2014.0,
+        "source": {
+          "title": "1X Technologies - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1X_Technologies",
+          "type": "wiki"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-sanctuary",
@@ -876,7 +976,29 @@
         "role": "manufacturer",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Vancouver, BC, Canada",
+        "source": {
+          "title": "Sanctuary AI Unveils Phoenix",
+          "url": "https://www.sanctuary.ai/blog/sanctuary-ai-unveils-phoenix-a-humanoid-general-purpose-robot-designed-for-work",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2018.0,
+        "source": {
+          "title": "Sanctuary AI Unveils Phoenix",
+          "url": "https://www.sanctuary.ai/blog/sanctuary-ai-unveils-phoenix-a-humanoid-general-purpose-robot-designed-for-work",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-boston-dynamics",
@@ -935,7 +1057,29 @@
         "targetId": "app-inspection",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Waltham, Massachusetts, USA",
+        "source": {
+          "title": "Boston Dynamics - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Boston_Dynamics",
+          "type": "wiki"
+        },
+        "asOf": "1992",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1992.0,
+        "source": {
+          "title": "Boston Dynamics - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Boston_Dynamics",
+          "type": "wiki"
+        },
+        "asOf": "1992",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-apptronik",
@@ -1086,7 +1230,29 @@
         "targetId": "app-humanoid-manufacturing",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Austin, Texas, USA",
+        "source": {
+          "title": "Apptronik unveils Apollo humanoid robot",
+          "url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/",
+          "type": "news"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2016.0,
+        "source": {
+          "title": "Apptronik unveils Apollo humanoid robot",
+          "url": "https://www.therobotreport.com/apptronik-unveils-apollo-humanoid-robot/",
+          "type": "news"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-agility",
@@ -1222,7 +1388,29 @@
         "targetId": "app-healthcare-companion",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Salem, Oregon, USA",
+        "source": {
+          "title": "Agility Robotics - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Agility_Robotics",
+          "type": "wiki"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2015.0,
+        "source": {
+          "title": "Agility Robotics - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Agility_Robotics",
+          "type": "wiki"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-unitree",
@@ -1373,7 +1561,29 @@
         "targetId": "app-healthcare-companion",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Hangzhou, Zhejiang, China",
+        "source": {
+          "title": "Unitree - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Unitree",
+          "type": "wiki"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2016.0,
+        "source": {
+          "title": "Unitree - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Unitree",
+          "type": "wiki"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-xpeng-robotics",
@@ -1453,7 +1663,29 @@
         "targetId": "app-warehouse",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Guangzhou, Guangdong, China",
+        "source": {
+          "title": "XPeng - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/XPeng",
+          "type": "wiki"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2014.0,
+        "source": {
+          "title": "XPeng - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/XPeng",
+          "type": "wiki"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-agibot",
@@ -1599,7 +1831,29 @@
         "role": "manufacturer",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shanghai, China",
+        "source": {
+          "title": "AgiBot - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/AgiBot",
+          "type": "wiki"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2023.0,
+        "source": {
+          "title": "AgiBot - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/AgiBot",
+          "type": "wiki"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-ubtech",
@@ -1709,7 +1963,29 @@
         "role": "manufacturer",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shenzhen, Guangdong, China",
+        "source": {
+          "title": "UBtech Robotics - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/UBtech_Robotics",
+          "type": "wiki"
+        },
+        "asOf": "2012",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2012.0,
+        "source": {
+          "title": "UBtech Robotics - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/UBtech_Robotics",
+          "type": "wiki"
+        },
+        "asOf": "2012",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-fourier",
@@ -1773,7 +2049,29 @@
         "role": "manufacturer",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shanghai, China",
+        "source": {
+          "title": "Fourier (company) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fourier_(company)",
+          "type": "wiki"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2015.0,
+        "source": {
+          "title": "Fourier (company) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fourier_(company)",
+          "type": "wiki"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-robot-era",
@@ -1968,7 +2266,29 @@
         "targetId": "app-education-stem",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "Robot Era Secures $69M Series A",
+          "url": "https://www.caixinglobal.com/2025-07-08/humanoid-robotics-startup-robot-era-secures-69-million-series-a-funding-102338987.html",
+          "type": "news"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2023.0,
+        "source": {
+          "title": "Robot Era Secures $69M Series A",
+          "url": "https://www.caixinglobal.com/2025-07-08/humanoid-robotics-startup-robot-era-secures-69-million-series-a-funding-102338987.html",
+          "type": "news"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-galbot",
@@ -2184,7 +2504,29 @@
         "role": "manufacturer",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "China's GALBOT Raises Record $150 Million",
+          "url": "https://www.asianfin.com/articles/127469",
+          "type": "news"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2023.0,
+        "source": {
+          "title": "China's GALBOT Raises Record $150 Million",
+          "url": "https://www.asianfin.com/articles/127469",
+          "type": "news"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-booster",
@@ -2349,7 +2691,29 @@
         "targetId": "app-warehouse",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "About Us - Booster Robotics",
+          "url": "https://www.booster.tech/about-us/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2023.0,
+        "source": {
+          "title": "About Us - Booster Robotics",
+          "url": "https://www.booster.tech/about-us/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-limx",
@@ -2506,7 +2870,29 @@
         "targetId": "app-inspection",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shenzhen, China",
+        "source": {
+          "title": "LimX Dynamics About",
+          "url": "https://www.limxdynamics.com/en/about",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2022.0,
+        "source": {
+          "title": "LimX Dynamics About",
+          "url": "https://www.limxdynamics.com/en/about",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-engineered-arts",
@@ -2544,7 +2930,29 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Falmouth, Cornwall, UK",
+        "source": {
+          "title": "Engineered Arts - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Engineered_Arts",
+          "type": "wiki"
+        },
+        "asOf": "2004",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2004.0,
+        "source": {
+          "title": "Engineered Arts - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Engineered_Arts",
+          "type": "wiki"
+        },
+        "asOf": "2004",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-pal-robotics",
@@ -2627,7 +3035,29 @@
         "targetId": "app-warehouse",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Barcelona, Spain",
+        "source": {
+          "title": "PAL Robotics official",
+          "url": "https://pal-robotics.com/",
+          "type": "official"
+        },
+        "asOf": "2004",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2004.0,
+        "source": {
+          "title": "PAL Robotics official",
+          "url": "https://pal-robotics.com/",
+          "type": "official"
+        },
+        "asOf": "2004",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-tri",
@@ -2690,7 +3120,29 @@
         "targetId": "app-education-stem",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Los Altos, California, USA",
+        "source": {
+          "title": "TRI Showcases Latest Robotics Research",
+          "url": "https://www.tri.global/news/toyota-research-institute-showcases-latest-robotics-research-aimed-amplifying-human-ability",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2016.0,
+        "source": {
+          "title": "TRI Showcases Latest Robotics Research",
+          "url": "https://www.tri.global/news/toyota-research-institute-showcases-latest-robotics-research-aimed-amplifying-human-ability",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-anybotics",
@@ -2741,7 +3193,29 @@
         "targetId": "app-inspection",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Zürich, Switzerland",
+        "source": {
+          "title": "ANYbotics - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ANYbotics",
+          "type": "wiki"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2016.0,
+        "source": {
+          "title": "ANYbotics - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ANYbotics",
+          "type": "wiki"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-physical-intelligence",
@@ -2945,7 +3419,29 @@
         "role": "manufacturer",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "San Francisco, California, USA",
+        "source": {
+          "title": "Physical Intelligence raises $600M",
+          "url": "https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/",
+          "type": "news"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2024.0,
+        "source": {
+          "title": "Physical Intelligence raises $600M",
+          "url": "https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/",
+          "type": "news"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-deepmind-robotics",
@@ -3050,7 +3546,29 @@
         "targetId": "app-education-stem",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "London, UK",
+        "source": {
+          "title": "RT-2 official DeepMind blog",
+          "url": "https://deepmind.google/blog/rt-2-new-model-translates-vision-and-language-into-action/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2010.0,
+        "source": {
+          "title": "RT-2 official DeepMind blog",
+          "url": "https://deepmind.google/blog/rt-2-new-model-translates-vision-and-language-into-action/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-skild",
@@ -3228,7 +3746,29 @@
         "role": "manufacturer",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Pittsburgh, Pennsylvania, USA",
+        "source": {
+          "title": "Skild AI raises $1.4B to build omni-bodied robot brain",
+          "url": "https://www.therobotreport.com/skild-ai-raises-1-4b-building-omni-bodied-robot-skild-brain/",
+          "type": "news"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2023.0,
+        "source": {
+          "title": "Skild AI raises $1.4B to build omni-bodied robot brain",
+          "url": "https://www.therobotreport.com/skild-ai-raises-1-4b-building-omni-bodied-robot-skild-brain/",
+          "type": "news"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-dexterity",
@@ -3265,7 +3805,29 @@
         "type": "news"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Redwood City, California, USA",
+        "source": {
+          "title": "Dexterity picks up $95M",
+          "url": "https://www.therobotreport.com/dexterity-picks-up-95m-funding-container-unloading-robots/",
+          "type": "news"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2017.0,
+        "source": {
+          "title": "Dexterity picks up $95M",
+          "url": "https://www.therobotreport.com/dexterity-picks-up-95m-funding-container-unloading-robots/",
+          "type": "news"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-pickle",
@@ -3339,7 +3901,29 @@
         "targetId": "app-warehouse",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Cambridge, Massachusetts, USA",
+        "source": {
+          "title": "Pickle Robot gets orders for 30+ unloading systems plus $50M",
+          "url": "https://www.therobotreport.com/pickle-robot-gets-orders-over-30-unloading-systems-plus-50m-funding/",
+          "type": "news"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2018.0,
+        "source": {
+          "title": "Pickle Robot gets orders for 30+ unloading systems plus $50M",
+          "url": "https://www.therobotreport.com/pickle-robot-gets-orders-over-30-unloading-systems-plus-50m-funding/",
+          "type": "news"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "ind-hello-robot",
@@ -3413,7 +3997,29 @@
         "targetId": "app-warehouse",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Martinez, California, USA",
+        "source": {
+          "title": "Hello Robot's Stretch Mobile Manipulator - IEEE Spectrum",
+          "url": "https://spectrum.ieee.org/hello-robots-stretch-mobile-manipulator",
+          "type": "news"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2017.0,
+        "source": {
+          "title": "Hello Robot's Stretch Mobile Manipulator - IEEE Spectrum",
+          "url": "https://spectrum.ieee.org/hello-robots-stretch-mobile-manipulator",
+          "type": "news"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "vc-a16z",
@@ -3461,7 +4067,19 @@
         "targetId": "ind-agility",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Menlo Park, California, USA",
+        "source": {
+          "title": "The American Dynamism 50",
+          "url": "https://a16z.com/american-dynamism-50-2025/",
+          "type": "official"
+        },
+        "asOf": "2009",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "vc-khosla",
@@ -3505,7 +4123,19 @@
         "targetId": "ind-physical-intelligence",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Menlo Park, California, USA",
+        "source": {
+          "title": "Khosla Ventures Portfolio",
+          "url": "https://www.khoslaventures.com/portfolio",
+          "type": "official"
+        },
+        "asOf": "2004",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "vc-lux",
@@ -3576,7 +4206,19 @@
         "targetId": "ind-physical-intelligence",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "New York City, USA",
+        "source": {
+          "title": "Lux Capital Companies",
+          "url": "https://www.luxcapital.com/companies",
+          "type": "official"
+        },
+        "asOf": "2000",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "vc-founders-fund",
@@ -3619,7 +4261,19 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "San Francisco, California, USA",
+        "source": {
+          "title": "Founders Fund Portfolio",
+          "url": "https://foundersfund.com/portfolio/",
+          "type": "official"
+        },
+        "asOf": "2005",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "vc-bessemer",
@@ -3662,7 +4316,19 @@
         "targetId": "ind-anybotics",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "San Francisco, California, USA",
+        "source": {
+          "title": "Bessemer Predicts: Robotics and physical AI",
+          "url": "https://www.bvp.com/atlas/bessemer-predicts-robotics-and-physical-ai",
+          "type": "official"
+        },
+        "asOf": "1911",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "vc-gv",
@@ -3732,7 +4398,19 @@
         "targetId": "ind-apptronik",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Mountain View, California, USA",
+        "source": {
+          "title": "GV Portfolio",
+          "url": "https://www.gv.com/portfolio",
+          "type": "official"
+        },
+        "asOf": "2009",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "vc-innovation-endeavors",
@@ -3774,7 +4452,19 @@
         "type": "news"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Palo Alto, California, USA",
+        "source": {
+          "title": "About Innovation Endeavors",
+          "url": "https://www.innovationendeavors.com/about",
+          "type": "official"
+        },
+        "asOf": "2010",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "vc-tiger-global",
@@ -3836,7 +4526,19 @@
         "targetId": "ind-1x",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "New York City, USA",
+        "source": {
+          "title": "Tiger Global Management investment portfolio | PitchBook",
+          "url": "https://pitchbook.com/profiles/investor/42873-94",
+          "type": "news"
+        },
+        "asOf": "2001",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "vc-ggv",
@@ -3897,7 +4599,19 @@
         "targetId": "ind-galbot",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Menlo Park / Singapore (Asia ops as Granite)",
+        "source": {
+          "title": "GGV Capital - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/GGV_Capital",
+          "type": "wiki"
+        },
+        "asOf": "2000",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "vc-sinovation",
@@ -3937,7 +4651,19 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "Sinovation Ventures",
+          "url": "https://www.sinovationventures.com/",
+          "type": "official"
+        },
+        "asOf": "2009",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "vc-5y",
@@ -3977,7 +4703,19 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shanghai, China",
+        "source": {
+          "title": "5Y Capital",
+          "url": "https://www.5ycap.com/en/",
+          "type": "official"
+        },
+        "asOf": "2008",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "vc-hillhouse",
@@ -4019,7 +4757,19 @@
         "type": "news"
       }
     ],
-    "relatedIds": []
+    "relatedIds": [],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Singapore / Beijing / Hong Kong",
+        "source": {
+          "title": "关于高瓴",
+          "url": "https://www.hillhouseinvestment.com/zh-hans/about/",
+          "type": "official"
+        },
+        "asOf": "2005",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "vc-hongshan",
@@ -4087,7 +4837,19 @@
         "targetId": "ind-unitree",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing / Hong Kong",
+        "source": {
+          "title": "TARS raised $455 million in a Pre-A round",
+          "url": "https://equalocean.com/news/2026041621834",
+          "type": "news"
+        },
+        "asOf": "2005",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "vc-idg",
@@ -4142,7 +4904,19 @@
         "targetId": "ind-galbot",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "ROBOTERA Raises Over USD 200 Million",
+          "url": "https://www.roboticstomorrow.com/news/2026/05/08/robotera-raises-over-usd-200-million-in-new-round-led-by-sf-group-hsg-and-idg-capital/26534/",
+          "type": "news"
+        },
+        "asOf": "1992",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "vc-source-code",
@@ -4233,7 +5007,19 @@
         "targetId": "stg-ind-mechmind",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "Source Code Capital",
+          "url": "https://sourcecodecap.com/en/",
+          "type": "official"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "lab-sail",
@@ -5455,7 +6241,29 @@
         "targetId": "app-warehouse",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shenzhen, China",
+        "source": {
+          "title": "Leju Robotics official site",
+          "url": "https://www.lejurobot.com/en",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2016.0,
+        "source": {
+          "title": "Leju Robotics official site",
+          "url": "https://www.lejurobot.com/en",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-engineai",
@@ -5531,7 +6339,29 @@
         "role": "manufacturer",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shenzhen, China",
+        "source": {
+          "title": "ENGINEAI official site",
+          "url": "https://www.engineai.com.cn/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2023.0,
+        "source": {
+          "title": "ENGINEAI official site",
+          "url": "https://www.engineai.com.cn/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-kepler",
@@ -5602,7 +6432,29 @@
         "targetId": "app-warehouse",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shanghai, China",
+        "source": {
+          "title": "Kepler Robotics showcases K2 Bumblebee at ICRA 2025",
+          "url": "https://www.therobotreport.com/kepler-robotics-showcases-k2-bumblebee-icra-2025/",
+          "type": "news"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2023.0,
+        "source": {
+          "title": "Kepler Robotics showcases K2 Bumblebee at ICRA 2025",
+          "url": "https://www.therobotreport.com/kepler-robotics-showcases-k2-bumblebee-icra-2025/",
+          "type": "news"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-pndbotics",
@@ -5663,7 +6515,29 @@
         "role": "manufacturer",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "PNDbotics About page",
+          "url": "https://www.pndbotics.com/about",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2023.0,
+        "source": {
+          "title": "PNDbotics About page",
+          "url": "https://www.pndbotics.com/about",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-noetix",
@@ -5745,7 +6619,29 @@
         "targetId": "app-warehouse",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "Noetix Robotics official site",
+          "url": "https://en.noetixrobotics.com/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2023.0,
+        "source": {
+          "title": "Noetix Robotics official site",
+          "url": "https://en.noetixrobotics.com/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-magiclab",
@@ -5807,7 +6703,29 @@
         "role": "manufacturer",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Wuxi, Jiangsu, China",
+        "source": {
+          "title": "MagicLab official site",
+          "url": "https://www.magiclab.top/en/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2023.0,
+        "source": {
+          "title": "MagicLab official site",
+          "url": "https://www.magiclab.top/en/",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-matrix",
@@ -5894,7 +6812,29 @@
         "targetId": "app-warehouse",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shanghai, China",
+        "source": {
+          "title": "Matrix Robotics official site",
+          "url": "https://matrixrobotics.ai/zh-cn",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2024.0,
+        "source": {
+          "title": "Matrix Robotics official site",
+          "url": "https://matrixrobotics.ai/zh-cn",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-lumos",
@@ -5984,7 +6924,29 @@
         "targetId": "app-warehouse",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shenzhen, China",
+        "source": {
+          "title": "Lumos Robotics official site",
+          "url": "http://www.lumosbot.tech/",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2024.0,
+        "source": {
+          "title": "Lumos Robotics official site",
+          "url": "http://www.lumosbot.tech/",
+          "type": "official"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-xhumanoid",
@@ -6035,7 +6997,29 @@
         "role": "manufacturer",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "X-Humanoid - About",
+          "url": "https://x-humanoid.com/about.html",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2023.0,
+        "source": {
+          "title": "X-Humanoid - About",
+          "url": "https://x-humanoid.com/about.html",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-phybot",
@@ -6089,7 +7073,29 @@
         "role": "manufacturer",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "Phybot M1 debuts - Humanoids Daily",
+          "url": "https://www.humanoidsdaily.com/news/phybot-m1-debuts-with-a-backflip-and-a-most-powerful-claim",
+          "type": "news"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2024.0,
+        "source": {
+          "title": "Phybot M1 debuts - Humanoids Daily",
+          "url": "https://www.humanoidsdaily.com/news/phybot-m1-debuts-with-a-backflip-and-a-most-powerful-claim",
+          "type": "news"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-pudu",
@@ -6177,7 +7183,29 @@
         "targetId": "app-warehouse",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shenzhen, China",
+        "source": {
+          "title": "Pudu Robotics Unveils PUDU D9",
+          "url": "https://www.pudurobotics.com/about/news/6763cce40767a20044b4a69a",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2016.0,
+        "source": {
+          "title": "Pudu Robotics Unveils PUDU D9",
+          "url": "https://www.pudurobotics.com/about/news/6763cce40767a20044b4a69a",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-dobot",
@@ -6253,7 +7281,29 @@
         "targetId": "app-warehouse",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shenzhen, China",
+        "source": {
+          "title": "About Dobot Robotics",
+          "url": "https://www.dobot-robots.com/about/about-dobot",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2015.0,
+        "source": {
+          "title": "About Dobot Robotics",
+          "url": "https://www.dobot-robots.com/about/about-dobot",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-elephant",
@@ -6339,7 +7389,29 @@
         "targetId": "app-warehouse",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shenzhen, China",
+        "source": {
+          "title": "Elephant Robotics - Our Company",
+          "url": "https://www.elephantrobotics.com/en/our-company-2023-en/",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2016.0,
+        "source": {
+          "title": "Elephant Robotics - Our Company",
+          "url": "https://www.elephantrobotics.com/en/our-company-2023-en/",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-robstride",
@@ -6417,7 +7489,29 @@
         "targetId": "app-inspection",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "RobStride - About Us",
+          "url": "https://robstride.com/about-us",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2023.0,
+        "source": {
+          "title": "RobStride - About Us",
+          "url": "https://robstride.com/about-us",
+          "type": "official"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-inspire",
@@ -6478,7 +7572,29 @@
         "targetId": "app-warehouse",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "Inspire-Robots official site",
+          "url": "https://www.inspire-robots.com/",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2016.0,
+        "source": {
+          "title": "Inspire-Robots official site",
+          "url": "https://www.inspire-robots.com/",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-paxini",
@@ -6537,7 +7653,29 @@
         "targetId": "app-last-mile-delivery",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shenzhen, China",
+        "source": {
+          "title": "PaXini official site",
+          "url": "https://paxini.com/",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2021.0,
+        "source": {
+          "title": "PaXini official site",
+          "url": "https://paxini.com/",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-steadywin",
@@ -6599,7 +7737,29 @@
         "role": "manufacturer",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Nanchang, Jiangxi, China",
+        "source": {
+          "title": "SteadyWin - About Us",
+          "url": "https://steadywin-motor.com/pages/about-us",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2020.0,
+        "source": {
+          "title": "SteadyWin - About Us",
+          "url": "https://steadywin-motor.com/pages/about-us",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-mechmind",
@@ -6687,7 +7847,29 @@
         "targetId": "app-warehouse",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "Mech-Mind official site",
+          "url": "https://www.mech-mind.com/",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2016.0,
+        "source": {
+          "title": "Mech-Mind official site",
+          "url": "https://www.mech-mind.com/",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-hesai",
@@ -6742,7 +7924,29 @@
         "targetId": "app-agriculture",
         "role": "deployed-at"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shanghai, China",
+        "source": {
+          "title": "Hesai - About Us",
+          "url": "https://www.hesaitech.com/about-us/",
+          "type": "official"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2014.0,
+        "source": {
+          "title": "Hesai - About Us",
+          "url": "https://www.hesaitech.com/about-us/",
+          "type": "official"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-livox",
@@ -6805,7 +8009,29 @@
         "role": "manufacturer",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shenzhen, China",
+        "source": {
+          "title": "Livox official site",
+          "url": "https://www.livoxtech.com/",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2016.0,
+        "source": {
+          "title": "Livox official site",
+          "url": "https://www.livoxtech.com/",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-ind-orbbec",
@@ -6872,7 +8098,29 @@
         "role": "manufacturer",
         "isInverse": true
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shenzhen, China",
+        "source": {
+          "title": "Orbbec - Company",
+          "url": "https://www.orbbec.com/company/",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2013.0,
+        "source": {
+          "title": "Orbbec - Company",
+          "url": "https://www.orbbec.com/company/",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-lab-baai",
@@ -7384,7 +8632,19 @@
         "targetId": "ind-unitree",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shenzhen, China",
+        "source": {
+          "title": "Tencent Leads New Funding Round for Agibot",
+          "url": "https://cnmra.com/valuation-soars-to-15-billion-tencent-leads-new-funding-round-for-agibot/",
+          "type": "news"
+        },
+        "asOf": "2011",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-alibaba",
@@ -7475,7 +8735,19 @@
         "targetId": "ind-unitree",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Hangzhou, China",
+        "source": {
+          "title": "Alibaba leads X Square Robot $140M round",
+          "url": "https://roboticsandautomationnews.com/2025/09/08/alibaba-leads-140-million-funding-round-in-chinese-humanoid-robot-start-up-x-square-robot/94265/",
+          "type": "news"
+        },
+        "asOf": "2008",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-catl",
@@ -7541,7 +8813,19 @@
         "targetId": "ind-galbot",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Ningde, Fujian, China",
+        "source": {
+          "title": "CATL leads $153M in Galbot",
+          "url": "https://www.yicaiglobal.com/news/chinese-robotics-startup-galbot-bags-usd153-million-in-latest-fundraiser",
+          "type": "news"
+        },
+        "asOf": "2011",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-geely",
@@ -7625,7 +8909,19 @@
         "targetId": "ind-unitree",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Hangzhou, China",
+        "source": {
+          "title": "Geely leads $141M for Robot Era",
+          "url": "https://www.caixinglobal.com/2025-11-21/geely-leads-141-million-round-for-tsinghua-linked-robotics-startup-102385163.html",
+          "type": "news"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-meituan",
@@ -7698,7 +8994,19 @@
         "targetId": "ind-unitree",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "JD vs Meituan in humanoid robots",
+          "url": "https://kr-asia.com/jd-com-and-meituan-take-their-rivalry-from-takeout-to-humanoid-robots",
+          "type": "news"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-zhenfund",
@@ -7752,7 +9060,19 @@
         "targetId": "stg-ind-hesai",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "ZhenFund Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ZhenFund",
+          "type": "wiki"
+        },
+        "asOf": "2011",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-qiming",
@@ -7825,7 +9145,19 @@
         "targetId": "ind-galbot",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shanghai / Beijing, China",
+        "source": {
+          "title": "Qiming Venture Partners official",
+          "url": "https://www.qimingvc.com/en/",
+          "type": "official"
+        },
+        "asOf": "2006",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-bluerun",
@@ -7910,7 +9242,19 @@
         "targetId": "ind-galbot",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "Lanchi Ventures Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lanchi_Ventures",
+          "type": "wiki"
+        },
+        "asOf": "2005",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-shunwei",
@@ -7965,7 +9309,19 @@
         "targetId": "ind-unitree",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "Shunwei Capital Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shunwei_Capital",
+          "type": "wiki"
+        },
+        "asOf": "2011",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-matrix-china",
@@ -8038,7 +9394,19 @@
         "targetId": "ind-xpeng-robotics",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "MPCi (Matrix Partners China) Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/MPCi",
+          "type": "wiki"
+        },
+        "asOf": "2008",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-bj-robot-fund",
@@ -8127,7 +9495,19 @@
         "targetId": "ind-robot-era",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "Beijing to Set Up USD1.4B Fund for Robotics",
+          "url": "https://www.yicaiglobal.com/news/beijing-to-set-up-usd14-billion-fund-to-advance-robotics-industry",
+          "type": "news"
+        },
+        "asOf": "2023",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-scg",
@@ -8194,7 +9574,19 @@
         "targetId": "ind-booster",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shenzhen, China",
+        "source": {
+          "title": "Shenzhen Capital Group Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shenzhen_Capital_Group",
+          "type": "wiki"
+        },
+        "asOf": "1999",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-openai-startup-fund",
@@ -8317,7 +9709,29 @@
         "targetId": "stg-vc-thrive",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "San Francisco, USA",
+        "source": {
+          "title": "About | OpenAI Startup Fund",
+          "url": "https://www.openai.fund/about",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2021.0,
+        "source": {
+          "title": "About | OpenAI Startup Fund",
+          "url": "https://www.openai.fund/about",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-parkway",
@@ -8393,7 +9807,29 @@
         "targetId": "ind-figure",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "New York, USA",
+        "source": {
+          "title": "Parkway VC",
+          "url": "https://www.parkway.vc/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2019.0,
+        "source": {
+          "title": "Parkway VC",
+          "url": "https://www.parkway.vc/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-intel-capital",
@@ -8470,7 +9906,29 @@
         "targetId": "ind-figure",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Santa Clara, USA",
+        "source": {
+          "title": "Intel Capital - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Intel_Capital",
+          "type": "wiki"
+        },
+        "asOf": "1991",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1991.0,
+        "source": {
+          "title": "Intel Capital - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Intel_Capital",
+          "type": "wiki"
+        },
+        "asOf": "1991",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-align-ventures",
@@ -8546,7 +10004,29 @@
         "targetId": "ind-figure",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "New York, USA",
+        "source": {
+          "title": "Align Ventures",
+          "url": "https://align.vc/",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2013.0,
+        "source": {
+          "title": "Align Ventures",
+          "url": "https://align.vc/",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-bezos-expeditions",
@@ -8658,7 +10138,29 @@
         "targetId": "ind-skild",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Mercer Island, USA",
+        "source": {
+          "title": "Bezos Expeditions - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bezos_Expeditions",
+          "type": "wiki"
+        },
+        "asOf": "2005",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2005.0,
+        "source": {
+          "title": "Bezos Expeditions - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bezos_Expeditions",
+          "type": "wiki"
+        },
+        "asOf": "2005",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-brookfield",
@@ -8716,7 +10218,29 @@
         "targetId": "ind-figure",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "New York, USA",
+        "source": {
+          "title": "Brookfield Asset Management - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brookfield_Asset_Management",
+          "type": "wiki"
+        },
+        "asOf": "1997",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1997.0,
+        "source": {
+          "title": "Brookfield Asset Management - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brookfield_Asset_Management",
+          "type": "wiki"
+        },
+        "asOf": "1997",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-macquarie-capital",
@@ -8777,7 +10301,29 @@
         "targetId": "ind-figure",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Sydney, Australia",
+        "source": {
+          "title": "Macquarie Group - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Macquarie_Group",
+          "type": "wiki"
+        },
+        "asOf": "1969",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1969.0,
+        "source": {
+          "title": "Macquarie Group - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Macquarie_Group",
+          "type": "wiki"
+        },
+        "asOf": "1969",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-tamarack-global",
@@ -8838,7 +10384,29 @@
         "targetId": "ind-figure",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Greenwich, USA",
+        "source": {
+          "title": "Tamarack Global - Official Site",
+          "url": "https://www.tamarackglobal.com/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2018.0,
+        "source": {
+          "title": "Tamarack Global - Official Site",
+          "url": "https://www.tamarackglobal.com/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-lg-tech-ventures",
@@ -8899,7 +10467,29 @@
         "targetId": "ind-figure",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Menlo Park, USA",
+        "source": {
+          "title": "LG Corp press release on LG Technology Ventures",
+          "url": "https://lgcorp.com/media/release/27644",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2018.0,
+        "source": {
+          "title": "LG Corp press release on LG Technology Ventures",
+          "url": "https://lgcorp.com/media/release/27644",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-salesforce-ventures",
@@ -8958,7 +10548,29 @@
         "targetId": "ind-figure",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "San Francisco, USA",
+        "source": {
+          "title": "Salesforce Ventures - Official Site",
+          "url": "https://salesforceventures.com/",
+          "type": "official"
+        },
+        "asOf": "2009",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2009.0,
+        "source": {
+          "title": "Salesforce Ventures - Official Site",
+          "url": "https://salesforceventures.com/",
+          "type": "official"
+        },
+        "asOf": "2009",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-tmobile-ventures",
@@ -9019,7 +10631,29 @@
         "targetId": "ind-figure",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Bellevue, USA",
+        "source": {
+          "title": "T-Mobile Unveils Venture Capital Fund - T-Mobile Newsroom",
+          "url": "https://www.t-mobile.com/news/network/t-mobile-ventures",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2020.0,
+        "source": {
+          "title": "T-Mobile Unveils Venture Capital Fund - T-Mobile Newsroom",
+          "url": "https://www.t-mobile.com/news/network/t-mobile-ventures",
+          "type": "official"
+        },
+        "asOf": "2020",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-qualcomm-ventures",
@@ -9077,7 +10711,29 @@
         "targetId": "ind-figure",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "San Diego, USA",
+        "source": {
+          "title": "Qualcomm Ventures - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Qualcomm_Ventures",
+          "type": "wiki"
+        },
+        "asOf": "2000",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2000.0,
+        "source": {
+          "title": "Qualcomm Ventures - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Qualcomm_Ventures",
+          "type": "wiki"
+        },
+        "asOf": "2000",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-msft",
@@ -9145,7 +10801,29 @@
         "targetId": "stg-vc-openai-startup-fund",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Redmond, USA",
+        "source": {
+          "title": "Microsoft - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Microsoft",
+          "type": "wiki"
+        },
+        "asOf": "1975",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1975.0,
+        "source": {
+          "title": "Microsoft - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Microsoft",
+          "type": "wiki"
+        },
+        "asOf": "1975",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-ark-invest",
@@ -9212,7 +10890,29 @@
         "targetId": "ind-tesla-optimus",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "St. Petersburg, USA",
+        "source": {
+          "title": "Ark Invest - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ark_Invest",
+          "type": "wiki"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2014.0,
+        "source": {
+          "title": "Ark Invest - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ark_Invest",
+          "type": "wiki"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-eqt-ventures",
@@ -9275,7 +10975,29 @@
         "targetId": "ind-1x",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Stockholm, Sweden",
+        "source": {
+          "title": "Norwegian Robotics Startup 1X Secures $100M Series B led by EQT Ventures",
+          "url": "https://eqtgroup.com/thinq/early-stage/norwegian-robotics-startup-1x-secures-100m-in-series-b-funding-led-by-eqt-ventures",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2015.0,
+        "source": {
+          "title": "Norwegian Robotics Startup 1X Secures $100M Series B led by EQT Ventures",
+          "url": "https://eqtgroup.com/thinq/early-stage/norwegian-robotics-startup-1x-secures-100m-in-series-b-funding-led-by-eqt-ventures",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-samsung-next",
@@ -9332,7 +11054,29 @@
         "targetId": "ind-1x",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Mountain View, USA",
+        "source": {
+          "title": "EQT - 1X Series B announcement (lists Samsung NEXT)",
+          "url": "https://eqtgroup.com/thinq/early-stage/norwegian-robotics-startup-1x-secures-100m-in-series-b-funding-led-by-eqt-ventures",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2013.0,
+        "source": {
+          "title": "EQT - 1X Series B announcement (lists Samsung NEXT)",
+          "url": "https://eqtgroup.com/thinq/early-stage/norwegian-robotics-startup-1x-secures-100m-in-series-b-funding-led-by-eqt-ventures",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-nistad-group",
@@ -9393,7 +11137,18 @@
         "targetId": "ind-1x",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Norway",
+        "source": {
+          "title": "EQT - 1X Series B announcement (lists Nistad Group)",
+          "url": "https://eqtgroup.com/thinq/early-stage/norwegian-robotics-startup-1x-secures-100m-in-series-b-funding-led-by-eqt-ventures",
+          "type": "official"
+        },
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-alliance-ventures",
@@ -9455,7 +11210,29 @@
         "targetId": "ind-1x",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Amsterdam, Netherlands",
+        "source": {
+          "title": "Renault-Nissan-Mitsubishi launches $1B CVC fund (TechCrunch)",
+          "url": "https://techcrunch.com/2018/01/09/renault-nissan-mitsubishi-launches-1-billion-corporate-venture-capital-fund/",
+          "type": "news"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2018.0,
+        "source": {
+          "title": "Renault-Nissan-Mitsubishi launches $1B CVC fund (TechCrunch)",
+          "url": "https://techcrunch.com/2018/01/09/renault-nissan-mitsubishi-launches-1-billion-corporate-venture-capital-fund/",
+          "type": "news"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-sandwater",
@@ -9529,7 +11306,29 @@
         "targetId": "ind-1x",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Oslo, Norway",
+        "source": {
+          "title": "Sandwater - Official Site",
+          "url": "https://www.sandwater.com/",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2021.0,
+        "source": {
+          "title": "Sandwater - Official Site",
+          "url": "https://www.sandwater.com/",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-skagerak-capital",
@@ -9603,7 +11402,29 @@
         "targetId": "ind-1x",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Kristiansand, Norway",
+        "source": {
+          "title": "Skagerak Capital - Official Site",
+          "url": "https://www.skagerakcapital.com/",
+          "type": "official"
+        },
+        "asOf": "2006",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2006.0,
+        "source": {
+          "title": "Skagerak Capital - Official Site",
+          "url": "https://www.skagerakcapital.com/",
+          "type": "official"
+        },
+        "asOf": "2006",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-bond",
@@ -9679,7 +11500,29 @@
         "targetId": "ind-physical-intelligence",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "San Francisco, USA",
+        "source": {
+          "title": "Mary Meeker raises $1.25B for Bond (TechCrunch)",
+          "url": "https://techcrunch.com/2019/04/24/mary-meeker-raises-1-25b-for-bond-her-debut-growth-fund/",
+          "type": "news"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2019.0,
+        "source": {
+          "title": "Mary Meeker raises $1.25B for Bond (TechCrunch)",
+          "url": "https://techcrunch.com/2019/04/24/mary-meeker-raises-1-25b-for-bond-her-debut-growth-fund/",
+          "type": "news"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-thrive",
@@ -9764,7 +11607,29 @@
         "targetId": "stg-vc-openai-startup-fund",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "New York, USA",
+        "source": {
+          "title": "Thrive Capital - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thrive_Capital",
+          "type": "wiki"
+        },
+        "asOf": "2009",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2009.0,
+        "source": {
+          "title": "Thrive Capital - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thrive_Capital",
+          "type": "wiki"
+        },
+        "asOf": "2009",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-capitalg",
@@ -9828,7 +11693,29 @@
         "targetId": "ind-physical-intelligence",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Mountain View, USA",
+        "source": {
+          "title": "CapitalG - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/CapitalG",
+          "type": "wiki"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2013.0,
+        "source": {
+          "title": "CapitalG - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/CapitalG",
+          "type": "wiki"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-redpoint",
@@ -9900,7 +11787,29 @@
         "targetId": "ind-physical-intelligence",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Menlo Park, USA",
+        "source": {
+          "title": "Redpoint Ventures - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Redpoint_Ventures",
+          "type": "wiki"
+        },
+        "asOf": "1999",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1999.0,
+        "source": {
+          "title": "Redpoint Ventures - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Redpoint_Ventures",
+          "type": "wiki"
+        },
+        "asOf": "1999",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-index-ventures",
@@ -9964,7 +11873,29 @@
         "targetId": "ind-physical-intelligence",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "London, UK",
+        "source": {
+          "title": "Index Ventures - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Index_Ventures",
+          "type": "wiki"
+        },
+        "asOf": "1996",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1996.0,
+        "source": {
+          "title": "Index Ventures - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Index_Ventures",
+          "type": "wiki"
+        },
+        "asOf": "1996",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-t-rowe-price",
@@ -10025,7 +11956,29 @@
         "targetId": "ind-physical-intelligence",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Baltimore, USA",
+        "source": {
+          "title": "T. Rowe Price - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/T._Rowe_Price",
+          "type": "wiki"
+        },
+        "asOf": "1937",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1937.0,
+        "source": {
+          "title": "T. Rowe Price - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/T._Rowe_Price",
+          "type": "wiki"
+        },
+        "asOf": "1937",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-openai-corp",
@@ -10087,7 +12040,29 @@
         "targetId": "stg-vc-thrive",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "San Francisco, USA",
+        "source": {
+          "title": "OpenAI - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/OpenAI",
+          "type": "wiki"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2015.0,
+        "source": {
+          "title": "OpenAI - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/OpenAI",
+          "type": "wiki"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-lightspeed",
@@ -10146,7 +12121,29 @@
         "targetId": "ind-skild",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Menlo Park, USA",
+        "source": {
+          "title": "Lightspeed Venture Partners - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners",
+          "type": "wiki"
+        },
+        "asOf": "2000",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2000.0,
+        "source": {
+          "title": "Lightspeed Venture Partners - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lightspeed_Venture_Partners",
+          "type": "wiki"
+        },
+        "asOf": "2000",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-coatue",
@@ -10204,7 +12201,29 @@
         "targetId": "ind-skild",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "New York, USA",
+        "source": {
+          "title": "Coatue Management - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coatue_Management",
+          "type": "wiki"
+        },
+        "asOf": "1999",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1999.0,
+        "source": {
+          "title": "Coatue Management - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coatue_Management",
+          "type": "wiki"
+        },
+        "asOf": "1999",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-softbank",
@@ -10272,7 +12291,29 @@
         "targetId": "ind-skild",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Tokyo, Japan",
+        "source": {
+          "title": "SoftBank Group - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/SoftBank_Group",
+          "type": "wiki"
+        },
+        "asOf": "1981",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1981.0,
+        "source": {
+          "title": "SoftBank Group - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/SoftBank_Group",
+          "type": "wiki"
+        },
+        "asOf": "1981",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-felicis",
@@ -10335,7 +12376,29 @@
         "targetId": "ind-skild",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Menlo Park, USA",
+        "source": {
+          "title": "Felicis - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Felicis",
+          "type": "wiki"
+        },
+        "asOf": "2006",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2006.0,
+        "source": {
+          "title": "Felicis - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Felicis",
+          "type": "wiki"
+        },
+        "asOf": "2006",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-menlo-ventures",
@@ -10394,7 +12457,29 @@
         "targetId": "ind-skild",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Menlo Park, USA",
+        "source": {
+          "title": "Menlo Ventures - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Menlo_Ventures",
+          "type": "wiki"
+        },
+        "asOf": "1976",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1976.0,
+        "source": {
+          "title": "Menlo Ventures - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Menlo_Ventures",
+          "type": "wiki"
+        },
+        "asOf": "1976",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-general-catalyst",
@@ -10458,7 +12543,29 @@
         "targetId": "ind-skild",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Cambridge, USA",
+        "source": {
+          "title": "General Catalyst - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_Catalyst",
+          "type": "wiki"
+        },
+        "asOf": "2000",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2000.0,
+        "source": {
+          "title": "General Catalyst - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_Catalyst",
+          "type": "wiki"
+        },
+        "asOf": "2000",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-crv",
@@ -10516,7 +12623,29 @@
         "targetId": "ind-skild",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "San Francisco, USA",
+        "source": {
+          "title": "CRV - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/CRV_(venture_capital_firm)",
+          "type": "wiki"
+        },
+        "asOf": "1970",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1970.0,
+        "source": {
+          "title": "CRV - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/CRV_(venture_capital_firm)",
+          "type": "wiki"
+        },
+        "asOf": "1970",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-sv-angel",
@@ -10580,7 +12709,29 @@
         "targetId": "ind-skild",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "San Francisco, USA",
+        "source": {
+          "title": "Ron Conway - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ron_Conway",
+          "type": "wiki"
+        },
+        "asOf": "2009",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2009.0,
+        "source": {
+          "title": "Ron Conway - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ron_Conway",
+          "type": "wiki"
+        },
+        "asOf": "2009",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-alexa-fund",
@@ -10642,7 +12793,29 @@
         "targetId": "stg-vc-amazon-industrial-innovation",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Seattle, USA",
+        "source": {
+          "title": "Alexa Fund Venture Capital - Amazon Developer",
+          "url": "https://developer.amazon.com/en-US/alexa/alexa-fund-venture-capital/",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2015.0,
+        "source": {
+          "title": "Alexa Fund Venture Capital - Amazon Developer",
+          "url": "https://developer.amazon.com/en-US/alexa/alexa-fund-venture-capital/",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-amazon-industrial-innovation",
@@ -10727,7 +12900,29 @@
         "targetId": "stg-vc-alexa-fund",
         "role": "related"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Seattle, USA",
+        "source": {
+          "title": "Introducing the $1 billion Amazon Industrial Innovation Fund",
+          "url": "https://www.aboutamazon.com/news/innovation-at-amazon/introducing-the-1-billion-amazon-industrial-innovation-fund",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2022.0,
+        "source": {
+          "title": "Introducing the $1 billion Amazon Industrial Innovation Fund",
+          "url": "https://www.aboutamazon.com/news/innovation-at-amazon/introducing-the-1-billion-amazon-industrial-innovation-fund",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-bdc-capital",
@@ -10788,7 +12983,29 @@
         "targetId": "ind-sanctuary",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Montreal, Canada",
+        "source": {
+          "title": "Thrive Venture Fund | BDC Capital",
+          "url": "https://www.bdc.ca/en/bdc-capital/venture-capital/funds/thrive-platform/thrive-venture-fund",
+          "type": "official"
+        },
+        "asOf": "1944",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1944.0,
+        "source": {
+          "title": "Thrive Venture Fund | BDC Capital",
+          "url": "https://www.bdc.ca/en/bdc-capital/venture-capital/funds/thrive-platform/thrive-venture-fund",
+          "type": "official"
+        },
+        "asOf": "1944",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-inbc",
@@ -10849,7 +13066,29 @@
         "targetId": "ind-sanctuary",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Vancouver, Canada",
+        "source": {
+          "title": "$500-million investment fund paves way for a StrongerBC (BC Gov)",
+          "url": "https://news.gov.bc.ca/releases/2021PREM0030-000775",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2021.0,
+        "source": {
+          "title": "$500-million investment fund paves way for a StrongerBC (BC Gov)",
+          "url": "https://news.gov.bc.ca/releases/2021PREM0030-000775",
+          "type": "official"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-bell",
@@ -10905,7 +13144,29 @@
         "targetId": "ind-sanctuary",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Montreal, Canada",
+        "source": {
+          "title": "BCE Inc. - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/BCE_Inc.",
+          "type": "wiki"
+        },
+        "asOf": "1880",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1880.0,
+        "source": {
+          "title": "BCE Inc. - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/BCE_Inc.",
+          "type": "wiki"
+        },
+        "asOf": "1880",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-evok-innovations",
@@ -10962,7 +13223,29 @@
         "targetId": "ind-sanctuary",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Vancouver, Canada",
+        "source": {
+          "title": "Evok Innovations Announces First Close of $300M Cleantech Fund",
+          "url": "https://www.evokinnovations.com/post/evok-innovations-announces-first-close-of-300-million-usd-cleantech-fund",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2016.0,
+        "source": {
+          "title": "Evok Innovations Announces First Close of $300M Cleantech Fund",
+          "url": "https://www.evokinnovations.com/post/evok-innovations-announces-first-close-of-300-million-usd-cleantech-fund",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-edc",
@@ -11023,7 +13306,29 @@
         "targetId": "ind-sanctuary",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Ottawa, Canada",
+        "source": {
+          "title": "Export Development Canada - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Export_Development_Canada",
+          "type": "wiki"
+        },
+        "asOf": "1944",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1944.0,
+        "source": {
+          "title": "Export Development Canada - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Export_Development_Canada",
+          "type": "wiki"
+        },
+        "asOf": "1944",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-magna",
@@ -11080,7 +13385,29 @@
         "targetId": "ind-sanctuary",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Aurora, Canada",
+        "source": {
+          "title": "Magna International - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Magna_International",
+          "type": "wiki"
+        },
+        "asOf": "1957",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1957.0,
+        "source": {
+          "title": "Magna International - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Magna_International",
+          "type": "wiki"
+        },
+        "asOf": "1957",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-se-health",
@@ -11136,7 +13463,29 @@
         "targetId": "ind-sanctuary",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Markham, Canada",
+        "source": {
+          "title": "SE Health - Official Site",
+          "url": "https://sehc.com/",
+          "type": "official"
+        },
+        "asOf": "1908",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1908.0,
+        "source": {
+          "title": "SE Health - Official Site",
+          "url": "https://sehc.com/",
+          "type": "official"
+        },
+        "asOf": "1908",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-verizon-ventures",
@@ -11192,7 +13541,29 @@
         "targetId": "ind-sanctuary",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "New York, USA",
+        "source": {
+          "title": "Verizon Ventures | About Verizon",
+          "url": "https://www.verizon.com/about/our-company/verizon-ventures",
+          "type": "official"
+        },
+        "asOf": "2000",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2000.0,
+        "source": {
+          "title": "Verizon Ventures | About Verizon",
+          "url": "https://www.verizon.com/about/our-company/verizon-ventures",
+          "type": "official"
+        },
+        "asOf": "2000",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-workday-ventures",
@@ -11248,7 +13619,29 @@
         "targetId": "ind-sanctuary",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Pleasanton, USA",
+        "source": {
+          "title": "Workday Ventures - Official Site",
+          "url": "https://ventures.workday.com/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2018.0,
+        "source": {
+          "title": "Workday Ventures - Official Site",
+          "url": "https://ventures.workday.com/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-mercedes-benz",
@@ -11304,7 +13697,29 @@
         "targetId": "ind-apptronik",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Stuttgart, Germany",
+        "source": {
+          "title": "Mercedes-Benz Group - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_Group",
+          "type": "wiki"
+        },
+        "asOf": "1926",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1926.0,
+        "source": {
+          "title": "Mercedes-Benz Group - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mercedes-Benz_Group",
+          "type": "wiki"
+        },
+        "asOf": "1926",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-peak6",
@@ -11365,7 +13780,29 @@
         "targetId": "ind-apptronik",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Austin, USA",
+        "source": {
+          "title": "Peak6 - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peak6",
+          "type": "wiki"
+        },
+        "asOf": "1997",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1997.0,
+        "source": {
+          "title": "Peak6 - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peak6",
+          "type": "wiki"
+        },
+        "asOf": "1997",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-att-ventures",
@@ -11426,7 +13863,29 @@
         "targetId": "ind-apptronik",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Dallas, USA",
+        "source": {
+          "title": "AT&T Ventures - Official Site",
+          "url": "https://about.att.com/pages/ventures",
+          "type": "official"
+        },
+        "asOf": "1991",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1991.0,
+        "source": {
+          "title": "AT&T Ventures - Official Site",
+          "url": "https://about.att.com/pages/ventures",
+          "type": "official"
+        },
+        "asOf": "1991",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-b-capital",
@@ -11502,7 +13961,29 @@
         "targetId": "ind-apptronik",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Manhattan Beach, USA",
+        "source": {
+          "title": "B Capital - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/B_Capital",
+          "type": "wiki"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2015.0,
+        "source": {
+          "title": "B Capital - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/B_Capital",
+          "type": "wiki"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-dcvc",
@@ -11567,7 +14048,29 @@
         "targetId": "ind-agility",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Palo Alto, USA",
+        "source": {
+          "title": "DCVC | About",
+          "url": "https://www.dcvc.com/about/",
+          "type": "official"
+        },
+        "asOf": "2011",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2011.0,
+        "source": {
+          "title": "DCVC | About",
+          "url": "https://www.dcvc.com/about/",
+          "type": "official"
+        },
+        "asOf": "2011",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-playground-global",
@@ -11631,7 +14134,29 @@
         "targetId": "ind-agility",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Palo Alto, USA",
+        "source": {
+          "title": "Playground Global - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Playground_Global",
+          "type": "wiki"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2015.0,
+        "source": {
+          "title": "Playground Global - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Playground_Global",
+          "type": "wiki"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-mfv-partners",
@@ -11694,7 +14219,29 @@
         "targetId": "ind-agility",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Silicon Valley, USA",
+        "source": {
+          "title": "MFV Partners – Early Stage Deep-Tech VC in Silicon Valley",
+          "url": "https://www.mfvpartners.com/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2018.0,
+        "source": {
+          "title": "MFV Partners – Early Stage Deep-Tech VC in Silicon Valley",
+          "url": "https://www.mfvpartners.com/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-itic",
@@ -11757,7 +14304,29 @@
         "targetId": "ind-agility",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Taipei, Taiwan",
+        "source": {
+          "title": "ABOUT – ITIC",
+          "url": "https://itic.com.tw/about/",
+          "type": "official"
+        },
+        "asOf": "1979",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1979.0,
+        "source": {
+          "title": "ABOUT – ITIC",
+          "url": "https://itic.com.tw/about/",
+          "type": "official"
+        },
+        "asOf": "1979",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-robotics-hub",
@@ -11818,7 +14387,29 @@
         "targetId": "ind-agility",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Pittsburgh, USA",
+        "source": {
+          "title": "Robotics Hub | Est. Coal Hill Ventures",
+          "url": "https://www.coalhillventures.com/",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2015.0,
+        "source": {
+          "title": "Robotics Hub | Est. Coal Hill Ventures",
+          "url": "https://www.coalhillventures.com/",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-safar-partners",
@@ -11882,7 +14473,29 @@
         "targetId": "ind-agility",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Boston, USA",
+        "source": {
+          "title": "Safar Partners | Investing in Tomorrow's World-Changers.",
+          "url": "https://www.safar.partners/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2018.0,
+        "source": {
+          "title": "Safar Partners | Investing in Tomorrow's World-Changers.",
+          "url": "https://www.safar.partners/",
+          "type": "official"
+        },
+        "asOf": "2018",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-sony-innovation-fund",
@@ -11943,7 +14556,29 @@
         "targetId": "ind-agility",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Tokyo, Japan",
+        "source": {
+          "title": "Sony Innovation Fund",
+          "url": "https://www.sonyinnovationfund.com/",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2016.0,
+        "source": {
+          "title": "Sony Innovation Fund",
+          "url": "https://www.sonyinnovationfund.com/",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-tdk-ventures",
@@ -12007,7 +14642,29 @@
         "targetId": "ind-agility",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "San Jose, USA",
+        "source": {
+          "title": "Investing in Tomorrow's Tech Today | TDK Ventures",
+          "url": "https://tdk-ventures.com/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2019.0,
+        "source": {
+          "title": "Investing in Tomorrow's Tech Today | TDK Ventures",
+          "url": "https://tdk-ventures.com/",
+          "type": "official"
+        },
+        "asOf": "2019",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-longcheer",
@@ -12068,7 +14725,29 @@
         "targetId": "ind-agibot",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shanghai, China",
+        "source": {
+          "title": "AgiBot funding announcement incl. Longcheer",
+          "url": "https://www.marketscreener.com/quote/stock/SHANGHAI-LONGCHEER-TECHNO-171869489/news/Shanghai-AgiBot-Innovation-Technology-Co-Ltd-announced-that-it-has-received-funding-from-Tencent-49440112/",
+          "type": "news"
+        },
+        "asOf": "2002",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2002.0,
+        "source": {
+          "title": "AgiBot funding announcement incl. Longcheer",
+          "url": "https://www.marketscreener.com/quote/stock/SHANGHAI-LONGCHEER-TECHNO-171869489/news/Shanghai-AgiBot-Innovation-Technology-Co-Ltd-announced-that-it-has-received-funding-from-Tencent-49440112/",
+          "type": "news"
+        },
+        "asOf": "2002",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-wolong",
@@ -12130,7 +14809,29 @@
         "targetId": "ind-agibot",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shangyu, Zhejiang, China",
+        "source": {
+          "title": "Wolong Electric has invested in AgiBot",
+          "url": "https://www.wolong-electric.com/media-center/company-news/329",
+          "type": "official"
+        },
+        "asOf": "1984",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1984.0,
+        "source": {
+          "title": "Wolong Electric has invested in AgiBot",
+          "url": "https://www.wolong-electric.com/media-center/company-news/329",
+          "type": "official"
+        },
+        "asOf": "1984",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-huafa",
@@ -12192,7 +14893,29 @@
         "targetId": "ind-agibot",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Zhuhai, Guangdong, China",
+        "source": {
+          "title": "An overview of Huafa",
+          "url": "https://en.cnhuafag.com/about/index.html",
+          "type": "official"
+        },
+        "asOf": "1980",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1980.0,
+        "source": {
+          "title": "An overview of Huafa",
+          "url": "https://en.cnhuafag.com/about/index.html",
+          "type": "official"
+        },
+        "asOf": "1980",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-china-mobile",
@@ -12258,7 +14981,29 @@
         "targetId": "ind-unitree",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "Unitree Technology Completes Nearly 700M Yuan Series C Financing with Tencent, Alibaba, China Mobile as Investors",
+          "url": "https://eu.36kr.com/en/p/3344368397190018",
+          "type": "news"
+        },
+        "asOf": "1997",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1997.0,
+        "source": {
+          "title": "Unitree Technology Completes Nearly 700M Yuan Series C Financing with Tencent, Alibaba, China Mobile as Investors",
+          "url": "https://eu.36kr.com/en/p/3344368397190018",
+          "type": "news"
+        },
+        "asOf": "1997",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-jinqiu",
@@ -12319,7 +15064,29 @@
         "targetId": "ind-unitree",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "锦秋基金 - Jinqiu Capital",
+          "url": "https://jinqiucapital.com/?lang=en",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2022.0,
+        "source": {
+          "title": "锦秋基金 - Jinqiu Capital",
+          "url": "https://jinqiucapital.com/?lang=en",
+          "type": "official"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-cdb-capital",
@@ -12380,7 +15147,29 @@
         "targetId": "ind-galbot",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "国开金融",
+          "url": "https://www.cdb-capital.com/",
+          "type": "official"
+        },
+        "asOf": "2009",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2009.0,
+        "source": {
+          "title": "国开金融",
+          "url": "https://www.cdb-capital.com/",
+          "type": "official"
+        },
+        "asOf": "2009",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-beijing-ai-fund",
@@ -12447,7 +15236,29 @@
         "targetId": "ind-galbot",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "Beijing sets up $13.7b fund to boost AI, robotics innovations",
+          "url": "https://www.dealstreetasia.com/stories/beijing-ai-robotics-funds-432932",
+          "type": "news"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2024.0,
+        "source": {
+          "title": "Beijing sets up $13.7b fund to boost AI, robotics innovations",
+          "url": "https://www.dealstreetasia.com/stories/beijing-ai-robotics-funds-432932",
+          "type": "news"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-baic-capital",
@@ -12528,7 +15339,29 @@
         "targetId": "ind-robot-era",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "BAIC Capital official site",
+          "url": "https://www.baiccapital.com/",
+          "type": "official"
+        },
+        "asOf": "2012",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2012.0,
+        "source": {
+          "title": "BAIC Capital official site",
+          "url": "https://www.baiccapital.com/",
+          "type": "official"
+        },
+        "asOf": "2012",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-sense-capital",
@@ -12585,7 +15418,29 @@
         "targetId": "ind-galbot",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shanghai, China",
+        "source": {
+          "title": "SenseTime Guoxiang Capital - CBInsights",
+          "url": "https://www.cbinsights.com/investor/shangtang-guoxiang-capital",
+          "type": "news"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2021.0,
+        "source": {
+          "title": "SenseTime Guoxiang Capital - CBInsights",
+          "url": "https://www.cbinsights.com/investor/shangtang-guoxiang-capital",
+          "type": "news"
+        },
+        "asOf": "2021",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-iflytek-fund",
@@ -12646,7 +15501,29 @@
         "targetId": "ind-galbot",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Hefei, Anhui, China",
+        "source": {
+          "title": "China AI Firm iFlytek Plans $150M Fund",
+          "url": "https://nai500.com/blog/2017/10/china-artificial-intelligence-firm-iflytek-plans-150m-fund-to-support-startups/",
+          "type": "news"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2017.0,
+        "source": {
+          "title": "China AI Firm iFlytek Plans $150M Fund",
+          "url": "https://nai500.com/blog/2017/10/china-artificial-intelligence-firm-iflytek-plans-150m-fund-to-support-startups/",
+          "type": "news"
+        },
+        "asOf": "2017",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-lighthouse-capital",
@@ -12704,7 +15581,29 @@
         "targetId": "ind-galbot",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shanghai, China",
+        "source": {
+          "title": "光源资本 official site",
+          "url": "https://lighthousecap.cn/",
+          "type": "official"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2014.0,
+        "source": {
+          "title": "光源资本 official site",
+          "url": "https://lighthousecap.cn/",
+          "type": "official"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-cdh",
@@ -12767,7 +15666,29 @@
         "targetId": "ind-robot-era",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Hong Kong / Beijing, China",
+        "source": {
+          "title": "CDH Investments - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/CDH_Investments",
+          "type": "wiki"
+        },
+        "asOf": "2002",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2002.0,
+        "source": {
+          "title": "CDH Investments - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/CDH_Investments",
+          "type": "wiki"
+        },
+        "asOf": "2002",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-haier-capital",
@@ -12829,7 +15750,29 @@
         "targetId": "ind-robot-era",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shanghai, China",
+        "source": {
+          "title": "海尔资本 official site",
+          "url": "https://www.haiercapital.com/",
+          "type": "official"
+        },
+        "asOf": "2010",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2010.0,
+        "source": {
+          "title": "海尔资本 official site",
+          "url": "https://www.haiercapital.com/",
+          "type": "official"
+        },
+        "asOf": "2010",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-houxue",
@@ -12892,7 +15835,29 @@
         "targetId": "ind-robot-era",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shanghai, China",
+        "source": {
+          "title": "Houxue Capital - Crunchbase",
+          "url": "https://www.crunchbase.com/organization/houxue-capital",
+          "type": "news"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2022.0,
+        "source": {
+          "title": "Houxue Capital - Crunchbase",
+          "url": "https://www.crunchbase.com/organization/houxue-capital",
+          "type": "news"
+        },
+        "asOf": "2022",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-meridian-china",
@@ -12950,7 +15915,29 @@
         "targetId": "ind-robot-era",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shanghai, China",
+        "source": {
+          "title": "Meridian Capital China - PitchBook",
+          "url": "https://pitchbook.com/profiles/investor/60672-16",
+          "type": "news"
+        },
+        "asOf": "2008",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2008.0,
+        "source": {
+          "title": "Meridian Capital China - PitchBook",
+          "url": "https://pitchbook.com/profiles/investor/60672-16",
+          "type": "news"
+        },
+        "asOf": "2008",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-xianghe",
@@ -13013,7 +16000,29 @@
         "targetId": "ind-robot-era",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "Xiang He Capital official",
+          "url": "https://www.xianghecap.com/en",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2016.0,
+        "source": {
+          "title": "Xiang He Capital official",
+          "url": "https://www.xianghecap.com/en",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-fore-intelligent",
@@ -13069,7 +16078,18 @@
         "targetId": "ind-robot-era",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Taizhou, Zhejiang, China",
+        "source": {
+          "title": "Zhejiang FORE Intelligent Technology official site",
+          "url": "https://www.cn-fore.com/",
+          "type": "official"
+        },
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-crystal-stream",
@@ -13132,7 +16152,29 @@
         "targetId": "ind-robot-era",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "Crystal Stream Capital - PitchBook",
+          "url": "https://pitchbook.com/profiles/investor/63542-17",
+          "type": "news"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2013.0,
+        "source": {
+          "title": "Crystal Stream Capital - PitchBook",
+          "url": "https://pitchbook.com/profiles/investor/63542-17",
+          "type": "news"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-tsinghua-holdings",
@@ -13207,7 +16249,29 @@
         "targetId": "ind-robot-era",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "Tsinghua Holdings - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tsinghua_Holdings",
+          "type": "wiki"
+        },
+        "asOf": "2003",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2003.0,
+        "source": {
+          "title": "Tsinghua Holdings - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tsinghua_Holdings",
+          "type": "wiki"
+        },
+        "asOf": "2003",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-clearvue",
@@ -13266,7 +16330,29 @@
         "targetId": "ind-robot-era",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shanghai, China",
+        "source": {
+          "title": "ClearVue Partners About",
+          "url": "https://www.cvpcap.com/about-us",
+          "type": "official"
+        },
+        "asOf": "2012",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2012.0,
+        "source": {
+          "title": "ClearVue Partners About",
+          "url": "https://www.cvpcap.com/about-us",
+          "type": "official"
+        },
+        "asOf": "2012",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-visionplus",
@@ -13334,7 +16420,29 @@
         "targetId": "ind-robot-era",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Hangzhou / Shanghai, China",
+        "source": {
+          "title": "元璟资本 official site",
+          "url": "https://visionpluscapital.com/",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2015.0,
+        "source": {
+          "title": "元璟资本 official site",
+          "url": "https://visionpluscapital.com/",
+          "type": "official"
+        },
+        "asOf": "2015",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-orinno",
@@ -13396,7 +16504,29 @@
         "targetId": "ind-ubtech",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shenzhen, China",
+        "source": {
+          "title": "Langmafeng Venture Capital - Tracxn",
+          "url": "https://tracxn.com/d/venture-capital/langmafeng-venture-capital/__znVanqEnfetg7shCpciVZ2g-4YCUAe6UIcjcmioLXl8",
+          "type": "news"
+        },
+        "asOf": "2007",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2007.0,
+        "source": {
+          "title": "Langmafeng Venture Capital - Tracxn",
+          "url": "https://tracxn.com/d/venture-capital/langmafeng-venture-capital/__znVanqEnfetg7shCpciVZ2g-4YCUAe6UIcjcmioLXl8",
+          "type": "news"
+        },
+        "asOf": "2007",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-lenovo-capital",
@@ -13456,7 +16586,29 @@
         "targetId": "ind-robot-era",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "联想创投 official site",
+          "url": "https://capital.lenovo.com/",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2016.0,
+        "source": {
+          "title": "联想创投 official site",
+          "url": "https://capital.lenovo.com/",
+          "type": "official"
+        },
+        "asOf": "2016",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-century-golden-resources",
@@ -13512,7 +16664,29 @@
         "targetId": "ind-robot-era",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "Century Golden Resources Group - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Century_Golden_Resources_Group",
+          "type": "wiki"
+        },
+        "asOf": "1991",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1991.0,
+        "source": {
+          "title": "Century Golden Resources Group - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Century_Golden_Resources_Group",
+          "type": "wiki"
+        },
+        "asOf": "1991",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-stone-venture",
@@ -13573,7 +16747,29 @@
         "targetId": "ind-limx",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Dubai, UAE",
+        "source": {
+          "title": "Caixin: Chinese Robot Startup LimX Dynamics Raises $200 Million",
+          "url": "https://www.caixinglobal.com/2026-02-03/chinese-robot-startup-limx-dynamics-raises-200-million-102411020.html",
+          "type": "news"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2024.0,
+        "source": {
+          "title": "Caixin: Chinese Robot Startup LimX Dynamics Raises $200 Million",
+          "url": "https://www.caixinglobal.com/2026-02-03/chinese-robot-startup-limx-dynamics-raises-200-million-102411020.html",
+          "type": "news"
+        },
+        "asOf": "2024",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-oriental-fortune",
@@ -13634,7 +16830,29 @@
         "targetId": "ind-limx",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shenzhen, China",
+        "source": {
+          "title": "Oriental Fortune Capital - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Oriental_Fortune_Capital",
+          "type": "wiki"
+        },
+        "asOf": "2006",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2006.0,
+        "source": {
+          "title": "Oriental Fortune Capital - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Oriental_Fortune_Capital",
+          "type": "wiki"
+        },
+        "asOf": "2006",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-costone",
@@ -13699,7 +16917,29 @@
         "targetId": "ind-limx",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Shenzhen, China",
+        "source": {
+          "title": "CoStone Capital - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/CoStone_Capital",
+          "type": "wiki"
+        },
+        "asOf": "2001",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2001.0,
+        "source": {
+          "title": "CoStone Capital - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/CoStone_Capital",
+          "type": "wiki"
+        },
+        "asOf": "2001",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-jd",
@@ -13767,7 +17007,29 @@
         "targetId": "stg-ind-engineai",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "JD.com Drives Robotics Funding Frenzy With Investments in LimX Dynamics, Spirit AI, and EngineAI",
+          "url": "https://en.tmtpost.com/post/7632722",
+          "type": "news"
+        },
+        "asOf": "1998",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1998.0,
+        "source": {
+          "title": "JD.com Drives Robotics Funding Frenzy With Investments in LimX Dynamics, Spirit AI, and EngineAI",
+          "url": "https://en.tmtpost.com/post/7632722",
+          "type": "news"
+        },
+        "asOf": "1998",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-zhongding",
@@ -13824,7 +17086,29 @@
         "targetId": "ind-limx",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Ningguo, Anhui, China",
+        "source": {
+          "title": "Zhongding's First Humanoid Robot Officially Rolls Off Production Line",
+          "url": "https://autonews.gasgoo.com/articles/icv/zhongdings-first-humanoid-robot-officially-rolls-off-production-line-2033891149037596672",
+          "type": "news"
+        },
+        "asOf": "1980",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1980.0,
+        "source": {
+          "title": "Zhongding's First Humanoid Robot Officially Rolls Off Production Line",
+          "url": "https://autonews.gasgoo.com/articles/icv/zhongdings-first-humanoid-robot-officially-rolls-off-production-line-2033891149037596672",
+          "type": "news"
+        },
+        "asOf": "1980",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-nrb",
@@ -13885,7 +17169,18 @@
         "targetId": "ind-limx",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Changzhou, Jiangsu, China",
+        "source": {
+          "title": "Changzhou NRB Corporation profile",
+          "url": "https://www.bearing-expo.com/companies/890-changzhou-nrb-corporation",
+          "type": "news"
+        },
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-kyland",
@@ -13946,7 +17241,29 @@
         "targetId": "ind-limx",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "Kyland official site",
+          "url": "https://www.kyland.com/",
+          "type": "official"
+        },
+        "asOf": "2000",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2000.0,
+        "source": {
+          "title": "Kyland official site",
+          "url": "https://www.kyland.com/",
+          "type": "official"
+        },
+        "asOf": "2000",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-innoangel",
@@ -14004,7 +17321,29 @@
         "targetId": "ind-booster",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "英诺基金-首页",
+          "url": "https://www.innoangel.com/",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2013.0,
+        "source": {
+          "title": "英诺基金-首页",
+          "url": "https://www.innoangel.com/",
+          "type": "official"
+        },
+        "asOf": "2013",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-jinding",
@@ -14085,7 +17424,29 @@
         "targetId": "ind-robot-era",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Beijing, China",
+        "source": {
+          "title": "Jinding Capital - CBInsights",
+          "url": "https://www.cbinsights.com/investor/jinding-capital",
+          "type": "news"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2014.0,
+        "source": {
+          "title": "Jinding Capital - CBInsights",
+          "url": "https://www.cbinsights.com/investor/jinding-capital",
+          "type": "news"
+        },
+        "asOf": "2014",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-capital-factory",
@@ -14146,7 +17507,29 @@
         "targetId": "ind-apptronik",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Austin, USA",
+        "source": {
+          "title": "Capital Factory: Apptronik",
+          "url": "https://capitalfactory.com/startup/apptronik-inc/",
+          "type": "official"
+        },
+        "asOf": "2009",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 2009.0,
+        "source": {
+          "title": "Capital Factory: Apptronik",
+          "url": "https://capitalfactory.com/startup/apptronik-inc/",
+          "type": "official"
+        },
+        "asOf": "2009",
+        "confidence": "reported"
+      }
+    }
   },
   {
     "id": "stg-vc-john-deere",
@@ -14207,6 +17590,28 @@
         "targetId": "ind-apptronik",
         "role": "invested-in"
       }
-    ]
+    ],
+    "sourcedSpecs": {
+      "hq_country": {
+        "value": "Moline, Illinois, USA",
+        "source": {
+          "title": "Deere and Mercedes-Benz Invest in Humanoid Robots",
+          "url": "https://www.assemblymag.com/articles/99833-deere-and-mercedes-benz-invest-in-humanoid-robots",
+          "type": "news"
+        },
+        "asOf": "1837",
+        "confidence": "reported"
+      },
+      "founded_year": {
+        "value": 1837.0,
+        "source": {
+          "title": "Deere and Mercedes-Benz Invest in Humanoid Robots",
+          "url": "https://www.assemblymag.com/articles/99833-deere-and-mercedes-benz-invest-in-humanoid-robots",
+          "type": "news"
+        },
+        "asOf": "1837",
+        "confidence": "reported"
+      }
+    }
   }
 ]
