@@ -14,10 +14,6 @@ interface SingleSpecsPanelProps {
 export function SingleSpecsPanel({ entity, mockData, onNavigateToEntity, onViewEvolution }: SingleSpecsPanelProps) {
   const { t } = useLang();
 
-  const relatedEntities = (entity.relatedIds || [])
-    .map(id => mockData.find(e => e.id === id))
-    .filter((e): e is Entity => e !== undefined);
-
   return (
     <motion.div 
       initial={{ opacity: 0, x: -20 }}
@@ -70,7 +66,7 @@ export function SingleSpecsPanel({ entity, mockData, onNavigateToEntity, onViewE
           allEntries={mockData}
           onNavigateToEntity={onNavigateToEntity}
         />
-        <RelatedLinksList relatedEntities={relatedEntities} onNavigateToEntity={onNavigateToEntity} />
+        <RelatedLinksList entity={entity} mockData={mockData} onNavigateToEntity={onNavigateToEntity} />
         <SourcesBlock sources={entity.sources} />
       </div>
     </motion.div>

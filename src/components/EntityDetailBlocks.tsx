@@ -329,35 +329,131 @@ export function SourcesBlock({ sources }: { sources?: Source[] }) {
   );
 }
 
+/**
+ * Role display order — most informative roles first.
+ * Symmetric roles (forward == inverse label) listed once.
+ */
+const ROLE_ORDER: Array<{ role: string; isInverse: boolean }> = [
+  { role: 'series-member', isInverse: false },
+  { role: 'manufacturer', isInverse: false },          // this is made by X
+  { role: 'manufacturer', isInverse: true },           // X is made by us / our products
+  { role: 'invested-in', isInverse: false },           // we invested in X (VC side)
+  { role: 'invested-in', isInverse: true },            // X invested in us (company side)
+  { role: 'subsidiary-of', isInverse: false },
+  { role: 'subsidiary-of', isInverse: true },
+  { role: 'trained-on', isInverse: false },
+  { role: 'trained-on', isInverse: true },
+  { role: 'tech-base', isInverse: false },
+  { role: 'tech-base', isInverse: true },
+  { role: 'deployed-at', isInverse: false },
+  { role: 'deployed-at', isInverse: true },
+  { role: 'customer-of', isInverse: false },
+  { role: 'customer-of', isInverse: true },
+  { role: 'supplier-to', isInverse: false },
+  { role: 'affiliated-with', isInverse: false },
+  { role: 'competitor', isInverse: false },
+  { role: 'related', isInverse: false },
+];
+
+/**
+ * Translate a (role, isInverse) tuple to an i18n key for the section heading.
+ * Forward and inverse get different labels when semantically asymmetric.
+ */
+function roleLabelKey(role: string, isInverse: boolean): string {
+  const key = `panel.role.${role}${isInverse ? '_inv' : ''}`;
+  return key;
+}
+
 export function RelatedLinksList({
-  relatedEntities, 
-  onNavigateToEntity 
-}: { 
-  relatedEntities?: Entity[], 
-  onNavigateToEntity?: (id: string) => void 
+  entity,
+  mockData,
+  onNavigateToEntity,
+}: {
+  entity: Entity;
+  mockData: Entity[];
+  onNavigateToEntity?: (id: string) => void;
 }) {
   const { t } = useLang();
-  
-  if (!relatedEntities || relatedEntities.length === 0) return null;
-  
+  const idIndex = new Map(mockData.map(e => [e.id, e]));
+
+  // Collect typed (role, isInverse, target) tuples from three sources:
+  //   1. entity.relations  (authored on this side)
+  //   2. derived inverses  (other entities' relations pointing at us, no forward duplicate)
+  //   3. legacy relatedIds (no role known) → bucket as 'related'
+  type Edge = { target: Entity; role: string; isInverse: boolean };
+  const seen = new Set<string>();              // dedupe key = `${role}:${isInverse}:${targetId}`
+  const targetsAlreadyShown = new Set<string>(); // dedupe targets across roles
+  const edges: Edge[] = [];
+
+  for (const rel of entity.relations || []) {
+    const target = idIndex.get(rel.targetId);
+    if (!target) continue;
+    const key = `${rel.role}:${!!rel.isInverse}:${rel.targetId}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    targetsAlreadyShown.add(rel.targetId);
+    edges.push({ target, role: rel.role, isInverse: !!rel.isInverse });
+  }
+
+  // Derived inverses: scan all other entities for forward relations pointing to me
+  for (const other of mockData) {
+    if (other.id === entity.id) continue;
+    for (const rel of other.relations || []) {
+      if (rel.targetId !== entity.id || rel.isInverse) continue;
+      // I already have an explicit edge to `other`? skip to avoid duplication
+      if (targetsAlreadyShown.has(other.id)) continue;
+      const key = `${rel.role}:true:${other.id}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      targetsAlreadyShown.add(other.id);
+      edges.push({ target: other, role: rel.role, isInverse: true });
+    }
+  }
+
+  // Legacy relatedIds → 'related' bucket (only if not already represented)
+  for (const tid of entity.relatedIds || []) {
+    if (targetsAlreadyShown.has(tid)) continue;
+    const target = idIndex.get(tid);
+    if (!target) continue;
+    targetsAlreadyShown.add(tid);
+    edges.push({ target, role: 'related', isInverse: false });
+  }
+
+  if (edges.length === 0) return null;
+
+  // Group by (role, isInverse) in ROLE_ORDER sequence
+  const groups: Array<{ role: string; isInverse: boolean; items: Entity[] }> = [];
+  for (const slot of ROLE_ORDER) {
+    const items = edges
+      .filter(ed => ed.role === slot.role && ed.isInverse === slot.isInverse)
+      .map(ed => ed.target);
+    if (items.length) groups.push({ role: slot.role, isInverse: slot.isInverse, items });
+  }
+
   return (
-    <div className="flex flex-col gap-2 mt-2">
-      <h4 className="text-[11px] font-bold text-zinc-400 uppercase tracking-widest mb-1">{t('panel.related')}</h4>
-      <div className="flex flex-wrap gap-2">
-        {relatedEntities.map(rel => (
-          <button 
-            key={rel.id} 
-            onClick={() => onNavigateToEntity?.(rel.id)}
-            className="group flex flex-col items-start px-3 py-2 rounded-[12px] bg-white border border-zinc-200 shadow-sm hover:border-zinc-300 hover:shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-zinc-400 active:scale-[0.98] w-full"
-          >
-             <div className="flex items-center gap-1.5 w-full">
-               <span className="w-1.5 h-1.5 rounded-full bg-zinc-400 group-hover:bg-zinc-600 transition-colors"></span>
-               <span className="text-[10px] font-bold text-zinc-400 uppercase tracking-wider">{t(rel.category)}</span>
-             </div>
-             <span className="text-[13px] font-[600] text-zinc-700 mt-1">{rel.name}</span>
-          </button>
-        ))}
-      </div>
+    <div className="flex flex-col gap-3 mt-2">
+      {groups.map((g, gi) => (
+        <div key={gi} className="flex flex-col gap-2">
+          <h4 className="text-[11px] font-bold text-zinc-400 uppercase tracking-widest">
+            {t(roleLabelKey(g.role, g.isInverse))}
+          </h4>
+          <div className="flex flex-wrap gap-2">
+            {g.items.map(rel => (
+              <button
+                key={`${g.role}-${g.isInverse}-${rel.id}`}
+                onClick={() => onNavigateToEntity?.(rel.id)}
+                className="group flex flex-col items-start px-3 py-2 rounded-[12px] bg-white border border-zinc-200 shadow-sm hover:border-zinc-300 hover:shadow-md transition-all focus:outline-none focus:ring-2 focus:ring-zinc-400 active:scale-[0.98] w-full"
+              >
+                <div className="flex items-center gap-1.5 w-full">
+                  <span className="w-1.5 h-1.5 rounded-full bg-zinc-400 group-hover:bg-zinc-600 transition-colors"></span>
+                  <span className="text-[10px] font-bold text-zinc-400 uppercase tracking-wider">{t(rel.category)}</span>
+                </div>
+                <span className="text-[13px] font-[600] text-zinc-700 mt-1">{rel.name}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      ))}
     </div>
   );
 }

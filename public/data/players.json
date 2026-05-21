@@ -44,12 +44,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-agility",
-      "ind-figure",
-      "ind-physical-intelligence",
-      "ind-skild"
-    ],
     "portfolio": [
       {
         "companyName": "Physical Intelligence (Pi)",
@@ -76,6 +70,24 @@
           "title": "Announcing our $300M Series A Funding",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agility",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-figure",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-skild",
+        "role": "invested-in"
       }
     ]
   },
@@ -129,23 +141,6 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "ind-figure",
-      "sw-cosmos-predict",
-      "sw-cosmos-reason",
-      "sw-groot-n1",
-      "sw-groot-n1-5",
-      "sw3",
-      "sw-eureka",
-      "sw-robocasa",
-      "sw-roboeval",
-      "sw-cosmos-transfer",
-      "sw-newton",
-      "sw5",
-      "cp-jetson-agx-thor",
-      "cp-jetson-agx-xavier",
-      "cp-jetson-nano"
-    ],
     "portfolio": [
       {
         "companyName": "Figure AI",
@@ -172,6 +167,82 @@
           "title": "Figure Raises $675M at $2.6B Valuation and Signs Collaboration Agreement with OpenAI",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-figure",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-cosmos-predict",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-cosmos-reason",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-groot-n1",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-groot-n1-5",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw3",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-eureka",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-robocasa",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-roboeval",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-cosmos-transfer",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-newton",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw5",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "cp-jetson-agx-thor",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "cp-jetson-agx-xavier",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "cp-jetson-nano",
+        "role": "manufacturer",
+        "isInverse": true
       }
     ]
   },
@@ -216,8 +287,11 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "sw-vima"
+    "relations": [
+      {
+        "targetId": "sw-vima",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -260,11 +334,27 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "stg-vc-ark-invest",
-      "f4",
-      "f8",
-      "f98"
+    "relations": [
+      {
+        "targetId": "stg-vc-ark-invest",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "f4",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f8",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f98",
+        "role": "manufacturer",
+        "isInverse": true
+      }
     ]
   },
   {
@@ -302,14 +392,6 @@
         "title": "Figure AI - Wikipedia",
         "type": "wiki"
       }
-    ],
-    "relatedIds": [
-      "ind1",
-      "stg-vc-align-ventures",
-      "stg-vc-ark-invest",
-      "stg-vc-bezos-expeditions",
-      "stg-vc-brookfield",
-      "app-humanoid-manufacturing"
     ],
     "fundingRounds": [
       {
@@ -416,6 +498,36 @@
           }
         ]
       }
+    ],
+    "relations": [
+      {
+        "targetId": "ind1",
+        "role": "competitor"
+      },
+      {
+        "targetId": "stg-vc-align-ventures",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-ark-invest",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-bezos-expeditions",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-brookfield",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-humanoid-manufacturing",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -452,23 +564,6 @@
         "title": "1X Technologies - Wikipedia",
         "type": "wiki"
       }
-    ],
-    "relatedIds": [
-      "stg-vc-alliance-ventures",
-      "stg-vc-eqt-ventures",
-      "stg-vc-nistad-group",
-      "stg-vc-openai-corp",
-      "stg-vc-openai-startup-fund",
-      "stg-vc-samsung-next",
-      "stg-vc-sandwater",
-      "stg-vc-skagerak-capital",
-      "vc-tiger-global",
-      "sw-1x-world-model",
-      "f122",
-      "f21",
-      "f34",
-      "app-home-humanoid",
-      "app-last-mile-delivery"
     ],
     "fundingRounds": [
       {
@@ -543,6 +638,81 @@
           }
         ]
       }
+    ],
+    "relations": [
+      {
+        "targetId": "stg-vc-alliance-ventures",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-eqt-ventures",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-nistad-group",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-openai-corp",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-openai-startup-fund",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-samsung-next",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-sandwater",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-skagerak-capital",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "vc-tiger-global",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-1x-world-model",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f122",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f21",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f34",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-home-humanoid",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-last-mile-delivery",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -583,19 +753,6 @@
         "title": "Sanctuary AI's latest Phoenix humanoid",
         "type": "news"
       }
-    ],
-    "relatedIds": [
-      "stg-vc-bdc-capital",
-      "stg-vc-bell",
-      "stg-vc-edc",
-      "stg-vc-evok-innovations",
-      "stg-vc-inbc",
-      "stg-vc-magna",
-      "stg-vc-se-health",
-      "stg-vc-verizon-ventures",
-      "stg-vc-workday-ventures",
-      "f118",
-      "h14"
     ],
     "fundingRounds": [
       {
@@ -662,6 +819,63 @@
           }
         ]
       }
+    ],
+    "relations": [
+      {
+        "targetId": "stg-vc-bdc-capital",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-bell",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-edc",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-evok-innovations",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-inbc",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-magna",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-se-health",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-verizon-ventures",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-workday-ventures",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "f118",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "h14",
+        "role": "manufacturer",
+        "isInverse": true
+      }
     ]
   },
   {
@@ -701,11 +915,26 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "stg-vc-softbank",
-      "f29",
-      "pwr-spot-battery",
-      "app-inspection"
+    "relations": [
+      {
+        "targetId": "stg-vc-softbank",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "f29",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "pwr-spot-battery",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-inspection",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -745,17 +974,6 @@
         "title": "Apptronik: 2025 CNBC Disruptor 50",
         "type": "news"
       }
-    ],
-    "relatedIds": [
-      "stg-vc-att-ventures",
-      "stg-vc-b-capital",
-      "stg-vc-capital-factory",
-      "stg-vc-john-deere",
-      "stg-vc-mercedes-benz",
-      "stg-vc-peak6",
-      "vc-gv",
-      "f81",
-      "app-humanoid-manufacturing"
     ],
     "fundingRounds": [
       {
@@ -822,6 +1040,52 @@
           }
         ]
       }
+    ],
+    "relations": [
+      {
+        "targetId": "stg-vc-att-ventures",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-b-capital",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-capital-factory",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-john-deere",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-mercedes-benz",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-peak6",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "vc-gv",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "f81",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-humanoid-manufacturing",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -858,18 +1122,6 @@
         "title": "Agility Robotics - Wikipedia",
         "type": "wiki"
       }
-    ],
-    "relatedIds": [
-      "stg-vc-amazon-industrial-innovation",
-      "stg-vc-dcvc",
-      "stg-vc-itic",
-      "stg-vc-mfv-partners",
-      "f1",
-      "f130",
-      "app-agriculture",
-      "app-construction",
-      "app-education-stem",
-      "app-healthcare-companion"
     ],
     "fundingRounds": [
       {
@@ -922,6 +1174,54 @@
           }
         ]
       }
+    ],
+    "relations": [
+      {
+        "targetId": "stg-vc-amazon-industrial-innovation",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-dcvc",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-itic",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-mfv-partners",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "f1",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f130",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-construction",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-healthcare-companion",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -961,22 +1261,6 @@
         "title": "Unitree - Wikipedia",
         "type": "wiki"
       }
-    ],
-    "relatedIds": [
-      "stg-vc-alibaba",
-      "stg-vc-china-mobile",
-      "stg-vc-geely",
-      "stg-vc-jinqiu",
-      "f140",
-      "f24",
-      "f84",
-      "joint-unitree-a1",
-      "joint-unitree-go-m8010-6",
-      "pwr-unitree-h1-battery",
-      "app-agriculture",
-      "app-construction",
-      "app-education-stem",
-      "app-healthcare-companion"
     ],
     "fundingRounds": [
       {
@@ -1021,6 +1305,74 @@
           }
         ]
       }
+    ],
+    "relations": [
+      {
+        "targetId": "stg-vc-alibaba",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-china-mobile",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-geely",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-jinqiu",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "f140",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f24",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f84",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "joint-unitree-a1",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "joint-unitree-go-m8010-6",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "pwr-unitree-h1-battery",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-construction",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-healthcare-companion",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -1057,17 +1409,50 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "stg-vc-matrix-china",
-      "f128",
-      "flagship-xpeng-iron-nextgen",
-      "app-agriculture",
-      "app-construction",
-      "app-education-stem",
-      "app-healthcare-companion",
-      "app-hospitality",
-      "app-last-mile-delivery",
-      "app-warehouse"
+    "relations": [
+      {
+        "targetId": "stg-vc-matrix-china",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "f128",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "flagship-xpeng-iron-nextgen",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-construction",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-healthcare-companion",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-hospitality",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-last-mile-delivery",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-warehouse",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -1107,22 +1492,6 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "stg-vc-bluerun",
-      "stg-vc-china-mobile",
-      "stg-vc-huafa",
-      "stg-vc-longcheer",
-      "stg-vc-tencent",
-      "stg-vc-wolong",
-      "sw-agibot-go1",
-      "sw-agibot-world",
-      "f40",
-      "f49",
-      "f70",
-      "f78",
-      "h11",
-      "h17"
-    ],
     "fundingRounds": [
       {
         "round": "Series B",
@@ -1157,6 +1526,78 @@
             "id": "stg-vc-huafa"
           }
         ]
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "stg-vc-bluerun",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-china-mobile",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-huafa",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-longcheer",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-tencent",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-wolong",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-agibot-go1",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-agibot-world",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f40",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f49",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f70",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f78",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "h11",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "h17",
+        "role": "manufacturer",
+        "isInverse": true
       }
     ]
   },
@@ -1195,14 +1636,6 @@
         "title": "UBtech Robotics - Wikipedia",
         "type": "wiki"
       }
-    ],
-    "relatedIds": [
-      "stg-vc-orinno",
-      "f135",
-      "f144",
-      "f65",
-      "f69",
-      "f82"
     ],
     "fundingRounds": [
       {
@@ -1243,6 +1676,38 @@
           "type": "news"
         },
         "investors": []
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "stg-vc-orinno",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "f135",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f144",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f65",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f69",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f82",
+        "role": "manufacturer",
+        "isInverse": true
       }
     ]
   },
@@ -1287,11 +1752,27 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "stg-vc-visionplus",
-      "f42",
-      "f86",
-      "j1"
+    "relations": [
+      {
+        "targetId": "stg-vc-visionplus",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "f42",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f86",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "j1",
+        "role": "manufacturer",
+        "isInverse": true
+      }
     ]
   },
   {
@@ -1333,16 +1814,6 @@
         "title": "ROBOTERA - About",
         "type": "official"
       }
-    ],
-    "relatedIds": [
-      "stg-vc-alibaba",
-      "stg-vc-baic-capital",
-      "stg-vc-bj-robot-fund",
-      "stg-vc-cdh",
-      "app-agriculture",
-      "app-cleaning",
-      "app-construction",
-      "app-education-stem"
     ],
     "fundingRounds": [
       {
@@ -1459,6 +1930,44 @@
           }
         ]
       }
+    ],
+    "relations": [
+      {
+        "targetId": "stg-vc-alibaba",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-baic-capital",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-bj-robot-fund",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-cdh",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-cleaning",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-construction",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -1499,23 +2008,6 @@
         "title": "Galbot official site",
         "type": "official"
       }
-    ],
-    "relatedIds": [
-      "stg-vc-baic-capital",
-      "stg-vc-beijing-ai-fund",
-      "stg-vc-bj-robot-fund",
-      "stg-vc-bluerun",
-      "stg-vc-catl",
-      "stg-vc-cdb-capital",
-      "stg-vc-iflytek-fund",
-      "stg-vc-lighthouse-capital",
-      "stg-vc-meituan",
-      "stg-vc-qiming",
-      "stg-vc-sense-capital",
-      "vc-ggv",
-      "f110",
-      "f111",
-      "flagship-galbot-g1"
     ],
     "fundingRounds": [
       {
@@ -1615,6 +2107,83 @@
           }
         ]
       }
+    ],
+    "relations": [
+      {
+        "targetId": "stg-vc-baic-capital",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-beijing-ai-fund",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-bj-robot-fund",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-bluerun",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-catl",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-cdb-capital",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-iflytek-fund",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-lighthouse-capital",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-meituan",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-qiming",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-sense-capital",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "vc-ggv",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "f110",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f111",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "flagship-galbot-g1",
+        "role": "manufacturer",
+        "isInverse": true
+      }
     ]
   },
   {
@@ -1656,23 +2225,6 @@
         "title": "Booster T1",
         "type": "official"
       }
-    ],
-    "relatedIds": [
-      "stg-vc-beijing-ai-fund",
-      "stg-vc-bj-robot-fund",
-      "stg-vc-innoangel",
-      "stg-vc-jinding",
-      "stg-vc-qiming",
-      "stg-vc-scg",
-      "vc-source-code",
-      "f38",
-      "app-agriculture",
-      "app-construction",
-      "app-education-stem",
-      "app-healthcare-companion",
-      "app-hospitality",
-      "app-last-mile-delivery",
-      "app-warehouse"
     ],
     "fundingRounds": [
       {
@@ -1727,6 +2279,76 @@
           }
         ]
       }
+    ],
+    "relations": [
+      {
+        "targetId": "stg-vc-beijing-ai-fund",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-bj-robot-fund",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-innoangel",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-jinding",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-qiming",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-scg",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "vc-source-code",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "f38",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-construction",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-healthcare-companion",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-hospitality",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-last-mile-delivery",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-warehouse",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -1764,23 +2386,6 @@
         "title": "LimX Dynamics About",
         "type": "official"
       }
-    ],
-    "relatedIds": [
-      "stg-vc-alibaba",
-      "stg-vc-costone",
-      "stg-vc-jd",
-      "stg-vc-kyland",
-      "stg-vc-nrb",
-      "stg-vc-oriental-fortune",
-      "stg-vc-stone-venture",
-      "stg-vc-zhongding",
-      "f132",
-      "f15",
-      "f2",
-      "f25",
-      "f73",
-      "h47",
-      "app-inspection"
     ],
     "fundingRounds": [
       {
@@ -1824,6 +2429,82 @@
             "id": "stg-vc-kyland"
           }
         ]
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "stg-vc-alibaba",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-costone",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-jd",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-kyland",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-nrb",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-oriental-fortune",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-stone-venture",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-zhongding",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "f132",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f15",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f2",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f25",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f73",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "h47",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-inspection",
+        "role": "deployed-at"
       }
     ]
   },
@@ -1907,16 +2588,45 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "f43",
-      "sw-ros2-control-framework",
-      "app-agriculture",
-      "app-construction",
-      "app-education-stem",
-      "app-healthcare-companion",
-      "app-hospitality",
-      "app-last-mile-delivery",
-      "app-warehouse"
+    "relations": [
+      {
+        "targetId": "f43",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-ros2-control-framework",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-construction",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-healthcare-companion",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-hospitality",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-last-mile-delivery",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-warehouse",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -1960,11 +2670,26 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "sw-droid",
-      "sw-diffusion-policy",
-      "sw-drake",
-      "app-education-stem"
+    "relations": [
+      {
+        "targetId": "sw-droid",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-diffusion-policy",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-drake",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -2006,9 +2731,16 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "vc-bessemer",
-      "app-inspection"
+    "relations": [
+      {
+        "targetId": "vc-bessemer",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-inspection",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -2046,23 +2778,6 @@
         "title": "Physical Intelligence raises $600M",
         "type": "news"
       }
-    ],
-    "relatedIds": [
-      "stg-vc-bezos-expeditions",
-      "stg-vc-bond",
-      "stg-vc-capitalg",
-      "stg-vc-index-ventures",
-      "stg-vc-openai-corp",
-      "stg-vc-openai-startup-fund",
-      "stg-vc-redpoint",
-      "stg-vc-t-rowe-price",
-      "stg-vc-thrive",
-      "vc-khosla",
-      "vc-lux",
-      "vc1",
-      "sw-pi0",
-      "sw-pi0-fast",
-      "sw-pi05"
     ],
     "fundingRounds": [
       {
@@ -2153,6 +2868,83 @@
           }
         ]
       }
+    ],
+    "relations": [
+      {
+        "targetId": "stg-vc-bezos-expeditions",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-bond",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-capitalg",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-index-ventures",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-openai-corp",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-openai-startup-fund",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-redpoint",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-t-rowe-price",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-thrive",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "vc-khosla",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "vc-lux",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "vc1",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-pi0",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-pi0-fast",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-pi05",
+        "role": "manufacturer",
+        "isInverse": true
+      }
     ]
   },
   {
@@ -2196,20 +2988,68 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "sw-bcz-fm",
-      "sw-dreamerv3",
-      "sw-genie-2",
-      "sw-genie-3",
-      "sw-bc-z",
-      "sw-language-table",
-      "sw-robovqa",
-      "sw7",
-      "sw-mjpc",
-      "app-agriculture",
-      "app-bimanual-housework",
-      "app-construction",
-      "app-education-stem"
+    "relations": [
+      {
+        "targetId": "sw-bcz-fm",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-dreamerv3",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-genie-2",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-genie-3",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-bc-z",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-language-table",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-robovqa",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw7",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-mjpc",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-bimanual-housework",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-construction",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -2249,22 +3089,6 @@
         "title": "Skild AI lands $1.4B, tripling valuation",
         "type": "news"
       }
-    ],
-    "relatedIds": [
-      "stg-vc-alexa-fund",
-      "stg-vc-amazon-industrial-innovation",
-      "stg-vc-bezos-expeditions",
-      "stg-vc-coatue",
-      "stg-vc-crv",
-      "stg-vc-felicis",
-      "stg-vc-general-catalyst",
-      "stg-vc-lightspeed",
-      "stg-vc-menlo-ventures",
-      "stg-vc-softbank",
-      "stg-vc-sv-angel",
-      "vc1",
-      "lab-cmu-ri",
-      "sw-skild-brain"
     ],
     "fundingRounds": [
       {
@@ -2332,6 +3156,77 @@
             "id": "stg-vc-alexa-fund"
           }
         ]
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "stg-vc-alexa-fund",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-amazon-industrial-innovation",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-bezos-expeditions",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-coatue",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-crv",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-felicis",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-general-catalyst",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-lightspeed",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-menlo-ventures",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-softbank",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "stg-vc-sv-angel",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "vc1",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "lab-cmu-ri",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-skild-brain",
+        "role": "manufacturer",
+        "isInverse": true
       }
     ]
   },
@@ -2411,15 +3306,39 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "app-agriculture",
-      "app-cleaning",
-      "app-construction",
-      "app-education-stem",
-      "app-healthcare-companion",
-      "app-hospitality",
-      "app-last-mile-delivery",
-      "app-warehouse"
+    "relations": [
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-cleaning",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-construction",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-healthcare-companion",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-hospitality",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-last-mile-delivery",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-warehouse",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -2461,15 +3380,39 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "app-agriculture",
-      "app-cleaning",
-      "app-construction",
-      "app-education-stem",
-      "app-healthcare-companion",
-      "app-hospitality",
-      "app-last-mile-delivery",
-      "app-warehouse"
+    "relations": [
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-cleaning",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-construction",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-healthcare-companion",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-hospitality",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-last-mile-delivery",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-warehouse",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -2513,8 +3456,11 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-agility"
+    "relations": [
+      {
+        "targetId": "ind-agility",
+        "role": "invested-in"
+      }
     ]
   },
   {
@@ -2554,8 +3500,11 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-physical-intelligence"
+    "relations": [
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "invested-in"
+      }
     ]
   },
   {
@@ -2594,9 +3543,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-physical-intelligence"
-    ],
     "portfolio": [
       {
         "companyName": "Physical Intelligence (Pi)",
@@ -2623,6 +3569,12 @@
           "title": "Robot Brain Startup Physical Intelligence Raises $400M At $2B Valuation",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "invested-in"
       }
     ]
   },
@@ -2705,8 +3657,11 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-anybotics"
+    "relations": [
+      {
+        "targetId": "ind-anybotics",
+        "role": "invested-in"
+      }
     ]
   },
   {
@@ -2744,9 +3699,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-apptronik"
-    ],
     "portfolio": [
       {
         "companyName": "Apptronik",
@@ -2773,6 +3725,12 @@
           "title": "Apptronik Raises $350 Million to Scale Production of AI-Powered Humanoid Robots",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-apptronik",
+        "role": "invested-in"
       }
     ]
   },
@@ -2858,9 +3816,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-1x"
-    ],
     "portfolio": [
       {
         "companyName": "1X Technologies",
@@ -2874,6 +3829,12 @@
           "title": "1X Raises $23.5M in Series A2 Funding led by OpenAI",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-1x",
+        "role": "invested-in"
       }
     ]
   },
@@ -2916,9 +3877,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-galbot"
-    ],
     "portfolio": [
       {
         "companyName": "Galbot (银河通用)",
@@ -2932,6 +3890,12 @@
           "title": "CATL backs humanoid robotics startup Galbot in $153 million funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-galbot",
+        "role": "invested-in"
       }
     ]
   },
@@ -3103,9 +4067,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-unitree"
-    ],
     "portfolio": [
       {
         "companyName": "Unitree Robotics (宇树科技)",
@@ -3119,6 +4080,12 @@
           "title": "Unitree Robotics begins IPO prep, valued at $1.6 billion after Series C funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-unitree",
+        "role": "invested-in"
       }
     ]
   },
@@ -3155,9 +4122,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-galbot"
-    ],
     "portfolio": [
       {
         "companyName": "Galbot (银河通用)",
@@ -3171,6 +4135,12 @@
           "title": "Galbot Secures CNY 700 Million in Angel Round Financing",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-galbot",
+        "role": "invested-in"
       }
     ]
   },
@@ -3218,12 +4188,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-booster",
-      "ind-galbot",
-      "ind-unitree",
-      "stg-ind-mechmind"
-    ],
     "portfolio": [
       {
         "companyName": "Booster Robotics",
@@ -3250,6 +4214,24 @@
           "title": "Galbot Secures CNY 700 Million in Angel Round Financing",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-booster",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-galbot",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-unitree",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "stg-ind-mechmind",
+        "role": "invested-in"
       }
     ]
   },
@@ -3303,22 +4285,67 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "sw-bcz-fm",
-      "sw-octo",
-      "sw-pi0",
-      "sw-pi0-fast",
-      "sw-bc-z",
-      "sw-bridgedata-v2",
-      "sw-droid",
-      "sw-mobile-aloha",
-      "sw4",
-      "sw-behavior-1k",
-      "sw-meta-world",
-      "sw-roboarena",
-      "sw-simplerenv",
-      "sw-act",
-      "sw-wbc-sentis"
+    "relations": [
+      {
+        "targetId": "sw-bcz-fm",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-octo",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-pi0",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-pi0-fast",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-bc-z",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-bridgedata-v2",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-droid",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-mobile-aloha",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw4",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-behavior-1k",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-meta-world",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-roboarena",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-simplerenv",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-act",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-wbc-sentis",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -3363,20 +4390,61 @@
       }
     ],
     "relatedIds": [
-      "sw-bcz-fm",
-      "sw-daydreamer",
-      "sw-octo",
-      "sw-pi0",
-      "sw-bc-z",
-      "sw-berkeley-ur5",
-      "sw-bridgedata-v2",
-      "sw-droid",
-      "sw-meta-world",
-      "sw-roboarena",
-      "sw-simplerenv",
-      "sw-act",
-      "sw-sac-minitaur",
       "teleop-gello"
+    ],
+    "relations": [
+      {
+        "targetId": "sw-bcz-fm",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-daydreamer",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-octo",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-pi0",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-bc-z",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-berkeley-ur5",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-bridgedata-v2",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-droid",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-meta-world",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-roboarena",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-simplerenv",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-act",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-sac-minitaur",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -3423,12 +4491,27 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "sw-gensim",
-      "sw-robogen",
-      "sw-diffusion-policy",
-      "sw-drake",
-      "sw-genesis"
+    "relations": [
+      {
+        "targetId": "sw-gensim",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-robogen",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-diffusion-policy",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-drake",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-genesis",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -3476,12 +4559,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-skild",
-      "sw-octo",
-      "sw-robonet",
-      "sw-robogen"
-    ],
     "portfolio": [
       {
         "companyName": "Skild AI",
@@ -3495,6 +4572,24 @@
           "title": "Announcing our $300M Series A Funding",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-skild",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-octo",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-robonet",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-robogen",
+        "role": "affiliated-with"
       }
     ]
   },
@@ -3581,9 +4676,15 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "sw-anymal-rl",
-      "sw-ocs2"
+    "relations": [
+      {
+        "targetId": "sw-anymal-rl",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-ocs2",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -3719,12 +4820,27 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "sw-cogact",
-      "sw-rdt-1b",
-      "sw-roboflamingo",
-      "sw-gensim",
-      "sw-robogen"
+    "relations": [
+      {
+        "targetId": "sw-cogact",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-rdt-1b",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-roboflamingo",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-gensim",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-robogen",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -3816,8 +4932,11 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "sw-agibot-world"
+    "relations": [
+      {
+        "targetId": "sw-agibot-world",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -3862,8 +4981,11 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "sw-furniturebench"
+    "relations": [
+      {
+        "targetId": "sw-furniturebench",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -3902,9 +5024,15 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "sw-furniturebench",
-      "sw-centroidal-dynamics"
+    "relations": [
+      {
+        "targetId": "sw-furniturebench",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-centroidal-dynamics",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -3949,8 +5077,11 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "sw-habitat2"
+    "relations": [
+      {
+        "targetId": "sw-habitat2",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -4075,8 +5206,11 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "sw-rlbench"
+    "relations": [
+      {
+        "targetId": "sw-rlbench",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -4168,9 +5302,15 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "sw-robonet",
-      "sw-eureka"
+    "relations": [
+      {
+        "targetId": "sw-robonet",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-eureka",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -4266,18 +5406,55 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "f123",
-      "f39",
-      "f56",
-      "f61",
-      "app-agriculture",
-      "app-construction",
-      "app-education-stem",
-      "app-healthcare-companion",
-      "app-hospitality",
-      "app-last-mile-delivery",
-      "app-warehouse"
+    "relations": [
+      {
+        "targetId": "f123",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f39",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f56",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f61",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-construction",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-healthcare-companion",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-hospitality",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-last-mile-delivery",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-warehouse",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -4328,12 +5505,32 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "stg-vc-jd",
-      "f106",
-      "f44",
-      "f50",
-      "f67"
+    "relations": [
+      {
+        "targetId": "stg-vc-jd",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "f106",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f44",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f50",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f67",
+        "role": "manufacturer",
+        "isInverse": true
+      }
     ]
   },
   {
@@ -4376,14 +5573,35 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "app-agriculture",
-      "app-construction",
-      "app-education-stem",
-      "app-healthcare-companion",
-      "app-hospitality",
-      "app-last-mile-delivery",
-      "app-warehouse"
+    "relations": [
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-construction",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-healthcare-companion",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-hospitality",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-last-mile-delivery",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-warehouse",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -4434,9 +5652,17 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "f12",
-      "f124"
+    "relations": [
+      {
+        "targetId": "f12",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f124",
+        "role": "manufacturer",
+        "isInverse": true
+      }
     ]
   },
   {
@@ -4480,16 +5706,45 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "f32",
-      "f77",
-      "app-agriculture",
-      "app-construction",
-      "app-education-stem",
-      "app-healthcare-companion",
-      "app-hospitality",
-      "app-last-mile-delivery",
-      "app-warehouse"
+    "relations": [
+      {
+        "targetId": "f32",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f77",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-construction",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-healthcare-companion",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-hospitality",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-last-mile-delivery",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-warehouse",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -4541,9 +5796,17 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "f30",
-      "h47"
+    "relations": [
+      {
+        "targetId": "f30",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "h47",
+        "role": "manufacturer",
+        "isInverse": true
+      }
     ]
   },
   {
@@ -4592,16 +5855,45 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "f22",
-      "f96",
-      "app-agriculture",
-      "app-construction",
-      "app-education-stem",
-      "app-healthcare-companion",
-      "app-hospitality",
-      "app-last-mile-delivery",
-      "app-warehouse"
+    "relations": [
+      {
+        "targetId": "f22",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f96",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-construction",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-healthcare-companion",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-hospitality",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-last-mile-delivery",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-warehouse",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -4653,16 +5945,45 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "f37",
-      "f60",
-      "app-agriculture",
-      "app-construction",
-      "app-education-stem",
-      "app-healthcare-companion",
-      "app-hospitality",
-      "app-last-mile-delivery",
-      "app-warehouse"
+    "relations": [
+      {
+        "targetId": "f37",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f60",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-construction",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-healthcare-companion",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-hospitality",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-last-mile-delivery",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-warehouse",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -4708,8 +6029,12 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "f41"
+    "relations": [
+      {
+        "targetId": "f41",
+        "role": "manufacturer",
+        "isInverse": true
+      }
     ]
   },
   {
@@ -4753,9 +6078,17 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "f138",
-      "f52"
+    "relations": [
+      {
+        "targetId": "f138",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f52",
+        "role": "manufacturer",
+        "isInverse": true
+      }
     ]
   },
   {
@@ -4801,17 +6134,49 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "f120",
-      "f127",
-      "app-agriculture",
-      "app-cleaning",
-      "app-construction",
-      "app-education-stem",
-      "app-healthcare-companion",
-      "app-hospitality",
-      "app-last-mile-delivery",
-      "app-warehouse"
+    "relations": [
+      {
+        "targetId": "f120",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "f127",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-cleaning",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-construction",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-healthcare-companion",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-hospitality",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-last-mile-delivery",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-warehouse",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -4859,14 +6224,35 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "app-agriculture",
-      "app-construction",
-      "app-education-stem",
-      "app-healthcare-companion",
-      "app-hospitality",
-      "app-last-mile-delivery",
-      "app-warehouse"
+    "relations": [
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-construction",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-healthcare-companion",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-hospitality",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-last-mile-delivery",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-warehouse",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -4914,16 +6300,45 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "f93",
-      "a6",
-      "app-agriculture",
-      "app-construction",
-      "app-education-stem",
-      "app-healthcare-companion",
-      "app-hospitality",
-      "app-last-mile-delivery",
-      "app-warehouse"
+    "relations": [
+      {
+        "targetId": "f93",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "a6",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-construction",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-healthcare-companion",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-hospitality",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-last-mile-delivery",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-warehouse",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -4972,13 +6387,36 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "joint-robstride-01",
-      "joint-robstride-02",
-      "joint-robstride-03",
-      "joint-robstride-04",
-      "joint-robstride-06",
-      "app-inspection"
+    "relations": [
+      {
+        "targetId": "joint-robstride-01",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "joint-robstride-02",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "joint-robstride-03",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "joint-robstride-04",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "joint-robstride-06",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-inspection",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -5023,11 +6461,23 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "app-cleaning",
-      "app-hospitality",
-      "app-last-mile-delivery",
-      "app-warehouse"
+    "relations": [
+      {
+        "targetId": "app-cleaning",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-hospitality",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-last-mile-delivery",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-warehouse",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -5078,9 +6528,15 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "app-agriculture",
-      "app-last-mile-delivery"
+    "relations": [
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-last-mile-delivery",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -5127,10 +6583,22 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "joint-steadywin-gim6010-8",
-      "joint-steadywin-gim8108-8",
-      "joint-steadywin-gim8115-6"
+    "relations": [
+      {
+        "targetId": "joint-steadywin-gim6010-8",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "joint-steadywin-gim8108-8",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "joint-steadywin-gim8115-6",
+        "role": "manufacturer",
+        "isInverse": true
+      }
     ]
   },
   {
@@ -5181,16 +6649,44 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "vc-source-code",
-      "app-agriculture",
-      "app-bimanual-housework",
-      "app-construction",
-      "app-education-stem",
-      "app-healthcare-companion",
-      "app-hospitality",
-      "app-last-mile-delivery",
-      "app-warehouse"
+    "relations": [
+      {
+        "targetId": "vc-source-code",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-bimanual-housework",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-construction",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-education-stem",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-healthcare-companion",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-hospitality",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-last-mile-delivery",
+        "role": "deployed-at"
+      },
+      {
+        "targetId": "app-warehouse",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -5236,9 +6732,16 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "stg-vc-zhenfund",
-      "app-agriculture"
+    "relations": [
+      {
+        "targetId": "stg-vc-zhenfund",
+        "role": "invested-in",
+        "isInverse": true
+      },
+      {
+        "targetId": "app-agriculture",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -5286,10 +6789,22 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "sensor-livox-hap",
-      "sensor-livox-mid360",
-      "sensor-livox-mid40"
+    "relations": [
+      {
+        "targetId": "sensor-livox-hap",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sensor-livox-mid360",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sensor-livox-mid40",
+        "role": "manufacturer",
+        "isInverse": true
+      }
     ]
   },
   {
@@ -5336,11 +6851,27 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "sensor-orbbec-femto-bolt",
-      "sensor-orbbec-femto-mega",
-      "sensor-orbbec-gemini-335",
-      "sensor-orbbec-gemini-335le"
+    "relations": [
+      {
+        "targetId": "sensor-orbbec-femto-bolt",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sensor-orbbec-femto-mega",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sensor-orbbec-gemini-335",
+        "role": "manufacturer",
+        "isInverse": true
+      },
+      {
+        "targetId": "sensor-orbbec-gemini-335le",
+        "role": "manufacturer",
+        "isInverse": true
+      }
     ]
   },
   {
@@ -5394,8 +6925,11 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "sw-robomind"
+    "relations": [
+      {
+        "targetId": "sw-robomind",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -5446,8 +6980,11 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "sw-cogact"
+    "relations": [
+      {
+        "targetId": "sw-cogact",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -5603,8 +7140,11 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "sw-rh20t"
+    "relations": [
+      {
+        "targetId": "sw-rh20t",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -5807,10 +7347,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-agibot",
-      "ind-unitree"
-    ],
     "portfolio": [
       {
         "companyName": "Unitree Robotics (宇树科技)",
@@ -5837,6 +7373,16 @@
           "title": "Valuation Soars to 15 Billion! Tencent Leads New Funding Round for Agibot",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agibot",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-unitree",
+        "role": "invested-in"
       }
     ]
   },
@@ -5888,11 +7434,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-limx",
-      "ind-robot-era",
-      "ind-unitree"
-    ],
     "portfolio": [
       {
         "companyName": "Unitree Robotics (宇树科技)",
@@ -5919,6 +7460,20 @@
           "title": "Tsinghua-Backed Robot Era Secures 300 Million Yuan in Pre-A Round Funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-limx",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-robot-era",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-unitree",
+        "role": "invested-in"
       }
     ]
   },
@@ -5966,9 +7521,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-galbot"
-    ],
     "portfolio": [
       {
         "companyName": "Galbot (银河通用)",
@@ -5982,6 +7534,12 @@
           "title": "CATL backs humanoid robotics startup Galbot in $153 million funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-galbot",
+        "role": "invested-in"
       }
     ]
   },
@@ -6030,10 +7588,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-robot-era",
-      "ind-unitree"
-    ],
     "portfolio": [
       {
         "companyName": "Robot Era (星动纪元)",
@@ -6060,6 +7614,16 @@
           "title": "Unitree Robotics begins IPO prep, valued at $1.6 billion after Series C funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-robot-era",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-unitree",
+        "role": "invested-in"
       }
     ]
   },
@@ -6110,10 +7674,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-galbot",
-      "ind-unitree"
-    ],
     "portfolio": [
       {
         "companyName": "Galbot (银河通用)",
@@ -6127,6 +7687,16 @@
           "title": "Galbot Secures CNY 700 Million in Angel Round Financing",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-galbot",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-unitree",
+        "role": "invested-in"
       }
     ]
   },
@@ -6177,8 +7747,11 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "stg-ind-hesai"
+    "relations": [
+      {
+        "targetId": "stg-ind-hesai",
+        "role": "invested-in"
+      }
     ]
   },
   {
@@ -6228,10 +7801,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-booster",
-      "ind-galbot"
-    ],
     "portfolio": [
       {
         "companyName": "Galbot (银河通用)",
@@ -6245,6 +7814,16 @@
           "title": "Galbot Secures CNY 700 Million in Angel Round Financing",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-booster",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-galbot",
+        "role": "invested-in"
       }
     ]
   },
@@ -6294,10 +7873,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-agibot",
-      "ind-galbot"
-    ],
     "portfolio": [
       {
         "companyName": "AgiBot (智元机器人)",
@@ -6324,6 +7899,16 @@
           "title": "Galbot Secures CNY 700 Million in Angel Round Financing",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agibot",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-galbot",
+        "role": "invested-in"
       }
     ]
   },
@@ -6375,8 +7960,11 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-unitree"
+    "relations": [
+      {
+        "targetId": "ind-unitree",
+        "role": "invested-in"
+      }
     ]
   },
   {
@@ -6426,10 +8014,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-galbot",
-      "ind-xpeng-robotics"
-    ],
     "portfolio": [
       {
         "companyName": "Galbot (银河通用)",
@@ -6443,6 +8027,16 @@
           "title": "Galbot Secures CNY 700 Million in Angel Round Financing",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-galbot",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-xpeng-robotics",
+        "role": "invested-in"
       }
     ]
   },
@@ -6492,11 +8086,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-booster",
-      "ind-galbot",
-      "ind-robot-era"
-    ],
     "portfolio": [
       {
         "companyName": "Booster Robotics",
@@ -6523,6 +8112,20 @@
           "title": "CATL backs humanoid robotics startup Galbot in $153 million funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-booster",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-galbot",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-robot-era",
+        "role": "invested-in"
       }
     ]
   },
@@ -6571,9 +8174,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-booster"
-    ],
     "portfolio": [
       {
         "companyName": "Booster Robotics",
@@ -6587,6 +8187,12 @@
           "title": "China's Booster Robotics Lands New Funding as it Hits a Winning Streak",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-booster",
+        "role": "invested-in"
       }
     ]
   },
@@ -6634,11 +8240,6 @@
       }
     ],
     "relatedIds": [
-      "ind-1x",
-      "ind-figure",
-      "ind-physical-intelligence",
-      "stg-vc-msft",
-      "stg-vc-thrive",
       "sw-openai-dexterous"
     ],
     "portfolio": [
@@ -6694,6 +8295,28 @@
           "type": "official"
         }
       }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-1x",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-figure",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "stg-vc-msft",
+        "role": "related"
+      },
+      {
+        "targetId": "stg-vc-thrive",
+        "role": "related"
+      }
     ]
   },
   {
@@ -6737,9 +8360,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-figure"
-    ],
     "portfolio": [
       {
         "companyName": "Figure AI",
@@ -6766,6 +8386,12 @@
           "title": "Figure Raises $675M at $2.6B Valuation and Signs Collaboration Agreement with OpenAI",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-figure",
+        "role": "invested-in"
       }
     ]
   },
@@ -6811,9 +8437,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-figure"
-    ],
     "portfolio": [
       {
         "companyName": "Figure AI",
@@ -6840,6 +8463,12 @@
           "title": "Figure Raises $675M at $2.6B Valuation and Signs Collaboration Agreement with OpenAI",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-figure",
+        "role": "invested-in"
       }
     ]
   },
@@ -6884,9 +8513,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-figure"
-    ],
     "portfolio": [
       {
         "companyName": "Figure AI",
@@ -6913,6 +8539,12 @@
           "title": "Figure Raises $675M at $2.6B Valuation and Signs Collaboration Agreement with OpenAI",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-figure",
+        "role": "invested-in"
       }
     ]
   },
@@ -6959,11 +8591,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-figure",
-      "ind-physical-intelligence",
-      "ind-skild"
-    ],
     "portfolio": [
       {
         "companyName": "Physical Intelligence (Pi)",
@@ -7017,6 +8644,20 @@
           "type": "official"
         }
       }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-figure",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-skild",
+        "role": "invested-in"
+      }
     ]
   },
   {
@@ -7055,9 +8696,6 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "ind-figure"
-    ],
     "portfolio": [
       {
         "companyName": "Figure AI",
@@ -7071,6 +8709,12 @@
           "title": "Figure Exceeds $1B in Series C Funding at $39B Post-Money Valuation",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-figure",
+        "role": "invested-in"
       }
     ]
   },
@@ -7113,9 +8757,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-figure"
-    ],
     "portfolio": [
       {
         "companyName": "Figure AI",
@@ -7129,6 +8770,12 @@
           "title": "Figure Exceeds $1B in Series C Funding at $39B Post-Money Valuation",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-figure",
+        "role": "invested-in"
       }
     ]
   },
@@ -7171,9 +8818,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-figure"
-    ],
     "portfolio": [
       {
         "companyName": "Figure AI",
@@ -7187,6 +8831,12 @@
           "title": "Figure Exceeds $1B in Series C Funding at $39B Post-Money Valuation",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-figure",
+        "role": "invested-in"
       }
     ]
   },
@@ -7229,9 +8879,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-figure"
-    ],
     "portfolio": [
       {
         "companyName": "Figure AI",
@@ -7245,6 +8892,12 @@
           "title": "Figure Exceeds $1B in Series C Funding at $39B Post-Money Valuation",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-figure",
+        "role": "invested-in"
       }
     ]
   },
@@ -7285,9 +8938,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-figure"
-    ],
     "portfolio": [
       {
         "companyName": "Figure AI",
@@ -7301,6 +8951,12 @@
           "title": "Figure Exceeds $1B in Series C Funding at $39B Post-Money Valuation",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-figure",
+        "role": "invested-in"
       }
     ]
   },
@@ -7343,9 +8999,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-figure"
-    ],
     "portfolio": [
       {
         "companyName": "Figure AI",
@@ -7359,6 +9012,12 @@
           "title": "Figure Exceeds $1B in Series C Funding at $39B Post-Money Valuation",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-figure",
+        "role": "invested-in"
       }
     ]
   },
@@ -7398,9 +9057,6 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "ind-figure"
-    ],
     "portfolio": [
       {
         "companyName": "Figure AI",
@@ -7414,6 +9070,12 @@
           "title": "Figure Exceeds $1B in Series C Funding at $39B Post-Money Valuation",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-figure",
+        "role": "invested-in"
       }
     ]
   },
@@ -7453,9 +9115,6 @@
       }
     ],
     "relatedIds": [
-      "ind-figure",
-      "stg-vc-openai-corp",
-      "stg-vc-openai-startup-fund",
       "sensor-azure-kinect-dk"
     ],
     "portfolio": [
@@ -7471,6 +9130,20 @@
           "title": "Figure Raises $675M at $2.6B Valuation and Signs Collaboration Agreement with OpenAI",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-figure",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "stg-vc-openai-corp",
+        "role": "related"
+      },
+      {
+        "targetId": "stg-vc-openai-startup-fund",
+        "role": "related"
       }
     ]
   },
@@ -7515,10 +9188,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-figure",
-      "ind-tesla-optimus"
-    ],
     "portfolio": [
       {
         "companyName": "Figure AI",
@@ -7532,6 +9201,16 @@
           "title": "Figure Raises $675M at $2.6B Valuation and Signs Collaboration Agreement with OpenAI",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-figure",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-tesla-optimus",
+        "role": "invested-in"
       }
     ]
   },
@@ -7576,9 +9255,6 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "ind-1x"
-    ],
     "portfolio": [
       {
         "companyName": "1X Technologies",
@@ -7592,6 +9268,12 @@
           "title": "OpenAI-backed 1X raises another $100M for the race to humanoid robots",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-1x",
+        "role": "invested-in"
       }
     ]
   },
@@ -7630,9 +9312,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-1x"
-    ],
     "portfolio": [
       {
         "companyName": "1X Technologies",
@@ -7646,6 +9325,12 @@
           "title": "OpenAI-backed 1X raises another $100M for the race to humanoid robots",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-1x",
+        "role": "invested-in"
       }
     ]
   },
@@ -7688,9 +9373,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-1x"
-    ],
     "portfolio": [
       {
         "companyName": "1X Technologies",
@@ -7704,6 +9386,12 @@
           "title": "OpenAI-backed 1X raises another $100M for the race to humanoid robots",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-1x",
+        "role": "invested-in"
       }
     ]
   },
@@ -7747,9 +9435,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-1x"
-    ],
     "portfolio": [
       {
         "companyName": "1X Technologies",
@@ -7763,6 +9448,12 @@
           "title": "1X Raises $23.5M in Series A2 Funding led by OpenAI",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-1x",
+        "role": "invested-in"
       }
     ]
   },
@@ -7805,9 +9496,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-1x"
-    ],
     "portfolio": [
       {
         "companyName": "1X Technologies",
@@ -7834,6 +9522,12 @@
           "title": "1X Raises $23.5M in Series A2 Funding led by OpenAI",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-1x",
+        "role": "invested-in"
       }
     ]
   },
@@ -7876,9 +9570,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-1x"
-    ],
     "portfolio": [
       {
         "companyName": "1X Technologies",
@@ -7905,6 +9596,12 @@
           "title": "1X Raises $23.5M in Series A2 Funding led by OpenAI",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-1x",
+        "role": "invested-in"
       }
     ]
   },
@@ -7949,9 +9646,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-physical-intelligence"
-    ],
     "portfolio": [
       {
         "companyName": "Physical Intelligence (Pi)",
@@ -7978,6 +9672,12 @@
           "title": "Robot Brain Startup Physical Intelligence Raises $400M At $2B Valuation",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "invested-in"
       }
     ]
   },
@@ -8023,11 +9723,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-physical-intelligence",
-      "stg-vc-openai-corp",
-      "stg-vc-openai-startup-fund"
-    ],
     "portfolio": [
       {
         "companyName": "Physical Intelligence (Pi)",
@@ -8054,6 +9749,20 @@
           "title": "Robot Brain Startup Physical Intelligence Raises $400M At $2B Valuation",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "stg-vc-openai-corp",
+        "role": "related"
+      },
+      {
+        "targetId": "stg-vc-openai-startup-fund",
+        "role": "related"
       }
     ]
   },
@@ -8099,9 +9808,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-physical-intelligence"
-    ],
     "portfolio": [
       {
         "companyName": "Physical Intelligence (Pi)",
@@ -8115,6 +9821,12 @@
           "title": "Physical Intelligence raises $600M to advance robot foundation models",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "invested-in"
       }
     ]
   },
@@ -8155,9 +9867,6 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "ind-physical-intelligence"
-    ],
     "portfolio": [
       {
         "companyName": "Physical Intelligence (Pi)",
@@ -8184,6 +9893,12 @@
           "title": "Robot Brain Startup Physical Intelligence Raises $400M At $2B Valuation",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "invested-in"
       }
     ]
   },
@@ -8229,9 +9944,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-physical-intelligence"
-    ],
     "portfolio": [
       {
         "companyName": "Physical Intelligence (Pi)",
@@ -8245,6 +9957,12 @@
           "title": "Physical Intelligence raises $600M to advance robot foundation models",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "invested-in"
       }
     ]
   },
@@ -8287,9 +10005,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-physical-intelligence"
-    ],
     "portfolio": [
       {
         "companyName": "Physical Intelligence (Pi)",
@@ -8303,6 +10018,12 @@
           "title": "Physical Intelligence raises $600M to advance robot foundation models",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "invested-in"
       }
     ]
   },
@@ -8343,12 +10064,29 @@
       }
     ],
     "relatedIds": [
-      "ind-1x",
-      "ind-figure",
-      "ind-physical-intelligence",
-      "stg-vc-msft",
-      "stg-vc-thrive",
       "sw-openai-dexterous"
+    ],
+    "relations": [
+      {
+        "targetId": "ind-1x",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-figure",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "stg-vc-msft",
+        "role": "related"
+      },
+      {
+        "targetId": "stg-vc-thrive",
+        "role": "related"
+      }
     ]
   },
   {
@@ -8388,9 +10126,6 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "ind-skild"
-    ],
     "portfolio": [
       {
         "companyName": "Skild AI",
@@ -8404,6 +10139,12 @@
           "title": "Announcing our $300M Series A Funding",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-skild",
+        "role": "invested-in"
       }
     ]
   },
@@ -8443,9 +10184,6 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "ind-skild"
-    ],
     "portfolio": [
       {
         "companyName": "Skild AI",
@@ -8459,6 +10197,12 @@
           "title": "Announcing our $300M Series A Funding",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-skild",
+        "role": "invested-in"
       }
     ]
   },
@@ -8504,10 +10248,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-boston-dynamics",
-      "ind-skild"
-    ],
     "portfolio": [
       {
         "companyName": "Skild AI",
@@ -8521,6 +10261,16 @@
           "title": "Announcing our $300M Series A Funding",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-boston-dynamics",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-skild",
+        "role": "invested-in"
       }
     ]
   },
@@ -8565,9 +10315,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-skild"
-    ],
     "portfolio": [
       {
         "companyName": "Skild AI",
@@ -8581,6 +10328,12 @@
           "title": "Announcing our $300M Series A Funding",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-skild",
+        "role": "invested-in"
       }
     ]
   },
@@ -8621,9 +10374,6 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "ind-skild"
-    ],
     "portfolio": [
       {
         "companyName": "Skild AI",
@@ -8637,6 +10387,12 @@
           "title": "Announcing our $300M Series A Funding",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-skild",
+        "role": "invested-in"
       }
     ]
   },
@@ -8682,9 +10438,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-skild"
-    ],
     "portfolio": [
       {
         "companyName": "Skild AI",
@@ -8698,6 +10451,12 @@
           "title": "Announcing our $300M Series A Funding",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-skild",
+        "role": "invested-in"
       }
     ]
   },
@@ -8737,9 +10496,6 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "ind-skild"
-    ],
     "portfolio": [
       {
         "companyName": "Skild AI",
@@ -8753,6 +10509,12 @@
           "title": "Announcing our $300M Series A Funding",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-skild",
+        "role": "invested-in"
       }
     ]
   },
@@ -8798,9 +10560,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-skild"
-    ],
     "portfolio": [
       {
         "companyName": "Skild AI",
@@ -8814,6 +10573,12 @@
           "title": "Announcing our $300M Series A Funding",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-skild",
+        "role": "invested-in"
       }
     ]
   },
@@ -8853,10 +10618,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-skild",
-      "stg-vc-amazon-industrial-innovation"
-    ],
     "portfolio": [
       {
         "companyName": "Skild AI",
@@ -8870,6 +10631,16 @@
           "title": "Announcing our $300M Series A Funding",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-skild",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "stg-vc-amazon-industrial-innovation",
+        "role": "related"
       }
     ]
   },
@@ -8915,11 +10686,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-agility",
-      "ind-skild",
-      "stg-vc-alexa-fund"
-    ],
     "portfolio": [
       {
         "companyName": "Skild AI",
@@ -8946,6 +10712,20 @@
           "title": "Agility Robotics Raises $150M Series B Led by DCVC and Playground Global",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agility",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-skild",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "stg-vc-alexa-fund",
+        "role": "related"
       }
     ]
   },
@@ -8988,9 +10768,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-sanctuary"
-    ],
     "portfolio": [
       {
         "companyName": "Sanctuary AI",
@@ -9004,6 +10781,12 @@
           "title": "Sanctuary AI Announces Strategic Financing From BDC Capital and InBC",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-sanctuary",
+        "role": "invested-in"
       }
     ]
   },
@@ -9046,9 +10829,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-sanctuary"
-    ],
     "portfolio": [
       {
         "companyName": "Sanctuary AI",
@@ -9062,6 +10842,12 @@
           "title": "Sanctuary AI Announces Strategic Financing From BDC Capital and InBC",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-sanctuary",
+        "role": "invested-in"
       }
     ]
   },
@@ -9099,9 +10885,6 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "ind-sanctuary"
-    ],
     "portfolio": [
       {
         "companyName": "Sanctuary AI",
@@ -9115,6 +10898,12 @@
           "title": "Sanctuary Cognitive Systems Closes C$75.5 Million (US$58.5 Million) Series A Funding",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-sanctuary",
+        "role": "invested-in"
       }
     ]
   },
@@ -9153,9 +10942,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-sanctuary"
-    ],
     "portfolio": [
       {
         "companyName": "Sanctuary AI",
@@ -9169,6 +10955,12 @@
           "title": "Sanctuary Cognitive Systems Closes C$75.5 Million (US$58.5 Million) Series A Funding",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-sanctuary",
+        "role": "invested-in"
       }
     ]
   },
@@ -9211,9 +11003,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-sanctuary"
-    ],
     "portfolio": [
       {
         "companyName": "Sanctuary AI",
@@ -9227,6 +11016,12 @@
           "title": "Sanctuary Cognitive Systems Closes C$75.5 Million (US$58.5 Million) Series A Funding",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-sanctuary",
+        "role": "invested-in"
       }
     ]
   },
@@ -9265,9 +11060,6 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "ind-sanctuary"
-    ],
     "portfolio": [
       {
         "companyName": "Sanctuary AI",
@@ -9281,6 +11073,12 @@
           "title": "Sanctuary Cognitive Systems Closes C$75.5 Million (US$58.5 Million) Series A Funding",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-sanctuary",
+        "role": "invested-in"
       }
     ]
   },
@@ -9318,9 +11116,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-sanctuary"
-    ],
     "portfolio": [
       {
         "companyName": "Sanctuary AI",
@@ -9334,6 +11129,12 @@
           "title": "Sanctuary Cognitive Systems Closes C$75.5 Million (US$58.5 Million) Series A Funding",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-sanctuary",
+        "role": "invested-in"
       }
     ]
   },
@@ -9371,9 +11172,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-sanctuary"
-    ],
     "portfolio": [
       {
         "companyName": "Sanctuary AI",
@@ -9387,6 +11185,12 @@
           "title": "Sanctuary Cognitive Systems Closes C$75.5 Million (US$58.5 Million) Series A Funding",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-sanctuary",
+        "role": "invested-in"
       }
     ]
   },
@@ -9424,9 +11228,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-sanctuary"
-    ],
     "portfolio": [
       {
         "companyName": "Sanctuary AI",
@@ -9440,6 +11241,12 @@
           "title": "Sanctuary Cognitive Systems Closes C$75.5 Million (US$58.5 Million) Series A Funding",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-sanctuary",
+        "role": "invested-in"
       }
     ]
   },
@@ -9477,9 +11284,6 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "ind-apptronik"
-    ],
     "portfolio": [
       {
         "companyName": "Apptronik",
@@ -9493,6 +11297,12 @@
           "title": "Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-apptronik",
+        "role": "invested-in"
       }
     ]
   },
@@ -9535,9 +11345,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-apptronik"
-    ],
     "portfolio": [
       {
         "companyName": "Apptronik",
@@ -9551,6 +11358,12 @@
           "title": "Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-apptronik",
+        "role": "invested-in"
       }
     ]
   },
@@ -9593,9 +11406,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-apptronik"
-    ],
     "portfolio": [
       {
         "companyName": "Apptronik",
@@ -9609,6 +11419,12 @@
           "title": "Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-apptronik",
+        "role": "invested-in"
       }
     ]
   },
@@ -9653,9 +11469,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-apptronik"
-    ],
     "portfolio": [
       {
         "companyName": "Apptronik",
@@ -9682,6 +11495,12 @@
           "title": "Apptronik Raises $350 Million to Scale Production of AI-Powered Humanoid Robots",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-apptronik",
+        "role": "invested-in"
       }
     ]
   },
@@ -9728,9 +11547,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-agility"
-    ],
     "portfolio": [
       {
         "companyName": "Agility Robotics",
@@ -9744,6 +11560,12 @@
           "title": "Agility Robotics Raises $150M Series B Led by DCVC and Playground Global",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agility",
+        "role": "invested-in"
       }
     ]
   },
@@ -9789,9 +11611,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-agility"
-    ],
     "portfolio": [
       {
         "companyName": "Agility Robotics",
@@ -9805,6 +11624,12 @@
           "title": "Agility Robotics Raises $150M Series B Led by DCVC and Playground Global",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agility",
+        "role": "invested-in"
       }
     ]
   },
@@ -9849,9 +11674,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-agility"
-    ],
     "portfolio": [
       {
         "companyName": "Agility Robotics",
@@ -9865,6 +11687,12 @@
           "title": "Agility Robotics Raises $150M Series B Led by DCVC and Playground Global",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agility",
+        "role": "invested-in"
       }
     ]
   },
@@ -9909,9 +11737,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-agility"
-    ],
     "portfolio": [
       {
         "companyName": "Agility Robotics",
@@ -9925,6 +11750,12 @@
           "title": "Agility Robotics Raises $150M Series B Led by DCVC and Playground Global",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agility",
+        "role": "invested-in"
       }
     ]
   },
@@ -9967,9 +11798,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-agility"
-    ],
     "portfolio": [
       {
         "companyName": "Agility Robotics",
@@ -9983,6 +11811,12 @@
           "title": "Agility Robotics Raises $150M Series B Led by DCVC and Playground Global",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agility",
+        "role": "invested-in"
       }
     ]
   },
@@ -10028,9 +11862,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-agility"
-    ],
     "portfolio": [
       {
         "companyName": "Agility Robotics",
@@ -10044,6 +11875,12 @@
           "title": "Agility Robotics Raises $150M Series B Led by DCVC and Playground Global",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agility",
+        "role": "invested-in"
       }
     ]
   },
@@ -10086,9 +11923,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-agility"
-    ],
     "portfolio": [
       {
         "companyName": "Agility Robotics",
@@ -10102,6 +11936,12 @@
           "title": "Agility Robotics Raises $150M Series B Led by DCVC and Playground Global",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agility",
+        "role": "invested-in"
       }
     ]
   },
@@ -10147,9 +11987,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-agility"
-    ],
     "portfolio": [
       {
         "companyName": "Agility Robotics",
@@ -10163,6 +12000,12 @@
           "title": "Agility Robotics Raises $150M Series B Led by DCVC and Playground Global",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agility",
+        "role": "invested-in"
       }
     ]
   },
@@ -10205,9 +12048,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-agibot"
-    ],
     "portfolio": [
       {
         "companyName": "AgiBot (智元机器人)",
@@ -10221,6 +12061,12 @@
           "title": "Valuation Soars to 15 Billion! Tencent Leads New Funding Round for Agibot",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agibot",
+        "role": "invested-in"
       }
     ]
   },
@@ -10264,9 +12110,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-agibot"
-    ],
     "portfolio": [
       {
         "companyName": "AgiBot (智元机器人)",
@@ -10280,6 +12123,12 @@
           "title": "Valuation Soars to 15 Billion! Tencent Leads New Funding Round for Agibot",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agibot",
+        "role": "invested-in"
       }
     ]
   },
@@ -10323,9 +12172,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-agibot"
-    ],
     "portfolio": [
       {
         "companyName": "AgiBot (智元机器人)",
@@ -10339,6 +12185,12 @@
           "title": "Valuation Soars to 15 Billion! Tencent Leads New Funding Round for Agibot",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agibot",
+        "role": "invested-in"
       }
     ]
   },
@@ -10382,10 +12234,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-agibot",
-      "ind-unitree"
-    ],
     "portfolio": [
       {
         "companyName": "Unitree Robotics (宇树科技)",
@@ -10399,6 +12247,16 @@
           "title": "Unitree Robotics begins IPO prep, valued at $1.6 billion after Series C funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agibot",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-unitree",
+        "role": "invested-in"
       }
     ]
   },
@@ -10441,9 +12299,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-unitree"
-    ],
     "portfolio": [
       {
         "companyName": "Unitree Robotics (宇树科技)",
@@ -10457,6 +12312,12 @@
           "title": "Unitree Robotics begins IPO prep, valued at $1.6 billion after Series C funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-unitree",
+        "role": "invested-in"
       }
     ]
   },
@@ -10499,9 +12360,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-galbot"
-    ],
     "portfolio": [
       {
         "companyName": "Galbot (银河通用)",
@@ -10515,6 +12373,12 @@
           "title": "CATL backs humanoid robotics startup Galbot in $153 million funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-galbot",
+        "role": "invested-in"
       }
     ]
   },
@@ -10559,10 +12423,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-booster",
-      "ind-galbot"
-    ],
     "portfolio": [
       {
         "companyName": "Booster Robotics",
@@ -10576,6 +12436,16 @@
           "title": "China's Booster Robotics Lands New Funding as it Hits a Winning Streak",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-booster",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-galbot",
+        "role": "invested-in"
       }
     ]
   },
@@ -10621,10 +12491,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-galbot",
-      "ind-robot-era"
-    ],
     "portfolio": [
       {
         "companyName": "Robot Era (星动纪元)",
@@ -10651,6 +12517,16 @@
           "title": "Galbot Secures CNY 700 Million in Angel Round Financing",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-galbot",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-robot-era",
+        "role": "invested-in"
       }
     ]
   },
@@ -10689,9 +12565,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-galbot"
-    ],
     "portfolio": [
       {
         "companyName": "Galbot (银河通用)",
@@ -10705,6 +12578,12 @@
           "title": "Galbot Secures CNY 700 Million in Angel Round Financing",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-galbot",
+        "role": "invested-in"
       }
     ]
   },
@@ -10747,9 +12626,6 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "ind-galbot"
-    ],
     "portfolio": [
       {
         "companyName": "Galbot (银河通用)",
@@ -10763,6 +12639,12 @@
           "title": "Galbot Secures CNY 700 Million in Angel Round Financing",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-galbot",
+        "role": "invested-in"
       }
     ]
   },
@@ -10802,9 +12684,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-galbot"
-    ],
     "portfolio": [
       {
         "companyName": "Galbot (银河通用)",
@@ -10818,6 +12697,12 @@
           "title": "Galbot Secures CNY 700 Million in Angel Round Financing",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-galbot",
+        "role": "invested-in"
       }
     ]
   },
@@ -10862,9 +12747,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-robot-era"
-    ],
     "portfolio": [
       {
         "companyName": "Robot Era (星动纪元)",
@@ -10878,6 +12760,12 @@
           "title": "Humanoid Robotics Startup Robot Era Secures $69 Million Series A Funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-robot-era",
+        "role": "invested-in"
       }
     ]
   },
@@ -10921,9 +12809,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-robot-era"
-    ],
     "portfolio": [
       {
         "companyName": "Robot Era (星动纪元)",
@@ -10937,6 +12822,12 @@
           "title": "Humanoid Robotics Startup Robot Era Secures $69 Million Series A Funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-robot-era",
+        "role": "invested-in"
       }
     ]
   },
@@ -10981,9 +12872,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-robot-era"
-    ],
     "portfolio": [
       {
         "companyName": "Robot Era (星动纪元)",
@@ -10997,6 +12885,12 @@
           "title": "Humanoid Robotics Startup Robot Era Secures $69 Million Series A Funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-robot-era",
+        "role": "invested-in"
       }
     ]
   },
@@ -11036,9 +12930,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-robot-era"
-    ],
     "portfolio": [
       {
         "companyName": "Robot Era (星动纪元)",
@@ -11052,6 +12943,12 @@
           "title": "Humanoid Robotics Startup Robot Era Secures $69 Million Series A Funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-robot-era",
+        "role": "invested-in"
       }
     ]
   },
@@ -11096,9 +12993,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-robot-era"
-    ],
     "portfolio": [
       {
         "companyName": "Robot Era (星动纪元)",
@@ -11112,6 +13006,12 @@
           "title": "Humanoid Robotics Startup Robot Era Secures $69 Million Series A Funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-robot-era",
+        "role": "invested-in"
       }
     ]
   },
@@ -11149,9 +13049,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-robot-era"
-    ],
     "portfolio": [
       {
         "companyName": "Robot Era (星动纪元)",
@@ -11165,6 +13062,12 @@
           "title": "Humanoid Robotics Startup Robot Era Secures $69 Million Series A Funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-robot-era",
+        "role": "invested-in"
       }
     ]
   },
@@ -11209,9 +13112,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-robot-era"
-    ],
     "portfolio": [
       {
         "companyName": "Robot Era (星动纪元)",
@@ -11225,6 +13125,12 @@
           "title": "Humanoid Robotics Startup Robot Era Secures $69 Million Series A Funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-robot-era",
+        "role": "invested-in"
       }
     ]
   },
@@ -11268,9 +13174,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-robot-era"
-    ],
     "portfolio": [
       {
         "companyName": "Robot Era (星动纪元)",
@@ -11297,6 +13200,12 @@
           "title": "Tsinghua-Backed Robot Era Secures 300 Million Yuan in Pre-A Round Funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-robot-era",
+        "role": "invested-in"
       }
     ]
   },
@@ -11337,9 +13246,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-robot-era"
-    ],
     "portfolio": [
       {
         "companyName": "Robot Era (星动纪元)",
@@ -11353,6 +13259,12 @@
           "title": "Tsinghua-Backed Robot Era Secures 300 Million Yuan in Pre-A Round Funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-robot-era",
+        "role": "invested-in"
       }
     ]
   },
@@ -11398,10 +13310,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-fourier",
-      "ind-robot-era"
-    ],
     "portfolio": [
       {
         "companyName": "Robot Era (星动纪元)",
@@ -11415,6 +13323,16 @@
           "title": "Tsinghua-Backed Robot Era Secures 300 Million Yuan in Pre-A Round Funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-fourier",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-robot-era",
+        "role": "invested-in"
       }
     ]
   },
@@ -11454,10 +13372,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-robot-era",
-      "ind-ubtech"
-    ],
     "portfolio": [
       {
         "companyName": "Robot Era (星动纪元)",
@@ -11471,6 +13385,16 @@
           "title": "Tsinghua-Backed Robot Era Secures 300 Million Yuan in Pre-A Round Funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-robot-era",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-ubtech",
+        "role": "invested-in"
       }
     ]
   },
@@ -11512,9 +13436,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-robot-era"
-    ],
     "portfolio": [
       {
         "companyName": "Robot Era (星动纪元)",
@@ -11528,6 +13449,12 @@
           "title": "Tsinghua-Backed Robot Era Secures 300 Million Yuan in Pre-A Round Funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-robot-era",
+        "role": "invested-in"
       }
     ]
   },
@@ -11565,9 +13492,6 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "ind-robot-era"
-    ],
     "portfolio": [
       {
         "companyName": "Robot Era (星动纪元)",
@@ -11581,6 +13505,12 @@
           "title": "Tsinghua-Backed Robot Era Secures 300 Million Yuan in Pre-A Round Funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-robot-era",
+        "role": "invested-in"
       }
     ]
   },
@@ -11623,9 +13553,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-limx"
-    ],
     "portfolio": [
       {
         "companyName": "LimX Dynamics",
@@ -11639,6 +13566,12 @@
           "title": "LimX raises $200M to build embodied intelligence for humanoid robotics",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-limx",
+        "role": "invested-in"
       }
     ]
   },
@@ -11681,9 +13614,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-limx"
-    ],
     "portfolio": [
       {
         "companyName": "LimX Dynamics",
@@ -11697,6 +13627,12 @@
           "title": "LimX raises $200M to build embodied intelligence for humanoid robotics",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-limx",
+        "role": "invested-in"
       }
     ]
   },
@@ -11743,9 +13679,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-limx"
-    ],
     "portfolio": [
       {
         "companyName": "LimX Dynamics",
@@ -11759,6 +13692,12 @@
           "title": "LimX raises $200M to build embodied intelligence for humanoid robotics",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-limx",
+        "role": "invested-in"
       }
     ]
   },
@@ -11804,10 +13743,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-limx",
-      "stg-ind-engineai"
-    ],
     "portfolio": [
       {
         "companyName": "LimX Dynamics",
@@ -11821,6 +13756,16 @@
           "title": "LimX raises $200M to build embodied intelligence for humanoid robotics",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-limx",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "stg-ind-engineai",
+        "role": "invested-in"
       }
     ]
   },
@@ -11859,9 +13804,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-limx"
-    ],
     "portfolio": [
       {
         "companyName": "LimX Dynamics",
@@ -11875,6 +13817,12 @@
           "title": "LimX raises $200M to build embodied intelligence for humanoid robotics",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-limx",
+        "role": "invested-in"
       }
     ]
   },
@@ -11917,9 +13865,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-limx"
-    ],
     "portfolio": [
       {
         "companyName": "LimX Dynamics",
@@ -11933,6 +13878,12 @@
           "title": "LimX raises $200M to build embodied intelligence for humanoid robotics",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-limx",
+        "role": "invested-in"
       }
     ]
   },
@@ -11975,9 +13926,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-limx"
-    ],
     "portfolio": [
       {
         "companyName": "LimX Dynamics",
@@ -11991,6 +13939,12 @@
           "title": "LimX raises $200M to build embodied intelligence for humanoid robotics",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-limx",
+        "role": "invested-in"
       }
     ]
   },
@@ -12030,9 +13984,6 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-booster"
-    ],
     "portfolio": [
       {
         "companyName": "Booster Robotics",
@@ -12046,6 +13997,12 @@
           "title": "China's Booster Robotics Lands New Funding as it Hits a Winning Streak",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-booster",
+        "role": "invested-in"
       }
     ]
   },
@@ -12091,10 +14048,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-booster",
-      "ind-robot-era"
-    ],
     "portfolio": [
       {
         "companyName": "Booster Robotics",
@@ -12121,6 +14074,16 @@
           "title": "Tsinghua-Backed Robot Era Secures 300 Million Yuan in Pre-A Round Funding",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-booster",
+        "role": "invested-in"
+      },
+      {
+        "targetId": "ind-robot-era",
+        "role": "invested-in"
       }
     ]
   },
@@ -12163,9 +14126,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-apptronik"
-    ],
     "portfolio": [
       {
         "companyName": "Apptronik",
@@ -12179,6 +14139,12 @@
           "title": "Apptronik Raises $350 Million to Scale Production of AI-Powered Humanoid Robots",
           "type": "official"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-apptronik",
+        "role": "invested-in"
       }
     ]
   },
@@ -12221,9 +14187,6 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-apptronik"
-    ],
     "portfolio": [
       {
         "companyName": "Apptronik",
@@ -12237,6 +14200,12 @@
           "title": "Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo",
           "type": "news"
         }
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-apptronik",
+        "role": "invested-in"
       }
     ]
   }

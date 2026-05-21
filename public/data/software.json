@@ -14,10 +14,6 @@
       "status": "Available",
       "training_data": "970K demonstrations from Open X-Embodiment"
     },
-    "relatedIds": [
-      "sw7",
-      "f1"
-    ],
     "tags": [
       "Vision-Language",
       "Open Source",
@@ -43,6 +39,16 @@
         "title": "OpenVLA GitHub repository",
         "type": "official"
       }
+    ],
+    "relations": [
+      {
+        "targetId": "sw7",
+        "role": "trained-on"
+      },
+      {
+        "targetId": "f1",
+        "role": "deployed-at"
+      }
     ]
   },
   {
@@ -61,15 +67,6 @@
       "training_data": "1M+ real robot trajectories, 22 embodiments, 527 skills",
       "contributors": "21 institutions, 293+ authors"
     },
-    "relatedIds": [
-      "ind-deepmind-robotics",
-      "sw-genie-2",
-      "sw-genie-3",
-      "sw-robocat",
-      "sw-rt2",
-      "sw-sara-rt",
-      "sw7"
-    ],
     "tags": [
       "Cross-Embodiment",
       "Research",
@@ -92,7 +89,37 @@
     ],
     "seriesId": "google-rt",
     "seriesOrder": 3,
-    "seriesLabel": "RT-X (2023)"
+    "seriesLabel": "RT-X (2023)",
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw-genie-2",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-genie-3",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-robocat",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-rt2",
+        "role": "series-member"
+      },
+      {
+        "targetId": "sw-sara-rt",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw7",
+        "role": "trained-on"
+      }
+    ]
   },
   {
     "id": "sw3",
@@ -112,9 +139,7 @@
       "license": "BSD-3-Clause (Apache-2.0 for isaaclab_mimic)"
     },
     "relatedIds": [
-      "ind1",
       "sw-eureka",
-      "sw5",
       "cp1"
     ],
     "tags": [
@@ -139,7 +164,17 @@
       "arxivUrl": "",
       "codeUrl": "https://github.com/isaac-sim/IsaacLab",
       "projectUrl": "https://developer.nvidia.com/isaac/lab"
-    }
+    },
+    "relations": [
+      {
+        "targetId": "ind1",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw5",
+        "role": "tech-base"
+      }
+    ]
   },
   {
     "id": "sw4",
@@ -155,7 +190,6 @@
       "status": "Active"
     },
     "relatedIds": [
-      "lab-sail",
       "d2"
     ],
     "tags": [
@@ -178,6 +212,12 @@
         "title": "RoboMimic GitHub (ARISE-Initiative)",
         "type": "official"
       }
+    ],
+    "relations": [
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -197,10 +237,7 @@
       "use": "Simulation, synthetic data, Isaac Lab RL"
     },
     "relatedIds": [
-      "ind1",
-      "f2",
-      "sw3",
-      "sw-cosmos-transfer"
+      "f2"
     ],
     "tags": [
       "PhysX",
@@ -221,7 +258,21 @@
       "arxivUrl": "",
       "codeUrl": "https://github.com/isaac-sim/IsaacSim",
       "projectUrl": "https://developer.nvidia.com/isaac/sim"
-    }
+    },
+    "relations": [
+      {
+        "targetId": "ind1",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw3",
+        "role": "tech-base"
+      },
+      {
+        "targetId": "sw-cosmos-transfer",
+        "role": "competitor"
+      }
+    ]
   },
   {
     "id": "sw6",
@@ -240,14 +291,6 @@
       "solvers": "Newton, CG, PGS",
       "license": "Apache 2.0 (since 2022)"
     },
-    "relatedIds": [
-      "ind-deepmind-robotics",
-      "sw-mjpc",
-      "sw-robosuite",
-      "sw-libero",
-      "sw-meta-world",
-      "sw-robocasa"
-    ],
     "tags": [
       "Open Source",
       "Physics Engine",
@@ -277,7 +320,33 @@
       "arxivUrl": "",
       "codeUrl": "https://github.com/google-deepmind/mujoco",
       "projectUrl": "https://mujoco.org/"
-    }
+    },
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw-mjpc",
+        "role": "tech-base"
+      },
+      {
+        "targetId": "sw-robosuite",
+        "role": "tech-base"
+      },
+      {
+        "targetId": "sw-libero",
+        "role": "related"
+      },
+      {
+        "targetId": "sw-meta-world",
+        "role": "related"
+      },
+      {
+        "targetId": "sw-robocasa",
+        "role": "related"
+      }
+    ]
   },
   {
     "id": "sw7",
@@ -298,12 +367,6 @@
       "license": "Mixed per-contribution; aggregated for research use"
     },
     "relatedIds": [
-      "ind-deepmind-robotics",
-      "sw-cogact",
-      "sw-octo",
-      "sw1",
-      "sw2",
-      "sw-robovqa",
       "f2"
     ],
     "tags": [
@@ -326,7 +389,37 @@
       "arxivUrl": "https://arxiv.org/abs/2310.08864",
       "codeUrl": "https://github.com/google-deepmind/open_x_embodiment",
       "projectUrl": "https://robotics-transformer-x.github.io"
-    }
+    },
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw-cogact",
+        "role": "trained-on",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-octo",
+        "role": "trained-on",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw1",
+        "role": "trained-on",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw2",
+        "role": "trained-on",
+        "isInverse": true
+      },
+      {
+        "targetId": "sw-robovqa",
+        "role": "related"
+      }
+    ]
   },
   {
     "id": "sw-mpc",
@@ -443,8 +536,11 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "lab-eth-rsl"
+    "relations": [
+      {
+        "targetId": "lab-eth-rsl",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -517,8 +613,11 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "lab-kaist-hubo"
+    "relations": [
+      {
+        "targetId": "lab-kaist-hubo",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -553,8 +652,11 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "lab-sail"
+    "relations": [
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -594,9 +696,15 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-tri",
-      "lab-mit-csail"
+    "relations": [
+      {
+        "targetId": "ind-tri",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "lab-mit-csail",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -642,13 +750,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "lab-bair-autolab",
-      "lab-sail"
-    ],
     "seriesId": "aloha",
     "seriesOrder": 1,
-    "seriesLabel": "ACT / ALOHA (2023)"
+    "seriesLabel": "ACT / ALOHA (2023)",
+    "relations": [
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      }
+    ]
   },
   {
     "id": "sw-openai-dexterous",
@@ -726,8 +840,11 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "lab-eth-rsl"
+    "relations": [
+      {
+        "targetId": "lab-eth-rsl",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -762,8 +879,11 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "lab-bair-autolab"
+    "relations": [
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -847,10 +967,19 @@
         "type": "wiki"
       }
     ],
-    "relatedIds": [
-      "ind-deepmind-robotics",
-      "sw-calvin",
-      "sw-gensim"
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw-calvin",
+        "role": "related"
+      },
+      {
+        "targetId": "sw-gensim",
+        "role": "related"
+      }
     ]
   },
   {
@@ -890,10 +1019,19 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "sw-maniskill2",
-      "sw-maniskill3",
-      "sw-simplerenv"
+    "relations": [
+      {
+        "targetId": "sw-maniskill2",
+        "role": "related"
+      },
+      {
+        "targetId": "sw-maniskill3",
+        "role": "related"
+      },
+      {
+        "targetId": "sw-simplerenv",
+        "role": "related"
+      }
     ]
   },
   {
@@ -933,9 +1071,15 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "lab-mit-csail",
-      "lab-sail"
+    "relations": [
+      {
+        "targetId": "lab-mit-csail",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -975,9 +1119,15 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-deepmind-robotics",
-      "ind1"
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "ind1",
+        "role": "manufacturer"
+      }
     ]
   },
   {
@@ -1046,8 +1196,11 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "sw-rlbench"
+    "relations": [
+      {
+        "targetId": "sw-rlbench",
+        "role": "related"
+      }
     ]
   },
   {
@@ -1093,9 +1246,15 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-tri",
-      "lab-mit-csail"
+    "relations": [
+      {
+        "targetId": "ind-tri",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "lab-mit-csail",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -1139,11 +1298,26 @@
       }
     ],
     "relatedIds": [
-      "ind-tri",
-      "lab-bair-autolab",
-      "lab-sail",
-      "sw-vjepa-2",
       "a2"
+    ],
+    "relations": [
+      {
+        "targetId": "ind-tri",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-vjepa-2",
+        "role": "trained-on",
+        "isInverse": true
+      }
     ]
   },
   {
@@ -1181,10 +1355,21 @@
       }
     ],
     "relatedIds": [
-      "lab-bair-autolab",
-      "lab-sail",
-      "sw-fmb",
       "d2"
+    ],
+    "relations": [
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-fmb",
+        "role": "related"
+      }
     ]
   },
   {
@@ -1220,13 +1405,19 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "lab-sail",
-      "sw-roboturk"
-    ],
     "seriesId": "aloha",
     "seriesOrder": 2,
-    "seriesLabel": "Mobile ALOHA (2024)"
+    "seriesLabel": "Mobile ALOHA (2024)",
+    "relations": [
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-roboturk",
+        "role": "related"
+      }
+    ]
   },
   {
     "id": "sw-agibot-world",
@@ -1263,10 +1454,22 @@
       }
     ],
     "relatedIds": [
-      "ind-agibot",
-      "lab-shanghai-ailab",
-      "sw-agibot-go1",
       "h29"
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agibot",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "lab-shanghai-ailab",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-agibot-go1",
+        "role": "trained-on",
+        "isInverse": true
+      }
     ]
   },
   {
@@ -1303,8 +1506,11 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "stg-lab-sjtu"
+    "relations": [
+      {
+        "targetId": "stg-lab-sjtu",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -1378,8 +1584,11 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "stg-lab-baai"
+    "relations": [
+      {
+        "targetId": "stg-lab-baai",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -1417,9 +1626,17 @@
       }
     ],
     "relatedIds": [
-      "ind-deepmind-robotics",
-      "sw7",
       "h4"
+    ],
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw7",
+        "role": "related"
+      }
     ]
   },
   {
@@ -1461,11 +1678,23 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "lab-bair-autolab",
-      "lab-cmu-ri",
-      "lab-sail",
-      "lab-upenn-grasp"
+    "relations": [
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-cmu-ri",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-upenn-grasp",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -1502,9 +1731,15 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "lab-sail",
-      "sw-mobile-aloha"
+    "relations": [
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-mobile-aloha",
+        "role": "related"
+      }
     ]
   },
   {
@@ -1540,8 +1775,11 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "ind-deepmind-robotics"
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      }
     ]
   },
   {
@@ -1576,10 +1814,19 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "ind-deepmind-robotics",
-      "lab-bair-autolab",
-      "lab-sail"
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -1617,9 +1864,17 @@
       }
     ],
     "relatedIds": [
-      "lab-bair-autolab",
-      "sw-bridgedata-v2",
       "a2"
+    ],
+    "relations": [
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-bridgedata-v2",
+        "role": "related"
+      }
     ]
   },
   {
@@ -1661,8 +1916,11 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "lab-bair-autolab"
+    "relations": [
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -1703,12 +1961,15 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "sw-sapien"
-    ],
     "seriesId": "maniskill",
     "seriesOrder": 2,
-    "seriesLabel": "ManiSkill3 (2024)"
+    "seriesLabel": "ManiSkill3 (2024)",
+    "relations": [
+      {
+        "targetId": "sw-sapien",
+        "role": "related"
+      }
+    ]
   },
   {
     "id": "sw-maniskill2",
@@ -1744,12 +2005,15 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "sw-sapien"
-    ],
     "seriesId": "maniskill",
     "seriesOrder": 1,
-    "seriesLabel": "ManiSkill2 (2023)"
+    "seriesLabel": "ManiSkill2 (2023)",
+    "relations": [
+      {
+        "targetId": "sw-sapien",
+        "role": "related"
+      }
+    ]
   },
   {
     "id": "sw-meta-world",
@@ -1784,11 +2048,23 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "ind-deepmind-robotics",
-      "lab-bair-autolab",
-      "lab-sail",
-      "sw6"
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw6",
+        "role": "related"
+      }
     ]
   },
   {
@@ -1826,9 +2102,17 @@
       }
     ],
     "relatedIds": [
-      "ind1",
-      "sw-robosuite",
-      "sw6"
+      "sw-robosuite"
+    ],
+    "relations": [
+      {
+        "targetId": "ind1",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw6",
+        "role": "related"
+      }
     ]
   },
   {
@@ -1864,8 +2148,13 @@
       }
     ],
     "relatedIds": [
-      "f128",
-      "sw-pybullet"
+      "f128"
+    ],
+    "relations": [
+      {
+        "targetId": "sw-pybullet",
+        "role": "related"
+      }
     ]
   },
   {
@@ -1901,8 +2190,13 @@
       }
     ],
     "relatedIds": [
-      "sw-robosuite",
-      "sw6"
+      "sw-robosuite"
+    ],
+    "relations": [
+      {
+        "targetId": "sw6",
+        "role": "related"
+      }
     ]
   },
   {
@@ -1938,9 +2232,15 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "lab-imperial-prl",
-      "sw-coppeliasim"
+    "relations": [
+      {
+        "targetId": "lab-imperial-prl",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-coppeliasim",
+        "role": "related"
+      }
     ]
   },
   {
@@ -1978,8 +2278,11 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "lab-sail"
+    "relations": [
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -2016,9 +2319,15 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "lab-kaist-hubo",
-      "lab-usc-lira"
+    "relations": [
+      {
+        "targetId": "lab-kaist-hubo",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-usc-lira",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -2053,11 +2362,23 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "ind-deepmind-robotics",
-      "lab-bair-autolab",
-      "lab-sail",
-      "sw-sapien"
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-sapien",
+        "role": "related"
+      }
     ]
   },
   {
@@ -2094,9 +2415,15 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "lab-bair-autolab",
-      "lab-sail"
+    "relations": [
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -2133,8 +2460,11 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "ind1"
+    "relations": [
+      {
+        "targetId": "ind1",
+        "role": "manufacturer"
+      }
     ]
   },
   {
@@ -2171,8 +2501,11 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "lab-gatech-irim"
+    "relations": [
+      {
+        "targetId": "lab-gatech-irim",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -2210,9 +2543,17 @@
       }
     ],
     "relatedIds": [
-      "ind1",
-      "lab-upenn-grasp",
       "sw3"
+    ],
+    "relations": [
+      {
+        "targetId": "ind1",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "lab-upenn-grasp",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -2247,10 +2588,19 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "lab-mit-csail",
-      "lab-tsinghua-tea",
-      "sw-pybullet"
+    "relations": [
+      {
+        "targetId": "lab-mit-csail",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-tsinghua-tea",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-pybullet",
+        "role": "related"
+      }
     ]
   },
   {
@@ -2286,10 +2636,19 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "lab-cmu-ri",
-      "lab-mit-csail",
-      "lab-tsinghua-tea"
+    "relations": [
+      {
+        "targetId": "lab-cmu-ri",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-mit-csail",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-tsinghua-tea",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -2372,17 +2731,35 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-deepmind-robotics",
-      "sw-genie-2",
-      "sw-genie-3",
-      "sw-robocat",
-      "sw-sara-rt",
-      "sw2"
-    ],
     "seriesId": "google-rt",
     "seriesOrder": 2,
-    "seriesLabel": "RT-2 (2023)"
+    "seriesLabel": "RT-2 (2023)",
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw-genie-2",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-genie-3",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-robocat",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-sara-rt",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw2",
+        "role": "series-member"
+      }
+    ]
   },
   {
     "id": "sw-pi0",
@@ -2416,16 +2793,31 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "ind-physical-intelligence",
-      "lab-bair-autolab",
-      "lab-sail",
-      "sw-pi0-fast",
-      "sw-pi05"
-    ],
     "seriesId": "physical-intelligence-pi",
     "seriesOrder": 1,
-    "seriesLabel": "π0 (2024)"
+    "seriesLabel": "π0 (2024)",
+    "relations": [
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-pi0-fast",
+        "role": "series-member"
+      },
+      {
+        "targetId": "sw-pi05",
+        "role": "series-member"
+      }
+    ]
   },
   {
     "id": "sw-pi05",
@@ -2459,14 +2851,23 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "ind-physical-intelligence",
-      "sw-pi0",
-      "sw-pi0-fast"
-    ],
     "seriesId": "physical-intelligence-pi",
     "seriesOrder": 3,
-    "seriesLabel": "π0.5 (2025)"
+    "seriesLabel": "π0.5 (2025)",
+    "relations": [
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw-pi0",
+        "role": "series-member"
+      },
+      {
+        "targetId": "sw-pi0-fast",
+        "role": "series-member"
+      }
+    ]
   },
   {
     "id": "sw-octo",
@@ -2500,12 +2901,27 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "ind-deepmind-robotics",
-      "lab-bair-autolab",
-      "lab-cmu-ri",
-      "lab-sail",
-      "sw7"
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-cmu-ri",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw7",
+        "role": "trained-on"
+      }
     ]
   },
   {
@@ -2545,12 +2961,15 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "sw-gr2"
-    ],
     "seriesId": "bytedance-gr",
     "seriesOrder": 1,
-    "seriesLabel": "GR-1 (2023)"
+    "seriesLabel": "GR-1 (2023)",
+    "relations": [
+      {
+        "targetId": "sw-gr2",
+        "role": "series-member"
+      }
+    ]
   },
   {
     "id": "sw-gr2",
@@ -2584,12 +3003,15 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "sw-gr1"
-    ],
     "seriesId": "bytedance-gr",
     "seriesOrder": 2,
-    "seriesLabel": "GR-2 (2024)"
+    "seriesLabel": "GR-2 (2024)",
+    "relations": [
+      {
+        "targetId": "sw-gr1",
+        "role": "series-member"
+      }
+    ]
   },
   {
     "id": "sw-helix",
@@ -2624,8 +3046,11 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-figure"
+    "relations": [
+      {
+        "targetId": "ind-figure",
+        "role": "manufacturer"
+      }
     ]
   },
   {
@@ -2660,8 +3085,11 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "ind-deepmind-robotics"
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      }
     ]
   },
   {
@@ -2701,13 +3129,31 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-deepmind-robotics",
-      "sw-genie-2",
-      "sw-genie-3",
-      "sw-rt2",
-      "sw-sara-rt",
-      "sw2"
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw-genie-2",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-genie-3",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-rt2",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-sara-rt",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw2",
+        "role": "competitor"
+      }
     ]
   },
   {
@@ -2743,10 +3189,19 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "ind1",
-      "lab-sail",
-      "lab1"
+    "relations": [
+      {
+        "targetId": "ind1",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab1",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -2781,8 +3236,11 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "lab-tsinghua-tea"
+    "relations": [
+      {
+        "targetId": "lab-tsinghua-tea",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -2851,10 +3309,19 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "ind-deepmind-robotics",
-      "lab-bair-autolab",
-      "lab-sail"
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -2895,15 +3362,29 @@
       }
     ],
     "relatedIds": [
-      "ind1",
-      "sw-cosmos-predict",
-      "sw-cosmos-reason",
-      "sw-groot-n1-5",
       "h4"
     ],
     "seriesId": "nvidia-groot",
     "seriesOrder": 1,
-    "seriesLabel": "GR00T N1 (Mar 2025)"
+    "seriesLabel": "GR00T N1 (Mar 2025)",
+    "relations": [
+      {
+        "targetId": "ind1",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw-cosmos-predict",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-cosmos-reason",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-groot-n1-5",
+        "role": "series-member"
+      }
+    ]
   },
   {
     "id": "sw-cogact",
@@ -2937,10 +3418,19 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "lab-tsinghua-tea",
-      "stg-lab-msra",
-      "sw7"
+    "relations": [
+      {
+        "targetId": "lab-tsinghua-tea",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "stg-lab-msra",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw7",
+        "role": "trained-on"
+      }
     ]
   },
   {
@@ -3010,8 +3500,11 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "lab-tsinghua-tea"
+    "relations": [
+      {
+        "targetId": "lab-tsinghua-tea",
+        "role": "affiliated-with"
+      }
     ]
   },
   {
@@ -3046,13 +3539,31 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "ind-deepmind-robotics",
-      "sw-genie-2",
-      "sw-genie-3",
-      "sw-robocat",
-      "sw-rt2",
-      "sw2"
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw-genie-2",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-genie-3",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-robocat",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-rt2",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw2",
+        "role": "competitor"
+      }
     ]
   },
   {
@@ -3232,8 +3743,11 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-pal-robotics"
+    "relations": [
+      {
+        "targetId": "ind-pal-robotics",
+        "role": "manufacturer"
+      }
     ]
   },
   {
@@ -3346,8 +3860,13 @@
     ],
     "relatedIds": [
       "sw-libero",
-      "sw-robocasa",
-      "sw6"
+      "sw-robocasa"
+    ],
+    "relations": [
+      {
+        "targetId": "sw6",
+        "role": "tech-base"
+      }
     ]
   },
   {
@@ -3388,9 +3907,15 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "ind-deepmind-robotics",
-      "sw6"
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw6",
+        "role": "tech-base"
+      }
     ]
   },
   {
@@ -3509,15 +4034,27 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "ind1",
-      "sw-cosmos-reason",
-      "sw-groot-n1",
-      "sw-groot-n1-5"
-    ],
     "seriesId": "nvidia-cosmos",
     "seriesOrder": 1,
-    "seriesLabel": "Cosmos Predict"
+    "seriesLabel": "Cosmos Predict",
+    "relations": [
+      {
+        "targetId": "ind1",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw-cosmos-reason",
+        "role": "series-member"
+      },
+      {
+        "targetId": "sw-groot-n1",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-groot-n1-5",
+        "role": "competitor"
+      }
+    ]
   },
   {
     "id": "sw-cosmos-reason",
@@ -3554,15 +4091,27 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind1",
-      "sw-cosmos-predict",
-      "sw-groot-n1",
-      "sw-groot-n1-5"
-    ],
     "seriesId": "nvidia-cosmos",
     "seriesOrder": 2,
-    "seriesLabel": "Cosmos Reason"
+    "seriesLabel": "Cosmos Reason",
+    "relations": [
+      {
+        "targetId": "ind1",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw-cosmos-predict",
+        "role": "series-member"
+      },
+      {
+        "targetId": "sw-groot-n1",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-groot-n1-5",
+        "role": "competitor"
+      }
+    ]
   },
   {
     "id": "sw-cosmos-transfer",
@@ -3598,13 +4147,19 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind1",
-      "sw5"
-    ],
     "seriesId": "nvidia-cosmos",
     "seriesOrder": 3,
-    "seriesLabel": "Cosmos Transfer"
+    "seriesLabel": "Cosmos Transfer",
+    "relations": [
+      {
+        "targetId": "ind1",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw5",
+        "role": "competitor"
+      }
+    ]
   },
   {
     "id": "sw-genie-2",
@@ -3640,16 +4195,31 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-deepmind-robotics",
-      "sw-robocat",
-      "sw-rt2",
-      "sw-sara-rt",
-      "sw2"
-    ],
     "seriesId": "deepmind-genie",
     "seriesOrder": 1,
-    "seriesLabel": "Genie 2 (Dec 2024)"
+    "seriesLabel": "Genie 2 (Dec 2024)",
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw-robocat",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-rt2",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-sara-rt",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw2",
+        "role": "competitor"
+      }
+    ]
   },
   {
     "id": "sw-genie-3",
@@ -3685,16 +4255,31 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-deepmind-robotics",
-      "sw-robocat",
-      "sw-rt2",
-      "sw-sara-rt",
-      "sw2"
-    ],
     "seriesId": "deepmind-genie",
     "seriesOrder": 2,
-    "seriesLabel": "Genie 3 (Aug 2025)"
+    "seriesLabel": "Genie 3 (Aug 2025)",
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw-robocat",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-rt2",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-sara-rt",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw2",
+        "role": "competitor"
+      }
+    ]
   },
   {
     "id": "sw-vjepa-2",
@@ -3735,8 +4320,11 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "sw-droid"
+    "relations": [
+      {
+        "targetId": "sw-droid",
+        "role": "trained-on"
+      }
     ]
   },
   {
@@ -3772,13 +4360,19 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "ind-deepmind-robotics",
-      "f128"
-    ],
     "seriesId": "dreamer",
     "seriesOrder": 1,
-    "seriesLabel": "DreamerV3 (2023)"
+    "seriesLabel": "DreamerV3 (2023)",
+    "relations": [
+      {
+        "targetId": "ind-deepmind-robotics",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "f128",
+        "role": "deployed-at"
+      }
+    ]
   },
   {
     "id": "sw-1x-world-model",
@@ -3814,8 +4408,13 @@
       }
     ],
     "relatedIds": [
-      "ind-1x",
       "h4"
+    ],
+    "relations": [
+      {
+        "targetId": "ind-1x",
+        "role": "manufacturer"
+      }
     ]
   },
   {
@@ -3852,16 +4451,31 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "ind-physical-intelligence",
-      "lab-bair-autolab",
-      "lab-sail",
-      "sw-pi0",
-      "sw-pi05"
-    ],
     "seriesId": "physical-intelligence-pi",
     "seriesOrder": 2,
-    "seriesLabel": "π0-FAST (2025)"
+    "seriesLabel": "π0-FAST (2025)",
+    "relations": [
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "lab-sail",
+        "role": "affiliated-with"
+      },
+      {
+        "targetId": "sw-pi0",
+        "role": "series-member"
+      },
+      {
+        "targetId": "sw-pi05",
+        "role": "series-member"
+      }
+    ]
   },
   {
     "id": "sw-groot-n1-5",
@@ -3897,15 +4511,29 @@
       }
     ],
     "relatedIds": [
-      "ind1",
-      "sw-cosmos-predict",
-      "sw-cosmos-reason",
-      "sw-groot-n1",
       "h4"
     ],
     "seriesId": "nvidia-groot",
     "seriesOrder": 2,
-    "seriesLabel": "GR00T N1.5 (Jun 2025)"
+    "seriesLabel": "GR00T N1.5 (Jun 2025)",
+    "relations": [
+      {
+        "targetId": "ind1",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw-cosmos-predict",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-cosmos-reason",
+        "role": "competitor"
+      },
+      {
+        "targetId": "sw-groot-n1",
+        "role": "series-member"
+      }
+    ]
   },
   {
     "id": "sw-agibot-go1",
@@ -3941,9 +4569,15 @@
         "type": "news"
       }
     ],
-    "relatedIds": [
-      "ind-agibot",
-      "sw-agibot-world"
+    "relations": [
+      {
+        "targetId": "ind-agibot",
+        "role": "manufacturer"
+      },
+      {
+        "targetId": "sw-agibot-world",
+        "role": "trained-on"
+      }
     ]
   },
   {
@@ -4050,8 +4684,11 @@
         "type": "official"
       }
     ],
-    "relatedIds": [
-      "ind-skild"
+    "relations": [
+      {
+        "targetId": "ind-skild",
+        "role": "manufacturer"
+      }
     ]
   },
   {
@@ -4087,11 +4724,14 @@
         "type": "paper"
       }
     ],
-    "relatedIds": [
-      "lab-bair-autolab"
-    ],
     "seriesId": "dreamer",
     "seriesOrder": 2,
-    "seriesLabel": "DayDreamer (2022 robot deploy)"
+    "seriesLabel": "DayDreamer (2022 robot deploy)",
+    "relations": [
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "affiliated-with"
+      }
+    ]
   }
 ]
