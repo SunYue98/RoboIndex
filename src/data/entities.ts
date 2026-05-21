@@ -44,6 +44,61 @@ export interface Source {
 }
 
 /**
+ * A single claim — a value that can be sourced and dated.
+ *
+ * Use Claim wherever a fact in an Entity should be independently fact-checkable.
+ * In Phase 3 we'll migrate the most important Specs entries to Claim form; for now
+ * Claim is also the building block for any new sourced metric we add.
+ *
+ * Example: { value: 50_000_000_000, source: {...}, asOf: "2025-Q3", confidence: "reported" }
+ */
+export type ClaimValue = string | number | boolean;
+export type ClaimConfidence = 'verified' | 'reported' | 'estimated';
+
+export interface Claim<T extends ClaimValue = ClaimValue> {
+  value: T;
+  source?: Source;     // where the claim comes from
+  asOf?: string;       // when the claim was reported / measured (ISO date, "YYYY", or "YYYY-Qx")
+  confidence?: ClaimConfidence;
+  notes?: string;
+}
+
+/**
+ * A typed edge from this entity to another entity.
+ *
+ * Phase 2 will migrate the existing `relatedIds: string[]` into typed Relation[]
+ * with inferred roles. Until then both fields coexist; UI prefers `relations`
+ * when present and falls back to `relatedIds` for entities not yet migrated.
+ *
+ * Roles are intentionally limited to what we can backfill from current data;
+ * person-specific roles (founder-of, employed-at, alumni-of) wait for Phase 5.
+ */
+export type RelationRole =
+  | 'manufacturer'      // this entity is made by → targetId (e.g. Optimus → Tesla)
+  | 'invested-in'       // this entity invested in → targetId (set on 资本 entities)
+  | 'competitor'        // this entity competes with → targetId
+  | 'customer-of'       // this entity is a customer of → targetId
+  | 'supplier-to'       // this entity supplies → targetId
+  | 'subsidiary-of'     // this entity is a subsidiary of → targetId
+  | 'affiliated-with'   // this entity is affiliated with → targetId (lab ↔ university, etc.)
+  | 'series-member'     // this entity is in the same product series as → targetId
+  | 'tech-base'         // this entity is built on top of → targetId (model/framework dependency)
+  | 'trained-on'        // this entity (a model) was trained on → targetId (a dataset)
+  | 'deployed-at'       // this entity is deployed at → targetId (product → application scenario)
+  | 'related';          // fallback / not yet classified — to be refined in Phase 2
+
+export interface Relation {
+  targetId: string;
+  role: RelationRole;
+  source?: Source;     // the source of THIS relation (separate from the entity's own sources)
+  asOf?: string;       // when this relation was established/observed
+  notes?: string;
+  /** Set when this edge was auto-derived from a reciprocal edge on the target.
+   *  Helps UI distinguish authored vs derived relations. */
+  isInverse?: boolean;
+}
+
+/**
  * One funding round, attached to a company (Entity in 产业 category).
  * Investors are listed as named text + optional link to our VC entity if present.
  * Every round must carry a source URL so a user can fact-check the claim.
@@ -82,7 +137,12 @@ export interface Entity {
   year: string;
   isNew: boolean;
   specs: Specs;
+  /** Untyped relations — legacy. Phase 2 migrates these into `relations` below. */
   relatedIds?: string[];
+  /** Typed relations with explicit roles. Coexists with relatedIds during migration. */
+  relations?: Relation[];
+  /** Claim-shaped specs with per-field sources. Coexists with `specs` during migration. */
+  sourcedSpecs?: Record<string, Claim>;
   tags?: string[];
   paperInfo?: PaperInfo;
   orgInfo?: OrgInfo;
