@@ -35,7 +35,7 @@ PARTITIONS = ["hardware", "software", "ecosystem", "players"]
 # prototype B). These should not be counted as "missing" — the synthetic IS the
 # image. Mirrors SYNTHETIC_CANONICAL_CATEGORIES in src/data/entities.ts.
 SYNTHETIC_CANONICAL_CATEGORIES = {
-    "基础模型", "算法框架", "控制算法", "仿真平台", "数据集", "评测基准", "开发生态",
+    "基础模型", "算法框架", "控制算法", "仿真平台", "数据集", "评测基准", "开发生态", "人物",
 }
 
 # Category weights (visibility heuristic) — higher = more user-facing

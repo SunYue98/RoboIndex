@@ -1,18 +1,18 @@
 export type TopLevelGroup = '硬件' | '软件' | '生态与应用' | '参与实体';
 
-export type Category = 
+export type Category =
   | '整机平台' | '机械臂' | '灵巧手 & 夹爪'
   | '关节模组' | '核心零部件' | '传感器' | '能源动力'
   | '数采 & 遥操' | '计算平台'
   | '基础模型' | '算法框架' | '控制算法' | '仿真平台' | '数据集' | '评测基准'
   | '开发生态' | '应用场景'
-  | '资本' | '产业' | '实验室';
+  | '资本' | '产业' | '实验室' | '人物';
 
 export const CATEGORY_MAP: Record<TopLevelGroup, Category[]> = {
   '硬件': ['整机平台', '机械臂', '灵巧手 & 夹爪', '关节模组', '核心零部件', '传感器', '能源动力', '数采 & 遥操', '计算平台'],
   '软件': ['基础模型', '算法框架', '控制算法', '仿真平台', '数据集', '评测基准'],
   '生态与应用': ['开发生态', '应用场景'],
-  '参与实体': ['资本', '产业', '实验室']
+  '参与实体': ['资本', '产业', '实验室', '人物']
 };
 
 export const TOP_LEVEL_GROUPS = Object.keys(CATEGORY_MAP) as TopLevelGroup[];
@@ -85,6 +85,11 @@ export type RelationRole =
   | 'tech-base'         // this entity is built on top of → targetId (model/framework dependency)
   | 'trained-on'        // this entity (a model) was trained on → targetId (a dataset)
   | 'deployed-at'       // this entity is deployed at → targetId (product → application scenario)
+  // Person-specific roles (Phase 5)
+  | 'founder-of'        // this person founded → targetId (a company / lab)
+  | 'employed-at'       // this person is currently / was employed at → targetId
+  | 'alumni-of'         // this person attended / graduated from → targetId (institution / lab)
+  | 'advised-by'        // this person was advised by → targetId (another person)
   | 'related';          // fallback / not yet classified — to be refined in Phase 2
 
 export interface Relation {
@@ -215,9 +220,10 @@ export const resolveImageUrl = (url: string): string => {
 
 // Categories whose canonical visual is the synthetic title card (not a placeholder).
 // Per IMAGE_SPEC.md prototype B — for these, the synthetic card IS the standard
-// and should not show a "待补图" badge.
+// and should not show a "待补图" badge. 人物 (Phase 5) also uses synthetic cards
+// because portrait sourcing has attribution complexity.
 const SYNTHETIC_CANONICAL_CATEGORIES = new Set<string>([
-  '基础模型', '算法框架', '控制算法', '仿真平台', '数据集', '评测基准', '开发生态',
+  '基础模型', '算法框架', '控制算法', '仿真平台', '数据集', '评测基准', '开发生态', '人物',
 ]);
 
 export const entityImageInfo = (entity: Pick<Entity, 'id' | 'imageUrl' | 'category'>): { url: string; isPlaceholder: boolean } => {

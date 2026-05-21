@@ -37,15 +37,16 @@ ALLOWED_CATEGORIES = {
     "能源动力", "数采 & 遥操", "计算平台",
     "基础模型", "算法框架", "控制算法", "仿真平台", "数据集", "评测基准",
     "开发生态", "应用场景",
-    "资本", "产业", "实验室",
+    "资本", "产业", "实验室", "人物",
 }
 SYNTHETIC_CANONICAL = {
-    "基础模型", "算法框架", "控制算法", "仿真平台", "数据集", "评测基准", "开发生态",
+    "基础模型", "算法框架", "控制算法", "仿真平台", "数据集", "评测基准", "开发生态", "人物",
 }
 ALLOWED_RELATION_ROLES = {
     "manufacturer", "invested-in", "competitor", "customer-of", "supplier-to",
     "subsidiary-of", "affiliated-with", "series-member", "tech-base",
     "trained-on", "deployed-at", "related",
+    "founder-of", "employed-at", "alumni-of", "advised-by",
 }
 ALLOWED_SOURCE_TYPES = {"official", "paper", "wiki", "news", "datasheet"}
 ALLOWED_CLAIM_CONFIDENCE = {"verified", "reported", "estimated"}

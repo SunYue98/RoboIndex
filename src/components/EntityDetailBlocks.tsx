@@ -415,10 +415,14 @@ export function SourcesBlock({ sources }: { sources?: Source[] }) {
  */
 const ROLE_ORDER: Array<{ role: string; isInverse: boolean }> = [
   { role: 'series-member', isInverse: false },
-  { role: 'manufacturer', isInverse: false },          // this is made by X
-  { role: 'manufacturer', isInverse: true },           // X is made by us / our products
-  { role: 'invested-in', isInverse: false },           // we invested in X (VC side)
-  { role: 'invested-in', isInverse: true },            // X invested in us (company side)
+  { role: 'founder-of', isInverse: false },             // person → "I founded X"
+  { role: 'founder-of', isInverse: true },              // entity → "founded by X"
+  { role: 'employed-at', isInverse: false },            // person → "I work at X"
+  { role: 'employed-at', isInverse: true },             // entity → "team members"
+  { role: 'manufacturer', isInverse: false },           // hardware → "made by X"
+  { role: 'manufacturer', isInverse: true },            // X → "their products"
+  { role: 'invested-in', isInverse: false },            // VC → portfolio
+  { role: 'invested-in', isInverse: true },             // company → investors
   { role: 'subsidiary-of', isInverse: false },
   { role: 'subsidiary-of', isInverse: true },
   { role: 'trained-on', isInverse: false },
@@ -430,6 +434,10 @@ const ROLE_ORDER: Array<{ role: string; isInverse: boolean }> = [
   { role: 'customer-of', isInverse: false },
   { role: 'customer-of', isInverse: true },
   { role: 'supplier-to', isInverse: false },
+  { role: 'alumni-of', isInverse: false },              // person → school
+  { role: 'alumni-of', isInverse: true },               // school → alumni
+  { role: 'advised-by', isInverse: false },             // person → mentor
+  { role: 'advised-by', isInverse: true },              // mentor → advisees
   { role: 'affiliated-with', isInverse: false },
   { role: 'competitor', isInverse: false },
   { role: 'related', isInverse: false },

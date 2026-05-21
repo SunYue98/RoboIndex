@@ -50,6 +50,12 @@ FORWARD_RULES: dict[tuple[str, str], str] = {
     **{(hw, "产业"): "manufacturer" for hw in HARDWARE_CATS},
     # 资本 → 产业 = "I invested in them"
     ("资本", "产业"): "invested-in",
+    # 人物 → org = "I work at / am affiliated with them" (default fallback when
+    # founder-of/employed-at not explicitly authored). Seed entries author the
+    # specific role manually; this rule catches anything not authored.
+    ("人物", "产业"): "employed-at",
+    ("人物", "实验室"): "employed-at",
+    ("人物", "资本"): "employed-at",
     # 基础模型 → 数据集 / 评测基准 = "I was trained on / evaluated on this"
     ("基础模型", "数据集"): "trained-on",
     ("基础模型", "评测基准"): "trained-on",

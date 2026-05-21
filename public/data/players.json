@@ -17613,5 +17613,1510 @@
         "confidence": "reported"
       }
     }
+  },
+  {
+    "id": "person-brett-adcock",
+    "name": "Brett Adcock",
+    "company": "Figure AI",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "2022",
+    "isNew": false,
+    "specs": {
+      "role": "Founder & CEO",
+      "expertise": "Humanoid robotics, serial entrepreneur"
+    },
+    "orgInfo": {
+      "description": "Founder and CEO of Figure AI (humanoid robotics, 2022). Previously co-founded Archer Aviation (eVTOL, NYSE:ACHR) and Vettery (enterprise hiring, acquired by Adecco).",
+      "location": "Sunnyvale, CA, USA"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "Brett Adcock - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Brett_Adcock",
+        "type": "wiki"
+      },
+      {
+        "title": "Figure AI - About",
+        "url": "https://www.figure.ai/about",
+        "type": "official"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-figure",
+        "role": "founder-of"
+      },
+      {
+        "targetId": "ind-figure",
+        "role": "employed-at"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Founder & CEO",
+        "source": {
+          "title": "Brett Adcock - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brett_Adcock",
+          "type": "wiki"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Humanoid robotics, serial entrepreneur",
+        "source": {
+          "title": "Brett Adcock - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brett_Adcock",
+          "type": "wiki"
+        },
+        "confidence": "reported"
+      },
+      "nationality": {
+        "value": "USA",
+        "source": {
+          "title": "Brett Adcock - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brett_Adcock",
+          "type": "wiki"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-bernt-bornich",
+    "name": "Bernt Børnich",
+    "company": "1X Technologies",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "2014",
+    "isNew": false,
+    "specs": {
+      "role": "Founder & CEO",
+      "expertise": "Humanoid robotics, soft-bodied actuation"
+    },
+    "orgInfo": {
+      "description": "Norwegian engineer who co-founded 1X Technologies (formerly Halodi Robotics) in 2014. Led the development of NEO and EVE humanoid platforms.",
+      "location": "Moss, Norway"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "1X Technologies - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/1X_Technologies",
+        "type": "wiki"
+      },
+      {
+        "title": "1X - Team",
+        "url": "https://www.1x.tech/",
+        "type": "official"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-1x",
+        "role": "founder-of"
+      },
+      {
+        "targetId": "ind-1x",
+        "role": "employed-at"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Founder & CEO",
+        "source": {
+          "title": "1X Technologies - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1X_Technologies",
+          "type": "wiki"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Humanoid robotics, soft-bodied actuation",
+        "source": {
+          "title": "1X Technologies - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1X_Technologies",
+          "type": "wiki"
+        },
+        "confidence": "reported"
+      },
+      "nationality": {
+        "value": "Norway",
+        "source": {
+          "title": "1X Technologies - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1X_Technologies",
+          "type": "wiki"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-geordie-rose",
+    "name": "Geordie Rose",
+    "company": "Sanctuary AI",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "role": "Co-founder & CTO",
+      "expertise": "Quantum computing, general-purpose AI, humanoid robotics",
+      "highest_degree": "PhD (Physics, UBC)"
+    },
+    "orgInfo": {
+      "description": "Co-founded Sanctuary AI (humanoid robotics, 2018) and previously D-Wave Systems (quantum computing, 1999) and Kindred AI (acquired by Ocado).",
+      "location": "Vancouver, BC, Canada"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "Geordie Rose - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Geordie_Rose",
+        "type": "wiki"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-sanctuary",
+        "role": "founder-of"
+      },
+      {
+        "targetId": "ind-sanctuary",
+        "role": "employed-at"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Co-founder & CTO",
+        "source": {
+          "title": "Geordie Rose - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Geordie_Rose",
+          "type": "wiki"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Quantum computing, general-purpose AI, humanoid robotics",
+        "source": {
+          "title": "Geordie Rose - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Geordie_Rose",
+          "type": "wiki"
+        },
+        "confidence": "reported"
+      },
+      "highest_degree": {
+        "value": "PhD (Physics, UBC)",
+        "source": {
+          "title": "Geordie Rose - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Geordie_Rose",
+          "type": "wiki"
+        }
+      },
+      "nationality": {
+        "value": "Canada",
+        "source": {
+          "title": "Geordie Rose - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Geordie_Rose",
+          "type": "wiki"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-jonathan-hurst",
+    "name": "Jonathan Hurst",
+    "company": "Agility Robotics",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "2015",
+    "isNew": false,
+    "specs": {
+      "role": "Co-founder & CTO",
+      "expertise": "Bipedal locomotion, dynamic walking",
+      "highest_degree": "PhD (Robotics, CMU)"
+    },
+    "orgInfo": {
+      "description": "Co-founder and CTO of Agility Robotics (2015). Professor at Oregon State University. Created Cassie and Digit bipedal robots.",
+      "location": "Tangent, OR, USA"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "Jonathan Hurst - OSU",
+        "url": "https://research.engr.oregonstate.edu/dynamic/people/jonathan-hurst",
+        "type": "official"
+      },
+      {
+        "title": "Agility Robotics - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Agility_Robotics",
+        "type": "wiki"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agility",
+        "role": "founder-of"
+      },
+      {
+        "targetId": "ind-agility",
+        "role": "employed-at"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Co-founder & CTO",
+        "source": {
+          "title": "Jonathan Hurst - OSU",
+          "url": "https://research.engr.oregonstate.edu/dynamic/people/jonathan-hurst",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Bipedal locomotion, dynamic walking",
+        "source": {
+          "title": "Jonathan Hurst - OSU",
+          "url": "https://research.engr.oregonstate.edu/dynamic/people/jonathan-hurst",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "highest_degree": {
+        "value": "PhD (Robotics, CMU)",
+        "source": {
+          "title": "Jonathan Hurst - OSU",
+          "url": "https://research.engr.oregonstate.edu/dynamic/people/jonathan-hurst",
+          "type": "official"
+        }
+      },
+      "nationality": {
+        "value": "USA",
+        "source": {
+          "title": "Jonathan Hurst - OSU",
+          "url": "https://research.engr.oregonstate.edu/dynamic/people/jonathan-hurst",
+          "type": "official"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-jeff-cardenas",
+    "name": "Jeff Cardenas",
+    "company": "Apptronik",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "role": "Co-founder & CEO",
+      "expertise": "Humanoid robotics, exoskeletons, commercial robotics"
+    },
+    "orgInfo": {
+      "description": "Co-founder and CEO of Apptronik (2016), a humanoid robotics company based in Austin. Apollo humanoid is deployed at Mercedes-Benz and GXO.",
+      "location": "Austin, TX, USA"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "Apptronik - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Apptronik",
+        "type": "wiki"
+      },
+      {
+        "title": "Apptronik - Team",
+        "url": "https://apptronik.com/about",
+        "type": "official"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-apptronik",
+        "role": "founder-of"
+      },
+      {
+        "targetId": "ind-apptronik",
+        "role": "employed-at"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Co-founder & CEO",
+        "source": {
+          "title": "Apptronik - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apptronik",
+          "type": "wiki"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Humanoid robotics, exoskeletons, commercial robotics",
+        "source": {
+          "title": "Apptronik - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apptronik",
+          "type": "wiki"
+        },
+        "confidence": "reported"
+      },
+      "nationality": {
+        "value": "USA",
+        "source": {
+          "title": "Apptronik - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apptronik",
+          "type": "wiki"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-marc-raibert",
+    "name": "Marc Raibert",
+    "company": "Boston Dynamics",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "1992",
+    "isNew": false,
+    "specs": {
+      "role": "Founder; Executive Director, Boston Dynamics AI Institute",
+      "expertise": "Legged robotics, dynamic balance, hopping & running machines",
+      "highest_degree": "PhD (MIT)"
+    },
+    "orgInfo": {
+      "description": "Founded Boston Dynamics in 1992 (spun out of MIT Leg Lab). Stepped back from BD CEO role in 2019. In 2022 launched the Boston Dynamics AI Institute (now The AI Institute).",
+      "location": "Cambridge, MA, USA"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "Marc Raibert - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Marc_Raibert",
+        "type": "wiki"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind4",
+        "role": "founder-of"
+      },
+      {
+        "targetId": "ind4",
+        "role": "employed-at"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Founder; Executive Director, Boston Dynamics AI Institute",
+        "source": {
+          "title": "Marc Raibert - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Marc_Raibert",
+          "type": "wiki"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Legged robotics, dynamic balance, hopping & running machines",
+        "source": {
+          "title": "Marc Raibert - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Marc_Raibert",
+          "type": "wiki"
+        },
+        "confidence": "reported"
+      },
+      "birth_year": {
+        "value": 1949,
+        "source": {
+          "title": "Marc Raibert - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Marc_Raibert",
+          "type": "wiki"
+        }
+      },
+      "highest_degree": {
+        "value": "PhD (MIT)",
+        "source": {
+          "title": "Marc Raibert - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Marc_Raibert",
+          "type": "wiki"
+        }
+      },
+      "nationality": {
+        "value": "USA",
+        "source": {
+          "title": "Marc Raibert - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Marc_Raibert",
+          "type": "wiki"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-wang-xingxing",
+    "name": "Wang Xingxing 王兴兴",
+    "company": "Unitree Robotics 宇树科技",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "2016",
+    "isNew": false,
+    "specs": {
+      "role": "Founder & CEO",
+      "expertise": "Quadruped & humanoid robotics, low-cost actuation",
+      "highest_degree": "MSc (Robotics, Shanghai University)"
+    },
+    "orgInfo": {
+      "description": "Founded Unitree in 2016 in Hangzhou. Designed the XDog quadruped during his MSc; Unitree has since shipped Go1/Go2 quadrupeds and H1/G1 humanoids and is one of China's largest legged-robot makers by units.",
+      "location": "Hangzhou, China"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "Unitree - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Unitree_Robotics",
+        "type": "wiki"
+      },
+      {
+        "title": "Unitree - About",
+        "url": "https://www.unitree.com/about",
+        "type": "official"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-unitree",
+        "role": "founder-of"
+      },
+      {
+        "targetId": "ind-unitree",
+        "role": "employed-at"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Founder & CEO",
+        "source": {
+          "title": "Unitree - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Unitree_Robotics",
+          "type": "wiki"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Quadruped & humanoid robotics, low-cost actuation",
+        "source": {
+          "title": "Unitree - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Unitree_Robotics",
+          "type": "wiki"
+        },
+        "confidence": "reported"
+      },
+      "highest_degree": {
+        "value": "MSc (Robotics, Shanghai University)",
+        "source": {
+          "title": "Unitree - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Unitree_Robotics",
+          "type": "wiki"
+        }
+      },
+      "nationality": {
+        "value": "China",
+        "source": {
+          "title": "Unitree - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Unitree_Robotics",
+          "type": "wiki"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-peng-zhihui",
+    "name": "Peng Zhihui 彭志辉 (稚晖君)",
+    "company": "AgiBot 智元机器人",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "2023",
+    "isNew": false,
+    "specs": {
+      "role": "Co-founder & CTO (and prominent maker / vlogger)",
+      "expertise": "Embedded AI, humanoid robotics, electronics"
+    },
+    "orgInfo": {
+      "description": "Co-founded AgiBot in 2023 with Yan Weixing. Previously a 'genius youth' hire at Huawei (2020 cohort) and a popular Chinese maker vlogger under the alias 稚晖君.",
+      "location": "Shanghai, China"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "AgiBot - Caixin profile",
+        "url": "https://www.caixinglobal.com/2024-04-30/",
+        "type": "news"
+      },
+      {
+        "title": "彭志辉 - 百度百科",
+        "url": "https://baike.baidu.com/item/%E5%BD%AD%E5%BF%97%E8%BE%89",
+        "type": "wiki"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-agibot",
+        "role": "founder-of"
+      },
+      {
+        "targetId": "ind-agibot",
+        "role": "employed-at"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Co-founder & CTO (and prominent maker / vlogger)",
+        "source": {
+          "title": "AgiBot - Caixin profile",
+          "url": "https://www.caixinglobal.com/2024-04-30/",
+          "type": "news"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Embedded AI, humanoid robotics, electronics",
+        "source": {
+          "title": "AgiBot - Caixin profile",
+          "url": "https://www.caixinglobal.com/2024-04-30/",
+          "type": "news"
+        },
+        "confidence": "reported"
+      },
+      "nationality": {
+        "value": "China",
+        "source": {
+          "title": "AgiBot - Caixin profile",
+          "url": "https://www.caixinglobal.com/2024-04-30/",
+          "type": "news"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-zhou-jian",
+    "name": "Zhou Jian 周剑",
+    "company": "UBTech 优必选",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "2012",
+    "isNew": false,
+    "specs": {
+      "role": "Founder & CEO",
+      "expertise": "Humanoid robotics, consumer & education robots, IPO leadership"
+    },
+    "orgInfo": {
+      "description": "Founded UBTech in 2012 in Shenzhen. Took the company public on HKEX in December 2023 — first humanoid-robot listed company in China.",
+      "location": "Shenzhen, China"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "UBTech - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/UBTECH_Robotics",
+        "type": "wiki"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-ubtech",
+        "role": "founder-of"
+      },
+      {
+        "targetId": "ind-ubtech",
+        "role": "employed-at"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Founder & CEO",
+        "source": {
+          "title": "UBTech - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/UBTECH_Robotics",
+          "type": "wiki"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Humanoid robotics, consumer & education robots, IPO leadership",
+        "source": {
+          "title": "UBTech - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/UBTECH_Robotics",
+          "type": "wiki"
+        },
+        "confidence": "reported"
+      },
+      "nationality": {
+        "value": "China",
+        "source": {
+          "title": "UBTech - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/UBTECH_Robotics",
+          "type": "wiki"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-will-jackson",
+    "name": "Will Jackson",
+    "company": "Engineered Arts",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "2004",
+    "isNew": false,
+    "specs": {
+      "role": "Founder & CEO",
+      "expertise": "Animatronic & humanoid robotics, expressive faces"
+    },
+    "orgInfo": {
+      "description": "Founded Engineered Arts in 2004 in Cornwall, UK. Creator of RoboThespian, Mesmer and Ameca — expressive humanoids known for highly articulated faces.",
+      "location": "Penryn, Cornwall, UK"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "Engineered Arts - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Engineered_Arts",
+        "type": "wiki"
+      },
+      {
+        "title": "Engineered Arts - About",
+        "url": "https://www.engineeredarts.co.uk/about/",
+        "type": "official"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-engineered-arts",
+        "role": "founder-of"
+      },
+      {
+        "targetId": "ind-engineered-arts",
+        "role": "employed-at"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Founder & CEO",
+        "source": {
+          "title": "Engineered Arts - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Engineered_Arts",
+          "type": "wiki"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Animatronic & humanoid robotics, expressive faces",
+        "source": {
+          "title": "Engineered Arts - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Engineered_Arts",
+          "type": "wiki"
+        },
+        "confidence": "reported"
+      },
+      "nationality": {
+        "value": "UK",
+        "source": {
+          "title": "Engineered Arts - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Engineered_Arts",
+          "type": "wiki"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-sergey-levine",
+    "name": "Sergey Levine",
+    "company": "UC Berkeley",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "2009",
+    "isNew": false,
+    "specs": {
+      "role": "Associate Professor (UC Berkeley); Co-founder, Physical Intelligence",
+      "expertise": "Deep reinforcement learning, robot learning, foundation models for robotics",
+      "highest_degree": "PhD (Stanford, 2014)"
+    },
+    "orgInfo": {
+      "description": "UC Berkeley EECS professor (since 2016). Co-founded Physical Intelligence (Pi, 2024) to build foundation models for robots. Prolific author on RL, imitation learning, and VLA models.",
+      "location": "Berkeley, CA, USA"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "Sergey Levine - UC Berkeley",
+        "url": "https://people.eecs.berkeley.edu/~svlevine/",
+        "type": "official"
+      },
+      {
+        "title": "Sergey Levine - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sergey_Levine",
+        "type": "wiki"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "founder-of"
+      },
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "employed-at"
+      },
+      {
+        "targetId": "lab-sail",
+        "role": "alumni-of"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Associate Professor (UC Berkeley); Co-founder, Physical Intelligence",
+        "source": {
+          "title": "Sergey Levine - UC Berkeley",
+          "url": "https://people.eecs.berkeley.edu/~svlevine/",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Deep reinforcement learning, robot learning, foundation models for robotics",
+        "source": {
+          "title": "Sergey Levine - UC Berkeley",
+          "url": "https://people.eecs.berkeley.edu/~svlevine/",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "highest_degree": {
+        "value": "PhD (Stanford, 2014)",
+        "source": {
+          "title": "Sergey Levine - UC Berkeley",
+          "url": "https://people.eecs.berkeley.edu/~svlevine/",
+          "type": "official"
+        }
+      },
+      "nationality": {
+        "value": "USA",
+        "source": {
+          "title": "Sergey Levine - UC Berkeley",
+          "url": "https://people.eecs.berkeley.edu/~svlevine/",
+          "type": "official"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-chelsea-finn",
+    "name": "Chelsea Finn",
+    "company": "Stanford University",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "2018",
+    "isNew": false,
+    "specs": {
+      "role": "Assistant Professor (Stanford); Co-founder, Physical Intelligence",
+      "expertise": "Meta-learning, imitation learning, robot learning",
+      "highest_degree": "PhD (UC Berkeley, 2018)"
+    },
+    "orgInfo": {
+      "description": "Stanford CS faculty and co-founder of Physical Intelligence. Known for MAML (Model-Agnostic Meta-Learning), ALOHA bimanual teleoperation, and OpenVLA contributions.",
+      "location": "Stanford, CA, USA"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "Chelsea Finn - Stanford",
+        "url": "https://ai.stanford.edu/~cbfinn/",
+        "type": "official"
+      },
+      {
+        "title": "Chelsea Finn - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chelsea_Finn",
+        "type": "wiki"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "founder-of"
+      },
+      {
+        "targetId": "lab-sail",
+        "role": "employed-at"
+      },
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "alumni-of"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Assistant Professor (Stanford); Co-founder, Physical Intelligence",
+        "source": {
+          "title": "Chelsea Finn - Stanford",
+          "url": "https://ai.stanford.edu/~cbfinn/",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Meta-learning, imitation learning, robot learning",
+        "source": {
+          "title": "Chelsea Finn - Stanford",
+          "url": "https://ai.stanford.edu/~cbfinn/",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "highest_degree": {
+        "value": "PhD (UC Berkeley, 2018)",
+        "source": {
+          "title": "Chelsea Finn - Stanford",
+          "url": "https://ai.stanford.edu/~cbfinn/",
+          "type": "official"
+        }
+      },
+      "nationality": {
+        "value": "USA",
+        "source": {
+          "title": "Chelsea Finn - Stanford",
+          "url": "https://ai.stanford.edu/~cbfinn/",
+          "type": "official"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-karol-hausman",
+    "name": "Karol Hausman",
+    "company": "Physical Intelligence",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "2024",
+    "isNew": false,
+    "specs": {
+      "role": "Co-founder & CEO",
+      "expertise": "Robot learning, foundation models, large-scale data",
+      "highest_degree": "PhD (USC, 2018)"
+    },
+    "orgInfo": {
+      "description": "Co-founder and CEO of Physical Intelligence (Pi). Previously senior researcher at Google DeepMind / Google Brain working on RT-1, RT-2, and Open X-Embodiment.",
+      "location": "San Francisco, CA, USA"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "Physical Intelligence - Team",
+        "url": "https://www.physicalintelligence.company/",
+        "type": "official"
+      },
+      {
+        "title": "Karol Hausman - Google Scholar",
+        "url": "https://scholar.google.com/citations?user=yy0UFOwAAAAJ",
+        "type": "official"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "founder-of"
+      },
+      {
+        "targetId": "ind-physical-intelligence",
+        "role": "employed-at"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Co-founder & CEO",
+        "source": {
+          "title": "Physical Intelligence - Team",
+          "url": "https://www.physicalintelligence.company/",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Robot learning, foundation models, large-scale data",
+        "source": {
+          "title": "Physical Intelligence - Team",
+          "url": "https://www.physicalintelligence.company/",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "highest_degree": {
+        "value": "PhD (USC, 2018)",
+        "source": {
+          "title": "Physical Intelligence - Team",
+          "url": "https://www.physicalintelligence.company/",
+          "type": "official"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-daniela-rus",
+    "name": "Daniela Rus",
+    "company": "MIT CSAIL",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "2003",
+    "isNew": false,
+    "specs": {
+      "role": "Andrew (1956) and Erna Viterbi Professor; Director, MIT CSAIL",
+      "expertise": "Distributed robotics, soft robotics, autonomous vehicles, AI",
+      "highest_degree": "PhD (Cornell, 1992)"
+    },
+    "orgInfo": {
+      "description": "Director of MIT CSAIL since 2012. Awarded MacArthur Fellowship (2002). Pioneer in modular self-reconfiguring robotics and soft robots.",
+      "location": "Cambridge, MA, USA"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "Daniela Rus - MIT CSAIL",
+        "url": "https://danielarus.csail.mit.edu/",
+        "type": "official"
+      },
+      {
+        "title": "Daniela Rus - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Daniela_Rus",
+        "type": "wiki"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "lab-mit-csail",
+        "role": "employed-at"
+      },
+      {
+        "targetId": "lab-cmu-ri",
+        "role": "alumni-of"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Andrew (1956) and Erna Viterbi Professor; Director, MIT CSAIL",
+        "source": {
+          "title": "Daniela Rus - MIT CSAIL",
+          "url": "https://danielarus.csail.mit.edu/",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Distributed robotics, soft robotics, autonomous vehicles, AI",
+        "source": {
+          "title": "Daniela Rus - MIT CSAIL",
+          "url": "https://danielarus.csail.mit.edu/",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "highest_degree": {
+        "value": "PhD (Cornell, 1992)",
+        "source": {
+          "title": "Daniela Rus - MIT CSAIL",
+          "url": "https://danielarus.csail.mit.edu/",
+          "type": "official"
+        }
+      },
+      "nationality": {
+        "value": "USA / Romania",
+        "source": {
+          "title": "Daniela Rus - MIT CSAIL",
+          "url": "https://danielarus.csail.mit.edu/",
+          "type": "official"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-ken-goldberg",
+    "name": "Ken Goldberg",
+    "company": "UC Berkeley",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "1995",
+    "isNew": false,
+    "specs": {
+      "role": "William S. Floyd Jr. Distinguished Chair (UC Berkeley); Director, AUTOLab",
+      "expertise": "Robust robot grasping, surgical robotics, manipulation",
+      "highest_degree": "PhD (CMU, 1990)"
+    },
+    "orgInfo": {
+      "description": "UC Berkeley IEOR / EECS professor; founder of the AUTOLab. Inventor of Dex-Net (deep grasp planning), early pioneer of cloud robotics and surgical autonomy.",
+      "location": "Berkeley, CA, USA"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "Ken Goldberg - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ken_Goldberg",
+        "type": "wiki"
+      },
+      {
+        "title": "AUTOLab",
+        "url": "https://autolab.berkeley.edu/",
+        "type": "official"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "founder-of"
+      },
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "employed-at"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "William S. Floyd Jr. Distinguished Chair (UC Berkeley); Director, AUTOLab",
+        "source": {
+          "title": "Ken Goldberg - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ken_Goldberg",
+          "type": "wiki"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Robust robot grasping, surgical robotics, manipulation",
+        "source": {
+          "title": "Ken Goldberg - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ken_Goldberg",
+          "type": "wiki"
+        },
+        "confidence": "reported"
+      },
+      "highest_degree": {
+        "value": "PhD (CMU, 1990)",
+        "source": {
+          "title": "Ken Goldberg - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ken_Goldberg",
+          "type": "wiki"
+        }
+      },
+      "nationality": {
+        "value": "USA",
+        "source": {
+          "title": "Ken Goldberg - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ken_Goldberg",
+          "type": "wiki"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-pieter-abbeel",
+    "name": "Pieter Abbeel",
+    "company": "UC Berkeley",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "2008",
+    "isNew": false,
+    "specs": {
+      "role": "Professor (UC Berkeley); Co-founder, Covariant",
+      "expertise": "Reinforcement learning, imitation learning, robot manipulation",
+      "highest_degree": "PhD (Stanford, 2008)"
+    },
+    "orgInfo": {
+      "description": "UC Berkeley professor; ran Berkeley AI Research's robotics group. Co-founded Covariant (industrial AI for grasping, 2017) — Amazon hired Covariant's founders in 2024.",
+      "location": "Berkeley, CA, USA"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "Pieter Abbeel - UC Berkeley",
+        "url": "https://people.eecs.berkeley.edu/~pabbeel/",
+        "type": "official"
+      },
+      {
+        "title": "Pieter Abbeel - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pieter_Abbeel",
+        "type": "wiki"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "lab-bair-autolab",
+        "role": "employed-at"
+      },
+      {
+        "targetId": "lab-sail",
+        "role": "alumni-of"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Professor (UC Berkeley); Co-founder, Covariant",
+        "source": {
+          "title": "Pieter Abbeel - UC Berkeley",
+          "url": "https://people.eecs.berkeley.edu/~pabbeel/",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Reinforcement learning, imitation learning, robot manipulation",
+        "source": {
+          "title": "Pieter Abbeel - UC Berkeley",
+          "url": "https://people.eecs.berkeley.edu/~pabbeel/",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "highest_degree": {
+        "value": "PhD (Stanford, 2008)",
+        "source": {
+          "title": "Pieter Abbeel - UC Berkeley",
+          "url": "https://people.eecs.berkeley.edu/~pabbeel/",
+          "type": "official"
+        }
+      },
+      "nationality": {
+        "value": "Belgium / USA",
+        "source": {
+          "title": "Pieter Abbeel - UC Berkeley",
+          "url": "https://people.eecs.berkeley.edu/~pabbeel/",
+          "type": "official"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-marco-hutter",
+    "name": "Marco Hutter",
+    "company": "ETH Zurich",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "2014",
+    "isNew": false,
+    "specs": {
+      "role": "Professor (ETH); Director, Robotic Systems Lab (RSL)",
+      "expertise": "Legged robotics, locomotion, learning-based control",
+      "highest_degree": "PhD (ETH Zurich, 2013)"
+    },
+    "orgInfo": {
+      "description": "ETH Zurich faculty leading the Robotic Systems Lab. Created ANYmal (quadruped, spun out as ANYbotics) and the Swiss-Mile humanoid-quadruped hybrid.",
+      "location": "Zurich, Switzerland"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "Marco Hutter - ETH RSL",
+        "url": "https://rsl.ethz.ch/the-lab/people/person-detail.MTIxOTEx.TGlzdC8yNDQxLC0xNDY1OTM1NDc4.html",
+        "type": "official"
+      },
+      {
+        "title": "ANYbotics - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/ANYbotics",
+        "type": "wiki"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "lab-eth-rsl",
+        "role": "founder-of"
+      },
+      {
+        "targetId": "lab-eth-rsl",
+        "role": "employed-at"
+      },
+      {
+        "targetId": "ind-anybotics",
+        "role": "founder-of"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Professor (ETH); Director, Robotic Systems Lab (RSL)",
+        "source": {
+          "title": "Marco Hutter - ETH RSL",
+          "url": "https://rsl.ethz.ch/the-lab/people/person-detail.MTIxOTEx.TGlzdC8yNDQxLC0xNDY1OTM1NDc4.html",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Legged robotics, locomotion, learning-based control",
+        "source": {
+          "title": "Marco Hutter - ETH RSL",
+          "url": "https://rsl.ethz.ch/the-lab/people/person-detail.MTIxOTEx.TGlzdC8yNDQxLC0xNDY1OTM1NDc4.html",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "highest_degree": {
+        "value": "PhD (ETH Zurich, 2013)",
+        "source": {
+          "title": "Marco Hutter - ETH RSL",
+          "url": "https://rsl.ethz.ch/the-lab/people/person-detail.MTIxOTEx.TGlzdC8yNDQxLC0xNDY1OTM1NDc4.html",
+          "type": "official"
+        }
+      },
+      "nationality": {
+        "value": "Switzerland",
+        "source": {
+          "title": "Marco Hutter - ETH RSL",
+          "url": "https://rsl.ethz.ch/the-lab/people/person-detail.MTIxOTEx.TGlzdC8yNDQxLC0xNDY1OTM1NDc4.html",
+          "type": "official"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-russ-tedrake",
+    "name": "Russ Tedrake",
+    "company": "MIT CSAIL",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "2004",
+    "isNew": false,
+    "specs": {
+      "role": "Toyota Professor (MIT); VP of Robotics Research, Toyota Research Institute",
+      "expertise": "Underactuated robotics, optimization-based control, manipulation",
+      "highest_degree": "PhD (MIT, 2004)"
+    },
+    "orgInfo": {
+      "description": "MIT professor leading the Robot Locomotion Group; VP of Robotics Research at Toyota Research Institute. Author of Drake (open-source robotics simulator & toolbox).",
+      "location": "Cambridge, MA, USA"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "Russ Tedrake - MIT",
+        "url": "https://locomotion.csail.mit.edu/russt.html",
+        "type": "official"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "lab-mit-csail",
+        "role": "employed-at"
+      },
+      {
+        "targetId": "ind-tri",
+        "role": "employed-at"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Toyota Professor (MIT); VP of Robotics Research, Toyota Research Institute",
+        "source": {
+          "title": "Russ Tedrake - MIT",
+          "url": "https://locomotion.csail.mit.edu/russt.html",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Underactuated robotics, optimization-based control, manipulation",
+        "source": {
+          "title": "Russ Tedrake - MIT",
+          "url": "https://locomotion.csail.mit.edu/russt.html",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "highest_degree": {
+        "value": "PhD (MIT, 2004)",
+        "source": {
+          "title": "Russ Tedrake - MIT",
+          "url": "https://locomotion.csail.mit.edu/russt.html",
+          "type": "official"
+        }
+      },
+      "nationality": {
+        "value": "USA",
+        "source": {
+          "title": "Russ Tedrake - MIT",
+          "url": "https://locomotion.csail.mit.edu/russt.html",
+          "type": "official"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-fei-fei-li",
+    "name": "Fei-Fei Li 李飞飞",
+    "company": "Stanford University",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "2009",
+    "isNew": false,
+    "specs": {
+      "role": "Sequoia Professor (Stanford); Co-Director, Stanford HAI; Co-founder & CEO, World Labs",
+      "expertise": "Computer vision, ImageNet, spatial intelligence",
+      "highest_degree": "PhD (Caltech, 2005)"
+    },
+    "orgInfo": {
+      "description": "Stanford CS faculty; created ImageNet (2009). Co-directs the Human-Centered AI institute. In 2024 founded World Labs to build large world models for spatial intelligence.",
+      "location": "Stanford, CA, USA"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "Fei-Fei Li - Stanford",
+        "url": "https://profiles.stanford.edu/fei-fei-li",
+        "type": "official"
+      },
+      {
+        "title": "Fei-Fei Li - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fei-Fei_Li",
+        "type": "wiki"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "lab-sail",
+        "role": "employed-at"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Sequoia Professor (Stanford); Co-Director, Stanford HAI; Co-founder & CEO, World Labs",
+        "source": {
+          "title": "Fei-Fei Li - Stanford",
+          "url": "https://profiles.stanford.edu/fei-fei-li",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Computer vision, ImageNet, spatial intelligence",
+        "source": {
+          "title": "Fei-Fei Li - Stanford",
+          "url": "https://profiles.stanford.edu/fei-fei-li",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "highest_degree": {
+        "value": "PhD (Caltech, 2005)",
+        "source": {
+          "title": "Fei-Fei Li - Stanford",
+          "url": "https://profiles.stanford.edu/fei-fei-li",
+          "type": "official"
+        }
+      },
+      "nationality": {
+        "value": "USA / China",
+        "source": {
+          "title": "Fei-Fei Li - Stanford",
+          "url": "https://profiles.stanford.edu/fei-fei-li",
+          "type": "official"
+        }
+      }
+    }
+  },
+  {
+    "id": "person-cewu-lu",
+    "name": "Cewu Lu 卢策吾",
+    "company": "Shanghai Jiao Tong University & Galbot",
+    "category": "人物",
+    "imageUrl": "",
+    "year": "2014",
+    "isNew": false,
+    "specs": {
+      "role": "Professor (SJTU); Co-founder, Galbot",
+      "expertise": "Robot learning, dexterous manipulation, embodied AI datasets"
+    },
+    "orgInfo": {
+      "description": "SJTU Qing Yuan Research Institute professor. Co-founder of Galbot (humanoid robotics, 2023). Created RH20T and RH20T-P large-scale manipulation datasets; AlphaPose human-pose estimator.",
+      "location": "Shanghai, China"
+    },
+    "tags": [
+      "人物"
+    ],
+    "sources": [
+      {
+        "title": "Cewu Lu - SJTU Qing Yuan",
+        "url": "http://www.qingyuan.sjtu.edu.cn/a/Cewu-Lu.html",
+        "type": "official"
+      },
+      {
+        "title": "Galbot - Team",
+        "url": "https://www.galbot.com/",
+        "type": "official"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "stg-lab-sjtu",
+        "role": "employed-at"
+      },
+      {
+        "targetId": "ind-galbot",
+        "role": "founder-of"
+      }
+    ],
+    "sourcedSpecs": {
+      "role": {
+        "value": "Professor (SJTU); Co-founder, Galbot",
+        "source": {
+          "title": "Cewu Lu - SJTU Qing Yuan",
+          "url": "http://www.qingyuan.sjtu.edu.cn/a/Cewu-Lu.html",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "expertise": {
+        "value": "Robot learning, dexterous manipulation, embodied AI datasets",
+        "source": {
+          "title": "Cewu Lu - SJTU Qing Yuan",
+          "url": "http://www.qingyuan.sjtu.edu.cn/a/Cewu-Lu.html",
+          "type": "official"
+        },
+        "confidence": "reported"
+      },
+      "nationality": {
+        "value": "China",
+        "source": {
+          "title": "Cewu Lu - SJTU Qing Yuan",
+          "url": "http://www.qingyuan.sjtu.edu.cn/a/Cewu-Lu.html",
+          "type": "official"
+        }
+      }
+    }
   }
 ]

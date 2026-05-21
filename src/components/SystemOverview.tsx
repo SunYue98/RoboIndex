@@ -1,6 +1,6 @@
 import React from 'react';
 import { Category, CATEGORY_MAP } from '../data/entities';
-import { Bot, Armchair, Hand, Cable, CircuitBoard, Eye, Radio, Server, Fingerprint, Activity, Box, Database, Sparkles, BatteryCharging, Wrench, Factory, Cpu, Target, ArrowRightLeft, Link, Landmark, Building2, FlaskConical } from 'lucide-react';
+import { Bot, Armchair, Hand, Cable, CircuitBoard, Eye, Radio, Server, Fingerprint, Activity, Box, Database, Sparkles, BatteryCharging, Wrench, Factory, Cpu, Target, ArrowRightLeft, Link, Landmark, Building2, FlaskConical, User } from 'lucide-react';
 import { useLang } from '../i18n';
 
 interface SystemOverviewProps {
@@ -32,6 +32,7 @@ const iconMap: Record<Category, React.ElementType> = {
   '资本': Landmark,
   '产业': Building2,
   '实验室': FlaskConical,
+  '人物': User,
 };
 
 function BrainIcon(props: any) {

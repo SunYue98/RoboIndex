@@ -55,6 +55,7 @@ CATEGORY_GRADIENT = {
     "产业":         ((45, 55, 75),   (95, 110, 140)),    # corporate slate
     "资本":         ((90, 75, 45),   (150, 125, 80)),    # gold (capital theme)
     "实验室":       ((55, 75, 95),   (105, 140, 170)),   # academic blue
+    "人物":         ((75, 65, 90),   (145, 120, 165)),   # warm violet (people)
 }
 DEFAULT_GRADIENT = ((60, 60, 70), (130, 130, 140))
 

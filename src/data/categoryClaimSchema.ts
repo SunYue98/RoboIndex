@@ -145,6 +145,13 @@ export const CATEGORY_CLAIM_SCHEMA: Record<Category, ClaimKeySpec[]> = {
     { key: 'university',    label: '所属',  type: 'string', aliases: ['University', 'Affiliation', 'Parent', '所属'] },
     { key: 'head',          label: '负责人', type: 'string', aliases: ['Head', 'Director', 'PI', 'Lead', '负责人'] },
   ],
+  '人物': [
+    { key: 'role',            label: '角色',     type: 'string', aliases: ['Role', 'Title', 'Position', '角色', '职位'] },
+    { key: 'birth_year',      label: '出生年份', type: 'number', aliases: ['Birth Year', 'Born', '出生年份', '生年'] },
+    { key: 'expertise',       label: '研究方向', type: 'string', aliases: ['Expertise', 'Research', 'Field', '研究方向', '专长'] },
+    { key: 'highest_degree',  label: '最高学位', type: 'string', aliases: ['Degree', 'Highest Degree', 'PhD', '学位'] },
+    { key: 'nationality',     label: '国籍',     type: 'string', aliases: ['Nationality', 'Country', '国籍'] },
+  ],
 };
 
 /** Inverted alias index for fast migration lookup. Built once. */
