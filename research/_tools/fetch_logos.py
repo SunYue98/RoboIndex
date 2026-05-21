@@ -129,7 +129,6 @@ def try_website_favicon(entity: dict) -> str | None:
     site = (entity.get("orgInfo") or {}).get("website", "")
     if not site:
         return None
-    # Normalize
     site = site.rstrip("/")
     if not site.startswith("http"):
         site = "https://" + site
@@ -149,9 +148,52 @@ def try_website_favicon(entity: dict) -> str | None:
         url = f"{site}/{path}"
         code, _ = curl_head(url)
         if code == 200:
-            # Verify it's actually an image (HEAD doesn't always reveal SPA fallbacks)
             return url
     return None
+
+
+def try_grep_homepage(entity: dict) -> str | None:
+    """Grep the homepage HTML for likely logo URLs (catches sites with non-standard paths)."""
+    site = (entity.get("orgInfo") or {}).get("website", "")
+    if not site:
+        return None
+    site = site.rstrip("/")
+    if not site.startswith("http"):
+        site = "https://" + site
+    try:
+        html = subprocess.run(
+            ["curl", "-sL", "-A", UA, "--max-time", "10", site],
+            capture_output=True, text=True, timeout=15,
+        ).stdout
+    except Exception:
+        return None
+    if not html:
+        return None
+    # Find logo-like image refs (more specific now): "logo" in filename + reasonable extension
+    candidates = re.findall(
+        r'(?:href|src)=["\']([^"\']*(?:[Ll]ogo|LOGO)[^"\']*\.(?:svg|png|jpg|jpeg|webp))(?:["\'?])',
+        html,
+    )
+    # Also look for og:image (less specific but often the brand image)
+    og = re.findall(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', html)
+    candidates.extend(og)
+    # Resolve relative URLs
+    out = []
+    from urllib.parse import urljoin
+    for c in candidates:
+        if c.startswith("data:"):
+            continue
+        full = urljoin(site + "/", c)
+        if full not in out:
+            out.append(full)
+    # Drop obvious 3rd-party / unrelated ones
+    out = [u for u in out if not any(bad in u for bad in [
+        "wikipedia.org", "wikimedia.org", "googleapis.com", "googletagmanager",
+        "facebook.com", "twitter.com", "linkedin.com", "youtube.com",
+    ])]
+    # Prefer SVG/PNG over JPG (logos are usually vector or transparent)
+    out.sort(key=lambda u: (0 if u.endswith(".svg") else 1 if u.endswith(".png") else 2))
+    return out[0] if out else None
 
 
 def fetch_one(entity: dict) -> dict:
@@ -162,7 +204,10 @@ def fetch_one(entity: dict) -> dict:
     source_type = "wikipedia"
     if not img_url:
         img_url = try_website_favicon(entity)
-        source_type = "website"
+        source_type = "website-favicon"
+    if not img_url:
+        img_url = try_grep_homepage(entity)
+        source_type = "website-grep"
 
     if not img_url:
         return {"id": eid, "name": entity.get("name", ""), "status": "no-source", "url": None}

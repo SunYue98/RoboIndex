@@ -550,7 +550,7 @@
     "name": "Sanctuary AI",
     "company": "Sanctuary AI",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-sanctuary.png",
     "year": "2018",
     "isNew": false,
     "specs": {
@@ -713,7 +713,7 @@
     "name": "Apptronik",
     "company": "Apptronik",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-apptronik.png",
     "year": "2016",
     "isNew": false,
     "specs": {
@@ -1165,7 +1165,7 @@
     "name": "UBTech (优必选)",
     "company": "UBTech (优必选)",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-ubtech.png",
     "year": "2012",
     "isNew": false,
     "specs": {
@@ -1870,7 +1870,7 @@
     "name": "PAL Robotics",
     "company": "PAL Robotics",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-pal-robotics.png",
     "year": "2004",
     "isNew": false,
     "specs": {
@@ -2016,7 +2016,7 @@
     "name": "Physical Intelligence (Pi)",
     "company": "Physical Intelligence (Pi)",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-physical-intelligence.png",
     "year": "2024",
     "isNew": true,
     "specs": {
@@ -2377,7 +2377,7 @@
     "name": "Pickle Robot",
     "company": "Pickle Robot",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-pickle.png",
     "year": "2018",
     "isNew": false,
     "specs": {
@@ -2427,7 +2427,7 @@
     "name": "Hello Robot",
     "company": "Hello Robot",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-hello-robot.png",
     "year": "2017",
     "isNew": false,
     "specs": {
@@ -2563,7 +2563,7 @@
     "name": "Lux Capital",
     "company": "Lux Capital",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/vc-lux.png",
     "year": "2000",
     "isNew": false,
     "specs": {
@@ -2674,7 +2674,7 @@
     "name": "Bessemer Venture Partners",
     "company": "Bessemer Venture Partners",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/vc-bessemer.png",
     "year": "1911",
     "isNew": false,
     "specs": {
@@ -2781,7 +2781,7 @@
     "name": "Innovation Endeavors",
     "company": "Innovation Endeavors",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/vc-innovation-endeavors.png",
     "year": "2010",
     "isNew": false,
     "specs": {
@@ -2940,7 +2940,7 @@
     "name": "Sinovation Ventures 创新工场",
     "company": "Sinovation Ventures",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/vc-sinovation.png",
     "year": "2009",
     "isNew": false,
     "specs": {
@@ -3020,7 +3020,7 @@
     "name": "Hillhouse Capital 高瓴资本",
     "company": "Hillhouse Capital",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/vc-hillhouse.png",
     "year": "2005",
     "isNew": false,
     "specs": {
@@ -3127,7 +3127,7 @@
     "name": "IDG Capital",
     "company": "IDG Capital",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/vc-idg.png",
     "year": "1992",
     "isNew": false,
     "specs": {
@@ -3591,7 +3591,7 @@
     "name": "Max Planck Institute for Intelligent Systems (MPI-IS)",
     "company": "Max Planck Society",
     "category": "实验室",
-    "imageUrl": "",
+    "imageUrl": "images/players/lab-mpi-is.png",
     "year": "2011",
     "isNew": false,
     "specs": {
@@ -3777,7 +3777,7 @@
     "name": "Shanghai AI Lab — Embodied AI Center 上海人工智能实验室",
     "company": "Shanghai Artificial Intelligence Laboratory",
     "category": "实验室",
-    "imageUrl": "",
+    "imageUrl": "images/players/lab-shanghai-ailab.png",
     "year": "2020",
     "isNew": false,
     "specs": {
@@ -4551,7 +4551,7 @@
     "name": "Matrix Robotics (矩阵超智)",
     "company": "Matrix Robotics (矩阵超智)",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-ind-matrix.png",
     "year": "2024",
     "isNew": true,
     "specs": {
@@ -4717,7 +4717,7 @@
     "name": "Phybot (北京动易科技)",
     "company": "Phybot (北京动易科技)",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-ind-phybot.png",
     "year": "2024",
     "isNew": true,
     "specs": {
@@ -4763,7 +4763,7 @@
     "name": "Pudu Robotics (普渡科技)",
     "company": "Pudu Robotics (普渡科技)",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-ind-pudu.png",
     "year": "2016",
     "isNew": false,
     "specs": {
@@ -4874,7 +4874,7 @@
     "name": "Elephant Robotics (大象机器人)",
     "company": "Elephant Robotics (大象机器人)",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-ind-elephant.png",
     "year": "2016",
     "isNew": false,
     "specs": {
@@ -4986,7 +4986,7 @@
     "name": "Inspire-Robots (因时机器人)",
     "company": "Inspire-Robots (因时机器人)",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-ind-inspire.png",
     "year": "2016",
     "isNew": false,
     "specs": {
@@ -5088,7 +5088,7 @@
     "name": "SteadyWin",
     "company": "SteadyWin",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-ind-steadywin.png",
     "year": "2020",
     "isNew": false,
     "specs": {
@@ -5138,7 +5138,7 @@
     "name": "Mech-Mind Robotics (梅卡曼德)",
     "company": "Mech-Mind Robotics (梅卡曼德)",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-ind-mechmind.png",
     "year": "2016",
     "isNew": false,
     "specs": {
@@ -5612,7 +5612,7 @@
     "name": "HIT 哈尔滨工业大学",
     "company": "Harbin Institute of Technology - School of Mechanical Engineering",
     "category": "实验室",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-lab-hit.png",
     "year": "1920",
     "isNew": false,
     "specs": {
@@ -6135,7 +6135,7 @@
     "name": "真格基金 ZhenFund",
     "company": "ZhenFund",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-zhenfund.png",
     "year": "2011",
     "isNew": false,
     "specs": {
@@ -6595,7 +6595,7 @@
     "name": "OpenAI Startup Fund",
     "company": "OpenAI",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-openai-startup-fund.png",
     "year": "2021",
     "isNew": false,
     "specs": {
@@ -6701,7 +6701,7 @@
     "name": "Parkway Venture Capital",
     "company": "Parkway Venture Capital LLC",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-parkway.png",
     "year": "2019",
     "isNew": false,
     "specs": {
@@ -7137,7 +7137,7 @@
     "name": "Tamarack Global",
     "company": "Tamarack Global",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-tamarack-global.png",
     "year": "2018",
     "isNew": false,
     "specs": {
@@ -7253,7 +7253,7 @@
     "name": "Salesforce Ventures",
     "company": "Salesforce, Inc.",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-salesforce-ventures.png",
     "year": "2009",
     "isNew": false,
     "specs": {
@@ -7422,7 +7422,7 @@
     "name": "Microsoft",
     "company": "Microsoft Corporation",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-msft.png",
     "year": "1975",
     "isNew": false,
     "specs": {
@@ -7600,7 +7600,7 @@
     "name": "Samsung NEXT",
     "company": "Samsung Electronics Co., Ltd.",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-samsung-next.png",
     "year": "2013",
     "isNew": false,
     "specs": {
@@ -7712,7 +7712,7 @@
     "name": "Alliance Ventures",
     "company": "Renault-Nissan-Mitsubishi Alliance",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-alliance-ventures.png",
     "year": "2018",
     "isNew": false,
     "specs": {
@@ -8311,7 +8311,7 @@
     "name": "OpenAI",
     "company": "OpenAI, Inc.",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-openai-corp.png",
     "year": "2015",
     "isNew": false,
     "specs": {
@@ -8412,7 +8412,7 @@
     "name": "Coatue",
     "company": "Coatue Management LLC",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-coatue.png",
     "year": "1999",
     "isNew": false,
     "specs": {
@@ -8529,7 +8529,7 @@
     "name": "Felicis Ventures",
     "company": "Felicis Ventures Management Company LLC",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-felicis.png",
     "year": "2006",
     "isNew": false,
     "specs": {
@@ -8645,7 +8645,7 @@
     "name": "General Catalyst",
     "company": "General Catalyst Partners",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-general-catalyst.png",
     "year": "2000",
     "isNew": false,
     "specs": {
@@ -8822,7 +8822,7 @@
     "name": "Amazon Alexa Fund",
     "company": "Amazon.com, Inc.",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-alexa-fund.png",
     "year": "2015",
     "isNew": false,
     "specs": {
@@ -8878,7 +8878,7 @@
     "name": "Amazon Industrial Innovation Fund",
     "company": "Amazon.com, Inc.",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-amazon-industrial-innovation.png",
     "year": "2022",
     "isNew": false,
     "specs": {
@@ -9012,7 +9012,7 @@
     "name": "InBC Investment Corp.",
     "company": "InBC Investment Corp.",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-inbc.png",
     "year": "2021",
     "isNew": false,
     "specs": {
@@ -9123,7 +9123,7 @@
     "name": "Evok Innovations",
     "company": "Evok Innovations",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-evok-innovations.png",
     "year": "2016",
     "isNew": false,
     "specs": {
@@ -9289,7 +9289,7 @@
     "name": "SE Health",
     "company": "Saint Elizabeth Health Care",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-se-health.png",
     "year": "1908",
     "isNew": false,
     "specs": {
@@ -9342,7 +9342,7 @@
     "name": "Verizon Ventures",
     "company": "Verizon Communications Inc.",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-verizon-ventures.png",
     "year": "2000",
     "isNew": false,
     "specs": {
@@ -9395,7 +9395,7 @@
     "name": "Workday Ventures",
     "company": "Workday, Inc.",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-workday-ventures.png",
     "year": "2018",
     "isNew": false,
     "specs": {
@@ -9448,7 +9448,7 @@
     "name": "Mercedes-Benz",
     "company": "Mercedes-Benz Group AG",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-mercedes-benz.png",
     "year": "1926",
     "isNew": false,
     "specs": {
@@ -9559,7 +9559,7 @@
     "name": "AT&T Ventures",
     "company": "AT&T Inc.",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-att-ventures.png",
     "year": "1991",
     "isNew": false,
     "specs": {
@@ -9690,7 +9690,7 @@
     "name": "DCVC (Data Collective)",
     "company": "Data Collective DCVC Management Company, LLC",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-dcvc.png",
     "year": "2011",
     "isNew": false,
     "specs": {
@@ -9752,7 +9752,7 @@
     "name": "Playground Global",
     "company": "Playground Global, LLC",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-playground-global.png",
     "year": "2015",
     "isNew": false,
     "specs": {
@@ -9873,7 +9873,7 @@
     "name": "ITIC (Industrial Technology Investment Corporation)",
     "company": "Industrial Technology Investment Corporation",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-itic.png",
     "year": "1979",
     "isNew": false,
     "specs": {
@@ -10052,7 +10052,7 @@
     "name": "Sony Innovation Fund",
     "company": "Sony Group Corporation",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-sony-innovation-fund.png",
     "year": "2016",
     "isNew": false,
     "specs": {
@@ -10171,7 +10171,7 @@
     "name": "Shanghai Longcheer Technology 龙旗科技",
     "company": "Shanghai Longcheer Technology Co., Ltd.",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-longcheer.png",
     "year": "2002",
     "isNew": false,
     "specs": {
@@ -10288,7 +10288,7 @@
     "name": "Huafa Group 华发集团",
     "company": "Zhuhai Huafa Group Co., Ltd.",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-huafa.png",
     "year": "1980",
     "isNew": false,
     "specs": {
@@ -10407,7 +10407,7 @@
     "name": "Jinqiu Capital 锦秋基金",
     "company": "Jinqiu Capital",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-jinqiu.png",
     "year": "2022",
     "isNew": false,
     "specs": {
@@ -10584,7 +10584,7 @@
     "name": "BAIC Capital 北汽产投",
     "company": "Beijing Automotive Group Industrial Investment Co., Ltd.",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-baic-capital.png",
     "year": "2012",
     "isNew": false,
     "specs": {
@@ -10826,7 +10826,7 @@
     "name": "CDH Investments 鼎晖投资",
     "company": "CDH Investments",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-cdh.png",
     "year": "2002",
     "isNew": false,
     "specs": {
@@ -11233,7 +11233,7 @@
     "name": "Tsinghua Holdings 清华控股 / Qingkong Tiancheng 清控天诚",
     "company": "Tsinghua Holdings Co., Ltd.",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-tsinghua-holdings.png",
     "year": "2003",
     "isNew": false,
     "specs": {
@@ -11361,7 +11361,7 @@
     "name": "VisionPlus Capital 元璟资本",
     "company": "VisionPlus Capital",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-visionplus.png",
     "year": "2015",
     "isNew": false,
     "specs": {
@@ -11705,7 +11705,7 @@
     "name": "CoStone Capital 基石资本",
     "company": "CoStone Asset Management Co., Ltd.",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-costone.png",
     "year": "2001",
     "isNew": false,
     "specs": {
@@ -11767,7 +11767,7 @@
     "name": "JD.com 京东",
     "company": "JD.com, Inc.",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-jd.png",
     "year": "1998",
     "isNew": false,
     "specs": {
@@ -11883,7 +11883,7 @@
     "name": "NRB Corp. (Changzhou) 常州光阳轴承",
     "company": "Changzhou NRB Corporation",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-nrb.png",
     "year": "",
     "isNew": false,
     "specs": {
@@ -12187,7 +12187,7 @@
     "name": "John Deere",
     "company": "Deere & Company",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-john-deere.png",
     "year": "1837",
     "isNew": false,
     "specs": {

@@ -1,6 +1,6 @@
 # 图片收集优先级队列
 
-自动生成 by `research/_tools/audit_images.py`。共 647 条 entity，302 条缺真图（46%）。
+自动生成 by `research/_tools/audit_images.py`。共 647 条 entity，243 条缺真图（37%）。
 
 评分逻辑：`relatedIds 数 + 类别权重 + isNew + 系列首/尾 boost`。每完成一批后重跑本脚本会刷新清单。
 
@@ -13,12 +13,10 @@
 | ☐ | 35 | `ind-booster` | Booster Robotics | Booster Robotics | 产业 | 15 | 公司官网 press / Wikipedia infobox |
 | ☐ | 35 | `ind-galbot` | Galbot (银河通用) | Galbot (银河通用) | 产业 | 15 | 公司官网 press / Wikipedia infobox |
 | ☐ | 35 | `ind-limx` | LimX Dynamics | LimX Dynamics | 产业 | 15 | 公司官网 press / Wikipedia infobox |
-| ☐ | 35 | `ind-physical-intelligence` | Physical Intelligence (Pi) | Physical Intelligence (Pi | 产业 | 15 | 公司官网 press / Wikipedia infobox |
 | ☐ | 32 | `cp-jetson-agx-thor` | Jetson AGX Thor (T5000) | NVIDIA | 计算平台 | 9 | datasheet / 厂商产品页 |
 | ☐ | 31 | `app-cleaning` | Commercial Cleaning | Various | 应用场景 | 11 | 厂商客户案例页 / 媒体报道 |
 | ☐ | 29 | `app-hospitality` | Hospitality / Food Service | Various | 应用场景 | 9 | 厂商客户案例页 / 媒体报道 |
 | ☐ | 29 | `stg-ind-lumos` | Lumos Robotics (光魔机器人) | Lumos Robotics (光魔机器人) | 产业 | 9 | 公司官网 press / Wikipedia infobox |
-| ☐ | 29 | `stg-ind-matrix` | Matrix Robotics (矩阵超智) | Matrix Robotics (矩阵超智) | 产业 | 9 | 公司官网 press / Wikipedia infobox |
 | ☐ | 29 | `stg-ind-noetix` | Noetix Robotics (松延动力) | Noetix Robotics (松延动力) | 产业 | 9 | 公司官网 press / Wikipedia infobox |
 | ☐ | 28 | `e2` | Shadow Dexterous Hand (E3M5R) | Shadow Robot Company | 灵巧手 & 夹爪 | 3 | datasheet / 厂商产品页 |
 | ☐ | 28 | `flagship-galbot-g1` | Galbot G1 | Galbot (银河通用) | 整机平台 | 3 | 厂商 press kit / 官网产品页 / IEEE Spectrum / Robot Report |
@@ -27,7 +25,6 @@
 | ☐ | 27 | `app-last-mile-delivery` | Last-Mile Sidewalk Delivery | Various | 应用场景 | 7 | 厂商客户案例页 / 媒体报道 |
 | ☐ | 27 | `sensor-orbbec-gemini-335le` | Gemini 335Le | Orbbec | 传感器 | 4 | datasheet / 厂商产品页 |
 | ☐ | 26 | `app-warehouse` | Warehouse Fulfillment | Various | 应用场景 | 6 | 厂商客户案例页 / 媒体报道 |
-| ☐ | 26 | `ind-sanctuary` | Sanctuary AI | Sanctuary AI | 产业 | 11 | 公司官网 press / Wikipedia infobox |
 | ☐ | 26 | `stg-ind-robstride` | RobStride Dynamics (灵足时代) | RobStride Dynamics (灵足时代) | 产业 | 6 | 公司官网 press / Wikipedia infobox |
 | ☐ | 25 | `app-inspection` | Industrial Inspection & Mainte | Various | 应用场景 | 5 | 厂商客户案例页 / 媒体报道 |
 | ☐ | 25 | `a2` | Franka Emika Panda | Franka Robotics | 机械臂 | 5 | datasheet / 厂商产品页 |
@@ -35,9 +32,12 @@
 | ☐ | 25 | `arm-elite-ec66` | Elite Robots EC66 | Elite Robots (艾利特) | 机械臂 | 5 | datasheet / 厂商产品页 |
 | ☐ | 25 | `arm-ur3e` | UR3e | Universal Robots | 机械臂 | 5 | datasheet / 厂商产品页 |
 | ☐ | 25 | `stg-ind-engineai` | EngineAI (众擎机器人) | EngineAI (众擎机器人) | 产业 | 5 | 公司官网 press / Wikipedia infobox |
-| ☐ | 25 | `stg-ind-pudu` | Pudu Robotics (普渡科技) | Pudu Robotics (普渡科技) | 产业 | 10 | 公司官网 press / Wikipedia infobox |
 | ☐ | 24 | `app-agriculture` | Precision Agriculture | Various | 应用场景 | 4 | 厂商客户案例页 / 媒体报道 |
 | ☐ | 24 | `app-construction` | Autonomous Construction Equipm | Various | 应用场景 | 4 | 厂商客户案例页 / 媒体报道 |
+| ☐ | 24 | `app-healthcare-companion` | Healthcare & Companion Robotic | Various | 应用场景 | 4 | 厂商客户案例页 / 媒体报道 |
+| ☐ | 24 | `app-home-humanoid` | Home Humanoid Pilots | Various | 应用场景 | 4 | 厂商客户案例页 / 媒体报道 |
+| ☐ | 24 | `arm-ur30` | UR30 | Universal Robots | 机械臂 | 4 | datasheet / 厂商产品页 |
+| ☐ | 24 | `cp-hailo-10h` | Hailo-10H | Hailo | 计算平台 | 1 | datasheet / 厂商产品页 |
 
 ## 处理工作流提醒
 
