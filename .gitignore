@@ -7,4 +7,5 @@ coverage/
 .env*
 !.env.example
 research/_preview/
+research/_health_cache/
 raw_images/

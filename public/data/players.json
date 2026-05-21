@@ -18006,11 +18006,11 @@
     ],
     "relations": [
       {
-        "targetId": "ind4",
+        "targetId": "ind-boston-dynamics",
         "role": "founder-of"
       },
       {
-        "targetId": "ind4",
+        "targetId": "ind-boston-dynamics",
         "role": "employed-at"
       }
     ],

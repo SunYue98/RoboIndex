@@ -182,8 +182,8 @@ PERSONS = [
             src("Marc Raibert - Wikipedia", "https://en.wikipedia.org/wiki/Marc_Raibert", "wiki"),
         ],
         relations=[
-            {"targetId": "ind4", "role": "founder-of"},
-            {"targetId": "ind4", "role": "employed-at"},
+            {"targetId": "ind-boston-dynamics", "role": "founder-of"},
+            {"targetId": "ind-boston-dynamics", "role": "employed-at"},
         ],
         birth_year=1949,
         highest_degree="PhD (MIT)",
