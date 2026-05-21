@@ -225,7 +225,7 @@
     "name": "Tesla Optimus",
     "company": "Tesla Optimus",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-tesla-optimus.jpg",
     "year": "2021",
     "isNew": false,
     "specs": {
@@ -669,7 +669,7 @@
     "name": "Boston Dynamics",
     "company": "Boston Dynamics",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-boston-dynamics.png",
     "year": "1992",
     "isNew": false,
     "specs": {
@@ -829,7 +829,7 @@
     "name": "Agility Robotics",
     "company": "Agility Robotics",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-agility.png",
     "year": "2015",
     "isNew": false,
     "specs": {
@@ -929,7 +929,7 @@
     "name": "Unitree Robotics (宇树科技)",
     "company": "Unitree Robotics (宇树科技)",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-unitree.png",
     "year": "2016",
     "isNew": false,
     "specs": {
@@ -1028,7 +1028,7 @@
     "name": "XPENG Robotics (Iron)",
     "company": "XPENG Robotics (Iron)",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-xpeng-robotics.png",
     "year": "2024",
     "isNew": true,
     "specs": {
@@ -1251,7 +1251,7 @@
     "name": "Fourier Intelligence (傅利叶智能)",
     "company": "Fourier Intelligence (傅利叶智能)",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-fourier.png",
     "year": "2015",
     "isNew": false,
     "specs": {
@@ -1832,7 +1832,7 @@
     "name": "Engineered Arts",
     "company": "Engineered Arts",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-engineered-arts.png",
     "year": "2004",
     "isNew": false,
     "specs": {
@@ -1924,7 +1924,7 @@
     "name": "Toyota Research Institute (TRI)",
     "company": "Toyota Research Institute (TRI)",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-tri.png",
     "year": "2016",
     "isNew": false,
     "specs": {
@@ -1972,7 +1972,7 @@
     "name": "ANYbotics",
     "company": "ANYbotics",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-anybotics.png",
     "year": "2016",
     "isNew": false,
     "specs": {
@@ -2160,7 +2160,7 @@
     "name": "Google DeepMind Robotics",
     "company": "Google DeepMind Robotics",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/ind-deepmind-robotics.png",
     "year": "2023",
     "isNew": true,
     "specs": {
@@ -2477,7 +2477,7 @@
     "name": "Andreessen Horowitz (a16z)",
     "company": "Andreessen Horowitz",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/vc-a16z.png",
     "year": "2009",
     "isNew": false,
     "specs": {
@@ -2522,7 +2522,7 @@
     "name": "Khosla Ventures",
     "company": "Khosla Ventures",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/vc-khosla.png",
     "year": "2004",
     "isNew": false,
     "specs": {
@@ -2631,7 +2631,7 @@
     "name": "Founders Fund",
     "company": "Founders Fund",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/vc-founders-fund.png",
     "year": "2005",
     "isNew": false,
     "specs": {
@@ -2823,7 +2823,7 @@
     "name": "Tiger Global Management",
     "company": "Tiger Global Management",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/vc-tiger-global.png",
     "year": "2001",
     "isNew": false,
     "specs": {
@@ -2882,7 +2882,7 @@
     "name": "GGV Capital / Granite Asia",
     "company": "GGV Capital",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/vc-ggv.png",
     "year": "2000",
     "isNew": false,
     "specs": {
@@ -3179,7 +3179,7 @@
     "name": "Source Code Capital 源码资本",
     "company": "Source Code Capital",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/vc-source-code.png",
     "year": "2014",
     "isNew": false,
     "specs": {
@@ -3258,7 +3258,7 @@
     "name": "Stanford SAIL",
     "company": "Stanford University",
     "category": "实验室",
-    "imageUrl": "",
+    "imageUrl": "images/players/lab-sail.png",
     "year": "1963",
     "isNew": false,
     "specs": {
@@ -3326,7 +3326,7 @@
     "name": "UC Berkeley AUTOLab (BAIR)",
     "company": "UC Berkeley",
     "category": "实验室",
-    "imageUrl": "",
+    "imageUrl": "images/players/lab-bair-autolab.png",
     "year": "1995",
     "isNew": false,
     "specs": {
@@ -3384,7 +3384,7 @@
     "name": "MIT CSAIL",
     "company": "Massachusetts Institute of Technology",
     "category": "实验室",
-    "imageUrl": "",
+    "imageUrl": "images/players/lab-mit-csail.png",
     "year": "2003",
     "isNew": false,
     "specs": {
@@ -3436,7 +3436,7 @@
     "name": "CMU Robotics Institute",
     "company": "Carnegie Mellon University",
     "category": "实验室",
-    "imageUrl": "",
+    "imageUrl": "images/players/lab-cmu-ri.png",
     "year": "1979",
     "isNew": false,
     "specs": {
@@ -3681,7 +3681,7 @@
     "name": "Tsinghua Embodied AI Lab (TEA Lab)",
     "company": "Tsinghua University (IIIS)",
     "category": "实验室",
-    "imageUrl": "",
+    "imageUrl": "images/players/lab-tsinghua-tea.png",
     "year": "2022",
     "isNew": false,
     "specs": {
@@ -3912,7 +3912,7 @@
     "name": "Georgia Tech IRIM",
     "company": "Georgia Institute of Technology",
     "category": "实验室",
-    "imageUrl": "",
+    "imageUrl": "images/players/lab-gatech-irim.png",
     "year": "2006",
     "isNew": false,
     "specs": {
@@ -3958,7 +3958,7 @@
     "name": "Italian Institute of Technology (IIT) — iCub Tech",
     "company": "Istituto Italiano di Tecnologia",
     "category": "实验室",
-    "imageUrl": "",
+    "imageUrl": "images/players/lab-iit-icub.png",
     "year": "2005",
     "isNew": false,
     "specs": {
@@ -4043,7 +4043,7 @@
     "name": "Imperial College Personal Robotics Lab",
     "company": "Imperial College London",
     "category": "实验室",
-    "imageUrl": "",
+    "imageUrl": "images/players/lab-imperial-prl.png",
     "year": "2001",
     "isNew": false,
     "specs": {
@@ -4129,7 +4129,7 @@
     "name": "UPenn GRASP Lab",
     "company": "University of Pennsylvania",
     "category": "实验室",
-    "imageUrl": "",
+    "imageUrl": "images/players/lab-upenn-grasp.png",
     "year": "1979",
     "isNew": false,
     "specs": {
@@ -4223,7 +4223,7 @@
     "name": "Leju Robotics (乐聚机器人)",
     "company": "Leju Robotics (乐聚机器人)",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-ind-leju.png",
     "year": "2016",
     "isNew": false,
     "specs": {
@@ -4341,7 +4341,7 @@
     "name": "Kepler Robotics (开普勒机器人)",
     "company": "Kepler Robotics (开普勒机器人)",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-ind-kepler.jpg",
     "year": "2023",
     "isNew": true,
     "specs": {
@@ -4670,7 +4670,7 @@
     "name": "X-Humanoid (北京人形机器人创新中心)",
     "company": "X-Humanoid (北京人形机器人创新中心)",
     "category": "产业",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-ind-xhumanoid.png",
     "year": "2023",
     "isNew": true,
     "specs": {
@@ -5455,7 +5455,7 @@
     "name": "Tencent Robotics X 腾讯机器人实验室",
     "company": "Tencent Holdings",
     "category": "实验室",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-lab-tencent-rx.png",
     "year": "2018",
     "isNew": false,
     "specs": {
@@ -5505,7 +5505,7 @@
     "name": "HKUST 香港科技大学（机器人）",
     "company": "Cheng Kar-Shun Robotics Institute, HKUST",
     "category": "实验室",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-lab-hkust.png",
     "year": "2015",
     "isNew": false,
     "specs": {
@@ -5558,7 +5558,7 @@
     "name": "SJTU 上海交通大学",
     "company": "Shanghai Jiao Tong University - Machine Vision and Intelligence Group (MVIG)",
     "category": "实验室",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-lab-sjtu.png",
     "year": "1896",
     "isNew": false,
     "specs": {
@@ -5664,7 +5664,7 @@
     "name": "ZJU 浙江大学",
     "company": "Zhejiang University",
     "category": "实验室",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-lab-zju.png",
     "year": "1897",
     "isNew": false,
     "specs": {
@@ -5766,7 +5766,7 @@
     "name": "Tencent Investment 腾讯投资",
     "company": "Tencent Holdings - Investment Arm",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-tencent.png",
     "year": "2011",
     "isNew": false,
     "specs": {
@@ -5845,7 +5845,7 @@
     "name": "Alibaba 阿里巴巴战投",
     "company": "Alibaba Group - Strategic Investment Department",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-alibaba.png",
     "year": "2008",
     "isNew": false,
     "specs": {
@@ -6332,7 +6332,7 @@
     "name": "顺为资本 Shunwei Capital",
     "company": "Shunwei Capital",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-shunwei.png",
     "year": "2011",
     "isNew": false,
     "specs": {
@@ -6921,7 +6921,7 @@
     "name": "Bezos Expeditions",
     "company": "Bezos Expeditions LLC",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-bezos-expeditions.png",
     "year": "2005",
     "isNew": false,
     "specs": {
@@ -7024,7 +7024,7 @@
     "name": "Brookfield Asset Management",
     "company": "Brookfield Asset Management Ltd.",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-brookfield.png",
     "year": "1997",
     "isNew": false,
     "specs": {
@@ -7195,7 +7195,7 @@
     "name": "LG Technology Ventures",
     "company": "LG Corporation",
     "category": "资本",
-    "imageUrl": "",
+    "imageUrl": "images/players/stg-vc-lg-tech-ventures.png",
     "year": "2018",
     "isNew": false,
     "specs": {
