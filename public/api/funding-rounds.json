@@ -1,0 +1,982 @@
+[
+  {
+    "company_id": "ind-figure",
+    "company_name": "Figure AI",
+    "round": "Series C",
+    "year": "2025-09",
+    "amount": "Over $1B",
+    "leadInvestor": "Parkway Venture Capital",
+    "valuation": "$39B post-money",
+    "source": {
+      "url": "https://www.prnewswire.com/news-releases/figure-exceeds-1b-in-series-c-funding-at-39b-post-money-valuation-302556936.html",
+      "title": "Figure Exceeds $1B in Series C Funding at $39B Post-Money Valuation",
+      "type": "official"
+    },
+    "investors": [
+      {
+        "name": "Parkway Venture Capital",
+        "id": "stg-vc-parkway"
+      },
+      {
+        "name": "Brookfield Asset Management",
+        "id": "stg-vc-brookfield"
+      },
+      {
+        "name": "NVIDIA",
+        "id": "ind1"
+      },
+      {
+        "name": "Macquarie Capital",
+        "id": "stg-vc-macquarie-capital"
+      },
+      {
+        "name": "Intel Capital",
+        "id": "stg-vc-intel-capital"
+      },
+      {
+        "name": "Align Ventures",
+        "id": "stg-vc-align-ventures"
+      },
+      {
+        "name": "Tamarack Global",
+        "id": "stg-vc-tamarack-global"
+      },
+      {
+        "name": "LG Technology Ventures",
+        "id": "stg-vc-lg-tech-ventures"
+      },
+      {
+        "name": "Salesforce",
+        "id": "stg-vc-salesforce-ventures"
+      },
+      {
+        "name": "T-Mobile Ventures",
+        "id": "stg-vc-tmobile-ventures"
+      },
+      {
+        "name": "Qualcomm Ventures",
+        "id": "stg-vc-qualcomm-ventures"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-figure",
+    "company_name": "Figure AI",
+    "round": "Series B",
+    "year": "2024-02",
+    "amount": "$675M",
+    "leadInvestor": null,
+    "valuation": "$2.6B",
+    "source": {
+      "url": "https://www.prnewswire.com/news-releases/figure-raises-675m-at-2-6b-valuation-and-signs-collaboration-agreement-with-openai-302074897.html",
+      "title": "Figure Raises $675M at $2.6B Valuation and Signs Collaboration Agreement with OpenAI",
+      "type": "official"
+    },
+    "investors": [
+      {
+        "name": "Microsoft",
+        "id": "stg-vc-msft"
+      },
+      {
+        "name": "OpenAI Startup Fund",
+        "id": "stg-vc-openai-startup-fund"
+      },
+      {
+        "name": "NVIDIA",
+        "id": "ind1"
+      },
+      {
+        "name": "Jeff Bezos (Bezos Expeditions)",
+        "id": "stg-vc-bezos-expeditions"
+      },
+      {
+        "name": "Parkway Venture Capital",
+        "id": "stg-vc-parkway"
+      },
+      {
+        "name": "Intel Capital",
+        "id": "stg-vc-intel-capital"
+      },
+      {
+        "name": "Align Ventures",
+        "id": "stg-vc-align-ventures"
+      },
+      {
+        "name": "ARK Invest",
+        "id": "stg-vc-ark-invest"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-1x",
+    "company_name": "1X Technologies",
+    "round": "Series B",
+    "year": "2024-01",
+    "amount": "$100M",
+    "leadInvestor": "EQT Ventures",
+    "valuation": null,
+    "source": {
+      "url": "https://techcrunch.com/2024/01/11/openai-backed-1x-raises-another-100m-for-the-race-to-humanoid-robots/",
+      "title": "OpenAI-backed 1X raises another $100M for the race to humanoid robots",
+      "type": "news"
+    },
+    "investors": [
+      {
+        "name": "EQT Ventures",
+        "id": "stg-vc-eqt-ventures"
+      },
+      {
+        "name": "OpenAI Startup Fund",
+        "id": "stg-vc-openai-startup-fund"
+      },
+      {
+        "name": "Samsung NEXT",
+        "id": "stg-vc-samsung-next"
+      },
+      {
+        "name": "Sandwater",
+        "id": "stg-vc-sandwater"
+      },
+      {
+        "name": "Skagerak Capital",
+        "id": "stg-vc-skagerak-capital"
+      },
+      {
+        "name": "Nistad Group",
+        "id": "stg-vc-nistad-group"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-1x",
+    "company_name": "1X Technologies",
+    "round": "Series A2",
+    "year": "2023-03",
+    "amount": "$23.5M",
+    "leadInvestor": "OpenAI Startup Fund",
+    "valuation": null,
+    "source": {
+      "url": "https://www.1x.tech/discover/1x-rasies-23-5m-in-series-a2-funding-led-by-open-ai",
+      "title": "1X Raises $23.5M in Series A2 Funding led by OpenAI",
+      "type": "official"
+    },
+    "investors": [
+      {
+        "name": "OpenAI Startup Fund",
+        "id": "stg-vc-openai-startup-fund"
+      },
+      {
+        "name": "Tiger Global",
+        "id": "vc-tiger-global"
+      },
+      {
+        "name": "Sandwater",
+        "id": "stg-vc-sandwater"
+      },
+      {
+        "name": "Alliance Ventures",
+        "id": "stg-vc-alliance-ventures"
+      },
+      {
+        "name": "Skagerak Capital",
+        "id": "stg-vc-skagerak-capital"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-sanctuary",
+    "company_name": "Sanctuary AI",
+    "round": "Strategic Financing",
+    "year": "2024-07",
+    "amount": "未披露 (undisclosed)",
+    "leadInvestor": null,
+    "valuation": null,
+    "source": {
+      "url": "https://www.sanctuary.ai/blog/sanctuary-ai-announces-strategic-financing-from-bdc-capital-and-inbc",
+      "title": "Sanctuary AI Announces Strategic Financing From BDC Capital and InBC",
+      "type": "official"
+    },
+    "investors": [
+      {
+        "name": "BDC Capital (Thrive Venture Fund)",
+        "id": "stg-vc-bdc-capital"
+      },
+      {
+        "name": "InBC Investment Corp.",
+        "id": "stg-vc-inbc"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-sanctuary",
+    "company_name": "Sanctuary AI",
+    "round": "Series A",
+    "year": "2022-03",
+    "amount": "C$75.5M (US$58.5M)",
+    "leadInvestor": null,
+    "valuation": null,
+    "source": {
+      "url": "https://www.sanctuary.ai/blog/sanctuary-ai-closes-75-million-series-a-funding",
+      "title": "Sanctuary Cognitive Systems Closes C$75.5 Million (US$58.5 Million) Series A Funding",
+      "type": "official"
+    },
+    "investors": [
+      {
+        "name": "Bell",
+        "id": "stg-vc-bell"
+      },
+      {
+        "name": "Evok Innovations",
+        "id": "stg-vc-evok-innovations"
+      },
+      {
+        "name": "Export Development Canada",
+        "id": "stg-vc-edc"
+      },
+      {
+        "name": "Magna",
+        "id": "stg-vc-magna"
+      },
+      {
+        "name": "SE Health",
+        "id": "stg-vc-se-health"
+      },
+      {
+        "name": "Verizon Ventures",
+        "id": "stg-vc-verizon-ventures"
+      },
+      {
+        "name": "Workday Ventures",
+        "id": "stg-vc-workday-ventures"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-apptronik",
+    "company_name": "Apptronik",
+    "round": "Series A Extension",
+    "year": "2026-02",
+    "amount": "$520M",
+    "leadInvestor": null,
+    "valuation": "$5B+",
+    "source": {
+      "url": "https://news.crunchbase.com/venture/ai-humanoid-robot-funding-apptronik/",
+      "title": "Apptronik Raises $520M Series A Extension To Boost Production Of Humanoid Robot Apollo",
+      "type": "news"
+    },
+    "investors": [
+      {
+        "name": "B Capital",
+        "id": "stg-vc-b-capital"
+      },
+      {
+        "name": "Google",
+        "id": "vc-gv"
+      },
+      {
+        "name": "Mercedes-Benz",
+        "id": "stg-vc-mercedes-benz"
+      },
+      {
+        "name": "Peak6",
+        "id": "stg-vc-peak6"
+      },
+      {
+        "name": "AT&T Ventures",
+        "id": "stg-vc-att-ventures"
+      },
+      {
+        "name": "John Deere",
+        "id": "stg-vc-john-deere"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-apptronik",
+    "company_name": "Apptronik",
+    "round": "Series A",
+    "year": "2025-02",
+    "amount": "$350M",
+    "leadInvestor": "B Capital and Capital Factory (co-led)",
+    "valuation": null,
+    "source": {
+      "url": "https://www.globenewswire.com/news-release/2025/02/13/3025687/0/en/Apptronik-Raises-350-Million-to-Scale-Production-of-AI-Powered-Humanoid-Robots-and-Meet-Significant-Customer-Demand.html",
+      "title": "Apptronik Raises $350 Million to Scale Production of AI-Powered Humanoid Robots",
+      "type": "official"
+    },
+    "investors": [
+      {
+        "name": "B Capital",
+        "id": "stg-vc-b-capital"
+      },
+      {
+        "name": "Capital Factory",
+        "id": "stg-vc-capital-factory"
+      },
+      {
+        "name": "Google",
+        "id": "vc-gv"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-agility",
+    "company_name": "Agility Robotics",
+    "round": "Series B",
+    "year": "2022-04",
+    "amount": "$150M",
+    "leadInvestor": "DCVC and Playground Global (co-led)",
+    "valuation": null,
+    "source": {
+      "url": "https://www.businesswire.com/news/home/20220421006147/en/Agility-Robotics-Raises-$150M-Series-B-Led-by-DCVC-and-Playground-Global",
+      "title": "Agility Robotics Raises $150M Series B Led by DCVC and Playground Global",
+      "type": "official"
+    },
+    "investors": [
+      {
+        "name": "DCVC",
+        "id": "stg-vc-dcvc"
+      },
+      {
+        "name": "Playground Global",
+        "id": "stg-vc-playground-global"
+      },
+      {
+        "name": "MFV Partners",
+        "id": "stg-vc-mfv-partners"
+      },
+      {
+        "name": "ITIC",
+        "id": "stg-vc-itic"
+      },
+      {
+        "name": "Robotics Hub",
+        "id": "stg-vc-robotics-hub"
+      },
+      {
+        "name": "Safar Partners",
+        "id": "stg-vc-safar-partners"
+      },
+      {
+        "name": "Sony Innovation Fund",
+        "id": "stg-vc-sony-innovation-fund"
+      },
+      {
+        "name": "TDK Ventures",
+        "id": "stg-vc-tdk-ventures"
+      },
+      {
+        "name": "Amazon Industrial Innovation Fund",
+        "id": "stg-vc-amazon-industrial-innovation"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-unitree",
+    "company_name": "Unitree Robotics (宇树科技)",
+    "round": "Series C",
+    "year": "2025-06",
+    "amount": "~RMB 700M (~$96M)",
+    "leadInvestor": null,
+    "valuation": "RMB 12B (~$1.64B) post-money",
+    "source": {
+      "url": "https://technode.com/2025/07/21/unitree-robotics-begins-ipo-prep-valued-at-1-6-billion-after-series-c-funding/",
+      "title": "Unitree Robotics begins IPO prep, valued at $1.6 billion after Series C funding",
+      "type": "news"
+    },
+    "investors": [
+      {
+        "name": "China Mobile",
+        "id": "stg-vc-china-mobile"
+      },
+      {
+        "name": "Tencent",
+        "id": "stg-vc-tencent"
+      },
+      {
+        "name": "JinQiu Capital",
+        "id": "stg-vc-jinqiu"
+      },
+      {
+        "name": "Alibaba",
+        "id": "stg-vc-alibaba"
+      },
+      {
+        "name": "Ant Group",
+        "id": "stg-vc-alibaba"
+      },
+      {
+        "name": "Geely Capital",
+        "id": "stg-vc-geely"
+      },
+      {
+        "name": "HongShan Capital",
+        "id": "vc-hongshan"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-agibot",
+    "company_name": "AgiBot (智元机器人)",
+    "round": "Series B",
+    "year": "2025-03",
+    "amount": "Hundreds of millions of yuan (undisclosed)",
+    "leadInvestor": "Tencent",
+    "valuation": "15B yuan (~$2.07B)",
+    "source": {
+      "url": "https://cnmra.com/valuation-soars-to-15-billion-tencent-leads-new-funding-round-for-agibot/",
+      "title": "Valuation Soars to 15 Billion! Tencent Leads New Funding Round for Agibot",
+      "type": "news"
+    },
+    "investors": [
+      {
+        "name": "Tencent",
+        "id": "stg-vc-tencent"
+      },
+      {
+        "name": "BRV Partners (BlueRun Ventures)",
+        "id": "stg-vc-bluerun"
+      },
+      {
+        "name": "Longqi Technology (Shanghai Longcheer)",
+        "id": "stg-vc-longcheer"
+      },
+      {
+        "name": "Wolong Electric",
+        "id": "stg-vc-wolong"
+      },
+      {
+        "name": "Huafa Group",
+        "id": "stg-vc-huafa"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-ubtech",
+    "company_name": "UBTech (优必选)",
+    "round": "Share Placement",
+    "year": "2025-11",
+    "amount": "HK$3.1B (~$398M)",
+    "leadInvestor": null,
+    "valuation": null,
+    "source": {
+      "url": "https://www.yicaiglobal.com/news/ubtech-robotics-to-raise-usd3987-million-via-new-share-placement-bags-another-big-order-of-humanoid-robots",
+      "title": "Ubtech Robotics to Raise Nearly USD400 Million in Hong Kong Share Placement",
+      "type": "news"
+    },
+    "investors": []
+  },
+  {
+    "company_id": "ind-ubtech",
+    "company_name": "UBTech (优必选)",
+    "round": "Share Placement",
+    "year": "2025-07",
+    "amount": "HK$2.41B (~$307M)",
+    "leadInvestor": null,
+    "valuation": null,
+    "source": {
+      "url": "https://www.scmp.com/business/markets/article/3319084/chinas-ubtech-robotics-eyes-us307-million-hong-kong-share-placement",
+      "title": "China's UBTech Robotics eyes US$307 million in Hong Kong share placement",
+      "type": "news"
+    },
+    "investors": []
+  },
+  {
+    "company_id": "ind-ubtech",
+    "company_name": "UBTech (优必选)",
+    "round": "IPO",
+    "year": "2023-12",
+    "amount": "HK$1B (~$130M)",
+    "leadInvestor": null,
+    "valuation": "HK$38B market cap on debut",
+    "source": {
+      "url": "https://www.scmp.com/business/article/3246584/ubtech-maker-stormtrooper-robots-gains-hong-kong-trading-debut-after-pricing-final-ipo-2023-lower",
+      "title": "UBTech jumps in Hong Kong trading debut after pricing final IPO of 2023 at lower end of range",
+      "type": "news"
+    },
+    "investors": []
+  },
+  {
+    "company_id": "ind-robot-era",
+    "company_name": "Robot Era (星动纪元)",
+    "round": "Series A+",
+    "year": "2025-11",
+    "amount": "~RMB 1B (~$141M)",
+    "leadInvestor": "Geely Capital",
+    "valuation": null,
+    "source": {
+      "url": "https://www.caixinglobal.com/2025-11-21/geely-leads-141-million-round-for-tsinghua-linked-robotics-startup-102385163.html",
+      "title": "Geely Leads $141 Million Round for Tsinghua-Linked Robotics Startup",
+      "type": "news"
+    },
+    "investors": [
+      {
+        "name": "Geely Capital",
+        "id": "stg-vc-geely"
+      },
+      {
+        "name": "BAIC Capital",
+        "id": "stg-vc-baic-capital"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-robot-era",
+    "company_name": "Robot Era (星动纪元)",
+    "round": "Series A",
+    "year": "2025-07",
+    "amount": "~RMB 500M (~$69M)",
+    "leadInvestor": "CDH Investments and Haier Capital (co-led)",
+    "valuation": null,
+    "source": {
+      "url": "https://www.caixinglobal.com/2025-07-08/humanoid-robotics-startup-robot-era-secures-69-million-series-a-funding-102338987.html",
+      "title": "Humanoid Robotics Startup Robot Era Secures $69 Million Series A Funding",
+      "type": "news"
+    },
+    "investors": [
+      {
+        "name": "CDH Investments",
+        "id": "stg-vc-cdh"
+      },
+      {
+        "name": "Haier Capital",
+        "id": "stg-vc-haier-capital"
+      },
+      {
+        "name": "Houxue Capital",
+        "id": "stg-vc-houxue"
+      },
+      {
+        "name": "Meridian Capital",
+        "id": "stg-vc-meridian-china"
+      },
+      {
+        "name": "Xianghe Capital",
+        "id": "stg-vc-xianghe"
+      },
+      {
+        "name": "Zhejiang Fore Intelligent Technology",
+        "id": "stg-vc-fore-intelligent"
+      },
+      {
+        "name": "Crystal Stream Capital",
+        "id": "stg-vc-crystal-stream"
+      },
+      {
+        "name": "Tsinghua Holdings",
+        "id": "stg-vc-tsinghua-holdings"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-robot-era",
+    "company_name": "Robot Era (星动纪元)",
+    "round": "Pre-A",
+    "year": "2024-10",
+    "amount": "~RMB 300M (~$41M)",
+    "leadInvestor": "ClearVue Partners, YuanJing Capital, Alibaba (co-led)",
+    "valuation": null,
+    "source": {
+      "url": "https://en.tmtpost.com/post/7287841",
+      "title": "Tsinghua-Backed Robot Era Secures 300 Million Yuan in Pre-A Round Funding",
+      "type": "news"
+    },
+    "investors": [
+      {
+        "name": "ClearVue Partners",
+        "id": "stg-vc-clearvue"
+      },
+      {
+        "name": "YuanJing Capital",
+        "id": "stg-vc-visionplus"
+      },
+      {
+        "name": "Alibaba",
+        "id": "stg-vc-alibaba"
+      },
+      {
+        "name": "Orinno Capital",
+        "id": "stg-vc-orinno"
+      },
+      {
+        "name": "Lenovo Ventures",
+        "id": "stg-vc-lenovo-capital"
+      },
+      {
+        "name": "Century Golden Resources",
+        "id": "stg-vc-century-golden-resources"
+      },
+      {
+        "name": "Jinding Capital",
+        "id": "stg-vc-jinding"
+      },
+      {
+        "name": "Tsinghua Holdings' Tiancheng Ventures",
+        "id": "stg-vc-tsinghua-holdings"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-galbot",
+    "company_name": "Galbot (银河通用)",
+    "round": "Strategic",
+    "year": "2025-12",
+    "amount": "Over $300M",
+    "leadInvestor": null,
+    "valuation": "$3B",
+    "source": {
+      "url": "https://www.prnewswire.com/news-releases/galbot-secures-over-300-million-in-new-funding-breaking-records-with-3-billion-valuation-in-chinas-humanoid-robot-sector-302647204.html",
+      "title": "Galbot Secures Over $300 Million in New Funding, Breaking Records with $3 Billion Valuation",
+      "type": "official"
+    },
+    "investors": []
+  },
+  {
+    "company_id": "ind-galbot",
+    "company_name": "Galbot (银河通用)",
+    "round": "Series B",
+    "year": "2025-06",
+    "amount": "RMB 1.1B (~$153M)",
+    "leadInvestor": "CATL",
+    "valuation": "Over $1B (unicorn)",
+    "source": {
+      "url": "https://technode.com/2025/06/25/galbot/",
+      "title": "CATL backs humanoid robotics startup Galbot in $153 million funding",
+      "type": "news"
+    },
+    "investors": [
+      {
+        "name": "CATL",
+        "id": "stg-vc-catl"
+      },
+      {
+        "name": "China Development Bank (growth investment arm)",
+        "id": "stg-vc-cdb-capital"
+      },
+      {
+        "name": "Beijing Robotics Industry Fund",
+        "id": "stg-vc-bj-robot-fund"
+      },
+      {
+        "name": "Granite Asia (GGV Capital)",
+        "id": "vc-ggv"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-galbot",
+    "company_name": "Galbot (银河通用)",
+    "round": "Angel",
+    "year": "2024-06",
+    "amount": "RMB 700M",
+    "leadInvestor": null,
+    "valuation": null,
+    "source": {
+      "url": "https://equalocean.com/news/2024062521051",
+      "title": "Galbot Secures CNY 700 Million in Angel Round Financing",
+      "type": "news"
+    },
+    "investors": [
+      {
+        "name": "Meituan",
+        "id": "stg-vc-meituan"
+      },
+      {
+        "name": "BAIC Industrial Investment",
+        "id": "stg-vc-baic-capital"
+      },
+      {
+        "name": "SenseTime Guoxiang Fund",
+        "id": "stg-vc-sense-capital"
+      },
+      {
+        "name": "iFlytek Fund",
+        "id": "stg-vc-iflytek-fund"
+      },
+      {
+        "name": "Qiming Venture Partners",
+        "id": "stg-vc-qiming"
+      },
+      {
+        "name": "Lanchi Ventures",
+        "id": "stg-vc-bluerun"
+      },
+      {
+        "name": "Matrix Partners China",
+        "id": "stg-vc-matrix-china"
+      },
+      {
+        "name": "Source Code Capital",
+        "id": "vc-source-code"
+      },
+      {
+        "name": "IDG Capital",
+        "id": "vc-idg"
+      },
+      {
+        "name": "Lighthouse Capital",
+        "id": "stg-vc-lighthouse-capital"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-booster",
+    "company_name": "Booster Robotics",
+    "round": "Series A+",
+    "year": "2025-07",
+    "amount": "Over RMB 100M (~$13.9M)",
+    "leadInvestor": "Beijing Robot Industry Development Fund",
+    "valuation": null,
+    "source": {
+      "url": "https://www.caixinglobal.com/2025-07-25/chinas-booster-robotics-lands-new-funding-as-it-hits-a-winning-streak-102344904.html",
+      "title": "China's Booster Robotics Lands New Funding as it Hits a Winning Streak",
+      "type": "news"
+    },
+    "investors": [
+      {
+        "name": "Beijing Robot Industry Development Fund",
+        "id": "stg-vc-bj-robot-fund"
+      },
+      {
+        "name": "Beijing Artificial Intelligence Industry Investment Fund",
+        "id": "stg-vc-beijing-ai-fund"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-booster",
+    "company_name": "Booster Robotics",
+    "round": "Series A",
+    "year": "2025-06",
+    "amount": "未披露 (undisclosed)",
+    "leadInvestor": "Shenzhen Capital Group",
+    "valuation": null,
+    "source": {
+      "url": "https://www.caixinglobal.com/2025-07-25/chinas-booster-robotics-lands-new-funding-as-it-hits-a-winning-streak-102344904.html",
+      "title": "China's Booster Robotics Lands New Funding as it Hits a Winning Streak",
+      "type": "news"
+    },
+    "investors": [
+      {
+        "name": "Shenzhen Capital Group",
+        "id": "stg-vc-scg"
+      },
+      {
+        "name": "Jinding Capital",
+        "id": "stg-vc-jinding"
+      },
+      {
+        "name": "Source Code Capital",
+        "id": "vc-source-code"
+      },
+      {
+        "name": "Innoangel Fund",
+        "id": "stg-vc-innoangel"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-limx",
+    "company_name": "LimX Dynamics",
+    "round": "Series B",
+    "year": "2026-02",
+    "amount": "$200M",
+    "leadInvestor": null,
+    "valuation": null,
+    "source": {
+      "url": "https://siliconangle.com/2026/02/02/limx-raises-200m-build-embodied-intelligence-humanoid-robotics/",
+      "title": "LimX raises $200M to build embodied intelligence for humanoid robotics",
+      "type": "news"
+    },
+    "investors": [
+      {
+        "name": "Stone Venture",
+        "id": "stg-vc-stone-venture"
+      },
+      {
+        "name": "Oriental Fortune Capital",
+        "id": "stg-vc-oriental-fortune"
+      },
+      {
+        "name": "Shenzhen Co-Stone Asset Management",
+        "id": "stg-vc-costone"
+      },
+      {
+        "name": "JD.com",
+        "id": "stg-vc-jd"
+      },
+      {
+        "name": "Zhongding Sealing",
+        "id": "stg-vc-zhongding"
+      },
+      {
+        "name": "NRB Corp.",
+        "id": "stg-vc-nrb"
+      },
+      {
+        "name": "Kyland",
+        "id": "stg-vc-kyland"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-physical-intelligence",
+    "company_name": "Physical Intelligence (Pi)",
+    "round": "Series B",
+    "year": "2025-11",
+    "amount": "$600M",
+    "leadInvestor": null,
+    "valuation": "$5.6B post-money",
+    "source": {
+      "url": "https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/",
+      "title": "Physical Intelligence raises $600M to advance robot foundation models",
+      "type": "news"
+    },
+    "investors": [
+      {
+        "name": "CapitalG",
+        "id": "stg-vc-capitalg"
+      },
+      {
+        "name": "Lux Capital",
+        "id": "vc-lux"
+      },
+      {
+        "name": "Bond",
+        "id": "stg-vc-bond"
+      },
+      {
+        "name": "Redpoint",
+        "id": "stg-vc-redpoint"
+      },
+      {
+        "name": "Sequoia Capital",
+        "id": "vc1"
+      },
+      {
+        "name": "Thrive Capital",
+        "id": "stg-vc-thrive"
+      },
+      {
+        "name": "Jeff Bezos",
+        "id": "stg-vc-bezos-expeditions"
+      },
+      {
+        "name": "Index Ventures",
+        "id": "stg-vc-index-ventures"
+      },
+      {
+        "name": "T. Rowe Price",
+        "id": "stg-vc-t-rowe-price"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-physical-intelligence",
+    "company_name": "Physical Intelligence (Pi)",
+    "round": "Series A",
+    "year": "2024-11",
+    "amount": "$400M",
+    "leadInvestor": null,
+    "valuation": "$2B",
+    "source": {
+      "url": "https://news.crunchbase.com/ai/robot-brain-startup-unicorn-physical-intelligence-bezos/",
+      "title": "Robot Brain Startup Physical Intelligence Raises $400M At $2B Valuation",
+      "type": "news"
+    },
+    "investors": [
+      {
+        "name": "Jeff Bezos",
+        "id": "stg-vc-bezos-expeditions"
+      },
+      {
+        "name": "Lux Capital",
+        "id": "vc-lux"
+      },
+      {
+        "name": "Thrive Capital",
+        "id": "stg-vc-thrive"
+      },
+      {
+        "name": "OpenAI",
+        "id": "stg-vc-openai-startup-fund"
+      },
+      {
+        "name": "Redpoint Ventures",
+        "id": "stg-vc-redpoint"
+      },
+      {
+        "name": "Bond",
+        "id": "stg-vc-bond"
+      }
+    ]
+  },
+  {
+    "company_id": "ind-skild",
+    "company_name": "Skild AI",
+    "round": "Series A",
+    "year": "2024-07",
+    "amount": "$300M",
+    "leadInvestor": null,
+    "valuation": "$1.5B",
+    "source": {
+      "url": "https://www.skild.ai/blogs/announcing-our-300m-series-a",
+      "title": "Announcing our $300M Series A Funding",
+      "type": "official"
+    },
+    "investors": [
+      {
+        "name": "Lightspeed Venture Partners",
+        "id": "stg-vc-lightspeed"
+      },
+      {
+        "name": "Coatue",
+        "id": "stg-vc-coatue"
+      },
+      {
+        "name": "SoftBank Group",
+        "id": "stg-vc-softbank"
+      },
+      {
+        "name": "Jeff Bezos (Bezos Expeditions)",
+        "id": "stg-vc-bezos-expeditions"
+      },
+      {
+        "name": "Felicis Ventures",
+        "id": "stg-vc-felicis"
+      },
+      {
+        "name": "Sequoia",
+        "id": "vc1"
+      },
+      {
+        "name": "Menlo Ventures",
+        "id": "stg-vc-menlo-ventures"
+      },
+      {
+        "name": "General Catalyst",
+        "id": "stg-vc-general-catalyst"
+      },
+      {
+        "name": "CRV",
+        "id": "stg-vc-crv"
+      },
+      {
+        "name": "SV Angel",
+        "id": "stg-vc-sv-angel"
+      },
+      {
+        "name": "Carnegie Mellon University",
+        "id": "lab-cmu-ri"
+      },
+      {
+        "name": "Amazon Industrial Innovation Fund",
+        "id": "stg-vc-amazon-industrial-innovation"
+      },
+      {
+        "name": "Alexa Fund",
+        "id": "stg-vc-alexa-fund"
+      }
+    ]
+  }
+]

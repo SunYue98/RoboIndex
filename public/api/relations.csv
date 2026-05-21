@@ -1,0 +1,1515 @@
+source_id,source_name,source_category,role,target_id,target_name,target_category,is_inverse
+f1,Memo,整机平台,manufacturer,ind-agility,Agility Robotics,产业,0
+f1,Memo,整机平台,deployed-at,sw1,OpenVLA,基础模型,1
+f1,Memo,整机平台,series-member,f130,DIGIT,整机平台,0
+f1,Memo,整机平台,tech-base,e1,2F-85 Adaptive Gripper,灵巧手 & 夹爪,0
+f1,Memo,整机平台,tech-base,j1,FSA Actuator,关节模组,0
+f2,Oli,整机平台,manufacturer,ind-limx,LimX Dynamics,产业,0
+f2,Oli,整机平台,competitor,f132,LIMX CL,整机平台,0
+f2,Oli,整机平台,competitor,f15,P1S,整机平台,0
+f2,Oli,整机平台,competitor,f25,TRON,整机平台,0
+f2,Oli,整机平台,competitor,f73,LIMX OLI,整机平台,0
+f2,Oli,整机平台,tech-base,c1,CSF-2UH Strain Wave Gear Unit,核心零部件,0
+f2,Oli,整机平台,related,sw7,Open X-Embodiment,数据集,0
+f2,Oli,整机平台,related,sw5,Isaac Sim,仿真平台,0
+f4,Optimus Gen 2,整机平台,manufacturer,ind-tesla-optimus,Tesla Optimus,产业,0
+f4,Optimus Gen 2,整机平台,series-member,f8,OPTIMUS,整机平台,0
+f4,Optimus Gen 2,整机平台,series-member,f98,OPTIMUS V2.5,整机平台,0
+f4,Optimus Gen 2,整机平台,tech-base,e2,Shadow Dexterous Hand (E3M5R),灵巧手 & 夹爪,0
+f4,Optimus Gen 2,整机平台,tech-base,s1,RealSense Depth Camera D455,传感器,0
+f4,Optimus Gen 2,整机平台,tech-base,cp1,Jetson AGX Orin (64GB / 32GB),计算平台,0
+a1,UR10e,机械臂,series-member,arm-ur16e,UR16e,机械臂,0
+a1,UR10e,机械臂,series-member,arm-ur20,UR20,机械臂,0
+a1,UR10e,机械臂,series-member,arm-ur30,UR30,机械臂,0
+a1,UR10e,机械臂,series-member,arm-ur3e,UR3e,机械臂,0
+a1,UR10e,机械臂,series-member,arm-ur5e,UR5e,机械臂,0
+a1,UR10e,机械臂,tech-base,s2,Axia80 F/T Sensor,传感器,0
+a1,UR10e,机械臂,tech-base,c1,CSF-2UH Strain Wave Gear Unit,核心零部件,0
+a2,Franka Emika Panda,机械臂,series-member,arm-fr3,Franka Research 3,机械臂,0
+a2,Franka Emika Panda,机械臂,tech-base,c1,CSF-2UH Strain Wave Gear Unit,核心零部件,0
+a2,Franka Emika Panda,机械臂,related,sw-droid,DROID,数据集,0
+a2,Franka Emika Panda,机械臂,related,sw-fmb,FMB (Functional Manipulation Benchmark dataset),数据集,0
+a2,Franka Emika Panda,机械臂,related,sw-polymetis,Polymetis,算法框架,0
+e1,2F-85 Adaptive Gripper,灵巧手 & 夹爪,tech-base,f1,Memo,整机平台,1
+e2,Shadow Dexterous Hand (E3M5R),灵巧手 & 夹爪,tech-base,f4,Optimus Gen 2,整机平台,1
+e2,Shadow Dexterous Hand (E3M5R),灵巧手 & 夹爪,related,sw-openai-dexterous,Dexterous In-Hand Manipulation (RL/PPO + Domain Randomization),控制算法,0
+e2,Shadow Dexterous Hand (E3M5R),灵巧手 & 夹爪,related,d1,HaptX Gloves G1,数采 & 遥操,0
+j1,FSA Actuator,关节模组,manufacturer,ind-fourier,Fourier Intelligence (傅利叶智能),产业,0
+j1,FSA Actuator,关节模组,tech-base,f1,Memo,整机平台,1
+j1,FSA Actuator,关节模组,related,c2,KBM Series Frameless Motor,核心零部件,0
+j2,Dynamixel PH54-200-S500,关节模组,tech-base,f2,Oli,整机平台,1
+j2,Dynamixel PH54-200-S500,关节模组,tech-base,f79,AI WORKER,整机平台,1
+j2,Dynamixel PH54-200-S500,关节模组,tech-base,h33,HXS-D20,灵巧手 & 夹爪,1
+j2,Dynamixel PH54-200-S500,关节模组,series-member,joint-dynamixel-ph42-020,Dynamixel PH42-020-S300,关节模组,0
+j2,Dynamixel PH54-200-S500,关节模组,competitor,joint-dynamixel-xh540-w270,Dynamixel XH540-W270,关节模组,0
+j2,Dynamixel PH54-200-S500,关节模组,competitor,joint-dynamixel-xm430-w350,Dynamixel XM430-W350,关节模组,0
+c1,CSF-2UH Strain Wave Gear Unit,核心零部件,tech-base,f2,Oli,整机平台,1
+c1,CSF-2UH Strain Wave Gear Unit,核心零部件,tech-base,a1,UR10e,机械臂,1
+c1,CSF-2UH Strain Wave Gear Unit,核心零部件,tech-base,a2,Franka Emika Panda,机械臂,1
+c1,CSF-2UH Strain Wave Gear Unit,核心零部件,series-member,comp-harmonic-csf-2up,CSF-2UP Ultra-Flat Gearhead,核心零部件,0
+c2,KBM Series Frameless Motor,核心零部件,related,j1,FSA Actuator,关节模组,0
+s1,RealSense Depth Camera D455,传感器,tech-base,f4,Optimus Gen 2,整机平台,1
+s1,RealSense Depth Camera D455,传感器,series-member,sensor-realsense-d435i,RealSense Depth Camera D435i,传感器,0
+s1,RealSense Depth Camera D455,传感器,series-member,sensor-realsense-d457,RealSense Depth Camera D457 (GMSL/FAKRA),传感器,0
+s1,RealSense Depth Camera D455,传感器,competitor,sensor-realsense-l515,RealSense LiDAR Camera L515,传感器,0
+s2,Axia80 F/T Sensor,传感器,tech-base,a1,UR10e,机械臂,1
+s2,Axia80 F/T Sensor,传感器,series-member,sensor-ati-mini40,Mini40 F/T Sensor,传感器,0
+d1,HaptX Gloves G1,数采 & 遥操,related,e2,Shadow Dexterous Hand (E3M5R),灵巧手 & 夹爪,0
+d2,GELLO Arm,数采 & 遥操,related,sw-bridgedata-v2,BridgeData V2,数据集,0
+d2,GELLO Arm,数采 & 遥操,related,sw4,RoboMimic,算法框架,0
+cp1,Jetson AGX Orin (64GB / 32GB),计算平台,manufacturer,ind1,NVIDIA Robotics,产业,0
+cp1,Jetson AGX Orin (64GB / 32GB),计算平台,tech-base,f38,BOOSTER T1,整机平台,1
+cp1,Jetson AGX Orin (64GB / 32GB),计算平台,tech-base,f4,Optimus Gen 2,整机平台,1
+cp1,Jetson AGX Orin (64GB / 32GB),计算平台,tech-base,f69,WALKER S2,整机平台,1
+cp1,Jetson AGX Orin (64GB / 32GB),计算平台,series-member,cp-jetson-agx-thor,Jetson AGX Thor (T5000),计算平台,0
+cp1,Jetson AGX Orin (64GB / 32GB),计算平台,series-member,cp-jetson-agx-xavier,Jetson AGX Xavier (legacy),计算平台,0
+cp1,Jetson AGX Orin (64GB / 32GB),计算平台,series-member,cp-jetson-nano,Jetson Nano (legacy),计算平台,0
+cp1,Jetson AGX Orin (64GB / 32GB),计算平台,series-member,cp-jetson-orin-nano,Jetson Orin Nano (8GB / 4GB),计算平台,0
+cp1,Jetson AGX Orin (64GB / 32GB),计算平台,series-member,cp-jetson-orin-nx,Jetson Orin NX (16GB / 8GB),计算平台,0
+cp1,Jetson AGX Orin (64GB / 32GB),计算平台,related,sw3,Isaac Lab,算法框架,0
+cp2,MIC-733-AO,计算平台,competitor,cp1,Jetson AGX Orin (64GB / 32GB),计算平台,0
+f6,SPACEO M1,整机平台,series-member,f13,SPACEO Pro,整机平台,0
+f7,YM XPLORE 1,整机平台,tech-base,arm-techman-tm12,Techman TM12,机械臂,0
+f7,YM XPLORE 1,整机平台,tech-base,arm-techman-tm5-900,Techman TM5-900,机械臂,0
+f8,OPTIMUS,整机平台,manufacturer,ind-tesla-optimus,Tesla Optimus,产业,0
+f8,OPTIMUS,整机平台,series-member,f4,Optimus Gen 2,整机平台,0
+f8,OPTIMUS,整机平台,series-member,f98,OPTIMUS V2.5,整机平台,0
+f9,FIGURE ONE,整机平台,manufacturer,ind-figure,Figure AI,产业,0
+f9,FIGURE ONE,整机平台,series-member,f104,FIGURE 03,整机平台,0
+f9,FIGURE ONE,整机平台,series-member,f139,FIGURE 02,整机平台,0
+f9,FIGURE ONE,整机平台,deployed-at,app-humanoid-manufacturing,Humanoid Manufacturing Assembly,应用场景,0
+f10,TARS,整机平台,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+f12,ADAM G0,整机平台,manufacturer,stg-ind-pndbotics,PNDbotics,产业,0
+f12,ADAM G0,整机平台,series-member,f124,ADAM LITE,整机平台,0
+f13,SPACEO Pro,整机平台,series-member,f6,SPACEO M1,整机平台,0
+f15,P1S,整机平台,manufacturer,ind-limx,LimX Dynamics,产业,0
+f15,P1S,整机平台,series-member,f132,LIMX CL,整机平台,0
+f15,P1S,整机平台,competitor,f2,Oli,整机平台,0
+f15,P1S,整机平台,series-member,f25,TRON,整机平台,0
+f15,P1S,整机平台,series-member,f73,LIMX OLI,整机平台,0
+a4,JAKA K1,机械臂,competitor,arm-jaka-minicobo,JAKA MiniCobo,机械臂,0
+a4,JAKA K1,机械臂,competitor,arm-jaka-zu5,JAKA Zu 5,机械臂,0
+f21,EVE-3,整机平台,manufacturer,ind-1x,1X Technologies,产业,0
+f21,EVE-3,整机平台,series-member,f122,NEO BETA,整机平台,0
+f21,EVE-3,整机平台,series-member,f34,NEO Gamma,整机平台,0
+f22,MATRIX 1,整机平台,manufacturer,stg-ind-matrix,Matrix Robotics (矩阵超智),产业,0
+f22,MATRIX 1,整机平台,series-member,f96,MATRIX 4,整机平台,0
+f24,H2,整机平台,manufacturer,ind-unitree,Unitree Robotics (宇树科技),产业,0
+f24,H2,整机平台,tech-base,joint-unitree-a1,Unitree A1 Motor,关节模组,0
+f24,H2,整机平台,tech-base,joint-unitree-go-m8010-6,Unitree GO-M8010-6,关节模组,0
+f24,H2,整机平台,tech-base,cp-jetson-agx-thor,Jetson AGX Thor (T5000),计算平台,0
+f24,H2,整机平台,tech-base,pwr-unitree-h1-battery,Unitree H1 Battery Pack,能源动力,0
+f25,TRON,整机平台,manufacturer,ind-limx,LimX Dynamics,产业,0
+f25,TRON,整机平台,series-member,f132,LIMX CL,整机平台,0
+f25,TRON,整机平台,series-member,f15,P1S,整机平台,0
+f25,TRON,整机平台,competitor,f2,Oli,整机平台,0
+f25,TRON,整机平台,series-member,f73,LIMX OLI,整机平台,0
+f25,TRON,整机平台,deployed-at,app-humanoid-manufacturing,Humanoid Manufacturing Assembly,应用场景,0
+f25,TRON,整机平台,deployed-at,app-inspection,Industrial Inspection & Maintenance,应用场景,0
+f25,TRON,整机平台,deployed-at,app-surgical,Surgical Robotics,应用场景,0
+f29,ATLAS,整机平台,manufacturer,ind-boston-dynamics,Boston Dynamics,产业,0
+f29,ATLAS,整机平台,tech-base,cp-jetson-agx-thor,Jetson AGX Thor (T5000),计算平台,0
+f29,ATLAS,整机平台,tech-base,pwr-spot-battery,Spot Battery,能源动力,0
+f30,MAGICBOT,整机平台,manufacturer,stg-ind-magiclab,MagicLab (魔法原子),产业,0
+f30,MAGICBOT,整机平台,tech-base,h47,MAGICAND S01,灵巧手 & 夹爪,0
+f31,AstroDroid AD-01,整机平台,manufacturer,ind-galbot,Galbot (银河通用),产业,0
+f32,DORA,整机平台,manufacturer,stg-ind-noetix,Noetix Robotics (松延动力),产业,0
+f32,DORA,整机平台,series-member,f77,HOBBS,整机平台,0
+f34,NEO Gamma,整机平台,manufacturer,ind-1x,1X Technologies,产业,0
+f34,NEO Gamma,整机平台,series-member,f122,NEO BETA,整机平台,0
+f34,NEO Gamma,整机平台,series-member,f21,EVE-3,整机平台,0
+f34,NEO Gamma,整机平台,tech-base,cp-jetson-agx-thor,Jetson AGX Thor (T5000),计算平台,0
+f34,NEO Gamma,整机平台,deployed-at,app-cleaning,Commercial Cleaning,应用场景,0
+f34,NEO Gamma,整机平台,deployed-at,app-home-humanoid,Home Humanoid Pilots,应用场景,0
+f37,LUS2,整机平台,manufacturer,stg-ind-lumos,Lumos Robotics (光魔机器人),产业,0
+f37,LUS2,整机平台,competitor,f60,NIX,整机平台,0
+f38,BOOSTER T1,整机平台,manufacturer,ind-booster,Booster Robotics,产业,0
+f38,BOOSTER T1,整机平台,tech-base,cp1,Jetson AGX Orin (64GB / 32GB),计算平台,0
+f39,KUAVO-S,整机平台,manufacturer,stg-ind-leju,Leju Robotics (乐聚机器人),产业,0
+f39,KUAVO-S,整机平台,series-member,f123,XTRON KUAVO-MY,整机平台,0
+f39,KUAVO-S,整机平台,series-member,f56,ROBAN 2,整机平台,0
+f39,KUAVO-S,整机平台,series-member,f61,KUAVO-MY,整机平台,0
+f40,AGIBOT X1,整机平台,manufacturer,ind-agibot,AgiBot (智元机器人),产业,0
+f40,AGIBOT X1,整机平台,series-member,f49,A2,整机平台,0
+f40,AGIBOT X1,整机平台,series-member,f70,A2 MAX,整机平台,0
+f40,AGIBOT X1,整机平台,series-member,f78,G2 GENIE,整机平台,0
+f41,TIAN YI 2.0,整机平台,manufacturer,stg-ind-xhumanoid,X-Humanoid (北京人形机器人创新中心),产业,0
+f42,GR-2,整机平台,manufacturer,ind-fourier,Fourier Intelligence (傅利叶智能),产业,0
+f42,GR-2,整机平台,competitor,f86,GR-1,整机平台,0
+f43,KANGAROO,整机平台,manufacturer,ind-pal-robotics,PAL Robotics,产业,0
+f44,PM01,整机平台,manufacturer,stg-ind-engineai,EngineAI (众擎机器人),产业,0
+f44,PM01,整机平台,competitor,f106,SE01,整机平台,0
+f44,PM01,整机平台,competitor,f50,SA02,整机平台,0
+f44,PM01,整机平台,competitor,f67,T800,整机平台,0
+f46,ZEUS 1,整机平台,tech-base,h7,PL-WitHand,灵巧手 & 夹爪,0
+f49,A2,整机平台,manufacturer,ind-agibot,AgiBot (智元机器人),产业,0
+f49,A2,整机平台,series-member,f40,AGIBOT X1,整机平台,0
+f49,A2,整机平台,series-member,f70,A2 MAX,整机平台,0
+f49,A2,整机平台,series-member,f78,G2 GENIE,整机平台,0
+f50,SA02,整机平台,manufacturer,stg-ind-engineai,EngineAI (众擎机器人),产业,0
+f50,SA02,整机平台,competitor,f106,SE01,整机平台,0
+f50,SA02,整机平台,competitor,f44,PM01,整机平台,0
+f50,SA02,整机平台,competitor,f67,T800,整机平台,0
+f52,PHYBOT M1,整机平台,manufacturer,stg-ind-phybot,Phybot (北京动易科技),产业,0
+f52,PHYBOT M1,整机平台,series-member,f138,PHYBOT C1,整机平台,0
+f54,K2 BUMBLEBEE,整机平台,series-member,f72,KEPLER K2,整机平台,0
+f54,K2 BUMBLEBEE,整机平台,series-member,f88,KEPLER,整机平台,0
+f56,ROBAN 2,整机平台,manufacturer,stg-ind-leju,Leju Robotics (乐聚机器人),产业,0
+f56,ROBAN 2,整机平台,series-member,f123,XTRON KUAVO-MY,整机平台,0
+f56,ROBAN 2,整机平台,series-member,f39,KUAVO-S,整机平台,0
+f56,ROBAN 2,整机平台,series-member,f61,KUAVO-MY,整机平台,0
+f58,HMND 01,整机平台,series-member,f108,HMND_01 ALPHA,整机平台,0
+f59,MENTEEBOT V3,整机平台,series-member,f114,MENTEEBOT,整机平台,0
+f60,NIX,整机平台,manufacturer,stg-ind-lumos,Lumos Robotics (光魔机器人),产业,0
+f60,NIX,整机平台,competitor,f37,LUS2,整机平台,0
+a6,ultraArm P340,机械臂,manufacturer,stg-ind-elephant,Elephant Robotics (大象机器人),产业,0
+a6,ultraArm P340,机械臂,tech-base,f93,Mercury X1,整机平台,1
+f61,KUAVO-MY,整机平台,manufacturer,stg-ind-leju,Leju Robotics (乐聚机器人),产业,0
+f61,KUAVO-MY,整机平台,series-member,f123,XTRON KUAVO-MY,整机平台,0
+f61,KUAVO-MY,整机平台,series-member,f39,KUAVO-S,整机平台,0
+f61,KUAVO-MY,整机平台,series-member,f56,ROBAN 2,整机平台,0
+f65,CRUZR S2,整机平台,manufacturer,ind-ubtech,UBTech (优必选),产业,0
+f65,CRUZR S2,整机平台,competitor,f135,WALKER S1,整机平台,0
+f65,CRUZR S2,整机平台,competitor,f144,ALPHA,整机平台,0
+f65,CRUZR S2,整机平台,competitor,f69,WALKER S2,整机平台,0
+f65,CRUZR S2,整机平台,competitor,f82,WALKER C,整机平台,0
+f67,T800,整机平台,manufacturer,stg-ind-engineai,EngineAI (众擎机器人),产业,0
+f67,T800,整机平台,competitor,f106,SE01,整机平台,0
+f67,T800,整机平台,competitor,f44,PM01,整机平台,0
+f67,T800,整机平台,competitor,f50,SA02,整机平台,0
+f68,R1 PRO,整机平台,deployed-at,app-home-humanoid,Home Humanoid Pilots,应用场景,0
+f69,WALKER S2,整机平台,manufacturer,ind-ubtech,UBTech (优必选),产业,0
+f69,WALKER S2,整机平台,series-member,f135,WALKER S1,整机平台,0
+f69,WALKER S2,整机平台,competitor,f144,ALPHA,整机平台,0
+f69,WALKER S2,整机平台,competitor,f65,CRUZR S2,整机平台,0
+f69,WALKER S2,整机平台,series-member,f82,WALKER C,整机平台,0
+f69,WALKER S2,整机平台,tech-base,cp1,Jetson AGX Orin (64GB / 32GB),计算平台,0
+f70,A2 MAX,整机平台,manufacturer,ind-agibot,AgiBot (智元机器人),产业,0
+f70,A2 MAX,整机平台,series-member,f40,AGIBOT X1,整机平台,0
+f70,A2 MAX,整机平台,series-member,f49,A2,整机平台,0
+f70,A2 MAX,整机平台,series-member,f78,G2 GENIE,整机平台,0
+f72,KEPLER K2,整机平台,series-member,f54,K2 BUMBLEBEE,整机平台,0
+f72,KEPLER K2,整机平台,series-member,f88,KEPLER,整机平台,0
+f73,LIMX OLI,整机平台,manufacturer,ind-limx,LimX Dynamics,产业,0
+f73,LIMX OLI,整机平台,series-member,f132,LIMX CL,整机平台,0
+f73,LIMX OLI,整机平台,series-member,f15,P1S,整机平台,0
+f73,LIMX OLI,整机平台,competitor,f2,Oli,整机平台,0
+f73,LIMX OLI,整机平台,series-member,f25,TRON,整机平台,0
+f77,HOBBS,整机平台,manufacturer,stg-ind-noetix,Noetix Robotics (松延动力),产业,0
+f77,HOBBS,整机平台,series-member,f32,DORA,整机平台,0
+f78,G2 GENIE,整机平台,manufacturer,ind-agibot,AgiBot (智元机器人),产业,0
+f78,G2 GENIE,整机平台,series-member,f40,AGIBOT X1,整机平台,0
+f78,G2 GENIE,整机平台,series-member,f49,A2,整机平台,0
+f78,G2 GENIE,整机平台,series-member,f70,A2 MAX,整机平台,0
+f79,AI WORKER,整机平台,tech-base,h33,HXS-D20,灵巧手 & 夹爪,0
+f79,AI WORKER,整机平台,tech-base,j2,Dynamixel PH54-200-S500,关节模组,0
+f79,AI WORKER,整机平台,tech-base,joint-dynamixel-ph42-020,Dynamixel PH42-020-S300,关节模组,0
+f79,AI WORKER,整机平台,tech-base,joint-dynamixel-xh540-w270,Dynamixel XH540-W270,关节模组,0
+f79,AI WORKER,整机平台,tech-base,joint-dynamixel-xm430-w350,Dynamixel XM430-W350,关节模组,0
+f80,ATOM,整机平台,series-member,f129,ATOM MAX,整机平台,0
+f81,APPTRONIK APOLLO,整机平台,manufacturer,ind-apptronik,Apptronik,产业,0
+f81,APPTRONIK APOLLO,整机平台,deployed-at,app-humanoid-manufacturing,Humanoid Manufacturing Assembly,应用场景,0
+f82,WALKER C,整机平台,manufacturer,ind-ubtech,UBTech (优必选),产业,0
+f82,WALKER C,整机平台,series-member,f135,WALKER S1,整机平台,0
+f82,WALKER C,整机平台,competitor,f144,ALPHA,整机平台,0
+f82,WALKER C,整机平台,competitor,f65,CRUZR S2,整机平台,0
+f82,WALKER C,整机平台,series-member,f69,WALKER S2,整机平台,0
+f84,UNITREE H1,整机平台,manufacturer,ind-unitree,Unitree Robotics (宇树科技),产业,0
+f84,UNITREE H1,整机平台,competitor,f140,G1,整机平台,0
+f86,GR-1,整机平台,manufacturer,ind-fourier,Fourier Intelligence (傅利叶智能),产业,0
+f86,GR-1,整机平台,competitor,f42,GR-2,整机平台,0
+f88,KEPLER,整机平台,series-member,f54,K2 BUMBLEBEE,整机平台,0
+f88,KEPLER,整机平台,series-member,f72,KEPLER K2,整机平台,0
+f93,Mercury X1,整机平台,manufacturer,stg-ind-elephant,Elephant Robotics (大象机器人),产业,0
+f93,Mercury X1,整机平台,tech-base,a6,ultraArm P340,机械臂,0
+f96,MATRIX 4,整机平台,manufacturer,stg-ind-matrix,Matrix Robotics (矩阵超智),产业,0
+f96,MATRIX 4,整机平台,series-member,f22,MATRIX 1,整机平台,0
+f98,OPTIMUS V2.5,整机平台,manufacturer,ind-tesla-optimus,Tesla Optimus,产业,0
+f98,OPTIMUS V2.5,整机平台,series-member,f4,Optimus Gen 2,整机平台,0
+f98,OPTIMUS V2.5,整机平台,series-member,f8,OPTIMUS,整机平台,0
+f104,FIGURE 03,整机平台,manufacturer,ind-figure,Figure AI,产业,0
+f104,FIGURE 03,整机平台,series-member,f139,FIGURE 02,整机平台,0
+f104,FIGURE 03,整机平台,series-member,f9,FIGURE ONE,整机平台,0
+f104,FIGURE 03,整机平台,deployed-at,app-humanoid-manufacturing,Humanoid Manufacturing Assembly,应用场景,0
+f105,ROBOTERA L2,整机平台,manufacturer,ind-robot-era,Robot Era (星动纪元),产业,0
+f105,ROBOTERA L2,整机平台,series-member,flagship-robotera-l7,L7,整机平台,0
+f106,SE01,整机平台,manufacturer,stg-ind-engineai,EngineAI (众擎机器人),产业,0
+f106,SE01,整机平台,competitor,f44,PM01,整机平台,0
+f106,SE01,整机平台,competitor,f50,SA02,整机平台,0
+f106,SE01,整机平台,competitor,f67,T800,整机平台,0
+f108,HMND_01 ALPHA,整机平台,series-member,f58,HMND 01,整机平台,0
+f110,GALBOT,整机平台,manufacturer,ind-galbot,Galbot (银河通用),产业,0
+f110,GALBOT,整机平台,competitor,f111,GALBOT S1,整机平台,0
+f110,GALBOT,整机平台,competitor,flagship-galbot-g1,Galbot G1,整机平台,0
+f111,GALBOT S1,整机平台,manufacturer,ind-galbot,Galbot (银河通用),产业,0
+f111,GALBOT S1,整机平台,competitor,f110,GALBOT,整机平台,0
+f111,GALBOT S1,整机平台,competitor,flagship-galbot-g1,Galbot G1,整机平台,0
+f114,MENTEEBOT,整机平台,series-member,f59,MENTEEBOT V3,整机平台,0
+f118,PHOENIX,整机平台,manufacturer,ind-sanctuary,Sanctuary AI,产业,0
+f118,PHOENIX,整机平台,tech-base,h14,PHOENIX 3.2,灵巧手 & 夹爪,0
+f120,PUDU D7,整机平台,manufacturer,stg-ind-pudu,Pudu Robotics (普渡科技),产业,0
+f120,PUDU D7,整机平台,series-member,f127,PUDU D9,整机平台,0
+f120,PUDU D7,整机平台,deployed-at,app-cleaning,Commercial Cleaning,应用场景,0
+f120,PUDU D7,整机平台,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+f122,NEO BETA,整机平台,manufacturer,ind-1x,1X Technologies,产业,0
+f122,NEO BETA,整机平台,series-member,f21,EVE-3,整机平台,0
+f122,NEO BETA,整机平台,series-member,f34,NEO Gamma,整机平台,0
+f122,NEO BETA,整机平台,deployed-at,app-cleaning,Commercial Cleaning,应用场景,0
+f122,NEO BETA,整机平台,deployed-at,app-home-humanoid,Home Humanoid Pilots,应用场景,0
+f123,XTRON KUAVO-MY,整机平台,manufacturer,stg-ind-leju,Leju Robotics (乐聚机器人),产业,0
+f123,XTRON KUAVO-MY,整机平台,series-member,f39,KUAVO-S,整机平台,0
+f123,XTRON KUAVO-MY,整机平台,series-member,f56,ROBAN 2,整机平台,0
+f123,XTRON KUAVO-MY,整机平台,series-member,f61,KUAVO-MY,整机平台,0
+f124,ADAM LITE,整机平台,manufacturer,stg-ind-pndbotics,PNDbotics,产业,0
+f124,ADAM LITE,整机平台,series-member,f12,ADAM G0,整机平台,0
+f127,PUDU D9,整机平台,manufacturer,stg-ind-pudu,Pudu Robotics (普渡科技),产业,0
+f127,PUDU D9,整机平台,series-member,f120,PUDU D7,整机平台,0
+f127,PUDU D9,整机平台,deployed-at,app-cleaning,Commercial Cleaning,应用场景,0
+f127,PUDU D9,整机平台,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+f128,IRON,整机平台,manufacturer,ind-xpeng-robotics,XPENG Robotics (Iron),产业,0
+f128,IRON,整机平台,deployed-at,sw-dreamerv3,DreamerV3,基础模型,1
+f128,IRON,整机平台,series-member,flagship-xpeng-iron-nextgen,Next-Gen IRON,整机平台,0
+f128,IRON,整机平台,related,sw-calvin,CALVIN,评测基准,0
+f129,ATOM MAX,整机平台,series-member,f80,ATOM,整机平台,0
+f130,DIGIT,整机平台,manufacturer,ind-agility,Agility Robotics,产业,0
+f130,DIGIT,整机平台,series-member,f1,Memo,整机平台,0
+f131,KEENON XMAN-R1,整机平台,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+f132,LIMX CL,整机平台,manufacturer,ind-limx,LimX Dynamics,产业,0
+f132,LIMX CL,整机平台,series-member,f15,P1S,整机平台,0
+f132,LIMX CL,整机平台,competitor,f2,Oli,整机平台,0
+f132,LIMX CL,整机平台,series-member,f25,TRON,整机平台,0
+f132,LIMX CL,整机平台,series-member,f73,LIMX OLI,整机平台,0
+f135,WALKER S1,整机平台,manufacturer,ind-ubtech,UBTech (优必选),产业,0
+f135,WALKER S1,整机平台,competitor,f144,ALPHA,整机平台,0
+f135,WALKER S1,整机平台,competitor,f65,CRUZR S2,整机平台,0
+f135,WALKER S1,整机平台,series-member,f69,WALKER S2,整机平台,0
+f135,WALKER S1,整机平台,series-member,f82,WALKER C,整机平台,0
+f138,PHYBOT C1,整机平台,manufacturer,stg-ind-phybot,Phybot (北京动易科技),产业,0
+f138,PHYBOT C1,整机平台,series-member,f52,PHYBOT M1,整机平台,0
+f139,FIGURE 02,整机平台,manufacturer,ind-figure,Figure AI,产业,0
+f139,FIGURE 02,整机平台,series-member,f104,FIGURE 03,整机平台,0
+f139,FIGURE 02,整机平台,series-member,f9,FIGURE ONE,整机平台,0
+f139,FIGURE 02,整机平台,deployed-at,app-humanoid-manufacturing,Humanoid Manufacturing Assembly,应用场景,0
+f140,G1,整机平台,manufacturer,ind-unitree,Unitree Robotics (宇树科技),产业,0
+f140,G1,整机平台,competitor,f84,UNITREE H1,整机平台,0
+f144,ALPHA,整机平台,manufacturer,ind-ubtech,UBTech (优必选),产业,0
+f144,ALPHA,整机平台,competitor,f135,WALKER S1,整机平台,0
+f144,ALPHA,整机平台,competitor,f65,CRUZR S2,整机平台,0
+f144,ALPHA,整机平台,competitor,f69,WALKER S2,整机平台,0
+f144,ALPHA,整机平台,competitor,f82,WALKER C,整机平台,0
+h3,DG-3F-S,灵巧手 & 夹爪,series-member,h39,DG-5F,灵巧手 & 夹爪,0
+h4,HUMA,灵巧手 & 夹爪,related,lab-nyu-grail,NYU GRAIL (General Robotics & AI Lab),实验室,0
+h4,HUMA,灵巧手 & 夹爪,related,sw-1x-world-model,1X World Model,基础模型,0
+h4,HUMA,灵巧手 & 夹爪,related,sw-groot-n1,GR00T N1,基础模型,0
+h4,HUMA,灵巧手 & 夹爪,related,sw-groot-n1-5,GR00T N1.5,基础模型,0
+h4,HUMA,灵巧手 & 夹爪,related,sw-robovqa,RoboVQA,数据集,0
+h5,RH50G2,灵巧手 & 夹爪,series-member,h20,RH50 SERIES,灵巧手 & 夹爪,0
+h5,RH50G2,灵巧手 & 夹爪,series-member,h25,RH56E2 SERIES,灵巧手 & 夹爪,0
+h7,PL-WitHand,灵巧手 & 夹爪,tech-base,f46,ZEUS 1,整机平台,1
+h11,OMNIHAND PRO,灵巧手 & 夹爪,manufacturer,ind-agibot,AgiBot (智元机器人),产业,0
+h11,OMNIHAND PRO,灵巧手 & 夹爪,series-member,h17,OMNIHAND,灵巧手 & 夹爪,0
+h14,PHOENIX 3.2,灵巧手 & 夹爪,manufacturer,ind-sanctuary,Sanctuary AI,产业,0
+h14,PHOENIX 3.2,灵巧手 & 夹爪,tech-base,f118,PHOENIX,整机平台,1
+h17,OMNIHAND,灵巧手 & 夹爪,manufacturer,ind-agibot,AgiBot (智元机器人),产业,0
+h17,OMNIHAND,灵巧手 & 夹爪,series-member,h11,OMNIHAND PRO,灵巧手 & 夹爪,0
+h20,RH50 SERIES,灵巧手 & 夹爪,series-member,h25,RH56E2 SERIES,灵巧手 & 夹爪,0
+h20,RH50 SERIES,灵巧手 & 夹爪,series-member,h5,RH50G2,灵巧手 & 夹爪,0
+h21,GMH18,灵巧手 & 夹爪,series-member,h30,DEXH5,灵巧手 & 夹爪,0
+h21,GMH18,灵巧手 & 夹爪,series-member,h41,DEXH13,灵巧手 & 夹爪,0
+h24,DEX-EE,灵巧手 & 夹爪,series-member,h29,DEXTEROUS HAND,灵巧手 & 夹爪,0
+h25,RH56E2 SERIES,灵巧手 & 夹爪,series-member,h20,RH50 SERIES,灵巧手 & 夹爪,0
+h25,RH56E2 SERIES,灵巧手 & 夹爪,series-member,h5,RH50G2,灵巧手 & 夹爪,0
+h27,H2 AZZURRA,灵巧手 & 夹爪,series-member,h42,MIA HAND MK2,灵巧手 & 夹爪,0
+h29,DEXTEROUS HAND,灵巧手 & 夹爪,series-member,h24,DEX-EE,灵巧手 & 夹爪,0
+h29,DEXTEROUS HAND,灵巧手 & 夹爪,related,sw-agibot-world,AgiBot World (Colosseo),数据集,0
+h29,DEXTEROUS HAND,灵巧手 & 夹爪,related,sw-openai-dexterous,Dexterous In-Hand Manipulation (RL/PPO + Domain Randomization),控制算法,0
+h30,DEXH5,灵巧手 & 夹爪,series-member,h21,GMH18,灵巧手 & 夹爪,0
+h30,DEXH5,灵巧手 & 夹爪,series-member,h41,DEXH13,灵巧手 & 夹爪,0
+h33,HXS-D20,灵巧手 & 夹爪,tech-base,f79,AI WORKER,整机平台,1
+h33,HXS-D20,灵巧手 & 夹爪,tech-base,j2,Dynamixel PH54-200-S500,关节模组,0
+h33,HXS-D20,灵巧手 & 夹爪,tech-base,joint-dynamixel-ph42-020,Dynamixel PH42-020-S300,关节模组,0
+h33,HXS-D20,灵巧手 & 夹爪,tech-base,joint-dynamixel-xh540-w270,Dynamixel XH540-W270,关节模组,0
+h33,HXS-D20,灵巧手 & 夹爪,tech-base,joint-dynamixel-xm430-w350,Dynamixel XM430-W350,关节模组,0
+h39,DG-5F,灵巧手 & 夹爪,series-member,h3,DG-3F-S,灵巧手 & 夹爪,0
+h41,DEXH13,灵巧手 & 夹爪,series-member,h21,GMH18,灵巧手 & 夹爪,0
+h41,DEXH13,灵巧手 & 夹爪,series-member,h30,DEXH5,灵巧手 & 夹爪,0
+h42,MIA HAND MK2,灵巧手 & 夹爪,series-member,h27,H2 AZZURRA,灵巧手 & 夹爪,0
+h47,MAGICAND S01,灵巧手 & 夹爪,manufacturer,ind-limx,LimX Dynamics,产业,0
+h47,MAGICAND S01,灵巧手 & 夹爪,manufacturer,stg-ind-magiclab,MagicLab (魔法原子),产业,0
+h47,MAGICAND S01,灵巧手 & 夹爪,tech-base,f30,MAGICBOT,整机平台,1
+arm-ur3e,UR3e,机械臂,series-member,a1,UR10e,机械臂,0
+arm-ur3e,UR3e,机械臂,series-member,arm-ur16e,UR16e,机械臂,0
+arm-ur3e,UR3e,机械臂,series-member,arm-ur20,UR20,机械臂,0
+arm-ur3e,UR3e,机械臂,series-member,arm-ur30,UR30,机械臂,0
+arm-ur3e,UR3e,机械臂,series-member,arm-ur5e,UR5e,机械臂,0
+arm-ur5e,UR5e,机械臂,series-member,a1,UR10e,机械臂,0
+arm-ur5e,UR5e,机械臂,series-member,arm-ur16e,UR16e,机械臂,0
+arm-ur5e,UR5e,机械臂,series-member,arm-ur20,UR20,机械臂,0
+arm-ur5e,UR5e,机械臂,series-member,arm-ur30,UR30,机械臂,0
+arm-ur5e,UR5e,机械臂,series-member,arm-ur3e,UR3e,机械臂,0
+arm-ur16e,UR16e,机械臂,series-member,a1,UR10e,机械臂,0
+arm-ur16e,UR16e,机械臂,series-member,arm-ur20,UR20,机械臂,0
+arm-ur16e,UR16e,机械臂,series-member,arm-ur30,UR30,机械臂,0
+arm-ur16e,UR16e,机械臂,series-member,arm-ur3e,UR3e,机械臂,0
+arm-ur16e,UR16e,机械臂,series-member,arm-ur5e,UR5e,机械臂,0
+arm-ur20,UR20,机械臂,series-member,a1,UR10e,机械臂,0
+arm-ur20,UR20,机械臂,series-member,arm-ur16e,UR16e,机械臂,0
+arm-ur20,UR20,机械臂,series-member,arm-ur3e,UR3e,机械臂,0
+arm-ur20,UR20,机械臂,series-member,arm-ur5e,UR5e,机械臂,0
+arm-ur30,UR30,机械臂,series-member,a1,UR10e,机械臂,0
+arm-ur30,UR30,机械臂,series-member,arm-ur16e,UR16e,机械臂,0
+arm-ur30,UR30,机械臂,series-member,arm-ur3e,UR3e,机械臂,0
+arm-ur30,UR30,机械臂,series-member,arm-ur5e,UR5e,机械臂,0
+arm-fr3,Franka Research 3,机械臂,series-member,a2,Franka Emika Panda,机械臂,0
+arm-fr3,Franka Research 3,机械臂,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+arm-kinova-gen3,Kinova Gen3 (7-DOF),机械臂,series-member,arm-kinova-gen3-lite,Kinova Gen3 lite,机械臂,0
+arm-kinova-gen3-lite,Kinova Gen3 lite,机械臂,series-member,arm-kinova-gen3,Kinova Gen3 (7-DOF),机械臂,0
+arm-kuka-iiwa-7-r800,LBR iiwa 7 R800,机械臂,series-member,arm-kuka-iiwa-14-r820,LBR iiwa 14 R820,机械臂,0
+arm-kuka-iiwa-14-r820,LBR iiwa 14 R820,机械臂,series-member,arm-kuka-iiwa-7-r800,LBR iiwa 7 R800,机械臂,0
+arm-jaka-zu5,JAKA Zu 5,机械臂,competitor,a4,JAKA K1,机械臂,0
+arm-jaka-zu5,JAKA Zu 5,机械臂,series-member,arm-jaka-minicobo,JAKA MiniCobo,机械臂,0
+arm-jaka-minicobo,JAKA MiniCobo,机械臂,competitor,a4,JAKA K1,机械臂,0
+arm-jaka-minicobo,JAKA MiniCobo,机械臂,series-member,arm-jaka-zu5,JAKA Zu 5,机械臂,0
+arm-aubo-i5,AUBO i5,机械臂,series-member,arm-aubo-i10,AUBO i10,机械臂,0
+arm-aubo-i10,AUBO i10,机械臂,series-member,arm-aubo-i5,AUBO i5,机械臂,0
+arm-realman-rm65,Realman RM65-B,机械臂,series-member,arm-realman-rm75,Realman RM75-B,机械臂,0
+arm-realman-rm75,Realman RM75-B,机械臂,series-member,arm-realman-rm65,Realman RM65-B,机械臂,0
+arm-doosan-m0609,Doosan M0609,机械臂,series-member,arm-doosan-h2017,Doosan H2017,机械臂,0
+arm-doosan-m0609,Doosan M0609,机械臂,series-member,arm-doosan-m1013,Doosan M1013,机械臂,0
+arm-doosan-m1013,Doosan M1013,机械臂,series-member,arm-doosan-h2017,Doosan H2017,机械臂,0
+arm-doosan-m1013,Doosan M1013,机械臂,series-member,arm-doosan-m0609,Doosan M0609,机械臂,0
+arm-doosan-h2017,Doosan H2017,机械臂,series-member,arm-doosan-m0609,Doosan M0609,机械臂,0
+arm-doosan-h2017,Doosan H2017,机械臂,series-member,arm-doosan-m1013,Doosan M1013,机械臂,0
+arm-techman-tm5-900,Techman TM5-900,机械臂,tech-base,f7,YM XPLORE 1,整机平台,1
+arm-techman-tm5-900,Techman TM5-900,机械臂,series-member,arm-techman-tm12,Techman TM12,机械臂,0
+arm-techman-tm12,Techman TM12,机械臂,tech-base,f7,YM XPLORE 1,整机平台,1
+arm-techman-tm12,Techman TM12,机械臂,series-member,arm-techman-tm5-900,Techman TM5-900,机械臂,0
+arm-elite-cs66,Elite Robots CS66,机械臂,series-member,arm-elite-ec66,Elite Robots EC66,机械臂,0
+arm-elite-cs66,Elite Robots CS66,机械臂,deployed-at,app-cleaning,Commercial Cleaning,应用场景,0
+arm-elite-cs66,Elite Robots CS66,机械臂,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+arm-elite-cs66,Elite Robots CS66,机械臂,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+arm-elite-cs66,Elite Robots CS66,机械臂,deployed-at,app-warehouse,Warehouse Fulfillment,应用场景,0
+arm-elite-ec66,Elite Robots EC66,机械臂,series-member,arm-elite-cs66,Elite Robots CS66,机械臂,0
+arm-elite-ec66,Elite Robots EC66,机械臂,deployed-at,app-cleaning,Commercial Cleaning,应用场景,0
+arm-elite-ec66,Elite Robots EC66,机械臂,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+arm-elite-ec66,Elite Robots EC66,机械臂,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+arm-elite-ec66,Elite Robots EC66,机械臂,deployed-at,app-warehouse,Warehouse Fulfillment,应用场景,0
+arm-abb-gofa-5,ABB GoFa CRB 15000-5,机械臂,series-member,arm-abb-yumi-irb14000,ABB YuMi IRB 14000,机械臂,0
+arm-abb-yumi-irb14000,ABB YuMi IRB 14000,机械臂,series-member,arm-abb-gofa-5,ABB GoFa CRB 15000-5,机械臂,0
+joint-robstride-01,Robstride 01,关节模组,manufacturer,stg-ind-robstride,RobStride Dynamics (灵足时代),产业,0
+joint-robstride-01,Robstride 01,关节模组,series-member,joint-robstride-02,Robstride 02,关节模组,0
+joint-robstride-01,Robstride 01,关节模组,series-member,joint-robstride-03,Robstride 03,关节模组,0
+joint-robstride-01,Robstride 01,关节模组,series-member,joint-robstride-04,Robstride 04,关节模组,0
+joint-robstride-01,Robstride 01,关节模组,series-member,joint-robstride-06,Robstride 06,关节模组,0
+joint-robstride-02,Robstride 02,关节模组,manufacturer,stg-ind-robstride,RobStride Dynamics (灵足时代),产业,0
+joint-robstride-02,Robstride 02,关节模组,series-member,joint-robstride-01,Robstride 01,关节模组,0
+joint-robstride-02,Robstride 02,关节模组,series-member,joint-robstride-03,Robstride 03,关节模组,0
+joint-robstride-02,Robstride 02,关节模组,series-member,joint-robstride-04,Robstride 04,关节模组,0
+joint-robstride-02,Robstride 02,关节模组,series-member,joint-robstride-06,Robstride 06,关节模组,0
+joint-robstride-03,Robstride 03,关节模组,manufacturer,stg-ind-robstride,RobStride Dynamics (灵足时代),产业,0
+joint-robstride-03,Robstride 03,关节模组,series-member,joint-robstride-01,Robstride 01,关节模组,0
+joint-robstride-03,Robstride 03,关节模组,series-member,joint-robstride-02,Robstride 02,关节模组,0
+joint-robstride-03,Robstride 03,关节模组,series-member,joint-robstride-04,Robstride 04,关节模组,0
+joint-robstride-03,Robstride 03,关节模组,series-member,joint-robstride-06,Robstride 06,关节模组,0
+joint-robstride-04,Robstride 04,关节模组,manufacturer,stg-ind-robstride,RobStride Dynamics (灵足时代),产业,0
+joint-robstride-04,Robstride 04,关节模组,series-member,joint-robstride-01,Robstride 01,关节模组,0
+joint-robstride-04,Robstride 04,关节模组,series-member,joint-robstride-02,Robstride 02,关节模组,0
+joint-robstride-04,Robstride 04,关节模组,series-member,joint-robstride-03,Robstride 03,关节模组,0
+joint-robstride-04,Robstride 04,关节模组,series-member,joint-robstride-06,Robstride 06,关节模组,0
+joint-robstride-06,Robstride 06,关节模组,manufacturer,stg-ind-robstride,RobStride Dynamics (灵足时代),产业,0
+joint-robstride-06,Robstride 06,关节模组,series-member,joint-robstride-01,Robstride 01,关节模组,0
+joint-robstride-06,Robstride 06,关节模组,series-member,joint-robstride-02,Robstride 02,关节模组,0
+joint-robstride-06,Robstride 06,关节模组,series-member,joint-robstride-03,Robstride 03,关节模组,0
+joint-robstride-06,Robstride 06,关节模组,series-member,joint-robstride-04,Robstride 04,关节模组,0
+joint-cubemars-ak80-9,CubeMars AK80-9 V3.0,关节模组,series-member,joint-cubemars-ak60-6,CubeMars AK60-6 V3.0,关节模组,0
+joint-cubemars-ak80-9,CubeMars AK80-9 V3.0,关节模组,series-member,joint-cubemars-ak70-10,CubeMars AK70-10,关节模组,0
+joint-cubemars-ak70-10,CubeMars AK70-10,关节模组,series-member,joint-cubemars-ak60-6,CubeMars AK60-6 V3.0,关节模组,0
+joint-cubemars-ak70-10,CubeMars AK70-10,关节模组,series-member,joint-cubemars-ak80-9,CubeMars AK80-9 V3.0,关节模组,0
+joint-cubemars-ak60-6,CubeMars AK60-6 V3.0,关节模组,series-member,joint-cubemars-ak70-10,CubeMars AK70-10,关节模组,0
+joint-cubemars-ak60-6,CubeMars AK60-6 V3.0,关节模组,series-member,joint-cubemars-ak80-9,CubeMars AK80-9 V3.0,关节模组,0
+joint-steadywin-gim6010-8,SteadyWin GIM6010-8,关节模组,manufacturer,stg-ind-steadywin,SteadyWin,产业,0
+joint-steadywin-gim6010-8,SteadyWin GIM6010-8,关节模组,series-member,joint-steadywin-gim8108-8,SteadyWin GIM8108-8,关节模组,0
+joint-steadywin-gim6010-8,SteadyWin GIM6010-8,关节模组,series-member,joint-steadywin-gim8115-6,SteadyWin GIM8115-6,关节模组,0
+joint-steadywin-gim8108-8,SteadyWin GIM8108-8,关节模组,manufacturer,stg-ind-steadywin,SteadyWin,产业,0
+joint-steadywin-gim8108-8,SteadyWin GIM8108-8,关节模组,series-member,joint-steadywin-gim6010-8,SteadyWin GIM6010-8,关节模组,0
+joint-steadywin-gim8108-8,SteadyWin GIM8108-8,关节模组,series-member,joint-steadywin-gim8115-6,SteadyWin GIM8115-6,关节模组,0
+joint-steadywin-gim8115-6,SteadyWin GIM8115-6,关节模组,manufacturer,stg-ind-steadywin,SteadyWin,产业,0
+joint-steadywin-gim8115-6,SteadyWin GIM8115-6,关节模组,series-member,joint-steadywin-gim6010-8,SteadyWin GIM6010-8,关节模组,0
+joint-steadywin-gim8115-6,SteadyWin GIM8115-6,关节模组,series-member,joint-steadywin-gim8108-8,SteadyWin GIM8108-8,关节模组,0
+joint-dynamixel-xm430-w350,Dynamixel XM430-W350,关节模组,tech-base,f79,AI WORKER,整机平台,1
+joint-dynamixel-xm430-w350,Dynamixel XM430-W350,关节模组,tech-base,h33,HXS-D20,灵巧手 & 夹爪,1
+joint-dynamixel-xm430-w350,Dynamixel XM430-W350,关节模组,competitor,j2,Dynamixel PH54-200-S500,关节模组,0
+joint-dynamixel-xm430-w350,Dynamixel XM430-W350,关节模组,competitor,joint-dynamixel-ph42-020,Dynamixel PH42-020-S300,关节模组,0
+joint-dynamixel-xm430-w350,Dynamixel XM430-W350,关节模组,series-member,joint-dynamixel-xh540-w270,Dynamixel XH540-W270,关节模组,0
+joint-dynamixel-xh540-w270,Dynamixel XH540-W270,关节模组,tech-base,f79,AI WORKER,整机平台,1
+joint-dynamixel-xh540-w270,Dynamixel XH540-W270,关节模组,tech-base,h33,HXS-D20,灵巧手 & 夹爪,1
+joint-dynamixel-xh540-w270,Dynamixel XH540-W270,关节模组,competitor,j2,Dynamixel PH54-200-S500,关节模组,0
+joint-dynamixel-xh540-w270,Dynamixel XH540-W270,关节模组,competitor,joint-dynamixel-ph42-020,Dynamixel PH42-020-S300,关节模组,0
+joint-dynamixel-xh540-w270,Dynamixel XH540-W270,关节模组,series-member,joint-dynamixel-xm430-w350,Dynamixel XM430-W350,关节模组,0
+joint-dynamixel-ph42-020,Dynamixel PH42-020-S300,关节模组,tech-base,f79,AI WORKER,整机平台,1
+joint-dynamixel-ph42-020,Dynamixel PH42-020-S300,关节模组,tech-base,h33,HXS-D20,灵巧手 & 夹爪,1
+joint-dynamixel-ph42-020,Dynamixel PH42-020-S300,关节模组,series-member,j2,Dynamixel PH54-200-S500,关节模组,0
+joint-dynamixel-ph42-020,Dynamixel PH42-020-S300,关节模组,competitor,joint-dynamixel-xh540-w270,Dynamixel XH540-W270,关节模组,0
+joint-dynamixel-ph42-020,Dynamixel PH42-020-S300,关节模组,competitor,joint-dynamixel-xm430-w350,Dynamixel XM430-W350,关节模组,0
+joint-hebi-x5-9,HEBI X5-9,关节模组,series-member,joint-hebi-x8-16,HEBI X8-16,关节模组,0
+joint-hebi-x8-16,HEBI X8-16,关节模组,series-member,joint-hebi-x5-9,HEBI X5-9,关节模组,0
+joint-unitree-go-m8010-6,Unitree GO-M8010-6,关节模组,manufacturer,ind-unitree,Unitree Robotics (宇树科技),产业,0
+joint-unitree-go-m8010-6,Unitree GO-M8010-6,关节模组,tech-base,f24,H2,整机平台,1
+joint-unitree-go-m8010-6,Unitree GO-M8010-6,关节模组,series-member,joint-unitree-a1,Unitree A1 Motor,关节模组,0
+joint-unitree-go-m8010-6,Unitree GO-M8010-6,关节模组,related,pwr-unitree-h1-battery,Unitree H1 Battery Pack,能源动力,0
+joint-unitree-a1,Unitree A1 Motor,关节模组,manufacturer,ind-unitree,Unitree Robotics (宇树科技),产业,0
+joint-unitree-a1,Unitree A1 Motor,关节模组,tech-base,f24,H2,整机平台,1
+joint-unitree-a1,Unitree A1 Motor,关节模组,series-member,joint-unitree-go-m8010-6,Unitree GO-M8010-6,关节模组,0
+joint-unitree-a1,Unitree A1 Motor,关节模组,related,pwr-unitree-h1-battery,Unitree H1 Battery Pack,能源动力,0
+sensor-realsense-d435i,RealSense Depth Camera D435i,传感器,series-member,s1,RealSense Depth Camera D455,传感器,0
+sensor-realsense-d435i,RealSense Depth Camera D435i,传感器,series-member,sensor-realsense-d457,RealSense Depth Camera D457 (GMSL/FAKRA),传感器,0
+sensor-realsense-d435i,RealSense Depth Camera D435i,传感器,competitor,sensor-realsense-l515,RealSense LiDAR Camera L515,传感器,0
+sensor-realsense-d457,RealSense Depth Camera D457 (GMSL/FAKRA),传感器,series-member,s1,RealSense Depth Camera D455,传感器,0
+sensor-realsense-d457,RealSense Depth Camera D457 (GMSL/FAKRA),传感器,series-member,sensor-realsense-d435i,RealSense Depth Camera D435i,传感器,0
+sensor-realsense-d457,RealSense Depth Camera D457 (GMSL/FAKRA),传感器,competitor,sensor-realsense-l515,RealSense LiDAR Camera L515,传感器,0
+sensor-realsense-l515,RealSense LiDAR Camera L515,传感器,competitor,s1,RealSense Depth Camera D455,传感器,0
+sensor-realsense-l515,RealSense LiDAR Camera L515,传感器,competitor,sensor-realsense-d435i,RealSense Depth Camera D435i,传感器,0
+sensor-realsense-l515,RealSense LiDAR Camera L515,传感器,competitor,sensor-realsense-d457,RealSense Depth Camera D457 (GMSL/FAKRA),传感器,0
+sensor-orbbec-femto-bolt,Femto Bolt,传感器,manufacturer,stg-ind-orbbec,Orbbec (奥比中光),产业,0
+sensor-orbbec-femto-bolt,Femto Bolt,传感器,series-member,sensor-orbbec-femto-mega,Femto Mega,传感器,0
+sensor-orbbec-femto-bolt,Femto Bolt,传感器,competitor,sensor-orbbec-gemini-335,Gemini 335,传感器,0
+sensor-orbbec-femto-bolt,Femto Bolt,传感器,competitor,sensor-orbbec-gemini-335le,Gemini 335Le,传感器,0
+sensor-orbbec-femto-mega,Femto Mega,传感器,manufacturer,stg-ind-orbbec,Orbbec (奥比中光),产业,0
+sensor-orbbec-femto-mega,Femto Mega,传感器,series-member,sensor-orbbec-femto-bolt,Femto Bolt,传感器,0
+sensor-orbbec-femto-mega,Femto Mega,传感器,competitor,sensor-orbbec-gemini-335,Gemini 335,传感器,0
+sensor-orbbec-femto-mega,Femto Mega,传感器,competitor,sensor-orbbec-gemini-335le,Gemini 335Le,传感器,0
+sensor-orbbec-gemini-335,Gemini 335,传感器,manufacturer,stg-ind-orbbec,Orbbec (奥比中光),产业,0
+sensor-orbbec-gemini-335,Gemini 335,传感器,competitor,sensor-orbbec-femto-bolt,Femto Bolt,传感器,0
+sensor-orbbec-gemini-335,Gemini 335,传感器,competitor,sensor-orbbec-femto-mega,Femto Mega,传感器,0
+sensor-orbbec-gemini-335,Gemini 335,传感器,series-member,sensor-orbbec-gemini-335le,Gemini 335Le,传感器,0
+sensor-orbbec-gemini-335le,Gemini 335Le,传感器,manufacturer,stg-ind-orbbec,Orbbec (奥比中光),产业,0
+sensor-orbbec-gemini-335le,Gemini 335Le,传感器,competitor,sensor-orbbec-femto-bolt,Femto Bolt,传感器,0
+sensor-orbbec-gemini-335le,Gemini 335Le,传感器,competitor,sensor-orbbec-femto-mega,Femto Mega,传感器,0
+sensor-orbbec-gemini-335le,Gemini 335Le,传感器,series-member,sensor-orbbec-gemini-335,Gemini 335,传感器,0
+sensor-azure-kinect-dk,Azure Kinect DK,传感器,related,stg-vc-msft,Microsoft,资本,0
+sensor-mech-mind-pro-m,Mech-Eye PRO M,传感器,competitor,sensor-mech-mind-lsr-s,Mech-Eye LSR S,传感器,0
+sensor-mech-mind-lsr-s,Mech-Eye LSR S,传感器,competitor,sensor-mech-mind-pro-m,Mech-Eye PRO M,传感器,0
+sensor-photoneo-phoxi-m,PhoXi 3D Scanner M,传感器,competitor,sensor-photoneo-motioncam-3d,MotionCam-3D,传感器,0
+sensor-photoneo-motioncam-3d,MotionCam-3D,传感器,competitor,sensor-photoneo-phoxi-m,PhoXi 3D Scanner M,传感器,0
+sensor-stereolabs-zed2i,ZED 2i,传感器,competitor,sensor-stereolabs-zed-x,ZED X,传感器,0
+sensor-stereolabs-zed-x,ZED X,传感器,competitor,sensor-stereolabs-zed2i,ZED 2i,传感器,0
+sensor-ati-mini40,Mini40 F/T Sensor,传感器,series-member,s2,Axia80 F/T Sensor,传感器,0
+sensor-velodyne-vlp16,Puck (VLP-16),传感器,series-member,sensor-velodyne-alpha-prime,Alpha Prime (VLS-128),传感器,0
+sensor-velodyne-alpha-prime,Alpha Prime (VLS-128),传感器,series-member,sensor-velodyne-vlp16,Puck (VLP-16),传感器,0
+sensor-hesai-at128,AT128,传感器,series-member,sensor-hesai-xt16,PandarXT-16,传感器,0
+sensor-hesai-xt16,PandarXT-16,传感器,series-member,sensor-hesai-at128,AT128,传感器,0
+sensor-livox-mid360,Mid-360,传感器,manufacturer,stg-ind-livox,Livox (览沃科技),产业,0
+sensor-livox-mid360,Mid-360,传感器,series-member,sensor-livox-hap,HAP (TX),传感器,0
+sensor-livox-mid360,Mid-360,传感器,series-member,sensor-livox-mid40,Mid-40,传感器,0
+sensor-livox-hap,HAP (TX),传感器,manufacturer,stg-ind-livox,Livox (览沃科技),产业,0
+sensor-livox-hap,HAP (TX),传感器,series-member,sensor-livox-mid360,Mid-360,传感器,0
+sensor-livox-hap,HAP (TX),传感器,series-member,sensor-livox-mid40,Mid-40,传感器,0
+sensor-livox-mid40,Mid-40,传感器,manufacturer,stg-ind-livox,Livox (览沃科技),产业,0
+sensor-livox-mid40,Mid-40,传感器,series-member,sensor-livox-hap,HAP (TX),传感器,0
+sensor-livox-mid40,Mid-40,传感器,series-member,sensor-livox-mid360,Mid-360,传感器,0
+comp-harmonic-csf-2up,CSF-2UP Ultra-Flat Gearhead,核心零部件,series-member,c1,CSF-2UH Strain Wave Gear Unit,核心零部件,0
+comp-nabtesco-rv-n,RV-N Cycloidal Reducer,核心零部件,series-member,comp-nabtesco-rv-c,RV-C Hollow-Shaft Cycloidal Reducer,核心零部件,0
+comp-nabtesco-rv-c,RV-C Hollow-Shaft Cycloidal Reducer,核心零部件,series-member,comp-nabtesco-rv-n,RV-N Cycloidal Reducer,核心零部件,0
+pwr-spot-battery,Spot Battery,能源动力,manufacturer,ind-boston-dynamics,Boston Dynamics,产业,0
+pwr-spot-battery,Spot Battery,能源动力,tech-base,f29,ATLAS,整机平台,1
+pwr-unitree-h1-battery,Unitree H1 Battery Pack,能源动力,manufacturer,ind-unitree,Unitree Robotics (宇树科技),产业,0
+pwr-unitree-h1-battery,Unitree H1 Battery Pack,能源动力,tech-base,f24,H2,整机平台,1
+pwr-unitree-h1-battery,Unitree H1 Battery Pack,能源动力,related,joint-unitree-a1,Unitree A1 Motor,关节模组,0
+pwr-unitree-h1-battery,Unitree H1 Battery Pack,能源动力,related,joint-unitree-go-m8010-6,Unitree GO-M8010-6,关节模组,0
+teleop-aloha,ALOHA (bimanual teleop),数采 & 遥操,competitor,teleop-mobile-aloha,Mobile ALOHA,数采 & 遥操,0
+teleop-aloha,ALOHA (bimanual teleop),数采 & 遥操,related,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+teleop-aloha,ALOHA (bimanual teleop),数采 & 遥操,related,lab-sail,Stanford SAIL,实验室,0
+teleop-mobile-aloha,Mobile ALOHA,数采 & 遥操,competitor,teleop-aloha,ALOHA (bimanual teleop),数采 & 遥操,0
+teleop-mobile-aloha,Mobile ALOHA,数采 & 遥操,related,lab-sail,Stanford SAIL,实验室,0
+teleop-gello,GELLO,数采 & 遥操,related,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+teleop-manus-quantum,Quantum Metagloves,数采 & 遥操,competitor,teleop-manus-prime-x-haptic,Prime X Haptic VR,数采 & 遥操,0
+teleop-manus-prime-x-haptic,Prime X Haptic VR,数采 & 遥操,competitor,teleop-manus-quantum,Quantum Metagloves,数采 & 遥操,0
+teleop-apple-vision-pro,Apple Vision Pro,数采 & 遥操,related,cp-apple-mac-mini-m4,Mac mini (M4 / M4 Pro),计算平台,0
+cp-jetson-orin-nx,Jetson Orin NX (16GB / 8GB),计算平台,manufacturer,ind1,NVIDIA Robotics,产业,0
+cp-jetson-orin-nx,Jetson Orin NX (16GB / 8GB),计算平台,series-member,cp-jetson-agx-thor,Jetson AGX Thor (T5000),计算平台,0
+cp-jetson-orin-nx,Jetson Orin NX (16GB / 8GB),计算平台,series-member,cp-jetson-agx-xavier,Jetson AGX Xavier (legacy),计算平台,0
+cp-jetson-orin-nx,Jetson Orin NX (16GB / 8GB),计算平台,series-member,cp-jetson-nano,Jetson Nano (legacy),计算平台,0
+cp-jetson-orin-nx,Jetson Orin NX (16GB / 8GB),计算平台,series-member,cp-jetson-orin-nano,Jetson Orin Nano (8GB / 4GB),计算平台,0
+cp-jetson-orin-nx,Jetson Orin NX (16GB / 8GB),计算平台,series-member,cp1,Jetson AGX Orin (64GB / 32GB),计算平台,0
+cp-jetson-orin-nano,Jetson Orin Nano (8GB / 4GB),计算平台,manufacturer,ind1,NVIDIA Robotics,产业,0
+cp-jetson-orin-nano,Jetson Orin Nano (8GB / 4GB),计算平台,series-member,cp-jetson-agx-thor,Jetson AGX Thor (T5000),计算平台,0
+cp-jetson-orin-nano,Jetson Orin Nano (8GB / 4GB),计算平台,series-member,cp-jetson-agx-xavier,Jetson AGX Xavier (legacy),计算平台,0
+cp-jetson-orin-nano,Jetson Orin Nano (8GB / 4GB),计算平台,series-member,cp-jetson-nano,Jetson Nano (legacy),计算平台,0
+cp-jetson-orin-nano,Jetson Orin Nano (8GB / 4GB),计算平台,series-member,cp-jetson-orin-nx,Jetson Orin NX (16GB / 8GB),计算平台,0
+cp-jetson-orin-nano,Jetson Orin Nano (8GB / 4GB),计算平台,series-member,cp1,Jetson AGX Orin (64GB / 32GB),计算平台,0
+cp-jetson-agx-thor,Jetson AGX Thor (T5000),计算平台,manufacturer,ind1,NVIDIA Robotics,产业,0
+cp-jetson-agx-thor,Jetson AGX Thor (T5000),计算平台,tech-base,f24,H2,整机平台,1
+cp-jetson-agx-thor,Jetson AGX Thor (T5000),计算平台,tech-base,f29,ATLAS,整机平台,1
+cp-jetson-agx-thor,Jetson AGX Thor (T5000),计算平台,tech-base,f34,NEO Gamma,整机平台,1
+cp-jetson-agx-thor,Jetson AGX Thor (T5000),计算平台,series-member,cp-jetson-agx-xavier,Jetson AGX Xavier (legacy),计算平台,0
+cp-jetson-agx-thor,Jetson AGX Thor (T5000),计算平台,series-member,cp-jetson-nano,Jetson Nano (legacy),计算平台,0
+cp-jetson-agx-thor,Jetson AGX Thor (T5000),计算平台,series-member,cp-jetson-orin-nano,Jetson Orin Nano (8GB / 4GB),计算平台,0
+cp-jetson-agx-thor,Jetson AGX Thor (T5000),计算平台,series-member,cp-jetson-orin-nx,Jetson Orin NX (16GB / 8GB),计算平台,0
+cp-jetson-agx-thor,Jetson AGX Thor (T5000),计算平台,series-member,cp1,Jetson AGX Orin (64GB / 32GB),计算平台,0
+cp-jetson-nano,Jetson Nano (legacy),计算平台,manufacturer,ind1,NVIDIA Robotics,产业,0
+cp-jetson-nano,Jetson Nano (legacy),计算平台,series-member,cp-jetson-agx-thor,Jetson AGX Thor (T5000),计算平台,0
+cp-jetson-nano,Jetson Nano (legacy),计算平台,series-member,cp-jetson-orin-nano,Jetson Orin Nano (8GB / 4GB),计算平台,0
+cp-jetson-nano,Jetson Nano (legacy),计算平台,series-member,cp-jetson-orin-nx,Jetson Orin NX (16GB / 8GB),计算平台,0
+cp-jetson-nano,Jetson Nano (legacy),计算平台,series-member,cp1,Jetson AGX Orin (64GB / 32GB),计算平台,0
+cp-jetson-agx-xavier,Jetson AGX Xavier (legacy),计算平台,manufacturer,ind1,NVIDIA Robotics,产业,0
+cp-jetson-agx-xavier,Jetson AGX Xavier (legacy),计算平台,series-member,cp-jetson-agx-thor,Jetson AGX Thor (T5000),计算平台,0
+cp-jetson-agx-xavier,Jetson AGX Xavier (legacy),计算平台,series-member,cp-jetson-orin-nano,Jetson Orin Nano (8GB / 4GB),计算平台,0
+cp-jetson-agx-xavier,Jetson AGX Xavier (legacy),计算平台,series-member,cp-jetson-orin-nx,Jetson Orin NX (16GB / 8GB),计算平台,0
+cp-jetson-agx-xavier,Jetson AGX Xavier (legacy),计算平台,series-member,cp1,Jetson AGX Orin (64GB / 32GB),计算平台,0
+cp-hailo-8,Hailo-8,计算平台,series-member,cp-hailo-10h,Hailo-10H,计算平台,0
+cp-hailo-10h,Hailo-10H,计算平台,series-member,cp-hailo-8,Hailo-8,计算平台,0
+cp-coral-dev-board,Coral Dev Board,计算平台,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+cp-apple-mac-mini-m4,Mac mini (M4 / M4 Pro),计算平台,related,teleop-apple-vision-pro,Apple Vision Pro,数采 & 遥操,0
+flagship-robotera-l7,L7,整机平台,manufacturer,ind-robot-era,Robot Era (星动纪元),产业,0
+flagship-robotera-l7,L7,整机平台,series-member,f105,ROBOTERA L2,整机平台,0
+flagship-xpeng-iron-nextgen,Next-Gen IRON,整机平台,manufacturer,ind-xpeng-robotics,XPENG Robotics (Iron),产业,0
+flagship-xpeng-iron-nextgen,Next-Gen IRON,整机平台,series-member,f128,IRON,整机平台,0
+flagship-galbot-g1,Galbot G1,整机平台,manufacturer,ind-galbot,Galbot (银河通用),产业,0
+flagship-galbot-g1,Galbot G1,整机平台,competitor,f110,GALBOT,整机平台,0
+flagship-galbot-g1,Galbot G1,整机平台,competitor,f111,GALBOT S1,整机平台,0
+sw1,OpenVLA,基础模型,trained-on,sw7,Open X-Embodiment,数据集,0
+sw1,OpenVLA,基础模型,deployed-at,f1,Memo,整机平台,0
+sw2,RT-X,基础模型,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw2,RT-X,基础模型,competitor,sw-genie-2,Genie 2,基础模型,0
+sw2,RT-X,基础模型,competitor,sw-genie-3,Genie 3,基础模型,0
+sw2,RT-X,基础模型,competitor,sw-robocat,RoboCat,基础模型,0
+sw2,RT-X,基础模型,series-member,sw-rt2,RT-2,基础模型,0
+sw2,RT-X,基础模型,competitor,sw-sara-rt,SARA-RT,基础模型,0
+sw2,RT-X,基础模型,trained-on,sw7,Open X-Embodiment,数据集,0
+sw3,Isaac Lab,算法框架,manufacturer,ind1,NVIDIA Robotics,产业,0
+sw3,Isaac Lab,算法框架,tech-base,sw5,Isaac Sim,仿真平台,0
+sw3,Isaac Lab,算法框架,related,sw-eureka,Eureka,评测基准,0
+sw3,Isaac Lab,算法框架,related,cp1,Jetson AGX Orin (64GB / 32GB),计算平台,0
+sw4,RoboMimic,算法框架,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw4,RoboMimic,算法框架,related,d2,GELLO Arm,数采 & 遥操,0
+sw5,Isaac Sim,仿真平台,manufacturer,ind1,NVIDIA Robotics,产业,0
+sw5,Isaac Sim,仿真平台,tech-base,sw3,Isaac Lab,算法框架,0
+sw5,Isaac Sim,仿真平台,competitor,sw-cosmos-transfer,Cosmos Transfer,仿真平台,0
+sw5,Isaac Sim,仿真平台,related,f2,Oli,整机平台,0
+sw6,MuJoCo,仿真平台,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw6,MuJoCo,仿真平台,tech-base,sw-mjpc,MuJoCo MPC (MJPC),算法框架,0
+sw6,MuJoCo,仿真平台,tech-base,sw-robosuite,robosuite,算法框架,0
+sw6,MuJoCo,仿真平台,related,sw-libero,LIBERO,评测基准,0
+sw6,MuJoCo,仿真平台,related,sw-meta-world,Meta-World,评测基准,0
+sw6,MuJoCo,仿真平台,related,sw-robocasa,RoboCasa,评测基准,0
+sw7,Open X-Embodiment,数据集,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw7,Open X-Embodiment,数据集,trained-on,sw-cogact,CogACT,基础模型,1
+sw7,Open X-Embodiment,数据集,trained-on,sw-octo,Octo,基础模型,1
+sw7,Open X-Embodiment,数据集,trained-on,sw1,OpenVLA,基础模型,1
+sw7,Open X-Embodiment,数据集,trained-on,sw2,RT-X,基础模型,1
+sw7,Open X-Embodiment,数据集,related,sw-robovqa,RoboVQA,数据集,0
+sw7,Open X-Embodiment,数据集,related,f2,Oli,整机平台,0
+sw-ocs2,OCS2,控制算法,affiliated-with,lab-eth-rsl,ETH Zurich Robotic Systems Lab (RSL),实验室,0
+sw-centroidal-dynamics,Centroidal Dynamics,控制算法,affiliated-with,lab-kaist-hubo,KAIST HUBO Lab,实验室,0
+sw-wbc-sentis,Whole-Body Control (Operational-Space),控制算法,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw-diffusion-policy,Diffusion Policy,控制算法,manufacturer,ind-tri,Toyota Research Institute (TRI),产业,0
+sw-diffusion-policy,Diffusion Policy,控制算法,affiliated-with,lab-mit-csail,MIT CSAIL,实验室,0
+sw-act,ACT (Action Chunking with Transformers),控制算法,affiliated-with,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+sw-act,ACT (Action Chunking with Transformers),控制算法,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw-openai-dexterous,Dexterous In-Hand Manipulation (RL/PPO + Domain Randomization),控制算法,related,stg-vc-openai-corp,OpenAI,资本,0
+sw-openai-dexterous,Dexterous In-Hand Manipulation (RL/PPO + Domain Randomization),控制算法,related,stg-vc-openai-startup-fund,OpenAI Startup Fund,资本,0
+sw-openai-dexterous,Dexterous In-Hand Manipulation (RL/PPO + Domain Randomization),控制算法,related,e2,Shadow Dexterous Hand (E3M5R),灵巧手 & 夹爪,0
+sw-openai-dexterous,Dexterous In-Hand Manipulation (RL/PPO + Domain Randomization),控制算法,related,h29,DEXTEROUS HAND,灵巧手 & 夹爪,0
+sw-anymal-rl,ANYmal RL Locomotion Controller,控制算法,affiliated-with,lab-eth-rsl,ETH Zurich Robotic Systems Lab (RSL),实验室,0
+sw-sac-minitaur,SAC for Legged Locomotion,控制算法,affiliated-with,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+sw-pybullet,PyBullet (Bullet),仿真平台,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw-pybullet,PyBullet (Bullet),仿真平台,related,sw-calvin,CALVIN,评测基准,0
+sw-pybullet,PyBullet (Bullet),仿真平台,related,sw-gensim,GenSim,评测基准,0
+sw-sapien,SAPIEN,仿真平台,related,sw-maniskill2,ManiSkill2,评测基准,0
+sw-sapien,SAPIEN,仿真平台,related,sw-maniskill3,ManiSkill3,评测基准,0
+sw-sapien,SAPIEN,仿真平台,related,sw-simplerenv,SimplerEnv (SIMPLER),评测基准,0
+sw-genesis,Genesis,仿真平台,affiliated-with,lab-mit-csail,MIT CSAIL,实验室,0
+sw-genesis,Genesis,仿真平台,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw-newton,Newton,仿真平台,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw-newton,Newton,仿真平台,manufacturer,ind1,NVIDIA Robotics,产业,0
+sw-coppeliasim,CoppeliaSim,仿真平台,related,sw-rlbench,RLBench,评测基准,0
+sw-drake,Drake,仿真平台,manufacturer,ind-tri,Toyota Research Institute (TRI),产业,0
+sw-drake,Drake,仿真平台,affiliated-with,lab-mit-csail,MIT CSAIL,实验室,0
+sw-droid,DROID,数据集,manufacturer,ind-tri,Toyota Research Institute (TRI),产业,0
+sw-droid,DROID,数据集,affiliated-with,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+sw-droid,DROID,数据集,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw-droid,DROID,数据集,trained-on,sw-vjepa-2,V-JEPA 2,基础模型,1
+sw-droid,DROID,数据集,related,a2,Franka Emika Panda,机械臂,0
+sw-bridgedata-v2,BridgeData V2,数据集,affiliated-with,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+sw-bridgedata-v2,BridgeData V2,数据集,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw-bridgedata-v2,BridgeData V2,数据集,related,sw-fmb,FMB (Functional Manipulation Benchmark dataset),数据集,0
+sw-bridgedata-v2,BridgeData V2,数据集,related,d2,GELLO Arm,数采 & 遥操,0
+sw-mobile-aloha,Mobile ALOHA Dataset,数据集,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw-mobile-aloha,Mobile ALOHA Dataset,数据集,related,sw-roboturk,RoboTurk,数据集,0
+sw-agibot-world,AgiBot World (Colosseo),数据集,manufacturer,ind-agibot,AgiBot (智元机器人),产业,0
+sw-agibot-world,AgiBot World (Colosseo),数据集,affiliated-with,lab-shanghai-ailab,Shanghai AI Lab — Embodied AI Center 上海人工智能实验室,实验室,0
+sw-agibot-world,AgiBot World (Colosseo),数据集,trained-on,sw-agibot-go1,AgiBot GO-1 (Genie Operator-1),基础模型,1
+sw-agibot-world,AgiBot World (Colosseo),数据集,related,h29,DEXTEROUS HAND,灵巧手 & 夹爪,0
+sw-rh20t,RH20T,数据集,affiliated-with,stg-lab-sjtu,SJTU 上海交通大学,实验室,0
+sw-robomind,RoboMIND,数据集,affiliated-with,stg-lab-baai,BAAI 北京智源人工智能研究院,实验室,0
+sw-robovqa,RoboVQA,数据集,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw-robovqa,RoboVQA,数据集,related,sw7,Open X-Embodiment,数据集,0
+sw-robovqa,RoboVQA,数据集,related,h4,HUMA,灵巧手 & 夹爪,0
+sw-robonet,RoboNet,数据集,affiliated-with,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+sw-robonet,RoboNet,数据集,affiliated-with,lab-cmu-ri,CMU Robotics Institute,实验室,0
+sw-robonet,RoboNet,数据集,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw-robonet,RoboNet,数据集,affiliated-with,lab-upenn-grasp,UPenn GRASP Lab,实验室,0
+sw-roboturk,RoboTurk,数据集,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw-roboturk,RoboTurk,数据集,related,sw-mobile-aloha,Mobile ALOHA Dataset,数据集,0
+sw-language-table,Language Table,数据集,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw-bc-z,BC-Z Dataset,数据集,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw-bc-z,BC-Z Dataset,数据集,affiliated-with,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+sw-bc-z,BC-Z Dataset,数据集,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw-fmb,FMB (Functional Manipulation Benchmark dataset),数据集,affiliated-with,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+sw-fmb,FMB (Functional Manipulation Benchmark dataset),数据集,related,sw-bridgedata-v2,BridgeData V2,数据集,0
+sw-fmb,FMB (Functional Manipulation Benchmark dataset),数据集,related,a2,Franka Emika Panda,机械臂,0
+sw-berkeley-ur5,Berkeley UR5 Demonstration Dataset,数据集,affiliated-with,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+sw-maniskill3,ManiSkill3,评测基准,related,sw-sapien,SAPIEN,仿真平台,0
+sw-maniskill2,ManiSkill2,评测基准,related,sw-sapien,SAPIEN,仿真平台,0
+sw-meta-world,Meta-World,评测基准,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw-meta-world,Meta-World,评测基准,affiliated-with,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+sw-meta-world,Meta-World,评测基准,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw-meta-world,Meta-World,评测基准,related,sw6,MuJoCo,仿真平台,0
+sw-robocasa,RoboCasa,评测基准,manufacturer,ind1,NVIDIA Robotics,产业,0
+sw-robocasa,RoboCasa,评测基准,related,sw6,MuJoCo,仿真平台,0
+sw-robocasa,RoboCasa,评测基准,related,sw-robosuite,robosuite,算法框架,0
+sw-calvin,CALVIN,评测基准,related,sw-pybullet,PyBullet (Bullet),仿真平台,0
+sw-calvin,CALVIN,评测基准,related,f128,IRON,整机平台,0
+sw-libero,LIBERO,评测基准,related,sw6,MuJoCo,仿真平台,0
+sw-libero,LIBERO,评测基准,related,sw-robosuite,robosuite,算法框架,0
+sw-rlbench,RLBench,评测基准,affiliated-with,lab-imperial-prl,Imperial College Personal Robotics Lab,实验室,0
+sw-rlbench,RLBench,评测基准,related,sw-coppeliasim,CoppeliaSim,仿真平台,0
+sw-behavior-1k,BEHAVIOR-1K,评测基准,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw-furniturebench,FurnitureBench,评测基准,affiliated-with,lab-kaist-hubo,KAIST HUBO Lab,实验室,0
+sw-furniturebench,FurnitureBench,评测基准,affiliated-with,lab-usc-lira,USC LIRA Lab (Learning & Interactive Robot Autonomy),实验室,0
+sw-simplerenv,SimplerEnv (SIMPLER),评测基准,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw-simplerenv,SimplerEnv (SIMPLER),评测基准,affiliated-with,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+sw-simplerenv,SimplerEnv (SIMPLER),评测基准,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw-simplerenv,SimplerEnv (SIMPLER),评测基准,related,sw-sapien,SAPIEN,仿真平台,0
+sw-roboarena,RoboArena,评测基准,affiliated-with,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+sw-roboarena,RoboArena,评测基准,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw-roboeval,RoboEval,评测基准,manufacturer,ind1,NVIDIA Robotics,产业,0
+sw-habitat2,Habitat 2.0 (HAB),评测基准,affiliated-with,lab-gatech-irim,Georgia Tech IRIM,实验室,0
+sw-eureka,Eureka,评测基准,manufacturer,ind1,NVIDIA Robotics,产业,0
+sw-eureka,Eureka,评测基准,affiliated-with,lab-upenn-grasp,UPenn GRASP Lab,实验室,0
+sw-eureka,Eureka,评测基准,related,sw3,Isaac Lab,算法框架,0
+sw-gensim,GenSim,评测基准,affiliated-with,lab-mit-csail,MIT CSAIL,实验室,0
+sw-gensim,GenSim,评测基准,affiliated-with,lab-tsinghua-tea,Tsinghua Embodied AI Lab (TEA Lab),实验室,0
+sw-gensim,GenSim,评测基准,related,sw-pybullet,PyBullet (Bullet),仿真平台,0
+sw-robogen,RoboGen,评测基准,affiliated-with,lab-cmu-ri,CMU Robotics Institute,实验室,0
+sw-robogen,RoboGen,评测基准,affiliated-with,lab-mit-csail,MIT CSAIL,实验室,0
+sw-robogen,RoboGen,评测基准,affiliated-with,lab-tsinghua-tea,Tsinghua Embodied AI Lab (TEA Lab),实验室,0
+sw-rt2,RT-2,基础模型,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw-rt2,RT-2,基础模型,competitor,sw-genie-2,Genie 2,基础模型,0
+sw-rt2,RT-2,基础模型,competitor,sw-genie-3,Genie 3,基础模型,0
+sw-rt2,RT-2,基础模型,competitor,sw-robocat,RoboCat,基础模型,0
+sw-rt2,RT-2,基础模型,competitor,sw-sara-rt,SARA-RT,基础模型,0
+sw-rt2,RT-2,基础模型,series-member,sw2,RT-X,基础模型,0
+sw-pi0,π0 (Pi-Zero),基础模型,manufacturer,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+sw-pi0,π0 (Pi-Zero),基础模型,affiliated-with,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+sw-pi0,π0 (Pi-Zero),基础模型,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw-pi0,π0 (Pi-Zero),基础模型,series-member,sw-pi0-fast,π0-FAST,基础模型,0
+sw-pi0,π0 (Pi-Zero),基础模型,series-member,sw-pi05,π0.5,基础模型,0
+sw-pi05,π0.5,基础模型,manufacturer,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+sw-pi05,π0.5,基础模型,series-member,sw-pi0,π0 (Pi-Zero),基础模型,0
+sw-pi05,π0.5,基础模型,series-member,sw-pi0-fast,π0-FAST,基础模型,0
+sw-octo,Octo,基础模型,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw-octo,Octo,基础模型,affiliated-with,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+sw-octo,Octo,基础模型,affiliated-with,lab-cmu-ri,CMU Robotics Institute,实验室,0
+sw-octo,Octo,基础模型,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw-octo,Octo,基础模型,trained-on,sw7,Open X-Embodiment,数据集,0
+sw-gr1,GR-1,基础模型,series-member,sw-gr2,GR-2,基础模型,0
+sw-gr2,GR-2,基础模型,series-member,sw-gr1,GR-1,基础模型,0
+sw-helix,Helix,基础模型,manufacturer,ind-figure,Figure AI,产业,0
+sw-palm-e,PaLM-E,基础模型,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw-robocat,RoboCat,基础模型,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw-robocat,RoboCat,基础模型,competitor,sw-genie-2,Genie 2,基础模型,0
+sw-robocat,RoboCat,基础模型,competitor,sw-genie-3,Genie 3,基础模型,0
+sw-robocat,RoboCat,基础模型,competitor,sw-rt2,RT-2,基础模型,0
+sw-robocat,RoboCat,基础模型,competitor,sw-sara-rt,SARA-RT,基础模型,0
+sw-robocat,RoboCat,基础模型,competitor,sw2,RT-X,基础模型,0
+sw-vima,VIMA,基础模型,manufacturer,ind1,NVIDIA Robotics,产业,0
+sw-vima,VIMA,基础模型,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw-vima,VIMA,基础模型,affiliated-with,lab1,Stanford AI Lab,实验室,0
+sw-roboflamingo,RoboFlamingo,基础模型,affiliated-with,lab-tsinghua-tea,Tsinghua Embodied AI Lab (TEA Lab),实验室,0
+sw-bcz-fm,BC-Z (Model),基础模型,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw-bcz-fm,BC-Z (Model),基础模型,affiliated-with,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+sw-bcz-fm,BC-Z (Model),基础模型,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw-groot-n1,GR00T N1,基础模型,manufacturer,ind1,NVIDIA Robotics,产业,0
+sw-groot-n1,GR00T N1,基础模型,competitor,sw-cosmos-predict,Cosmos Predict (World Foundation Model),基础模型,0
+sw-groot-n1,GR00T N1,基础模型,competitor,sw-cosmos-reason,Cosmos Reason,基础模型,0
+sw-groot-n1,GR00T N1,基础模型,series-member,sw-groot-n1-5,GR00T N1.5,基础模型,0
+sw-groot-n1,GR00T N1,基础模型,related,h4,HUMA,灵巧手 & 夹爪,0
+sw-cogact,CogACT,基础模型,affiliated-with,lab-tsinghua-tea,Tsinghua Embodied AI Lab (TEA Lab),实验室,0
+sw-cogact,CogACT,基础模型,affiliated-with,stg-lab-msra,MSRA 微软亚洲研究院,实验室,0
+sw-cogact,CogACT,基础模型,trained-on,sw7,Open X-Embodiment,数据集,0
+sw-rdt-1b,RDT-1B,基础模型,affiliated-with,lab-tsinghua-tea,Tsinghua Embodied AI Lab (TEA Lab),实验室,0
+sw-sara-rt,SARA-RT,基础模型,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw-sara-rt,SARA-RT,基础模型,competitor,sw-genie-2,Genie 2,基础模型,0
+sw-sara-rt,SARA-RT,基础模型,competitor,sw-genie-3,Genie 3,基础模型,0
+sw-sara-rt,SARA-RT,基础模型,competitor,sw-robocat,RoboCat,基础模型,0
+sw-sara-rt,SARA-RT,基础模型,competitor,sw-rt2,RT-2,基础模型,0
+sw-sara-rt,SARA-RT,基础模型,competitor,sw2,RT-X,基础模型,0
+sw-ros2-control-framework,ros2_control (Framework),算法框架,manufacturer,ind-pal-robotics,PAL Robotics,产业,0
+sw-robosuite,robosuite,算法框架,tech-base,sw6,MuJoCo,仿真平台,0
+sw-robosuite,robosuite,算法框架,related,sw-libero,LIBERO,评测基准,0
+sw-robosuite,robosuite,算法框架,related,sw-robocasa,RoboCasa,评测基准,0
+sw-mjpc,MuJoCo MPC (MJPC),算法框架,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw-mjpc,MuJoCo MPC (MJPC),算法框架,tech-base,sw6,MuJoCo,仿真平台,0
+sw-polymetis,Polymetis,算法框架,related,a2,Franka Emika Panda,机械臂,0
+sw-cosmos-predict,Cosmos Predict (World Foundation Model),基础模型,manufacturer,ind1,NVIDIA Robotics,产业,0
+sw-cosmos-predict,Cosmos Predict (World Foundation Model),基础模型,series-member,sw-cosmos-reason,Cosmos Reason,基础模型,0
+sw-cosmos-predict,Cosmos Predict (World Foundation Model),基础模型,competitor,sw-groot-n1,GR00T N1,基础模型,0
+sw-cosmos-predict,Cosmos Predict (World Foundation Model),基础模型,competitor,sw-groot-n1-5,GR00T N1.5,基础模型,0
+sw-cosmos-reason,Cosmos Reason,基础模型,manufacturer,ind1,NVIDIA Robotics,产业,0
+sw-cosmos-reason,Cosmos Reason,基础模型,series-member,sw-cosmos-predict,Cosmos Predict (World Foundation Model),基础模型,0
+sw-cosmos-reason,Cosmos Reason,基础模型,competitor,sw-groot-n1,GR00T N1,基础模型,0
+sw-cosmos-reason,Cosmos Reason,基础模型,competitor,sw-groot-n1-5,GR00T N1.5,基础模型,0
+sw-cosmos-transfer,Cosmos Transfer,仿真平台,manufacturer,ind1,NVIDIA Robotics,产业,0
+sw-cosmos-transfer,Cosmos Transfer,仿真平台,competitor,sw5,Isaac Sim,仿真平台,0
+sw-genie-2,Genie 2,基础模型,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw-genie-2,Genie 2,基础模型,competitor,sw-robocat,RoboCat,基础模型,0
+sw-genie-2,Genie 2,基础模型,competitor,sw-rt2,RT-2,基础模型,0
+sw-genie-2,Genie 2,基础模型,competitor,sw-sara-rt,SARA-RT,基础模型,0
+sw-genie-2,Genie 2,基础模型,competitor,sw2,RT-X,基础模型,0
+sw-genie-3,Genie 3,基础模型,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw-genie-3,Genie 3,基础模型,competitor,sw-robocat,RoboCat,基础模型,0
+sw-genie-3,Genie 3,基础模型,competitor,sw-rt2,RT-2,基础模型,0
+sw-genie-3,Genie 3,基础模型,competitor,sw-sara-rt,SARA-RT,基础模型,0
+sw-genie-3,Genie 3,基础模型,competitor,sw2,RT-X,基础模型,0
+sw-vjepa-2,V-JEPA 2,基础模型,trained-on,sw-droid,DROID,数据集,0
+sw-dreamerv3,DreamerV3,基础模型,manufacturer,ind-deepmind-robotics,Google DeepMind Robotics,产业,0
+sw-dreamerv3,DreamerV3,基础模型,deployed-at,f128,IRON,整机平台,0
+sw-1x-world-model,1X World Model,基础模型,manufacturer,ind-1x,1X Technologies,产业,0
+sw-1x-world-model,1X World Model,基础模型,related,h4,HUMA,灵巧手 & 夹爪,0
+sw-pi0-fast,π0-FAST,基础模型,manufacturer,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+sw-pi0-fast,π0-FAST,基础模型,affiliated-with,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+sw-pi0-fast,π0-FAST,基础模型,affiliated-with,lab-sail,Stanford SAIL,实验室,0
+sw-pi0-fast,π0-FAST,基础模型,series-member,sw-pi0,π0 (Pi-Zero),基础模型,0
+sw-pi0-fast,π0-FAST,基础模型,series-member,sw-pi05,π0.5,基础模型,0
+sw-groot-n1-5,GR00T N1.5,基础模型,manufacturer,ind1,NVIDIA Robotics,产业,0
+sw-groot-n1-5,GR00T N1.5,基础模型,competitor,sw-cosmos-predict,Cosmos Predict (World Foundation Model),基础模型,0
+sw-groot-n1-5,GR00T N1.5,基础模型,competitor,sw-cosmos-reason,Cosmos Reason,基础模型,0
+sw-groot-n1-5,GR00T N1.5,基础模型,series-member,sw-groot-n1,GR00T N1,基础模型,0
+sw-groot-n1-5,GR00T N1.5,基础模型,related,h4,HUMA,灵巧手 & 夹爪,0
+sw-agibot-go1,AgiBot GO-1 (Genie Operator-1),基础模型,manufacturer,ind-agibot,AgiBot (智元机器人),产业,0
+sw-agibot-go1,AgiBot GO-1 (Genie Operator-1),基础模型,trained-on,sw-agibot-world,AgiBot World (Colosseo),数据集,0
+sw-skild-brain,Skild Brain,基础模型,manufacturer,ind-skild,Skild AI,产业,0
+sw-daydreamer,DayDreamer,基础模型,affiliated-with,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+eco1,ROS 2,开发生态,related,f1,Memo,整机平台,0
+eco1,ROS 2,开发生态,related,f2,Oli,整机平台,0
+eco2,Foxglove Studio,开发生态,related,eco1,ROS 2,开发生态,0
+app1,Smart Factory,应用场景,deployed-at,f4,Optimus Gen 2,整机平台,1
+app1,Smart Factory,应用场景,deployed-at,a1,UR10e,机械臂,1
+app2,Logistics Warehouse,应用场景,deployed-at,f1,Memo,整机平台,1
+eco-micro-ros,micro-ROS,开发生态,related,eco-fast-dds,Fast DDS,开发生态,0
+eco-rviz2,RViz2,开发生态,related,eco-colcon,colcon,开发生态,0
+eco-rviz2,RViz2,开发生态,related,eco-gazebo-sim,Gazebo Sim (formerly Ignition),开发生态,0
+eco-rviz2,RViz2,开发生态,related,eco-ros-gz,ros_gz (ROS - Gazebo bridge),开发生态,0
+eco-rviz2,RViz2,开发生态,related,eco-urdf,URDF / xacro,开发生态,0
+eco-fast-dds,Fast DDS,开发生态,related,eco-micro-ros,micro-ROS,开发生态,0
+eco-urdf,URDF / xacro,开发生态,related,eco-colcon,colcon,开发生态,0
+eco-urdf,URDF / xacro,开发生态,related,eco-gazebo-sim,Gazebo Sim (formerly Ignition),开发生态,0
+eco-urdf,URDF / xacro,开发生态,related,eco-ros-gz,ros_gz (ROS - Gazebo bridge),开发生态,0
+eco-urdf,URDF / xacro,开发生态,related,eco-rviz2,RViz2,开发生态,0
+eco-gazebo-sim,Gazebo Sim (formerly Ignition),开发生态,related,eco-colcon,colcon,开发生态,0
+eco-gazebo-sim,Gazebo Sim (formerly Ignition),开发生态,related,eco-ros-gz,ros_gz (ROS - Gazebo bridge),开发生态,0
+eco-gazebo-sim,Gazebo Sim (formerly Ignition),开发生态,related,eco-rviz2,RViz2,开发生态,0
+eco-gazebo-sim,Gazebo Sim (formerly Ignition),开发生态,related,eco-urdf,URDF / xacro,开发生态,0
+eco-ros-gz,ros_gz (ROS - Gazebo bridge),开发生态,related,eco-colcon,colcon,开发生态,0
+eco-ros-gz,ros_gz (ROS - Gazebo bridge),开发生态,related,eco-gazebo-sim,Gazebo Sim (formerly Ignition),开发生态,0
+eco-ros-gz,ros_gz (ROS - Gazebo bridge),开发生态,related,eco-rviz2,RViz2,开发生态,0
+eco-ros-gz,ros_gz (ROS - Gazebo bridge),开发生态,related,eco-urdf,URDF / xacro,开发生态,0
+eco-colcon,colcon,开发生态,related,eco-gazebo-sim,Gazebo Sim (formerly Ignition),开发生态,0
+eco-colcon,colcon,开发生态,related,eco-ros-gz,ros_gz (ROS - Gazebo bridge),开发生态,0
+eco-colcon,colcon,开发生态,related,eco-rviz2,RViz2,开发生态,0
+eco-colcon,colcon,开发生态,related,eco-urdf,URDF / xacro,开发生态,0
+app-warehouse,Warehouse Fulfillment,应用场景,deployed-at,ind-agility,Agility Robotics,产业,1
+app-warehouse,Warehouse Fulfillment,应用场景,deployed-at,ind-booster,Booster Robotics,产业,1
+app-warehouse,Warehouse Fulfillment,应用场景,deployed-at,ind-deepmind-robotics,Google DeepMind Robotics,产业,1
+app-warehouse,Warehouse Fulfillment,应用场景,deployed-at,ind-hello-robot,Hello Robot,产业,1
+app-warehouse,Warehouse Fulfillment,应用场景,deployed-at,arm-elite-cs66,Elite Robots CS66,机械臂,1
+app-warehouse,Warehouse Fulfillment,应用场景,deployed-at,arm-elite-ec66,Elite Robots EC66,机械臂,1
+app-humanoid-manufacturing,Humanoid Manufacturing Assembly,应用场景,deployed-at,ind-apptronik,Apptronik,产业,1
+app-humanoid-manufacturing,Humanoid Manufacturing Assembly,应用场景,deployed-at,ind-figure,Figure AI,产业,1
+app-humanoid-manufacturing,Humanoid Manufacturing Assembly,应用场景,deployed-at,f104,FIGURE 03,整机平台,1
+app-humanoid-manufacturing,Humanoid Manufacturing Assembly,应用场景,deployed-at,f139,FIGURE 02,整机平台,1
+app-humanoid-manufacturing,Humanoid Manufacturing Assembly,应用场景,deployed-at,f25,TRON,整机平台,1
+app-humanoid-manufacturing,Humanoid Manufacturing Assembly,应用场景,deployed-at,f81,APPTRONIK APOLLO,整机平台,1
+app-humanoid-manufacturing,Humanoid Manufacturing Assembly,应用场景,deployed-at,f9,FIGURE ONE,整机平台,1
+app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,deployed-at,ind-1x,1X Technologies,产业,1
+app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,deployed-at,ind-agility,Agility Robotics,产业,1
+app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,deployed-at,ind-booster,Booster Robotics,产业,1
+app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,deployed-at,ind-deepmind-robotics,Google DeepMind Robotics,产业,1
+app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,deployed-at,f10,TARS,整机平台,1
+app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,deployed-at,arm-elite-cs66,Elite Robots CS66,机械臂,1
+app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,deployed-at,arm-elite-ec66,Elite Robots EC66,机械臂,1
+app-surgical,Surgical Robotics,应用场景,deployed-at,f25,TRON,整机平台,1
+app-inspection,Industrial Inspection & Maintenance,应用场景,deployed-at,ind-anybotics,ANYbotics,产业,1
+app-inspection,Industrial Inspection & Maintenance,应用场景,deployed-at,ind-boston-dynamics,Boston Dynamics,产业,1
+app-inspection,Industrial Inspection & Maintenance,应用场景,deployed-at,ind-limx,LimX Dynamics,产业,1
+app-inspection,Industrial Inspection & Maintenance,应用场景,deployed-at,stg-ind-robstride,RobStride Dynamics (灵足时代),产业,1
+app-inspection,Industrial Inspection & Maintenance,应用场景,deployed-at,f25,TRON,整机平台,1
+app-agriculture,Precision Agriculture,应用场景,deployed-at,ind-agility,Agility Robotics,产业,1
+app-agriculture,Precision Agriculture,应用场景,deployed-at,ind-booster,Booster Robotics,产业,1
+app-agriculture,Precision Agriculture,应用场景,deployed-at,ind-deepmind-robotics,Google DeepMind Robotics,产业,1
+app-agriculture,Precision Agriculture,应用场景,deployed-at,ind-hello-robot,Hello Robot,产业,1
+app-hospitality,Hospitality / Food Service,应用场景,deployed-at,ind-agility,Agility Robotics,产业,1
+app-hospitality,Hospitality / Food Service,应用场景,deployed-at,ind-booster,Booster Robotics,产业,1
+app-hospitality,Hospitality / Food Service,应用场景,deployed-at,ind-deepmind-robotics,Google DeepMind Robotics,产业,1
+app-hospitality,Hospitality / Food Service,应用场景,deployed-at,ind-hello-robot,Hello Robot,产业,1
+app-hospitality,Hospitality / Food Service,应用场景,deployed-at,f120,PUDU D7,整机平台,1
+app-hospitality,Hospitality / Food Service,应用场景,deployed-at,f127,PUDU D9,整机平台,1
+app-hospitality,Hospitality / Food Service,应用场景,deployed-at,f131,KEENON XMAN-R1,整机平台,1
+app-hospitality,Hospitality / Food Service,应用场景,deployed-at,arm-elite-cs66,Elite Robots CS66,机械臂,1
+app-hospitality,Hospitality / Food Service,应用场景,deployed-at,arm-elite-ec66,Elite Robots EC66,机械臂,1
+app-healthcare-companion,Healthcare & Companion Robotics,应用场景,deployed-at,ind-agility,Agility Robotics,产业,1
+app-healthcare-companion,Healthcare & Companion Robotics,应用场景,deployed-at,ind-booster,Booster Robotics,产业,1
+app-healthcare-companion,Healthcare & Companion Robotics,应用场景,deployed-at,ind-deepmind-robotics,Google DeepMind Robotics,产业,1
+app-healthcare-companion,Healthcare & Companion Robotics,应用场景,deployed-at,ind-hello-robot,Hello Robot,产业,1
+app-construction,Autonomous Construction Equipment,应用场景,deployed-at,ind-agility,Agility Robotics,产业,1
+app-construction,Autonomous Construction Equipment,应用场景,deployed-at,ind-booster,Booster Robotics,产业,1
+app-construction,Autonomous Construction Equipment,应用场景,deployed-at,ind-deepmind-robotics,Google DeepMind Robotics,产业,1
+app-construction,Autonomous Construction Equipment,应用场景,deployed-at,ind-hello-robot,Hello Robot,产业,1
+app-cleaning,Commercial Cleaning,应用场景,deployed-at,ind-hello-robot,Hello Robot,产业,1
+app-cleaning,Commercial Cleaning,应用场景,deployed-at,ind-pickle,Pickle Robot,产业,1
+app-cleaning,Commercial Cleaning,应用场景,deployed-at,ind-robot-era,Robot Era (星动纪元),产业,1
+app-cleaning,Commercial Cleaning,应用场景,deployed-at,stg-ind-inspire,Inspire-Robots (因时机器人),产业,1
+app-cleaning,Commercial Cleaning,应用场景,deployed-at,stg-ind-pudu,Pudu Robotics (普渡科技),产业,1
+app-cleaning,Commercial Cleaning,应用场景,deployed-at,f120,PUDU D7,整机平台,1
+app-cleaning,Commercial Cleaning,应用场景,deployed-at,f122,NEO BETA,整机平台,1
+app-cleaning,Commercial Cleaning,应用场景,deployed-at,f127,PUDU D9,整机平台,1
+app-cleaning,Commercial Cleaning,应用场景,deployed-at,f34,NEO Gamma,整机平台,1
+app-cleaning,Commercial Cleaning,应用场景,deployed-at,arm-elite-cs66,Elite Robots CS66,机械臂,1
+app-cleaning,Commercial Cleaning,应用场景,deployed-at,arm-elite-ec66,Elite Robots EC66,机械臂,1
+app-home-humanoid,Home Humanoid Pilots,应用场景,deployed-at,ind-1x,1X Technologies,产业,1
+app-home-humanoid,Home Humanoid Pilots,应用场景,deployed-at,f122,NEO BETA,整机平台,1
+app-home-humanoid,Home Humanoid Pilots,应用场景,deployed-at,f34,NEO Gamma,整机平台,1
+app-home-humanoid,Home Humanoid Pilots,应用场景,deployed-at,f68,R1 PRO,整机平台,1
+app-bimanual-housework,Bimanual Household Manipulation Research,应用场景,deployed-at,ind-deepmind-robotics,Google DeepMind Robotics,产业,1
+app-bimanual-housework,Bimanual Household Manipulation Research,应用场景,deployed-at,stg-ind-mechmind,Mech-Mind Robotics (梅卡曼德),产业,1
+app-education-stem,Education & STEM Robotics,应用场景,deployed-at,ind-agility,Agility Robotics,产业,1
+app-education-stem,Education & STEM Robotics,应用场景,deployed-at,ind-booster,Booster Robotics,产业,1
+app-education-stem,Education & STEM Robotics,应用场景,deployed-at,ind-deepmind-robotics,Google DeepMind Robotics,产业,1
+app-education-stem,Education & STEM Robotics,应用场景,deployed-at,ind-hello-robot,Hello Robot,产业,1
+app-education-stem,Education & STEM Robotics,应用场景,deployed-at,arm-fr3,Franka Research 3,机械臂,1
+vc1,Sequoia Capital,资本,invested-in,ind-agility,Agility Robotics,产业,0
+vc1,Sequoia Capital,资本,invested-in,ind-figure,Figure AI,产业,0
+vc1,Sequoia Capital,资本,invested-in,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+vc1,Sequoia Capital,资本,invested-in,ind-skild,Skild AI,产业,0
+ind1,NVIDIA Robotics,产业,competitor,ind-figure,Figure AI,产业,0
+ind1,NVIDIA Robotics,产业,manufacturer,sw-cosmos-predict,Cosmos Predict (World Foundation Model),基础模型,1
+ind1,NVIDIA Robotics,产业,manufacturer,sw-cosmos-reason,Cosmos Reason,基础模型,1
+ind1,NVIDIA Robotics,产业,manufacturer,sw-groot-n1,GR00T N1,基础模型,1
+ind1,NVIDIA Robotics,产业,manufacturer,sw-groot-n1-5,GR00T N1.5,基础模型,1
+ind1,NVIDIA Robotics,产业,manufacturer,sw3,Isaac Lab,算法框架,1
+ind1,NVIDIA Robotics,产业,manufacturer,sw-eureka,Eureka,评测基准,1
+ind1,NVIDIA Robotics,产业,manufacturer,sw-robocasa,RoboCasa,评测基准,1
+ind1,NVIDIA Robotics,产业,manufacturer,sw-roboeval,RoboEval,评测基准,1
+ind1,NVIDIA Robotics,产业,manufacturer,sw-cosmos-transfer,Cosmos Transfer,仿真平台,1
+ind1,NVIDIA Robotics,产业,manufacturer,sw-newton,Newton,仿真平台,1
+ind1,NVIDIA Robotics,产业,manufacturer,sw5,Isaac Sim,仿真平台,1
+ind1,NVIDIA Robotics,产业,manufacturer,cp-jetson-agx-thor,Jetson AGX Thor (T5000),计算平台,1
+ind1,NVIDIA Robotics,产业,manufacturer,cp-jetson-agx-xavier,Jetson AGX Xavier (legacy),计算平台,1
+ind1,NVIDIA Robotics,产业,manufacturer,cp-jetson-nano,Jetson Nano (legacy),计算平台,1
+lab1,Stanford AI Lab,实验室,affiliated-with,sw-vima,VIMA,基础模型,0
+ind-tesla-optimus,Tesla Optimus,产业,invested-in,stg-vc-ark-invest,ARK Invest,资本,1
+ind-tesla-optimus,Tesla Optimus,产业,manufacturer,f4,Optimus Gen 2,整机平台,1
+ind-tesla-optimus,Tesla Optimus,产业,manufacturer,f8,OPTIMUS,整机平台,1
+ind-tesla-optimus,Tesla Optimus,产业,manufacturer,f98,OPTIMUS V2.5,整机平台,1
+ind-figure,Figure AI,产业,competitor,ind1,NVIDIA Robotics,产业,0
+ind-figure,Figure AI,产业,invested-in,stg-vc-align-ventures,Align Ventures,资本,1
+ind-figure,Figure AI,产业,invested-in,stg-vc-ark-invest,ARK Invest,资本,1
+ind-figure,Figure AI,产业,invested-in,stg-vc-bezos-expeditions,Bezos Expeditions,资本,1
+ind-figure,Figure AI,产业,invested-in,stg-vc-brookfield,Brookfield Asset Management,资本,1
+ind-figure,Figure AI,产业,deployed-at,app-humanoid-manufacturing,Humanoid Manufacturing Assembly,应用场景,0
+ind-1x,1X Technologies,产业,invested-in,stg-vc-alliance-ventures,Alliance Ventures,资本,1
+ind-1x,1X Technologies,产业,invested-in,stg-vc-eqt-ventures,EQT Ventures,资本,1
+ind-1x,1X Technologies,产业,invested-in,stg-vc-nistad-group,Nistad Group,资本,1
+ind-1x,1X Technologies,产业,invested-in,stg-vc-openai-corp,OpenAI,资本,1
+ind-1x,1X Technologies,产业,invested-in,stg-vc-openai-startup-fund,OpenAI Startup Fund,资本,1
+ind-1x,1X Technologies,产业,invested-in,stg-vc-samsung-next,Samsung NEXT,资本,1
+ind-1x,1X Technologies,产业,invested-in,stg-vc-sandwater,Sandwater,资本,1
+ind-1x,1X Technologies,产业,invested-in,stg-vc-skagerak-capital,Skagerak Capital,资本,1
+ind-1x,1X Technologies,产业,invested-in,vc-tiger-global,Tiger Global Management,资本,1
+ind-1x,1X Technologies,产业,manufacturer,sw-1x-world-model,1X World Model,基础模型,1
+ind-1x,1X Technologies,产业,manufacturer,f122,NEO BETA,整机平台,1
+ind-1x,1X Technologies,产业,manufacturer,f21,EVE-3,整机平台,1
+ind-1x,1X Technologies,产业,manufacturer,f34,NEO Gamma,整机平台,1
+ind-1x,1X Technologies,产业,deployed-at,app-home-humanoid,Home Humanoid Pilots,应用场景,0
+ind-1x,1X Technologies,产业,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+ind-sanctuary,Sanctuary AI,产业,invested-in,stg-vc-bdc-capital,BDC Capital,资本,1
+ind-sanctuary,Sanctuary AI,产业,invested-in,stg-vc-bell,Bell,资本,1
+ind-sanctuary,Sanctuary AI,产业,invested-in,stg-vc-edc,Export Development Canada,资本,1
+ind-sanctuary,Sanctuary AI,产业,invested-in,stg-vc-evok-innovations,Evok Innovations,资本,1
+ind-sanctuary,Sanctuary AI,产业,invested-in,stg-vc-inbc,InBC Investment Corp.,资本,1
+ind-sanctuary,Sanctuary AI,产业,invested-in,stg-vc-magna,Magna,资本,1
+ind-sanctuary,Sanctuary AI,产业,invested-in,stg-vc-se-health,SE Health,资本,1
+ind-sanctuary,Sanctuary AI,产业,invested-in,stg-vc-verizon-ventures,Verizon Ventures,资本,1
+ind-sanctuary,Sanctuary AI,产业,invested-in,stg-vc-workday-ventures,Workday Ventures,资本,1
+ind-sanctuary,Sanctuary AI,产业,manufacturer,f118,PHOENIX,整机平台,1
+ind-sanctuary,Sanctuary AI,产业,manufacturer,h14,PHOENIX 3.2,灵巧手 & 夹爪,1
+ind-boston-dynamics,Boston Dynamics,产业,invested-in,stg-vc-softbank,SoftBank Group,资本,1
+ind-boston-dynamics,Boston Dynamics,产业,manufacturer,f29,ATLAS,整机平台,1
+ind-boston-dynamics,Boston Dynamics,产业,manufacturer,pwr-spot-battery,Spot Battery,能源动力,1
+ind-boston-dynamics,Boston Dynamics,产业,deployed-at,app-inspection,Industrial Inspection & Maintenance,应用场景,0
+ind-apptronik,Apptronik,产业,invested-in,stg-vc-att-ventures,AT&T Ventures,资本,1
+ind-apptronik,Apptronik,产业,invested-in,stg-vc-b-capital,B Capital,资本,1
+ind-apptronik,Apptronik,产业,invested-in,stg-vc-capital-factory,Capital Factory,资本,1
+ind-apptronik,Apptronik,产业,invested-in,stg-vc-john-deere,John Deere,资本,1
+ind-apptronik,Apptronik,产业,invested-in,stg-vc-mercedes-benz,Mercedes-Benz,资本,1
+ind-apptronik,Apptronik,产业,invested-in,stg-vc-peak6,Peak6,资本,1
+ind-apptronik,Apptronik,产业,invested-in,vc-gv,GV (Google Ventures),资本,1
+ind-apptronik,Apptronik,产业,manufacturer,f81,APPTRONIK APOLLO,整机平台,1
+ind-apptronik,Apptronik,产业,deployed-at,app-humanoid-manufacturing,Humanoid Manufacturing Assembly,应用场景,0
+ind-agility,Agility Robotics,产业,invested-in,stg-vc-amazon-industrial-innovation,Amazon Industrial Innovation Fund,资本,1
+ind-agility,Agility Robotics,产业,invested-in,stg-vc-dcvc,DCVC (Data Collective),资本,1
+ind-agility,Agility Robotics,产业,invested-in,stg-vc-itic,ITIC (Industrial Technology Investment Corporation),资本,1
+ind-agility,Agility Robotics,产业,invested-in,stg-vc-mfv-partners,MFV Partners,资本,1
+ind-agility,Agility Robotics,产业,manufacturer,f1,Memo,整机平台,1
+ind-agility,Agility Robotics,产业,manufacturer,f130,DIGIT,整机平台,1
+ind-agility,Agility Robotics,产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+ind-agility,Agility Robotics,产业,deployed-at,app-construction,Autonomous Construction Equipment,应用场景,0
+ind-agility,Agility Robotics,产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+ind-agility,Agility Robotics,产业,deployed-at,app-healthcare-companion,Healthcare & Companion Robotics,应用场景,0
+ind-unitree,Unitree Robotics (宇树科技),产业,invested-in,stg-vc-alibaba,Alibaba 阿里巴巴战投,资本,1
+ind-unitree,Unitree Robotics (宇树科技),产业,invested-in,stg-vc-china-mobile,China Mobile 中国移动,资本,1
+ind-unitree,Unitree Robotics (宇树科技),产业,invested-in,stg-vc-geely,Geely Capital 吉利资本,资本,1
+ind-unitree,Unitree Robotics (宇树科技),产业,invested-in,stg-vc-jinqiu,Jinqiu Capital 锦秋基金,资本,1
+ind-unitree,Unitree Robotics (宇树科技),产业,manufacturer,f140,G1,整机平台,1
+ind-unitree,Unitree Robotics (宇树科技),产业,manufacturer,f24,H2,整机平台,1
+ind-unitree,Unitree Robotics (宇树科技),产业,manufacturer,f84,UNITREE H1,整机平台,1
+ind-unitree,Unitree Robotics (宇树科技),产业,manufacturer,joint-unitree-a1,Unitree A1 Motor,关节模组,1
+ind-unitree,Unitree Robotics (宇树科技),产业,manufacturer,joint-unitree-go-m8010-6,Unitree GO-M8010-6,关节模组,1
+ind-unitree,Unitree Robotics (宇树科技),产业,manufacturer,pwr-unitree-h1-battery,Unitree H1 Battery Pack,能源动力,1
+ind-unitree,Unitree Robotics (宇树科技),产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+ind-unitree,Unitree Robotics (宇树科技),产业,deployed-at,app-construction,Autonomous Construction Equipment,应用场景,0
+ind-unitree,Unitree Robotics (宇树科技),产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+ind-unitree,Unitree Robotics (宇树科技),产业,deployed-at,app-healthcare-companion,Healthcare & Companion Robotics,应用场景,0
+ind-xpeng-robotics,XPENG Robotics (Iron),产业,invested-in,stg-vc-matrix-china,经纬创投 Matrix Partners China,资本,1
+ind-xpeng-robotics,XPENG Robotics (Iron),产业,manufacturer,f128,IRON,整机平台,1
+ind-xpeng-robotics,XPENG Robotics (Iron),产业,manufacturer,flagship-xpeng-iron-nextgen,Next-Gen IRON,整机平台,1
+ind-xpeng-robotics,XPENG Robotics (Iron),产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+ind-xpeng-robotics,XPENG Robotics (Iron),产业,deployed-at,app-construction,Autonomous Construction Equipment,应用场景,0
+ind-xpeng-robotics,XPENG Robotics (Iron),产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+ind-xpeng-robotics,XPENG Robotics (Iron),产业,deployed-at,app-healthcare-companion,Healthcare & Companion Robotics,应用场景,0
+ind-xpeng-robotics,XPENG Robotics (Iron),产业,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+ind-xpeng-robotics,XPENG Robotics (Iron),产业,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+ind-xpeng-robotics,XPENG Robotics (Iron),产业,deployed-at,app-warehouse,Warehouse Fulfillment,应用场景,0
+ind-agibot,AgiBot (智元机器人),产业,invested-in,stg-vc-bluerun,BlueRun Ventures 蓝驰创投,资本,1
+ind-agibot,AgiBot (智元机器人),产业,invested-in,stg-vc-china-mobile,China Mobile 中国移动,资本,1
+ind-agibot,AgiBot (智元机器人),产业,invested-in,stg-vc-huafa,Huafa Group 华发集团,资本,1
+ind-agibot,AgiBot (智元机器人),产业,invested-in,stg-vc-longcheer,Shanghai Longcheer Technology 龙旗科技,资本,1
+ind-agibot,AgiBot (智元机器人),产业,invested-in,stg-vc-tencent,Tencent Investment 腾讯投资,资本,1
+ind-agibot,AgiBot (智元机器人),产业,invested-in,stg-vc-wolong,Wolong Electric 卧龙电气,资本,1
+ind-agibot,AgiBot (智元机器人),产业,manufacturer,sw-agibot-go1,AgiBot GO-1 (Genie Operator-1),基础模型,1
+ind-agibot,AgiBot (智元机器人),产业,manufacturer,sw-agibot-world,AgiBot World (Colosseo),数据集,1
+ind-agibot,AgiBot (智元机器人),产业,manufacturer,f40,AGIBOT X1,整机平台,1
+ind-agibot,AgiBot (智元机器人),产业,manufacturer,f49,A2,整机平台,1
+ind-agibot,AgiBot (智元机器人),产业,manufacturer,f70,A2 MAX,整机平台,1
+ind-agibot,AgiBot (智元机器人),产业,manufacturer,f78,G2 GENIE,整机平台,1
+ind-agibot,AgiBot (智元机器人),产业,manufacturer,h11,OMNIHAND PRO,灵巧手 & 夹爪,1
+ind-agibot,AgiBot (智元机器人),产业,manufacturer,h17,OMNIHAND,灵巧手 & 夹爪,1
+ind-ubtech,UBTech (优必选),产业,invested-in,stg-vc-orinno,Orinno Capital 朗玛峰创投,资本,1
+ind-ubtech,UBTech (优必选),产业,manufacturer,f135,WALKER S1,整机平台,1
+ind-ubtech,UBTech (优必选),产业,manufacturer,f144,ALPHA,整机平台,1
+ind-ubtech,UBTech (优必选),产业,manufacturer,f65,CRUZR S2,整机平台,1
+ind-ubtech,UBTech (优必选),产业,manufacturer,f69,WALKER S2,整机平台,1
+ind-ubtech,UBTech (优必选),产业,manufacturer,f82,WALKER C,整机平台,1
+ind-fourier,Fourier Intelligence (傅利叶智能),产业,invested-in,stg-vc-visionplus,VisionPlus Capital 元璟资本,资本,1
+ind-fourier,Fourier Intelligence (傅利叶智能),产业,manufacturer,f42,GR-2,整机平台,1
+ind-fourier,Fourier Intelligence (傅利叶智能),产业,manufacturer,f86,GR-1,整机平台,1
+ind-fourier,Fourier Intelligence (傅利叶智能),产业,manufacturer,j1,FSA Actuator,关节模组,1
+ind-robot-era,Robot Era (星动纪元),产业,invested-in,stg-vc-alibaba,Alibaba 阿里巴巴战投,资本,1
+ind-robot-era,Robot Era (星动纪元),产业,invested-in,stg-vc-baic-capital,BAIC Capital 北汽产投,资本,1
+ind-robot-era,Robot Era (星动纪元),产业,invested-in,stg-vc-bj-robot-fund,北京机器人产业发展投资基金 Beijing Robot Industry Fund,资本,1
+ind-robot-era,Robot Era (星动纪元),产业,invested-in,stg-vc-cdh,CDH Investments 鼎晖投资,资本,1
+ind-robot-era,Robot Era (星动纪元),产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+ind-robot-era,Robot Era (星动纪元),产业,deployed-at,app-cleaning,Commercial Cleaning,应用场景,0
+ind-robot-era,Robot Era (星动纪元),产业,deployed-at,app-construction,Autonomous Construction Equipment,应用场景,0
+ind-robot-era,Robot Era (星动纪元),产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+ind-galbot,Galbot (银河通用),产业,invested-in,stg-vc-baic-capital,BAIC Capital 北汽产投,资本,1
+ind-galbot,Galbot (银河通用),产业,invested-in,stg-vc-beijing-ai-fund,Beijing AI Industry Investment Fund 北京人工智能产业投资基金,资本,1
+ind-galbot,Galbot (银河通用),产业,invested-in,stg-vc-bj-robot-fund,北京机器人产业发展投资基金 Beijing Robot Industry Fund,资本,1
+ind-galbot,Galbot (银河通用),产业,invested-in,stg-vc-bluerun,BlueRun Ventures 蓝驰创投,资本,1
+ind-galbot,Galbot (银河通用),产业,invested-in,stg-vc-catl,CATL 宁德时代,资本,1
+ind-galbot,Galbot (银河通用),产业,invested-in,stg-vc-cdb-capital,CDB Capital 国开金融,资本,1
+ind-galbot,Galbot (银河通用),产业,invested-in,stg-vc-iflytek-fund,iFlytek Industry Fund 科大讯飞产业基金,资本,1
+ind-galbot,Galbot (银河通用),产业,invested-in,stg-vc-lighthouse-capital,Lighthouse Capital 光源资本,资本,1
+ind-galbot,Galbot (银河通用),产业,invested-in,stg-vc-meituan,Meituan Strategy 美团战投,资本,1
+ind-galbot,Galbot (银河通用),产业,invested-in,stg-vc-qiming,启明创投 Qiming Venture Partners,资本,1
+ind-galbot,Galbot (银河通用),产业,invested-in,stg-vc-sense-capital,SenseTime Guoxiang Capital 商汤国香资本,资本,1
+ind-galbot,Galbot (银河通用),产业,invested-in,vc-ggv,GGV Capital / Granite Asia,资本,1
+ind-galbot,Galbot (银河通用),产业,manufacturer,f110,GALBOT,整机平台,1
+ind-galbot,Galbot (银河通用),产业,manufacturer,f111,GALBOT S1,整机平台,1
+ind-galbot,Galbot (银河通用),产业,manufacturer,flagship-galbot-g1,Galbot G1,整机平台,1
+ind-booster,Booster Robotics,产业,invested-in,stg-vc-beijing-ai-fund,Beijing AI Industry Investment Fund 北京人工智能产业投资基金,资本,1
+ind-booster,Booster Robotics,产业,invested-in,stg-vc-bj-robot-fund,北京机器人产业发展投资基金 Beijing Robot Industry Fund,资本,1
+ind-booster,Booster Robotics,产业,invested-in,stg-vc-innoangel,Innoangel Fund 英诺天使基金,资本,1
+ind-booster,Booster Robotics,产业,invested-in,stg-vc-jinding,Jinding Capital 金鼎资本,资本,1
+ind-booster,Booster Robotics,产业,invested-in,stg-vc-qiming,启明创投 Qiming Venture Partners,资本,1
+ind-booster,Booster Robotics,产业,invested-in,stg-vc-scg,深圳市创新投资集团 Shenzhen Capital Group,资本,1
+ind-booster,Booster Robotics,产业,invested-in,vc-source-code,Source Code Capital 源码资本,资本,1
+ind-booster,Booster Robotics,产业,manufacturer,f38,BOOSTER T1,整机平台,1
+ind-booster,Booster Robotics,产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+ind-booster,Booster Robotics,产业,deployed-at,app-construction,Autonomous Construction Equipment,应用场景,0
+ind-booster,Booster Robotics,产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+ind-booster,Booster Robotics,产业,deployed-at,app-healthcare-companion,Healthcare & Companion Robotics,应用场景,0
+ind-booster,Booster Robotics,产业,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+ind-booster,Booster Robotics,产业,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+ind-booster,Booster Robotics,产业,deployed-at,app-warehouse,Warehouse Fulfillment,应用场景,0
+ind-limx,LimX Dynamics,产业,invested-in,stg-vc-alibaba,Alibaba 阿里巴巴战投,资本,1
+ind-limx,LimX Dynamics,产业,invested-in,stg-vc-costone,CoStone Capital 基石资本,资本,1
+ind-limx,LimX Dynamics,产业,invested-in,stg-vc-jd,JD.com 京东,资本,1
+ind-limx,LimX Dynamics,产业,invested-in,stg-vc-kyland,Kyland Technology 东土科技,资本,1
+ind-limx,LimX Dynamics,产业,invested-in,stg-vc-nrb,NRB Corp. (Changzhou) 常州光阳轴承,资本,1
+ind-limx,LimX Dynamics,产业,invested-in,stg-vc-oriental-fortune,Oriental Fortune Capital 东方富海,资本,1
+ind-limx,LimX Dynamics,产业,invested-in,stg-vc-stone-venture,Stone Venture,资本,1
+ind-limx,LimX Dynamics,产业,invested-in,stg-vc-zhongding,Zhongding Sealing Parts 中鼎股份,资本,1
+ind-limx,LimX Dynamics,产业,manufacturer,f132,LIMX CL,整机平台,1
+ind-limx,LimX Dynamics,产业,manufacturer,f15,P1S,整机平台,1
+ind-limx,LimX Dynamics,产业,manufacturer,f2,Oli,整机平台,1
+ind-limx,LimX Dynamics,产业,manufacturer,f25,TRON,整机平台,1
+ind-limx,LimX Dynamics,产业,manufacturer,f73,LIMX OLI,整机平台,1
+ind-limx,LimX Dynamics,产业,manufacturer,h47,MAGICAND S01,灵巧手 & 夹爪,1
+ind-limx,LimX Dynamics,产业,deployed-at,app-inspection,Industrial Inspection & Maintenance,应用场景,0
+ind-pal-robotics,PAL Robotics,产业,manufacturer,f43,KANGAROO,整机平台,1
+ind-pal-robotics,PAL Robotics,产业,manufacturer,sw-ros2-control-framework,ros2_control (Framework),算法框架,1
+ind-pal-robotics,PAL Robotics,产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+ind-pal-robotics,PAL Robotics,产业,deployed-at,app-construction,Autonomous Construction Equipment,应用场景,0
+ind-pal-robotics,PAL Robotics,产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+ind-pal-robotics,PAL Robotics,产业,deployed-at,app-healthcare-companion,Healthcare & Companion Robotics,应用场景,0
+ind-pal-robotics,PAL Robotics,产业,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+ind-pal-robotics,PAL Robotics,产业,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+ind-pal-robotics,PAL Robotics,产业,deployed-at,app-warehouse,Warehouse Fulfillment,应用场景,0
+ind-tri,Toyota Research Institute (TRI),产业,manufacturer,sw-droid,DROID,数据集,1
+ind-tri,Toyota Research Institute (TRI),产业,manufacturer,sw-diffusion-policy,Diffusion Policy,控制算法,1
+ind-tri,Toyota Research Institute (TRI),产业,manufacturer,sw-drake,Drake,仿真平台,1
+ind-tri,Toyota Research Institute (TRI),产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+ind-anybotics,ANYbotics,产业,invested-in,vc-bessemer,Bessemer Venture Partners,资本,1
+ind-anybotics,ANYbotics,产业,deployed-at,app-inspection,Industrial Inspection & Maintenance,应用场景,0
+ind-physical-intelligence,Physical Intelligence (Pi),产业,invested-in,stg-vc-bezos-expeditions,Bezos Expeditions,资本,1
+ind-physical-intelligence,Physical Intelligence (Pi),产业,invested-in,stg-vc-bond,Bond,资本,1
+ind-physical-intelligence,Physical Intelligence (Pi),产业,invested-in,stg-vc-capitalg,CapitalG,资本,1
+ind-physical-intelligence,Physical Intelligence (Pi),产业,invested-in,stg-vc-index-ventures,Index Ventures,资本,1
+ind-physical-intelligence,Physical Intelligence (Pi),产业,invested-in,stg-vc-openai-corp,OpenAI,资本,1
+ind-physical-intelligence,Physical Intelligence (Pi),产业,invested-in,stg-vc-openai-startup-fund,OpenAI Startup Fund,资本,1
+ind-physical-intelligence,Physical Intelligence (Pi),产业,invested-in,stg-vc-redpoint,Redpoint Ventures,资本,1
+ind-physical-intelligence,Physical Intelligence (Pi),产业,invested-in,stg-vc-t-rowe-price,T. Rowe Price,资本,1
+ind-physical-intelligence,Physical Intelligence (Pi),产业,invested-in,stg-vc-thrive,Thrive Capital,资本,1
+ind-physical-intelligence,Physical Intelligence (Pi),产业,invested-in,vc-khosla,Khosla Ventures,资本,1
+ind-physical-intelligence,Physical Intelligence (Pi),产业,invested-in,vc-lux,Lux Capital,资本,1
+ind-physical-intelligence,Physical Intelligence (Pi),产业,invested-in,vc1,Sequoia Capital,资本,1
+ind-physical-intelligence,Physical Intelligence (Pi),产业,manufacturer,sw-pi0,π0 (Pi-Zero),基础模型,1
+ind-physical-intelligence,Physical Intelligence (Pi),产业,manufacturer,sw-pi0-fast,π0-FAST,基础模型,1
+ind-physical-intelligence,Physical Intelligence (Pi),产业,manufacturer,sw-pi05,π0.5,基础模型,1
+ind-deepmind-robotics,Google DeepMind Robotics,产业,manufacturer,sw-bcz-fm,BC-Z (Model),基础模型,1
+ind-deepmind-robotics,Google DeepMind Robotics,产业,manufacturer,sw-dreamerv3,DreamerV3,基础模型,1
+ind-deepmind-robotics,Google DeepMind Robotics,产业,manufacturer,sw-genie-2,Genie 2,基础模型,1
+ind-deepmind-robotics,Google DeepMind Robotics,产业,manufacturer,sw-genie-3,Genie 3,基础模型,1
+ind-deepmind-robotics,Google DeepMind Robotics,产业,manufacturer,sw-bc-z,BC-Z Dataset,数据集,1
+ind-deepmind-robotics,Google DeepMind Robotics,产业,manufacturer,sw-language-table,Language Table,数据集,1
+ind-deepmind-robotics,Google DeepMind Robotics,产业,manufacturer,sw-robovqa,RoboVQA,数据集,1
+ind-deepmind-robotics,Google DeepMind Robotics,产业,manufacturer,sw7,Open X-Embodiment,数据集,1
+ind-deepmind-robotics,Google DeepMind Robotics,产业,manufacturer,sw-mjpc,MuJoCo MPC (MJPC),算法框架,1
+ind-deepmind-robotics,Google DeepMind Robotics,产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+ind-deepmind-robotics,Google DeepMind Robotics,产业,deployed-at,app-bimanual-housework,Bimanual Household Manipulation Research,应用场景,0
+ind-deepmind-robotics,Google DeepMind Robotics,产业,deployed-at,app-construction,Autonomous Construction Equipment,应用场景,0
+ind-deepmind-robotics,Google DeepMind Robotics,产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+ind-skild,Skild AI,产业,invested-in,stg-vc-alexa-fund,Amazon Alexa Fund,资本,1
+ind-skild,Skild AI,产业,invested-in,stg-vc-amazon-industrial-innovation,Amazon Industrial Innovation Fund,资本,1
+ind-skild,Skild AI,产业,invested-in,stg-vc-bezos-expeditions,Bezos Expeditions,资本,1
+ind-skild,Skild AI,产业,invested-in,stg-vc-coatue,Coatue,资本,1
+ind-skild,Skild AI,产业,invested-in,stg-vc-crv,CRV,资本,1
+ind-skild,Skild AI,产业,invested-in,stg-vc-felicis,Felicis Ventures,资本,1
+ind-skild,Skild AI,产业,invested-in,stg-vc-general-catalyst,General Catalyst,资本,1
+ind-skild,Skild AI,产业,invested-in,stg-vc-lightspeed,Lightspeed Venture Partners,资本,1
+ind-skild,Skild AI,产业,invested-in,stg-vc-menlo-ventures,Menlo Ventures,资本,1
+ind-skild,Skild AI,产业,invested-in,stg-vc-softbank,SoftBank Group,资本,1
+ind-skild,Skild AI,产业,invested-in,stg-vc-sv-angel,SV Angel,资本,1
+ind-skild,Skild AI,产业,invested-in,vc1,Sequoia Capital,资本,1
+ind-skild,Skild AI,产业,affiliated-with,lab-cmu-ri,CMU Robotics Institute,实验室,0
+ind-skild,Skild AI,产业,manufacturer,sw-skild-brain,Skild Brain,基础模型,1
+ind-pickle,Pickle Robot,产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+ind-pickle,Pickle Robot,产业,deployed-at,app-cleaning,Commercial Cleaning,应用场景,0
+ind-pickle,Pickle Robot,产业,deployed-at,app-construction,Autonomous Construction Equipment,应用场景,0
+ind-pickle,Pickle Robot,产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+ind-pickle,Pickle Robot,产业,deployed-at,app-healthcare-companion,Healthcare & Companion Robotics,应用场景,0
+ind-pickle,Pickle Robot,产业,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+ind-pickle,Pickle Robot,产业,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+ind-pickle,Pickle Robot,产业,deployed-at,app-warehouse,Warehouse Fulfillment,应用场景,0
+ind-hello-robot,Hello Robot,产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+ind-hello-robot,Hello Robot,产业,deployed-at,app-cleaning,Commercial Cleaning,应用场景,0
+ind-hello-robot,Hello Robot,产业,deployed-at,app-construction,Autonomous Construction Equipment,应用场景,0
+ind-hello-robot,Hello Robot,产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+ind-hello-robot,Hello Robot,产业,deployed-at,app-healthcare-companion,Healthcare & Companion Robotics,应用场景,0
+ind-hello-robot,Hello Robot,产业,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+ind-hello-robot,Hello Robot,产业,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+ind-hello-robot,Hello Robot,产业,deployed-at,app-warehouse,Warehouse Fulfillment,应用场景,0
+vc-a16z,Andreessen Horowitz (a16z),资本,invested-in,ind-agility,Agility Robotics,产业,0
+vc-khosla,Khosla Ventures,资本,invested-in,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+vc-lux,Lux Capital,资本,invested-in,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+vc-bessemer,Bessemer Venture Partners,资本,invested-in,ind-anybotics,ANYbotics,产业,0
+vc-gv,GV (Google Ventures),资本,invested-in,ind-apptronik,Apptronik,产业,0
+vc-tiger-global,Tiger Global Management,资本,invested-in,ind-1x,1X Technologies,产业,0
+vc-ggv,GGV Capital / Granite Asia,资本,invested-in,ind-galbot,Galbot (银河通用),产业,0
+vc-hongshan,HongShan 红杉中国 (Sequoia China),资本,invested-in,ind-unitree,Unitree Robotics (宇树科技),产业,0
+vc-idg,IDG Capital,资本,invested-in,ind-galbot,Galbot (银河通用),产业,0
+vc-source-code,Source Code Capital 源码资本,资本,invested-in,ind-booster,Booster Robotics,产业,0
+vc-source-code,Source Code Capital 源码资本,资本,invested-in,ind-galbot,Galbot (银河通用),产业,0
+vc-source-code,Source Code Capital 源码资本,资本,invested-in,ind-unitree,Unitree Robotics (宇树科技),产业,0
+vc-source-code,Source Code Capital 源码资本,资本,invested-in,stg-ind-mechmind,Mech-Mind Robotics (梅卡曼德),产业,0
+lab-sail,Stanford SAIL,实验室,affiliated-with,sw-bcz-fm,BC-Z (Model),基础模型,0
+lab-sail,Stanford SAIL,实验室,affiliated-with,sw-octo,Octo,基础模型,0
+lab-sail,Stanford SAIL,实验室,affiliated-with,sw-pi0,π0 (Pi-Zero),基础模型,0
+lab-sail,Stanford SAIL,实验室,affiliated-with,sw-pi0-fast,π0-FAST,基础模型,0
+lab-sail,Stanford SAIL,实验室,affiliated-with,sw-bc-z,BC-Z Dataset,数据集,0
+lab-sail,Stanford SAIL,实验室,affiliated-with,sw-bridgedata-v2,BridgeData V2,数据集,0
+lab-sail,Stanford SAIL,实验室,affiliated-with,sw-droid,DROID,数据集,0
+lab-sail,Stanford SAIL,实验室,affiliated-with,sw-mobile-aloha,Mobile ALOHA Dataset,数据集,0
+lab-sail,Stanford SAIL,实验室,affiliated-with,sw4,RoboMimic,算法框架,0
+lab-sail,Stanford SAIL,实验室,affiliated-with,sw-behavior-1k,BEHAVIOR-1K,评测基准,0
+lab-sail,Stanford SAIL,实验室,affiliated-with,sw-meta-world,Meta-World,评测基准,0
+lab-sail,Stanford SAIL,实验室,affiliated-with,sw-roboarena,RoboArena,评测基准,0
+lab-sail,Stanford SAIL,实验室,affiliated-with,sw-simplerenv,SimplerEnv (SIMPLER),评测基准,0
+lab-sail,Stanford SAIL,实验室,affiliated-with,sw-act,ACT (Action Chunking with Transformers),控制算法,0
+lab-sail,Stanford SAIL,实验室,affiliated-with,sw-wbc-sentis,Whole-Body Control (Operational-Space),控制算法,0
+lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,affiliated-with,sw-bcz-fm,BC-Z (Model),基础模型,0
+lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,affiliated-with,sw-daydreamer,DayDreamer,基础模型,0
+lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,affiliated-with,sw-octo,Octo,基础模型,0
+lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,affiliated-with,sw-pi0,π0 (Pi-Zero),基础模型,0
+lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,affiliated-with,sw-bc-z,BC-Z Dataset,数据集,0
+lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,affiliated-with,sw-berkeley-ur5,Berkeley UR5 Demonstration Dataset,数据集,0
+lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,affiliated-with,sw-bridgedata-v2,BridgeData V2,数据集,0
+lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,affiliated-with,sw-droid,DROID,数据集,0
+lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,affiliated-with,sw-meta-world,Meta-World,评测基准,0
+lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,affiliated-with,sw-roboarena,RoboArena,评测基准,0
+lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,affiliated-with,sw-simplerenv,SimplerEnv (SIMPLER),评测基准,0
+lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,affiliated-with,sw-act,ACT (Action Chunking with Transformers),控制算法,0
+lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,affiliated-with,sw-sac-minitaur,SAC for Legged Locomotion,控制算法,0
+lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,related,teleop-gello,GELLO,数采 & 遥操,0
+lab-mit-csail,MIT CSAIL,实验室,affiliated-with,sw-gensim,GenSim,评测基准,0
+lab-mit-csail,MIT CSAIL,实验室,affiliated-with,sw-robogen,RoboGen,评测基准,0
+lab-mit-csail,MIT CSAIL,实验室,affiliated-with,sw-diffusion-policy,Diffusion Policy,控制算法,0
+lab-mit-csail,MIT CSAIL,实验室,affiliated-with,sw-drake,Drake,仿真平台,0
+lab-mit-csail,MIT CSAIL,实验室,affiliated-with,sw-genesis,Genesis,仿真平台,0
+lab-cmu-ri,CMU Robotics Institute,实验室,affiliated-with,ind-skild,Skild AI,产业,0
+lab-cmu-ri,CMU Robotics Institute,实验室,affiliated-with,sw-octo,Octo,基础模型,0
+lab-cmu-ri,CMU Robotics Institute,实验室,affiliated-with,sw-robonet,RoboNet,数据集,0
+lab-cmu-ri,CMU Robotics Institute,实验室,affiliated-with,sw-robogen,RoboGen,评测基准,0
+lab-nyu-grail,NYU GRAIL (General Robotics & AI Lab),实验室,related,h4,HUMA,灵巧手 & 夹爪,0
+lab-eth-rsl,ETH Zurich Robotic Systems Lab (RSL),实验室,affiliated-with,sw-anymal-rl,ANYmal RL Locomotion Controller,控制算法,0
+lab-eth-rsl,ETH Zurich Robotic Systems Lab (RSL),实验室,affiliated-with,sw-ocs2,OCS2,控制算法,0
+lab-tsinghua-tea,Tsinghua Embodied AI Lab (TEA Lab),实验室,affiliated-with,sw-cogact,CogACT,基础模型,0
+lab-tsinghua-tea,Tsinghua Embodied AI Lab (TEA Lab),实验室,affiliated-with,sw-rdt-1b,RDT-1B,基础模型,0
+lab-tsinghua-tea,Tsinghua Embodied AI Lab (TEA Lab),实验室,affiliated-with,sw-roboflamingo,RoboFlamingo,基础模型,0
+lab-tsinghua-tea,Tsinghua Embodied AI Lab (TEA Lab),实验室,affiliated-with,sw-gensim,GenSim,评测基准,0
+lab-tsinghua-tea,Tsinghua Embodied AI Lab (TEA Lab),实验室,affiliated-with,sw-robogen,RoboGen,评测基准,0
+lab-shanghai-ailab,Shanghai AI Lab — Embodied AI Center 上海人工智能实验室,实验室,affiliated-with,sw-agibot-world,AgiBot World (Colosseo),数据集,0
+lab-usc-lira,USC LIRA Lab (Learning & Interactive Robot Autonomy),实验室,affiliated-with,sw-furniturebench,FurnitureBench,评测基准,0
+lab-kaist-hubo,KAIST HUBO Lab,实验室,affiliated-with,sw-furniturebench,FurnitureBench,评测基准,0
+lab-kaist-hubo,KAIST HUBO Lab,实验室,affiliated-with,sw-centroidal-dynamics,Centroidal Dynamics,控制算法,0
+lab-gatech-irim,Georgia Tech IRIM,实验室,affiliated-with,sw-habitat2,Habitat 2.0 (HAB),评测基准,0
+lab-imperial-prl,Imperial College Personal Robotics Lab,实验室,affiliated-with,sw-rlbench,RLBench,评测基准,0
+lab-upenn-grasp,UPenn GRASP Lab,实验室,affiliated-with,sw-robonet,RoboNet,数据集,0
+lab-upenn-grasp,UPenn GRASP Lab,实验室,affiliated-with,sw-eureka,Eureka,评测基准,0
+stg-ind-leju,Leju Robotics (乐聚机器人),产业,manufacturer,f123,XTRON KUAVO-MY,整机平台,1
+stg-ind-leju,Leju Robotics (乐聚机器人),产业,manufacturer,f39,KUAVO-S,整机平台,1
+stg-ind-leju,Leju Robotics (乐聚机器人),产业,manufacturer,f56,ROBAN 2,整机平台,1
+stg-ind-leju,Leju Robotics (乐聚机器人),产业,manufacturer,f61,KUAVO-MY,整机平台,1
+stg-ind-leju,Leju Robotics (乐聚机器人),产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+stg-ind-leju,Leju Robotics (乐聚机器人),产业,deployed-at,app-construction,Autonomous Construction Equipment,应用场景,0
+stg-ind-leju,Leju Robotics (乐聚机器人),产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+stg-ind-leju,Leju Robotics (乐聚机器人),产业,deployed-at,app-healthcare-companion,Healthcare & Companion Robotics,应用场景,0
+stg-ind-leju,Leju Robotics (乐聚机器人),产业,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+stg-ind-leju,Leju Robotics (乐聚机器人),产业,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+stg-ind-leju,Leju Robotics (乐聚机器人),产业,deployed-at,app-warehouse,Warehouse Fulfillment,应用场景,0
+stg-ind-engineai,EngineAI (众擎机器人),产业,invested-in,stg-vc-jd,JD.com 京东,资本,1
+stg-ind-engineai,EngineAI (众擎机器人),产业,manufacturer,f106,SE01,整机平台,1
+stg-ind-engineai,EngineAI (众擎机器人),产业,manufacturer,f44,PM01,整机平台,1
+stg-ind-engineai,EngineAI (众擎机器人),产业,manufacturer,f50,SA02,整机平台,1
+stg-ind-engineai,EngineAI (众擎机器人),产业,manufacturer,f67,T800,整机平台,1
+stg-ind-kepler,Kepler Robotics (开普勒机器人),产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+stg-ind-kepler,Kepler Robotics (开普勒机器人),产业,deployed-at,app-construction,Autonomous Construction Equipment,应用场景,0
+stg-ind-kepler,Kepler Robotics (开普勒机器人),产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+stg-ind-kepler,Kepler Robotics (开普勒机器人),产业,deployed-at,app-healthcare-companion,Healthcare & Companion Robotics,应用场景,0
+stg-ind-kepler,Kepler Robotics (开普勒机器人),产业,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+stg-ind-kepler,Kepler Robotics (开普勒机器人),产业,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+stg-ind-kepler,Kepler Robotics (开普勒机器人),产业,deployed-at,app-warehouse,Warehouse Fulfillment,应用场景,0
+stg-ind-pndbotics,PNDbotics,产业,manufacturer,f12,ADAM G0,整机平台,1
+stg-ind-pndbotics,PNDbotics,产业,manufacturer,f124,ADAM LITE,整机平台,1
+stg-ind-noetix,Noetix Robotics (松延动力),产业,manufacturer,f32,DORA,整机平台,1
+stg-ind-noetix,Noetix Robotics (松延动力),产业,manufacturer,f77,HOBBS,整机平台,1
+stg-ind-noetix,Noetix Robotics (松延动力),产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+stg-ind-noetix,Noetix Robotics (松延动力),产业,deployed-at,app-construction,Autonomous Construction Equipment,应用场景,0
+stg-ind-noetix,Noetix Robotics (松延动力),产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+stg-ind-noetix,Noetix Robotics (松延动力),产业,deployed-at,app-healthcare-companion,Healthcare & Companion Robotics,应用场景,0
+stg-ind-noetix,Noetix Robotics (松延动力),产业,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+stg-ind-noetix,Noetix Robotics (松延动力),产业,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+stg-ind-noetix,Noetix Robotics (松延动力),产业,deployed-at,app-warehouse,Warehouse Fulfillment,应用场景,0
+stg-ind-magiclab,MagicLab (魔法原子),产业,manufacturer,f30,MAGICBOT,整机平台,1
+stg-ind-magiclab,MagicLab (魔法原子),产业,manufacturer,h47,MAGICAND S01,灵巧手 & 夹爪,1
+stg-ind-matrix,Matrix Robotics (矩阵超智),产业,manufacturer,f22,MATRIX 1,整机平台,1
+stg-ind-matrix,Matrix Robotics (矩阵超智),产业,manufacturer,f96,MATRIX 4,整机平台,1
+stg-ind-matrix,Matrix Robotics (矩阵超智),产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+stg-ind-matrix,Matrix Robotics (矩阵超智),产业,deployed-at,app-construction,Autonomous Construction Equipment,应用场景,0
+stg-ind-matrix,Matrix Robotics (矩阵超智),产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+stg-ind-matrix,Matrix Robotics (矩阵超智),产业,deployed-at,app-healthcare-companion,Healthcare & Companion Robotics,应用场景,0
+stg-ind-matrix,Matrix Robotics (矩阵超智),产业,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+stg-ind-matrix,Matrix Robotics (矩阵超智),产业,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+stg-ind-matrix,Matrix Robotics (矩阵超智),产业,deployed-at,app-warehouse,Warehouse Fulfillment,应用场景,0
+stg-ind-lumos,Lumos Robotics (光魔机器人),产业,manufacturer,f37,LUS2,整机平台,1
+stg-ind-lumos,Lumos Robotics (光魔机器人),产业,manufacturer,f60,NIX,整机平台,1
+stg-ind-lumos,Lumos Robotics (光魔机器人),产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+stg-ind-lumos,Lumos Robotics (光魔机器人),产业,deployed-at,app-construction,Autonomous Construction Equipment,应用场景,0
+stg-ind-lumos,Lumos Robotics (光魔机器人),产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+stg-ind-lumos,Lumos Robotics (光魔机器人),产业,deployed-at,app-healthcare-companion,Healthcare & Companion Robotics,应用场景,0
+stg-ind-lumos,Lumos Robotics (光魔机器人),产业,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+stg-ind-lumos,Lumos Robotics (光魔机器人),产业,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+stg-ind-lumos,Lumos Robotics (光魔机器人),产业,deployed-at,app-warehouse,Warehouse Fulfillment,应用场景,0
+stg-ind-xhumanoid,X-Humanoid (北京人形机器人创新中心),产业,manufacturer,f41,TIAN YI 2.0,整机平台,1
+stg-ind-phybot,Phybot (北京动易科技),产业,manufacturer,f138,PHYBOT C1,整机平台,1
+stg-ind-phybot,Phybot (北京动易科技),产业,manufacturer,f52,PHYBOT M1,整机平台,1
+stg-ind-pudu,Pudu Robotics (普渡科技),产业,manufacturer,f120,PUDU D7,整机平台,1
+stg-ind-pudu,Pudu Robotics (普渡科技),产业,manufacturer,f127,PUDU D9,整机平台,1
+stg-ind-pudu,Pudu Robotics (普渡科技),产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+stg-ind-pudu,Pudu Robotics (普渡科技),产业,deployed-at,app-cleaning,Commercial Cleaning,应用场景,0
+stg-ind-pudu,Pudu Robotics (普渡科技),产业,deployed-at,app-construction,Autonomous Construction Equipment,应用场景,0
+stg-ind-pudu,Pudu Robotics (普渡科技),产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+stg-ind-pudu,Pudu Robotics (普渡科技),产业,deployed-at,app-healthcare-companion,Healthcare & Companion Robotics,应用场景,0
+stg-ind-pudu,Pudu Robotics (普渡科技),产业,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+stg-ind-pudu,Pudu Robotics (普渡科技),产业,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+stg-ind-pudu,Pudu Robotics (普渡科技),产业,deployed-at,app-warehouse,Warehouse Fulfillment,应用场景,0
+stg-ind-dobot,Dobot Robotics (越疆科技),产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+stg-ind-dobot,Dobot Robotics (越疆科技),产业,deployed-at,app-construction,Autonomous Construction Equipment,应用场景,0
+stg-ind-dobot,Dobot Robotics (越疆科技),产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+stg-ind-dobot,Dobot Robotics (越疆科技),产业,deployed-at,app-healthcare-companion,Healthcare & Companion Robotics,应用场景,0
+stg-ind-dobot,Dobot Robotics (越疆科技),产业,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+stg-ind-dobot,Dobot Robotics (越疆科技),产业,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+stg-ind-dobot,Dobot Robotics (越疆科技),产业,deployed-at,app-warehouse,Warehouse Fulfillment,应用场景,0
+stg-ind-elephant,Elephant Robotics (大象机器人),产业,manufacturer,f93,Mercury X1,整机平台,1
+stg-ind-elephant,Elephant Robotics (大象机器人),产业,manufacturer,a6,ultraArm P340,机械臂,1
+stg-ind-elephant,Elephant Robotics (大象机器人),产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+stg-ind-elephant,Elephant Robotics (大象机器人),产业,deployed-at,app-construction,Autonomous Construction Equipment,应用场景,0
+stg-ind-elephant,Elephant Robotics (大象机器人),产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+stg-ind-elephant,Elephant Robotics (大象机器人),产业,deployed-at,app-healthcare-companion,Healthcare & Companion Robotics,应用场景,0
+stg-ind-elephant,Elephant Robotics (大象机器人),产业,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+stg-ind-elephant,Elephant Robotics (大象机器人),产业,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+stg-ind-elephant,Elephant Robotics (大象机器人),产业,deployed-at,app-warehouse,Warehouse Fulfillment,应用场景,0
+stg-ind-robstride,RobStride Dynamics (灵足时代),产业,manufacturer,joint-robstride-01,Robstride 01,关节模组,1
+stg-ind-robstride,RobStride Dynamics (灵足时代),产业,manufacturer,joint-robstride-02,Robstride 02,关节模组,1
+stg-ind-robstride,RobStride Dynamics (灵足时代),产业,manufacturer,joint-robstride-03,Robstride 03,关节模组,1
+stg-ind-robstride,RobStride Dynamics (灵足时代),产业,manufacturer,joint-robstride-04,Robstride 04,关节模组,1
+stg-ind-robstride,RobStride Dynamics (灵足时代),产业,manufacturer,joint-robstride-06,Robstride 06,关节模组,1
+stg-ind-robstride,RobStride Dynamics (灵足时代),产业,deployed-at,app-inspection,Industrial Inspection & Maintenance,应用场景,0
+stg-ind-inspire,Inspire-Robots (因时机器人),产业,deployed-at,app-cleaning,Commercial Cleaning,应用场景,0
+stg-ind-inspire,Inspire-Robots (因时机器人),产业,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+stg-ind-inspire,Inspire-Robots (因时机器人),产业,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+stg-ind-inspire,Inspire-Robots (因时机器人),产业,deployed-at,app-warehouse,Warehouse Fulfillment,应用场景,0
+stg-ind-paxini,PaXini Tech (帕西尼感知),产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+stg-ind-paxini,PaXini Tech (帕西尼感知),产业,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+stg-ind-steadywin,SteadyWin,产业,manufacturer,joint-steadywin-gim6010-8,SteadyWin GIM6010-8,关节模组,1
+stg-ind-steadywin,SteadyWin,产业,manufacturer,joint-steadywin-gim8108-8,SteadyWin GIM8108-8,关节模组,1
+stg-ind-steadywin,SteadyWin,产业,manufacturer,joint-steadywin-gim8115-6,SteadyWin GIM8115-6,关节模组,1
+stg-ind-mechmind,Mech-Mind Robotics (梅卡曼德),产业,invested-in,vc-source-code,Source Code Capital 源码资本,资本,1
+stg-ind-mechmind,Mech-Mind Robotics (梅卡曼德),产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+stg-ind-mechmind,Mech-Mind Robotics (梅卡曼德),产业,deployed-at,app-bimanual-housework,Bimanual Household Manipulation Research,应用场景,0
+stg-ind-mechmind,Mech-Mind Robotics (梅卡曼德),产业,deployed-at,app-construction,Autonomous Construction Equipment,应用场景,0
+stg-ind-mechmind,Mech-Mind Robotics (梅卡曼德),产业,deployed-at,app-education-stem,Education & STEM Robotics,应用场景,0
+stg-ind-mechmind,Mech-Mind Robotics (梅卡曼德),产业,deployed-at,app-healthcare-companion,Healthcare & Companion Robotics,应用场景,0
+stg-ind-mechmind,Mech-Mind Robotics (梅卡曼德),产业,deployed-at,app-hospitality,Hospitality / Food Service,应用场景,0
+stg-ind-mechmind,Mech-Mind Robotics (梅卡曼德),产业,deployed-at,app-last-mile-delivery,Last-Mile Sidewalk Delivery,应用场景,0
+stg-ind-mechmind,Mech-Mind Robotics (梅卡曼德),产业,deployed-at,app-warehouse,Warehouse Fulfillment,应用场景,0
+stg-ind-hesai,Hesai Technology (禾赛科技),产业,invested-in,stg-vc-zhenfund,真格基金 ZhenFund,资本,1
+stg-ind-hesai,Hesai Technology (禾赛科技),产业,deployed-at,app-agriculture,Precision Agriculture,应用场景,0
+stg-ind-livox,Livox (览沃科技),产业,manufacturer,sensor-livox-hap,HAP (TX),传感器,1
+stg-ind-livox,Livox (览沃科技),产业,manufacturer,sensor-livox-mid360,Mid-360,传感器,1
+stg-ind-livox,Livox (览沃科技),产业,manufacturer,sensor-livox-mid40,Mid-40,传感器,1
+stg-ind-orbbec,Orbbec (奥比中光),产业,manufacturer,sensor-orbbec-femto-bolt,Femto Bolt,传感器,1
+stg-ind-orbbec,Orbbec (奥比中光),产业,manufacturer,sensor-orbbec-femto-mega,Femto Mega,传感器,1
+stg-ind-orbbec,Orbbec (奥比中光),产业,manufacturer,sensor-orbbec-gemini-335,Gemini 335,传感器,1
+stg-ind-orbbec,Orbbec (奥比中光),产业,manufacturer,sensor-orbbec-gemini-335le,Gemini 335Le,传感器,1
+stg-lab-baai,BAAI 北京智源人工智能研究院,实验室,affiliated-with,sw-robomind,RoboMIND,数据集,0
+stg-lab-msra,MSRA 微软亚洲研究院,实验室,affiliated-with,sw-cogact,CogACT,基础模型,0
+stg-lab-sjtu,SJTU 上海交通大学,实验室,affiliated-with,sw-rh20t,RH20T,数据集,0
+stg-vc-tencent,Tencent Investment 腾讯投资,资本,invested-in,ind-agibot,AgiBot (智元机器人),产业,0
+stg-vc-tencent,Tencent Investment 腾讯投资,资本,invested-in,ind-unitree,Unitree Robotics (宇树科技),产业,0
+stg-vc-alibaba,Alibaba 阿里巴巴战投,资本,invested-in,ind-limx,LimX Dynamics,产业,0
+stg-vc-alibaba,Alibaba 阿里巴巴战投,资本,invested-in,ind-robot-era,Robot Era (星动纪元),产业,0
+stg-vc-alibaba,Alibaba 阿里巴巴战投,资本,invested-in,ind-unitree,Unitree Robotics (宇树科技),产业,0
+stg-vc-catl,CATL 宁德时代,资本,invested-in,ind-galbot,Galbot (银河通用),产业,0
+stg-vc-geely,Geely Capital 吉利资本,资本,invested-in,ind-robot-era,Robot Era (星动纪元),产业,0
+stg-vc-geely,Geely Capital 吉利资本,资本,invested-in,ind-unitree,Unitree Robotics (宇树科技),产业,0
+stg-vc-meituan,Meituan Strategy 美团战投,资本,invested-in,ind-galbot,Galbot (银河通用),产业,0
+stg-vc-meituan,Meituan Strategy 美团战投,资本,invested-in,ind-unitree,Unitree Robotics (宇树科技),产业,0
+stg-vc-zhenfund,真格基金 ZhenFund,资本,invested-in,stg-ind-hesai,Hesai Technology (禾赛科技),产业,0
+stg-vc-qiming,启明创投 Qiming Venture Partners,资本,invested-in,ind-booster,Booster Robotics,产业,0
+stg-vc-qiming,启明创投 Qiming Venture Partners,资本,invested-in,ind-galbot,Galbot (银河通用),产业,0
+stg-vc-bluerun,BlueRun Ventures 蓝驰创投,资本,invested-in,ind-agibot,AgiBot (智元机器人),产业,0
+stg-vc-bluerun,BlueRun Ventures 蓝驰创投,资本,invested-in,ind-galbot,Galbot (银河通用),产业,0
+stg-vc-shunwei,顺为资本 Shunwei Capital,资本,invested-in,ind-unitree,Unitree Robotics (宇树科技),产业,0
+stg-vc-matrix-china,经纬创投 Matrix Partners China,资本,invested-in,ind-galbot,Galbot (银河通用),产业,0
+stg-vc-matrix-china,经纬创投 Matrix Partners China,资本,invested-in,ind-xpeng-robotics,XPENG Robotics (Iron),产业,0
+stg-vc-bj-robot-fund,北京机器人产业发展投资基金 Beijing Robot Industry Fund,资本,invested-in,ind-booster,Booster Robotics,产业,0
+stg-vc-bj-robot-fund,北京机器人产业发展投资基金 Beijing Robot Industry Fund,资本,invested-in,ind-galbot,Galbot (银河通用),产业,0
+stg-vc-bj-robot-fund,北京机器人产业发展投资基金 Beijing Robot Industry Fund,资本,invested-in,ind-robot-era,Robot Era (星动纪元),产业,0
+stg-vc-scg,深圳市创新投资集团 Shenzhen Capital Group,资本,invested-in,ind-booster,Booster Robotics,产业,0
+stg-vc-openai-startup-fund,OpenAI Startup Fund,资本,invested-in,ind-1x,1X Technologies,产业,0
+stg-vc-openai-startup-fund,OpenAI Startup Fund,资本,invested-in,ind-figure,Figure AI,产业,0
+stg-vc-openai-startup-fund,OpenAI Startup Fund,资本,invested-in,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+stg-vc-openai-startup-fund,OpenAI Startup Fund,资本,related,stg-vc-msft,Microsoft,资本,0
+stg-vc-openai-startup-fund,OpenAI Startup Fund,资本,related,stg-vc-thrive,Thrive Capital,资本,0
+stg-vc-openai-startup-fund,OpenAI Startup Fund,资本,related,sw-openai-dexterous,Dexterous In-Hand Manipulation (RL/PPO + Domain Randomization),控制算法,0
+stg-vc-parkway,Parkway Venture Capital,资本,invested-in,ind-figure,Figure AI,产业,0
+stg-vc-intel-capital,Intel Capital,资本,invested-in,ind-figure,Figure AI,产业,0
+stg-vc-align-ventures,Align Ventures,资本,invested-in,ind-figure,Figure AI,产业,0
+stg-vc-bezos-expeditions,Bezos Expeditions,资本,invested-in,ind-figure,Figure AI,产业,0
+stg-vc-bezos-expeditions,Bezos Expeditions,资本,invested-in,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+stg-vc-bezos-expeditions,Bezos Expeditions,资本,invested-in,ind-skild,Skild AI,产业,0
+stg-vc-brookfield,Brookfield Asset Management,资本,invested-in,ind-figure,Figure AI,产业,0
+stg-vc-macquarie-capital,Macquarie Capital,资本,invested-in,ind-figure,Figure AI,产业,0
+stg-vc-tamarack-global,Tamarack Global,资本,invested-in,ind-figure,Figure AI,产业,0
+stg-vc-lg-tech-ventures,LG Technology Ventures,资本,invested-in,ind-figure,Figure AI,产业,0
+stg-vc-salesforce-ventures,Salesforce Ventures,资本,invested-in,ind-figure,Figure AI,产业,0
+stg-vc-tmobile-ventures,T-Mobile Ventures,资本,invested-in,ind-figure,Figure AI,产业,0
+stg-vc-qualcomm-ventures,Qualcomm Ventures,资本,invested-in,ind-figure,Figure AI,产业,0
+stg-vc-msft,Microsoft,资本,invested-in,ind-figure,Figure AI,产业,0
+stg-vc-msft,Microsoft,资本,related,stg-vc-openai-corp,OpenAI,资本,0
+stg-vc-msft,Microsoft,资本,related,stg-vc-openai-startup-fund,OpenAI Startup Fund,资本,0
+stg-vc-msft,Microsoft,资本,related,sensor-azure-kinect-dk,Azure Kinect DK,传感器,0
+stg-vc-ark-invest,ARK Invest,资本,invested-in,ind-figure,Figure AI,产业,0
+stg-vc-ark-invest,ARK Invest,资本,invested-in,ind-tesla-optimus,Tesla Optimus,产业,0
+stg-vc-eqt-ventures,EQT Ventures,资本,invested-in,ind-1x,1X Technologies,产业,0
+stg-vc-samsung-next,Samsung NEXT,资本,invested-in,ind-1x,1X Technologies,产业,0
+stg-vc-nistad-group,Nistad Group,资本,invested-in,ind-1x,1X Technologies,产业,0
+stg-vc-alliance-ventures,Alliance Ventures,资本,invested-in,ind-1x,1X Technologies,产业,0
+stg-vc-sandwater,Sandwater,资本,invested-in,ind-1x,1X Technologies,产业,0
+stg-vc-skagerak-capital,Skagerak Capital,资本,invested-in,ind-1x,1X Technologies,产业,0
+stg-vc-bond,Bond,资本,invested-in,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+stg-vc-thrive,Thrive Capital,资本,invested-in,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+stg-vc-thrive,Thrive Capital,资本,related,stg-vc-openai-corp,OpenAI,资本,0
+stg-vc-thrive,Thrive Capital,资本,related,stg-vc-openai-startup-fund,OpenAI Startup Fund,资本,0
+stg-vc-capitalg,CapitalG,资本,invested-in,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+stg-vc-redpoint,Redpoint Ventures,资本,invested-in,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+stg-vc-index-ventures,Index Ventures,资本,invested-in,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+stg-vc-t-rowe-price,T. Rowe Price,资本,invested-in,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+stg-vc-openai-corp,OpenAI,资本,invested-in,ind-1x,1X Technologies,产业,0
+stg-vc-openai-corp,OpenAI,资本,invested-in,ind-figure,Figure AI,产业,0
+stg-vc-openai-corp,OpenAI,资本,invested-in,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+stg-vc-openai-corp,OpenAI,资本,related,stg-vc-msft,Microsoft,资本,0
+stg-vc-openai-corp,OpenAI,资本,related,stg-vc-thrive,Thrive Capital,资本,0
+stg-vc-openai-corp,OpenAI,资本,related,sw-openai-dexterous,Dexterous In-Hand Manipulation (RL/PPO + Domain Randomization),控制算法,0
+stg-vc-lightspeed,Lightspeed Venture Partners,资本,invested-in,ind-skild,Skild AI,产业,0
+stg-vc-coatue,Coatue,资本,invested-in,ind-skild,Skild AI,产业,0
+stg-vc-softbank,SoftBank Group,资本,invested-in,ind-boston-dynamics,Boston Dynamics,产业,0
+stg-vc-softbank,SoftBank Group,资本,invested-in,ind-skild,Skild AI,产业,0
+stg-vc-felicis,Felicis Ventures,资本,invested-in,ind-skild,Skild AI,产业,0
+stg-vc-menlo-ventures,Menlo Ventures,资本,invested-in,ind-skild,Skild AI,产业,0
+stg-vc-general-catalyst,General Catalyst,资本,invested-in,ind-skild,Skild AI,产业,0
+stg-vc-crv,CRV,资本,invested-in,ind-skild,Skild AI,产业,0
+stg-vc-sv-angel,SV Angel,资本,invested-in,ind-skild,Skild AI,产业,0
+stg-vc-alexa-fund,Amazon Alexa Fund,资本,invested-in,ind-skild,Skild AI,产业,0
+stg-vc-alexa-fund,Amazon Alexa Fund,资本,related,stg-vc-amazon-industrial-innovation,Amazon Industrial Innovation Fund,资本,0
+stg-vc-amazon-industrial-innovation,Amazon Industrial Innovation Fund,资本,invested-in,ind-agility,Agility Robotics,产业,0
+stg-vc-amazon-industrial-innovation,Amazon Industrial Innovation Fund,资本,invested-in,ind-skild,Skild AI,产业,0
+stg-vc-amazon-industrial-innovation,Amazon Industrial Innovation Fund,资本,related,stg-vc-alexa-fund,Amazon Alexa Fund,资本,0
+stg-vc-bdc-capital,BDC Capital,资本,invested-in,ind-sanctuary,Sanctuary AI,产业,0
+stg-vc-inbc,InBC Investment Corp.,资本,invested-in,ind-sanctuary,Sanctuary AI,产业,0
+stg-vc-bell,Bell,资本,invested-in,ind-sanctuary,Sanctuary AI,产业,0
+stg-vc-evok-innovations,Evok Innovations,资本,invested-in,ind-sanctuary,Sanctuary AI,产业,0
+stg-vc-edc,Export Development Canada,资本,invested-in,ind-sanctuary,Sanctuary AI,产业,0
+stg-vc-magna,Magna,资本,invested-in,ind-sanctuary,Sanctuary AI,产业,0
+stg-vc-se-health,SE Health,资本,invested-in,ind-sanctuary,Sanctuary AI,产业,0
+stg-vc-verizon-ventures,Verizon Ventures,资本,invested-in,ind-sanctuary,Sanctuary AI,产业,0
+stg-vc-workday-ventures,Workday Ventures,资本,invested-in,ind-sanctuary,Sanctuary AI,产业,0
+stg-vc-mercedes-benz,Mercedes-Benz,资本,invested-in,ind-apptronik,Apptronik,产业,0
+stg-vc-peak6,Peak6,资本,invested-in,ind-apptronik,Apptronik,产业,0
+stg-vc-att-ventures,AT&T Ventures,资本,invested-in,ind-apptronik,Apptronik,产业,0
+stg-vc-b-capital,B Capital,资本,invested-in,ind-apptronik,Apptronik,产业,0
+stg-vc-dcvc,DCVC (Data Collective),资本,invested-in,ind-agility,Agility Robotics,产业,0
+stg-vc-playground-global,Playground Global,资本,invested-in,ind-agility,Agility Robotics,产业,0
+stg-vc-mfv-partners,MFV Partners,资本,invested-in,ind-agility,Agility Robotics,产业,0
+stg-vc-itic,ITIC (Industrial Technology Investment Corporation),资本,invested-in,ind-agility,Agility Robotics,产业,0
+stg-vc-robotics-hub,The Robotics Hub (Coal Hill Ventures),资本,invested-in,ind-agility,Agility Robotics,产业,0
+stg-vc-safar-partners,Safar Partners,资本,invested-in,ind-agility,Agility Robotics,产业,0
+stg-vc-sony-innovation-fund,Sony Innovation Fund,资本,invested-in,ind-agility,Agility Robotics,产业,0
+stg-vc-tdk-ventures,TDK Ventures,资本,invested-in,ind-agility,Agility Robotics,产业,0
+stg-vc-longcheer,Shanghai Longcheer Technology 龙旗科技,资本,invested-in,ind-agibot,AgiBot (智元机器人),产业,0
+stg-vc-wolong,Wolong Electric 卧龙电气,资本,invested-in,ind-agibot,AgiBot (智元机器人),产业,0
+stg-vc-huafa,Huafa Group 华发集团,资本,invested-in,ind-agibot,AgiBot (智元机器人),产业,0
+stg-vc-china-mobile,China Mobile 中国移动,资本,invested-in,ind-agibot,AgiBot (智元机器人),产业,0
+stg-vc-china-mobile,China Mobile 中国移动,资本,invested-in,ind-unitree,Unitree Robotics (宇树科技),产业,0
+stg-vc-jinqiu,Jinqiu Capital 锦秋基金,资本,invested-in,ind-unitree,Unitree Robotics (宇树科技),产业,0
+stg-vc-cdb-capital,CDB Capital 国开金融,资本,invested-in,ind-galbot,Galbot (银河通用),产业,0
+stg-vc-beijing-ai-fund,Beijing AI Industry Investment Fund 北京人工智能产业投资基金,资本,invested-in,ind-booster,Booster Robotics,产业,0
+stg-vc-beijing-ai-fund,Beijing AI Industry Investment Fund 北京人工智能产业投资基金,资本,invested-in,ind-galbot,Galbot (银河通用),产业,0
+stg-vc-baic-capital,BAIC Capital 北汽产投,资本,invested-in,ind-galbot,Galbot (银河通用),产业,0
+stg-vc-baic-capital,BAIC Capital 北汽产投,资本,invested-in,ind-robot-era,Robot Era (星动纪元),产业,0
+stg-vc-sense-capital,SenseTime Guoxiang Capital 商汤国香资本,资本,invested-in,ind-galbot,Galbot (银河通用),产业,0
+stg-vc-iflytek-fund,iFlytek Industry Fund 科大讯飞产业基金,资本,invested-in,ind-galbot,Galbot (银河通用),产业,0
+stg-vc-lighthouse-capital,Lighthouse Capital 光源资本,资本,invested-in,ind-galbot,Galbot (银河通用),产业,0
+stg-vc-cdh,CDH Investments 鼎晖投资,资本,invested-in,ind-robot-era,Robot Era (星动纪元),产业,0
+stg-vc-haier-capital,Haier Capital 海尔资本,资本,invested-in,ind-robot-era,Robot Era (星动纪元),产业,0
+stg-vc-houxue,Houxue Capital 厚雪资本,资本,invested-in,ind-robot-era,Robot Era (星动纪元),产业,0
+stg-vc-meridian-china,Meridian Capital China 华兴新经济,资本,invested-in,ind-robot-era,Robot Era (星动纪元),产业,0
+stg-vc-xianghe,Xianghe Capital 襄禾资本,资本,invested-in,ind-robot-era,Robot Era (星动纪元),产业,0
+stg-vc-fore-intelligent,Zhejiang Fore Intelligent Technology 浙江福沃智能,资本,invested-in,ind-robot-era,Robot Era (星动纪元),产业,0
+stg-vc-crystal-stream,Crystal Stream Capital 清流资本,资本,invested-in,ind-robot-era,Robot Era (星动纪元),产业,0
+stg-vc-tsinghua-holdings,Tsinghua Holdings 清华控股 / Qingkong Tiancheng 清控天诚,资本,invested-in,ind-robot-era,Robot Era (星动纪元),产业,0
+stg-vc-clearvue,ClearVue Partners 凯辉资本,资本,invested-in,ind-robot-era,Robot Era (星动纪元),产业,0
+stg-vc-visionplus,VisionPlus Capital 元璟资本,资本,invested-in,ind-fourier,Fourier Intelligence (傅利叶智能),产业,0
+stg-vc-visionplus,VisionPlus Capital 元璟资本,资本,invested-in,ind-robot-era,Robot Era (星动纪元),产业,0
+stg-vc-orinno,Orinno Capital 朗玛峰创投,资本,invested-in,ind-robot-era,Robot Era (星动纪元),产业,0
+stg-vc-orinno,Orinno Capital 朗玛峰创投,资本,invested-in,ind-ubtech,UBTech (优必选),产业,0
+stg-vc-lenovo-capital,Lenovo Capital 联想创投,资本,invested-in,ind-robot-era,Robot Era (星动纪元),产业,0
+stg-vc-century-golden-resources,Century Golden Resources 世纪金源,资本,invested-in,ind-robot-era,Robot Era (星动纪元),产业,0
+stg-vc-stone-venture,Stone Venture,资本,invested-in,ind-limx,LimX Dynamics,产业,0
+stg-vc-oriental-fortune,Oriental Fortune Capital 东方富海,资本,invested-in,ind-limx,LimX Dynamics,产业,0
+stg-vc-costone,CoStone Capital 基石资本,资本,invested-in,ind-limx,LimX Dynamics,产业,0
+stg-vc-jd,JD.com 京东,资本,invested-in,ind-limx,LimX Dynamics,产业,0
+stg-vc-jd,JD.com 京东,资本,invested-in,stg-ind-engineai,EngineAI (众擎机器人),产业,0
+stg-vc-zhongding,Zhongding Sealing Parts 中鼎股份,资本,invested-in,ind-limx,LimX Dynamics,产业,0
+stg-vc-nrb,NRB Corp. (Changzhou) 常州光阳轴承,资本,invested-in,ind-limx,LimX Dynamics,产业,0
+stg-vc-kyland,Kyland Technology 东土科技,资本,invested-in,ind-limx,LimX Dynamics,产业,0
+stg-vc-innoangel,Innoangel Fund 英诺天使基金,资本,invested-in,ind-booster,Booster Robotics,产业,0
+stg-vc-jinding,Jinding Capital 金鼎资本,资本,invested-in,ind-booster,Booster Robotics,产业,0
+stg-vc-jinding,Jinding Capital 金鼎资本,资本,invested-in,ind-robot-era,Robot Era (星动纪元),产业,0
+stg-vc-capital-factory,Capital Factory,资本,invested-in,ind-apptronik,Apptronik,产业,0
+stg-vc-john-deere,John Deere,资本,invested-in,ind-apptronik,Apptronik,产业,0
+person-brett-adcock,Brett Adcock,人物,founder-of,ind-figure,Figure AI,产业,0
+person-brett-adcock,Brett Adcock,人物,employed-at,ind-figure,Figure AI,产业,0
+person-bernt-bornich,Bernt Børnich,人物,founder-of,ind-1x,1X Technologies,产业,0
+person-bernt-bornich,Bernt Børnich,人物,employed-at,ind-1x,1X Technologies,产业,0
+person-geordie-rose,Geordie Rose,人物,founder-of,ind-sanctuary,Sanctuary AI,产业,0
+person-geordie-rose,Geordie Rose,人物,employed-at,ind-sanctuary,Sanctuary AI,产业,0
+person-jonathan-hurst,Jonathan Hurst,人物,founder-of,ind-agility,Agility Robotics,产业,0
+person-jonathan-hurst,Jonathan Hurst,人物,employed-at,ind-agility,Agility Robotics,产业,0
+person-jeff-cardenas,Jeff Cardenas,人物,founder-of,ind-apptronik,Apptronik,产业,0
+person-jeff-cardenas,Jeff Cardenas,人物,employed-at,ind-apptronik,Apptronik,产业,0
+person-marc-raibert,Marc Raibert,人物,founder-of,ind4,,,0
+person-marc-raibert,Marc Raibert,人物,employed-at,ind4,,,0
+person-wang-xingxing,Wang Xingxing 王兴兴,人物,founder-of,ind-unitree,Unitree Robotics (宇树科技),产业,0
+person-wang-xingxing,Wang Xingxing 王兴兴,人物,employed-at,ind-unitree,Unitree Robotics (宇树科技),产业,0
+person-peng-zhihui,Peng Zhihui 彭志辉 (稚晖君),人物,founder-of,ind-agibot,AgiBot (智元机器人),产业,0
+person-peng-zhihui,Peng Zhihui 彭志辉 (稚晖君),人物,employed-at,ind-agibot,AgiBot (智元机器人),产业,0
+person-zhou-jian,Zhou Jian 周剑,人物,founder-of,ind-ubtech,UBTech (优必选),产业,0
+person-zhou-jian,Zhou Jian 周剑,人物,employed-at,ind-ubtech,UBTech (优必选),产业,0
+person-will-jackson,Will Jackson,人物,founder-of,ind-engineered-arts,Engineered Arts,产业,0
+person-will-jackson,Will Jackson,人物,employed-at,ind-engineered-arts,Engineered Arts,产业,0
+person-sergey-levine,Sergey Levine,人物,founder-of,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+person-sergey-levine,Sergey Levine,人物,employed-at,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+person-sergey-levine,Sergey Levine,人物,alumni-of,lab-sail,Stanford SAIL,实验室,0
+person-chelsea-finn,Chelsea Finn,人物,founder-of,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+person-chelsea-finn,Chelsea Finn,人物,employed-at,lab-sail,Stanford SAIL,实验室,0
+person-chelsea-finn,Chelsea Finn,人物,alumni-of,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+person-karol-hausman,Karol Hausman,人物,founder-of,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+person-karol-hausman,Karol Hausman,人物,employed-at,ind-physical-intelligence,Physical Intelligence (Pi),产业,0
+person-daniela-rus,Daniela Rus,人物,employed-at,lab-mit-csail,MIT CSAIL,实验室,0
+person-daniela-rus,Daniela Rus,人物,alumni-of,lab-cmu-ri,CMU Robotics Institute,实验室,0
+person-ken-goldberg,Ken Goldberg,人物,founder-of,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+person-ken-goldberg,Ken Goldberg,人物,employed-at,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+person-pieter-abbeel,Pieter Abbeel,人物,employed-at,lab-bair-autolab,UC Berkeley AUTOLab (BAIR),实验室,0
+person-pieter-abbeel,Pieter Abbeel,人物,alumni-of,lab-sail,Stanford SAIL,实验室,0
+person-marco-hutter,Marco Hutter,人物,founder-of,lab-eth-rsl,ETH Zurich Robotic Systems Lab (RSL),实验室,0
+person-marco-hutter,Marco Hutter,人物,employed-at,lab-eth-rsl,ETH Zurich Robotic Systems Lab (RSL),实验室,0
+person-marco-hutter,Marco Hutter,人物,founder-of,ind-anybotics,ANYbotics,产业,0
+person-russ-tedrake,Russ Tedrake,人物,employed-at,lab-mit-csail,MIT CSAIL,实验室,0
+person-russ-tedrake,Russ Tedrake,人物,employed-at,ind-tri,Toyota Research Institute (TRI),产业,0
+person-fei-fei-li,Fei-Fei Li 李飞飞,人物,employed-at,lab-sail,Stanford SAIL,实验室,0
+person-cewu-lu,Cewu Lu 卢策吾,人物,employed-at,stg-lab-sjtu,SJTU 上海交通大学,实验室,0
+person-cewu-lu,Cewu Lu 卢策吾,人物,founder-of,ind-galbot,Galbot (银河通用),产业,0

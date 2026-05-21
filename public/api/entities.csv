@@ -1,0 +1,668 @@
+id,name,company,category,partition,year,country,is_new,n_sources,n_relations,n_sourced_specs,imageUrl,website
+f1,Memo,Agility Robotics,整机平台,hardware,2024,,0,2,5,3,images/hardware/memo.jpg,
+f2,Oli,LimX Dynamics,整机平台,hardware,2025,,1,2,6,3,images/hardware/limx-oli.jpg,
+f4,Optimus Gen 2,Tesla,整机平台,hardware,2024,USA,0,2,6,4,images/hardware/optimus-gen-2.jpg,https://www.tesla.com/AI
+a1,UR10e,Universal Robots,机械臂,hardware,2018,,0,1,7,5,,
+a2,Franka Emika Panda,Franka Robotics,机械臂,hardware,2017,,0,1,2,5,,
+e1,2F-85 Adaptive Gripper,Robotiq,灵巧手 & 夹爪,hardware,2014,Canada,0,2,1,2,,https://robotiq.com
+e2,Shadow Dexterous Hand (E3M5R),Shadow Robot Company,灵巧手 & 夹爪,hardware,2022,UK,1,1,1,1,,https://www.shadowrobot.com
+j1,FSA Actuator,Fourier,关节模组,hardware,2024,,1,2,2,1,https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&q=80&w=600,
+j2,Dynamixel PH54-200-S500,ROBOTIS,关节模组,hardware,2019,,0,1,6,2,,
+c1,CSF-2UH Strain Wave Gear Unit,Harmonic Drive LLC,核心零部件,hardware,2018,,0,1,4,1,,
+c2,KBM Series Frameless Motor,Kollmorgen,核心零部件,hardware,2008,,0,1,0,1,,
+s1,RealSense Depth Camera D455,Intel,传感器,hardware,2020,,0,1,4,4,,
+s2,Axia80 F/T Sensor,ATI Industrial Automation,传感器,hardware,2019,,0,1,2,3,,
+d1,HaptX Gloves G1,HaptX,数采 & 遥操,hardware,2023,,0,1,0,0,,
+d2,GELLO Arm,Open Source,数采 & 遥操,hardware,2024,,1,2,0,1,https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?auto=format&fit=crop&q=80&w=600,
+cp1,Jetson AGX Orin (64GB / 32GB),NVIDIA,计算平台,hardware,2022,,0,1,9,2,,
+cp2,MIC-733-AO,Advantech,计算平台,hardware,2023,Taiwan,0,3,1,2,,https://www.advantech.com
+f6,SPACEO M1,Muks Robotics (印度),整机平台,hardware,2025,,1,2,1,0,images/hardware/spaced-m1.jpg,https://muksrobotics.com
+f7,YM XPLORE 1,Techman Robot (台湾),整机平台,hardware,2025,,1,1,2,0,images/hardware/ym-xplore-1.jpg,https://www.techmanrobot.com
+f8,OPTIMUS,Tesla (特斯拉),整机平台,hardware,2025,,1,2,3,0,images/hardware/optimus.jpg,https://www.tesla.com/AI
+f9,FIGURE ONE,Figure AI,整机平台,hardware,2025,,1,1,4,0,images/hardware/figure-one.jpg,https://www.figure.ai/
+f10,TARS,TARS Robotics (上海),整机平台,hardware,2025,,1,1,1,0,images/hardware/tars.jpg,
+f12,ADAM G0,PNDbotics (工匠社科技),整机平台,hardware,2025,,1,2,2,0,images/hardware/adam-g0.jpg,https://pndbotics.com
+f13,SPACEO Pro,Muks Robotics (印度),整机平台,hardware,2025,,1,2,1,0,images/hardware/spaced-p1.jpg,https://muksrobotics.com
+f15,P1S,LimX Dynamics (逐际动力),整机平台,hardware,2025,,1,2,5,0,images/hardware/p1s.jpg,https://www.limxdynamics.com/
+a4,JAKA K1,JAKA Robotics (节卡机器人),机械臂,hardware,2025,,1,1,2,0,images/hardware/jaka-k1.jpg,https://www.jakarobotics.com/
+f19,HIVA Haiwa,Haier,整机平台,hardware,2025,,1,0,0,0,images/hardware/hawo-hanxi.jpg,https://www.haier.com/
+f21,EVE-3,1X Technologies,整机平台,hardware,2025,,1,2,3,0,images/hardware/eve-3.jpg,https://www.1x.tech/
+f22,MATRIX 1,Matrix Robotics (矩阵超智),整机平台,hardware,2025,,1,1,2,0,images/hardware/matrix-1.jpg,https://matrixrobotics.ai
+f24,H2,Unitree Robotics (宇树科技),整机平台,hardware,2025,,1,4,5,3,images/hardware/h2.jpg,https://unitree.com
+f25,TRON,LimX Dynamics (逐际动力),整机平台,hardware,2025,,1,2,8,0,images/hardware/tron.jpg,https://www.limxdynamics.com/
+f26,SKYWALKER 2,EIR Technology (四川具身科技),整机平台,hardware,2025,,1,1,0,0,images/hardware/skywalker-2.jpg,https://eir.com.cn
+f29,ATLAS,Boston Dynamics (波士顿动力),整机平台,hardware,2025,,1,5,3,4,images/hardware/atlas.jpg,https://bostondynamics.com/
+f30,MAGICBOT,MagicLab (魔法原子),整机平台,hardware,2025,,1,1,2,0,images/hardware/magicbot.jpg,https://magiclab.top
+f31,AstroDroid AD-01,INFIFORCE,整机平台,hardware,2025,,1,2,1,0,images/hardware/astrobo-ad-01.jpg,https://www.galbot.com/
+f32,DORA,Noetix Robotics (松延动力),整机平台,hardware,2025,,1,1,2,0,images/hardware/dora.jpg,https://noetixrobotics.com
+f33,NAVIGATOR 2,浙江人形机器人创新中心,整机平台,hardware,2025,,1,2,0,0,images/hardware/navigator-2.jpg,https://zj-humanoid.com
+f34,NEO Gamma,1X Technologies,整机平台,hardware,2025,USA,1,3,6,3,images/hardware/neo-gamma.jpg,https://www.1x.tech/
+f35,KAPEX,LG Electronics + KIST (韩国),整机平台,hardware,2025,,1,2,0,0,images/hardware/kapex.jpg,https://www.lg.com
+f36,MOTION 2,VinMotion (越南),整机平台,hardware,2025,,1,1,0,0,images/hardware/motion-2.jpg,https://vinmotion.net
+f37,LUS2,Lumos Robotics (光魔机器人),整机平台,hardware,2025,,1,2,2,0,images/hardware/lus2.jpg,
+f38,BOOSTER T1,Booster Robotics (加速进化),整机平台,hardware,2025,,1,4,2,3,images/hardware/booster-t1.jpg,https://booster.tech
+f39,KUAVO-S,Leju Robotics (乐聚机器人),整机平台,hardware,2025,,1,2,4,0,images/hardware/kuavo-s.jpg,https://www.lejurobot.com/
+f40,AGIBOT X1,Agibot (智元机器人),整机平台,hardware,2025,,1,2,4,0,images/hardware/agibot-x1.jpg,https://www.agibot.com/
+f41,TIAN YI 2.0,X-Humanoid (北京人形机器人创新中心),整机平台,hardware,2025,,1,2,1,0,images/hardware/tian-yi-2.0.jpg,https://www.x-humanoid.com
+f42,GR-2,Fourier Intelligence (傅利叶智能),整机平台,hardware,2025,,1,2,2,0,images/hardware/gr-2.jpg,https://www.fourierintelligence.com/
+f43,KANGAROO,PAL Robotics,整机平台,hardware,2025,,1,2,1,0,images/hardware/kangaroo.jpg,https://pal-robotics.com/
+f44,PM01,EngineAI (众擎机器人),整机平台,hardware,2025,,1,2,4,0,images/hardware/pm01.jpg,https://www.engineai.com.cn
+f45,GENE.01,Generative Bionics (意大利),整机平台,hardware,2025,,1,2,0,0,images/hardware/gene.01.jpg,https://gbionics.ai
+f46,ZEUS 1,PL Universe (中国),整机平台,hardware,2025,,1,1,1,0,images/hardware/zeus-1.jpg,https://en.pl-universe.com
+f47,MIRO,Midea (美的),整机平台,hardware,2025,,1,1,0,0,images/hardware/miro.jpg,https://www.midea.com/
+f48,TIEN KUNG 2.0,北京具身智能研究院,整机平台,hardware,2025,,1,2,0,0,images/hardware/tien-kung-2.0.jpg,
+f49,A2,Agibot (智元机器人),整机平台,hardware,2025,,1,3,4,3,images/hardware/a2.jpg,https://www.agibot.com/
+f50,SA02,EngineAI (众擎机器人),整机平台,hardware,2025,,1,2,4,0,images/hardware/sa02.jpg,https://www.engineai.com.cn
+f51,REACHY 2,Pollen Robotics,整机平台,hardware,2025,,1,1,0,0,images/hardware/reachy-2.jpg,https://www.pollen-robotics.com/
+f52,PHYBOT M1,Phybot Technology (动易科技),整机平台,hardware,2025,,1,2,2,0,images/hardware/phybot-m1.jpg,https://phybot.tech
+f53,IGRIS-C,ROBROS (韩国),整机平台,hardware,2025,,1,2,0,0,images/hardware/igris-c.jpg,https://www.robros.co.kr
+f54,K2 BUMBLEBEE,Kepler Robot (开普勒),整机平台,hardware,2025,,1,2,2,0,images/hardware/k2-bumblebee.jpg,https://www.keplerbot.com/
+f55,BORG 01,Borg Robotics (美国),整机平台,hardware,2025,,1,1,0,0,images/hardware/borg-01.jpg,https://borgrobotic.com
+f56,ROBAN 2,Leju Robotics (乐聚机器人),整机平台,hardware,2025,,1,2,4,0,images/hardware/roban-2.jpg,https://www.lejurobot.com/
+f58,HMND 01,Humanoid (英国),整机平台,hardware,2025,,1,2,1,0,images/hardware/hmnd-01.jpg,https://www.thehumanoid.ai
+f59,MENTEEBOT V3,Mentee Robotics,整机平台,hardware,2025,,1,2,1,0,images/hardware/menteebot-v3.jpg,https://www.menteebotics.com/
+f60,NIX,Lumos Robotics (光魔机器人),整机平台,hardware,2025,,1,1,2,0,images/hardware/nix.jpg,
+a6,ultraArm P340,Elephant Robotics (大象机器人),机械臂,hardware,2025,,1,2,2,0,images/hardware/pb-340.jpg,https://www.elephantrobotics.com
+f61,KUAVO-MY,Leju Robotics (乐聚机器人),整机平台,hardware,2025,,1,2,4,0,images/hardware/kuavo-my.jpg,https://www.lejurobot.com/
+f62,DEXBOT,博实股份 + 哈工大,整机平台,hardware,2025,,1,1,0,0,images/hardware/dexbot.jpg,http://www.boshiac.com
+f63,S1,Astribot (星尘智能),整机平台,hardware,2025,,1,1,0,0,images/hardware/star1.jpg,https://astribot.com/
+f64,MOBY,Noble Machines (美国),整机平台,hardware,2025,,1,2,0,0,images/hardware/moby.jpg,https://www.noblemachines.ai
+f65,CRUZR S2,UBTECH (优必选),整机平台,hardware,2025,,1,2,5,0,images/hardware/cruzr-s2.jpg,https://www.ubtrobot.com/
+f66,ORCA,Cyan Robotics (青犀机器人),整机平台,hardware,2025,,1,1,0,0,images/hardware/orca.jpg,https://cyanborg.com
+f67,T800,EngineAI (众擎机器人),整机平台,hardware,2025,,1,2,4,0,images/hardware/t800.jpg,https://www.engineai.com.cn
+f68,R1 PRO,Galaxea AI (星海图动力),整机平台,hardware,2025,,1,2,1,0,images/hardware/r1-pro.jpg,https://galaxea-ai.com
+f69,WALKER S2,UBTECH (优必选),整机平台,hardware,2025,,1,4,6,6,images/hardware/walker-s2.jpg,https://www.ubtrobot.com/
+f70,A2 MAX,Agibot (智元机器人),整机平台,hardware,2025,,1,2,4,0,images/hardware/a2-max.jpg,https://www.agibot.com/
+f71,MIROKAI,Enchanted Tools,整机平台,hardware,2025,,1,2,0,0,images/hardware/mirokai.jpg,https://enchanted.tools/
+f72,KEPLER K2,Kepler Robot (开普勒),整机平台,hardware,2025,,1,2,2,0,images/hardware/kepler-k2.jpg,https://www.keplerbot.com/
+f73,LIMX OLI,LimX Dynamics (逐际动力),整机平台,hardware,2025,,1,5,5,3,images/hardware/limx-oli.jpg,https://www.limxdynamics.com/
+f74,QUANTA X2,X Square Robot (中国),整机平台,hardware,2025,,1,2,0,0,images/hardware/quanta-x2.jpg,https://x2robot.com
+f75,THEMIS V2,Westwood Robotics (美国),整机平台,hardware,2025,,1,2,0,0,images/hardware/themis-v2.jpg,https://westwoodrobotics.io
+f76,AEON,Hexagon Robotics (瑞士),整机平台,hardware,2025,,1,1,0,0,images/hardware/aeon.jpg,https://robotics.hexagon.com
+f77,HOBBS,Noetix Robotics (松延动力),整机平台,hardware,2025,,1,1,2,0,images/hardware/hobbs.jpg,https://noetixrobotics.com
+f78,G2 GENIE,Agibot (智元机器人),整机平台,hardware,2025,,1,2,4,0,images/hardware/g2-genie.jpg,https://www.agibot.com/
+f79,AI WORKER,ROBOTIS (韩国),整机平台,hardware,2025,,1,1,5,0,images/hardware/ai-worker.jpg,https://www.robotis.com/
+f80,ATOM,DOBOT (越疆科技),整机平台,hardware,2025,,1,1,1,0,images/hardware/atom.jpg,https://www.dobot-robots.com
+f81,APPTRONIK APOLLO,Apptronik,整机平台,hardware,2025,,1,4,2,3,images/hardware/apptronik-apollo.jpg,https://apptronik.com/
+f82,WALKER C,UBTECH (优必选),整机平台,hardware,2025,,1,2,5,0,images/hardware/walker-c.jpg,https://www.ubtrobot.com/
+f83,VEGA,Dexmate (美国),整机平台,hardware,2025,,1,1,0,0,images/hardware/vega.jpg,https://dexmate.ai
+f84,UNITREE H1,Unitree (宇树科技),整机平台,hardware,2025,,1,2,2,0,images/hardware/unitree-h1.jpg,https://www.unitree.com/
+f85,ALICE,AeiROBOT (韩国),整机平台,hardware,2025,,1,1,0,0,images/hardware/alice.jpg,http://eng.arobot4all.com
+f86,GR-1,Fourier Intelligence (傅利叶智能),整机平台,hardware,2025,,1,2,2,0,images/hardware/gr-1.jpg,https://www.fourierintelligence.com/
+f87,SONGXING,SIASUN (新松机器人),整机平台,hardware,2025,,1,2,0,0,images/hardware/songxing.jpg,https://www.siasun.com/
+f88,KEPLER,Kepler Robot (开普勒),整机平台,hardware,2025,,1,1,2,0,images/hardware/kepler.jpg,https://www.keplerbot.com/
+f89,YOGI,Cartwheel Robotics,整机平台,hardware,2025,,1,1,0,0,images/hardware/yogi.jpg,https://cartwheelrobotics.com
+f91,TITAN,RoboForce (美国),整机平台,hardware,2025,,1,2,0,0,images/hardware/titan.jpg,https://roboforce.ai
+f93,Mercury X1,Elephant Robotics (大象机器人),整机平台,hardware,2025,,1,1,2,0,images/hardware/robotart-x1.jpg,https://www.elephantrobotics.com
+f96,MATRIX 4,Matrix Robotics (矩阵超智),整机平台,hardware,2025,,1,1,2,0,images/hardware/matrix-4.jpg,https://matrixrobotics.ai
+f98,OPTIMUS V2.5,Tesla (特斯拉),整机平台,hardware,2025,,1,2,3,0,images/hardware/optimus-v2.5.jpg,https://www.tesla.com/AI
+f100,CYBERONE,Xiaomi (小米),整机平台,hardware,2025,,1,2,0,0,images/hardware/cyberone.jpg,https://www.mi.com/
+f101,VersaBot VB-1,Lanxin Technology (蓝芯科技),整机平台,hardware,2025,,1,1,0,0,images/hardware/versabot-vc-1.jpg,https://www.lanxinrobotics.com
+f103,CLONE ALPHA,Clone Robotics,整机平台,hardware,2025,,1,1,0,0,images/hardware/clone-alpha.jpg,https://clonerobotics.com/
+f104,FIGURE 03,Figure AI,整机平台,hardware,2025,,1,2,4,4,images/hardware/figure-03.jpg,https://www.figure.ai/
+f105,ROBOTERA L2,RobotEra (星动纪元),整机平台,hardware,2025,,1,2,2,0,images/hardware/robotera-l2.jpg,https://www.robotera.com
+f106,SE01,EngineAI (众擎机器人),整机平台,hardware,2025,,1,2,4,0,images/hardware/seo1.jpg,https://www.engineai.com.cn
+f107,ALEX,Boardwalk Robotics + IHMC (美国),整机平台,hardware,2025,,1,1,0,0,images/hardware/alex.jpg,
+f108,HMND_01 ALPHA,Humanoid (英国),整机平台,hardware,2025,,1,2,1,0,images/hardware/hmnd-01-alpha.jpg,https://www.thehumanoid.ai
+f109,TORA-ONE,PaXini (帕西尼感知),整机平台,hardware,2025,,1,2,0,0,images/hardware/tora-doubleone.jpg,https://www.paxini.com
+f110,GALBOT,Galbot (星动纪元),整机平台,hardware,2025,,1,2,3,0,images/hardware/galbot.jpg,https://www.galbot.com/
+f111,GALBOT S1,Galbot (星动纪元),整机平台,hardware,2025,,1,2,3,0,images/hardware/galbot-s1.jpg,https://www.galbot.com/
+f114,MENTEEBOT,Mentee Robotics,整机平台,hardware,2025,,1,2,1,0,images/hardware/menteebot.jpg,https://www.menteebotics.com/
+f115,SPROUT,Fauna Robotics (被 Amazon 收购),整机平台,hardware,2025,,1,2,0,0,images/hardware/sprout.jpg,
+f118,PHOENIX,Sanctuary AI,整机平台,hardware,2025,,1,4,2,2,images/hardware/phoenix.jpg,https://www.sanctuary.ai/
+f120,PUDU D7,Pudu Robotics (普渡科技),整机平台,hardware,2025,,1,1,4,0,images/hardware/pudu-d7.jpg,https://www.pudurobotics.com/
+f121,RNOID,Robot.com (美国),整机平台,hardware,2025,,1,2,0,0,images/hardware/rnoid.jpg,https://robot.com
+f122,NEO BETA,1X Technologies,整机平台,hardware,2025,,1,2,5,0,images/hardware/neo-beta.jpg,https://www.1x.tech/
+f123,XTRON KUAVO-MY,Leju Robotics (乐聚机器人),整机平台,hardware,2025,,1,1,4,0,images/hardware/xtron-kuavo-my.jpg,https://www.lejurobot.com/
+f124,ADAM LITE,PNDbotics (工匠社科技),整机平台,hardware,2025,,1,1,2,0,images/hardware/adam-lite.jpg,https://pndbotics.com
+f125,STEVE,Sulu.be (比利时),整机平台,hardware,2025,,1,1,0,0,images/hardware/steve.jpg,https://jandecoster.com
+f127,PUDU D9,Pudu Robotics (普渡科技),整机平台,hardware,2025,,1,2,4,0,images/hardware/pudu-d9.jpg,https://www.pudurobotics.com/
+f128,IRON,XPeng Robotics (小鹏机器人),整机平台,hardware,2025,,1,2,3,0,images/hardware/iron.jpg,https://xpeng.com
+f129,ATOM MAX,DOBOT (越疆科技),整机平台,hardware,2025,,1,2,1,0,images/hardware/atom-max.jpg,https://www.dobot-robots.com
+f130,DIGIT,Agility Robotics,整机平台,hardware,2025,,1,2,2,0,images/hardware/digit.jpg,https://agilityrobotics.com/
+f131,KEENON XMAN-R1,Keenon (擎朗智能),整机平台,hardware,2025,,1,1,1,0,images/hardware/keenon-xman-r1.jpg,https://www.keenon.com/
+f132,LIMX CL,LimX Dynamics (逐际动力),整机平台,hardware,2025,,1,2,5,0,images/hardware/limx-cl.jpg,https://www.limxdynamics.com/
+f133,CLOiD,LG Electronics,整机平台,hardware,2025,,1,2,0,0,images/hardware/cloid.jpg,https://www.lg.com/
+f134,FRIDAY,Holiday Robotics (韩国),整机平台,hardware,2025,,1,2,0,0,images/hardware/friday.jpg,https://holiday-robotics.com
+f135,WALKER S1,UBTECH (优必选),整机平台,hardware,2025,,1,2,5,0,images/hardware/walker-s1.jpg,https://www.ubtrobot.com/
+f136,DUCO,SIASUN-DUCO (新松),整机平台,hardware,2025,,1,2,0,0,images/hardware/duco.jpg,https://www.siasun.com
+f137,XIAO TUO,TOPSTAR Group (拓斯达),整机平台,hardware,2025,,1,3,0,0,images/hardware/xiao-tuo.jpg,https://www.topstarmachine.com
+f138,PHYBOT C1,Phybot Technology (动易科技),整机平台,hardware,2025,,1,1,2,0,images/hardware/phybot-c1.jpg,https://phybot.tech
+f139,FIGURE 02,Figure AI,整机平台,hardware,2025,,1,1,4,0,images/hardware/figure-02.jpg,https://www.figure.ai/
+f140,G1,Unitree (宇树科技),整机平台,hardware,2025,,1,2,2,0,images/hardware/g1.jpg,https://www.unitree.com/
+f141,PROWHITE,PL-Universe Robotics (中国),整机平台,hardware,2025,,1,1,0,0,images/hardware/prowhite.jpg,https://en.pl-universe.com
+f142,Onero H1,SwitchBot (Wonderlabs),整机平台,hardware,2025,,1,2,0,0,images/hardware/omero-h1.jpg,https://www.switchbot.com
+f143,PHANTOM MK1,Foundation (美国),整机平台,hardware,2025,,1,1,0,0,images/hardware/phantom-mk1.jpg,https://foundationhci.com
+f144,ALPHA,UBTECH (优必选),整机平台,hardware,2025,,1,2,5,0,images/hardware/alpha.jpg,https://www.ubtrobot.com/
+f145,MAKER H01,GigaAI (中国),整机平台,hardware,2025,,1,1,0,0,images/hardware/maker-h01.jpg,https://gigaai.ai
+f146,AIDOL,AIDOL Lab (俄罗斯),整机平台,hardware,2025,,1,2,0,0,images/hardware/aidol.jpg,https://aidoltech.ru
+a8,KINISI 01,Kinisi Robotics (美国),机械臂,hardware,2025,,1,1,0,0,images/hardware/kinisi-01.jpg,https://kinisi.com
+h1,AERO HAND OPEN,Chestnut Robotics (原 TetherIA),灵巧手 & 夹爪,hardware,2024,,1,2,0,0,/images/hardware/aero-hand-open.jpg,https://tetheria.github.io/aero-hand-open/
+h2,SVH,SCHUNK (雄克),灵巧手 & 夹爪,hardware,2024,,1,1,0,0,/images/hardware/svh.jpg,https://schunk.com
+h3,DG-3F-S,TESOLLO (泰索罗),灵巧手 & 夹爪,hardware,2024,,1,2,1,0,/images/hardware/dg-3f-s.jpg,http://tesollo.com
+h4,HUMA,New York University,灵巧手 & 夹爪,hardware,2024,,1,2,0,0,/images/hardware/huma.jpg,https://www.nyu.edu
+h5,RH50G2,因时机器人 (Inspire-Robots),灵巧手 & 夹爪,hardware,2024,,1,1,2,0,/images/hardware/rh50g2.jpg,http://www.inspire-robots.com
+h6,ZWHAND,兆威机电 (ZWHAND),灵巧手 & 夹爪,hardware,2024,,1,2,0,0,/images/hardware/zwhand.jpg,https://www.zwhand.com
+h7,PL-WitHand,PL UNIVERSE,灵巧手 & 夹爪,hardware,2024,,1,1,1,0,/images/hardware/pl-methand.jpg,https://pl-universe.com
+h8,YEAH,Independent / Open Source,灵巧手 & 夹爪,hardware,2024,,1,1,0,0,/images/hardware/yeah.jpg,
+h9,ABILITY HAND,PSYONIC,灵巧手 & 夹爪,hardware,2024,,1,1,0,0,/images/hardware/ability-hand.jpg,https://www.psyonic.io
+h10,KYBER LABS HAND,Kyber Labs,灵巧手 & 夹爪,hardware,2024,,1,2,0,0,/images/hardware/kyber-labs-hand.jpg,https://kyberlabs.ai
+h11,OMNIHAND PRO,智元机器人 (AGIBOT),灵巧手 & 夹爪,hardware,2024,,1,2,2,0,/images/hardware/omnihand-pro.jpg,https://www.agibot.com
+h12,ALLEGRO HAND V4,WONIK ROBOTICS,灵巧手 & 夹爪,hardware,2024,,1,1,0,0,/images/hardware/allegro-hand-v4.jpg,http://wonikrobotics.com
+h13,COVVI,COVVI ROBOTICS,灵巧手 & 夹爪,hardware,2024,,1,1,0,0,/images/hardware/covvi.jpg,https://www.covvi.com
+h14,PHOENIX 3.2,Sanctuary AI,灵巧手 & 夹爪,hardware,2024,,1,2,2,0,/images/hardware/phoenix-3.2.jpg,https://www.sanctuary.ai
+h15,YZ-T6,伟创电气 (VEICHI),灵巧手 & 夹爪,hardware,2024,,1,1,0,0,/images/hardware/yz-t6.jpg,https://www.veichi.com
+h16,ROHAND,傲意信息 (OYMOTION),灵巧手 & 夹爪,hardware,2024,,1,2,0,0,/images/hardware/rohand.jpg,http://www.oymotion.com
+h17,OMNIHAND,智元机器人 (AGIBOT),灵巧手 & 夹爪,hardware,2024,,1,2,2,0,/images/hardware/omnihand.jpg,https://www.agibot.com
+h18,AEP-H01,远界机器人 (AFAROBOT),灵巧手 & 夹爪,hardware,2024,,1,0,0,0,/images/hardware/aep-h01.jpg,
+h19,SURGE,ALT-BIONICS,灵巧手 & 夹爪,hardware,2024,,1,2,0,0,/images/hardware/surge.jpg,https://altbionics.com
+h20,RH50 SERIES,因时机器人 (Inspire-Robots),灵巧手 & 夹爪,hardware,2024,,1,1,2,0,/images/hardware/rh50-series.jpg,http://www.inspire-robots.com
+h21,GMH18,帕西尼 (PaXini Tech),灵巧手 & 夹爪,hardware,2024,,1,2,2,0,/images/hardware/gm18b.jpg,
+h22,WUJI HAND,无迹科技 (WUJI TECH),灵巧手 & 夹爪,hardware,2024,,1,3,0,0,/images/hardware/wuji-hand.jpg,http://wujitech.com
+h23,REVO 2,BrainCo,灵巧手 & 夹爪,hardware,2023,,1,1,0,0,/images/hardware/revo-2.jpg,
+h24,DEX-EE,Shadow Robot Co.,灵巧手 & 夹爪,hardware,2024,,1,2,1,0,/images/hardware/dex-ee.jpg,https://www.shadowrobot.com
+h25,RH56E2 SERIES,因时机器人 (Inspire-Robots),灵巧手 & 夹爪,hardware,2024,,1,1,2,0,/images/hardware/rh56e2-series.jpg,http://www.inspire-robots.com
+h26,DEX5-1,宇树科技 (Unitree),灵巧手 & 夹爪,hardware,2024,,1,1,0,0,/images/hardware/dex5-1.jpg,https://www.unitree.com
+h27,H2 AZZURRA,PRENSILIA S.R.L.,灵巧手 & 夹爪,hardware,2024,,1,2,1,0,/images/hardware/h2-azzurra.jpg,http://www.prensilia.com
+h28,ALLEX,WIRobotics,灵巧手 & 夹爪,hardware,2024,,1,2,0,0,/images/hardware/allex.jpg,
+h29,DEXTEROUS HAND,Shadow Robot Co.,灵巧手 & 夹爪,hardware,2024,,1,2,1,0,/images/hardware/dexterous-hand.jpg,https://www.shadowrobot.com
+h30,DEXH5,帕西尼 (PaXini Tech),灵巧手 & 夹爪,hardware,2024,,1,2,2,0,/images/hardware/dexh5.jpg,
+h31,R1,海克斯 (OCEANTRIX ROBOTICS),灵巧手 & 夹爪,hardware,2024,,1,1,0,0,/images/hardware/r1.jpg,http://oceantrix.com
+h32,AGILE,思灵机器人 (Agile Robots),灵巧手 & 夹爪,hardware,2024,,1,1,0,0,/images/hardware/agile.jpg,https://www.agile-robots.com
+h33,HXS-D20,ROBOTIS,灵巧手 & 夹爪,hardware,2024,,1,1,5,0,/images/hardware/hxs-d20.jpg,https://www.robotis.com
+h34,SHARPWAVE,SHARPA ROBOTICS,灵巧手 & 夹爪,hardware,2024,,1,2,0,0,/images/hardware/sharpwave.jpg,
+h35,ORCA V1,ETH Zürich,灵巧手 & 夹爪,hardware,2024,,1,2,0,0,/images/hardware/orca-v1.jpg,
+h36,DEXHAND V2.3,ROBOT STUDIO,灵巧手 & 夹爪,hardware,2023,,1,2,0,0,/images/hardware/dexhand-v2.3.jpg,
+h37,HERO RGD,OPEN BIONICS,灵巧手 & 夹爪,hardware,2024,,1,1,0,0,/images/hardware/hero-rgd.jpg,https://openbionics.com
+h38,X2,迁星 (CHANGINGTEK ROBOTICS),灵巧手 & 夹爪,hardware,2024,,1,1,0,0,/images/hardware/x2.jpg,http://changingtek.com
+h39,DG-5F,TESOLLO (泰索罗),灵巧手 & 夹爪,hardware,2024,,1,2,1,0,/images/hardware/dg-5f.jpg,http://tesollo.com
+h40,XHAND1,元动力机器人 (ROBOTERA),灵巧手 & 夹爪,hardware,2024,,1,2,0,0,/images/hardware/xhand1.jpg,http://robotera.com
+h41,DEXH13,帕西尼 (PaXini Tech),灵巧手 & 夹爪,hardware,2024,,1,2,2,0,/images/hardware/dexh13.jpg,
+h42,MIA HAND MK2,PRENSILIA S.R.L.,灵巧手 & 夹爪,hardware,2024,,1,1,1,0,/images/hardware/mia-hand-mk2.jpg,http://www.prensilia.com
+h43,BIONICSOFTHAND,FESTO,灵巧手 & 夹爪,hardware,2024,,1,2,0,0,/images/hardware/bionicsofthand.jpg,https://www.festo.com
+h44,DEXMANO D22-PRO,BOTYARD INTELLIGENCE,灵巧手 & 夹爪,hardware,2024,,1,1,0,0,/images/hardware/dexmano-d22-pro.jpg,
+h45,ARTIXON,乘方机器人 (X SQUARE ROBOT),灵巧手 & 夹爪,hardware,2024,,1,2,0,0,/images/hardware/artixon.jpg,
+h46,APEX HAND,DEXCELROBOTICS,灵巧手 & 夹爪,hardware,2024,,1,2,0,0,/images/hardware/apex-hand.jpg,http://dexcelrobotics.com
+h47,MAGICAND S01,MagicLab,灵巧手 & 夹爪,hardware,2024,,1,1,3,0,/images/hardware/magicand-s01.jpg,https://www.magiclab.ai
+h48,SOFTHAND2,QB ROBOTICS,灵巧手 & 夹爪,hardware,2024,,1,2,0,0,/images/hardware/softhand2.jpg,https://qbrobotics.com
+h49,FLLEX,IRIM LAB KOREATECH,灵巧手 & 夹爪,hardware,2024,,1,1,0,0,/images/hardware/fllex.jpg,
+h50,ARTUS LITE,SARCOMERE DYNAMICS,灵巧手 & 夹爪,hardware,2024,,1,2,0,0,/images/hardware/artus-lite.jpg,https://sarcomeredynamics.com
+h51,DEXHAND21,DEXROBOT,灵巧手 & 夹爪,hardware,2024,,1,1,0,0,/images/hardware/dexhand21.jpg,
+h52,M1.0,MIMIC ROBOTICS,灵巧手 & 夹爪,hardware,2024,,1,3,0,0,/images/hardware/m1.0.jpg,https://mimicrobotics.com
+arm-ur3e,UR3e,Universal Robots,机械臂,hardware,2018,,0,2,5,5,,
+arm-ur5e,UR5e,Universal Robots,机械臂,hardware,2018,,0,1,5,5,,
+arm-ur16e,UR16e,Universal Robots,机械臂,hardware,2019,,0,1,5,5,,
+arm-ur20,UR20,Universal Robots,机械臂,hardware,2022,,0,1,4,5,,
+arm-ur30,UR30,Universal Robots,机械臂,hardware,2023,,0,1,4,5,,
+arm-fr3,Franka Research 3,Franka Robotics,机械臂,hardware,2022,,0,2,2,5,,
+arm-kinova-gen3,Kinova Gen3 (7-DOF),Kinova Robotics,机械臂,hardware,2019,,0,1,1,5,,
+arm-kinova-gen3-lite,Kinova Gen3 lite,Kinova Robotics,机械臂,hardware,2020,,0,1,1,5,,
+arm-kuka-iiwa-7-r800,LBR iiwa 7 R800,KUKA,机械臂,hardware,2013,,0,2,1,5,,
+arm-kuka-iiwa-14-r820,LBR iiwa 14 R820,KUKA,机械臂,hardware,2013,,0,1,1,5,,
+arm-jaka-zu5,JAKA Zu 5,JAKA Robotics (节卡),机械臂,hardware,2017,,0,1,2,5,,
+arm-jaka-minicobo,JAKA MiniCobo,JAKA Robotics (节卡),机械臂,hardware,2021,,0,1,2,5,,
+arm-aubo-i5,AUBO i5,AUBO Robotics (遨博),机械臂,hardware,2015,,0,1,1,5,,
+arm-aubo-i10,AUBO i10,AUBO Robotics (遨博),机械臂,hardware,2017,,0,1,1,5,,
+arm-realman-rm65,Realman RM65-B,RealMan Robotics (睿尔曼),机械臂,hardware,2019,,0,1,1,5,,
+arm-realman-rm75,Realman RM75-B,RealMan Robotics (睿尔曼),机械臂,hardware,2020,,0,1,1,5,,
+arm-diana7,Diana 7,Agile Robots,机械臂,hardware,2020,,0,2,0,5,,
+arm-doosan-m0609,Doosan M0609,Doosan Robotics,机械臂,hardware,2017,,0,1,2,5,,
+arm-doosan-m1013,Doosan M1013,Doosan Robotics,机械臂,hardware,2017,,0,1,2,5,,
+arm-doosan-h2017,Doosan H2017,Doosan Robotics,机械臂,hardware,2019,,0,1,2,5,,
+arm-techman-tm5-900,Techman TM5-900,Techman Robot,机械臂,hardware,2016,,0,1,2,5,,
+arm-techman-tm12,Techman TM12,Techman Robot,机械臂,hardware,2018,,0,1,2,5,,
+arm-elite-cs66,Elite Robots CS66,Elite Robots (艾利特),机械臂,hardware,2023,,0,1,5,5,,
+arm-elite-ec66,Elite Robots EC66,Elite Robots (艾利特),机械臂,hardware,2019,,0,1,5,5,,
+arm-abb-gofa-5,ABB GoFa CRB 15000-5,ABB,机械臂,hardware,2021,,0,1,1,5,,
+arm-abb-yumi-irb14000,ABB YuMi IRB 14000,ABB,机械臂,hardware,2015,,0,1,1,5,,
+joint-robstride-01,Robstride 01,Robstride Dynamics (魔法师),关节模组,hardware,2024,,0,1,5,2,,
+joint-robstride-02,Robstride 02,Robstride Dynamics (魔法师),关节模组,hardware,2024,,0,1,5,2,,
+joint-robstride-03,Robstride 03,Robstride Dynamics (魔法师),关节模组,hardware,2024,,0,1,5,2,,
+joint-robstride-04,Robstride 04,Robstride Dynamics (魔法师),关节模组,hardware,2024,,0,1,5,1,,
+joint-robstride-06,Robstride 06,Robstride Dynamics (魔法师),关节模组,hardware,2024,,0,1,5,2,,
+joint-cubemars-ak80-9,CubeMars AK80-9 V3.0,CubeMars (T-Motor),关节模组,hardware,2019,,0,1,2,2,,
+joint-cubemars-ak70-10,CubeMars AK70-10,CubeMars (T-Motor),关节模组,hardware,2019,,0,1,2,2,,
+joint-cubemars-ak60-6,CubeMars AK60-6 V3.0,CubeMars (T-Motor),关节模组,hardware,2020,,0,1,2,2,,
+joint-steadywin-gim6010-8,SteadyWin GIM6010-8,SteadyWin,关节模组,hardware,2022,,0,1,3,2,,
+joint-steadywin-gim8108-8,SteadyWin GIM8108-8,SteadyWin,关节模组,hardware,2022,,0,1,3,2,,
+joint-steadywin-gim8115-6,SteadyWin GIM8115-6,SteadyWin,关节模组,hardware,2023,,0,1,3,2,,
+joint-myactuator-rmd-x8,MyActuator RMD-X8-Pro V3,MyActuator,关节模组,hardware,2021,,0,1,0,2,,
+joint-dynamixel-xm430-w350,Dynamixel XM430-W350,ROBOTIS,关节模组,hardware,2017,,0,1,5,2,,
+joint-dynamixel-xh540-w270,Dynamixel XH540-W270,ROBOTIS,关节模组,hardware,2018,,0,1,5,2,,
+joint-dynamixel-ph42-020,Dynamixel PH42-020-S300,ROBOTIS,关节模组,hardware,2019,,0,1,5,2,,
+joint-hebi-x5-9,HEBI X5-9,HEBI Robotics,关节模组,hardware,2016,,0,1,1,2,,
+joint-hebi-x8-16,HEBI X8-16,HEBI Robotics,关节模组,hardware,2016,,0,1,1,2,,
+joint-unitree-go-m8010-6,Unitree GO-M8010-6,Unitree Robotics,关节模组,hardware,2021,,0,1,3,2,,
+joint-unitree-a1,Unitree A1 Motor,Unitree Robotics,关节模组,hardware,2020,,0,1,3,2,,
+sensor-realsense-d435i,RealSense Depth Camera D435i,Intel,传感器,hardware,2019,,0,2,3,4,,
+sensor-realsense-d457,RealSense Depth Camera D457 (GMSL/FAKRA),Intel,传感器,hardware,2022,,0,1,3,4,,
+sensor-realsense-l515,RealSense LiDAR Camera L515,Intel,传感器,hardware,2019,,0,2,3,4,,
+sensor-orbbec-femto-bolt,Femto Bolt,Orbbec,传感器,hardware,2023,,0,1,4,4,,
+sensor-orbbec-femto-mega,Femto Mega,Orbbec,传感器,hardware,2023,,0,1,4,4,,
+sensor-orbbec-gemini-335,Gemini 335,Orbbec,传感器,hardware,2024,,0,1,4,4,,
+sensor-orbbec-gemini-335le,Gemini 335Le,Orbbec,传感器,hardware,2025,,1,1,4,4,,
+sensor-azure-kinect-dk,Azure Kinect DK,Microsoft,传感器,hardware,2019,,0,1,0,4,,
+sensor-mech-mind-pro-m,Mech-Eye PRO M,Mech-Mind (梅卡曼德),传感器,hardware,2022,,0,1,1,3,,
+sensor-mech-mind-lsr-s,Mech-Eye LSR S,Mech-Mind (梅卡曼德),传感器,hardware,2022,,0,1,1,3,,
+sensor-zivid-two-m70,Zivid 2 M70,Zivid,传感器,hardware,2021,,0,1,0,3,,
+sensor-photoneo-phoxi-m,PhoXi 3D Scanner M,Photoneo,传感器,hardware,2016,,0,1,1,3,,
+sensor-photoneo-motioncam-3d,MotionCam-3D,Photoneo,传感器,hardware,2018,,0,1,1,3,,
+sensor-stereolabs-zed2i,ZED 2i,Stereolabs,传感器,hardware,2021,,0,1,1,4,,
+sensor-stereolabs-zed-x,ZED X,Stereolabs,传感器,hardware,2023,,0,1,1,4,,
+sensor-ati-mini40,Mini40 F/T Sensor,ATI Industrial Automation,传感器,hardware,2010,,0,1,1,3,,
+sensor-onrobot-hex-e,HEX-E QC 6-Axis F/T Sensor,OnRobot,传感器,hardware,2018,,0,1,0,3,,
+sensor-robotous-rft40-sa01,RFT40-SA01 6-Axis F/T,Robotous,传感器,hardware,2018,,0,1,0,3,,
+sensor-gelsight-mini,GelSight Mini,GelSight,传感器,hardware,2022,,0,1,0,2,,
+sensor-velodyne-vlp16,Puck (VLP-16),Velodyne Lidar,传感器,hardware,2014,,0,1,1,4,,
+sensor-velodyne-alpha-prime,Alpha Prime (VLS-128),Velodyne Lidar,传感器,hardware,2018,,0,1,1,4,,
+sensor-ouster-os1,OS1 (Rev 7),Ouster,传感器,hardware,2018,,0,1,0,4,,
+sensor-hesai-at128,AT128,Hesai,传感器,hardware,2021,,0,1,1,4,,
+sensor-hesai-xt16,PandarXT-16,Hesai,传感器,hardware,2020,,0,1,1,4,,
+sensor-livox-mid360,Mid-360,Livox,传感器,hardware,2023,,0,1,3,4,,
+sensor-livox-hap,HAP (TX),Livox,传感器,hardware,2022,,0,1,3,4,,
+sensor-livox-mid40,Mid-40,Livox,传感器,hardware,2019,,0,1,3,4,,
+sensor-vectornav-vn100,VN-100,VectorNav,传感器,hardware,2009,,0,1,0,2,,
+sensor-bosch-bmi270,BMI270,Bosch Sensortec,传感器,hardware,2020,,0,1,0,2,,
+sensor-xsens-mti300,MTi-300 AHRS,Xsens (Movella),传感器,hardware,2014,,0,1,0,2,,
+comp-harmonic-csf-2up,CSF-2UP Ultra-Flat Gearhead,Harmonic Drive LLC,核心零部件,hardware,2020,,0,1,1,2,,
+comp-nabtesco-rv-n,RV-N Cycloidal Reducer,Nabtesco,核心零部件,hardware,2014,,0,1,1,1,,
+comp-nabtesco-rv-c,RV-C Hollow-Shaft Cycloidal Reducer,Nabtesco,核心零部件,hardware,2010,,0,1,1,1,,
+comp-spinea-twinspin-t,TwinSpin T Series,Spinea,核心零部件,hardware,2010,,0,1,0,2,,
+comp-leader-drive-lhs,LHS Harmonic Reducer,Leader Drive / 绿的谐波 (LCD),核心零部件,hardware,2015,,0,1,0,1,,
+comp-laifual-lss,LSS Harmonic Reducer,Laifual / 来福谐波,核心零部件,hardware,2016,,0,1,0,1,,
+comp-zd-rv-reducer,ZD RV Cycloidal Pin Wheel Reducer,中大力德 (Ningbo Zhongda Leader),核心零部件,hardware,2017,,0,1,0,1,,
+comp-maxon-ec-frameless-90,EC frameless 90 flat,Maxon,核心零部件,hardware,2017,,0,1,0,1,,
+comp-tecnotion-qtl,QTL Torque Motor Series,Tecnotion,核心零部件,hardware,2019,,0,1,0,2,,
+comp-faulhaber-bx4,BX4 Brushless DC Motor,Faulhaber,核心零部件,hardware,2015,,0,1,0,2,,
+comp-renishaw-resolute,RESOLUTE Absolute Optical Encoder,Renishaw,核心零部件,hardware,2008,,0,1,0,1,,
+comp-heidenhain-ecn1325,ECN 1325 Absolute Rotary Encoder,Heidenhain,核心零部件,hardware,2018,,0,1,0,1,,
+comp-ams-as5048a,AS5048A Magnetic Rotary Encoder IC,ams OSRAM,核心零部件,hardware,2013,,0,1,0,1,,
+comp-thk-shs,SHS Caged Ball LM Guide,THK,核心零部件,hardware,2002,,0,1,0,1,,
+pwr-spot-battery,Spot Battery,Boston Dynamics,能源动力,hardware,2020,,0,2,2,3,,
+pwr-unitree-h1-battery,Unitree H1 Battery Pack,Unitree Robotics,能源动力,hardware,2023,,0,1,2,1,,
+pwr-inspired-energy-nl2020,NL2020 Smart Battery,Inspired Energy,能源动力,hardware,2018,,0,1,0,2,,
+pwr-bren-tronics-bb2590,BB-2590/U (BT-70791CG),Bren-Tronics,能源动力,hardware,2018,,0,1,0,2,,
+teleop-aloha,ALOHA (bimanual teleop),Stanford University,数采 & 遥操,hardware,2023,,0,2,1,1,,
+teleop-mobile-aloha,Mobile ALOHA,Stanford University,数采 & 遥操,hardware,2024,,1,2,1,1,,
+teleop-gello,GELLO,UC Berkeley,数采 & 遥操,hardware,2023,,0,2,0,0,,
+teleop-umi,Universal Manipulation Interface (UMI),Stanford / Columbia / TRI,数采 & 遥操,hardware,2024,,1,2,0,1,,
+teleop-open-television,Open-TeleVision,UC San Diego / MIT,数采 & 遥操,hardware,2024,,1,1,0,1,,
+teleop-senseglove-nova2,SenseGlove Nova 2,SenseGlove,数采 & 遥操,hardware,2023,,0,1,0,1,,
+teleop-manus-quantum,Quantum Metagloves,Manus,数采 & 遥操,hardware,2023,,0,1,1,1,,
+teleop-manus-prime-x-haptic,Prime X Haptic VR,Manus,数采 & 遥操,hardware,2021,,0,1,1,1,,
+teleop-teslasuit,Teslasuit,Teslasuit / VR Electronics,数采 & 遥操,hardware,2020,,0,1,0,1,,
+teleop-apple-vision-pro,Apple Vision Pro,Apple,数采 & 遥操,hardware,2024,,1,1,0,0,,
+teleop-meta-quest-3,Meta Quest 3,Meta,数采 & 遥操,hardware,2023,,0,1,0,1,,
+teleop-force-dimension-omega7,omega.7,Force Dimension,数采 & 遥操,hardware,2016,,0,1,0,1,,
+teleop-3dsystems-touch,Touch (Geomagic Touch),3D Systems,数采 & 遥操,hardware,2013,,0,1,0,1,,
+teleop-cyberglove-iii,CyberGlove III,CyberGlove Systems,数采 & 遥操,hardware,2010,,0,1,0,1,,
+teleop-5dt-data-glove-ultra,5DT Data Glove Ultra,5DT (Fifth Dimension Technologies),数采 & 遥操,hardware,2011,,0,1,0,1,,
+cp-jetson-orin-nx,Jetson Orin NX (16GB / 8GB),NVIDIA,计算平台,hardware,2023,,0,1,6,2,,
+cp-jetson-orin-nano,Jetson Orin Nano (8GB / 4GB),NVIDIA,计算平台,hardware,2023,,0,1,6,2,,
+cp-jetson-agx-thor,Jetson AGX Thor (T5000),NVIDIA,计算平台,hardware,2025,,1,2,9,2,,
+cp-jetson-nano,Jetson Nano (legacy),NVIDIA,计算平台,hardware,2019,,0,1,5,2,,
+cp-jetson-agx-xavier,Jetson AGX Xavier (legacy),NVIDIA,计算平台,hardware,2018,,0,1,5,2,,
+cp-hailo-8,Hailo-8,Hailo,计算平台,hardware,2021,,0,1,1,2,,
+cp-hailo-10h,Hailo-10H,Hailo,计算平台,hardware,2024,,1,1,1,2,,
+cp-radxa-rock-5b,ROCK 5B (RK3588),Radxa,计算平台,hardware,2022,,0,1,0,1,,
+cp-coral-dev-board,Coral Dev Board,Google,计算平台,hardware,2019,,0,1,1,2,,
+cp-qualcomm-robotics-rb5,Qualcomm Robotics RB5,Qualcomm,计算平台,hardware,2020,,0,1,0,1,,
+cp-intel-nuc-13-pro,Intel NUC 13 Pro,ASUS (formerly Intel),计算平台,hardware,2023,,0,1,0,2,,
+cp-apple-mac-mini-m4,Mac mini (M4 / M4 Pro),Apple,计算平台,hardware,2024,,1,1,0,1,,
+flagship-robotera-l7,L7,Robot Era (星动纪元),整机平台,hardware,2025,China,1,2,2,4,,https://www.robotera.com
+flagship-xpeng-iron-nextgen,Next-Gen IRON,XPENG Robotics (小鹏机器人),整机平台,hardware,2025,China,1,2,2,3,,https://www.xpeng.com
+flagship-galbot-g1,Galbot G1,Galbot (银河通用),整机平台,hardware,2024,China,1,2,3,3,,https://www.galbot.com/
+sw1,OpenVLA,Open Source,基础模型,software,2024,,1,2,2,2,https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&q=80&w=600,
+sw2,RT-X,Google DeepMind,基础模型,software,2023,,0,1,7,1,https://images.unsplash.com/photo-1546776310-eef45dd6d63c?auto=format&fit=crop&q=80&w=600,
+sw3,Isaac Lab,NVIDIA,算法框架,software,2024,,1,2,2,1,https://images.unsplash.com/photo-1616423640778-28d1b53229bd?auto=format&fit=crop&q=80&w=600,
+sw4,RoboMimic,Stanford,算法框架,software,2022,,0,3,1,1,https://images.unsplash.com/photo-1664448007559-0dbf88ee9dff?auto=format&fit=crop&q=80&w=600,
+sw5,Isaac Sim,NVIDIA,仿真平台,software,2023,,0,1,3,0,https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&q=80&w=600,
+sw6,MuJoCo,Google DeepMind,仿真平台,software,2022,,0,3,6,1,https://images.unsplash.com/photo-1546776310-eef45dd6d63c?auto=format&fit=crop&q=80&w=600,
+sw7,Open X-Embodiment,Google DeepMind,数据集,software,2023,,0,1,6,0,https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=600,
+sw-mpc,Model Predictive Control (MPC),Industrial / Academic (canonical),控制算法,software,1980,,0,1,0,0,,
+sw-convex-mpc-cheetah,Convex MPC (MIT Cheetah 3),MIT Biomimetic Robotics Lab,控制算法,software,2018,,0,2,0,0,,
+sw-ocs2,OCS2,ETH Zurich Robotic Systems Lab,控制算法,software,2017,,0,2,1,2,,
+sw-ddp-ilqr,Differential Dynamic Programming / iLQR,Academic (Jacobson & Mayne),控制算法,software,1970,,0,2,0,0,,
+sw-centroidal-dynamics,Centroidal Dynamics,Ohio State / Honda Research / KAIST,控制算法,software,2013,,0,1,1,0,,
+sw-wbc-sentis,Whole-Body Control (Operational-Space),Stanford / Khatib Lab,控制算法,software,2006,,0,1,1,0,,
+sw-diffusion-policy,Diffusion Policy,Columbia University / TRI / MIT,控制算法,software,2023,,0,2,2,0,,
+sw-act,ACT (Action Chunking with Transformers),Stanford University,控制算法,software,2023,,0,2,2,0,,
+sw-openai-dexterous,Dexterous In-Hand Manipulation (RL/PPO + Domain Randomization),OpenAI,控制算法,software,2018,,0,1,0,0,,
+sw-anymal-rl,ANYmal RL Locomotion Controller,ETH Zurich / Intel Labs,控制算法,software,2019,,0,2,1,0,,
+sw-sac-minitaur,SAC for Legged Locomotion,UC Berkeley / Google Brain,控制算法,software,2018,,0,1,1,0,,
+sw-gazebo,Gazebo,Open Robotics,仿真平台,software,2004,,0,2,0,1,,
+sw-pybullet,PyBullet (Bullet),Bullet (Erwin Coumans) / Google,仿真平台,software,2016,,0,3,3,2,,
+sw-sapien,SAPIEN,UC San Diego (Hao Su Lab),仿真平台,software,2020,,0,2,3,0,,
+sw-genesis,Genesis,Genesis-Embodied-AI (CMU/MIT/Stanford/NVIDIA et al.),仿真平台,software,2024,,1,2,2,0,,
+sw-newton,Newton,NVIDIA / Google DeepMind / Disney Research,仿真平台,software,2025,,1,2,2,0,,
+sw-webots,Webots,Cyberbotics (EPFL spin-off),仿真平台,software,1998,,0,1,0,1,,
+sw-coppeliasim,CoppeliaSim,Coppelia Robotics AG,仿真平台,software,2013,,0,1,1,0,,
+sw-drake,Drake,Toyota Research Institute / MIT,仿真平台,software,2019,,0,2,2,1,,
+sw-droid,DROID,Stanford / UC Berkeley / TRI / multi-institution,数据集,software,2024,,1,2,4,3,,
+sw-bridgedata-v2,BridgeData V2,UC Berkeley (RAIL),数据集,software,2023,,0,1,3,1,,
+sw-mobile-aloha,Mobile ALOHA Dataset,Stanford,数据集,software,2024,,1,1,2,1,,
+sw-agibot-world,AgiBot World (Colosseo),AgiBot / Shanghai AI Lab,数据集,software,2025,,1,1,3,2,,
+sw-rh20t,RH20T,Shanghai Jiao Tong University,数据集,software,2023,,0,1,1,1,,
+sw-ario,ARIO (All Robots In One),PCL / Sun Yat-sen / multi-institution,数据集,software,2024,,1,1,0,1,,
+sw-robomind,RoboMIND,Beijing Academy of AI / multi-institution,数据集,software,2025,,1,1,1,2,,
+sw-robovqa,RoboVQA,Google DeepMind,数据集,software,2023,,0,1,2,0,,
+sw-robonet,RoboNet,UC Berkeley / Stanford / CMU / Penn,数据集,software,2019,,0,2,4,1,,
+sw-roboturk,RoboTurk,Stanford,数据集,software,2018,,0,1,2,2,,
+sw-language-table,Language Table,Google,数据集,software,2022,,0,1,1,1,,
+sw-bc-z,BC-Z Dataset,Google / Everyday Robots,数据集,software,2022,,0,1,3,1,,
+sw-fmb,FMB (Functional Manipulation Benchmark dataset),UC Berkeley,数据集,software,2024,,1,1,2,0,,
+sw-berkeley-ur5,Berkeley UR5 Demonstration Dataset,UC Berkeley AUTOLab,数据集,software,2023,,0,2,1,2,,
+sw-maniskill3,ManiSkill3,Hillbot / UC San Diego (Hao Su Lab),评测基准,software,2024,,1,1,1,0,,
+sw-maniskill2,ManiSkill2,UC San Diego (Hao Su Lab),评测基准,software,2023,,0,1,1,0,,
+sw-meta-world,Meta-World,Stanford / UC Berkeley / Google,评测基准,software,2019,,0,1,4,1,,
+sw-robocasa,RoboCasa,UT Austin / NVIDIA,评测基准,software,2024,,1,1,2,1,,
+sw-calvin,CALVIN,University of Freiburg,评测基准,software,2021,,0,1,1,1,,
+sw-libero,LIBERO,UT Austin / UC Austin,评测基准,software,2023,,0,1,1,1,,
+sw-rlbench,RLBench,Imperial College London,评测基准,software,2019,,0,1,2,1,,
+sw-behavior-1k,BEHAVIOR-1K,Stanford (SVL),评测基准,software,2024,,1,1,1,1,,
+sw-furniturebench,FurnitureBench,KAIST / USC,评测基准,software,2023,,0,1,2,0,,
+sw-simplerenv,SimplerEnv (SIMPLER),UC San Diego / Stanford / Berkeley / Google,评测基准,software,2024,,1,1,4,0,,
+sw-roboarena,RoboArena,UC Berkeley / Stanford / multi-institution,评测基准,software,2025,,1,1,2,0,,
+sw-roboeval,RoboEval,University of Washington / NVIDIA,评测基准,software,2025,,1,1,1,1,,
+sw-habitat2,Habitat 2.0 (HAB),Meta AI (FAIR) / Georgia Tech,评测基准,software,2021,,0,1,1,0,,
+sw-eureka,Eureka,NVIDIA / UPenn / Caltech / UT Austin,评测基准,software,2023,,0,1,2,0,,
+sw-gensim,GenSim,MIT / UC San Diego / Shanghai Qi Zhi / Tsinghua,评测基准,software,2023,,0,1,3,1,,
+sw-robogen,RoboGen,CMU / MIT / Tsinghua / UMass Amherst,评测基准,software,2023,,0,1,3,0,,
+sw-rt1,RT-1,Google Research / Everyday Robots,基础模型,software,2022,,0,2,0,2,,
+sw-rt2,RT-2,Google DeepMind,基础模型,software,2023,,0,2,6,1,,
+sw-pi0,π0 (Pi-Zero),Physical Intelligence,基础模型,software,2024,,1,1,5,1,,
+sw-pi05,π0.5,Physical Intelligence,基础模型,software,2025,,1,1,3,0,,
+sw-octo,Octo,UC Berkeley / Stanford / CMU / Google DeepMind,基础模型,software,2024,,1,1,5,2,,
+sw-gr1,GR-1,ByteDance Research,基础模型,software,2023,,0,2,1,0,,
+sw-gr2,GR-2,ByteDance Research,基础模型,software,2024,,1,1,1,0,,
+sw-helix,Helix,Figure AI,基础模型,software,2025,,1,1,1,1,,
+sw-palm-e,PaLM-E,Google,基础模型,software,2023,,0,1,1,1,,
+sw-robocat,RoboCat,Google DeepMind,基础模型,software,2023,,0,2,6,0,,
+sw-vima,VIMA,Stanford / NVIDIA / Caltech / UT Austin,基础模型,software,2022,,0,1,3,0,,
+sw-roboflamingo,RoboFlamingo,ByteDance Research / Tsinghua / NUS,基础模型,software,2023,,0,1,1,0,,
+sw-3dvla,3D-VLA,UMass Amherst,基础模型,software,2024,,1,1,0,0,,
+sw-bcz-fm,BC-Z (Model),Google / Everyday Robots / Stanford / UC Berkeley,基础模型,software,2022,,0,1,3,1,,
+sw-groot-n1,GR00T N1,NVIDIA,基础模型,software,2025,,1,2,4,1,,
+sw-cogact,CogACT,Microsoft Research / Tsinghua,基础模型,software,2024,,1,1,3,2,,
+sw-tinyvla,TinyVLA,Midea Group / East China Normal U / Shanghai U,基础模型,software,2024,,1,1,0,0,,
+sw-rdt-1b,RDT-1B,Tsinghua University (THU-ML),基础模型,software,2024,,1,1,1,2,,
+sw-sara-rt,SARA-RT,Google DeepMind,基础模型,software,2023,,0,1,6,0,,
+sw-scaledp,ScaleDP,Midea Group / East China Normal U,基础模型,software,2024,,1,1,0,1,,
+sw-lerobot,LeRobot,Hugging Face,算法框架,software,2024,,1,1,0,2,,
+sw-moveit2,MoveIt 2,PickNik / MoveIt community,算法框架,software,2020,,0,1,0,1,,
+sw-openrmf-framework,Open-RMF (Framework),Open Source Robotics Alliance (OSRA),算法框架,software,2020,,0,1,0,1,,
+sw-ros2-control-framework,ros2_control (Framework),"ros-controls community (Stogl Robotics, PAL Robotics, Bosch, etc.)",算法框架,software,2021,,0,2,1,1,,
+sw-pinocchio,Pinocchio,Inria (Willow team),算法框架,software,2015,,0,1,0,2,,
+sw-crocoddyl,Crocoddyl,Heriot-Watt RoMI / LAAS-CNRS Gepetto / Inria Willow,算法框架,software,2019,,0,2,0,2,,
+sw-robosuite,robosuite,Stanford SVL / UT Austin RPL / NVIDIA GEAR (ARISE Initiative),算法框架,software,2017,,0,1,1,0,,
+sw-mjpc,MuJoCo MPC (MJPC),Google DeepMind,算法框架,software,2022,,0,2,2,2,,
+sw-stable-baselines3,Stable-Baselines3,DLR-RM (German Aerospace Center),算法框架,software,2021,,0,2,0,2,,
+sw-polymetis,Polymetis,Meta AI Research (FAIR),算法框架,software,2021,,0,1,0,2,,
+sw-cosmos-predict,Cosmos Predict (World Foundation Model),NVIDIA,基础模型,software,2025,,1,2,4,2,,
+sw-cosmos-reason,Cosmos Reason,NVIDIA,基础模型,software,2025,,1,1,4,1,,
+sw-cosmos-transfer,Cosmos Transfer,NVIDIA,仿真平台,software,2025,,1,1,2,0,,
+sw-genie-2,Genie 2,Google DeepMind,基础模型,software,2024,,1,1,5,1,,
+sw-genie-3,Genie 3,Google DeepMind,基础模型,software,2025,,1,1,5,1,,
+sw-vjepa-2,V-JEPA 2,Meta AI,基础模型,software,2025,,1,2,1,2,,
+sw-dreamerv3,DreamerV3,Google DeepMind / University of Toronto,基础模型,software,2023,,0,1,2,1,,
+sw-1x-world-model,1X World Model,1X Technologies,基础模型,software,2024,,1,1,1,1,,
+sw-pi0-fast,π0-FAST,Physical Intelligence,基础模型,software,2025,,1,1,5,1,,
+sw-groot-n1-5,GR00T N1.5,NVIDIA,基础模型,software,2025,,1,1,4,2,,
+sw-agibot-go1,AgiBot GO-1 (Genie Operator-1),AgiBot,基础模型,software,2025,,1,1,2,1,,
+sw-galaxea-g0,Galaxea G0,Galaxea AI,基础模型,software,2025,,1,1,0,1,,
+sw-gaia-2,GAIA-2,Wayve,仿真平台,software,2025,,1,1,0,0,,
+sw-skild-brain,Skild Brain,Skild AI,基础模型,software,2025,,1,1,1,1,,
+sw-daydreamer,DayDreamer,UC Berkeley,基础模型,software,2022,,0,1,1,1,,
+eco1,ROS 2,OSRF,开发生态,ecosystem,2022,,0,2,0,2,https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=600,
+eco2,Foxglove Studio,Foxglove,开发生态,ecosystem,2024,,0,1,1,2,https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600,
+app1,Smart Factory,Various,应用场景,ecosystem,2025,,1,3,2,0,https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600,
+app2,Logistics Warehouse,Various,应用场景,ecosystem,2024,,0,2,1,0,https://images.unsplash.com/photo-1586528116311-ad8ed7c50a6f?auto=format&fit=crop&q=80&w=600,
+eco-micro-ros,micro-ROS,"eProsima (with Bosch, FIWARE, OFERA)",开发生态,ecosystem,2018,,0,1,1,2,,
+eco-ros2-control,ros2_control,ros-controls community,开发生态,ecosystem,2020,,0,1,0,2,,
+eco-moveit2,MoveIt 2,PickNik Robotics / MoveIt community,开发生态,ecosystem,2020,,0,1,0,2,,
+eco-nav2,Nav2,Open Navigation LLC,开发生态,ecosystem,2020,,0,1,0,2,,
+eco-behaviortree-cpp,BehaviorTree.CPP,Davide Faconti / Auryn Robotics,开发生态,ecosystem,2018,,0,1,0,2,,
+eco-rviz2,RViz2,Open Robotics,开发生态,ecosystem,2018,,0,1,4,2,,
+eco-plotjuggler,PlotJuggler,Davide Faconti (community),开发生态,ecosystem,2016,,0,1,0,2,,
+eco-open-rmf,Open-RMF,Open Source Robotics Alliance (OSRA),开发生态,ecosystem,2020,,0,1,0,2,,
+eco-fast-dds,Fast DDS,eProsima,开发生态,ecosystem,2014,,0,1,1,2,,
+eco-cyclone-dds,Eclipse Cyclone DDS,Eclipse Foundation / ZettaScale / ADLINK,开发生态,ecosystem,2018,,0,1,0,2,,
+eco-urdf,URDF / xacro,Open Robotics (ROS community),开发生态,ecosystem,2009,,0,2,4,2,,
+eco-gazebo-sim,Gazebo Sim (formerly Ignition),Open Robotics,开发生态,ecosystem,2017,,0,1,4,2,,
+eco-ros-gz,ros_gz (ROS - Gazebo bridge),Open Robotics,开发生态,ecosystem,2018,,0,1,4,2,,
+eco-webviz,Webviz,Cruise Automation,开发生态,ecosystem,2019,,0,1,0,2,,
+eco-lichtblick,Lichtblick,Lichtblick Suite (BMW-supported),开发生态,ecosystem,2024,,1,1,0,2,,
+eco-isaac-ros,NVIDIA Isaac ROS,NVIDIA,开发生态,ecosystem,2021,,0,2,0,2,,
+eco-colcon,colcon,Open Robotics (colcon org),开发生态,ecosystem,2018,,0,1,4,2,,
+app-warehouse,Warehouse Fulfillment,Various,应用场景,ecosystem,2024,,1,2,6,0,,
+app-humanoid-manufacturing,Humanoid Manufacturing Assembly,Various,应用场景,ecosystem,2024,,1,3,7,0,,
+app-last-mile-delivery,Last-Mile Sidewalk Delivery,Various,应用场景,ecosystem,2024,,1,2,7,0,,
+app-surgical,Surgical Robotics,Various,应用场景,ecosystem,2024,,1,1,1,0,,
+app-inspection,Industrial Inspection & Maintenance,Various,应用场景,ecosystem,2024,,1,2,5,0,,
+app-agriculture,Precision Agriculture,Various,应用场景,ecosystem,2024,,1,1,4,0,,
+app-hospitality,Hospitality / Food Service,Various,应用场景,ecosystem,2024,,1,2,9,0,,
+app-healthcare-companion,Healthcare & Companion Robotics,Various,应用场景,ecosystem,2024,,1,2,4,0,,
+app-construction,Autonomous Construction Equipment,Various,应用场景,ecosystem,2024,,1,1,4,0,,
+app-cleaning,Commercial Cleaning,Various,应用场景,ecosystem,2024,,1,1,11,0,,
+app-home-humanoid,Home Humanoid Pilots,Various,应用场景,ecosystem,2025,,1,1,4,0,,
+app-bimanual-housework,Bimanual Household Manipulation Research,Various,应用场景,ecosystem,2024,,1,2,2,0,,
+app-retail-inventory,Retail Inventory & Shelf Scanning,Various,应用场景,ecosystem,2024,,1,1,0,0,,
+app-education-stem,Education & STEM Robotics,Various,应用场景,ecosystem,2023,,0,1,5,0,,
+vc1,Sequoia Capital,Sequoia,资本,players,2023,CA,0,3,4,1,https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=600,https://www.sequoiacap.com
+ind1,NVIDIA Robotics,NVIDIA,产业,players,2024,CA,0,3,15,2,https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600,https://developer.nvidia.com/robotics
+lab1,Stanford AI Lab,Stanford Univ,实验室,players,2024,CA,0,2,1,0,https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=600,
+ind-tesla-optimus,Tesla Optimus,Tesla Optimus,产业,players,2021,USA,0,2,4,2,images/players/ind-tesla-optimus.jpg,https://www.tesla.com/AI
+ind-figure,Figure AI,Figure AI,产业,players,2022,USA,1,1,6,2,images/players/ind-figure.png,https://www.figure.ai
+ind-1x,1X Technologies,1X Technologies,产业,players,2014,USA,0,1,15,2,images/players/ind-1x.png,https://www.1x.tech
+ind-sanctuary,Sanctuary AI,Sanctuary AI,产业,players,2018,Canada,0,2,11,2,images/players/ind-sanctuary.png,https://www.sanctuary.ai
+ind-boston-dynamics,Boston Dynamics,Boston Dynamics,产业,players,1992,USA,0,1,4,2,images/players/ind-boston-dynamics.png,https://www.bostondynamics.com
+ind-apptronik,Apptronik,Apptronik,产业,players,2016,USA,0,2,9,2,images/players/ind-apptronik.png,https://apptronik.com
+ind-agility,Agility Robotics,Agility Robotics,产业,players,2015,USA,0,1,10,2,images/players/ind-agility.png,https://www.agilityrobotics.com
+ind-unitree,Unitree Robotics (宇树科技),Unitree Robotics (宇树科技),产业,players,2016,China,0,1,14,2,images/players/ind-unitree.png,https://www.unitree.com
+ind-xpeng-robotics,XPENG Robotics (Iron),XPENG Robotics (Iron),产业,players,2024,China,1,1,10,2,images/players/ind-xpeng-robotics.png,https://www.xpeng.com
+ind-agibot,AgiBot (智元机器人),AgiBot (智元机器人),产业,players,2023,China,1,1,14,2,images/players/ind-agibot.png,https://www.agibot.com
+ind-ubtech,UBTech (优必选),UBTech (优必选),产业,players,2012,China,0,1,6,2,images/players/ind-ubtech.png,https://www.ubtrobot.com
+ind-fourier,Fourier Intelligence (傅利叶智能),Fourier Intelligence (傅利叶智能),产业,players,2015,China,0,2,4,2,images/players/ind-fourier.png,https://www.fftai.com
+ind-robot-era,Robot Era (星动纪元),Robot Era (星动纪元),产业,players,2023,China,1,2,8,2,,https://www.robotera.com
+ind-galbot,Galbot (银河通用),Galbot (银河通用),产业,players,2023,China,1,2,15,2,,https://www.galbot.com
+ind-booster,Booster Robotics,Booster Robotics,产业,players,2023,China,1,2,15,2,,https://www.booster.tech
+ind-limx,LimX Dynamics,LimX Dynamics,产业,players,2022,China,1,1,15,2,,https://www.limxdynamics.com
+ind-engineered-arts,Engineered Arts,Engineered Arts,产业,players,2004,UK,0,1,0,2,images/players/ind-engineered-arts.png,https://engineeredarts.com
+ind-pal-robotics,PAL Robotics,PAL Robotics,产业,players,2004,Spain,0,2,9,2,images/players/ind-pal-robotics.png,https://pal-robotics.com
+ind-tri,Toyota Research Institute (TRI),Toyota Research Institute (TRI),产业,players,2016,USA,0,2,4,2,images/players/ind-tri.png,https://www.tri.global
+ind-anybotics,ANYbotics,ANYbotics,产业,players,2016,Switzerland,0,2,2,2,images/players/ind-anybotics.png,https://www.anybotics.com
+ind-physical-intelligence,Physical Intelligence (Pi),Physical Intelligence (Pi),产业,players,2024,USA,1,1,15,2,images/players/ind-physical-intelligence.png,https://www.physicalintelligence.company
+ind-deepmind-robotics,Google DeepMind Robotics,Google DeepMind Robotics,产业,players,2023,UK,1,2,13,2,images/players/ind-deepmind-robotics.png,https://deepmind.google
+ind-skild,Skild AI,Skild AI,产业,players,2023,USA,1,2,14,2,images/players/ind-skild.png,https://www.skild.ai
+ind-dexterity,Dexterity,Dexterity,产业,players,2017,USA,0,1,0,2,,https://www.dexterity.ai
+ind-pickle,Pickle Robot,Pickle Robot,产业,players,2018,USA,0,2,8,2,images/players/ind-pickle.png,https://www.picklerobot.com
+ind-hello-robot,Hello Robot,Hello Robot,产业,players,2017,USA,0,2,8,2,images/players/ind-hello-robot.png,https://hello-robot.com
+vc-a16z,Andreessen Horowitz (a16z),Andreessen Horowitz,资本,players,2009,USA,0,2,1,1,images/players/vc-a16z.png,https://a16z.com
+vc-khosla,Khosla Ventures,Khosla Ventures,资本,players,2004,USA,0,1,1,1,images/players/vc-khosla.png,https://www.khoslaventures.com
+vc-lux,Lux Capital,Lux Capital,资本,players,2000,USA,0,1,1,1,images/players/vc-lux.png,https://www.luxcapital.com
+vc-founders-fund,Founders Fund,Founders Fund,资本,players,2005,USA,0,2,0,1,images/players/vc-founders-fund.png,https://foundersfund.com
+vc-bessemer,Bessemer Venture Partners,Bessemer Venture Partners,资本,players,1911,USA,0,1,1,1,images/players/vc-bessemer.png,https://www.bvp.com
+vc-gv,GV (Google Ventures),GV,资本,players,2009,USA,0,1,1,1,,https://www.gv.com
+vc-innovation-endeavors,Innovation Endeavors,Innovation Endeavors,资本,players,2010,USA,0,2,0,1,images/players/vc-innovation-endeavors.png,https://www.innovationendeavors.com
+vc-tiger-global,Tiger Global Management,Tiger Global Management,资本,players,2001,USA,0,2,1,1,images/players/vc-tiger-global.png,https://www.tigerglobal.com
+vc-ggv,GGV Capital / Granite Asia,GGV Capital,资本,players,2000,USA / Singapore,0,2,1,1,images/players/vc-ggv.png,https://www.ggvc.com
+vc-sinovation,Sinovation Ventures 创新工场,Sinovation Ventures,资本,players,2009,China,0,2,0,1,images/players/vc-sinovation.png,https://www.sinovationventures.com
+vc-5y,5Y Capital 五源资本,5Y Capital,资本,players,2008,China,0,2,0,1,,https://www.5ycap.com
+vc-hillhouse,Hillhouse Capital 高瓴资本,Hillhouse Capital,资本,players,2005,China,0,2,0,1,images/players/vc-hillhouse.png,https://www.hillhouseinvestment.com
+vc-hongshan,HongShan 红杉中国 (Sequoia China),HongShan Capital Group,资本,players,2005,China,0,3,1,1,,https://www.hongshan.com
+vc-idg,IDG Capital,IDG Capital,资本,players,1992,China,0,1,1,1,images/players/vc-idg.png,https://www.idgcapital.com
+vc-source-code,Source Code Capital 源码资本,Source Code Capital,资本,players,2014,China,0,3,4,1,images/players/vc-source-code.png,https://sourcecodecap.com
+lab-sail,Stanford SAIL,Stanford University,实验室,players,1963,USA,0,3,15,0,images/players/lab-sail.png,https://ai.stanford.edu
+lab-bair-autolab,UC Berkeley AUTOLab (BAIR),UC Berkeley,实验室,players,1995,USA,0,2,13,0,images/players/lab-bair-autolab.png,https://autolab.berkeley.edu
+lab-mit-csail,MIT CSAIL,Massachusetts Institute of Technology,实验室,players,2003,USA,0,2,5,0,images/players/lab-mit-csail.png,https://www.csail.mit.edu
+lab-cmu-ri,CMU Robotics Institute,Carnegie Mellon University,实验室,players,1979,USA,0,2,4,0,images/players/lab-cmu-ri.png,https://www.ri.cmu.edu
+lab-nyu-grail,NYU GRAIL (General Robotics & AI Lab),New York University,实验室,players,2019,USA,0,1,0,0,,https://www.lerrelpinto.com
+lab-eth-rsl,ETH Zurich Robotic Systems Lab (RSL),ETH Zurich,实验室,players,2012,Switzerland,0,2,2,0,,https://rsl.ethz.ch
+lab-mpi-is,Max Planck Institute for Intelligent Systems (MPI-IS),Max Planck Society,实验室,players,2011,Germany,0,2,0,0,images/players/lab-mpi-is.png,https://is.mpg.de
+lab-utokyo-jsk,U-Tokyo JSK Lab (Jouhou System Kougaku),University of Tokyo,实验室,players,1988,Japan,0,2,0,0,,http://www.jsk.t.u-tokyo.ac.jp
+lab-tsinghua-tea,Tsinghua Embodied AI Lab (TEA Lab),Tsinghua University (IIIS),实验室,players,2022,China,0,2,5,0,images/players/lab-tsinghua-tea.png,http://hxu.rocks
+lab-pku-hyperplane,PKU Hyperplane Lab (Hao Dong),Peking University (CFCS),实验室,players,2019,China,0,2,0,0,,https://zsdonghao.github.io
+lab-shanghai-ailab,Shanghai AI Lab — Embodied AI Center 上海人工智能实验室,Shanghai Artificial Intelligence Laboratory,实验室,players,2020,China,0,2,1,0,images/players/lab-shanghai-ailab.png,https://www.shlab.org.cn
+lab-usc-lira,USC LIRA Lab (Learning & Interactive Robot Autonomy),University of Southern California,实验室,players,2020,USA,0,2,1,0,,https://liralab.usc.edu
+lab-kaist-hubo,KAIST HUBO Lab,KAIST,实验室,players,2002,South Korea,0,1,2,0,,https://www.kaist.ac.kr
+lab-gatech-irim,Georgia Tech IRIM,Georgia Institute of Technology,实验室,players,2006,USA,0,2,1,0,images/players/lab-gatech-irim.png,https://research.gatech.edu/robotics
+lab-iit-icub,Italian Institute of Technology (IIT) — iCub Tech,Istituto Italiano di Tecnologia,实验室,players,2005,Italy,0,2,0,0,images/players/lab-iit-icub.png,https://www.iit.it
+lab-jpl-robotics,JPL Robotics Section,NASA Jet Propulsion Laboratory,实验室,players,1936,USA,0,1,0,0,,https://www-robotics.jpl.nasa.gov
+lab-imperial-prl,Imperial College Personal Robotics Lab,Imperial College London,实验室,players,2001,UK,0,1,1,0,images/players/lab-imperial-prl.png,https://www.imperial.ac.uk/personal-robotics/
+lab-princeton-visualai,Princeton Visual AI Lab,Princeton University,实验室,players,2018,USA,0,2,0,0,,https://visualai.princeton.edu
+lab-upenn-grasp,UPenn GRASP Lab,University of Pennsylvania,实验室,players,1979,USA,0,2,2,0,images/players/lab-upenn-grasp.png,https://www.grasp.upenn.edu
+lab-epfl-biorob,EPFL BioRob (Biorobotics Laboratory),EPFL,实验室,players,2002,Switzerland,0,2,0,0,,https://www.epfl.ch/labs/biorob/
+stg-ind-leju,Leju Robotics (乐聚机器人),Leju Robotics (乐聚机器人),产业,players,2016,China,0,3,11,2,images/players/stg-ind-leju.png,https://www.lejurobot.com/en
+stg-ind-engineai,EngineAI (众擎机器人),EngineAI (众擎机器人),产业,players,2023,China,1,3,5,2,,https://www.engineai.com.cn/
+stg-ind-kepler,Kepler Robotics (开普勒机器人),Kepler Robotics (开普勒机器人),产业,players,2023,China,1,2,7,2,images/players/stg-ind-kepler.jpg,https://www.gotokepler.com/
+stg-ind-pndbotics,PNDbotics,PNDbotics,产业,players,2023,China,1,3,2,2,,https://www.pndbotics.com/
+stg-ind-noetix,Noetix Robotics (松延动力),Noetix Robotics (松延动力),产业,players,2023,China,1,2,9,2,,https://en.noetixrobotics.com/
+stg-ind-magiclab,MagicLab (魔法原子),MagicLab (魔法原子),产业,players,2023,China,1,3,2,2,,https://www.magiclab.top/en/
+stg-ind-matrix,Matrix Robotics (矩阵超智),Matrix Robotics (矩阵超智),产业,players,2024,China,1,3,9,2,images/players/stg-ind-matrix.png,https://matrixrobotics.ai/
+stg-ind-lumos,Lumos Robotics (光魔机器人),Lumos Robotics (光魔机器人),产业,players,2024,China,1,3,9,2,,http://www.lumosbot.tech/
+stg-ind-xhumanoid,X-Humanoid (北京人形机器人创新中心),X-Humanoid (北京人形机器人创新中心),产业,players,2023,China,1,2,1,2,images/players/stg-ind-xhumanoid.png,https://x-humanoid.com/
+stg-ind-phybot,Phybot (北京动易科技),Phybot (北京动易科技),产业,players,2024,China,1,2,2,2,images/players/stg-ind-phybot.png,https://humanoid.guide/product/phybot-m1/
+stg-ind-pudu,Pudu Robotics (普渡科技),Pudu Robotics (普渡科技),产业,players,2016,China,0,2,10,2,images/players/stg-ind-pudu.png,https://www.pudurobotics.com/
+stg-ind-dobot,Dobot Robotics (越疆科技),Dobot Robotics (越疆科技),产业,players,2015,China,0,2,7,2,,https://www.dobot-robots.com/
+stg-ind-elephant,Elephant Robotics (大象机器人),Elephant Robotics (大象机器人),产业,players,2016,China,0,2,9,2,images/players/stg-ind-elephant.png,https://www.elephantrobotics.com/en/
+stg-ind-robstride,RobStride Dynamics (灵足时代),RobStride Dynamics (灵足时代),产业,players,2023,China,1,2,6,2,,https://robstride.com/
+stg-ind-inspire,Inspire-Robots (因时机器人),Inspire-Robots (因时机器人),产业,players,2016,China,0,2,4,2,images/players/stg-ind-inspire.png,https://www.inspire-robots.com/
+stg-ind-paxini,PaXini Tech (帕西尼感知),PaXini Tech (帕西尼感知),产业,players,2021,China,0,3,2,2,,https://paxini.com/
+stg-ind-steadywin,SteadyWin,SteadyWin,产业,players,2020,China,0,2,3,2,images/players/stg-ind-steadywin.png,https://steadywin-motor.com/
+stg-ind-mechmind,Mech-Mind Robotics (梅卡曼德),Mech-Mind Robotics (梅卡曼德),产业,players,2016,China,0,3,9,2,images/players/stg-ind-mechmind.png,https://www.mech-mind.com/
+stg-ind-hesai,Hesai Technology (禾赛科技),Hesai Technology (禾赛科技),产业,players,2014,China,0,2,2,2,,https://www.hesaitech.com/
+stg-ind-livox,Livox (览沃科技),Livox (览沃科技),产业,players,2016,China,0,2,3,2,,https://www.livoxtech.com/
+stg-ind-orbbec,Orbbec (奥比中光),Orbbec (奥比中光),产业,players,2013,China,0,2,4,2,,https://www.orbbec.com/
+stg-lab-baai,BAAI 北京智源人工智能研究院,Beijing Academy of Artificial Intelligence,实验室,players,2018,China,0,3,1,0,,https://www.baai.ac.cn/
+stg-lab-msra,MSRA 微软亚洲研究院,Microsoft Research Asia,实验室,players,1998,China,0,3,1,0,,https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/
+stg-lab-tencent-rx,Tencent Robotics X 腾讯机器人实验室,Tencent Holdings,实验室,players,2018,China,0,3,0,0,images/players/stg-lab-tencent-rx.png,https://www.tencent.com/en-us/business/robotics.html
+stg-lab-hkust,HKUST 香港科技大学（机器人）,"Cheng Kar-Shun Robotics Institute, HKUST",实验室,players,2015,Hong Kong,0,3,0,0,images/players/stg-lab-hkust.png,https://ri.hkust.edu.hk/
+stg-lab-sjtu,SJTU 上海交通大学,Shanghai Jiao Tong University - Machine Vision and Intelligence Group (MVIG),实验室,players,1896,China,0,3,1,0,images/players/stg-lab-sjtu.png,https://mvig.sjtu.edu.cn/
+stg-lab-hit,HIT 哈尔滨工业大学,Harbin Institute of Technology - School of Mechanical Engineering,实验室,players,1920,China,0,3,0,0,images/players/stg-lab-hit.png,http://en.hit.edu.cn/
+stg-lab-zju,ZJU 浙江大学,Zhejiang University,实验室,players,1897,China,0,3,0,0,images/players/stg-lab-zju.png,https://www.zju.edu.cn/english/
+stg-lab-ustc,USTC 中科大,University of Science and Technology of China,实验室,players,1958,China,0,3,0,0,,https://en.ustc.edu.cn/
+stg-vc-tencent,Tencent Investment 腾讯投资,Tencent Holdings - Investment Arm,资本,players,2011,China,0,3,2,1,images/players/stg-vc-tencent.png,https://www.tencent.com/en-us/investors.html
+stg-vc-alibaba,Alibaba 阿里巴巴战投,Alibaba Group - Strategic Investment Department,资本,players,2008,China,0,3,3,1,images/players/stg-vc-alibaba.png,https://www.alibabagroup.com/
+stg-vc-catl,CATL 宁德时代,CATL Capital / Contemporary Amperex Technology Co. Ltd.,资本,players,2011,China,0,3,1,1,,https://www.catl.com/en/
+stg-vc-geely,Geely Capital 吉利资本,Geely Capital (Zhejiang Geely Holding Group),资本,players,2022,China,0,3,2,1,,https://glycm.com/
+stg-vc-meituan,Meituan Strategy 美团战投,Meituan Strategic Investment Division,资本,players,2015,China,0,3,2,1,,https://www.meituan.com/
+stg-vc-zhenfund,真格基金 ZhenFund,ZhenFund,资本,players,2011,China,0,3,1,1,images/players/stg-vc-zhenfund.png,https://en.zhenfund.com/
+stg-vc-qiming,启明创投 Qiming Venture Partners,Qiming Venture Partners,资本,players,2006,China,0,3,2,1,,https://www.qimingvc.com/en/
+stg-vc-bluerun,BlueRun Ventures 蓝驰创投,Lanchi Ventures (formerly BlueRun Ventures China),资本,players,2005,China,0,3,2,1,,https://www.brv.com.cn/en/
+stg-vc-shunwei,顺为资本 Shunwei Capital,Shunwei Capital,资本,players,2011,China,0,3,1,1,images/players/stg-vc-shunwei.png,https://www.shunweicap.com/
+stg-vc-matrix-china,经纬创投 Matrix Partners China,MPC / Matrix Partners China,资本,players,2008,China,0,3,2,1,,https://www.matrixpartners.com.cn/
+stg-vc-bj-robot-fund,北京机器人产业发展投资基金 Beijing Robot Industry Fund,Beijing Robot Industry Development Investment Fund,资本,players,2023,China,0,3,3,1,,https://english.beijing.gov.cn/
+stg-vc-scg,深圳市创新投资集团 Shenzhen Capital Group,"Shenzhen Capital Group Co., Ltd. (SCGC)",资本,players,1999,China,0,3,1,1,,https://www.szvc.com.cn/
+stg-vc-openai-startup-fund,OpenAI Startup Fund,OpenAI,资本,players,2021,USA,0,2,5,2,images/players/stg-vc-openai-startup-fund.png,https://www.openai.fund/
+stg-vc-parkway,Parkway Venture Capital,Parkway Venture Capital LLC,资本,players,2019,USA,0,2,1,2,images/players/stg-vc-parkway.png,https://www.parkway.vc/
+stg-vc-intel-capital,Intel Capital,Intel Corporation,资本,players,1991,USA,0,2,1,2,,https://www.intelcapital.com/
+stg-vc-align-ventures,Align Ventures,Align Ventures,资本,players,2013,USA,0,2,1,2,,https://align.vc/
+stg-vc-bezos-expeditions,Bezos Expeditions,Bezos Expeditions LLC,资本,players,2005,USA,0,2,3,2,images/players/stg-vc-bezos-expeditions.png,https://www.bezosexpeditions.com/
+stg-vc-brookfield,Brookfield Asset Management,Brookfield Asset Management Ltd.,资本,players,1997,USA,0,1,1,2,images/players/stg-vc-brookfield.png,https://www.brookfield.com/
+stg-vc-macquarie-capital,Macquarie Capital,Macquarie Group Limited,资本,players,1969,Australia,0,2,1,2,,https://www.macquarie.com/
+stg-vc-tamarack-global,Tamarack Global,Tamarack Global,资本,players,2018,USA,0,2,1,2,images/players/stg-vc-tamarack-global.png,https://www.tamarackglobal.com/
+stg-vc-lg-tech-ventures,LG Technology Ventures,LG Corporation,资本,players,2018,USA,0,2,1,2,images/players/stg-vc-lg-tech-ventures.png,https://www.lgtechventures.com/
+stg-vc-salesforce-ventures,Salesforce Ventures,"Salesforce, Inc.",资本,players,2009,USA,0,1,1,2,images/players/stg-vc-salesforce-ventures.png,https://salesforceventures.com/
+stg-vc-tmobile-ventures,T-Mobile Ventures,"T-Mobile US, Inc.",资本,players,2020,USA,0,2,1,2,,https://www.t-mobile.com/news/network/t-mobile-ventures
+stg-vc-qualcomm-ventures,Qualcomm Ventures,Qualcomm Incorporated,资本,players,2000,USA,0,1,1,2,,https://www.qualcommventures.com/
+stg-vc-msft,Microsoft,Microsoft Corporation,资本,players,1975,USA,0,1,3,2,images/players/stg-vc-msft.png,https://www.microsoft.com/
+stg-vc-ark-invest,ARK Invest,ARK Investment Management LLC,资本,players,2014,USA,0,2,2,2,,https://www.ark-invest.com/
+stg-vc-eqt-ventures,EQT Ventures,EQT AB,资本,players,2015,Sweden,0,2,1,2,,https://eqtventures.com/
+stg-vc-samsung-next,Samsung NEXT,"Samsung Electronics Co., Ltd.",资本,players,2013,USA,0,1,1,2,images/players/stg-vc-samsung-next.png,https://www.samsungnext.com/
+stg-vc-nistad-group,Nistad Group,Nistad Group,资本,players,,Norway,0,2,1,1,,
+stg-vc-alliance-ventures,Alliance Ventures,Renault-Nissan-Mitsubishi Alliance,资本,players,2018,Netherlands,0,2,1,2,images/players/stg-vc-alliance-ventures.png,https://alliancernm.com/home-alliance/alliance-ventures/
+stg-vc-sandwater,Sandwater,Sandwater AS,资本,players,2021,Norway,0,2,1,2,,https://www.sandwater.com/
+stg-vc-skagerak-capital,Skagerak Capital,Skagerak Capital,资本,players,2006,Norway,0,2,1,2,,https://www.skagerakcapital.com/
+stg-vc-bond,Bond,Bond Capital Management LP,资本,players,2019,USA,0,2,1,2,,https://www.bondcap.com/
+stg-vc-thrive,Thrive Capital,Thrive Capital Management LLC,资本,players,2009,USA,0,2,3,2,,https://www.thrivecap.com/
+stg-vc-capitalg,CapitalG,Alphabet Inc.,资本,players,2013,USA,0,2,1,2,,https://www.capitalg.com/
+stg-vc-redpoint,Redpoint Ventures,Redpoint Ventures,资本,players,1999,USA,0,1,1,2,,https://www.redpoint.com/
+stg-vc-index-ventures,Index Ventures,Index Ventures,资本,players,1996,UK,0,2,1,2,,https://www.indexventures.com/
+stg-vc-t-rowe-price,T. Rowe Price,"T. Rowe Price Group, Inc.",资本,players,1937,USA,0,2,1,2,,https://www.troweprice.com/
+stg-vc-openai-corp,OpenAI,"OpenAI, Inc.",资本,players,2015,USA,0,1,5,2,images/players/stg-vc-openai-corp.png,https://openai.com/
+stg-vc-lightspeed,Lightspeed Venture Partners,Lightspeed Venture Partners,资本,players,2000,USA,0,1,1,2,,https://lsvp.com/
+stg-vc-coatue,Coatue,Coatue Management LLC,资本,players,1999,USA,0,1,1,2,images/players/stg-vc-coatue.png,https://www.coatue.com/
+stg-vc-softbank,SoftBank Group,SoftBank Group Corp.,资本,players,1981,Japan,0,2,2,2,,https://group.softbank/en/
+stg-vc-felicis,Felicis Ventures,Felicis Ventures Management Company LLC,资本,players,2006,USA,0,2,1,2,images/players/stg-vc-felicis.png,https://www.felicis.com/
+stg-vc-menlo-ventures,Menlo Ventures,Menlo Ventures,资本,players,1976,USA,0,1,1,2,,https://menlovc.com/
+stg-vc-general-catalyst,General Catalyst,General Catalyst Partners,资本,players,2000,USA,0,2,1,2,images/players/stg-vc-general-catalyst.png,https://www.generalcatalyst.com/
+stg-vc-crv,CRV,Charles River Ventures,资本,players,1970,USA,0,1,1,2,,https://www.crv.com/
+stg-vc-sv-angel,SV Angel,SV Angel LLC,资本,players,2009,USA,0,2,1,2,,https://svangel.com/
+stg-vc-alexa-fund,Amazon Alexa Fund,"Amazon.com, Inc.",资本,players,2015,USA,0,1,2,2,images/players/stg-vc-alexa-fund.png,https://developer.amazon.com/en-US/alexa/alexa-fund-venture-capital/
+stg-vc-amazon-industrial-innovation,Amazon Industrial Innovation Fund,"Amazon.com, Inc.",资本,players,2022,USA,0,2,3,2,images/players/stg-vc-amazon-industrial-innovation.png,https://industrialinnovationfund.amazon/
+stg-vc-bdc-capital,BDC Capital,Business Development Bank of Canada,资本,players,1944,Canada,0,2,1,2,,https://www.bdc.ca/en/bdc-capital
+stg-vc-inbc,InBC Investment Corp.,InBC Investment Corp.,资本,players,2021,Canada,0,2,1,2,images/players/stg-vc-inbc.png,https://inbcinvestment.com/
+stg-vc-bell,Bell,BCE Inc. (Bell Canada Enterprises),资本,players,1880,Canada,0,1,1,2,,https://www.bce.ca/
+stg-vc-evok-innovations,Evok Innovations,Evok Innovations,资本,players,2016,Canada,0,1,1,2,images/players/stg-vc-evok-innovations.png,https://www.evokinnovations.com/
+stg-vc-edc,Export Development Canada,Export Development Canada (EDC),资本,players,1944,Canada,0,2,1,2,,https://www.edc.ca/
+stg-vc-magna,Magna,Magna International Inc.,资本,players,1957,Canada,0,1,1,2,,https://www.magna.com/
+stg-vc-se-health,SE Health,Saint Elizabeth Health Care,资本,players,1908,Canada,0,1,1,2,images/players/stg-vc-se-health.png,https://sehc.com/
+stg-vc-verizon-ventures,Verizon Ventures,Verizon Communications Inc.,资本,players,2000,USA,0,1,1,2,images/players/stg-vc-verizon-ventures.png,https://www.verizon.com/about/our-company/verizon-ventures
+stg-vc-workday-ventures,Workday Ventures,"Workday, Inc.",资本,players,2018,USA,0,1,1,2,images/players/stg-vc-workday-ventures.png,https://ventures.workday.com/
+stg-vc-mercedes-benz,Mercedes-Benz,Mercedes-Benz Group AG,资本,players,1926,Germany,0,1,1,2,images/players/stg-vc-mercedes-benz.png,https://group.mercedes-benz.com/
+stg-vc-peak6,Peak6,PEAK6 Investments LLC,资本,players,1997,USA,0,2,1,2,,https://peak6.com/
+stg-vc-att-ventures,AT&T Ventures,AT&T Inc.,资本,players,1991,USA,0,2,1,2,images/players/stg-vc-att-ventures.png,https://about.att.com/pages/ventures
+stg-vc-b-capital,B Capital,B Capital Group,资本,players,2015,USA,0,2,1,2,,https://b.capital/
+stg-vc-dcvc,DCVC (Data Collective),"Data Collective DCVC Management Company, LLC",资本,players,2011,USA,0,2,1,2,images/players/stg-vc-dcvc.png,https://www.dcvc.com/
+stg-vc-playground-global,Playground Global,"Playground Global, LLC",资本,players,2015,USA,0,2,1,2,images/players/stg-vc-playground-global.png,https://playground.global/
+stg-vc-mfv-partners,MFV Partners,MFV Partners,资本,players,2018,USA,0,2,1,2,,https://www.mfvpartners.com/
+stg-vc-itic,ITIC (Industrial Technology Investment Corporation),Industrial Technology Investment Corporation,资本,players,1979,Taiwan,0,2,1,2,images/players/stg-vc-itic.png,https://itic.com.tw/
+stg-vc-robotics-hub,The Robotics Hub (Coal Hill Ventures),"Coal Hill Ventures, LLC",资本,players,2015,USA,0,2,1,2,,https://www.coalhillventures.com/
+stg-vc-safar-partners,Safar Partners,Safar Partners,资本,players,2018,USA,0,2,1,2,,https://www.safar.partners/
+stg-vc-sony-innovation-fund,Sony Innovation Fund,Sony Group Corporation,资本,players,2016,Japan,0,2,1,2,images/players/stg-vc-sony-innovation-fund.png,https://www.sonyinnovationfund.com/
+stg-vc-tdk-ventures,TDK Ventures,TDK Corporation,资本,players,2019,USA,0,2,1,2,,https://tdk-ventures.com/
+stg-vc-longcheer,Shanghai Longcheer Technology 龙旗科技,"Shanghai Longcheer Technology Co., Ltd.",资本,players,2002,China,0,2,1,2,images/players/stg-vc-longcheer.png,https://www.longcheer.net/
+stg-vc-wolong,Wolong Electric 卧龙电气,"Wolong Electric Group Co., Ltd.",资本,players,1984,China,0,2,1,2,,https://www.wolong-electric.com/
+stg-vc-huafa,Huafa Group 华发集团,"Zhuhai Huafa Group Co., Ltd.",资本,players,1980,China,0,2,1,2,images/players/stg-vc-huafa.png,https://en.cnhuafag.com/
+stg-vc-china-mobile,China Mobile 中国移动,"China Mobile Communications Group Co., Ltd.",资本,players,1997,China,0,2,2,2,,https://www.chinamobileltd.com/
+stg-vc-jinqiu,Jinqiu Capital 锦秋基金,Jinqiu Capital,资本,players,2022,China,0,2,1,2,images/players/stg-vc-jinqiu.png,https://jinqiucapital.com/
+stg-vc-cdb-capital,CDB Capital 国开金融,"CDB Capital Co., Ltd.",资本,players,2009,China,0,2,1,2,,https://www.cdb-capital.com/
+stg-vc-beijing-ai-fund,Beijing AI Industry Investment Fund 北京人工智能产业投资基金,Beijing Artificial Intelligence Industry Investment Fund,资本,players,2024,China,0,2,2,2,,https://invest.beijing.gov.cn/
+stg-vc-baic-capital,BAIC Capital 北汽产投,"Beijing Automotive Group Industrial Investment Co., Ltd.",资本,players,2012,China,0,2,2,2,images/players/stg-vc-baic-capital.png,https://www.baiccapital.com/
+stg-vc-sense-capital,SenseTime Guoxiang Capital 商汤国香资本,"Sense Capital (Shanghai) Co., Ltd.",资本,players,2021,China,0,1,1,2,,https://www.sensetime.com/
+stg-vc-iflytek-fund,iFlytek Industry Fund 科大讯飞产业基金,"iFLYTEK Co., Ltd.",资本,players,2017,China,0,2,1,2,,https://www.iflytek.com/
+stg-vc-lighthouse-capital,Lighthouse Capital 光源资本,Lighthouse Capital,资本,players,2014,China,0,1,1,2,,https://lighthousecap.cn/
+stg-vc-cdh,CDH Investments 鼎晖投资,CDH Investments,资本,players,2002,China,0,2,1,2,images/players/stg-vc-cdh.png,https://www.cdhfund.com/
+stg-vc-haier-capital,Haier Capital 海尔资本,Haier Capital,资本,players,2010,China,0,2,1,2,,https://www.haiercapital.com/
+stg-vc-houxue,Houxue Capital 厚雪资本,Houxue Capital,资本,players,2022,China,0,2,1,2,,https://www.houxuecapital.com/
+stg-vc-meridian-china,Meridian Capital China 华兴新经济,Meridian Capital China,资本,players,2008,China,0,1,1,2,,https://www.meridiancapital.cn/
+stg-vc-xianghe,Xianghe Capital 襄禾资本,Xiang He Capital,资本,players,2016,China,0,2,1,2,,https://www.xianghecap.com/en
+stg-vc-fore-intelligent,Zhejiang Fore Intelligent Technology 浙江福沃智能,"Zhejiang FORE Intelligent Technology Co., Ltd.",资本,players,,China,0,1,1,1,,https://www.cn-fore.com/
+stg-vc-crystal-stream,Crystal Stream Capital 清流资本,Crystal Stream Capital,资本,players,2013,China,0,2,1,2,,https://www.crystalstreamcapital.com/
+stg-vc-tsinghua-holdings,Tsinghua Holdings 清华控股 / Qingkong Tiancheng 清控天诚,"Tsinghua Holdings Co., Ltd.",资本,players,2003,China,0,2,1,2,images/players/stg-vc-tsinghua-holdings.png,http://en.thholding.com.cn/
+stg-vc-clearvue,ClearVue Partners 凯辉资本,ClearVue Partners,资本,players,2012,China,0,1,1,2,,https://www.cvpcap.com/
+stg-vc-visionplus,VisionPlus Capital 元璟资本,VisionPlus Capital,资本,players,2015,China,0,2,2,2,images/players/stg-vc-visionplus.png,https://visionpluscapital.com/
+stg-vc-orinno,Orinno Capital 朗玛峰创投,"Langmafeng Venture Capital Co., Ltd.",资本,players,2007,China,0,1,2,2,,http://www.orinno.com/
+stg-vc-lenovo-capital,Lenovo Capital 联想创投,Lenovo Capital and Incubator Group (LCIG),资本,players,2016,China,0,1,1,2,,https://capital.lenovo.com/
+stg-vc-century-golden-resources,Century Golden Resources 世纪金源,Century Golden Resources Group,资本,players,1991,China,0,1,1,2,,https://www.cnshijijinyuan.com/
+stg-vc-stone-venture,Stone Venture,Stone Venture,资本,players,2024,UAE,0,2,1,2,,
+stg-vc-oriental-fortune,Oriental Fortune Capital 东方富海,"Shenzhen Oriental Fortune Capital Co., Ltd.",资本,players,2006,China,0,2,1,2,,http://www.ofcapital.com/
+stg-vc-costone,CoStone Capital 基石资本,"CoStone Asset Management Co., Ltd.",资本,players,2001,China,0,2,1,2,images/players/stg-vc-costone.png,https://www.stonevc.com/
+stg-vc-jd,JD.com 京东,"JD.com, Inc.",资本,players,1998,China,0,2,2,2,images/players/stg-vc-jd.png,https://corporate.jd.com/
+stg-vc-zhongding,Zhongding Sealing Parts 中鼎股份,"Anhui Zhongding Sealing Parts Co., Ltd.",资本,players,1980,China,0,1,1,2,,https://www.zhongding.com.cn/
+stg-vc-nrb,NRB Corp. (Changzhou) 常州光阳轴承,Changzhou NRB Corporation,资本,players,,China,0,2,1,1,images/players/stg-vc-nrb.png,https://www.bearing-expo.com/companies/890-changzhou-nrb-corporation
+stg-vc-kyland,Kyland Technology 东土科技,"Beijing Kyland Technology Co., Ltd.",资本,players,2000,China,0,2,1,2,,https://www.kyland.com/
+stg-vc-innoangel,Innoangel Fund 英诺天使基金,Innoangel Fund,资本,players,2013,China,0,1,1,2,,https://www.innoangel.com/
+stg-vc-jinding,Jinding Capital 金鼎资本,Jinding Capital,资本,players,2014,China,0,2,2,2,,https://www.jindingcap.com/
+stg-vc-capital-factory,Capital Factory,Capital Factory,资本,players,2009,USA,0,2,1,2,,https://capitalfactory.com/
+stg-vc-john-deere,John Deere,Deere & Company,资本,players,1837,USA,0,2,1,2,images/players/stg-vc-john-deere.png,https://www.deere.com/
+person-brett-adcock,Brett Adcock,Figure AI,人物,players,2022,USA,0,2,2,3,,
+person-bernt-bornich,Bernt Børnich,1X Technologies,人物,players,2014,Norway,0,2,2,3,,
+person-geordie-rose,Geordie Rose,Sanctuary AI,人物,players,2018,Canada,0,1,2,4,,
+person-jonathan-hurst,Jonathan Hurst,Agility Robotics,人物,players,2015,USA,0,2,2,4,,
+person-jeff-cardenas,Jeff Cardenas,Apptronik,人物,players,2016,USA,0,2,2,3,,
+person-marc-raibert,Marc Raibert,Boston Dynamics,人物,players,1992,USA,0,1,2,5,,
+person-wang-xingxing,Wang Xingxing 王兴兴,Unitree Robotics 宇树科技,人物,players,2016,China,0,2,2,4,,
+person-peng-zhihui,Peng Zhihui 彭志辉 (稚晖君),AgiBot 智元机器人,人物,players,2023,China,0,2,2,3,,
+person-zhou-jian,Zhou Jian 周剑,UBTech 优必选,人物,players,2012,China,0,1,2,3,,
+person-will-jackson,Will Jackson,Engineered Arts,人物,players,2004,UK,0,2,2,3,,
+person-sergey-levine,Sergey Levine,UC Berkeley,人物,players,2009,USA,0,2,3,4,,
+person-chelsea-finn,Chelsea Finn,Stanford University,人物,players,2018,USA,0,2,3,4,,
+person-karol-hausman,Karol Hausman,Physical Intelligence,人物,players,2024,USA,0,2,2,3,,
+person-daniela-rus,Daniela Rus,MIT CSAIL,人物,players,2003,USA,0,2,2,4,,
+person-ken-goldberg,Ken Goldberg,UC Berkeley,人物,players,1995,USA,0,2,2,4,,
+person-pieter-abbeel,Pieter Abbeel,UC Berkeley,人物,players,2008,USA,0,2,2,4,,
+person-marco-hutter,Marco Hutter,ETH Zurich,人物,players,2014,Switzerland,0,2,3,4,,
+person-russ-tedrake,Russ Tedrake,MIT CSAIL,人物,players,2004,USA,0,1,2,4,,
+person-fei-fei-li,Fei-Fei Li 李飞飞,Stanford University,人物,players,2009,USA,0,2,1,4,,
+person-cewu-lu,Cewu Lu 卢策吾,Shanghai Jiao Tong University & Galbot,人物,players,2014,China,0,2,2,3,,

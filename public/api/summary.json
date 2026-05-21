@@ -1,0 +1,247 @@
+{
+  "generated_at": "2026-05-21",
+  "version": "phase-6",
+  "totals": {
+    "entities": 667,
+    "edges": 1514,
+    "funding_rounds": 26
+  },
+  "by_partition": {
+    "hardware": 313,
+    "software": 101,
+    "ecosystem": 35,
+    "players": 218
+  },
+  "by_category": {
+    "整机平台": 124,
+    "机械臂": 31,
+    "灵巧手 & 夹爪": 54,
+    "关节模组": 21,
+    "核心零部件": 16,
+    "传感器": 32,
+    "数采 & 遥操": 17,
+    "计算平台": 14,
+    "能源动力": 4,
+    "基础模型": 35,
+    "算法框架": 12,
+    "仿真平台": 12,
+    "数据集": 15,
+    "控制算法": 11,
+    "评测基准": 16,
+    "开发生态": 19,
+    "应用场景": 16,
+    "资本": 121,
+    "产业": 48,
+    "实验室": 29,
+    "人物": 20
+  },
+  "by_top_level": {
+    "硬件": 313,
+    "软件": 101,
+    "生态与应用": 35,
+    "参与实体": 218
+  },
+  "coverage": {
+    "with_sources": 665,
+    "with_image": 293,
+    "with_relations": 497,
+    "with_sourcedSpecs": 418,
+    "with_fundingRounds": 14
+  },
+  "relation_role_counts": {
+    "manufacturer": 263,
+    "deployed-at": 237,
+    "series-member": 272,
+    "tech-base": 73,
+    "competitor": 121,
+    "related": 120,
+    "trained-on": 12,
+    "affiliated-with": 119,
+    "invested-in": 255,
+    "founder-of": 17,
+    "employed-at": 21,
+    "alumni-of": 4
+  },
+  "top_connected_entities": [
+    {
+      "id": "lab-sail",
+      "name": "Stanford SAIL",
+      "category": "实验室",
+      "degree": 40
+    },
+    {
+      "id": "lab-bair-autolab",
+      "name": "UC Berkeley AUTOLab (BAIR)",
+      "category": "实验室",
+      "degree": 37
+    },
+    {
+      "id": "ind-galbot",
+      "name": "Galbot (银河通用)",
+      "category": "产业",
+      "degree": 35
+    },
+    {
+      "id": "ind1",
+      "name": "NVIDIA Robotics",
+      "category": "产业",
+      "degree": 34
+    },
+    {
+      "id": "ind-physical-intelligence",
+      "name": "Physical Intelligence (Pi)",
+      "category": "产业",
+      "degree": 34
+    },
+    {
+      "id": "ind-deepmind-robotics",
+      "name": "Google DeepMind Robotics",
+      "category": "产业",
+      "degree": 34
+    },
+    {
+      "id": "ind-unitree",
+      "name": "Unitree Robotics (宇树科技)",
+      "category": "产业",
+      "degree": 31
+    },
+    {
+      "id": "ind-1x",
+      "name": "1X Technologies",
+      "category": "产业",
+      "degree": 30
+    },
+    {
+      "id": "ind-agibot",
+      "name": "AgiBot (智元机器人)",
+      "category": "产业",
+      "degree": 30
+    },
+    {
+      "id": "app-hospitality",
+      "name": "Hospitality / Food Service",
+      "category": "应用场景",
+      "degree": 29
+    },
+    {
+      "id": "ind-figure",
+      "name": "Figure AI",
+      "category": "产业",
+      "degree": 29
+    },
+    {
+      "id": "ind-limx",
+      "name": "LimX Dynamics",
+      "category": "产业",
+      "degree": 29
+    },
+    {
+      "id": "ind-robot-era",
+      "name": "Robot Era (星动纪元)",
+      "category": "产业",
+      "degree": 28
+    },
+    {
+      "id": "ind-skild",
+      "name": "Skild AI",
+      "category": "产业",
+      "degree": 28
+    },
+    {
+      "id": "app-last-mile-delivery",
+      "name": "Last-Mile Sidewalk Delivery",
+      "category": "应用场景",
+      "degree": 27
+    },
+    {
+      "id": "app-education-stem",
+      "name": "Education & STEM Robotics",
+      "category": "应用场景",
+      "degree": 25
+    },
+    {
+      "id": "ind-agility",
+      "name": "Agility Robotics",
+      "category": "产业",
+      "degree": 25
+    },
+    {
+      "id": "app-agriculture",
+      "name": "Precision Agriculture",
+      "category": "应用场景",
+      "degree": 24
+    },
+    {
+      "id": "ind-sanctuary",
+      "name": "Sanctuary AI",
+      "category": "产业",
+      "degree": 24
+    },
+    {
+      "id": "app-warehouse",
+      "name": "Warehouse Fulfillment",
+      "category": "应用场景",
+      "degree": 23
+    },
+    {
+      "id": "ind-booster",
+      "name": "Booster Robotics",
+      "category": "产业",
+      "degree": 23
+    },
+    {
+      "id": "app-construction",
+      "name": "Autonomous Construction Equipment",
+      "category": "应用场景",
+      "degree": 22
+    },
+    {
+      "id": "app-cleaning",
+      "name": "Commercial Cleaning",
+      "category": "应用场景",
+      "degree": 22
+    },
+    {
+      "id": "cp1",
+      "name": "Jetson AGX Orin (64GB / 32GB)",
+      "category": "计算平台",
+      "degree": 20
+    },
+    {
+      "id": "app-healthcare-companion",
+      "name": "Healthcare & Companion Robotics",
+      "category": "应用场景",
+      "degree": 20
+    },
+    {
+      "id": "ind-apptronik",
+      "name": "Apptronik",
+      "category": "产业",
+      "degree": 19
+    },
+    {
+      "id": "cp-jetson-agx-thor",
+      "name": "Jetson AGX Thor (T5000)",
+      "category": "计算平台",
+      "degree": 17
+    },
+    {
+      "id": "f2",
+      "name": "Oli",
+      "category": "整机平台",
+      "degree": 15
+    },
+    {
+      "id": "stg-ind-leju",
+      "name": "Leju Robotics (乐聚机器人)",
+      "category": "产业",
+      "degree": 15
+    },
+    {
+      "id": "app-humanoid-manufacturing",
+      "name": "Humanoid Manufacturing Assembly",
+      "category": "应用场景",
+      "degree": 14
+    }
+  ]
+}
