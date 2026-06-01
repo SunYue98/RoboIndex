@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, QrCode, CheckCircle2 } from 'lucide-react';
-import { TOP_LEVEL_GROUPS, CATEGORY_MAP, TopLevelGroup, Category } from '../data/entities';
+import { TOP_LEVEL_GROUPS, CATEGORY_MAP, TopLevelGroup, Category, resolveImageUrl } from '../data/entities';
 import { useLang } from '../i18n';
 
 export function ContactModal({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
@@ -34,12 +34,13 @@ export function ContactModal({ isOpen, onClose }: { isOpen: boolean; onClose: ()
               <h3 className="text-[18px] font-bold text-zinc-900 mb-1">{t('contact.title')}</h3>
               <p className="text-[13px] text-zinc-500 mb-6 text-center">{t('contact.desc')}</p>
               
-              <div className="w-48 h-48 bg-zinc-50 border border-zinc-200 rounded-[16px] flex items-center justify-center p-4 mb-6">
-                 {/* Placeholder for real QR code */}
-                 <div className="w-full h-full border-2 border-dashed border-zinc-300 rounded-[8px] flex items-center justify-center flex-col gap-2 text-zinc-400">
-                   <QrCode className="w-8 h-8 opacity-50" />
-                   <span className="text-[12px] font-medium text-center">Your QR Code<br/>Here</span>
-                 </div>
+              <div className="w-48 h-48 bg-white border border-zinc-200 rounded-[16px] flex items-center justify-center p-2 mb-6 overflow-hidden">
+                <img
+                  src={resolveImageUrl('/images/contact/wechat.jpg')}
+                  alt="WeChat QR"
+                  className="w-full h-full object-contain rounded-[8px]"
+                  loading="lazy"
+                />
               </div>
 
               <div className="text-[13px] font-medium text-zinc-600 bg-zinc-50 px-4 py-2 rounded-full border border-zinc-200">
